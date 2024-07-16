@@ -594,8 +594,8 @@
         font-size: 16px;
         transition: background-color 0.3s ease, color 0.3s ease;
         float: left;
-        left: 1%;
-        width: 20%;
+        left: 5%;
+        width: 22%;
         border-radius: 5px;
         font-size: 16px;
         position: absolute;
@@ -1935,7 +1935,7 @@
   /* tạo kích cỡ lịch */
   .select2-container--default .select2-selection--single .select2-selection__rendered {
     background-color: #333;
-    line-height: 28px;
+    line-height: 50px;
     /* height: 52px; */
     color: white;
   }
