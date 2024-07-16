@@ -1171,10 +1171,10 @@
   }
 
   .cover-image {
-    background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/slider-bg.jpg");
+    background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/slider-bg.jpg");
     background-position: left;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     /* width: 1900px; */
     display: flex;
     flex-direction: column;
@@ -1293,8 +1293,13 @@
   /* kich co anh css cart picture */
 
   .card-image {
-    width: 100%;
+    width: 113%;
     height: auto;
+
+
+    position: relative;
+    top: -20px;
+    left: -20px;
 
   }
 
