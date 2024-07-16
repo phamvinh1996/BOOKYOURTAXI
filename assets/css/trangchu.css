@@ -1923,12 +1923,33 @@
   }
 
   /* button đặt xe nhanh */
-
-  .sumit1 {
+/* màu button */
+  /* .sumit1 {
     width: 267px;
     background-color: #333333;
     height: 53px;
+  } */
+
+  .sumit1 {
+    background-color: #ff8c00; /* Màu cam mặc định */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 267px;
+    height: 53px;
   }
+  
+  .sumit1:hover {
+    background-color: #333333; /* Màu xám khi trỏ chuột vào */
+  }
+
+
+
+
+
+
 
   /* code css mauf icon */
 
@@ -1936,7 +1957,7 @@
   .select2-container--default .select2-selection--single .select2-selection__rendered {
     background-color: #333;
     line-height: 50px;
-    /* height: 52px; */
+    /* height: 20px; */
     color: white;
   }
 
