@@ -25,33 +25,58 @@
 
 
   /* code css chữ taxi giá liên tỉnh */
-  .navbar-link-lienhe {
+  .navbar-link-Help {
     position: absolute;
     left: 73%;
     color: #000;
     top: 1%;
   }
 
+  .navbar-link-Support {
+    position: absolute;
+    left: 76%;
+    color: #000;
+    top: 1%;
+  }
   .navbar-link-FAQ {
     position: absolute;
-    left: 77%;
+    left: 81%;
     color: #000;
     top: 1%;
   }
 
+
+
+
   /* youtube  iocon*/
 
-  .navbar-icon-yt {
+  .navbar-icon-tt {
     position: absolute;
-    left: 82%;
+    left: 86%;
     top: 1%;
   }
 /*  */
+/* hình ins */
+.navbar-icon-ins {
+  position: absolute;
+  left: 88%;
+  top: 1%;
+}
+
+/*  */
+
+.navbar-icon-link {
+  position: absolute;
+  left: 90%;
+  top: 1%;
+}
+
+
 
   /* hình iconfb */
   .navbar-icon-fb {
     position: absolute;
-    left: 80%;
+    left: 84%;
     top: 1%;
   }
 
