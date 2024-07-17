@@ -3206,7 +3206,7 @@ h2 {
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
 .custom-size {
-  top: -22px;
+  top: 20px;
   font-size: 71px;
   position: relative;
   left:  -381px;
@@ -3214,7 +3214,7 @@ h2 {
 }
 
 .custom-size01 {
-  top: -111px;
+  top: -93px;
   font-size: 71px;
   position: relative;
   left: -379px;
@@ -3224,7 +3224,7 @@ h2 {
 }
 
 .custom-size02 {
-  top: -48%;
+  top: -62%;
   font-size: 82px;
   position: absolute;
   right: 438px;
@@ -3290,7 +3290,7 @@ h2 {
 /* code loi ich dat xe heading101 */
 .chon1 {
   position: relative;
-  top: 26px;
+  top: -14px;
   right: -16px;
   color: white;
 }
