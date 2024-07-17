@@ -2876,21 +2876,23 @@ p {
 }
 
 .car-image {
-  width: 291px;
-  left: 31%;
+  width: 870px;
+  left: 15%;
   height: auto;
   margin-bottom: 10px;
   position: absolute;
-  top: -50px;
+  top: 48px;
 }
 
 .phone-image {
   position: absolute;
-  width: 80px;
+  width: 266px;
   float: right;
-  left: 55%;
+  left: 31%;
   height: auto;
   margin-bottom: 10px;
+  top: -39px;
+
 }
 
 .container .row .col-sm-6 h2 {
@@ -2941,6 +2943,19 @@ h2 {
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
 }
+
+
+
+/* logo taxi get the ridek */
+.overlay-logo1{
+  left: 123px;
+  position: relative;
+  top: -231px;
+}
+
+
+
+
 
 /* dòng chữ Get the ridek */
 
