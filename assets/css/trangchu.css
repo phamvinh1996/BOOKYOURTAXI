@@ -3100,7 +3100,7 @@ h2 {
 }
 
 .col-alert-box {
-  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+  background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
   /* background-size: contain; */
   width: 1000px;
   height: 800px;
@@ -3206,25 +3206,25 @@ h2 {
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
 .custom-size {
-  top: 87px;
+  top: -22px;
   font-size: 71px;
   position: relative;
-  left:  -25px;
+  left:  -381px;
   color: white;
 }
 
 .custom-size01 {
-  top: -23px;
+  top: -111px;
   font-size: 71px;
   position: relative;
-  left: -389px;
+  left: -379px;
   color: white;
 
 
 }
 
 .custom-size02 {
-  top: 21%;
+  top: -48%;
   font-size: 82px;
   position: absolute;
   right: 438px;
@@ -3240,8 +3240,8 @@ h2 {
   font-size: 16px;
   margin-top: 0;
   position: relative;
-  top: -21px;
-  right: 45px;
+  top: -210px;
+  right: 86px;
 }
 
 /* code loi ich dat xe hơn 1000 về dấu ghạch */
@@ -3376,16 +3376,16 @@ p {
 .orange-table {
   background-color: #ff9900;
   padding: 70px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   /* đường ghạch chéo màu cam */
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
 
 
   width: 574px;
-  height: 256px;
+  height: 213px;
   top: 122px;
   position: relative;
 }
@@ -3403,8 +3403,8 @@ p {
   font-size: 30px;
   margin-top: 0;
   position: relative;
-  top: -35px;
-  left: -103px;
+  top: 23px;
+  left: -51px;
   font-weight: bold;
 }
 
@@ -3412,33 +3412,52 @@ p {
   right: -75px;
   color: white;
   position: relative;
-  top: -37px;
+  top: 7px;
   font-size: 16px;
 }
 
 .company-info02 {
-  right: -60px;
+  right: -74px;
   color: white;
   position: relative;
-  top: -27px;
+  top: -114px;
   font-size: 16px;
 }
 
 .company-info03 {
-  right: -65px;
+  right: -79px;
   color: white;
   position: relative;
-  top: -27px;
+  top: -189px;
   font-size: 16px;
 }
 
+
 /* code hon 1000 kh tiet kiem chi phi */
+
+/* Ridek Passengers */
+
+.table-heading01{
+
+  position: relative;
+  color: white;
+  font-size: 16px;
+  left: -41px;
+  top: 25px;
+
+
+}
+
+
+
+
 
 .table-heading02 {
   position: relative;
   color: white;
   font-size: 16px;
-  left: -49px;
+  left: -39px;
+  top: -95px;
 }
 
 .icon {
