@@ -4218,6 +4218,51 @@ img.image-car2 {
 
 
 
+
+/* Limousine Taxi CHOOOSSEE YOUR TAXXI */
+/* Card */
+.card {
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 30px;
+}
+
+/* Card Image */
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Card Body */
+.card-body {
+  padding: 20px;
+}
+
+/* Card Title */
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer  chữ liên hệ email */
  .contact-info1{
 display: block;
