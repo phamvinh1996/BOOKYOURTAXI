@@ -4489,3 +4489,37 @@ display: block;
     top: 21px;
     position: absolute;
 }
+
+/* NEW AND LINE */
+
+.price01 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 245px;
+  top: 177px;
+}
+/* khoảng cacsg NEW AND LINE */
+
+
+.date {
+  margin-right: 10px;
+}
+
+/* màu hình icon NEW AND LINE */
+.icon-container i
+ {
+  font-size: 16px;
+  color: #ff8c00; /* Orange color */
+}
+
+.user-icon {
+  font-size: 16px;
+  color: #ff8c00; /* Orange color */
+}
