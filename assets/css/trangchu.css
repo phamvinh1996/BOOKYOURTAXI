@@ -1995,10 +1995,15 @@
     line-height: 50px;
     /* height: 20px; */
     color: white;
+    /* border: 0; */
+  }
+/* code xóa viền trắng đặt xe nhanh */
+  .select2-container--default .select2-selection--single{
+    border: unset!important;
   }
 
 
-
+ 
 
 
 
