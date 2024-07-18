@@ -2003,6 +2003,20 @@
   }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
  
 
 
@@ -3379,6 +3393,7 @@ p {
 
 /* hơn 1ooo khach hang */
 .orange-table {
+  right: -717px;
   background-color: #ff9900;
   padding: 70px;
   /* border: 1px solid gray; */
@@ -3391,7 +3406,7 @@ p {
 
   width: 574px;
   height: 228px;
-  top: 122px;
+  top: -105px;
   position: relative;
 }
 
@@ -3469,6 +3484,30 @@ p {
   width: 50px;
   height: 50px;
 }
+
+
+
+
+
+/*  */
+
+.review-heading {
+
+  font-size: 32px;
+  font-weight: bold;
+  color: #333333;
+position: relative;
+left: -262px;
+
+}
+
+
+
+
+
+
+
+
 
 /*  */
 /* hon1000 khach hang */
