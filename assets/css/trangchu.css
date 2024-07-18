@@ -4130,7 +4130,7 @@ button {
   cursor: pointer;
   width: 130px;
   height: 50px;
-  top: 44%;
+  top: 58%;
   left: 4%;
   position: absolute;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
@@ -4175,7 +4175,7 @@ button {
 
 /* màu chữ 123web footer */
 .footer-text {
-  top: 19px;
+  top: 5px;
   position: relative;
   color: white;
   text-align: center;
