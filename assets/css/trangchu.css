@@ -361,7 +361,7 @@
 
 .contact-nav {
   position: absolute;
-  top: -15%;
+  top: -18%;
   /* Adjust the distance from the top as needed */
   left: 98%;
   display: flex;
@@ -372,7 +372,7 @@
   transform: skewX(0deg);
   width: 13%;
   /* Adjust the width as needed */
-  height: 69px;
+  height: 73px;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
@@ -740,15 +740,19 @@
         /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
         position: fixed;
         top: 30%;
+    
+  
       }
     
       /* code chu pre - next */
+      
       .previous-word {
         font-size: 16px;
         color: black;
         z-index: 1;
         position: relative;
         left: 7%;
+        top: -15px;
       }
     
       .next-word {
@@ -757,6 +761,7 @@
         position: relative;
         color: black;
         right: 7%;
+        top: -15px;
       }
     
       .page-number {
@@ -820,7 +825,7 @@
         right: 0;
         width: 700px;
         height: 90px;
-        top: 93%;
+        top: 87%;
         right: 90%;
         left: -55%;
         background-color: #f4f5f8;
