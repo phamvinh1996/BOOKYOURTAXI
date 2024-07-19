@@ -24,6 +24,43 @@
 }
 
 
+/* code css màu menu thanh nav */
+
+p {
+  font-size: 28px;
+  padding: 10px;
+  text-align: left;
+}
+
+.call-for-ride {
+  color: white;
+}
+
+.phone-number {
+  color: orange;
+  font-size: 28px;
+}
+
+/*  */
+
+.every1 {
+  color: blue;
+}
+
+
+
+.doctt1{
+  padding: 10px;
+  text-align: left;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
   /* code css chữ taxi giá liên tỉnh */
   .navbar-link-Help {
     position: absolute;
@@ -459,11 +496,11 @@
 .modal {
   /* Position the modal in the center of the page */
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(1%, -70%);
+  top: 57%;
+  left: 69%;
+  transform: translate(-63%, -129%);
   /* Set the size of the modal */
-  width: 80%;
+  width: 136%;
   height: 80%;
 
   /* Add a z-index to ensure the modal is on top of other elements */
@@ -484,7 +521,7 @@
 }
 /* kích thước nút thanh search */
 .modal-content {
-  top: 680px;
+  top: 480px;
   position: relative;
 }
   
@@ -656,7 +693,7 @@
         animation: slide-up 0.5s ease 0.3s forwards;
         text-align: text;
         position: relative;
-        left: 24%;
+        left: 38%;
         color: white;
         font-family: "Space Grotesk", sans-serif;
       }
