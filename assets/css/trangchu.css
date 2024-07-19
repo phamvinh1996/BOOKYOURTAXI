@@ -3453,7 +3453,7 @@ p {
 
 
   width: 574px;
-  height: 228px;
+  height: 233px;
   top: -105px;
   position: relative;
 }
@@ -3791,7 +3791,8 @@ left: -262px;
 
 .tintuc {
   position: relative;
-  top: -13px;
+  top: -13;
+  right: -698;
 
 }
 
