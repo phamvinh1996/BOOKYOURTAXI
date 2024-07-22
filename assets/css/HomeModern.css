@@ -1,0 +1,474 @@
+/* taxi liên tỉnh giá tốt */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f5f8;
+    padding: 10px;
+  }
+  
+  .navbar-left {
+    flex-grow: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-on1 {
+    position: relative;
+    left: 57px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  
+/* code css màu menu thanh nav */
+
+p {
+    font-size: 28px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .call-for-ride {
+    color: white;
+  }
+  
+  .phone-number {
+    color: orange;
+    font-size: 28px;
+  }
+  
+  /*  */
+  
+  .every1 {
+    color: #101114;
+  }
+  
+  
+  .logoridekft{
+  width: 206px;
+  
+  }
+  
+  
+  
+  .doctt1{
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+  }
+  
+  
+  
+  
+  
+  
+  
+    /* code css chữ taxi giá liên tỉnh */
+    .navbar-link-Help {
+      position: absolute;
+      left: 73%;
+      color: #000;
+      top: 1%;
+    }
+  
+    .navbar-link-Support {
+      position: absolute;
+      left: 76%;
+      color: #000;
+      top: 1%;
+    }
+    .navbar-link-FAQ {
+      position: absolute;
+      left: 81%;
+      color: #000;
+      top: 1%;
+    }
+  
+  
+  
+    /* youtube  iocon*/
+  
+    .navbar-icon-tt {
+      position: absolute;
+      left: 86%;
+      top: 1%;
+    }
+  /*  */
+  /* hình ins */
+  .navbar-icon-ins {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+  }
+  
+  /*  */
+  
+  .navbar-icon-link {
+    position: absolute;
+    left: 90%;
+    top: 1%;
+  }
+  
+  
+  
+    /* hình iconfb */
+    .navbar-icon-fb {
+      position: absolute;
+      left: 84%;
+      top: 1%;
+    }
+  
+    /*  */
+    .navbar-text01 {
+      color: #898b8b;
+      position: relative;
+      left: 250px;
+      font-size: 15px;
+  
+    }
+    .navbar-link {
+      text-decoration: none;
+      color: #333;
+      font-size: 16px;
+      margin-right: 10px;
+    }
+  
+    .contact {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+      color: #fff;
+      transform: skewX(10deg);
+      width: 7%;
+    }
+
+    
+    
+  
+/* logo  RIDEK... hotline...*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+  }
+  
+  .logo-container {
+    flex-basis: 20%;
+  }
+  
+  .logo-brand {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .contact-info {
+    flex-basis: -60%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+  }
+  
+  .contact-item a {
+    text-decoration: none;
+    color: inherit;
+    margin-right: 15px;
+  }
+  
+  .text,
+  .text1,
+  .text02,
+  .text03 {
+    font-size: 14px;
+    color: #666;
+  
+  }
+  
+  .text1,
+  .text02,
+  .text03 {
+    font-weight: bold;
+  }
+
+
+  .text1{
+    position: relative;
+    left: -76px;
+  }
+  .text02{
+    position: relative;
+    left: -76px;
+  }
+  .text03{
+    position: relative;
+    left: -76px;
+  }
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+  /* Tạo css thanh Nav ngang Trang chủ, ... */
+  .navbar-yellow {
+    left: 11%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    top: 43px;
+    height: 87px;
+
+  }
+
+  /* kich co thanh nav trang chu... */
+  .navbar::before {
+    content: '';
+    /* Tạo một pseudo-element */
+    position: absolute;
+    /* Vị trí tuyệt đối */
+
+    left: -4%;
+    /* Điều chỉnh theo left của navbar */
+    width: 108%;
+    /* Chiều rộng 100% */
+    height: 100%;
+    /* Chiều cao 100% */
+    background-color: inherit;
+    /* Màu nền giống với navbar */
+    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);
+    /* Áp dụng clip-path */
+    z-index: -1;
+    /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
+
+  }
+
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .menu li {
+    margin-right: 10px;
+  }
+
+  /* thanh nav chữ */
+  /* dấu ghạch chân thanh nav chữ */
+
+  /* chữ trên thanh nav màu cam */
+  .menu li a {
+    right: 8px;
+    top: -25px;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .menu li a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+
+  .search-icon,
+  .menu-icon {
+    width: 95px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+
+
+
+  /* màu menu thanh NAV */
+
+  /*  */
+  /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
+  div#offcanvasDarkNavbar {
+    background-color: #000000;
+    color: #f3ebeb;
+    width: 500px;
+  }
+
+  .text-bg-dark h5,
+  .text-bg-dark p,
+  .text-bg-dark a {
+    color: #ffffff;
+  }
+
+  /* nằm chèn mục liên hệ */
+
+
+  /* nút tìm kiếm thanh nav  */
+  /* nut tìm kiếm thanh nav trang chu... */
+  .search-icon img,
+  .menu-icon img {
+    float: left;
+    margin: 2px;
+    width: 63%;
+    height: 70%;
+    position: absolute;
+    top: 11%;
+    left: 62%;
+    filter: brightness(0) invert(1);
+
+  }
+
+  /* thanh menu */
+
+  .navbar-dark .navbar-toggler {
+    right: -168px;
+    top: -50px;
+    position: relative;
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .1);
+  }
+  
+  /* nút search  nut tim kiem*/
+
+
+  .collapse {
+    display: none;
+    width: 200px;
+    /* Set the desired width */
+    height: 850px;
+    /* Set the desired height */
+  }
+
+  .show {
+    display: block;
+  }
+
+  /* nút css menu trangchu... */
+  .navbar-toggler {
+    float: right;
+    margin: -127px;
+    width: 130px;
+    /* Set the desired width */
+    height: 40px;
+    /* Set the desired height */
+  }
+  
+
+/* nút trên thanh nav màu cam trang chu, lien he */
+.dropdown-toggle.black-text,
+.dropdown-menu .black-text {
+  /* color: #666; */
+  font-size: 15px;
+  top: 5px;
+  left: 6px;
+  position: relative;
+  color: #666;
+}
+
+.mau1 {
+  color: #000;
+  background-color: #000;
+}
+
+/* code css tạo comtact  thanh NAV TRANGCHU...*/
+
+.contact-nav {
+  position: absolute;
+  top: -0%;
+  /* Adjust the distance from the top as needed */
+  left: 104%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(0deg);
+  width: 13%;
+  /* Adjust the width as needed */
+  height: 87px;
+}
+
+/* nut css  chinh kich co  thanh nav menu trang chu... */
+.navbar {
+  transform: skewX(0deg);
+  width: 59%;
+  /* height: 10%; */
+  z-index: 999;
+}
+
+.navbar-brand img {
+  width: 50px;
+}
+
+.navbar-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-text img {
+  width: 300px;
+  height: auto;
+  margin-right: 10px;
+  right: -61%;
+  position: absolute;
+
+}
+
+
+/*  */
+.navbar-text p {
+  margin: 0;
+  color: #f4f5f8;
+  display: inline-block;
+  margin: 0;
+  font-size: 20px;
+  /* Thay đổi kích thước chữ theo ý muốn */
+  white-space: nowrap;
+  /* Ngăn chữ xuống dòng */
+  overflow: hidden;
+  /* Ẩn nội dung dư thừa */
+  text-overflow: ellipsis;
+  /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+  position: relative;
+  right: -100%;
+  top: 60%;
+
+}
+
+.contact-info {
+  margin-top: 10px;
+  color: #f4f5f8;
+  font-size: 20px;
+}
+
+.content {
+  margin-top: 80px;
+  /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
+}
