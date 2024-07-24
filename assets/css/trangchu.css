@@ -1122,7 +1122,7 @@ width: 206px;
 
   .about-us {
     position: relative;
-    left: -36%;
+    /* left: -36%; */
     color: black;
     font-size: 33px;
     font-weight: bold;
