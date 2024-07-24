@@ -70,21 +70,21 @@ width: 206px;
   /* code css chữ taxi giá liên tỉnh */
   .navbar-link-Help {
     position: absolute;
-    left: 73%;
-    color: #000;
+    left: 63%;
+    color: #898b8b;
     top: 1%;
   }
 
   .navbar-link-Support {
     position: absolute;
-    left: 76%;
-    color: #000;
+    left: 66%;
+    color: #898b8b;
     top: 1%;
   }
   .navbar-link-FAQ {
     position: absolute;
-    left: 81%;
-    color: #000;
+    left: 70%;
+    color: #898b8b;
     top: 1%;
   }
 
@@ -94,23 +94,29 @@ width: 206px;
 
   .navbar-icon-tt {
     position: absolute;
-    left: 86%;
+    left: 74%;
     top: 1%;
+    font-size: 15px;
+    color: #666;
   }
 /*  */
 /* hình ins */
 .navbar-icon-ins {
   position: absolute;
-  left: 88%;
+  left: 76%;
   top: 1%;
+  font-size: 15px;
+  color: #666;
 }
 
 /*  */
 
 .navbar-icon-link {
   position: absolute;
-  left: 90%;
+  left: 78%;
   top: 1%;
+  font-size: 15px;
+  color: #666;
 }
 
 
@@ -118,15 +124,17 @@ width: 206px;
   /* hình iconfb */
   .navbar-icon-fb {
     position: absolute;
-    left: 84%;
+    left: 73%;
     top: 1%;
+    font-size: 15px;
+    color: #666;
   }
 
   /*  */
   .navbar-text01 {
     color: #898b8b;
     position: relative;
-    left: 250px;
+    left: 271px;
     font-size: 15px;
 
   }
@@ -198,8 +206,8 @@ width: 206px;
 }
 
 .text {
-  font-size: 11px;
-  color: #929292;
+  font-size: 15px;
+  color: #898b8b;
   position: relative;
   left: 2%;
   font-size: 14px;
@@ -209,8 +217,8 @@ width: 206px;
 }
 
 .text1 {
-  font-size: 13px;
-  color: #252525;
+  font-size: 18px;
+  color: #222;
   position: relative;
   left: -28%;
   font-size: 18px;
@@ -219,7 +227,7 @@ width: 206px;
 }
 
 .text02 {
-  color: #252525;
+  color: #222;
   position: relative;
   left: -21%;
   font-size: 18px;
@@ -228,14 +236,16 @@ width: 206px;
 
 .text03 {
   font-size: 18px;
-  color: #252525;
+  color: #222;
   position: relative;
   left: -20%;
   font-weight: bold;
 }
 
-
-
+/* bỏ dấu ghạch chân helf */
+.navbar-right a {
+  text-decoration: none;
+}
 
 
   /* Tạo css thanh Nav ngang Trang chủ, ... */
@@ -286,6 +296,18 @@ width: 206px;
     margin-right: 10px;
   }
 
+
+
+
+
+
+
+  /* thanh nav bỏ dấu dropdown */
+
+  .dropdown-toggle::after,
+.dropdown-btn::after {
+  display: none;
+}
   /* thanh nav chữ */
   /* dấu ghạch chân thanh nav chữ */
 
@@ -1042,8 +1064,8 @@ width: 206px;
     margin-left: 70px;
     /* Adjust the value as needed */
 
-    top: -106px;
-    position: relative;
+    /* top: -106px;
+    position: relative; */
   }
 
 
@@ -2857,12 +2879,14 @@ top: 145px;
 }
 
 .slick-dots li button {
-  /* width: 10px; */
-  height: 10px;
+   /* width: 10px; */
+   height: 10px;
   border-radius: 50%;
   background-color: #333;
   border: none;
-  cursor: pointer;
+  cursor: pointer; 
+
+    
 }
 
 .slick-dots li.slick-active button {
@@ -3141,7 +3165,7 @@ h2 {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: -28px;
 }
 
 .contact-item a {
@@ -3462,17 +3486,17 @@ p {
 .upper-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
   background-size: contain;
-  width: 500px;
+  /* width: 500px;
   height: 127px;
   right: 0px;
   top: 0px;
-  position: relative;
+  position: relative; */
   background-repeat: no-repeat;
 }
 
 /* hơn 1ooo khach hang */
 .orange-table {
-  right: -586px;
+  /* right: -586px; */
   background-color: #ff9900;
   padding: 70px;
   /* border: 1px solid gray; */
@@ -3483,10 +3507,10 @@ p {
   background-size: 10px 10px;
 
 
-  width: 574px;
+  /* width: 574px;
   height: 233px;
   top: -105px;
-  position: relative;
+  position: relative; */
 }
 
 .right-column {
@@ -3576,7 +3600,8 @@ p {
   font-weight: bold;
   color: #333333;
 position: relative;
-left: -262px;
+/* left: -262px; */
+text-align: left;
 
 }
 
@@ -3625,7 +3650,7 @@ left: -262px;
 
 }
 
-.table-1 .slick-dots>li:not(:last-of-type) {
+.table-1 .slick-dots li:not(:last-of-type) {
   margin-right: 8px;
 }
 
