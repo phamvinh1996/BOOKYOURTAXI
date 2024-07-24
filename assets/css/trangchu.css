@@ -447,6 +447,7 @@ width: 206px;
   width: 13%;
   /* Adjust the width as needed */
   height: 73px;
+  font-weight: bold;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
@@ -646,7 +647,7 @@ width: 206px;
       .chunhatden {
         position: absolute;
         top: -5%;
-        left: 134%;
+        left: 137%;
         transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
         width: 100px;
         height: 650px;
@@ -832,24 +833,51 @@ width: 206px;
       /* code chu pre - next */
       
       .previous-word {
-        font-size: 16px;
-        color: black;
+        font-size: 17px;
+        color:  rgb(71, 70, 70);
         z-index: 1;
         /* position: relative; */
         /* left: 7%; */
         /* top: -15px; */
         bottom: 30px;
+
+
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
       }
     
       .next-word {
-        font-size: 16px;
+        font-size: 17px;
         z-index: 1;
         /* position: relative; */
-        color: black;
+        color: rgb(71, 70, 70);
         /* right: 7%; */
         /* top: -15px; */
         bottom: 30px;
+
+
+
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
+     
+       
       } 
+
+/*  */
+.la-long-arrow-alt-right {
+  font-size: 30px; /* Thay đổi giá trị này để điều chỉnh kích thước */
+}
+.la-long-arrow-alt-left {
+  font-size: 30px; /* Thay đổi giá trị này để điều chỉnh kích thước */
+}
+
+
+
+
     /* hover */
 
     .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
@@ -951,7 +979,7 @@ width: 206px;
         text-indent: 0;
         /* top: -46px; */
         height: auto;
-     
+     font-size: 43px;
 
       } 
     
