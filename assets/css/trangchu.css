@@ -568,6 +568,9 @@ width: 206px;
       .carousel {
         /* width: 110%; */
         height: 640px;
+        width: 1900px;
+        position: relative;
+        left: -23px;
       }
     
     
@@ -609,6 +612,12 @@ width: 206px;
         width: 500px;
       }
     
+/*  */
+
+
+
+/*  */
+
       /* code css tạo đường chéo book your */
       .carousel-caption::before {
         content: "";
