@@ -313,6 +313,8 @@ width: 206px;
   /* thanh nav chữ */
   /* dấu ghạch chân thanh nav chữ */
 
+
+ 
   /* chữ trên thanh nav màu cam */
   .menu li a {
     right: 8px;
@@ -1225,9 +1227,9 @@ width: 206px;
     top: 0%;
     left: 190px;
     right: 20%;
-    width: 50%;
-    height: 130%;
-    transform: skew(-20deg);
+    width: 43%;
+    height: 123%;
+    transform: skew(-26deg);
     background-color: #ff9900;
     z-index: -1;
   }
