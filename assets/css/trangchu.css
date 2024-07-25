@@ -1169,8 +1169,8 @@ width: 206px;
   }
 
   .image-container .Image {
-    left: 385px;
-    top: 95px;
+    left: 359px;
+    top: 108px;
     width: 11%;
     /* Loại bỏ hoạt hình mặc định */
   }
@@ -1183,7 +1183,7 @@ width: 206px;
   .image-animation {
     position: absolute;
     top: 48px;
-    left: 320px;
+    left: 293px;
     animation-name: rotateImage;
     animation-duration: 4s;
     animation-timing-function: linear;
