@@ -656,7 +656,7 @@ width: 206px;
       .chunhatden {
         position: absolute;
         top: -5%;
-        left: 137%;
+        left: 136%;
         transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
         width: 100px;
         height: 650px;
@@ -978,8 +978,8 @@ width: 206px;
       /* phần code css số trang BOOK */
   
       #carouselExampleFade .carousel-indicators li {
-        /* right: -93px; */
-        /* position: relative; */
+        right: -33px;
+        position: relative;
         /* height: auto; */
         color: orange;
         background-color: transparent;
