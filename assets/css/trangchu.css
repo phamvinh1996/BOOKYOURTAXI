@@ -603,7 +603,7 @@ width: 206px;
       }
     
       .carousel-caption .img-car {
-        left: 1148px;
+        left: 1046px;
         position: relative;
         bottom: 220px;
         width: 500px;
@@ -636,7 +636,7 @@ width: 206px;
       .chunhat1 {
         position: absolute;
         top: 50%;
-        left: 55%;
+        left: 57%;
         transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
         width: 100px;
         height: 850px;
@@ -686,7 +686,7 @@ width: 206px;
       .carousel-caption {
         position: absolute;
         top: 56%;
-        /* left: 100%; */
+        left: 17%;
         width: 50%;
         height: 50%;
         /* transform: translate(40%, 40%);  */
