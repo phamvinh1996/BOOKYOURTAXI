@@ -1344,7 +1344,7 @@ width: 206px;
   }
 
   .cover-image .textdichvunoibat {
-    color: #f7eded;
+    color: #fff;
     position: relative;
     top: -51px;
     left: -50px;
@@ -1357,6 +1357,8 @@ width: 206px;
   }
 
   .cover-image p {
+    position: relative;
+    top: -29px;
     font-size: 17px;
     margin-top: -23px;
     font-family: "Space Grotesk", sans-serif;
