@@ -1433,6 +1433,17 @@ width: 206px;
 
   }
 
+
+
+/* start your jnoyey tạo khoảng cách card ảnh */
+  .cart-service .card {
+    margin-right: 30px; /* Khoảng cách giữa các card */
+    margin-bottom: 30px; /* Khoảng cách giữa các hàng */
+  }
+  
+  .cart-service .card:last-child {
+    margin-right: 0; /* Không có khoảng cách ở card cuối cùng của hàng */
+  }
   /* kich co anh css cart picture */
 
   .card-image {
