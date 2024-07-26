@@ -207,13 +207,14 @@ width: 206px;
 
 .text {
   font-size: 15px;
-  color: #898b8b;
+  color: #666;
   position: relative;
   left: 2%;
   font-size: 14px;
-  font-weight: 700;
+  font-weight: 500;
   letter-spacing: -1.5px;
   display: block;
+  
 }
 
 .text1 {
@@ -222,26 +223,29 @@ width: 206px;
   position: relative;
   left: -28%;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
+  
 
 }
 
-.text02 {
-  color: #222;
+.text-02 {
+  color: #252525;
   position: relative;
-  left: -21%;
+  left: -17%;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 500;
   text-transform: capitalize;
+  top: 23px;
 }
 
-.text03 {
+.text-03 {
   font-size: 18px;
   color: #222;
   position: relative;
-  left: -20%;
-  font-weight: bold;
+  left: -16%;
+  font-weight: 500;
   text-transform: capitalize;
+  top: 21px;
 }
 
 /* bỏ dấu ghạch chân helf */
@@ -1411,11 +1415,16 @@ width: 206px;
 
   /* code css what we offter */
 
-  .text1 {
-
+  .text-1 {
+    color: #252525;
+    font-size: 19px;
     position: relative;
-    top: 1px;
+    top: 21px;
+    right: 58px;
+    text-transform: capitalize;
+    font-weight: 500;
   }
+
 
   .vuong1 {
     position: relative;
