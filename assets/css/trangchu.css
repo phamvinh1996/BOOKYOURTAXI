@@ -389,7 +389,7 @@ width: 206px;
     right: -73px;
     top: -4px;
     position: relative;
-    color: #fff;
+    /* color: #fff; */
     border-color: rgba(255, 255, 255, .1);
     align-items: center;
  
@@ -574,9 +574,9 @@ width: 206px;
       .carousel {
         /* width: 110%; */
         height: 640px;
-        width: 1900px;
+        /* width: 1900px; */
         position: relative;
-        left: -23px;
+        /* left: -23px; */
       }
     
     
@@ -3917,8 +3917,9 @@ text-align: left;
 
 .tintuc {
   position: relative;
-  top: -13;
-  right: -693px;
+  text-align: center;
+  /* top: -13;
+  right: -693px; */
 
 }
 
@@ -4055,8 +4056,8 @@ button {
 /* thanh nav footer hotline */
 .hotline {
   position: absolute;
-  top: -6%;
-  right: -271px;
+  top: -10px;
+  right: 0;
   background-color: #ff9900;
   padding: 10px;
   width: 700px;
