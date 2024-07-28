@@ -206,7 +206,7 @@ width: 206px;
 }
 
 .text {
-  font-size: 15px;
+   font-size: 15px;
   color: #666;
   position: relative;
   left: 2%;
@@ -214,6 +214,9 @@ width: 206px;
   font-weight: 500;
   letter-spacing: -1.5px;
   display: block;
+  top: -9px; 
+
+
   
 }
 
@@ -389,12 +392,17 @@ width: 206px;
     right: -73px;
     top: -4px;
     position: relative;
-    /* color: #fff; */
+  
     border-color: rgba(255, 255, 255, .1);
     align-items: center;
+
+
+  
+
  
   }
 
+ 
   /* nút search  nut tim kiem*/
 
 
@@ -430,6 +438,7 @@ width: 206px;
   left: 6px;
   position: relative;
   color: #666;
+ 
 }
 
 .mau1 {
