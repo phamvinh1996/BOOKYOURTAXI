@@ -1269,19 +1269,19 @@ width: 206px;
   /* chữ số điện thoại về chúng tôi */
 
   .hot1 {
-    left: 43%;
-    right: 19%;
-    color: #7d7d7d;
+    left: 39%;
+    color: #666;
     font-size: 16px;
     position: absolute;
     top: 73%;
+    font-family: 'Space Grotesk', sans-serif;
   }
 
   .color1 {
     color: orange;
     position: absolute;
-    right: 34%;
-    top: 81%;
+    right: 35%;
+    top: 78%;
     font-size: 28px;
     font-weight: bold;
   }
