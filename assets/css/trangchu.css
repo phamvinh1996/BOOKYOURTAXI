@@ -1385,8 +1385,9 @@ width: 206px;
   }
 
   .container .card h2 {
-    color: #0a0909;
+    color: #222;
     /* Màu chữ trắng */
+    font-weight: bold;
   }
 
 
@@ -1511,6 +1512,9 @@ left: 7px;
     left: -20px;
 
   }
+
+
+/*  */
 
 
 
