@@ -4670,7 +4670,7 @@ display: block;
 }
 
 .side-navbar a {
-  color: black;
+  color: #666;
   text-decoration: none;
 }
 .logo000{
@@ -4724,8 +4724,8 @@ display: block;
 }
 
 .side-navbar a {
-  color: black;
-  text-decoration: none;
+  color: #666;
+  /* text-decoration: none; */
 }
 
 
