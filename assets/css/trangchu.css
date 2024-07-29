@@ -867,7 +867,7 @@ width: 206px;
         padding: 20px;
         /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
         position: fixed;
-        top: 30%;
+        top: -11%;
     
       }
     
@@ -892,11 +892,11 @@ width: 206px;
       .next-word {
         font-size: 17px;
         z-index: 1;
-        /* position: relative; */
+        position: relative;
         color: rgb(71, 70, 70);
-        /* right: 7%; */
+        right: -95%;
         /* top: -15px; */
-        bottom: 30px;
+        /* bottom: 30px; */
 
 
 
@@ -911,6 +911,8 @@ width: 206px;
 /*  */
 .la-long-arrow-alt-right {
   font-size: 30px; /* Thay đổi giá trị này để điều chỉnh kích thước */
+  position: relative;
+  right: -78px;
 }
 .la-long-arrow-alt-left {
   font-size: 30px; /* Thay đổi giá trị này để điều chỉnh kích thước */
@@ -1010,7 +1012,7 @@ width: 206px;
       /* phần code css số trang BOOK */
   
       #carouselExampleFade .carousel-indicators li {
-        right: -16px;
+        right: -53px;
         position: relative;
         /* height: auto; */
         color: orange;
@@ -1018,7 +1020,7 @@ width: 206px;
         width: auto;
         background-clip: unset;
         text-indent: 0;
-        /* top: -46px; */
+        top: -7px;
         height: auto;
      font-size: 43px;
 
