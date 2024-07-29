@@ -214,7 +214,6 @@ width: 206px;
   left: 2%;
   font-size: 14px;
   font-weight: 500;
-  letter-spacing: -1.5px;
   display: block;
   top: -9px; 
 
@@ -236,7 +235,7 @@ width: 206px;
 .text-02 {
   color: #252525;
   position: relative;
-  left: -17%;
+  left: -21%;
   font-size: 18px;
   font-weight: 500;
   text-transform: capitalize;
@@ -247,7 +246,7 @@ width: 206px;
   font-size: 18px;
   color: #222;
   position: relative;
-  left: -16%;
+  left: -21%;
   font-weight: 500;
   text-transform: capitalize;
   top: 21px;
@@ -332,6 +331,7 @@ width: 206px;
     color: #ffffff;
     text-decoration: none;
     font-weight: bold;
+
   }
 
   .menu li a:hover {
@@ -1431,7 +1431,7 @@ width: 206px;
     font-size: 19px;
     position: relative;
     top: 21px;
-    right: 58px;
+    right: 75px;
     text-transform: capitalize;
     font-weight: 500;
   }
@@ -3241,7 +3241,7 @@ h2 {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-left: -28px;
+  margin-left: -73px;
 }
 
 .contact-item a {
