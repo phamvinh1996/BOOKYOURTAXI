@@ -71,20 +71,20 @@ width: 206px;
   .navbar-link-Help {
     position: absolute;
     left: 63%;
-    color: #898b8b;
+    color: #666;
     top: 1%;
   }
 
   .navbar-link-Support {
     position: absolute;
     left: 66%;
-    color: #898b8b;
+    color: #666;
     top: 1%;
   }
   .navbar-link-FAQ {
     position: absolute;
     left: 70%;
-    color: #898b8b;
+    color: #666;
     top: 1%;
   }
 
