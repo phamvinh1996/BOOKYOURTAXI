@@ -1147,7 +1147,7 @@ width: 206px;
   /* về chúng tôi  tổng phần chữ*/
 
   .form-group {
-    right: -43px;
+    right: -115px;
     top: 118px;
     position: relative;
     margin-bottom: 1rem;
@@ -1212,7 +1212,7 @@ width: 206px;
   }
 
   .image-container .Image {
-    left: 359px;
+    left: 416px;
     top: 108px;
     width: 11%;
     /* Loại bỏ hoạt hình mặc định */
@@ -1226,7 +1226,7 @@ width: 206px;
   .image-animation {
     position: absolute;
     top: 48px;
-    left: 293px;
+    left: 351px;
     animation-name: rotateImage;
     animation-duration: 4s;
     animation-timing-function: linear;
@@ -1257,7 +1257,7 @@ width: 206px;
     content: "";
     position: absolute;
     top: 0%;
-    left: 190px;
+    left: 244px;
     right: 20%;
     width: 43%;
     height: 123%;
@@ -1336,6 +1336,7 @@ width: 206px;
     top: 84px;
     position: relative;
     width: 196px;
+   
   }
 
   /* Dịch vụ nỗi bật css */
@@ -4456,7 +4457,7 @@ footer {
 }
 
 img.image-car1 {
-  left: -9%;
+  left: 0%;
   position: relative;
   width: 300px;
 
@@ -4473,6 +4474,7 @@ img.image-car2 {
   position: relative;
   top: 84px;
   position: relative;
+  right: -58px;
 }
 
 .ceo {
