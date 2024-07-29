@@ -260,7 +260,7 @@ width: 206px;
 
   /* Tạo css thanh Nav ngang Trang chủ, ... */
   .navbar-yellow {
-    left: -10%;
+    left: -1%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -288,7 +288,7 @@ width: 206px;
     /* Chiều cao 100% */
     background-color: inherit;
     /* Màu nền giống với navbar */
-    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);
+    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 160%);
     /* Áp dụng clip-path */
     z-index: -1;
     /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
@@ -324,7 +324,10 @@ width: 206px;
 
  
   /* chữ trên thanh nav màu cam */
-  .menu li a {
+
+  
+
+    .menu li a {
     right: 8px;
     top: -3px;
     position: relative;
@@ -332,7 +335,7 @@ width: 206px;
     text-decoration: none;
     font-weight: bold;
 
-  }
+  }   
 
   .menu li a:hover {
     border-bottom: 1px solid #ffffff;
@@ -383,14 +386,29 @@ width: 206px;
     height: 70%;
     position: absolute;
     top: 3%;
-    left: 55%;
+    left: 53%;
     filter: brightness(0) invert(1);
 
   }
 
   /* thanh menu */
 
+/* Tạo thanh chọn trên thanh nav */
   .navbar-dark .navbar-toggler {
+    position: relative;
+    right: -73px;
+    top: -4px;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+  }
+  
+  .navbar-dark .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  /* .navbar-dark .navbar-toggler {
+
     right: -73px;
     top: -4px;
     position: relative;
@@ -399,10 +417,7 @@ width: 206px;
     align-items: center;
 
 
-  
-
- 
-  }
+  } */
 
  
   /* nút search  nut tim kiem*/
@@ -461,7 +476,7 @@ width: 206px;
   background-color: black;
   color: #fff;
   transform: skewX(0deg);
-  width: 13%;
+  width: 19%;
   /* Adjust the width as needed */
   height: 73px;
   font-weight: bold;
@@ -470,7 +485,7 @@ width: 206px;
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
-  width: 78%;
+  width: 67%;
   height: 10%;
   z-index: 999;
 }
