@@ -1389,6 +1389,9 @@ width: 206px;
     /* Màu chữ trắng */
   }
 
+
+
+
   .cover-image p {
     position: relative;
     top: -29px;
@@ -1396,9 +1399,21 @@ width: 206px;
     margin-top: -23px;
     font-family: "Space Grotesk", sans-serif;
     color: rgb(221, 221, 221);
-
+left: 7px;
 
   }
+  /* dòng chữ start your journey with ridekcompany */
+  .second-line {
+    display: block;
+   
+    animation: fadeIn 1s ease-in-out;
+    color: white;
+    position: relative;
+    right: 38px;
+  }
+
+
+
 
   /* .container {
     display: flex;
