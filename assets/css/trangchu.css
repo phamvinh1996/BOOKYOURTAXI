@@ -136,6 +136,8 @@ width: 206px;
     position: relative;
     left: 271px;
     font-size: 15px;
+    letter-spacing: -0.2px;
+    font-family: 'Space Grotesk', sans-serif;
 
   }
   .navbar-link {
