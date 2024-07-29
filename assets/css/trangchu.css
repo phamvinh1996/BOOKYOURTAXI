@@ -215,7 +215,7 @@ width: 206px;
   font-size: 14px;
   font-weight: 500;
   display: block;
-  top: -9px; 
+  top: -12px; 
 
 
   
@@ -236,20 +236,20 @@ width: 206px;
   color: #252525;
   position: relative;
   left: -21%;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 500;
   text-transform: capitalize;
-  top: 23px;
+  top: 13px;
 }
 
 .text-03 {
-  font-size: 18px;
+  font-size: 17px;
   color: #222;
   position: relative;
   left: -21%;
   font-weight: 500;
   text-transform: capitalize;
-  top: 21px;
+  top: 13px;
 }
 
 /* bỏ dấu ghạch chân helf */
@@ -1462,9 +1462,9 @@ left: 7px;
 
   .text-1 {
     color: #252525;
-    font-size: 19px;
+    font-size: 17px;
     position: relative;
-    top: 21px;
+    top: 13px;
     right: 75px;
     text-transform: capitalize;
     font-weight: 500;
