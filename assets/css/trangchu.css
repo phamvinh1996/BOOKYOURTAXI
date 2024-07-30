@@ -1926,7 +1926,7 @@ left: 7px;
 /* hinh km tren CHOOOSSEE  TAXI */
 
 
-    .price {
+     /* .price {
   display: inline-block;
   background-color: #ff9900;
   color: #222;
@@ -1937,13 +1937,38 @@ left: 7px;
    position: absolute;
   right: 40px; 
   top: 35px;
+z-index: 1;
 
   
-}   
+}       */
  
 
 
 
+/* code css nằm chèn price */
+.price-container {
+  position: relative;
+  z-index: 1;
+}
+
+.huynhdai01 {
+  position: relative;
+  z-index: 2;
+}
+
+.price {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 40px;
+  top: 46px;
+  z-index: 1;
+}
 
 
 
@@ -4806,7 +4831,7 @@ display: block;
 
 /* NEW AND LINE */
 
-.price01 {
+   .price01 {
   position: relative;
   display: inline-block;
   background-color: #ff9900;
@@ -4818,7 +4843,18 @@ display: block;
   position: absolute;
   right: 245px;
   top: 177px;
-}
+  
+}    
+
+
+
+
+
+
+
+
+
+
 /* khoảng cacsg NEW AND LINE */
 
 
