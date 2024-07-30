@@ -1083,6 +1083,8 @@ width: 206px;
   }
 
   .section-heading h4 {
+    font-weight: bold;
+    font-size: 16px;
     position: relative;
     color: #f90;
     padding-left: 50px;
@@ -1924,8 +1926,7 @@ left: 7px;
 /* hinh km tren CHOOOSSEE  TAXI */
 
 
-.price {
-  position: relative;
+    .price {
   display: inline-block;
   background-color: #ff9900;
   color: #222;
@@ -1933,10 +1934,13 @@ left: 7px;
   font-weight: 600;
   padding: 10px 20px;
   clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
-  position: absolute;
-  right: 40px;
-  top: 55px;
-}
+   position: absolute;
+  right: 40px; 
+  top: 35px;
+
+  
+}   
+ 
 
 
 
