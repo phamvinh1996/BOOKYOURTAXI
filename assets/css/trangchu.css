@@ -3479,8 +3479,9 @@ h2 {
   font-size: 16px;
   margin-top: 0;
   position: relative;
-  top: -210px;
-  right: 86px;
+  top: -191px;
+  right: 95px;
+  font-size: 23px;
 }
 
 /* code loi ich dat xe hơn 1000 về dấu ghạch */
@@ -3599,6 +3600,12 @@ p {
   font-family: "Space Grotesk", sans-serif;
 }
 
+
+.successfully{
+  position: absolute;
+  left: 10px;
+}
+
 /* ảnh bìa 1000 */
 .upper-alert-box {
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
@@ -3653,15 +3660,15 @@ p {
   font-weight: bold;
 }
 
-.company-info01 {
+/* .company-info01 {
   right: -75px;
   color: white;
   position: relative;
   top: 7px;
   font-size: 16px;
-}
+} */
 
-.company-info02 {
+/* .company-info02 {
   right: -74px;
   color: white;
   position: relative;
@@ -3675,7 +3682,40 @@ p {
   position: relative;
   top: -189px;
   font-size: 16px;
+} */
+/*  chữ why ride withd  ridek */
+.company-info0-1 {
+  position: absolute;
+  left: 80px;
+  color: white;
 }
+
+.company-info0-01{
+  position: relative;
+  left: 32px;
+  color: white;
+  top: -11px;
+}
+
+.company-info00-2{
+
+
+  position: relative;
+  left: 37px;
+  top: -130px;
+  color: white;
+}
+
+
+.company-info0-03{
+  position: relative;
+  left: 43px;
+  top: -205px;
+  color: white;
+}
+
+
+
 
 
 /* code hon 1000 kh tiet kiem chi phi */
@@ -3689,7 +3729,7 @@ p {
   font-size: 16px;
   left: -41px;
   top: 25px;
-
+font-size: 23px;
 
 }
 
@@ -3703,6 +3743,7 @@ p {
   font-size: 16px;
   left: -39px;
   top: -95px;
+  font-size: 23px;
 }
 
 .icon {
