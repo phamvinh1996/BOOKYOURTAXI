@@ -1973,9 +1973,60 @@ z-index: 1;
 
 
 
+/*  */
+.price-container {
+  position: relative;
+  z-index: 1;
+}
+
+.huynhdai0-04 {
+  z-index: 2;
+  
+  position: relative;
+
+}
+
+.price {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 40px;
+  top: 46px;
+  z-index: 1;
+}
 
 
+/*  */
+.price-container {
+  position: relative;
+  z-index: 1;
+}
 
+.huynhdai0-06 {
+  z-index: 2;
+  
+  position: relative;
+
+}
+
+.price {
+  display: inline-block;
+  background-color: #ff9900;
+  color: #222;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 40px;
+  top: 46px;
+  z-index: 1;
+}
 
 
 
@@ -2623,10 +2674,11 @@ z-index: 1;
   height: 200%;
 }
 
-.huynhdai04 {
-  position: relative;
-  width: 300px;
-  top: -151px;
+.huynhdai0-04 {
+  position: absolute;
+  width: 315px;
+  top: 68px;
+  right: 38px;
 }
 
 /* huynh dai chu chooosee taxi toyota */
@@ -2637,10 +2689,11 @@ z-index: 1;
   height: 200%;
 }
 
-.huynhdai06 {
-  position: relative;
-  width: 300px;
-  top: -151px;
+.huynhdai0-06 {
+  right: 64px;
+    position: absolute;
+    width: 275px;
+    top: 81px;
 }
 
 .huynhdai07 {
@@ -4639,7 +4692,9 @@ img.image-car2 {
 .card {
   width: 100%;
   max-width: 380px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
+
+ 
 }
 
 /* Card Image */
