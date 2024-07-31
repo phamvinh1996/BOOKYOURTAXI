@@ -1464,7 +1464,7 @@ left: 7px;
 
   .text-1 {
     color: #252525;
-    font-size: 17px;
+    font-size: 19px;
     position: relative;
     top: 13px;
     right: 75px;
@@ -3360,7 +3360,8 @@ h2 {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-left: -63px;
+  margin-left: -41px;
+  
 }
 
 .contact-item a {
