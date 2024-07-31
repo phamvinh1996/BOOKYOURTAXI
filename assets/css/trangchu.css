@@ -2800,7 +2800,7 @@ z-index: 1;
   /* transform: translateX(-100%); */
   margin-bottom: 20px;
   position: absolute;
-  top: 229px;
+  top: 291px;
   left: 154px;
 
 }
@@ -2813,7 +2813,7 @@ z-index: 1;
   /* transform: translateX(-100%); */
   margin-bottom: 20px;
   position: absolute;
-  top: 258px;
+  top: 310px;
   left: 152px;
   font-weight: bold;
 }
@@ -2860,8 +2860,8 @@ z-index: 1;
 .title {
   color: white;
   position: relative;
-  left: -48px;
-  top: 31px;
+  left: -61px;
+  top: 65px;
 }
 
 .orange-text {
@@ -2893,12 +2893,12 @@ z-index: 1;
   transform: translateX(-4%);
   position: absolute;
   right: 28%;
-top: 145px;
+top: 181px;
 }
 
 .img-car {
 
-  left: -133px;
+  left: -221px;
   position: relative;
   width: 489px;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
@@ -2912,7 +2912,7 @@ top: 145px;
 .hotline-image1{
   left: 68px;
   position: relative;
-  top: 127px;
+  top: 190px;
 }
 
 /* choosee taxi dấu chấm */
@@ -3995,7 +3995,7 @@ text-align: left;
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 50%;
+  top: 64%;
   left: 138%;
   transform: translateX(-1427%);
   width: 70px;
