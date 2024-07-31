@@ -4114,7 +4114,9 @@ text-align: left;
   width: 100px;
   height: 50px;
   top: 91%;
-
+color: #666;
+text-decoration: none; /* Bỏ dấu gạch chân */
+font-weight: bold;
 }
 
 /* chữ card  */
