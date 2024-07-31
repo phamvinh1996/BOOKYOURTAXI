@@ -3679,21 +3679,24 @@ p {
 }
 
 
-.successfully{
-  position: absolute;
-  left: 10px;
+.successfully-1{
+  position: relative;
+  color: #868891;
 }
 
 /* ảnh bìa 1000 */
 .upper-alert-box {
-  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
-  background-size: contain;
-  /* width: 500px;
-  height: 127px;
-  right: 0px;
-  top: 0px;
-  position: relative; */
+  background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
+  /* background-size: contain; */
+ 
   background-repeat: no-repeat;
+background-size: left;
+position: relative;
+top: 50px;
+width: 660px;
+height: 700px;
+background-repeat: no-repeat;
+background-position: left center;
 }
 
 /* hơn 1ooo khach hang */
