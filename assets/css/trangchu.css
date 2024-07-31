@@ -1051,8 +1051,9 @@ width: 206px;
     margin-bottom: 15px;
     color: rgb(102, 102, 102);
     font-family: "Space Grotesk", sans-serif;
-
-
+    top: -9px;
+    right: 6px;
+    position: relative;
   }
 
 
