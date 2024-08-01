@@ -2980,6 +2980,7 @@ top: 181px;
 }
 
  .slick-dots > li:not(:last-of-type) {
+
   margin-right: 8px;
 }
 .slick-dots li button {
@@ -3221,7 +3222,7 @@ p {
 
 .image-row {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   position: relative;
   z-index: 1;
 }
