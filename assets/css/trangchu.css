@@ -1927,11 +1927,34 @@ left: 7px;
     top: 53%;
   }
 
-  .cart-service .slick-next {
+  /* .cart-service .slick-next {
     left: -5%;
     position: absolute;
     top: 52%;
+  } */
+
+/* Hình cắt bên trái Start Your Jouney */
+  .slick-next.slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #FFA500; /* Màu cam */
+    -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    cursor: pointer;
   }
+  
+  .slick-next.slick-arrow:before {
+    content: "";
+  }
+
+
+
+
+
 
 
 
@@ -3055,19 +3078,41 @@ top: 181px;
 
 
 /* dich vu noi bat pre */
-.cart-service .slick-prev {
+
+
+
+  /* .cart-service .slick-prev {
 
   left: 100%;
   position: absolute;
   top: 53%;
-}
+}  */
+
+/* Hinh Start your journey with
+Ridek Taxi Company! */
 
 .cart-service .slick-next {
   left: -5%;
   position: absolute;
   top: 52%;
+}  
+
+
+.cart-service .slick-prev {
+  left: 100%;
+  position: absolute;
+  top: 53%;
+  width: 40px;
+  height: 40px;
+  background-color: #FFA500;
+  -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  cursor: pointer;
 }
 
+.cart-service .slick-prev:before {
+  content: "";
+}
 
 
 
