@@ -1939,8 +1939,8 @@ left: 7px;
     top: 50%;
     transform: translateY(-50%);
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 60px;
+    height: 56px;
     background-color: #FFA500; /* Màu cam */
     -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
     clip-path: polygon(100% 0, 0 50%, 100% 100%);
@@ -3101,9 +3101,9 @@ Ridek Taxi Company! */
 .cart-service .slick-prev {
   left: 100%;
   position: absolute;
-  top: 53%;
-  width: 40px;
-  height: 40px;
+  top: 48%;
+  width: 60px;
+  height: 56px;
   background-color: #FFA500;
   -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
   clip-path: polygon(0 0, 100% 50%, 0 100%);
