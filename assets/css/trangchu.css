@@ -400,8 +400,8 @@ width: 206px;
     height: 70%;
     position: absolute;
     top: 8%;
-    left: 68%;
-    /* filter: brightness(0) invert(1); */
+    left: 84%;
+    filter: brightness(0) invert(1);
 
   }
 
