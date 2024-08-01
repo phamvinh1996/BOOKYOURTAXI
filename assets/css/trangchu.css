@@ -376,18 +376,32 @@ width: 206px;
   /* nằm chèn mục liên hệ */
 
 
+/* thanh cuộn nút Search */
+  .search-icon1
+  .icon-img-1
+  {
+
+    float: left;
+    margin: 2px;
+    /* width: 63%; */
+    height: 70%;
+    position: absolute;
+    top: 21%;
+    left: 67%; 
+  }
+
   /* nút tìm kiếm thanh nav  */
   /* nut tìm kiếm thanh nav trang chu... */
   .search-icon img,
   .menu-icon img {
     float: left;
     margin: 2px;
-    width: 63%;
+    /* width: 63%; */
     height: 70%;
     position: absolute;
-    top: 3%;
-    left: 53%;
-    filter: brightness(0) invert(1);
+    top: 8%;
+    left: 68%;
+    /* filter: brightness(0) invert(1); */
 
   }
 
@@ -3501,6 +3515,45 @@ h2 {
 }
 
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
+      /* .hinh1-icon {
+  background-color: #f90;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  font-size: 30px;
+  color: #222;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  right: -339px;
+}       */
+
+
+
+
+/* 
+.hinh1-icon {
+  background-color: #f90;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  font-size: 30px;
+  color: #222;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -20px;
+  right: -339px;
+} */
+
+
+
+
+
+
 .hinh1-icon {
   background-color: #f90;
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -3515,6 +3568,9 @@ h2 {
   top: -20px;
   right: -339px;
 }
+
+
+
 
 
 
@@ -4811,6 +4867,10 @@ display: block;
   width: 10px;
 }
 .logo01{
+
+  top: -36px;
+  left: -610px;
+  position: relative;
   width: 188px;
 }
 
@@ -4854,7 +4914,10 @@ display: block;
 }
 
 .side-navbar a {
+  position: relative;
+  top: 19px;
   color: #666;
+  font-weight: bold;
   /* text-decoration: none; */
 }
 
