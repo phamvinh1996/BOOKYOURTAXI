@@ -3278,13 +3278,21 @@ p {
 
 }
 
-h2 {
+.animated-1 {
   color: black;
   font-family: "Space Grotesk", sans-serif;
   left: -3px;
   position: relative;
+  font-size: 41px;
+  font-weight: bold;
 }
 
+
+.animated-2{
+  color: #666;
+  font-family: "Space Grotesk", sans-serif;
+
+}
 /* dòng chữ xuống hàng get ridek*/
 
 .col-6.get-app {
@@ -3331,6 +3339,21 @@ h2 {
   top: -231px;
 }
 
+/* dòng chữ easy to search  */
+.easy1{
+  color: #222;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -3340,7 +3363,10 @@ h2 {
 
 .new1 {
   position: relative;
-  left: 80px;
+  left: 2px;
+  font-size: 41px;
+  color: black;
+  font-weight: 700;
 }
 
 /* chữ màu cam ridek */
