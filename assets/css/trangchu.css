@@ -3591,44 +3591,6 @@ p {
 }
 
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
-      /* .hinh1-icon {
-  background-color: #f90;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  font-size: 30px;
-  color: #222;
-  width: 60px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: -20px;
-  right: -339px;
-}       */
-
-
-
-
-/* 
-.hinh1-icon {
-  background-color: #f90;
-  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-  font-size: 30px;
-  color: #222;
-  width: 60px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: -20px;
-  right: -339px;
-} */
-
-
-
-
-
 
 
 .hinh1-icon {
@@ -3642,27 +3604,10 @@ p {
   align-items: center;
   justify-content: center;
   position: relative;
-  top: -18px;
-  right: -466px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  top: 10px;
+  right: -456px;
+  z-index: 1;
+} 
 
 
 
