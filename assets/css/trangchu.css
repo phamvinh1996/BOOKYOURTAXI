@@ -4358,8 +4358,8 @@ font-weight: bold;
 
 .description {
   position: absolute;
-  top: 39px;
-  left: 134px;
+  top: 25px;
+  left: 195px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -4735,15 +4735,15 @@ footer {
 
 /* code css tạo chuyển động xe ô tô */
 .icon-car {
-  display: flex;
+   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   overflow: hidden;
   top: 451px;
-  position: absolute;
+  position: absolute; 
   /* bottom: 42px; */
-  left: 0;
+   left: 0; 
 }
 
 .icon-car .car1 {
