@@ -2952,6 +2952,10 @@ top: 181px;
   top: 190px;
 }
 
+
+
+
+
 /* choosee taxi dấu chấm */
 
 
@@ -4356,7 +4360,7 @@ font-weight: bold;
   position: absolute;
   top: 39px;
   left: 134px;
-  color: white;
+  color: #ccc;
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -4412,7 +4416,7 @@ button {
 
 
 .hotline-text1 {
-  color: white;
+  color: #222;
   font-size: 32px;
   font-weight: 700;
   line-height: 1;
@@ -4492,6 +4496,51 @@ button {
 
  
 }
+
+/* head office footer */
+.address-label-111{
+color: white;
+font-weight: bold;
+
+
+display: inline-block;
+/* Để tạo kích thước theo nội dung */
+position: relative;
+/* Để tạo vị trí tương đối cho gạch chân */
+padding-bottom: 5px;
+/* Khoảng cách từ chữ đến gạch chân */
+}
+
+.address-label-111::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .address-text {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
@@ -4628,7 +4677,10 @@ button {
   top: 42%;
   left: 4%;
   position: absolute;
-  clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%); */
+
+
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
 }
 
 /* màu chữ footer địa chỉ, mở cửa */
