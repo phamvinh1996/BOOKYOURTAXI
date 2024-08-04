@@ -2843,7 +2843,7 @@ z-index: 1;
 }
 
 .icon-text-001{
-  font-size: 28px;
+  font-size: 32px;
   color: #ff9900;
   /* margin-top: -51px; */
   text-align: left;
@@ -2852,7 +2852,8 @@ z-index: 1;
   position: absolute;
   top: 310px;
   left: 152px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 1;
 }
 
 /* code css kích cỡ chữ */
@@ -4687,8 +4688,14 @@ footer {
   overflow: hidden;
   top: 451px;
   position: absolute; 
-  /* bottom: 42px; */
-   left: 0; 
+   left: 0;     
+
+
+
+    bottom: 0;
+    z-index: 2;
+
+
 }
 
 .icon-car .car1 {
