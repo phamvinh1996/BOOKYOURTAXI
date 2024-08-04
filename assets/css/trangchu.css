@@ -4850,7 +4850,11 @@ img.image-car2 {
 
 /* Card Image */
 .card-img-top {
-  height: 200px;
+  position: relative;
+  top: -18px;
+  left: -20px;
+  width: 378px;
+  height: 221px;
   object-fit: cover;
 }
 
