@@ -4727,18 +4727,26 @@ footer {
 
 
 /* code css tạo chuyển động xe ô tô */
- .icon-car {
+  .icon-car {
    display: flex;
   justify-content: space-between;
   align-items: flex-end;
   width: 100%;
   overflow: hidden;
-  top: 444px;
+  top: 520px;
   position: absolute; 
     z-index: 2;
- 
+  
 
 } 
+
+
+.icon-car img {
+  width: 6%;
+  height: auto;
+  object-fit: contain;
+}
+
 
 
 
