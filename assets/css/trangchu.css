@@ -3247,8 +3247,11 @@ p {
 }
 
 .image-item img {
+
+  right: 38px;
+  position: relative;
   /* width: 50px; */
-  height: 63px;
+  height: 51px;
   margin-bottom: 10px;
 }
 
