@@ -2261,8 +2261,8 @@ z-index: 1;
     font-size: 18px;
     right: 10px;
     color: #f90;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 38%;
+    /* transform: translateY(-50%); */
 
   }
   /*  */
@@ -2347,9 +2347,18 @@ z-index: 1;
 
 
 
-
-
  
+
+
+
+
+
+
+
+
+
+
+
 
 
 
