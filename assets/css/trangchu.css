@@ -4813,6 +4813,7 @@ img.image-car2 {
 }
 
 .choose-your-taxi .chooseetaxi1 {
+  color: #666;
   max-width: 50%;
   text-align: center;
   margin: 0 auto 45px auto;
@@ -4838,6 +4839,7 @@ img.image-car2 {
 }
 
 .choose-your-taxi .card-body p {
+  color: #666;
   display: flex;
   justify-content: space-between;
 }
