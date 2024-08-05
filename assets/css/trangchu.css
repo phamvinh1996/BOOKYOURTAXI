@@ -5126,6 +5126,11 @@ display: block;
 
 .date {
   margin-right: 10px;
+  color: #666;
+}
+
+.name{
+  color: #666;
 }
 
 /* màu hình icon NEW AND LINE */
