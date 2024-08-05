@@ -4202,6 +4202,7 @@ text-align: left;
   text-align: center;
   /* top: -13;
   right: -693px; */
+  color: #666;
 
 }
 
@@ -4229,7 +4230,7 @@ font-weight: bold;
 /* chữ card  */
 .card-title000 {
   position: relative;
-  top: 15px;
+  top: -20px;
   color: #000;
 }
 
@@ -4242,7 +4243,7 @@ font-weight: bold;
   /* Thiết lập font chữ */
   font-size: 16px;
   /* Thiết lập kích thước chữ */
-  color: #333333;
+  color: #666;
   /* Thiết lập màu chữ */
   line-height: 1.5;
   /* Thiết lập độ cao dòng */
@@ -4250,10 +4251,41 @@ font-weight: bold;
   /* Thiết lập căn chỉnh nội dung */
   margin-top: 39px;
   /* Tạo khoảng cách trên */
-  margin-bottom: 10px;
+  margin-bottom: -15px;
   /* Tạo khoảng cách dưới */
+
+  top: -31px;
+  position: relative;
 }
 
+
+.card-text-01{
+
+  font-family: Arial, sans-serif;
+  /* Thiết lập font chữ */
+  font-size: 16px;
+  /* Thiết lập kích thước chữ */
+  color: #666;
+  /* Thiết lập màu chữ */
+  line-height: 1.5;
+  /* Thiết lập độ cao dòng */
+  text-align: left;
+  /* Thiết lập căn chỉnh nội dung */
+  margin-top: 47px;
+  /* Tạo khoảng cách trên */
+  margin-bottom: -3px;
+  /* Tạo khoảng cách dưới */
+
+  top: 1px;
+  position: relative;
+  left: -6px;
+}
+
+
+.card-title-1{
+  position: relative;
+  top: 23px;
+}
 /* footer */
 .background-image {
   background-color: #1c1c1c;
