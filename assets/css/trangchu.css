@@ -3841,12 +3841,13 @@ background-position: left center;
 
 .table-heading000 {
   color: white;
-  font-size: 30px;
+  font-size: 36px;
   margin-top: 0;
   position: relative;
   top: 23px;
-  left: -51px;
+  left: -47px;
   font-weight: bold;
+  line-height: 26px;
 }
 
 /* .company-info01 {
@@ -3875,7 +3876,7 @@ background-position: left center;
 /*  chữ why ride withd  ridek */
 .company-info0-1 {
   position: absolute;
-  left: 80px;
+  left: 99px;
   color: white;
 }
 
