@@ -3693,7 +3693,7 @@ p {
 .section-heading101 h4 span {
   top: 10px;
   position: absolute;
-  left: -11px;
+  left: -29px;
   transform: skew(-20deg, 0deg);
 
 }
@@ -3716,7 +3716,7 @@ p {
 .chon1 {
   position: relative;
   top: -14px;
-  right: -16px;
+  right: -35px;
   color: white;
 }
 
@@ -3804,6 +3804,7 @@ width: 660px;
 height: 753px;
 
 background-position: left center;
+
 }
 
 /* hơn 1ooo khach hang */
