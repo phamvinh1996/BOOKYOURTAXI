@@ -3796,14 +3796,14 @@ p {
   background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
   /* background-size: contain; */
  
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 background-size: left;
 position: relative;
 top: 50px;
 width: 660px;
 height: 753px;
 
-background-position: left center;
+/* background-position:  left; */
 
 }
 
