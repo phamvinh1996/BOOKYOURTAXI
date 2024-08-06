@@ -400,9 +400,11 @@ width: 206px;
     height: 70%;
     position: absolute;
     top: 8%;
-    left: 84%;
+    left: 81%;
     filter: brightness(0) invert(1);
 
+
+   
   }
 
   /* thanh menu */
@@ -768,8 +770,22 @@ width: 206px;
       
       /*  */
       /* CODE THE BOOK 1/2 */
+
+.total-slide{
+  position: relative;
+  left: 7px;
+  top: -8px;
+}
+
+
+
+
+
+
+
       .carousel-indicators li .total-slide {
-        /* content: "/2"; */
+     
+
         font-size: 16px;
         color: #666666;
         font-family: "Space Grotesk", sans-serif;
@@ -3206,7 +3222,7 @@ Ridek Taxi Company! */
 }
 
 .upper-alert-box {
-  height: 70px;
+  /* height: 70px; */
 }
 
 .section-online-book {
@@ -3792,20 +3808,29 @@ p {
 }
 
 /* ảnh bìa 1000 */
-.upper-alert-box {
-  background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
-  /* background-size: contain; */
+     .section-online-Hon1000 {
+  background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png"); 
+background-repeat: no-repeat;
+
+}      
+
+
+/* 
+
+.image-container111 {
  
-  /* background-repeat: no-repeat; */
-background-size: left;
-position: relative;
-top: 50px;
-width: 660px;
-height: 753px;
+  width: 660px;
+  height: 753px; 
+z-index: 1;
+  
+} */
 
-/* background-position:  left; */
 
-}
+
+
+
+
+
 
 /* hơn 1ooo khach hang */
 .orange-table {
@@ -3974,10 +3999,10 @@ text-align: left;
 
 /* code Diệu lê */
 .table-1 {
-  position: relative;
-  background-color: #ffffff;
-  /* Mã màu cho màu trắng (#ffffff) */
-  /* border: 1px solid #ccc;  */
+   position: relative;
+  background-color: #ffffff; 
+
+
 }
 
 .table-1 .slick-slide {
