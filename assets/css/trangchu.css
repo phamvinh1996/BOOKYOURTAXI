@@ -889,7 +889,7 @@ width: 206px;
       
       .previous-word {
         font-size: 17px;
-        color:  rgb(71, 70, 70);
+        /* color:  rgb(71, 70, 70); */
         z-index: 1;
         /* position: relative; */
         /* left: 7%; */
@@ -907,7 +907,7 @@ width: 206px;
         font-size: 17px;
         z-index: 1;
         position: relative;
-        color: rgb(71, 70, 70);
+        /* color: rgb(71, 70, 70); */
         right: -95%;
         /* top: -15px; */
         /* bottom: 30px; */
@@ -938,7 +938,7 @@ width: 206px;
     /* hover */
 
     .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
-      color: black;
+      color: orange;
       text-decoration: none;
       outline: 0;
       opacity: .9;
