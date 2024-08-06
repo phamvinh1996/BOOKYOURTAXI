@@ -994,7 +994,7 @@ width: 206px;
       /*  code css màu nút button book*/
       .button-carousel button {
         /* background-color: black; */
-        background-color: whitesmoke;
+        background-color: white;
         /* Đặt màu nền của nút là đen */
         color: black;
         /* Đặt màu chữ là trắng */
@@ -1024,7 +1024,7 @@ width: 206px;
        bottom: 0;
         /* right: 90%; */
         left: 0;
-        background-color: #f4f5f8;
+        background-color: white;
         /* clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%); */
         z-index: 1;
       }
