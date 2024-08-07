@@ -626,12 +626,29 @@ width: 206px;
         height: 100%;
       }
     
-      .carousel-item img {
+       .carousel-item img {
         object-fit: cover;
         width: 100%;
         height: 100%;
-      }
+      } 
     
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       .carousel-caption {
         color: white;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -2340,13 +2357,11 @@ z-index: 1;
   /* code css mauf icon */
 
   /* tạo kích cỡ lịch */
-  .select2-container--default .select2-selection--single .select2-selection__rendered {
+   .select2-container--default .select2-selection--single .select2-selection__rendered {
     background-color: #333;
     line-height: 50px;
-    /* height: 20px; */
     color: white;
-    /* border: 0; */
-  }
+  } 
 /* code xóa viền trắng đặt xe nhanh */
   .select2-container--default .select2-selection--single{
     border: unset!important;
@@ -2356,7 +2371,10 @@ z-index: 1;
 
 
 
-
+/* xóa hình nút Book You Ride */
+  .select2-selection__arrow {
+    display: none !important;
+  }
 
 
 
