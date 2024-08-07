@@ -4962,9 +4962,41 @@ img.image-car2 {
   margin: 0 auto 45px auto;
 }
 
+/* .choose-your-taxi .nav-pills {
+  justify-content: center;
+} */
+
+
+
 .choose-your-taxi .nav-pills {
   justify-content: center;
 }
+/* màu chữ trỏ chuột hiển thị choossee taxi */
+.choose-your-taxi .nav-pills .nav-link1 {
+  color: #333; /* Màu chữ mặc định */
+  font-weight: normal; /* Trọng lượng chữ bình thường */
+  transition: color 0.3s ease, font-weight 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.choose-your-taxi .nav-pills .nav-link1.active,
+.choose-your-taxi .nav-pills .nav-link1:hover {
+  color: #000; /* Màu đen đậm khi trỏ chuột vào hoặc khi active */
+  font-weight: bold; /* Trọng lượng chữ đậm */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .choose-your-taxi .huynhdai01 {
   position: absolute;
