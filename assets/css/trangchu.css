@@ -2174,7 +2174,7 @@ z-index: 1;
     font-size: 15px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    top: -39px;
+    top: 26px;
   }
 
   .section-heading06 h4 span,
@@ -2210,10 +2210,11 @@ z-index: 1;
 
   .section-online-booking h3 {
     left: 3px;
-    font-size: 30px;
+    font-size: 40px;
     position: relative;
-    color: #e8dede;
-    top: -28px;
+    color: #fff;
+    top: 39px;
+    font-weight: 700;
     /* Màu chữ trắng */
   }
 
@@ -2362,6 +2363,9 @@ z-index: 1;
     padding-left: 10px;
     padding-right: 10px;
     margin-bottom: 20px;
+
+    position: relative;
+    top: 91px;
   }
 
   /* button đặt xe nhanh */
