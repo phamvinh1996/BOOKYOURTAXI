@@ -33,7 +33,14 @@ p {
 }
 
 .call-for-ride {
-  color: white;
+  color: #999;
+}
+
+.find1{
+  color: #ccc;
+}
+.email{
+  color: #999;
 }
 
 .phone-number {
@@ -43,10 +50,14 @@ p {
 
 /*  */
 
-.every1 {
+/* .every1 {
   color: #101114;
-}
+} */
 
+
+.every111 {
+  color: #ccc;
+}
 
 .logoridekft{
 width: 206px;
@@ -59,6 +70,7 @@ width: 206px;
   padding: 10px;
   text-align: left;
   font-size: 20px;
+  color: white;
 }
 
 
@@ -370,7 +382,7 @@ width: 206px;
   .text-bg-dark h5,
   .text-bg-dark p,
   .text-bg-dark a {
-    color: #ffffff;
+    /* color: #999; */
   }
 
   /* nằm chèn mục liên hệ */
