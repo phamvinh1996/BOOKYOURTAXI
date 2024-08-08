@@ -4553,7 +4553,7 @@ font-weight: bold;
   height: auto;
   position: absolute;
   top: 88px;
-  left: -8%;
+  left: 85%;
 }
 
 .content {
@@ -4588,7 +4588,7 @@ font-weight: bold;
 .description {
   position: absolute;
   top: 25px;
-  left: 195px;
+  left: 262px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
 }
@@ -4655,6 +4655,7 @@ button {
   /* Kích cỡ chữ */
   font-weight: 700;
   line-height: 1;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 /*  */
@@ -4920,6 +4921,8 @@ padding-bottom: 5px;
 .row {
   display: flex;
   flex-wrap: wrap;
+  position: relative;
+  top: -80px;
 }
 
 .col {
