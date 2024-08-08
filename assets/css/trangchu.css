@@ -34,13 +34,16 @@ p {
 
 .call-for-ride {
   color: #999;
+  font-weight: 400;
 }
 
 .find1{
-  color: #ccc;
+  color: #999;
+  font-weight: 400;
 }
 .email{
   color: #999;
+  font-weight: 400;
 }
 
 .phone-number {
@@ -56,7 +59,8 @@ p {
 
 
 .every111 {
-  color: #ccc;
+  color: #999;
+  font-weight: 400;
 }
 
 .logoridekft{
@@ -66,12 +70,12 @@ width: 206px;
 
 
 
-.doctt1{
+ .doctt1{
   padding: 10px;
   text-align: left;
   font-size: 20px;
   color: white;
-}
+}  
 
 
 
