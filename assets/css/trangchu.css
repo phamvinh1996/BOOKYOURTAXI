@@ -4136,6 +4136,8 @@ text-align: left;
   color: #898989;
   font-weight: bold;
   font-size: 20px;
+  letter-spacing: -0.5px;
+
 }
 
 .table-1 .slick-slide .user-info {
@@ -4143,9 +4145,9 @@ text-align: left;
 }
 
 .table-1 .slick-slide .user-info .avatar {
-  width: 126px;
-  height: 125px;
-  border-radius: 50%;
+  width: 112px;
+  height: 106px;
+  border-radius: 112%;
   margin-right: 20px;
   overflow: hidden;
 }
@@ -4165,14 +4167,25 @@ text-align: left;
 }
 
 .table-1 .slick-slide .company-info p.ten01 {
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 600;
 }
 
 .table-1 .slick-slide .company-info p.ten02 {
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 500;
+  position: relative;
+  top: -13px;
 
+
+}
+
+.ten05{
+  font-size: 20px;
+  position: relative;
+  top: 11px;
+  color: #000;
+font-weight:  bold;
 }
 
 /* font chữ 1000 */
