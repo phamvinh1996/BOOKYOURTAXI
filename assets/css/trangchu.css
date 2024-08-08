@@ -2989,12 +2989,14 @@ z-index: 1;
 
 /* màu chữ p call us  */
 .white-text {
-  color: white;
+  color: #ccc;
   position: relative;
   transform: translateX(-4%);
   position: absolute;
   right: 28%;
 top: 181px;
+font-weight: 500;
+font-size: 17px;
 }
 
 .img-car {
