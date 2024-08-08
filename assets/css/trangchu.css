@@ -4999,7 +4999,7 @@ img.image-car2 {
 .choose-your-taxi .nav-pills .nav-link1.active,
 .choose-your-taxi .nav-pills .nav-link1:hover {
   color: #000; /* Màu đen đậm khi trỏ chuột vào hoặc khi active */
-  font-weight: bold; /* Trọng lượng chữ đậm */
+  font-weight: 500; /* Trọng lượng chữ đậm */
 }
 
 
