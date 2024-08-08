@@ -3420,6 +3420,9 @@ p {
 .container .row .col-sm-6 h2 {
   color: black;
 
+
+
+
 }
 
 .animated-1 {
@@ -4926,7 +4929,7 @@ padding-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -80px;
+  top: 15px;
 }
 
 .col {
