@@ -837,8 +837,11 @@ width: 206px;
         text-align: text;
         position: relative;
         font-family: "Space Grotesk", sans-serif;
-        font-size: 52px;
+        font-size: 53px;
         top: 13px;
+
+        line-height: 60px;
+        color: #fff;
     
       }
     
