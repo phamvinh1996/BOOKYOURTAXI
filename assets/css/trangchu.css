@@ -1476,7 +1476,7 @@ left: 7px;
     display: block;
    
     animation: fadeIn 1s ease-in-out;
-    color: white;
+    color: #ddd;
     position: relative;
     right: 38px;
   }
