@@ -991,7 +991,7 @@ width: 206px;
     /* hover */
 
     .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
-      color: orange;
+      color: #ff9900;
       text-decoration: none;
       outline: 0;
       opacity: .9;
@@ -1082,7 +1082,7 @@ width: 206px;
         right: -53px;
         position: relative;
         /* height: auto; */
-        color: orange;
+        color: #ff9900;
         background-color: transparent;
         width: auto;
         background-clip: unset;
