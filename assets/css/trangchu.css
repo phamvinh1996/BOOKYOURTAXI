@@ -5166,6 +5166,8 @@ img.image-car2 {
   padding: 11px 16px;
   position: relative;
   top: 17px;
+  color: #fff;
+  font-weight: 500;
 }
 
 .choose-your-taxi .card-body p {
