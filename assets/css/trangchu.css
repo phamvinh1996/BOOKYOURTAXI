@@ -277,7 +277,7 @@ width: 206px;
 
   /* Tạo css thanh Nav ngang Trang chủ, ... */
   .navbar-yellow {
-    left: -1%;
+    left: 2%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -502,7 +502,7 @@ width: 206px;
   position: absolute;
   top: -19%;
   /* Adjust the distance from the top as needed */
-  left: 98%;
+  left: 101%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -518,7 +518,7 @@ width: 206px;
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
-  width: 67%;
+  width: 73%;
   height: 10%;
   z-index: 999;
 }
@@ -727,7 +727,7 @@ width: 206px;
       .chunhat1 {
         position: absolute;
         top: 50%;
-        left: 57%;
+        left: 63%;
         transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
         width: 100px;
         height: 850px;
@@ -738,7 +738,7 @@ width: 206px;
       .chunhatden {
         position: absolute;
         top: -5%;
-        left: 136%;
+        left: 137%;
         transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
         width: 100px;
         height: 650px;
@@ -777,7 +777,7 @@ width: 206px;
       .carousel-caption {
         position: absolute;
         top: 56%;
-        left: 17%;
+        left: 23%;
         width: 50%;
         height: 50%;
         /* transform: translate(40%, 40%);  */
@@ -3196,14 +3196,28 @@ font-size: 17px;
 
 /*  */
 
-.btn {
+
+
+/* Ẩn nút thừa */
+
+
+
+
+
+/* .btn {
   display: inline-block;
   padding: 8px 16px;
-  /* background-color: #d6b10b; */
+  background-color: #d6b10b;
   color: rgb(240, 228, 228);
   text-decoration: none;
   border-radius: 4px;
-}
+
+ 
+}    */
+
+
+
+
 
 .btn-primary:hover {
   background-color: #e9e3df;
