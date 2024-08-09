@@ -1448,6 +1448,7 @@ width: 206px;
     position: relative;
     top: -51px;
     left: -50px;
+    font-weight: 700;
     /* Màu chữ trắng */
   }
 
@@ -1466,7 +1467,7 @@ width: 206px;
     font-size: 17px;
     margin-top: -23px;
     font-family: "Space Grotesk", sans-serif;
-    color: rgb(221, 221, 221);
+    color: #ddd;
 left: 7px;
 
   }
@@ -5206,9 +5207,6 @@ img.image-car2 {
   font-weight: bold;
   margin-bottom: 10px;
 }
-
-
-
 
 
 
