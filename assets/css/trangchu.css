@@ -1621,7 +1621,7 @@ left: 7px;
 
   /* Nut xem them dich vu noi bat */
   .nutxemthem {
-    background-color: orange;
+    background-color: #ff9900;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -1994,7 +1994,7 @@ left: 7px;
     right: 20px;
     width: 60px;
     height: 56px;
-    background-color: #FFA500; /* Màu cam */
+    background-color: #ff9900; /* Màu cam */
     -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
     clip-path: polygon(100% 0, 0 50%, 100% 100%);
     cursor: pointer;
@@ -3250,7 +3250,7 @@ Ridek Taxi Company! */
   top: 48%;
   width: 60px;
   height: 56px;
-  background-color: #FFA500;
+  background-color: #ff9900;
   -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
