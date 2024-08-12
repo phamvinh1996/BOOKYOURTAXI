@@ -1424,16 +1424,15 @@ width: 206px;
   /* Dịch vụ nỗi bật css */
 
   /* CODE DỊCH VỤ NỖI BẬT */
-  .overlay-image {
+  /* .overlay-image {
     animation-play-state: paused;
   }
 
-  .cover-image {
+    .cover-image {
     background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/slider-bg.jpg");
     background-position: left;
     background-repeat: no-repeat;
     height: 600px;
-    /* width: 1900px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1441,8 +1440,48 @@ width: 206px;
     text-align: center;
     color: rgb(227, 215, 215);
     top: 118px;
+    position: relative; 
+    
+
+    
+
+  }    */
+  .cover-image {
+    background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/bg-1.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(227, 215, 215);
     position: relative;
-  }
+    overflow: hidden;
+}
+
+.cover-image .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu tối với độ mờ */
+    z-index: 1;
+}
+
+.cover-image .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+
+    width: 1900px;
+}
+
+
+  
 
   /* chữ màu cam */
 
@@ -1450,6 +1489,8 @@ width: 206px;
   .cart-service {
     position: relative;
     bottom: 140px;
+    z-index: 999;
+    top: -266px;
   }
 
   .cover-image .text {
@@ -1461,8 +1502,8 @@ width: 206px;
   .cover-image .textdichvunoibat {
     color: #fff;
     position: relative;
-    top: -51px;
-    left: -50px;
+    top: -123px;
+    left: 678px;
     font-weight: 700;
     line-height: 50px;
     /* Màu chữ trắng */
@@ -1479,12 +1520,12 @@ width: 206px;
 
   .cover-image p {
     position: relative;
-    top: -29px;
+    top: -10px;
     font-size: 17px;
     margin-top: -23px;
     font-family: "Space Grotesk", sans-serif;
     color: #ddd;
-left: 7px;
+left: 213px;
 
   }
   /* dòng chữ start your journey with ridekcompany */
@@ -1878,13 +1919,16 @@ left: 7px;
   }
 
   .section-heading001 h4 {
-    position: relative;
-    color: #f90;
-    padding-left: 193px;
+    position: absolute;
+    color: #ff9900;
+    padding-left: 883px;
     display: flex;
     line-height: 16px;
-    top: -58px;
+    top: 120px;
     font-size: 17px;
+    z-index: 999;
+
+
   }
 
   .section-heading001 h4 span,
@@ -1901,7 +1945,7 @@ left: 7px;
   .section-heading001 h4 span {
     top: 1px;
     position: absolute;
-    left: 170px;
+    left: 853px;
     transform: skew(-20deg, 0deg);
   }
 
@@ -3174,8 +3218,9 @@ font-size: 17px;
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -426px;
+  top: -636px;
   left: 315px;
+  z-index: 999;
 }
 
 
@@ -3183,8 +3228,9 @@ font-size: 17px;
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -421px;
+  top: -633px;
   left: 1446px;
+  z-index: 999;
 }
 
 
@@ -3279,14 +3325,14 @@ Ridek Taxi Company! */
 .cart-service .slick-next {
   left: -4%;
   position: absolute;
-  top: 52%;
+  top: 37%;
 }  
 
 
 .cart-service .slick-prev {
   left: 97%;
   position: absolute;
-  top: 48%;
+  top: 33%;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
