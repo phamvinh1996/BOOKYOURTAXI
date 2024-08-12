@@ -1645,7 +1645,7 @@ left: 7px;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    top: 8px;
+    top: -3px;
     position: relative;
     left: -1148px;
     transition: background-color 0.3s ease;
@@ -2028,6 +2028,10 @@ left: 7px;
 
 .Transport1{
   color: #666;
+  font-weight: 440;
+  position: relative;
+  top: -10px;
+
 }
 
 
