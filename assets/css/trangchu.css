@@ -1511,7 +1511,7 @@ width: 206px;
   .cover-image .textdichvunoibat {
     color: #fff;
     position: relative;
-    top: 20px;
+    top: 56px;
     left: 678px;
     font-weight: 700;
     line-height: 50px;
@@ -1936,8 +1936,8 @@ left: 213px;
     top: -2px;
     font-size: 17px;
     z-index: 999;
-
-
+    left: -40px;
+    top: 21px;
   }
 
   .section-heading001 h4 span,
