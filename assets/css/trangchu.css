@@ -649,12 +649,9 @@ width: 206px;
   
 
       /* dùng thư viện di chuyển trang book you */
-      .carousel {
-        /* width: 110%; */
+         /* .carousel {
         height: 640px;
-        /* width: 1900px; */
         position: relative;
-        /* left: -23px; */
       }
     
     
@@ -666,9 +663,33 @@ width: 206px;
         object-fit: cover;
         width: 100%;
         height: 100%;
-      } 
-    
+
+
+      }   */
      
+      .carousel {
+        height: 640px; /* Chiều cao của carousel */
+        position: relative;
+        width: 200vw; /* Đảm bảo carousel phủ kín chiều ngang của màn hình */
+        overflow: hidden; /* Ẩn các phần ảnh thừa nếu có */
+    }
+    
+    .carousel-inner {
+        height: 100%;
+        width: 100vw; /* Đảm bảo carousel-inner phủ kín chiều ngang của màn hình */
+    }
+    
+    .carousel-item img {
+        object-fit: cover; /* Giữ tỷ lệ ảnh và cắt để vừa với khung */
+        width: 100vw; /* Đảm bảo ảnh phủ kín chiều ngang của màn hình */
+        height: 100%; /* Chiều cao của ảnh bằng với chiều cao của carousel */
+        display: block;
+    }
+    
+    
+
+      
+  
 
 
 
@@ -680,10 +701,7 @@ width: 206px;
 
 
 
-
-
-
-
+/*  */
 
       .carousel-caption {
         color: white;
@@ -1102,7 +1120,7 @@ width: 206px;
       /* phần code css số trang BOOK */
   
       #carouselExampleFade .carousel-indicators li {
-        right: -53px;
+        right: 225px;
         position: relative;
         /* height: auto; */
         color: #ff9900;
