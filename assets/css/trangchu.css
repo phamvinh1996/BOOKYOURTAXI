@@ -310,6 +310,7 @@ width: 206px;
     z-index: -1;
     /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
 
+
   }
 
   .menu {
@@ -403,8 +404,8 @@ width: 206px;
     /* width: 63%; */
     height: 70%;
     position: absolute;
-    top: 21%;
-    left: 67%; 
+    top: 27px;
+    left: -382px; 
   }
 
   /* nút tìm kiếm thanh nav  */
@@ -419,13 +420,19 @@ width: 206px;
 
 
   .menu-icons .btn-search{
-    width: 50px;
+    width: 41px;
     height: 50px;
     background-color: transparent;
     padding: 0;
     outline: 0;
     border: 0;
     
+
+
+    position: absolute;
+    right: 96px;
+  
+
   }
 
   .menu-icons .btn-search:focus {
@@ -442,11 +449,13 @@ width: 206px;
     border: none;
     background-color: transparent;
     align-items: center;
+
   }
   
   .navbar-dark .navbar-toggler:focus {
     outline: none;
     box-shadow: none;
+
   }
   /* .navbar-dark .navbar-toggler {
 
@@ -5489,8 +5498,9 @@ z-index: 2;
 .side-navbar a {
   position: relative;
   top: 19px;
-  color: #666;
-  font-weight: bold;
+  color: #222;
+  font-weight: 500;
+  /* font-weight: bold; */
   /* text-decoration: none; */
 }
 
@@ -5517,13 +5527,67 @@ z-index: 2;
 }
 
 
-.navbar-toggler01{
-  color: white;
+ /* .navbar-toggler01{
+   color: white;
   background-color: black;
   right: -211px;
     top: 21px;
-    position: absolute;
+    position: absolute; 
+ 
+
+
+}   */
+
+
+/* code css thanh cuộn dấu 3 ghạch */
+.navbar-toggler01 {
+  color: white;
+  background-color: white;
+  right: -211px;
+  top: 21px;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  position: relative;
+  left: 276px;
 }
+
+.navbar-toggler01 .navbar-toggler-icon {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #000000; /* Màu đen */
+  margin: 3px 0;
+  position: relative;
+}
+
+.navbar-toggler01 .navbar-toggler-icon::before,
+.navbar-toggler01 .navbar-toggler-icon::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background-color: #000000; /* Màu đen */
+  position: absolute;
+  left: 0;
+}
+
+.navbar-toggler01 .navbar-toggler-icon::before {
+  top: -6px;
+}
+
+.navbar-toggler01 .navbar-toggler-icon::after {
+  bottom: -6px;
+}
+
+
+/*  */
 
 /* NEW AND LINE */
 
