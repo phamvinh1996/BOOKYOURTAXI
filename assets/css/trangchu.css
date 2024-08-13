@@ -649,8 +649,9 @@ width: 206px;
   
 
       /* dùng thư viện di chuyển trang book you */
-         /* .carousel {
-        height: 640px;
+          .carousel {
+        height: 630px;
+        width: auto; /* Đảm bảo carousel phủ kín chiều ngang của màn hình */
         position: relative;
       }
     
@@ -665,32 +666,11 @@ width: 206px;
         height: 100%;
 
 
-      }   */
+      }    
      
-      .carousel {
-        height: 640px; /* Chiều cao của carousel */
-        position: relative;
-        width: 200vw; /* Đảm bảo carousel phủ kín chiều ngang của màn hình */
-        overflow: hidden; /* Ẩn các phần ảnh thừa nếu có */
-    }
-    
-    .carousel-inner {
-        height: 100%;
-        width: 100vw; /* Đảm bảo carousel-inner phủ kín chiều ngang của màn hình */
-    }
-    
-    .carousel-item img {
-        object-fit: cover; /* Giữ tỷ lệ ảnh và cắt để vừa với khung */
-        width: 100vw; /* Đảm bảo ảnh phủ kín chiều ngang của màn hình */
-        height: 100%; /* Chiều cao của ảnh bằng với chiều cao của carousel */
-        display: block;
-    }
-    
-    
 
-      
-  
-
+ 
+    
 
 
 
@@ -1120,7 +1100,7 @@ width: 206px;
       /* phần code css số trang BOOK */
   
       #carouselExampleFade .carousel-indicators li {
-        right: 225px;
+        right: -51px;
         position: relative;
         /* height: auto; */
         color: #ff9900;
@@ -1250,8 +1230,8 @@ width: 206px;
     margin-left: 70px;
     /* Adjust the value as needed */
 
-    /* top: -106px;
-    position: relative; */
+    top: -99px;
+    position: relative;
   }
 
 
@@ -4132,7 +4112,7 @@ z-index: 1;
 /*  chữ why ride withd  ridek */
 .company-info0-1 {
   position: absolute;
-  left: 99px;
+  left: 19px;
   color: white;
 }
 
@@ -4475,6 +4455,7 @@ font-weight:  bold;
   /* top: -13;
   right: -693px; */
   color: #666;
+  top:-17px;
 
 }
 
@@ -5047,7 +5028,7 @@ padding-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -9px;
+  top: 6px;
 }
 
 .col {
