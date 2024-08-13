@@ -5033,8 +5033,20 @@ padding-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: 44px;
+  top: 43px;
 }
+
+.row-tintuc1{
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -59px;
+
+}
+
+
+
 
 .col {
   flex-basis: 25%;
