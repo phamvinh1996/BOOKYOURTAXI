@@ -1227,7 +1227,7 @@ width: 206px;
   }
 
   .form-group1 {
-    margin-left: 70px;
+    margin-left: 40px;
     /* Adjust the value as needed */
 
     top: -88px;
@@ -3877,7 +3877,7 @@ p {
   top: 20px;
   font-size: 71px;
   position: relative;
-  left:  -381px;
+  left:  -412px;
   color: white;
 }
 
@@ -3885,7 +3885,7 @@ p {
   top: -75px;
   font-size: 71px;
   position: relative;
-  left: -379px;
+  left: -412px;
   color: white;
 
 
@@ -3895,7 +3895,7 @@ p {
   top: 63%;
   font-size: 82px;
   position: absolute;
-  right: 451px;
+  right: 475px;
   color: white;
 }
 
@@ -3909,7 +3909,7 @@ p {
   margin-top: 0;
   position: relative;
   top: -165px;
-  right: 95px;
+  right: 118px;
   font-size: 23px;
 }
 
@@ -4135,16 +4135,16 @@ z-index: 1;
 
 .company-info0-01{
   position: relative;
-  left: 32px;
+  left: 24px;
   color: white;
-  top: -11px;
+  top: -24px;
 }
 
 .company-info00-2{
 
 
   position: relative;
-  left: 37px;
+  left: 26px;
   top: -115px;
   color: white;
 }
@@ -4152,7 +4152,7 @@ z-index: 1;
 
 .company-info0-03{
   position: relative;
-  left: 43px;
+  left: 34px;
   top: -179px;
   color: white;
 }
@@ -4170,8 +4170,8 @@ z-index: 1;
   position: relative;
   color: white;
   font-size: 16px;
-  left: -41px;
-  top: 25px;
+  left: -66px;
+  top: 17px;
 font-size: 23px;
 
 }
@@ -4184,7 +4184,7 @@ font-size: 23px;
   position: relative;
   color: white;
   font-size: 16px;
-  left: -39px;
+  left: -63px;
   top: -77px;
   font-size: 23px;
 }
