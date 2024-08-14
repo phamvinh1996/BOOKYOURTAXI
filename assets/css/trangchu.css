@@ -3959,8 +3959,8 @@ p {
 /* code loi ich dat xe heading101 */
 .chon1 {
   position: relative;
-  top: -14px;
-  right: -35px;
+  top: 0px;
+  right: -9px;
   color: white;
 }
 
@@ -4098,7 +4098,7 @@ z-index: 1;
   margin-top: 0;
   position: relative;
   top: 23px;
-  left: -47px;
+  left: -60px;
   font-weight: bold;
   line-height: 26px;
 }
