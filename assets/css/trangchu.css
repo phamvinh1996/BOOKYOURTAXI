@@ -4847,7 +4847,7 @@ button {
   color: #ff9900;
   /* Màu cam cho "Địa chỉ:" */
   font-weight: bold;
-
+font-size: 14px;
  
 }
 
@@ -4910,6 +4910,7 @@ padding-bottom: 5px;
 
 .address-text {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
+  font-size: 17px;
 }
 
 /* code css ghạch chân liên hệ footer */
