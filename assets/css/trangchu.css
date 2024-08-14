@@ -1230,7 +1230,7 @@ width: 206px;
     margin-left: 70px;
     /* Adjust the value as needed */
 
-    top: -50px;
+    top: -30px;
     position: relative;
   }
 
@@ -4416,7 +4416,7 @@ font-weight:  bold;
   padding-left: 883px;
   display: flex;
   line-height: 16px;
-  top: -82px;
+  top: -61px;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -4470,7 +4470,7 @@ font-weight:  bold;
 /* chu h1 */
 .tintuc1 {
   position: relative;
-  top: -68px;
+  top: -54px;
 }
 
 /* kích cỡ nút tin tức sự kiện */
