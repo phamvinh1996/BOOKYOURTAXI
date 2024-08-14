@@ -5035,7 +5035,7 @@ padding-bottom: 5px;
 .subscribe button {
   padding: 5px 10px;
   background-color: #ff9900;
-  color: black;
+  color: #222;
   border: none;
   cursor: pointer;
   width: 173px;
@@ -5043,6 +5043,7 @@ padding-bottom: 5px;
   top: 42%;
   left: 5%;
   position: absolute;
+  font-weight: 600;
   /* clip-path: polygon(0 0, 100% 0, 100% 80%, 80% 100%, 0 100%); */
 
 
