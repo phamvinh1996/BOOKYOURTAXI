@@ -2321,7 +2321,12 @@ z-index: 1;
   }
 
   /* clip path cắt ảnh */
-  .section-online-booking::after {
+
+
+
+
+
+   .section-online-booking::after {
 
     content: "";
     position: absolute;
@@ -2329,9 +2334,13 @@ z-index: 1;
     right: 0;
     width: 400px;
     height: 80px;
-    background-color: #f4f5f8;
+    background-color: #fff;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
-  }
+  } 
+  
+
+
+
 
   .section-online-booking .img-car {
     position: absolute;
@@ -3055,7 +3064,7 @@ z-index: 1;
   right: 0;
   width: 400px;
   height: 200px;
-  background-color: #f4f5f8;
+  background-color: #fff;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 }
 
