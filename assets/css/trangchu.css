@@ -4877,6 +4877,18 @@ padding-bottom: 5px;
 
 
 
+.row-footer{
+
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  position: relative;
+  top: -39px;
+
+}
+
+
+
 
 
 
@@ -5036,7 +5048,7 @@ padding-bottom: 5px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -45px;
+  top: 16px;
 }
 
 .row-tintuc1{
