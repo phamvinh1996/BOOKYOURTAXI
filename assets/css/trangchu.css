@@ -2552,7 +2552,7 @@ z-index: 1;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: -14px;
+  top: 7px;
 }
 
 .section-heading07 h4 span,
@@ -5253,14 +5253,14 @@ img.image-car2 {
 font-weight: 700;
 font-size: 40px;
 position: relative;
-top: -2px;
+top: 6px;
 }
 
 
 .choose-your-taxi .nav-pills {
   justify-content: center;
   position: relative;
-  top: -31px;
+  top: -17px;
 }
 /* màu chữ trỏ chuột hiển thị choossee taxi */
 .choose-your-taxi .nav-pills .nav-link1 {
