@@ -5720,3 +5720,31 @@ padding: 12px 30px;
   font-size: 16px;
   color: #ff8c00; /* Orange color */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* kích cỡ  website khi xem trên điện thoại */
+
+@media (max-width: 767px) {
+  /* Các quy tắc CSS để điều chỉnh giao diện phù hợp với màn hình nhỏ */
+}
+
+
+
