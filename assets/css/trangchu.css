@@ -5746,10 +5746,11 @@ padding: 12px 30px;
  */
 /* kíchthuoc */
 
- :root {
+:root {
   --font-size-base: 16px;
   --font-size-small: 14px;
   --font-size-large: 20px;
+  --font-size-header: 32px;
   --spacing-base: 16px;
   --spacing-small: 8px;
   --spacing-large: 24px;
@@ -5758,32 +5759,9 @@ padding: 12px 30px;
   --screen-large: 992px;
 }
 
-
-
-
-/* kích cỡ nền  */
+/* xử lý cỡ chữ */
 
 /* Styles for small screens */
-@media (max-width: var(--screen-small)) {
-  body {
-    background-size: cover;
-  }
-}
-
-/* Styles for medium screens */
-@media (min-width: var(--screen-medium)) {
-  body {
-    background-size: contain;
-  }
-}
-
-/* Styles for large screens */
-@media (min-width: var(--screen-large)) {
-  body {
-    background-size: 100% auto;
-  }
-}
-/* kích cỡ chữ/* Styles for small screens */
 @media (max-width: var(--screen-small)) {
   body {
     font-size: var(--font-size-small);
@@ -5799,7 +5777,7 @@ padding: 12px 30px;
     font-size: var(--font-size-base);
   }
   h1 {
-    font-size: var(--font-size-large);
+    font-size: var(--font-size-header);
   }
 }
 
@@ -5809,6 +5787,45 @@ padding: 12px 30px;
     font-size: var(--font-size-base);
   }
   h1 {
-    font-size: calc(var(--font-size-large) * 1.2);
+    font-size: calc(var(--font-size-header) * 1.2);
   }
-} */
+}
+
+/* xử lý cỡ ảnh bìa */
+/* Styles for small screens */
+@media (max-width: var(--screen-small)) {
+  .hero-image {
+    height: 300px;
+    background-size: cover;
+  }
+}
+
+/* Styles for medium screens */
+@media (min-width: var(--screen-medium)) {
+  .hero-image {
+    height: 400px;
+    background-size: cover;
+  }
+}
+
+/* Styles for large screens */
+@media (min-width: var(--screen-large)) {
+  .hero-image {
+    height: 500px;
+    background-size: 100% auto;
+  }
+}
+
+
+/* thanh nav */
+
+
+
+
+
+
+/* Media Queries for Mobile Devices */
+
+
+
+
