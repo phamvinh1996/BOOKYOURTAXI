@@ -5741,10 +5741,74 @@ padding: 12px 30px;
 
 
 /* kích cỡ  website khi xem trên điện thoại */
+ /* @media (max-width: 767px) {
+}  
+ */
+/* kíchthuoc */
 
-@media (max-width: 767px) {
-  /* Các quy tắc CSS để điều chỉnh giao diện phù hợp với màn hình nhỏ */
+ :root {
+  --font-size-base: 16px;
+  --font-size-small: 14px;
+  --font-size-large: 20px;
+  --spacing-base: 16px;
+  --spacing-small: 8px;
+  --spacing-large: 24px;
+  --screen-small: 576px;
+  --screen-medium: 768px;
+  --screen-large: 992px;
 }
 
 
 
+
+/* kích cỡ nền  */
+
+/* Styles for small screens */
+@media (max-width: var(--screen-small)) {
+  body {
+    background-size: cover;
+  }
+}
+
+/* Styles for medium screens */
+@media (min-width: var(--screen-medium)) {
+  body {
+    background-size: contain;
+  }
+}
+
+/* Styles for large screens */
+@media (min-width: var(--screen-large)) {
+  body {
+    background-size: 100% auto;
+  }
+}
+/* kích cỡ chữ/* Styles for small screens */
+@media (max-width: var(--screen-small)) {
+  body {
+    font-size: var(--font-size-small);
+  }
+  h1 {
+    font-size: var(--font-size-large);
+  }
+}
+
+/* Styles for medium screens */
+@media (min-width: var(--screen-medium)) {
+  body {
+    font-size: var(--font-size-base);
+  }
+  h1 {
+    font-size: var(--font-size-large);
+  }
+}
+
+/* Styles for large screens */
+@media (min-width: var(--screen-large)) {
+  body {
+    font-size: var(--font-size-base);
+  }
+  h1 {
+    font-size: calc(var(--font-size-large) * 1.2);
+  }
+} */
