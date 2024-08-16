@@ -5746,7 +5746,7 @@ padding: 12px 30px;
  */
 /* kíchthuoc */
 
-:root {
+ /* :root {
   --font-size-base: 16px;
   --font-size-small: 14px;
   --font-size-large: 20px;
@@ -5757,12 +5757,11 @@ padding: 12px 30px;
   --screen-small: 576px;
   --screen-medium: 768px;
   --screen-large: 992px;
-}
+}  */
 
 /* xử lý cỡ chữ */
-
-/* Styles for small screens */
-@media (max-width: var(--screen-small)) {
+/* 
+ @media (max-width: var(--screen-small)) {
   body {
     font-size: var(--font-size-small);
   }
@@ -5771,7 +5770,6 @@ padding: 12px 30px;
   }
 }
 
-/* Styles for medium screens */
 @media (min-width: var(--screen-medium)) {
   body {
     font-size: var(--font-size-base);
@@ -5781,7 +5779,6 @@ padding: 12px 30px;
   }
 }
 
-/* Styles for large screens */
 @media (min-width: var(--screen-large)) {
   body {
     font-size: var(--font-size-base);
@@ -5789,18 +5786,16 @@ padding: 12px 30px;
   h1 {
     font-size: calc(var(--font-size-header) * 1.2);
   }
-}
+}  */
 
-/* xử lý cỡ ảnh bìa */
-/* Styles for small screens */
-@media (max-width: var(--screen-small)) {
+/* xử lý cỡ ảnh bìa
+ @media (max-width: var(--screen-small)) {
   .hero-image {
     height: 300px;
     background-size: cover;
   }
 }
 
-/* Styles for medium screens */
 @media (min-width: var(--screen-medium)) {
   .hero-image {
     height: 400px;
@@ -5808,13 +5803,12 @@ padding: 12px 30px;
   }
 }
 
-/* Styles for large screens */
 @media (min-width: var(--screen-large)) {
   .hero-image {
     height: 500px;
     background-size: 100% auto;
   }
-}
+}  */
 
 
 /* thanh nav */
@@ -5824,8 +5818,200 @@ padding: 12px 30px;
 
 
 
-/* Media Queries for Mobile Devices */
 
 
 
 
+
+
+
+
+/* khai báo media */
+/* Default styles (for large screens) */
+/* Your default CSS styles go here */
+
+/* Styles for medium screens (tablets) */
+@media (max-width: 991px) {
+  /* Add your tablet-specific styles here */
+}
+
+/* Styles for small screens (phones) */
+@media (max-width: 767px) {
+  /* Add your mobile-specific styles here */
+  
+  /* For example: */
+  .header {
+    padding: 10px;
+  }
+  
+  .logo {
+    max-width: 150px;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .mobile-menu-toggle {
+    display: block;
+  }
+  
+  .hero-content h1 {
+    font-size: 24px;
+  }
+  
+  .feature-item {
+    flex-basis: 50%;
+  }
+}
+
+/* Styles for extra-small screens (smaller phones) */
+@media (max-width: 575px) {
+  /* Add your extra-small mobile-specific styles here */
+  
+  /* For example: */
+  .hero-content h1 {
+    font-size: 20px;
+  }
+  
+  .feature-item {
+    flex-basis: 100%;
+  }
+}
+
+
+
+
+/*  */
+
+
+
+
+
+
+/* THANH CUÔN */
+ /* For mobile devices */
+@media (max-width: 767px) {
+  .side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 999;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+ 
+
+  .side-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+
+
+
+  }
+
+  .side-navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .side-navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .side-navbar a:hover {
+    background-color: #555;
+  }
+
+  .logo000 {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .logo01 {
+    max-height: 10px;
+    margin-left: -50px;
+  }
+
+  .menu-icons {
+    display: inline-block;
+    margin-left: auto;
+  }
+
+  .contact-nav111 {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+}
+
+
+
+
+/* ảnh bìa */
+
+
+
+/* Wrapper */
+.carousel-item {
+  height: 500px; /* Chiều cao ảnh bìa */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ảnh bìa */
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Nội dung ảnh bìa */
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  color: #fff;
+  width: 80%;
+}
+
+/* Tiêu đề */
+.carousel-caption h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+/* Nút */
+.btn-view-more {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 0.25rem;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+  .carousel-item {
+    height: 600px; /* Chiều cao ảnh bìa cho màn hình nhỏ */
+  }
+  .carousel-caption h1 {
+    font-size: 1.5rem; /* Kích thước tiêu đề cho màn hình nhỏ */
+  }
+}
