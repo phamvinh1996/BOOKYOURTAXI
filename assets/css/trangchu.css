@@ -5963,24 +5963,49 @@ padding: 12px 30px;
 
 /* ảnh bìa */
 
+
+
+
+/*  media ảnh bìa book you*/
+
+
+
+
+
+/* Default styles for larger screens */
+/* Media query for smaller screens (mobile) */
 @media (max-width: 767px) {
-  .carousel-item {
-    height: 400px;
+  .carousel-item img.ridek1 {
+    height: 60vh;
   }
 
-  .carousel-caption h1 {
-    font-size: 2rem;
+  .carousel-caption {
+    text-align: center;
+    left: 5%;
+    right: 5%;
   }
 
+  .carousel-caption h4,
+  .carousel-caption h1,
   .carousel-caption p {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
   }
 
-  .carousel-caption .btn {
-    font-size: 1rem;
-    padding: 0.6rem 1.5rem;
+  .carousel-caption .btn-view-more {
+    font-size: 0.8rem;
+    padding: 10px 20px;
+  }
+
+  .chunhat1,
+  .chunhatden {
+    display: none;
+  }
+
+  .img-car {
+    display: none;
   }
 }
+
 
 
 /*  */
