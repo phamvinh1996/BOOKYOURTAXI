@@ -6064,3 +6064,15 @@ padding: 12px 30px;
     width: 100%;
   }
 }
+
+
+
+/* thanh cuộn ẩn dòng chữ  */
+@media (max-width: 767px) {
+  .side-navbar li:not(.logo000) {
+    display: none;
+  }
+}
+
+/*  */
+
