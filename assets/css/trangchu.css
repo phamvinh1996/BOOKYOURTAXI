@@ -6003,3 +6003,64 @@ padding: 12px 30px;
 
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  ẩn thanh logo*/
+
+/* Media query for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+  .logo-container {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+}
+
+
+/* ẩn dòng chữ */
+/* Media query for screens smaller than 768px (mobile devices) */
+@media (max-width: 767px) {
+  .contact-item .text,
+  .contact-item .text-1,
+  .contact-item .text-02,
+  .contact-item .text-03 {
+    display: none;
+  }
+
+  .contact-info {
+    width: 100%;
+  }
+}
