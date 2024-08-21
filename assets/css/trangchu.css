@@ -6463,12 +6463,14 @@ display: none;
   }
 
    .animated {
-    color: #666;
+    color: #fff;
     position: absolute;
     top: 144px;
     /* font-weight: 700; */
     /* line-height: 50px; */
     /* margin-left: -190px; */
+font-size: 13px;
+
 
 
   }
@@ -6476,14 +6478,16 @@ display: none;
 
 
   .second-line{
-    font-size: 15px;
+    font-size: 13px;
     line-height: 1.5;
+
+
   }
 
   .cover-image .wow.bounceInUp .second-line {
 
-   /* margin-left: -190px; */
-   color: #666;
+   margin-left: 30px;
+   color: #fff;
 
 
   }
@@ -6500,10 +6504,11 @@ display: none;
 
 @media (max-width: 767px) {
   .wow.bounceInUp.animated {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.5;
     white-space: normal;
-    margin-top: -38px;
+    margin-top: -58px;
+
   }
 
   .wow.bounceInUp.animated br {
