@@ -6322,3 +6322,108 @@ display: none;
 
   }
 }
+
+
+
+/*  */
+
+/* code css mục feel the diffrent */
+
+
+/* Media Query cho thiết bị di động */
+@media (max-width: 767px) {
+  .image-car1-container,
+  
+   {
+      width: auto; /* Điều chỉnh kích thước theo nhu cầu */
+      height: auto;
+      margin-left: 0px;
+  }
+
+  .image-car2-container{
+    width: auto; /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    margin-left: -300px;
+    margin-top: -130px;
+
+  }
+  .additional-images {
+    width: auto; /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    margin-left: -200px;
+
+  }
+  .Image{
+    margin-left: -200px;
+
+  }
+
+.image-animation{
+  margin-left: -200px;
+
+}
+
+.image-container::after{
+  margin-left: -66px;
+  width: 174px;
+  height: -150px;
+  margin-top: -40px;
+
+}
+  /* .diagonal-line {
+      background: linear-gradient(135deg, transparent 49.5%, orange 49.5%, orange 50.5%, transparent 50.5%);
+  } */
+}
+
+
+
+/*mục ABOUT COMPANY  */
+
+
+
+/* Media Query cho thiết bị di động */
+@media (max-width: 767px) {
+  .section-heading h4,
+  .about-us,
+  .pict1,
+  .ceo101,
+  .ceo1,
+  .image01,
+  .hot1,
+  .color1 {
+      text-align: left; /* Căn trái nội dung chữ */
+  }
+
+  .section-heading,
+  .about-us,
+  .pict1,
+  .ceo101,
+  .ceo1,
+  .image01,
+  .hot1,
+  .color1 {
+      margin-left: 0; /* Loại bỏ khoảng cách bên trái nếu có */
+      margin-right: auto; /* Đảm bảo phần tử không mở rộng ra bên phải */
+      margin-left: -100px;
+  }
+
+  .container {
+      padding-left: 0; /* Loại bỏ padding bên trái nếu có */
+      padding-right: 15px; /* Thêm padding bên phải nếu cần */
+  }
+
+  .ceo101,
+  .ceo1,
+  .image01,
+  .hot1,
+  .color1 {
+      margin-left: 0; /* Loại bỏ margin bên trái nếu có */
+      margin-right: auto; /* Đảm bảo phần tử không mở rộng ra bên phải */
+      width: auto; /* Đảm bảo ảnh không vượt quá chiều rộng của container */
+      margin-left: -80px;
+  }
+}
+
+
+
+
