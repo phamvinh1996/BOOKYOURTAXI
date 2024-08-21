@@ -1488,9 +1488,9 @@ top: -51px;
 .cover-image .content {
     position: relative;
     z-index: 2;
-    color: white;
+    /* color: white; */
 
-    width: 1900px;
+    /* width: 1900px; */
 }
 
 
@@ -1535,10 +1535,10 @@ top: -51px;
     position: relative;
     top: 203px;
     font-size: 17px;
-    margin-top: -23px;
+    /* margin-top: -23px; */
     font-family: "Space Grotesk", sans-serif;
     color: #ddd;
-left: 213px;
+/* left: 213px; */
 
   }
   /* dòng chữ start your journey with ridekcompany */
@@ -6425,5 +6425,92 @@ display: none;
 }
 
 
+/*  */
 
 
+
+
+/* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
+@media (max-width: 767px) {
+  .cover-image {
+    position: relative;
+  }
+
+  .cover-image .textdichvunoibat {
+    color: #fff;
+    position: absolute;
+    top: 36px;
+    left: 31px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+}
+
+/*  */
+
+/* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
+
+
+
+
+
+
+
+/* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
+@media (max-width: 767px) {
+  .cover-image {
+    position: relative;
+  }
+
+   .animated {
+    color: #666;
+    position: absolute;
+    top: 144px;
+    /* font-weight: 700; */
+    /* line-height: 50px; */
+    /* margin-left: -190px; */
+
+
+  }
+ 
+
+
+  .second-line{
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .cover-image .wow.bounceInUp .second-line {
+
+   /* margin-left: -190px; */
+   color: #666;
+
+
+  }
+}
+
+
+  
+
+/*  */
+
+
+
+
+
+@media (max-width: 767px) {
+  .wow.bounceInUp.animated {
+    font-size: 12px;
+    line-height: 1.5;
+    white-space: normal;
+    margin-top: -38px;
+  }
+
+  .wow.bounceInUp.animated br {
+    display: block;
+  }
+
+  .wow.bounceInUp.animated .second-line {
+    display: block;
+  }
+}
