@@ -6519,19 +6519,25 @@ font-size: 13px;
 
 
 /* Ẩn hình ảnh xe ô tô */
+
+
+/* ONLINE BOOKING- book you taxi ride */
+/* Default styles for all devices */
 .img-car {
-  display: none;
+  display: block;
+  animation-duration: 3s;
 }
 
-/* Hiển thị chữ "Book Your Taxi Ride" chỉ trên thiết bị di động */
+/* Media query for mobile devices */
 @media (max-width: 767px) {
-  .section-online-booking h3 {
-    font-size: 24px;
-    margin-top: 20px;
+  .img-car {
+    display: none;
   }
 }
 
+/* Ẩn hình thanh màu cam  ONLINE BOOKING- book you taxi ride */
 
+/* Media query for mobile devices */
 @media (max-width: 767px) {
   .section-online-booking::before {
     display: none;
