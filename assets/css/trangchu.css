@@ -6576,3 +6576,49 @@ font-size: 13px;
     font-size: 16px;
   }
 }
+
+
+/*  */
+
+@media (max-width: 767px) {
+  .section-heading07 h4 {
+    top: -43px;
+  }
+}
+
+/* Dòng chữ choosee your taxi rides  thanh tiêu đề*/
+
+
+@media (max-width: 767px) {
+  .wow.bounceInUp.animated {
+      font-size: 21px;
+      line-height: 1.5;
+      white-space: normal;
+      margin-top: -58px;
+  }
+}
+
+/*  dòng chữ p choosee your taxi*/
+
+@media (max-width: 767px) {
+  .choose-your-taxi .chooseetaxi1 {
+    max-width: 100%;
+    top: 0;
+  }
+}
+
+/* code thanh chọn choosee taxi nằm ngang */
+
+@media (max-width: 767px) {
+  .choose-your-taxi .nav-pills {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    top: 0;
+  }
+
+  .choose-your-taxi .nav-pills .nav-link1 {
+    margin: 0 10px 10px 0;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
