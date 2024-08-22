@@ -6541,5 +6541,38 @@ font-size: 13px;
 @media (max-width: 767px) {
   .section-online-booking::before {
     display: none;
+
+
+  }
+}
+
+/*thẻ chữ h3  ONLINE BOOKING- book you taxi ride */
+
+
+@media (max-width: 767px) {
+  .section-online-booking h3 {
+    font-size: 23px;
+
+  }
+
+  .section-online-booking h3 span {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+}
+/* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
+
+@media (max-width: 767px) {
+  .section-online-booking::after {
+    background-color: #000;
+  }
+}
+
+/* mục kích cỡ nút button ONLINE BOOKING- book you taxi ride  */
+@media (max-width: 767px) {
+  .sumit1 {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
   }
 }
