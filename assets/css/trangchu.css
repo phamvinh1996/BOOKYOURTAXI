@@ -6735,3 +6735,20 @@ font-size: 13px;
 
 /*  */
 
+
+
+/* Kích thước nút button trên thiết bị di động GET STARRT RIDEK */
+@media only screen and (max-width: 767px) {
+  .image-button {
+    width: 400px;
+    height: 56px;
+    margin-right: 30px;
+  }
+}
+
+/*  */
+
+
+
+
+
