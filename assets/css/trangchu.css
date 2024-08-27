@@ -28,7 +28,6 @@
 
 p {
   font-size: 28px;
-  padding: 10px;
   text-align: left;
 }
 
@@ -1229,10 +1228,12 @@ width: 206px;
 
   .form-group1 {
     margin-left: 40px;
+    padding: 110px 40px;
     /* Adjust the value as needed */
-
-    top: -88px;
     position: relative;
+    background-color: #ff9900;
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
   }
 
 
@@ -3056,8 +3057,6 @@ z-index: 1;
   background-color: #1c1c1c;
   background-size: 100%;
   overflow: hidden;
-
-  top: -93px;
 }
 
 .section-online-thepeople::after {
@@ -3877,14 +3876,12 @@ p {
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
 .custom-size {
-  top: 20px;
   font-size: 71px;
   position: relative;
-  left:  -412px;
   color: white;
 }
 
-.custom-size01 {
+/* .custom-size01 {
   top: -75px;
   font-size: 71px;
   position: relative;
@@ -3900,7 +3897,7 @@ p {
   position: absolute;
   right: 475px;
   color: white;
-}
+} */
 
 
 
@@ -3911,8 +3908,6 @@ p {
   font-size: 16px;
   margin-top: 0;
   position: relative;
-  top: -165px;
-  right: 118px;
   font-size: 23px;
 }
 
@@ -3962,9 +3957,8 @@ p {
 /* code loi ich dat xe heading101 */
 .chon1 {
   position: relative;
-  top: 0px;
-  right: -9px;
   color: white;
+  right: -51px;
 }
 
 
@@ -3990,7 +3984,6 @@ p {
 
 h1 {
   color: rgb(15, 11, 11);
-  text-align: center;
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -4062,22 +4055,13 @@ z-index: 1;
 
 
 
+.form-group1 > .orange-table:not(:last-child) {
+  margin-bottom: 30px;
+}
 
 /* hơn 1ooo khach hang */
 .orange-table {
- 
-  background-color: #ff9900;
-  padding: 70px;
-  
   display: flex;
- 
-  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
-  background-size: 10px 10px;
- 
-
-
-
- height: 195px; /* Đặt chiều cao cụ thể */
  
 
 
@@ -4092,7 +4076,7 @@ z-index: 1;
 }
 
 .left-column {
-  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .table-heading000 {
@@ -4100,8 +4084,6 @@ z-index: 1;
   font-size: 36px;
   margin-top: 0;
   position: relative;
-  top: 23px;
-  left: -60px;
   font-weight: bold;
   line-height: 26px;
 }
@@ -4130,20 +4112,23 @@ z-index: 1;
   font-size: 16px;
 } */
 /*  chữ why ride withd  ridek */
-.company-info0-1 {
+/* .company-info0-1 {
   position: absolute;
   left: 19px;
   color: white;
-}
+} */
 
+
+
+.company-info0-1{
+  color: #fafafa;
+}
 .company-info0-01{
   position: relative;
-  left: 24px;
   color: white;
-  top: -24px;
 }
 
-.company-info00-2{
+/* .company-info00-2{
 
 
   position: relative;
@@ -4158,7 +4143,7 @@ z-index: 1;
   left: 34px;
   top: -179px;
   color: white;
-}
+} */
 
 
 
@@ -4173,8 +4158,6 @@ z-index: 1;
   position: relative;
   color: white;
   font-size: 16px;
-  left: -66px;
-  top: 17px;
 font-size: 23px;
 
 }
@@ -4187,8 +4170,6 @@ font-size: 23px;
   position: relative;
   color: white;
   font-size: 16px;
-  left: -63px;
-  top: -77px;
   font-size: 23px;
 }
 
@@ -5335,7 +5316,7 @@ top: 6px;
   display: flex;
   justify-content: space-between;
 
-  margin-bottom: -6px;
+  margin-bottom: 10px;
 }
 
 
@@ -5501,11 +5482,20 @@ z-index: 2;
 
 
 
+/*  mục bảng màu cam ridek passengers */
+
+@media (max-width: 767px) {
+  .table-heading000 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
 
 
 
 
 
+/*  */
 
 
 
@@ -6727,7 +6717,7 @@ font-size: 13px;
     margin-right: 10px;
   }
 
-  .image-item p.easy1 {
+  .image-item p.easy1  {
     font-size: 16px;
     white-space: nowrap;
   }
@@ -6747,6 +6737,31 @@ font-size: 13px;
 }
 
 /*  */
+
+
+
+
+
+/* Media query for devices with a max-width of 767px */
+
+
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media (max-width: 767px) {
+  .orange-table {
+    display: block;
+  }
+
+  .orange-table .left-column,
+  .orange-table .right-column {
+    width: 100%;
+  }
+
+  /* .orange-table + .orange-table {
+    margin-top: 20px;
+  } */
+}
 
 
 
