@@ -3439,7 +3439,7 @@ Ridek Taxi Company! */
 }
 
 .demo2 {
-  background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png");
+  /* background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png"); */
   background-size: contain;
   width: 889px;
   height: 550px;
@@ -6622,3 +6622,116 @@ font-size: 13px;
     font-size: 14px;
   }
 }
+
+
+/* code làm ẩn điện thoại ONLINE BOOKING */
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+  .form-group .car-image,
+  .form-group .phone-image {
+    display: none;
+  }
+
+  .form-group .xeoto {
+    width: 100%;
+    height: auto;
+  }
+}
+/* cpde làm ẩn xe ô tô  ONLONE BOOKING*/
+
+/* CSS for mobile */
+@media (max-width: 767px) {
+  .xeoto {
+    display: none;
+  }
+}
+
+
+/*  */
+
+
+
+/* CSS for mobile */
+@media (max-width: 767px) {
+  .animated-1, .new1 {
+    font-size: 24px;
+    position: relative;
+    top: 50%;
+    left: 8%;
+  }
+}
+
+
+/* Get the ridek mobile media query */
+
+
+
+@media (max-width: 767px) {
+  .animated-1, .new1 {
+    font-size: 24px;
+    display: block;
+    /* text-align: center; */
+    position: relative;
+    left: 50%;
+    transform: translate(-56%, 15%);
+    z-index: 1;
+  }
+
+  .new1 {
+    margin-top: 11px;
+    margin-right: -593px;
+    transform: translate(-20%, -32%);
+
+  }
+}
+
+/* Dòng chữ thẻ p ridek taxi */
+
+
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (max-width: 767px) {
+  .text-overlay {
+    font-size: 18px;
+    margin-right: -60px;
+    z-index: 1;
+  }
+}
+/*  */
+
+
+
+/* Media query for mobile devices */
+
+
+/* Media query for mobile devices */
+@media (max-width: 767px) {
+  .image-item {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-item img {
+    margin-right: 10px;
+  }
+
+  .image-item p.easy1 {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+}
+
+/*  */
+
