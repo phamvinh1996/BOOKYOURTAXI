@@ -284,7 +284,7 @@ width: 206px;
 
   /* Tạo css thanh Nav ngang Trang chủ, ... */
   .navbar-yellow {
-    left: 23%;
+    left: 29%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -294,8 +294,6 @@ width: 206px;
     position: relative;
     top: 43px;
     height: 87px;
-
-
     
   }
 
@@ -544,7 +542,7 @@ width: 206px;
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
   transform: skewX(0deg);
-  width: 50%;
+  width: 45%;
   height: 10%;
   z-index: 999;
 }
