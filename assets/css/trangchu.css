@@ -6820,8 +6820,36 @@ font-size: 13px;
   }
 
 
+/*  */
+
+
+  
+
+
+
+ /* Mặc định ẩn nút  CHỌN MENU TRÊN THANHNAV*/
+.btn-search {
+  display: none; /* Ẩn nút mặc định */
+}
+
+/* Hiển thị nút chỉ trên điện thoại di động */
+@media (max-width: 767px) {
+  .btn-search {
+      display: none; /* Hiển thị trên thiết bị nhỏ hơn 768px */
+  }
+}
 
 
 
 
+  
+    /*code css làm ẩn thanh nav nút BOOKTAXI  */
+
+    /* Hiển thị nút chỉ trên điện thoại di động */
+@media (max-width: 767px) {
+  .contact-nav111 {
+      display: none; /* Hiển thị trên thiết bị nhỏ hơn 768px */
+  
+  }
+}
 
