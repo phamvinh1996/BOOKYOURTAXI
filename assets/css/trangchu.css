@@ -6758,10 +6758,43 @@ font-size: 13px;
     width: 100%;
   }
 
-  /* .orange-table + .orange-table {
+   /* .orange-table + .orange-table {
     margin-top: 20px;
-  } */
+  }  */
 }
+
+
+/*  */
+
+
+
+/* bảng màu cam điện thoại ridke */
+/* Styles cho mobile */
+@media (max-width: 767px) {
+
+
+
+
+  .right-column h1,
+  .right-column p {
+
+    text-align: left;
+   position: relative;
+   right: -71px;
+   top: -60px;
+   font-size: 23px;
+  }
+
+  .chon1 {
+    position: relative;
+    color: white;
+    right: -58px;
+    top: -70px;
+}
+
+  }
+
+
 
 
 
