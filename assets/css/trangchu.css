@@ -751,17 +751,19 @@ width: 206px;
         z-index: 1;
       }
   
-      .chunhatden {
-        position: absolute;
-        top: -5%;
-        left: 137%;
-        transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
-        width: 100px;
-        height: 650px;
-        background-color: rgb(8, 7, 5);
+ 
+    .chunhatden {
+      position: absolute;
+      top: -5%;
+      left: 137%;
+      transform: translate(-50%, -50%) rotate(29deg) skewY(-27deg);
+      width: 100px;
+      height: 650px;
+      background-color: rgb(8, 7, 5);
+  
     
-      }
-    
+  }
+     
       /* code css màu chữ book you p */
     
       /* NÚT LIÊN HỆ BOOK YOUR */
@@ -5988,10 +5990,10 @@ padding: 12px 30px;
   display: inline-block;
 }
   .chunhat1{
-    display: none;
+    display: block;
   }
   .chunhatden{
-    display: none;
+    display: block;
   }
 
   .carousel-caption::before{
@@ -6294,7 +6296,7 @@ display: none;
 /* code thanh trắng media book your */
 /* Styles for desktop */
 .chunhat1 {
-  display: none;
+  display: block;
 }
 
 /* Styles for mobile */
