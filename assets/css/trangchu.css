@@ -6874,7 +6874,7 @@ font-size: 13px;
   }
 } */
 
-
+/* code css START YOUR JONEY */
 
 
 /* Media query cho màn hình nhỏ (điện thoại di động) */
@@ -6938,5 +6938,30 @@ font-size: 13px;
   .cart-service .slick-prev {
     display: block; /* Hide the button on mobile devices */
     left: 30px;
+  }
+}
+
+
+/* get the ridek moblie */
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .overlay-image {
+    display: none; /* Hide the .overlay-image element on mobile devices */
+  }
+}
+
+/*  */
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .section-heading090 h4 {
+    padding-left: 146px; /* Adjust padding to move text left */
+    font-size: 12px; /* Optionally adjust font size for smaller screens */
+    line-height: 14px; /* Optionally adjust line height */
+    top: -40px; /* Adjust top position if needed */
+  }
+
+  .section-heading090 h4 span {
+    left: 123px; /* Adjust position of the span element */
   }
 }
