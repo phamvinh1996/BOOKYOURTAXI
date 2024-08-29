@@ -6853,3 +6853,90 @@ font-size: 13px;
   }
 }
 
+
+/*  */
+
+/* Mặc định ẩn tất cả các card */
+
+
+
+
+/* start your joney */
+/* Media query for mobile devices (max-width: 768px) */
+/* @media screen and (max-width: 768px) {
+  .container .card:not(:first-child) {
+    display: none;
+  }
+  
+  .hinhicon1,
+  .hinhicon2 {
+    display: none;
+  }
+} */
+
+
+
+
+/* Media query cho màn hình nhỏ (điện thoại di động) */
+@media only screen and (max-width: 600px) {
+  /* Hiển thị card đầu tiên */
+  .container.cart-service.slider .card:first-child {
+    display: block;
+  }
+  
+  /* Ẩn tất cả các card khác */
+  .container.cart-service.slider .card:not(:first-child) {
+    display: none;
+  }
+}
+
+
+
+/* nút di chuyển */
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .slick-dots {
+    padding-left: 0; /* Remove existing padding */
+    left: 100px; /* Adjust this value as needed to move it left */
+    margin-top: 10px;
+  }
+}
+
+/*  */
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .cart-service .slick-prev {
+    display: none; /* Hide the button */
+  }
+}
+
+
+/* code css làm ẩn get the ridek moblie */
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .overlay-logo1 {
+    display: none; /* Hide the element */
+  }
+}
+
+
+/*code css làm ẩn nút đen  */
+
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .hinhicon1,
+  .hinhicon2 {
+    display: none; /* Hide the icons on mobile devices */
+  }
+}
+
+
+/* ẩn nút cam ridek joney */
+
+@media only screen and (max-width: 600px) {
+  .cart-service .slick-prev {
+    display: block; /* Hide the button on mobile devices */
+    left: 30px;
+  }
+}
