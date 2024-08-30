@@ -5049,7 +5049,7 @@ padding-bottom: 5px;
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 42%;
+  top: 60%;
   left: 5%;
   position: absolute;
   font-weight: 600;
@@ -6036,7 +6036,11 @@ display: none;
 
 
 
-/*  */
+
+
+
+
+
 
 /* Styles for larger screens */
 
@@ -6963,5 +6967,272 @@ font-size: 13px;
 
   .section-heading090 h4 span {
     left: 123px; /* Adjust position of the span element */
+  }
+}
+
+
+
+/* footer */
+
+/* dòng chữ footer */
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  .description {
+      position: relative; /* Change to static positioning for better responsiveness */
+      top: -129px; /* Reset top positioning */
+      left: auto; /* Reset left positioning */
+      width: 90%; /* Adjust width for better fit on small screens */
+      margin: 0 auto; /* Center the text horizontally */
+      text-align: center; /* Center text alignment */
+      font-size: 16px; /* Adjust font size for better readability */
+  }
+}
+
+/* dòng logo footer media */
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 600px) {
+  .logo-image {
+      float: none; /* Remove float for better responsiveness */
+      position: absolute; /* Change to static positioning for normal flow */
+      width: 213px; /* Adjust width for better fit on small screens */
+      top: 61px; /* Reset top positioning */
+      left: 185px; /* Reset left positioning */
+      display: block; /* Make sure it takes up its own line */
+      margin: 20px auto; /* Center the logo and add margin for spacing */
+  }
+}
+
+
+/*  */
+
+
+
+
+
+/* hình thanh cam */
+
+
+/* Media query for smaller screens (e.g., mobile devices) */
+@media only screen and (max-width: 768px) {
+  .hotline {
+    position: relative;
+    top: 284px;
+    right: auto;
+    width: 100%;
+    height: 86px;
+    white-space: normal;
+    text-overflow: clip;
+    clip-path: none;
+    background-image: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
+
+/*  code css điện thoại hình icon*/
+
+
+@media only screen and (max-width: 768px) {
+  .hotline-image {
+      float: none;
+      position: relative;
+      top: 1px;
+      left: -147px;
+      width: 57px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: -17px;
+  }
+}
+
+
+/* code số điện thoại */
+
+/* Media query for smaller screens (e.g., tablets and mobile devices) */
+@media only screen and (max-width: 768px) {
+  .hotline-text1 {
+    font-size: 20px;
+    top: 47%;
+    left: 48%;
+  }
+}
+
+
+  /*  */
+  /* Media query for extra-small screens */
+@media only screen and (max-width: 480px) {
+  .hotline-text0 {
+    font-size: 18px;
+    top: 47%;
+    left: 18%;
+    white-space: normal;
+    width: 90%;
+  }
+}
+
+/*  */
+
+
+/* Media query for tablets and small screens */
+@media only screen and (max-width: 768px) {
+  /* Stack columns vertically */
+  .row-footer {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .col-3 {
+      /* Adjust column width and layout */
+      width: 100%;
+      margin-bottom: 20px; /* Space between stacked columns */
+  }
+
+  /* Adjust font size and spacing */
+ 
+
+  .opening-label, .contact-info1 {
+      margin-bottom: 10px; /* Space between items */
+  }
+
+  .contact-info1 {
+      /* Ensure text wraps properly */
+      white-space: normal;
+  }
+
+  /* Style adjustments for form elements */
+  #emailInput, #subscribeBtn {
+      width: 100%; /* Full width for form elements */
+      margin-top: 10px; /* Space above the button */
+  }
+}
+
+/* Media query for extra-small screens */
+@media only screen and (max-width: 480px) {
+  /* Further adjustments for very small screens */
+  .opening-hours, .links, .subscribe {
+      font-size: 12px; /* Further reduce font size */
+  }
+
+  .contact-info1 {
+      line-height: 1.4; /* Increase line height for readability */
+  }
+
+  /* Style adjustments for form elements */
+  #emailInput, #subscribeBtn {
+      width: 100%; /* Ensure full width for small screens */
+      margin-top: 8px; /* Adjust spacing for small screens */
+  }
+}
+
+
+/*code css ân dòng chữ  */
+
+
+/* Media query for devices with a screen width of 768px or less */
+@media only screen and (max-width: 768px) {
+  .col-3 .opening-hours {
+      display: none; /* Hide the .opening-hours section */
+  }
+}
+
+
+/* code css chiều dài rộng footer */
+
+
+
+/* Media query for tablets (between 768px and 1024px) */
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+  .background-image {
+    height: 750px; /* Adjust height for tablets */
+  }
+}
+
+/* Media query for mobile devices (less than 768px) */
+@media only screen and (max-width: 768px) {
+  .background-image {
+    height: 800px; /* Adjust height for mobile devices */
+  }
+}
+
+  
+
+/*  */
+
+
+
+
+/* CSS mặc định */
+
+
+
+/* dòng email */
+
+/* Media query cho điện thoại di động */
+@media (max-width: 768px) {
+  .subscribe {
+    flex-direction: row; /* Xếp theo hàng ngang */
+    justify-content: flex-start; /* Căn trái các phần tử */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+    padding: 10px; /* Thêm padding xung quanh */
+    margin-top: 10px;
+  }
+
+  .links-label {
+    margin-right: 10px; /* Khoảng cách giữa nhãn và ô nhập */
+    white-space: nowrap; /* Ngăn dòng chữ xuống hàng */
+  position: relative;
+  top: -41px;
+  }
+
+  #emailInput {
+    flex: 1; /* Chiếm không gian còn lại */
+    min-width: 265px; /* Chiều rộng tối thiểu */
+    position: relative;
+    top: -38px;
+  }
+
+  #subscribeBtn {
+    margin-left: 10px; /* Khoảng cách giữa nút và ô nhập */
+    position: relative;
+    top: -50px;
+    width: 333%;
+    margin-left: 0px;
+  }
+}
+
+
+
+
+/* Dòng chữ footer xuống hàng */
+
+
+/* Media query cho điện thoại di động */
+@media (max-width: 768px) {
+  .footer-text {
+    display: block; /* Đảm bảo chữ xuống hàng */
+  }
+
+  .footer-text::after {
+    content: "Reserved."; /* Thay đổi nội dung */
+    display: block; /* Đảm bảo xuống hàng */
+  }
+}
+
+/*  */
+
+/* Media query cho điện thoại di động */
+@media (max-width: 768px) {
+  .icon-car {
+    flex-direction: row; /* Xếp theo hàng ngang */
+    justify-content: center; /* Căn giữa các hình ảnh */
+    margin-top: 360px;
+  }
+
+  .icon-car img {
+    margin: 0 10px; /* Khoảng cách giữa các hình ảnh */
+    max-width: 80%; /* Chiều rộng tối đa cho hình ảnh */
   }
 }
