@@ -3038,7 +3038,7 @@ z-index: 1;
   margin-bottom: 20px;
   position: absolute;
   top: 278px;
-  left: 154px;
+  left: 71px;
 
 }
 
@@ -3051,7 +3051,7 @@ z-index: 1;
   margin-bottom: 20px;
   position: absolute;
   top: 310px;
-  left: 152px;
+  left: 71px;
   font-weight: 700;
   line-height: 1;
 }
@@ -3107,7 +3107,7 @@ z-index: 1;
 }
 .ride1{
   position: relative;
-  left: -71px;
+  left: 1px;
 }
 
 
@@ -3128,10 +3128,10 @@ z-index: 1;
 .white-text {
   color: #ccc;
   position: relative;
-  transform: translateX(-4%);
-  position: absolute;
-  right: 28%;
-top: 181px;
+  transform: translateX(-8%);
+  /* position: absolute; */
+  /* right: 28%; */
+top: 86px;
 font-weight: 500;
 font-size: 17px;
 }
@@ -3150,9 +3150,9 @@ font-size: 17px;
 
 
 .hotline-image1{
-  left: 61px;
+  left: -50px;
   position: relative;
-  top: 190px;
+  top: 141px;
 }
 
 
@@ -4382,7 +4382,7 @@ font-weight:  bold;
   position: absolute;
   top: 64%;
   left: 138%;
-  transform: translateX(-1427%);
+  transform: translateX(-1586%);
   width: 70px;
   height: 70px;
   line-height: 60px;
@@ -7234,5 +7234,44 @@ font-size: 13px;
   .icon-car img {
     margin: 0 10px; /* Khoảng cách giữa các hình ảnh */
     max-width: 80%; /* Chiều rộng tối đa cho hình ảnh */
+  }
+}
+
+
+/* code css thanh cắt call us */
+
+/* Media query cho điện thoại di động */
+@media (max-width: 768px) {
+  .section-online-thepeople {
+    background-size: contain; /* Thay đổi kích thước cho phù hợp với màn hình */
+    background-position: center; /* Căn giữa hình ảnh */
+  }
+
+  .section-online-thepeople::after {
+    width: 100%; /* Đặt chiều rộng đầy đủ cho mobile */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+  }
+
+  .section-online-thepeople::before {
+    width: 100%; /* Đặt chiều rộng đầy đủ cho mobile */
+    left: 0; /* Đặt lại vị trí cho mobile */
+    top: 0; /* Đặt lại vị trí cho mobile */
+  }
+}
+
+/*  */
+
+/* Media query cho điện thoại di động */
+@media (max-width: 768px) {
+  .title {
+    margin-top: 30px; /* Giảm khoảng cách trên cho di động */
+    transform: translateY(-70px); /* Di chuyển lên trên */
+    transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
+  }
+
+  .white-text {
+    text-align: center; /* Căn giữa văn bản */
+    margin-top: 50px; /* Thêm khoảng cách trên nếu cần */
   }
 }
