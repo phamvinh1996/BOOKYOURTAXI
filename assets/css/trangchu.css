@@ -1550,6 +1550,8 @@ top: -51px;
     color: #ddd;
 /* left: 213px; */
 
+margin-left: 212px;
+
   }
   /* dòng chữ start your journey with ridekcompany */
   .second-line {
@@ -6882,17 +6884,65 @@ font-size: 13px;
 
 
 /* Media query cho màn hình nhỏ (điện thoại di động) */
-@media only screen and (max-width: 600px) {
+ @media only screen and (max-width: 600px) {
   /* Hiển thị card đầu tiên */
-  .container.cart-service.slider .card:first-child {
+   .container.cart-service.slider .card:first-child {
     display: block;
-  }
+  }  
   
   /* Ẩn tất cả các card khác */
   .container.cart-service.slider .card:not(:first-child) {
-    display: none;
+    display: block;
   }
-}
+} 
+
+
+/*  */
+
+
+
+
+
+/* dòng chữ thẻ p Start your joney */
+
+
+ @media (max-width: 767px) {
+  .wow.bounceInUp.animated {
+      font-size: 17px;
+      line-height: 1.5;
+      white-space: normal;
+      margin-top: -58px;
+      margin-left: 1px;
+
+      text-align: center;
+  }
+}  
+
+@media (max-width: 767px) {
+  .second-line {
+      font-size: 17px;
+      line-height: 1.5;
+text-align: center; 
+ }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
