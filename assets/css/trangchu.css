@@ -7491,3 +7491,15 @@ text-align: center;
 
   /* Thêm các kiểu khác nếu cần */
 }
+
+
+
+/*  code làm ẩn hình icon mục logo  muck hình icon call us now*/
+
+
+/* Media query để ẩn icon trên điện thoại di động */
+@media only screen and (max-width: 425px) {
+  .contact-info i {
+      display: none; /* Ẩn tất cả các biểu tượng */
+  }
+}
