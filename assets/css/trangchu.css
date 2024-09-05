@@ -6123,7 +6123,7 @@ display: none;
 
 @media (max-width: 767px) {
   .side-navbar {
-    left: -20px; /* Điều chỉnh độ rộng của thanh cuộn */
+    /* left: -20px; Điều chỉnh độ rộng của thanh cuộn */
     transition: left 0.3s ease;
   }
 
@@ -7543,3 +7543,13 @@ text-align: center;
       margin-right: -140px;
   }
 }
+
+
+/*  */
+
+
+/* Đặt kiểu mặc định cho logo */
+
+
+
+
