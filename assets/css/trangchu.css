@@ -6883,18 +6883,36 @@ font-size: 13px;
 /* code css START YOUR JONEY */
 
 
-/* Media query cho màn hình nhỏ (điện thoại di động) */
- @media only screen and (max-width: 600px) {
-  /* Hiển thị card đầu tiên */
-   .container.cart-service.slider .card:first-child {
-    display: block;
-  }  
-  
-  /* Ẩn tất cả các card khác */
-  .container.cart-service.slider .card:not(:first-child) {
-    display: block;
-  }
-} 
+ 
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*  */
@@ -6928,6 +6946,28 @@ text-align: center;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+/* Định nghĩa kiểu cho các card */
 
 
 
@@ -7375,4 +7415,79 @@ text-align: center;
     top: -5px; /* Điều chỉnh vị trí lên hoặc xuống */
     font-size: 40px; /* Giảm kích thước biểu tượng cho di động */
   }
+}
+
+
+
+/*  */
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+/* code css xem trên điện thoại  kích cỡ full*/
+/* CSS cơ bản cho carousel */
+
+
+/* Media query cho màn hình điện thoại */
+@media only screen and (max-width: 375px) {
+  html, body {
+      width: 375px; /* Đặt chiều rộng tối đa */
+      overflow-x: hidden; /* Ẩn cuộn ngang */
+  }
+
+  /* Các kiểu khác cho các phần tử */
+  .container {
+      padding: 10px;
+      width: 100%; /* Đảm bảo chiều rộng là 100% */
+  }
+
+  h1 {
+      font-size: 24px; /* Kích thước chữ cho tiêu đề */
+  }
+
+  p {
+      font-size: 16px; /* Kích thước chữ cho đoạn văn */
+  }
+
+  /* Thêm các kiểu khác nếu cần */
+}
+
+
+/* code xem trên responsive */
+
+
+
+/* Media query cho màn hình với chiều rộng tối đa 425px */
+@media only screen and (max-width: 425px) {
+  html, body {
+      width: 100%; /* Đảm bảo chiều rộng là 100% */
+      overflow-x: hidden; /* Ẩn cuộn ngang */
+  }
+
+  /* Các kiểu khác cho các phần tử */
+  .container {
+      padding: 10px;
+      width: 100%; /* Đảm bảo chiều rộng là 100% */
+  }
+
+  h1 {
+      font-size: 26px; /* Kích thước chữ cho tiêu đề */
+  }
+
+  p {
+      font-size: 18px; /* Kích thước chữ cho đoạn văn */
+  }
+
+  /* Thêm các kiểu khác nếu cần */
 }
