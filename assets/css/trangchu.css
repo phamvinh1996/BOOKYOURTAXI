@@ -7503,3 +7503,15 @@ text-align: center;
       display: none; /* Ẩn tất cả các biểu tượng */
   }
 }
+
+
+/* code css ẩn thanh đen ảnh bìa book your */
+
+@media (max-width: 767px) {
+  .chunhatden {
+      display: none;
+  }
+}
+
+/*  */
+
