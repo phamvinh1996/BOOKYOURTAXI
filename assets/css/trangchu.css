@@ -5466,10 +5466,12 @@ display: block;
 }
 .logo01{
 
-  top: -36px;
-  left: -610px;
-  position: relative;
+  /* top: -36px; */
+  /* left: -610px; */
+  /* position: relative; */
   width: 188px;
+  margin-left: -809px;
+  margin-top: -50px;
 }
 
 
@@ -5982,6 +5984,22 @@ padding: 12px 30px;
 
 /* ảnh bìa */
 /* CSS cho thanh cuộn và logo */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -7560,3 +7578,13 @@ text-align: center;
 /* CSS cho logo chỉ hiển thị trên điện thoại */
 
 
+/* logo book you  */
+
+@media (max-width: 767px) {
+  .logo01 {
+      max-height: 40px;
+      margin-left: -156px;
+      margin-top: -30px;
+      height: auto;
+  }
+}
