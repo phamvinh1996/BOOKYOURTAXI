@@ -7671,8 +7671,22 @@ text-align: center;
 /* Media Query cho thiết bị di động */
 @media (max-width: 768px) {
   .navbar {
-      width: 70%;     /* Chiều rộng 100% trên thiết bị di động */
-      height: auto;    /* Chiều cao tự động để phù hợp với nội dung */
-      padding: 10px;   /* Thêm padding để tạo khoảng cách bên trong */
+      width: 70%;     
+      height: auto;    
+      padding: 10px;  
+      background-color: white;
   }
-}
+} 
+
+/*  */
+
+
+
+
+
+
+
+/*  */
+
+
+
