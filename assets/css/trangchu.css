@@ -7684,3 +7684,115 @@ text-align: center;
 
 
 
+
+
+
+/* cpde css thanh cuộn tranhc chính */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between; /* Sắp xếp logo và menu */
+  align-items: center;
+  background-color: #ffffff;
+  height: 80px;
+  padding: 0 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transition: top 0.3s; /* Hiệu ứng chuyển động khi ẩn và hiện */
+  z-index: 1000;
+}
+
+nav.menu {
+  flex: 1;
+}
+
+.scroll-menu {
+  display: flex;
+  overflow-x: auto; /* Tạo thanh cuộn ngang nếu cần */
+  white-space: nowrap; /* Đảm bảo các liên kết nằm trên một dòng */
+  padding: 10px 0;
+  background-color: #f1f1f1;
+  margin-left: 501px;
+}
+
+.scroll-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.scroll-menu a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+  color: #000;
+}
+
+.logo-0{
+  overflow: auto; /* Cho phép thanh cuộn xuất hiện nếu cần */
+  max-height: 200px; /* Đặt chiều cao tối đa cho phần tử */
+
+  width: 110px; /* Chiều rộng của thanh cuộn dọc */
+  height: 50px; /* Chiều cao của thanh cuộn ngang */
+  margin-top: 100px;
+  position: relative;
+  left: 290px;
+
+}
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+main {
+  padding-top: -80px; /* Đảm bảo nội dung không bị che khuất bởi header */
+}
+
+/* Header ẩn khi cuộn lên và hiện khi cuộn xuống */
+.header-hidden {
+  top: -100px; /* Ẩn header khi cuộn lên */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* code css ẩn trên điện thoại thanh */
+@media (max-width: 768px) {
+  header {
+    display: none; /* Ẩn header trên điện thoại */
+  }
+}
+
+
+/*  */
+
+
+
+
+
