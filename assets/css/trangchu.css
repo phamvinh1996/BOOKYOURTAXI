@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -66px;
 }
@@ -7724,7 +7724,7 @@ nav.menu {
   overflow-x: auto; /* Tạo thanh cuộn ngang nếu cần */
   white-space: nowrap; /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  background-color: #f1f1f1;
+  background-color: white;
   margin-left: 501px;
 }
 
@@ -7767,7 +7767,7 @@ main {
 
 /* Header ẩn khi cuộn lên và hiện khi cuộn xuống */
 .header-hidden {
-  top: -100px; /* Ẩn header khi cuộn lên */
+  top: -80px; /* Ẩn header khi cuộn lên */
 
 }
 
@@ -7795,4 +7795,27 @@ main {
 
 
 
+
+/* Basic styling for the header */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  transition: top 0.3s ease-in-out;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+}
+
+/* Styling the scroll menu */
+.scroll-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Hidden class to move the header out of view */
+header.hidden {
+  top: -100px; /* Adjust based on your header height */
+}
 
