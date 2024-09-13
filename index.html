@@ -190,6 +190,7 @@
 
 
 <header>
+  <nav class="side-navbar show"id="nav-scroll">
   <div class="logo">
     <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo"class="logo-0">
   </div>
@@ -218,7 +219,17 @@
 </header> 
 
 
+ <script>
+  window.addEventListener('scroll', function () {
+    var navbar = document.getElementById('nav-scroll');
+    if (window.scrollY > 250) {
+      navbar.classList.add('show');
+    } else {
+      navbar.classList.remove('show');
+    }
+  });
 
+</script> 
 
 
 
@@ -1781,7 +1792,16 @@
 
 
 
+<!-- code js thanh cuộn -->
+<script>
 
+$( "p" ).clone().appendTo( document.body );
+$( "p" ).clone().appendTo( document.body );
+$( "p" ).clone().appendTo( document.body );
+$( window ).on( "scroll", function() {
+  $( "span" ).css( "display", "inline" ).fadeOut( "slow" );
+} );
+</script>
 
 
 

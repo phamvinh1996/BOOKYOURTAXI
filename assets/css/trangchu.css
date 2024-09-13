@@ -5439,6 +5439,7 @@ display: block;
   display: flex;
   align-items: center;
   /* display: none; */
+  margin-top: -70px;
 
 
 }
@@ -7686,7 +7687,6 @@ text-align: center;
 
 
 
-
 /* cpde css thanh cuộn tranhc chính */
 * {
   margin: 0;
@@ -7699,9 +7699,9 @@ body {
   background-color: #f4f4f4;
 }
 
-header {
+/* header {
   display: flex;
-  justify-content: space-between; /* Sắp xếp logo và menu */
+  justify-content: space-between; 
   align-items: center;
   background-color: #ffffff;
   height: 80px;
@@ -7711,9 +7711,9 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  transition: top 0.3s; /* Hiệu ứng chuyển động khi ẩn và hiện */
+  transition: top 0.3s; 
   z-index: 1000;
-}
+} */
 
 nav.menu {
   flex: 1;
@@ -7721,11 +7721,12 @@ nav.menu {
 
 .scroll-menu {
   display: flex;
-  overflow-x: auto; /* Tạo thanh cuộn ngang nếu cần */
+  /* overflow-x: auto; Tạo thanh cuộn ngang nếu cần */
   white-space: nowrap; /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  background-color: white;
-  margin-left: 501px;
+  /* background-color: white; */
+  margin-left: 623px;
+  margin-top: -152px;
 }
 
 .scroll-menu a {
@@ -7750,7 +7751,7 @@ nav.menu {
 
   width: 110px; /* Chiều rộng của thanh cuộn dọc */
   height: 50px; /* Chiều cao của thanh cuộn ngang */
-  margin-top: 100px;
+  margin-top: 73px;
   position: relative;
   left: 290px;
 
@@ -7782,7 +7783,8 @@ main {
 
 
 
-/* code css ẩn trên điện thoại thanh */
+
+/* code css ẩn trên điện thoại  trắng  */
 @media (max-width: 768px) {
   header {
     display: none; /* Ẩn header trên điện thoại */
@@ -7796,26 +7798,9 @@ main {
 
 
 
-/* Basic styling for the header */
-header {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #fff;
-  z-index: 999;
-  transition: top 0.3s ease-in-out;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px 20px;
-}
 
-/* Styling the scroll menu */
-.scroll-menu {
-  display: flex;
-  justify-content: space-around;
-}
 
-/* Hidden class to move the header out of view */
-header.hidden {
-  top: -100px; /* Adjust based on your header height */
-}
+
+
+
 
