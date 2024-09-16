@@ -5338,6 +5338,7 @@ top: 6px;
   top: 17px;
   color: #fff;
   font-weight: 500;
+  left: 10px;
 }
 
 .choose-your-taxi .card-body p {
@@ -7801,14 +7802,11 @@ main {
 
 
 
-/* Navbar */
-.navbar-colright1 {
-  
+
+/* code css nút search trên thanh cuộn */
+
+
+.btn {
   position: relative;
-  right: -1051px;
-  top: -108px;
-  color: white; /* Màu chữ trắng */
-
+  right: -147px;
 }
-
-
