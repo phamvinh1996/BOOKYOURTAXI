@@ -612,6 +612,7 @@ width: 206px;
 .navbar-colright {
   height: 53px;
   width: 53px;
+  color: #ff9900;
 }
 
 .nav.navbar.navbar-dark.bg-dark {
@@ -6859,7 +6860,7 @@ font-size: 13px;
 
  /* Mặc định ẩn nút  CHỌN MENU TRÊN THANHNAV*/
 .btn-search {
-  display: none; /* Ẩn nút mặc định */
+  display: block; /* Ẩn nút mặc định */
 }
 
 /* Hiển thị nút chỉ trên điện thoại di động */
@@ -7800,7 +7801,14 @@ main {
 
 
 
+/* Navbar */
+.navbar-colright1 {
+  
+  position: relative;
+  right: -1051px;
+  top: -108px;
+  color: white; /* Màu chữ trắng */
 
-
+}
 
 
