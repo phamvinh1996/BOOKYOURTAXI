@@ -7589,7 +7589,7 @@ text-align: center;
   .logo01 {
       max-height: 40px;
       margin-left: -12px;
-      margin-top: 22px;
+      margin-top: 2px;
       height: auto;
   }
 }
@@ -8093,5 +8093,19 @@ main {
       height: auto;
       padding: 10px;
       /* background-color: white; */
+  }
+}
+
+/* cpde carousel chữ media query */
+
+@media (max-width: 767px) {
+  .carousel-caption {
+      position: absolute;
+      top: 57%;
+      left: 59%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      width: 90%;
   }
 }
