@@ -484,9 +484,9 @@ width: 206px;
 
   .collapse {
     display: none;
-    width: 200px;
+    /* width: 200px; */
     /* Set the desired width */
-    height: 850px;
+    height: 500px;
     /* Set the desired height */
   }
 
@@ -7651,7 +7651,7 @@ text-align: center;
   .navbar-nav {
       flex-direction: column; /* Xếp dọc các mục menu */
       margin-left: 0; /* Không có khoảng cách bên trái */
-      width: 100%; /* Đặt chiều rộng 100% cho navbar */
+       /* width: 100%; Đặt chiều rộng 100% cho navbar */ */
   }
 
   .nav-link {
@@ -7679,7 +7679,7 @@ text-align: center;
       width: 70%;     
       height: auto;    
       padding: 10px;  
-      background-color: white;
+      /* background-color: white; */
   }
 } 
 
@@ -7860,4 +7860,238 @@ main {
 .custom-toggler {
   border: none;
   background-color: transparent;
+}
+
+
+/*  */
+
+/* code css tạo bảng */
+
+/*  Base Styles
+ */
+/* 
+.menu-table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white; 
+  border: 2px solid black; 
+}
+
+.menu-item {
+  border-bottom: 1px solid black; 
+}
+
+.menu-item:last-child {
+  border-bottom: none; 
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: black; 
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black; 
+  background-color: white; 
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa; 
+  color: black; 
+
+.navbar-nav .nav-link {
+  padding-right: 282px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+}
+
+@media (max-width: 768px) {
+  .menu-table {
+    border: 1px solid black; 
+  }
+
+  .menu-item {
+    border-bottom: 1px solid black; 
+  }
+
+  .nav-link {
+    padding: 10px; 
+    font-size: 0.9rem; 
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+      margin-left: 0;
+      /* width: 138%; */
+      /* margin-top: 37px;
+  }
+}   */ */
+
+/* ------------- */
+
+
+
+
+/* code css tạo bảng */
+
+
+.menu-table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white; 
+  border: 2px solid black; 
+}
+
+.menu-item {
+  border-bottom: 1px solid black; 
+}
+
+.menu-item:last-child {
+  border-bottom: none; 
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: black; 
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black; 
+  background-color: white; 
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa; 
+  color: black;
+
+
+.navbar-nav .nav-link {
+  padding-right: 282px;
+  padding-left: 0;
+  font-weight: bold;
+}
+
+}
+
+@media (max-width: 768px) {
+  .menu-table {
+    border: 1px solid black; 
+  }
+
+  .menu-item {
+    border-bottom: 1px solid black; 
+  }
+
+  .nav-link {
+    padding: 10px; 
+    font-size: 0.9rem; 
+  }
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+      flex-direction: column;
+      margin-left: 0;
+
+      width: 387px;
+        margin-top: 44px;
+  }
+}
+      /* width: 138%; */
+      /* margin-top: 37px;
+  }
+}   
+
+/* ------------- */
+
+
+
+
+
+/* CSS cho ảnh bìa */
+
+
+
+
+
+
+/* code css media bảng chọn xem trên điện thoại */
+/* CSS cho ảnh bìa */
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+
+
+
+  .banner {
+    position: relative; /* Để chèn navbar lên ảnh */
+  }
+  
+  .banner-image {
+    width: 100%; /* Ảnh bìa chiếm toàn bộ chiều rộng */
+    height: auto; /* Tự động điều chỉnh chiều cao */
+  }
+  
+  /* CSS cho navbar */
+  .navbar {
+    position: absolute; /* Để navbar chèn lên ảnh bìa */
+    top: 0; /* Ghim navbar ở trên cùng */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Đảm bảo navbar nằm trên cùng */
+    background-color: rgba(255, 255, 255, 0.8); /* Nền trong suốt cho navbar */
+  }
+  
+
+
+
+
+/* nút trên bảng */
+  .navbar-toggler {
+    float: right;
+    margin: -30px;
+    width: 130px;
+    /* Set the desired width */
+    height: 40px;
+    /* Set the desired height */
+  }
+
+
+
+
+
+
+
+
+  .navbar-nav {
+      flex-direction: column; /* Xếp dọc các mục trong navbar */
+      text-align: center; /* Căn giữa văn bản */
+  }
+
+  .nav-item {
+      margin: 5px 0; /* Khoảng cách giữa các mục */
+  }
+
+  .navbar-toggler {
+      margin-left: auto; /* Đẩy nút toggle sang bên phải */
+  }
+
+  .navbar-brand {
+      display: none; /* Ẩn thương hiệu trong navbar trên thiết bị di động */
+  }
+}
+
+
+/*  */
+@media (max-width: 768px) {
+  .navbar {
+      width: 99%;
+      height: auto;
+      padding: 10px;
+      /* background-color: white; */
+  }
 }
