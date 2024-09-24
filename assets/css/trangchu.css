@@ -6424,14 +6424,15 @@ display: none;
  .carousel-control-next {
       padding: 5px 15px; /* Thu nhỏ padding cho phù hợp với điện thoại di động */
       margin-left: -110px; /* Thêm khoảng cách giữa các nút nếu cần */
-      margin-top: -76px;
+      /* margin-top: -76px; */
   }
 
 
-  .carousel-control-prev {
-
-    margin-top: -76px;
-}
+   .carousel-control-prev {
+    padding: 5px 15px; /* Thu nhỏ padding cho phù hợp với điện thoại di động */
+   
+    /* margin-top: -76px; */
+} 
 
 
   i {
