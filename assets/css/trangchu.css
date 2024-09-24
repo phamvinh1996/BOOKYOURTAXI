@@ -490,6 +490,26 @@ width: 206px;
     /* Set the desired height */
   }
 
+/* code css kích cỡ bảng xem media */
+  @media (max-width: 767px) {
+    /* Đặt .collapse không hiển thị mặc định */
+    .collapse {
+      display: none;
+      height: 300px; /* Điều chỉnh chiều cao tự động */
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
   .show {
     display: block;
   }
@@ -6030,6 +6050,8 @@ padding: 12px 30px;
 
   .carousel-caption h1 {
     font-size: 16px;
+    line-height: 36px;
+    top: -11px;
   }
 
   .carousel-caption p {
@@ -6241,7 +6263,7 @@ display: none;
 
   .carousel-caption {
     position: absolute;
-    top: 50%;
+    top: 71%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -8101,7 +8123,7 @@ main {
 @media (max-width: 767px) {
   .carousel-caption {
       position: absolute;
-      top: 57%;
+      top: 71%;
       left: 59%;
       transform: translate(-50%, -50%);
       text-align: center;
