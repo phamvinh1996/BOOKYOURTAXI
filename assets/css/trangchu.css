@@ -693,11 +693,17 @@ width: 206px;
         width: 100%;
         height: 100%;
 
-
       }    
      
 
- 
+
+/* code css media bảng trắng */
+ @media (max-width: 767px) {
+  /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
+  .carousel-inner {
+    height: 151vh; /* 100% chiều cao màn hình */
+  }
+}
     
 
 
@@ -1103,6 +1109,65 @@ width: 206px;
         /* Xóa viền xung quanh nút khi được tập trung */
       }
     
+/*  */
+
+
+
+
+/* code css media query ẩn nút trắng */
+.button-carousel button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px;
+}
+
+/* Trên điện thoại (dưới 768px) */
+@media (max-width: 768px) {
+  .button-carousel button {
+      background-color: transparent; /* Ẩn màu nền nút */
+      color: black; /* Chữ vẫn hiển thị */
+      border: none; /* Bỏ viền nếu có */
+  }
+}
+
+/* Trên màn hình lớn hơn (trên 768px) */
+@media (min-width: 769px) {
+  .button-carousel button {
+      background-color: white; /* Màu nền nút hiển thị lại */
+      color: black; /* Giữ màu chữ */
+      border: none; /* Giữ viền nếu có */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*  */
       /* clip path cắt ảnh boook you */
       .carousel-inner::after {
         content: "";
@@ -1159,6 +1224,36 @@ width: 206px;
         right: auto;
       }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*  */
+      @media (max-width: 767px) {
+        #carouselExampleFade .carousel-indicators li {
+          right: -33px; /* Đưa chỉ báo vào trong màn hình */
+          position: relative;
+          color: #ff9900;
+          background-color: transparent;
+          width: auto;
+          background-clip: unset;
+          text-indent: 0;
+          top: 116px; /* Điều chỉnh vị trí trên dưới cho di động */
+          height: auto;
+          font-size: 20px; /* Giảm kích thước font chữ cho di động */
+          padding: 5px; /* Thêm khoảng cách cho chỉ báo */
+        }
+      }      
   /* nut tim kiem */
   /* code css giới thiệu về chúng tôi */
   /*  Code chi cột về chúng tôi*/
@@ -6274,8 +6369,9 @@ display: none;
   .carousel-caption h4 {
     font-size: 18px;
     margin-bottom: 5px;
-    margin-top: -21px;
+    margin-top: -71px;
     margin-right: -140px;
+
   }
 
   .carousel-caption h1 {
@@ -6292,7 +6388,7 @@ display: none;
   }
 
   .carousel-item img {
-    height: 491px;
+    height: 641px;
     object-fit: cover;
 
   }
@@ -6382,7 +6478,7 @@ display: none;
   .chunhat1 {
     display: block;
     position: absolute;
-    top: 486px;
+    top: 607px;
     left: 63px;
     width: 100%;
     height: 100px;
@@ -7571,7 +7667,7 @@ text-align: center;
   .chunhat1 {
       display: block;
       position: absolute;
-      top: 486px;
+      top: 607px;
       left: 63px;
       width: 100%;
       height: 100px;
@@ -7588,7 +7684,7 @@ text-align: center;
   .carousel-caption h4 {
       font-size: 18px;
       margin-bottom: 5px;
-      margin-top: -102px;
+      margin-top: -70px;
       margin-right: -140px;
   }
 }
