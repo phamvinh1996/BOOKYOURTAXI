@@ -1114,32 +1114,6 @@ width: 206px;
 
 
 
-/* code css media query ẩn nút trắng */
-.button-carousel button {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 10px;
-}
-
-/* Trên điện thoại (dưới 768px) */
-@media (max-width: 768px) {
-  .button-carousel button {
-      background-color: transparent; /* Ẩn màu nền nút */
-      color: black; /* Chữ vẫn hiển thị */
-      border: none; /* Bỏ viền nếu có */
-  }
-}
-
-/* Trên màn hình lớn hơn (trên 768px) */
-@media (min-width: 769px) {
-  .button-carousel button {
-      background-color: white; /* Màu nền nút hiển thị lại */
-      color: black; /* Giữ màu chữ */
-      border: none; /* Giữ viền nếu có */
-  }
-}
-
 
 
 
@@ -4143,7 +4117,7 @@ h1 {
 
 .slide {
   flex: 0 0 100%;
-  padding: 20px;
+  padding: 3px;
   box-sizing: border-box;
 
 
@@ -6450,13 +6424,13 @@ display: none;
  .carousel-control-next {
       padding: 5px 15px; /* Thu nhỏ padding cho phù hợp với điện thoại di động */
       margin-left: -110px; /* Thêm khoảng cách giữa các nút nếu cần */
-      margin-top: -130px;
+      margin-top: -76px;
   }
 
 
   .carousel-control-prev {
 
-    margin-top: -130px;
+    margin-top: -76px;
 }
 
 
@@ -6467,6 +6441,25 @@ display: none;
 
 
 /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* code thanh trắng media book your */
 /* Styles for desktop */
 .chunhat1 {
