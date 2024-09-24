@@ -8221,3 +8221,57 @@ main {
       width: 90%;
   }
 }
+
+
+
+/*  */
+
+
+
+/* Media query 
+
+
+
+
+
+
+/* code css media query dấu 3 ghạch  */
+/* Định dạng chung cho nút hamburger */
+
+/* Định dạng chung cho biểu tượng hamburger */
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px; /* Kích thước chiều ngang của biểu tượng */
+  height: 25px; /* Kích thước chiều cao */
+}
+
+/* Định dạng cho các thanh gạch */
+.bar {
+  display: block;
+  height: 4px; /* Chiều cao của mỗi thanh gạch */
+  background-color: #666; /* Màu của thanh gạch */
+  transition: all 0.3s ease;
+}
+
+/* Media query - chỉ hiện nút hamburger trên thiết bị di động (dưới 768px) */
+@media (max-width: 768px) {
+  .navbar-toggler {
+      display: block; /* Chỉ hiển thị trên màn hình nhỏ */
+  }
+
+  /* Tạo các thanh có kích thước khác nhau */
+  .bar1 {
+      width: 18px; /* Thanh dài nhất */
+  }
+  .bar2 {
+      width: 38px; /* Thanh giữa ngắn hơn */
+  }
+  .bar3 {
+      width: 23px; /* Thanh cuối cùng ngắn nhất */
+      position: relative;
+      right: -18px;
+
+  }
+}
