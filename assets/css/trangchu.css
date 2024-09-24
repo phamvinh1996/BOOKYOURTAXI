@@ -6272,7 +6272,7 @@ display: none;
   }
 
   .carousel-caption h4 {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 5px;
     margin-top: -21px;
     margin-right: -140px;
@@ -7586,7 +7586,7 @@ text-align: center;
 
 @media (max-width: 767px) {
   .carousel-caption h4 {
-      font-size: 16px;
+      font-size: 18px;
       margin-bottom: 5px;
       margin-top: -102px;
       margin-right: -140px;
