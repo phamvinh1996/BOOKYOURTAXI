@@ -8163,14 +8163,12 @@ main {
 
 
 /* nút trên bảng */
-  .navbar-toggler {
+   .navbar-toggler {
     float: right;
     margin: -30px;
     width: 130px;
-    /* Set the desired width */
     height: 40px;
-    /* Set the desired height */
-  }
+  } 
 
 
 
@@ -8179,23 +8177,23 @@ main {
 
 
 
-  .navbar-nav {
-      flex-direction: column; /* Xếp dọc các mục trong navbar */
-      text-align: center; /* Căn giữa văn bản */
+   .navbar-nav {
+      flex-direction: column; 
+      text-align: center; 
   }
 
   .nav-item {
-      margin: 5px 0; /* Khoảng cách giữa các mục */
+      margin: 5px 0; 
   }
 
   .navbar-toggler {
-      margin-left: auto; /* Đẩy nút toggle sang bên phải */
+      margin-left: auto; 
   }
 
   .navbar-brand {
-      display: none; /* Ẩn thương hiệu trong navbar trên thiết bị di động */
+      display: none; 
   }
-}
+} 
 
 
 /*  */
@@ -8256,22 +8254,111 @@ main {
 }
 
 /* Media query - chỉ hiện nút hamburger trên thiết bị di động (dưới 768px) */
-@media (max-width: 768px) {
+   @media (max-width: 768px) {
   .navbar-toggler {
-      display: block; /* Chỉ hiển thị trên màn hình nhỏ */
+      display: block;
   }
 
-  /* Tạo các thanh có kích thước khác nhau */
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
   .bar1 {
-      width: 18px; /* Thanh dài nhất */
+      width: 41px; 
+      transform: rotate(45deg) translate(0, 10px);
   }
   .bar2 {
-      width: 38px; /* Thanh giữa ngắn hơn */
+      width: 38px;
+      display:block;
+  
   }
   .bar3 {
-      width: 23px; /* Thanh cuối cùng ngắn nhất */
+      width: 41px;
       position: relative;
-      right: -18px;
+      right: 0px;
+      transform: rotate(-45deg) translate(4px, -16px);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   }
-}
+}   
+
+
+
+
+
+/*  */
+
+
+
+   
+      .navbar-toggler.collapsed .bar1 {
+        transform: rotate(0deg); 
+      }
+      
+      .navbar-toggler.collapsed .bar2 {
+        opacity: 1; 
+      }
+      
+      .navbar-toggler.collapsed .bar3 {
+        transform: rotate(0deg); 
+      }
+      
+     
+      .navbar-toggler:not(.collapsed) .bar1 {
+        transform: rotate(45deg) translate(0px, 14px); 
+      }
+      
+      .navbar-toggler:not(.collapsed) .bar2 {
+        display: none;
+      }
+      
+      .navbar-toggler:not(.collapsed) .bar3 {
+        transform: rotate(-45deg) translate(0px, -15px); 
+      }   */
+
+
+/* Ẩn nút trên màn hình lớn */
+  @media (min-width: 769px) {
+  .navbar-toggler {
+      display: block; 
+  }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

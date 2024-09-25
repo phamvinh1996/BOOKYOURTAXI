@@ -403,3 +403,9 @@ document.getElementById("searchBtn").addEventListener("click", function() {
 
 /*  */
 
+
+
+document.getElementById('navbar-toggler').addEventListener('click', function() {
+  const bars = document.querySelectorAll('.bar');
+  bars.forEach(bar => bar.classList.toggle('active')); // Bật hoặc tắt lớp active
+});
