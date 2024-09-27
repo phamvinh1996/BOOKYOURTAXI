@@ -678,7 +678,7 @@ width: 206px;
 
       /* dùng thư viện di chuyển trang book you */
           .carousel {
-        height: 630px;
+        /* height: 630px; */
         width: auto; /* Đảm bảo carousel phủ kín chiều ngang của màn hình */
         position: relative;
       }
@@ -702,6 +702,14 @@ width: 206px;
   /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
   .carousel-inner {
     height: 151vh; /* 100% chiều cao màn hình */
+
+  
+
+
+    overflow: hidden; /* Ẩn các phần thừa */
+      
+  
+    
   }
 }
     
@@ -1222,7 +1230,7 @@ width: 206px;
           width: auto;
           background-clip: unset;
           text-indent: 0;
-          top: 116px; /* Điều chỉnh vị trí trên dưới cho di động */
+          top: -1px; /* Điều chỉnh vị trí trên dưới cho di động */
           height: auto;
           font-size: 20px; /* Giảm kích thước font chữ cho di động */
           padding: 5px; /* Thêm khoảng cách cho chỉ báo */
@@ -4111,7 +4119,7 @@ h1 {
 
 .carousel {
   display: flex;
-  overflow-x: auto;
+  /* overflow-x: auto; */
 
 }
 
@@ -6424,14 +6432,14 @@ display: none;
  .carousel-control-next {
       padding: 5px 15px; /* Thu nhỏ padding cho phù hợp với điện thoại di động */
       margin-left: -110px; /* Thêm khoảng cách giữa các nút nếu cần */
-      /* margin-top: -76px; */
+      margin-top: -110px;
   }
 
 
    .carousel-control-prev {
     padding: 5px 15px; /* Thu nhỏ padding cho phù hợp với điện thoại di động */
    
-    /* margin-top: -76px; */
+    margin-top: -110px;
 } 
 
 
@@ -8255,7 +8263,7 @@ main {
 
 /* nút 3 ghạch dấu nhân */
 /* Media query - chỉ hiện nút hamburger trên thiết bị di động (dưới 768px) */
-   @media (max-width: 768px) {
+    @media (max-width: 768px) {
   .navbar-toggler {
       display: block;
   }
@@ -8281,7 +8289,6 @@ main {
       transform: rotate(-45deg) translate(4px, -16px);
 
    
-
 
 
 
@@ -8332,6 +8339,9 @@ main {
      
       .navbar-toggler:not(.collapsed) .bar1 {
         transform: rotate(45deg) translate(0px, 14px); 
+        position: relative;
+        right: -21px;
+        width: 45px;
       }
       
       .navbar-toggler:not(.collapsed) .bar2 {
@@ -8341,7 +8351,7 @@ main {
       .navbar-toggler:not(.collapsed) .bar3 {
         transform: rotate(-45deg) translate(-11px, -29px); 
         position: relative;
-        left: 17px;
+        left: 38px;
         width: 47px;
       }   
 
