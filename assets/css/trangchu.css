@@ -702,9 +702,8 @@ width: 206px;
  @media (max-width: 767px) {
   /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
   .carousel-inner {
-    height: 151vh; /* 100% chiều cao màn hình */
+    height: 131vh; /* 100% chiều cao màn hình */
 
-  
 
 
 
@@ -1128,6 +1127,20 @@ width: 206px;
 
 
 
+/* nút làm ẩn bảng dưới mục pre next book you */
+/* Media query cho màn hình nhỏ hơn */
+@media (max-width: 767px) {
+  .carousel-inner::after {
+ display: none;
+  }
+}
+
+
+
+
+
+
+/*  */
 
 
 
@@ -1143,6 +1156,10 @@ width: 206px;
 
 
 
+
+
+
+/*  */
 
 
 
