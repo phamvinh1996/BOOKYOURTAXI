@@ -6565,7 +6565,7 @@ display: none;
 
 
 /* Media Query cho thiết bị di động */
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
   .section-heading h4,
   .about-us,
   .pict1,
@@ -6574,7 +6574,9 @@ display: none;
   .image01,
   .hot1,
   .color1 {
-      text-align: left; /* Căn trái nội dung chữ */
+      text-align: left; 
+
+    
   }
 
   .section-heading,
@@ -6585,14 +6587,14 @@ display: none;
   .image01,
   .hot1,
   .color1 {
-      margin-left: 0; /* Loại bỏ khoảng cách bên trái nếu có */
-      margin-right: auto; /* Đảm bảo phần tử không mở rộng ra bên phải */
+      margin-left: 0; 
+      margin-right: auto; 
       margin-left: -100px;
   }
 
   .container {
-      padding-left: 0; /* Loại bỏ padding bên trái nếu có */
-      padding-right: 15px; /* Thêm padding bên phải nếu cần */
+      padding-left: 0; 
+      padding-right: 15px; 
   }
 
   .ceo101,
@@ -6600,19 +6602,84 @@ display: none;
   .image01,
   .hot1,
   .color1 {
-      margin-left: 0; /* Loại bỏ margin bên trái nếu có */
-      margin-right: auto; /* Đảm bảo phần tử không mở rộng ra bên phải */
-      width: auto; /* Đảm bảo ảnh không vượt quá chiều rộng của container */
+      margin-left: 0; 
+      margin-right: auto; 
+      width: auto;
       margin-left: -80px;
   }
-}
+} */
 
 
 /*  */
 
 
+/* code css media query chữ about company */
 
 
+/* Hiệu ứng di chuyển cho thiết bị di động */
+@media (max-width: 768px) {
+    
+  /* Tăng kích thước hình ảnh cho thiết bị di động */
+  .ceo101 {
+      /* width: 30%; Thay đổi kích thước hình ảnh */
+      border-radius: 51px;
+      width: 103px;
+    
+      margin: 0 auto; /* Căn giữa hình ảnh */
+      transform: translateY(10px); /* Di chuyển hình ảnh xuống một chút */
+  }
+
+  .ceo1 {
+      font-size: 1.2rem; /* Tăng kích thước chữ cho dễ đọc */
+      text-align: center; /* Căn giữa văn bản */
+      margin: 10px 0; /* Thêm khoảng cách giữa các phần tử */
+
+      position: relative;
+      top: -150px;
+      right: 14px;
+
+    
+  }
+
+  .color1{
+    position: relative;
+    top: -41px;
+    right: -6px;
+    font-weight: 700;
+    color: #ff9900;
+
+  }
+  .hot1{
+    position: relative;
+    left: 10px;
+    top: -33px;
+  }
+
+  .image01 {
+    position: absolute;
+    left: 30%;
+    top: 63%;
+    width: 132px;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
 @media (max-width: 767px) {
   .cover-image {
@@ -7641,6 +7708,7 @@ text-align: center;
   .container {
       padding: 10px;
       width: 100%; /* Đảm bảo chiều rộng là 100% */
+      left: -53px;
   }
 
   h1 {
