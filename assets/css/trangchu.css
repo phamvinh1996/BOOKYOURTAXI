@@ -4427,6 +4427,25 @@ text-align: left;
 }
 
 
+
+/*  code css dấu slick chuyển trang mục redek passenger riview*/
+
+
+
+@media (max-width: 768px) {
+  .table-1 .slick-dots li.slick-active {
+    margin-left: -170px;
+      background-color: #ffcc00; /* Thay đổi màu nền cho điểm đang hoạt động */
+      box-shadow: 0 0 0 2px rgba(255, 204, 0, 0.5); /* Giảm độ dày của bóng */
+  }
+}
+
+
+
+
+
+/*  */
+
 .table-1 .slick-slide .comment p {
   margin-bottom: 24px;
   color: #898989;
