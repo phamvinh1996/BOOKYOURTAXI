@@ -6676,6 +6676,7 @@ display: none;
     
       margin: 0 auto; /* Căn giữa hình ảnh */
       transform: translateY(10px); /* Di chuyển hình ảnh xuống một chút */
+      left: -87px;
   }
 
   .ceo1 {
@@ -6685,7 +6686,7 @@ display: none;
 
       position: relative;
       top: -150px;
-      right: 14px;
+      right: 96px;
 
     
   }
@@ -6693,20 +6694,20 @@ display: none;
   .color1{
     position: relative;
     top: -41px;
-    right: -6px;
+    right: 81px;
     font-weight: 700;
     color: #ff9900;
 
   }
   .hot1{
     position: relative;
-    left: 10px;
+    left: -81px;
     top: -33px;
   }
 
   .image01 {
     position: absolute;
-    left: 30%;
+    left: 11%;
     top: 63%;
     width: 132px;
 
@@ -8496,15 +8497,37 @@ main {
   }
 }  
 
+/*  */
+/* code chữ màu about our company */
+
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .section-heading h4 {
+      left: -103px; /* Di chuyển qua trái hơn */
+  }
+}
 
 
+/* dòng chữ đen */
 
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .about-us {
+      left: -25%; /* Di chuyển qua trái */
+      /* Hoặc bạn có thể dùng transform */
+      /* transform: translateX(-20%); */
+  }
+}
 
-
-
-
-
-
+/*  */
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .pict1 {
+      right: 95px; /* Di chuyển qua trái hơn */
+      /* Hoặc bạn có thể dùng transform */
+      /* transform: translateX(-30px); */
+  }
+}
 
 
 
