@@ -7636,14 +7636,16 @@ text-align: center;
 @media (max-width: 768px) {
   .title {
     margin-top: 30px; /* Giảm khoảng cách trên cho di động */
-    transform: translateY(-100px); /* Di chuyển lên trên */
+    transform: translateY(-114px); /* Di chuyển lên trên */
     transition: transform 0.3s ease; /* Thêm hiệu ứng chuyển động mượt mà */
-    margin-left: 65px;
+    margin-left: 121px;
+    font-size: 22px;
   }
 
   .white-text {
     text-align: center; /* Căn giữa văn bản */
     margin-top: 50px; /* Thêm khoảng cách trên nếu cần */
+  
   }
 }
 
@@ -7657,15 +7659,16 @@ text-align: center;
   .white-text {
     margin-top: 10px; /* Giảm khoảng cách trên cho di động */
     transform: translateY(-116px); /* Di chuyển lên trên */
-    font-size: 23px;
+    font-size: 16px;
     transition: transform 0.3s ease; /* Hiệu ứng chuyển động mượt mà */
+    font-weight: 500;
   }
 
   .icon-text-1,
   .icon-text-001 {
     text-align: center; /* Căn giữa nội dung */
-    margin-top: -18px; /* Thêm khoảng cách trên nếu cần */
-    margin-left: 22px;
+    margin-top: -120px;
+    margin-left: 109px;
     
   }
 }
@@ -7676,7 +7679,7 @@ text-align: center;
 @media (max-width: 768px) {
   .icon-telephone1::before {
       top: 90%; /* Điều chỉnh vị trí trên */
-      left: 10%; /* Căn giữa theo chiều ngang */
+      left: 31%; /* Căn giữa theo chiều ngang */
       transform: translate(-50%, -50%); /* Căn giữa hoàn toàn */
       width: 80px; /* Thay đổi kích thước cho di động */
       height: 80px; /* Thay đổi kích thước cho di động */
@@ -7691,8 +7694,8 @@ text-align: center;
 /* Media query cho điện thoại di động */
 @media (max-width: 768px) {
   .hotline-image1 {
-    left: 0; /* Đặt lại vị trí sang bên phải */
-    top: -5px; /* Điều chỉnh vị trí lên hoặc xuống */
+    left: 93px; /* Đặt lại vị trí sang bên phải */
+    top: 3px; /* Điều chỉnh vị trí lên hoặc xuống */
     font-size: 40px; /* Giảm kích thước biểu tượng cho di động */
   }
 }
