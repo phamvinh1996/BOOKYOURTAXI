@@ -4384,6 +4384,23 @@ text-align: left;
 /* code html chữ kich co chữ bang hon 1000 */
 /* bảng hon 1000 khách trải nghiệm */
 
+
+
+
+/* bảng ridek peseenger riviews */
+
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .table-1 {
+      right: -15px; /* Di chuyển qua phải hơn */
+      /* Hoặc bạn có thể dùng transform */
+      /* transform: translateX(10px); */
+  }
+}
+
+
+
+
 /* code Diệu lê */
 .table-1 {
    position: relative;
