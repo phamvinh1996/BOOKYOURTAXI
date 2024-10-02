@@ -7253,12 +7253,12 @@ font-size: 13px;
 
  @media (max-width: 767px) {
   .wow.bounceInUp.animated {
-      font-size: 15px;
+      font-size: 23px;
       line-height: 1.5;
       white-space: normal;
       margin-top: -58px;
       margin-left: 20px;
-      color: #ddd;
+      color: #222;
       text-align: center;
   }
 }  
