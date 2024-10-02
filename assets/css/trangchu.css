@@ -3751,6 +3751,76 @@ p {
   font-family: "Space Grotesk", sans-serif;
 
 }
+
+
+
+/*  */
+
+
+/* Media query cho các thiết bị nhỏ */
+
+
+/*  code css media query mục GET THE RIDEK MOBILE */
+
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .image-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow icons to wrap to the next line */
+    justify-content: space-between;
+  }
+
+  .image-item {
+    text-align: center;
+  }
+
+  .image-item:nth-child(1),
+ {
+    display: inline-block;
+    width: 30%; /* Icon 1 and Icon 2 will share the same row */
+  }
+
+
+  .image-item:nth-child(2){
+    position: relative;
+    left: -160px;
+  }
+
+
+
+
+
+
+
+  .image-item:nth-child(3) {
+    width: 30%; /* Icon 3 will take full width and move to the next row */
+    /* margin-left: 78px; */
+    margin-right: 105px;
+
+  }
+
+
+
+
+  .image-item img {
+    display: block;
+    margin: 0 auto; /* Center the images */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* dòng chữ xuống hàng get ridek*/
 
 .col-6.get-app {
