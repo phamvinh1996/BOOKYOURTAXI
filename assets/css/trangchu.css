@@ -2143,6 +2143,33 @@ margin-left: 212px;
   }
 
 
+
+
+
+
+
+
+
+  /*code css media query mục chữ nàu what we ofer  */
+
+  
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .section-heading001 h4 {
+      padding-left: 51px; /* Giảm padding cho hợp lý */
+      left: 87px; /* Điều chỉnh vị trí sang trái */
+      top: 20px; /* Điều chỉnh vị trí cho hợp lý trên điện thoại */
+      font-size: 14px; /* Giảm kích thước chữ */
+  }
+
+  .section-heading001 h4 span {
+      left: 20px; /* Điều chỉnh vị trí span */
+  }
+}
+
+
+
+
   /* choosee taxi dấu chấm */
   .card {
     position: relative;
@@ -6760,7 +6787,7 @@ display: none;
     color: #fff;
     position: absolute;
     top: 36px;
-    left: 31px;
+    left: 56px;
     font-weight: 700;
     line-height: 50px;
   }
@@ -7226,12 +7253,12 @@ font-size: 13px;
 
  @media (max-width: 767px) {
   .wow.bounceInUp.animated {
-      font-size: 17px;
+      font-size: 15px;
       line-height: 1.5;
       white-space: normal;
       margin-top: -58px;
-      margin-left: 1px;
-
+      margin-left: 20px;
+      color: #ddd;
       text-align: center;
   }
 }  
