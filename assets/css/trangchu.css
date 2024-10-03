@@ -7362,18 +7362,19 @@ font-size: 13px;
 
  @media (max-width: 767px) {
   .wow.bounceInUp.animated {
-      font-size: 23px;
-      line-height: 1.5;
-      white-space: normal;
-      margin-top: -58px;
-      margin-left: 20px;
-      text-align: center;
-  }
-}  
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: normal;
+    margin-top: -58px;
+    margin-left: 20px;
+    text-align: center;
+}
+
+ }
 
 @media (max-width: 767px) {
   .second-line {
-      font-size: 15px;
+      font-size: 16px;
       line-height: 1.5;
 text-align: center; 
  }
@@ -7382,10 +7383,7 @@ text-align: center;
 
 
 
-
-
-
-
+/*  */
 
 
 
