@@ -2466,7 +2466,30 @@ z-index: 1;
     position: absolute;
     top: 1%;
   }
+/*  */
 
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .section-heading06 h4 {
+      padding-left: 51px; /* Giảm khoảng cách bên trái */
+      font-size: 16px; /* Giảm kích thước chữ */
+      line-height: 14px; /* Điều chỉnh line-height */
+      top: -64px; /* Điều chỉnh vị trí */
+      color: #ff9900;
+  }
+
+  .section-heading06 h4 span,
+  .section-heading06 h4 span:before,
+  .section-heading06 h4 span::after {
+      height: 10px; /* Giảm chiều cao cho các span */
+  }
+}
+
+
+
+
+
+  /*  */
   /* dau 3 ghach */
   .section-heading06 h4 span {
     top: -1px;
@@ -2555,6 +2578,15 @@ z-index: 1;
     padding: 107px 0;
     /* top: 20px; */
   }
+
+/*  */
+
+
+
+
+
+
+  /*  */
   /* biểu tượng đặt xe nhanh */
 
   .input-group-text-1 {
@@ -6969,6 +7001,8 @@ font-size: 13px;
 @media (max-width: 767px) {
   .section-online-booking h3 {
     font-size: 23px;
+    position: relative;
+    top: -51px;
 
   }
 
@@ -6981,7 +7015,12 @@ font-size: 13px;
 
 @media (max-width: 767px) {
   .section-online-booking::after {
-    background-color: #000;
+   
+  
+    background-color: #1c1c1c;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 107px 0;
   }
 }
 
