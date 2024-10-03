@@ -5710,7 +5710,64 @@ top: 6px;
 
  
 }
+/*  */
 
+/* Media query cho màn hình điện thoại */
+
+
+
+
+
+/* new and ingsihts */
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+  .card {
+      width: 95%;  /* Slightly reduce width for tablets */
+      max-width: 320px;
+      margin-bottom: 25px;
+  }
+}
+
+/* For mobile devices (576px and below) */
+@media (max-width: 576px) {
+  .card {
+      width: 100%;  /* Adjust width for mobile */
+      max-width: 378px;
+      margin-bottom: 20px;
+  }
+}
+
+/* For very small mobile screens (360px and below) */
+@media (max-width: 360px) {
+  .card {
+      width: 85%;  /* Further reduce width for small devices */
+      max-width: 240px;
+      margin-bottom: 15px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* Card Image */
 .card-img-top {
   position: relative;
