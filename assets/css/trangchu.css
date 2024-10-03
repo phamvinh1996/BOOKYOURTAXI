@@ -4146,6 +4146,13 @@ p {
   opacity: 0.2;
 }
 
+
+
+
+
+
+
+/*  */
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 
 .slide-container {
@@ -4499,9 +4506,18 @@ text-align: left;
 }
 
 
+/*  */
 
-
-
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .review-heading {
+      font-size: 23px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      text-align: center; /* Căn giữa văn bản trên màn hình nhỏ */
+      margin: 0 auto; /* Đảm bảo căn giữa nếu có khoảng cách */
+      margin-left: -78px;
+      color: #000;
+  }
+}
 
 
 
