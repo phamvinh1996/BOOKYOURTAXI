@@ -7281,7 +7281,16 @@ font-size: 13px;
 /*  */
 
 
-  
+
+/* code css media query why ride ridek */
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .company-info0-1 {
+      font-size: 16px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      animation-duration: 4s; /* Thay đổi thời gian animation cho màn hình nhỏ */
+      margin-left: -41px;
+  }
+}
 
 
 
