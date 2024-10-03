@@ -4816,6 +4816,29 @@ font-weight:  bold;
 
 }
 
+
+/* code css media query new and inghlight */
+
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .tintuc {
+      font-size: 15px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      top: -50px; /* Điều chỉnh vị trí lên một chút nếu cần */
+     
+  }
+}
+
+
+/*  */
+
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .tintuc1 {
+      margin-top: 33px; /* Đặt lại margin-top cho màn hình nhỏ */
+  }
+}
+/*  */
+
 /* chu h1 */
 .tintuc1 {
   position: relative;
@@ -7511,9 +7534,10 @@ right: 23px;
 @media only screen and (max-width: 600px) {
   .section-heading090 h4 {
     padding-left: 146px; /* Adjust padding to move text left */
-    font-size: 12px; /* Optionally adjust font size for smaller screens */
+    font-size: 16px; /* Optionally adjust font size for smaller screens */
     line-height: 14px; /* Optionally adjust line height */
-    top: -50px; /* Adjust top position if needed */
+    top: -37px; /* Adjust top position if needed */
+    font-weight: 500;
   }
 
   .section-heading090 h4 span {
