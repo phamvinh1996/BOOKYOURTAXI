@@ -7513,9 +7513,9 @@ font-size: 13px;
     line-height: 1.5;
     white-space: normal;
     margin-top: -58px;
-    margin-left: -79px;
+    margin-left: 20px;
     text-align: center;
-
+    
 }
 
  }
@@ -8066,7 +8066,7 @@ right: 23px;
   /* Các kiểu khác cho các phần tử */
   .container {
       padding: 10px;
-      width: 123%; /* Đảm bảo chiều rộng là 100% */
+      width: 106%; /* Đảm bảo chiều rộng là 100% */
       left: -5px;
   }
 
