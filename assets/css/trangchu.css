@@ -7175,6 +7175,7 @@ font-size: 13px;
 @media (max-width: 767px) {
   .section-heading07 h4 {
     top: -43px;
+    margin-left: -75px;
   }
 }
 
@@ -7196,6 +7197,7 @@ font-size: 13px;
   .choose-your-taxi .chooseetaxi1 {
     max-width: 100%;
     top: 0;
+    margin-left: -37px;
   }
 }
 
@@ -7511,8 +7513,9 @@ font-size: 13px;
     line-height: 1.5;
     white-space: normal;
     margin-top: -58px;
-    margin-left: 20px;
+    margin-left: -79px;
     text-align: center;
+
 }
 
  }
