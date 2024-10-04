@@ -8064,7 +8064,7 @@ right: 23px;
   /* Các kiểu khác cho các phần tử */
   .container {
       padding: 10px;
-      width: 107%; /* Đảm bảo chiều rộng là 100% */
+      width: 123%; /* Đảm bảo chiều rộng là 100% */
       left: -5px;
   }
 
