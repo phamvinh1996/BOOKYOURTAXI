@@ -8082,7 +8082,21 @@ right: 23px;
 }
 
 
+/*  */
 
+@media only screen and (max-width: 425px) {
+  .new-container {
+      padding: 10px; /* Thay đổi padding cho điện thoại */
+      width: 128%;    /* Thay đổi chiều rộng cho điện thoại */
+      left: -5px;     /* Điều chỉnh vị trí nếu cần */
+  }
+}
+
+
+
+
+
+/*  */
 /*  code làm ẩn hình icon mục logo  muck hình icon call us now*/
 
 
