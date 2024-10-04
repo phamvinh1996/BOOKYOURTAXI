@@ -702,7 +702,7 @@ width: 206px;
  @media (max-width: 767px) {
   /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
   .carousel-inner {
-    height: 131vh; /* 100% chiều cao màn hình */
+    height: 128vh; /* 100% chiều cao màn hình */
 
 
 
