@@ -1931,7 +1931,7 @@ margin-left: 212px;
 
 
 /* Media query cho kích thước điện thoại */
-@media (max-width: 767px) {
+@media (max-width: 412px) {
   .nutxemthem {
       padding: 16px; /* Thay đổi padding cho điện thoại */
       left: 0;             /* Đặt lại vị trí */
