@@ -6478,7 +6478,7 @@ padding: 12px 30px;
   .carousel-caption h1 {
     font-size: 16px;
     line-height: 36px;
-    top: -11px;
+    top: 1px;
   }
 
   .carousel-caption p {
@@ -8126,7 +8126,7 @@ right: 23px;
   .carousel-caption h4 {
       font-size: 18px;
       margin-bottom: 5px;
-      margin-top: -70px;
+      margin-top: -101px;
       margin-right: -140px;
   }
 }
