@@ -4863,8 +4863,8 @@ font-weight:  bold;
 /* Media query cho màn hình điện thoại */
 @media (max-width: 768px) {
   .tintuc {
-      font-size: 15px; /* Giảm kích thước chữ cho màn hình nhỏ */
-      top: -50px; /* Điều chỉnh vị trí lên một chút nếu cần */
+      font-size: 14px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      top: -58px; /* Điều chỉnh vị trí lên một chút nếu cần */
   }
 }
 
