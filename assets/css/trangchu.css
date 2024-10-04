@@ -712,6 +712,7 @@ width: 206px;
     
 
 
+/*  */
 
 
 
@@ -1925,6 +1926,28 @@ margin-left: 212px;
 
 
 
+  /*  */
+
+
+
+/* Media query cho kích thước điện thoại */
+@media (max-width: 767px) {
+  .nutxemthem {
+      padding: 16px; /* Thay đổi padding cho điện thoại */
+      left: 0;             /* Đặt lại vị trí */
+      top: 0;              /* Đặt lại vị trí */
+      width: 43%;         /* Nút chiếm toàn bộ chiều rộng */
+      clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+
+  }
+}
+
+
+
+
+
+
+  /*  */
   /* canh chữ dòng chữ nỗi bật*/
 
   .card-bottom {
@@ -8083,7 +8106,7 @@ right: 23px;
 
 
 /*  */
-
+/* code css media query new and Insight */
 @media only screen and (max-width: 425px) {
   .new-container {
       padding: 10px; /* Thay đổi padding cho điện thoại */
