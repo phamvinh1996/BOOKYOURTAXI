@@ -699,7 +699,7 @@ width: 206px;
 
 
 /* code css media bảng trắng */
- @media (max-width: 767px) {
+ @media (max-width: 768px) {
   /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
   .carousel-inner {
     height: 132vh; /* 100% chiều cao màn hình */
