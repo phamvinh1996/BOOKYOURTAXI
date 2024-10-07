@@ -7157,6 +7157,46 @@ font-size: 13px;
 
 
 
+/* form ô bảng mục media query ONLINE BOOKING */
+/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
+@media (max-width: 768px) {
+  .form-row {
+      flex-direction: column; /* Đặt các ô thành cột trên điện thoại */
+  }
+
+  .form-field {
+      margin-bottom: 3px; 
+  }
+
+/* mục khoảng cách stadard  */
+  .select2-container--default .select2-selection--single {
+    height: 48px; /* Chiều cao cho ô select */
+}
+
+
+
+  h3 {
+      font-size: 24px; /* Kích thước tiêu đề */
+  }
+
+  .sumit1 {
+      padding: 10px; /* Padding cho nút */
+      background-color: #ff9900; /* Màu nền nút */
+      color: white; /* Màu chữ nút */
+      border: none;
+      border-radius: 5px;
+      cursor: pointer; /* Con trỏ chuột khi di qua nút */
+      width: 100%; /* Chiếm toàn bộ chiều rộng nút */
+  }
+}
+
+
+
+
+
+
+/*  */
+
 
 /* Ẩn hình ảnh xe ô tô */
 
@@ -8906,6 +8946,25 @@ main {
       /* transform: translateX(-30px); */
   }
 }
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
