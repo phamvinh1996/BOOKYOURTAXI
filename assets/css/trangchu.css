@@ -706,6 +706,16 @@ width: 206px;
 
 
 
+
+
+
+
+
+    background-color: white; /* Đặt màu nền là trắng */
+    border: 1px solid #ccc; /* Thêm đường viền xung quanh bảng */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Thêm bóng cho bảng */
+
+
   }
 }
     
