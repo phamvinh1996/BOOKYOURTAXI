@@ -1049,6 +1049,32 @@ width: 206px;
     
       }
     
+
+/*  */
+
+
+/* code css media query book your mục pre-next */
+/* Media query cho màn hình nhỏ */
+@media (max-width: 767px) {
+  .button-carousel {
+      height: 40px; /* Điều chỉnh chiều cao cho màn hình nhỏ */
+      width: 80%; /* Đặt chiều rộng thành 80% */
+      left: 10%; /* Căn giữa nút */
+      bottom: 50px; /* Điều chỉnh vị trí dưới cùng */
+      margin-top: -7px;
+      font-size: 14px; /* Điều chỉnh kích thước chữ */
+  }
+}
+
+
+
+
+
+
+
+
+
+      /*  */
       /* code chu pre - next */
       
       .previous-word {
@@ -1280,20 +1306,20 @@ width: 206px;
 
 
 
-
-
+/*  */
+/* code css media query book you mục chuyển số trang 1/2 */
 
       /*  */
       @media (max-width: 767px) {
         #carouselExampleFade .carousel-indicators li {
-          right: -33px; /* Đưa chỉ báo vào trong màn hình */
+          right: -46px; /* Đưa chỉ báo vào trong màn hình */
           position: relative;
           color: #ff9900;
           background-color: transparent;
           width: auto;
           background-clip: unset;
           text-indent: 0;
-          top: 46px; /* Điều chỉnh vị trí trên dưới cho di động */
+          top: 60px; /* Điều chỉnh vị trí trên dưới cho di động */
           height: auto;
           font-size: 20px; /* Giảm kích thước font chữ cho di động */
           padding: 5px; /* Thêm khoảng cách cho chỉ báo */
