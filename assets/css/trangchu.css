@@ -7270,7 +7270,7 @@ font-size: 13px;
 @media (max-width: 767px) {
   .section-heading07 h4 {
     top: -43px;
-    margin-left: -75px;
+    margin-left: 35px;
   }
 }
 
@@ -7292,7 +7292,7 @@ font-size: 13px;
   .choose-your-taxi .chooseetaxi1 {
     max-width: 100%;
     top: 0;
-    margin-left: -37px;
+    margin-left: 10px;
   }
 }
 
