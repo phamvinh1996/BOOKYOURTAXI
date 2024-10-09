@@ -8072,6 +8072,7 @@ right: 23px;
   .footer-text {
     display: block; /* Đảm bảo chữ xuống hàng */
     margin-top: 15px;
+    font-size: 16px;
   }
 
   .footer-text::after {
