@@ -7087,7 +7087,7 @@ display: none;
     
       margin: 0 auto; /* Căn giữa hình ảnh */
       transform: translateY(10px); /* Di chuyển hình ảnh xuống một chút */
-      left: -87px;
+      left: -122px;
   }
 
   .ceo1 {
@@ -7096,8 +7096,8 @@ display: none;
       margin: 10px 0; /* Thêm khoảng cách giữa các phần tử */
 
       position: relative;
-      top: -150px;
-      right: 96px;
+      top: -141px;
+      right: 90px;
 
     
   }
@@ -7105,21 +7105,21 @@ display: none;
   .color1{
     position: relative;
     top: -41px;
-    right: 81px;
+    right: 107px;
     font-weight: 700;
     color: #ff9900;
 
   }
   .hot1{
     position: relative;
-    left: -81px;
+    left: -108px;
     top: -33px;
   }
 
   .image01 {
     position: absolute;
-    left: 11%;
-    top: 63%;
+    left: -3%;
+    top: 72%;
     width: 132px;
 
 }
@@ -9025,7 +9025,7 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .section-heading h4 {
-      left: -103px; /* Di chuyển qua trái hơn */
+      left: -161px; /* Di chuyển qua trái hơn */
   }
 }
 
@@ -9035,7 +9035,7 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .about-us {
-      left: -25%; /* Di chuyển qua trái */
+      left: -42%; /* Di chuyển qua trái */
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-20%); */
   }
@@ -9045,7 +9045,8 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .pict1 {
-      right: 95px; /* Di chuyển qua trái hơn */
+      right: 111px; /* Di chuyển qua trái hơn */
+      text-align: left; /* Căn giữa chữ */
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-30px); */
   }
