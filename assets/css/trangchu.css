@@ -8075,7 +8075,7 @@ right: 23px;
   }
 
   .footer-text::after {
-    content: "Reserved."; /* Thay đổi nội dung */
+    /* content: "Reserved."; Thay đổi nội dung */
     display: block; /* Đảm bảo xuống hàng */
   }
 }
