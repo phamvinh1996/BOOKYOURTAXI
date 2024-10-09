@@ -1971,11 +1971,23 @@ margin-left: 212px;
       width: 43%;         /* Nút chiếm toàn bộ chiều rộng */
       clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
 
+
+
   }
 }
 
 
 
+
+
+/* nút xem thêm mục  start you joney media query */
+/* Media query cho màn hình nhỏ hơn hoặc bằng 600px */
+@media (max-width: 600px) {
+  .nutxemthem {
+      left: 5%; /* Di chuyển nút sang phải một chút */
+      width: 60%; /* Nút chiếm 90% chiều rộng cho màn hình nhỏ */
+  }
+}
 
 
 
@@ -3669,6 +3681,22 @@ font-size: 17px;
   top: 53%;
 }  */
 
+
+/*  */
+
+
+/* code css media query mục ẩn nút start you joney */
+/* Media query để ẩn nút trên màn hình nhỏ */
+@media (max-width: 600px) {
+  .cart-service .slick-next {
+      display: none; /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
+  }
+}
+
+
+
+
+/*  */
 /* Hinh Start your journey with
 Ridek Taxi Company! */
 
@@ -8267,7 +8295,7 @@ right: 23px;
       left: -5px;
       margin-top: -16px; */
       position: relative;
-      top: -33px;
+      /* top: -33px; */
   }
 
   h1 {
