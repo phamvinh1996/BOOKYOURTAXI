@@ -9064,6 +9064,9 @@ main {
 @media (max-width: 600px) {
   .about-us {
       left: -42%; /* Di chuyển qua trái */
+
+      text-align: center;
+      font-size: 26px;
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-20%); */
   }
@@ -9075,6 +9078,8 @@ main {
   .pict1 {
       right: 111px; /* Di chuyển qua trái hơn */
       text-align: left; /* Căn giữa chữ */
+      font-size: 17px;
+      line-height: 27px;
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-30px); */
   }
