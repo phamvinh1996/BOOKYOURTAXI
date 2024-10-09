@@ -5107,9 +5107,11 @@ font-weight: 600;
 .background-image {
   background-color: #1c1c1c;
   background-image: url('https://html.dynamiclayers.net/dl/ridek/assets/img/city-skiline.png');
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   /* height: 580px; */
+
+  background-repeat:no-repeat ;
 }
 
 
@@ -8005,7 +8007,8 @@ right: 23px;
 /* Media query for mobile devices (less than 768px) */
 @media only screen and (max-width: 768px) {
   .background-image {
-    height: 800px; /* Adjust height for mobile devices */
+    /* height: 800px; Adjust height for mobile devices */
+    background-position: bottom ;
   }
 }
 
@@ -8036,22 +8039,25 @@ right: 23px;
     margin-right: 10px; /* Khoảng cách giữa nhãn và ô nhập */
     white-space: nowrap; /* Ngăn dòng chữ xuống hàng */
   position: relative;
-  top: -41px;
+  top: -33px;
+  left: -10px;
   }
 
   #emailInput {
     flex: 1; /* Chiếm không gian còn lại */
-    min-width: 265px; /* Chiều rộng tối thiểu */
+    min-width: 327px; /* Chiều rộng tối thiểu */
     position: relative;
-    top: -98px;
+    top: -41px;
+    left: -13px;
   }
 
   #subscribeBtn {
     margin-left: 10px; /* Khoảng cách giữa nút và ô nhập */
     position: relative;
-    top: -110px;
+    top: -51px;
     width: 69%;
-    margin-left: -20px;
+    margin-left: -29px;
+    font-size: 16px;
   }
 }
 
@@ -8065,6 +8071,7 @@ right: 23px;
 @media (max-width: 768px) {
   .footer-text {
     display: block; /* Đảm bảo chữ xuống hàng */
+    margin-top: 15px;
   }
 
   .footer-text::after {
@@ -8078,9 +8085,10 @@ right: 23px;
 /* Media query cho điện thoại di động */
 @media (max-width: 768px) {
   .icon-car {
-    flex-direction: row; /* Xếp theo hàng ngang */
-    justify-content: center; /* Căn giữa các hình ảnh */
-    margin-top: 520px;
+   flex-direction: row; 
+    justify-content: center;
+    margin-top: 691px; 
+
   }
 
   .icon-car img {
@@ -8252,7 +8260,7 @@ right: 23px;
   /* Các kiểu khác cho các phần tử */
   .container {
       padding: 10px;
-      width: 100%; 
+      width: 86%; 
       /* height: 23%;
 
       left: -5px;
