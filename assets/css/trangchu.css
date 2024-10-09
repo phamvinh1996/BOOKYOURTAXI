@@ -1651,6 +1651,41 @@ top: -51px;
     width: 300px;
   }
 
+/*  */
+
+
+/* code css media query mục ABOUT COMPANY hình ảnh */
+/* Media query cho màn hình nhỏ hơn 768px (máy tính bảng và điện thoại) */
+@media (max-width: 768px) {
+  .section-online-vechungtoi .image-car1 {
+    width: 83%;  /* Cho hình ảnh chiếm toàn bộ chiều rộng container */
+    left: -46px;      /* Đặt lại vị trí hình ảnh ở giữa */
+  }
+
+  .section-online-vechungtoi .image-car2 {
+    width: 85%;  /* Điều chỉnh cho hình ảnh chiếm hết chiều rộng container */
+    left: 109px;      /* Đặt lại vị trí hình ảnh */
+  }
+
+  .section-online-vechungtoi .image-container {
+    text-align: center;  /* Căn giữa toàn bộ hình ảnh */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  */
   .image-car2-container {
     display: flex;
   }
@@ -7025,12 +7060,12 @@ display: none;
 
   }
   .Image{
-    margin-left: -200px;
+    margin-left: -220px;
 
   }
 
 .image-animation{
-  margin-left: -200px;
+  margin-left: -235px;
 
 }
 
@@ -7045,7 +7080,6 @@ display: none;
       background: linear-gradient(135deg, transparent 49.5%, orange 49.5%, orange 50.5%, transparent 50.5%);
   } */
 }
-
 
 
 /*mục ABOUT COMPANY  */
