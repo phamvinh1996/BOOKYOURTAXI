@@ -9195,10 +9195,15 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .pict1 {
-      right: 108px; /* Di chuyển qua trái hơn */
-      text-align: left; /* Căn giữa chữ */
+       right: 108px; 
+      text-align: left; 
       font-size: 17px;
-      line-height: 27px;
+      line-height: 27px; 
+
+     
+      text-align: justify;
+
+
 
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-30px); */
