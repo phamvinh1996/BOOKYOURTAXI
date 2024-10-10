@@ -8296,8 +8296,8 @@ right: 23px;
   .icon-text-1,
   .icon-text-001 {
     text-align: center; /* Căn giữa nội dung */
-    margin-top: -117px;
-    margin-left: 109px;
+    margin-top: -89px;
+    margin-left: 93px;
     font-size: 19px;
     
   }
@@ -8324,7 +8324,7 @@ right: 23px;
 /* Media query cho điện thoại di động */
 @media (max-width: 768px) {
   .hotline-image1 {
-    left: 93px; /* Đặt lại vị trí sang bên phải */
+    left: 76px; /* Đặt lại vị trí sang bên phải */
     top: 3px; /* Điều chỉnh vị trí lên hoặc xuống */
     font-size: 40px; /* Giảm kích thước biểu tượng cho di động */
   }
