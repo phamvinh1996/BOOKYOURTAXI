@@ -9185,6 +9185,7 @@ main {
 
       text-align: center;
       font-size: 26px;
+      line-height: 40px;
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-20%); */
   }
@@ -9194,10 +9195,11 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .pict1 {
-      right: 111px; /* Di chuyển qua trái hơn */
+      right: 108px; /* Di chuyển qua trái hơn */
       text-align: left; /* Căn giữa chữ */
       font-size: 17px;
       line-height: 27px;
+
       /* Hoặc bạn có thể dùng transform */
       /* transform: translateX(-30px); */
   }
