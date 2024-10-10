@@ -8502,9 +8502,10 @@ right: 23px;
 @media (max-width: 767px) {
   .logo01 {
       max-height: 40px;
-      margin-left: -12px;
+      margin-left: -3px;
       margin-top: 2px;
       height: auto;
+      width: 133px;
   }
 }
 
@@ -8928,9 +8929,15 @@ main {
 
 /* CSS cho ảnh bìa */
 
+/*  */
 
 
 
+
+
+
+
+/*  */
 
 
 /* code css media bảng chọn xem trên điện thoại */
@@ -8967,9 +8974,10 @@ main {
 /* nút trên bảng */
    .navbar-toggler {
     float: right;
-    margin: -30px;
-    width: 130px;
-    height: 40px;
+    margin: -3px;
+    width: 99px;
+    height: 56px;
+    color: #f4f4f4;
   } 
 
 
