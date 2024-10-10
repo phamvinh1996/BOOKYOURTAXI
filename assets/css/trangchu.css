@@ -2404,6 +2404,44 @@ margin-left: 212px;
     top: 52%;
   } */
 
+
+ 
+
+  /* code css media query tạo start your jouney làm ẩn nút */
+/* code css media query next */
+  @media (max-width: 768px) {
+    .slick-next.slick-arrow {
+        position: absolute;
+        top: auto;
+        bottom: -59px;
+        margin-left: -77px;
+        right: 20px;
+        transform: none;
+    }
+}
+
+
+/* code css media query pre*/
+
+@media (max-width: 768px) {
+  .slick-prev.slick-arrow {
+      position: absolute;
+      top: auto;
+      bottom: -59px;
+      margin-left: -128px;
+      transform: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
 /* Hình cắt bên trái Start Your Jouney */
   .slick-next.slick-arrow {
     position: absolute;
@@ -3730,6 +3768,9 @@ font-size: 17px;
       display: none; /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
   }
 }
+
+
+
 
 
 
@@ -7861,10 +7902,26 @@ right: 23px;
 
 @media only screen and (max-width: 600px) {
   .cart-service .slick-prev {
-    display: block; /* Hide the button on mobile devices */
+    display: none; /* Hide the button on mobile devices */
     left: 30px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* get the ridek moblie */
