@@ -5705,6 +5705,16 @@ padding-bottom: 5px;
 /* màu chữ footer địa chỉ, mở cửa */
 /*  */
 
+/* Media Query cho màn hình điện thoại */
+
+
+/* code css media query new and Inght */
+/* Media Query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .row-tintuc1 {
+    margin-left: -113px;
+  }
+}
 
 
 /*  */
