@@ -5230,8 +5230,8 @@ font-weight: 600;
 .background-image {
   background-color: #1c1c1c;
   background-image: url('https://html.dynamiclayers.net/dl/ridek/assets/img/city-skiline.png');
-  background-size: contain;
-  /* background-position: center; */
+  background-size: 100%;
+   background-position: 200% ;
   /* height: 580px; */
 
   background-repeat:no-repeat ;
