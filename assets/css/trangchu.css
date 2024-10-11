@@ -5703,6 +5703,17 @@ padding-bottom: 5px;
 }
 
 /* màu chữ footer địa chỉ, mở cửa */
+/*  */
+/* code css media query mục new and inghsight */
+/* Cho màn hình nhỏ (Mobile) */
+@media (max-width: 768px) {
+  .row-tintuc1 {
+ margin-left: -229px;
+  }
+}
+
+
+/*  */
 .sidebar {
   /* Your sidebar styles here */
 }
@@ -5720,7 +5731,7 @@ padding-bottom: 5px;
   flex-wrap: wrap;
   position: relative;
   top: -59px;
-
+left: 232px;
 }
 
 
