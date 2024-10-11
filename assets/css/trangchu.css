@@ -832,7 +832,7 @@ width: 206px;
         position: absolute;
         top: 50%;
         left: 63%;
-        /* transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg); */
+        transform: translate(-50%, -50%) rotate(30deg) skewY(-28deg);
         width: 100px;
         height: 850px;
         background-color: rgb(17, 16, 14);
@@ -5704,13 +5704,7 @@ padding-bottom: 5px;
 
 /* màu chữ footer địa chỉ, mở cửa */
 /*  */
-/* code css media query mục new and inghsight */
-/* Cho màn hình nhỏ (Mobile) */
-@media (max-width: 768px) {
-  .row-tintuc1 {
- margin-left: -229px;
-  }
-}
+
 
 
 /*  */
@@ -5731,7 +5725,11 @@ padding-bottom: 5px;
   flex-wrap: wrap;
   position: relative;
   top: -59px;
-left: 232px;
+/* left: 232px; */
+
+
+justify-content: center;
+gap: 26px;
 }
 
 
@@ -8474,13 +8472,15 @@ right: 23px;
   .chunhat1 {
       display: block;
       position: absolute;
-      top: 541px;
+      top: 627px;
       left: -65px;
-      width: 100%;
+      width: 168%;
       height: 100px;
       background-color: white;
       box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-      /* transform: translate(-48%, -84%); */
+      transform: translate(-48%, -84%);
+
+
   }
 }
 
