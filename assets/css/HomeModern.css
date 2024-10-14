@@ -2593,3 +2593,101 @@ left: 447px;
 
 
 
+/*  */
+
+
+
+  /* tạo css ảnh background */
+
+  .section-map {
+    background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: orange;
+    padding: 8px 0;
+    width: 1700px;
+   
+  }
+  
+
+  .section-map h1 {
+    display: inline-block;
+    white-space: nowrap;
+    font-size: 30px;
+    color: #fff;
+    transform: translate(10%);
+  }
+  
+  .section-map button {
+    width: 100px;
+    height: 50px;
+    margin-top: 23px;
+    transform: translate(136%);
+    position: relative;
+    left: -355px;
+  }
+  /*  */
+
+  .button1 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
+
+
+  /*  */
+
+  .class1{
+position: relative;
+right: 273px;
+  }
+  
+  /* dòng chữ */
+  .col-sm-4 {
+    width: 33.33%;
+    float: center;
+    padding: 15px;
+    transform: translate(-20%);
+    /* margin-right: 190px; */
+  }
+  
+  .section-map {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .icon-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .icon-wrapper img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .icon-wrapper p {
+    font-size: 14px;
+    color: #fff;
+    font-size: 19px;
+
+  }
+ /*  */
+ .section-map {
+  text-align: right;
+}
+
+.section-people {
+  float: left;
+  
+}
+  
