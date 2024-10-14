@@ -2731,6 +2731,7 @@ z-index: 1;
 
 
 
+
    .section-online-booking::after {
 
     content: "";
@@ -2739,8 +2740,12 @@ z-index: 1;
     right: 0;
     width: 400px;
     height: 80px;
-    background-color: #fff;
+    background-color: #F4F5F8;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+
+
+
+  
   } 
   
 
@@ -3476,8 +3481,10 @@ z-index: 1;
   right: 0;
   width: 400px;
   height: 200px;
-  background-color: #fff;
+  background-color: #F4F5F8;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
+
+  border:  solid  light gray;
 }
 
 .section-online-thepeople::before {
@@ -7464,6 +7471,7 @@ font-size: 13px;
     background-repeat: no-repeat;
     position: relative;
     padding: 107px 0;
+    
   }
 }
 
