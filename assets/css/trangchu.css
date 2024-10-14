@@ -1474,8 +1474,8 @@ width: 206px;
   /* về chúng tôi  tổng phần chữ*/
 
   .form-group {
-    right: -115px;
-    top: 118px;
+    right: -153px;
+    top: 40px;
     position: relative;
     margin-bottom: 1rem;
   }
@@ -2740,13 +2740,13 @@ z-index: 1;
     right: 0;
     width: 400px;
     height: 80px;
-    background-color: #F4F5F8;
+    background-color: #f4f5f8;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
 
 
-
+border:  solid #f4f5f8;
   
-  } 
+  }
   
 
 
@@ -3471,7 +3471,7 @@ z-index: 1;
   position: relative;
   background-color: #1c1c1c;
   background-size: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .section-online-thepeople::after {
@@ -3481,10 +3481,9 @@ z-index: 1;
   right: 0;
   width: 400px;
   height: 200px;
-  background-color: #F4F5F8;
+  background-color: #fff;
   clip-path: polygon(100% 100%, 0 100%, 100% 0);
 
-  border:  solid  light gray;
 }
 
 .section-online-thepeople::before {
