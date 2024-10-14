@@ -7232,7 +7232,7 @@ display: none;
     
       margin: 0 auto; /* Căn giữa hình ảnh */
       transform: translateY(10px); /* Di chuyển hình ảnh xuống một chút */
-      left: -122px;
+      left: -150px;
   }
 
   .ceo1 {
@@ -7242,7 +7242,7 @@ display: none;
 
       position: relative;
       top: -141px;
-      right: 90px;
+      right: 113px;
 
     
   }
@@ -7250,20 +7250,20 @@ display: none;
   .color1{
     position: relative;
     top: -41px;
-    right: 107px;
+    right: 141px;
     font-weight: 700;
     color: #ff9900;
 
   }
   .hot1{
     position: relative;
-    left: -108px;
+    left: -141px;
     top: -33px;
   }
 
   .image01 {
     position: absolute;
-    left: -3%;
+    left: -11%;
     top: 72%;
     width: 132px;
 
@@ -9197,7 +9197,8 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .section-heading h4 {
-      left: -161px; /* Di chuyển qua trái hơn */
+      left: -190px; /* Di chuyển qua trái hơn */
+      margin-top: 40px;
   }
 }
 
@@ -9207,7 +9208,7 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .about-us {
-      left: -42%; /* Di chuyển qua trái */
+      left: -51%; /* Di chuyển qua trái */
 
       text-align: center;
       font-size: 26px;
@@ -9221,7 +9222,7 @@ main {
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .pict1 {
-       right: 108px; 
+       right: 137px; 
       text-align: left; 
       font-size: 17px;
       line-height: 27px; 
