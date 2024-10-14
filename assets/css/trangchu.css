@@ -2742,10 +2742,8 @@ z-index: 1;
     height: 80px;
     background-color: #f4f5f8;
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 25% 100%);
+border:  solid #f4f5f8; 
 
-
-border:  solid #f4f5f8;
-  
   }
   
 
