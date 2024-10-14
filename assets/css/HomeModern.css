@@ -1152,7 +1152,39 @@ background-color: #e8dede;
 
 
 
+/*  */
 
+
+.slick-next.slick-arrow{
+
+  position: absolute;
+  /* top: 50%; */
+  top: 621px;
+  transform: translateY(-50%);
+  right: 20px;
+  width: 60px;
+  height: 56px;
+  background-color: #ff9900;
+  -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  clip-path: polygon(100% 0, 0 50%, 100% 100%);
+  cursor: pointer;
+}
+
+
+
+.slick-prev.slick-arrow{
+  left: 1%;
+  position: absolute;
+  top: 629px;
+  transform: translateY(-50%);
+
+  width: 60px;
+  height: 56px;
+  background-color: #ff9900;
+  -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+  clip-path: polygon(0 0, 100% 50%, 0 100%);
+  cursor: pointer;
+}
 
 
 
