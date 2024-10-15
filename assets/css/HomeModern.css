@@ -1848,6 +1848,7 @@ z-index: 1;
 .huynhdai01 {
 position: relative;
 z-index: 2;
+top: -118px;
 }
 
 .price {
@@ -2750,3 +2751,239 @@ top: 73px;
     right: -747px;
     top: -291px;
 }
+
+
+
+
+
+
+/* choosee your taxi */
+
+
+
+
+/* chữ màu cam ridek */
+
+
+
+
+/*  choosee taxi chữ màu cam*/
+
+.section-heading07 {
+  position: relative;
+}
+
+.section-heading07 h4 {
+  position: relative;
+  color: #f90;
+  display: flex;
+  line-height: 16px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  top: 7px;
+  left: 551px;
+}
+
+.section-heading07 h4 span,
+.section-heading07 h4 span:before,
+.section-heading07 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading07 h4 span {
+  top: 1px;
+  position: absolute;
+  transform: skew(-20deg, 0deg);
+  left: -19px;
+}
+
+.section-heading07 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading07 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
+/*  */
+
+
+/* .choose-your-taxi .nav-pills {
+  justify-content: center;
+} */
+.choose-your-taxi .chooseetaxi2 {
+
+  font-weight: 700;
+  font-size: 40px;
+  position: relative;
+  top: 6px;
+  right: -360px;
+  }
+
+
+
+  /*  */
+
+
+  .choose-your-taxi .chooseetaxi1 {
+    color: #666;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto 45px auto;
+    position: relative;
+    top: -11px;
+  }
+  
+
+
+  /*  */
+
+  /* màu chữ trỏ chuột hiển thị choossee taxi */
+.choose-your-taxi .nav-pills .nav-link1 {
+  color: #333; /* Màu chữ mặc định */
+  font-weight: normal; /* Trọng lượng chữ bình thường */
+  transition: color 0.3s ease, font-weight 0.3s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+.choose-your-taxi .nav-pills .nav-link1.active,
+.choose-your-taxi .nav-pills .nav-link1:hover {
+  color: #000; /* Màu đen đậm khi trỏ chuột vào hoặc khi active */
+  font-weight: 500; /* Trọng lượng chữ đậm */
+}
+
+
+/*  */
+
+
+
+
+
+.choose-your-taxi .card-body p {
+    color: #666;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+
+
+/* ahanh màu trắng choosee taxi */
+.nav-link1 {
+  background-color: white;
+  color: #999;
+  font-size: 17px;
+  position: relative;
+}
+
+
+/*  */
+
+
+
+
+/* code HUYNHDAI */
+.huynhdai0 {
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%);
+}
+
+.huynhdai01 {
+  position: relative;
+}
+
+.card-title01 {
+  color: #000;
+  position: relative;
+  top: 27px;
+  right: -18px;
+  font-weight: bold;
+}
+
+
+
+/*  */
+
+
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Nút xem thêm choossee taxi */
+.btn.btn-primary1 {
+  background-color: #ff9900;
+
+width: 241px;
+  /* Thêm màu nền đen khi hover */
+  /* background-color: orange; */
+  color: white;
+  /* Thay đổi màu chữ thành trắng */
+  transition: background-color 0.3s ease;
+  /* Thêm hiệu ứng chuyển đổi */
+}
+
+.btn.btn-primary1:hover {
+  background-color: black;
+  /* Chuyển lại màu cam khi hover */
+  color: white;
+  /* Chuyển lại màu chữ thành đen */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
