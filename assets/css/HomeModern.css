@@ -2782,7 +2782,13 @@ top: 73px;
   text-transform: uppercase;
   letter-spacing: 1px;
   top: 7px;
-  left: 551px;
+  /* left: 551px; */
+
+
+  justify-content: center; /* Centers content horizontally */
+  align-items: center;
+  display: flex;
+
 }
 
 .section-heading07 h4 span,
@@ -2800,7 +2806,7 @@ top: 73px;
   top: 1px;
   position: absolute;
   transform: skew(-20deg, 0deg);
-  left: -19px;
+  left: 509px;
 }
 
 .section-heading07 h4 span:after {
@@ -2828,7 +2834,8 @@ top: 73px;
   font-size: 40px;
   position: relative;
   top: 6px;
-  right: -360px;
+  /* right: -360px; */
+text-align: center;
   }
 
 
