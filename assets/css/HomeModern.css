@@ -2606,6 +2606,7 @@ left: 447px;
     background-color: orange;
     padding: 8px 0;
     width: 1700px;
+    height: 350px;
    
   }
   
@@ -2619,13 +2620,21 @@ left: 447px;
   }
   
   .section-map button {
-    width: 100px;
+    width: 130px;
     height: 50px;
-    margin-top: 23px;
+    margin-top: 119px;
     transform: translate(136%);
     position: relative;
-    left: -355px;
+    left: -532px;
   }
+
+
+  /*  */
+
+/*  dòng chữ feel your joney*/
+
+
+  /*  */
   /*  */
 
   .button1 {
@@ -2645,9 +2654,19 @@ left: 447px;
 
   /*  */
 
+
+  .ridek1{
+    color: black;
+    font-size: 16px;
+ position: relative;
+ top: 70px;
+ left: -317px;
+ font-weight: 600;
+  }
   .class1{
 position: relative;
-right: 273px;
+right: 127px;
+top: 73px;
   }
   
   /* dòng chữ */
@@ -2680,6 +2699,9 @@ right: 273px;
     color: #fff;
     font-size: 19px;
 
+
+    margin-bottom: -6px;
+
   }
  /*  */
  .section-map {
@@ -2691,3 +2713,40 @@ right: 273px;
   
 }
   
+/*  */
+
+
+.check-list i{
+
+  background-color: #222;
+  clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
+  font-size: 12px;
+  color: #ff9900;
+  width: 30px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  position: relative;
+  left: -215px;
+  top: 34px;
+
+}
+
+.easy1{
+
+  position: relative;
+  right: -35px;
+}
+
+
+
+/*  */
+
+
+.img-car001{
+
+  width: 150%;
+  position: relative;
+    right: -496px;
+    top: -230px;
+}
