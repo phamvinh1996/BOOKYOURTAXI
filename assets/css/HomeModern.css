@@ -787,7 +787,7 @@ top: -346px;
     /*  code css màu nút button book*/
     .button-carousel button {
       /* background-color: black; */
-      background-color: whitesmoke;
+      background-color: #ff9900;
       /* Đặt màu nền của nút là đen */
       color: black;
       /* Đặt màu chữ là trắng */
@@ -799,7 +799,7 @@ top: -346px;
   
   
     .button-carousel button:hover {
-      background-color: darkgray;
+      background-color: #ff9900;
       /* Thay đổi màu nền của nút khi di chuột qua */
     }
   
