@@ -629,7 +629,7 @@ margin-top: 80px;
       position: relative;
       font-family: "Space Grotesk", sans-serif;
       font-size: 52px;
-      top: -38px;
+      top: 5px;
   
     }
   
@@ -766,13 +766,20 @@ margin-top: 80px;
     button.carousel-control-prev {
       width: 100px;
       position: absolute;
-      left: -9%;
+      left: -61%;
+      height: 61px;
+      top: -346px;
+      background-color: #ff9900;
     }
   
     button.carousel-control-next {
       width: 100px;
       position: absolute;
-      left: 615%;
+      left: 601%;
+
+
+top: -346px;
+      height: 61px;
     }
   
   
@@ -3195,4 +3202,184 @@ p {
   left: 593px;
   top: 69px;
   /* Giá trị số âm để di chuyển hình ảnh lên trên */
+}
+
+
+
+/* code css mục book you taxi from  */
+
+ 
+      /* nút chỉnh butoon  book your */
+      .button-carousel {
+        position: relative;
+        bottom: 73px;
+        height: 47px;
+        top: 18%;
+        left: 9%;
+        text-align: center;
+        width: 270px;
+      }
+    
+      .carousel-control-prev,
+      .carousel-control-next {
+        position: absolute;
+        bottom: 20px;
+        /* Điều chỉnh khoảng cách từ nút đến phía dưới của trang */
+        left: 130px;
+        /* Điều chỉnh khoảng cách từ nút đến phía trái của trang */
+        background-color: black;
+        /* Đặt màu nền của nút là trắng */
+        border: none;
+        /* Xóa viền của nút */
+        color: black;
+        /* Đặt màu chữ là đen */
+        padding: 20px;
+        /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
+        position: fixed;
+        top: -11%;
+    
+      }
+
+
+
+
+      /*  */
+
+       /* code chu pre - next */
+      
+       .previous-word {
+        font-size: 17px;
+        /* color:  rgb(71, 70, 70); */
+        z-index: 1;
+        /* position: relative; */
+        /* left: 7%; */
+        /* top: -15px; */
+        bottom: 30px;
+
+
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
+      }
+    
+      .next-word {
+        font-size: 17px;
+        z-index: 1;
+        position: relative;
+        /* color: rgb(71, 70, 70); */
+        right: -95%;
+        /* top: -15px; */
+        /* bottom: 30px; */
+
+
+
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        cursor: pointer;
+     
+       
+      } 
+
+
+      /*dòng chữ book you taxi hình 1  */
+
+
+      .doct10{
+
+        margin-left: 297px;
+      }
+
+      .taxidoct10{
+
+        margin-top: 36px;
+      }
+
+
+      /* code css dòng chữ book you taxi hình 2 */
+
+      .doct12{
+        position: relative;
+        right: -260px;
+
+
+      }
+
+      .book11{
+
+        margin-right: 73px;
+      }
+      .taxi1{
+
+        margin-right: 128px;
+      }
+
+   
+
+
+      .btn-book-now {
+        display: inline-block; /* Makes the link behave like a button */
+        padding: 10px 20px; /* Add padding for clickable area */
+        background-color: #ff9900; /* Green background color */
+        color: white; /* White text color */
+        font-size: 16px; /* Font size */
+        text-decoration: none; /* Remove underline */
+        border-radius: 5px; /* Rounded corners */
+        transition: background-color 0.3s ease; /* Smooth color transition */
+        margin-right: -389px;
+        width: 180px;
+        height: 46px;
+    }
+    
+  
+
+    .btn-view-more:hover {
+      background-color: black;
+      color: orange;
+  }
+
+
+
+
+  /*  */
+
+
+
+
+
+  /* .button-carousel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+    position: relative;
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+}
+
+.carousel-control-prev {
+    clip-path: polygon(0% 0%, 100% 50%, 0% 100%); /* Left arrow shape */
+}
+
+.carousel-control-next {
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%); /* Right arrow shape */
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    background-color: darkorange;
+}
+
+.previous-word, .next-word {
+    display: none; /* If you want to hide the text */
 }
