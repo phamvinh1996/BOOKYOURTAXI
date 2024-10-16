@@ -1504,16 +1504,16 @@ margin-left: 212px;
   /* Nut xem them dich vu noi bat */
   .nutxemthem {
     background-color: #ff9900;
-    color: white;
+    /* color: white; */
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
     font-size: 15px;
-    top: -3px;
+    /* top: -3px; */
     position: relative;
-    left: -1148px;
+    /* left: 10px; */
     transition: background-color 0.3s ease;
     /* cắt nút bên phải button */
     clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
@@ -1532,6 +1532,17 @@ margin-left: 212px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+  /*  */
 
   
 
@@ -2288,7 +2299,7 @@ left: 447px;
   font-size: 15px;
   top: -3px;
   position: relative;
-  left: -1148px;
+  /* left: -1148px; */
   transition: background-color 0.3s ease;
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
@@ -2305,6 +2316,35 @@ left: 447px;
 
 /*  */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 
 
 /* Media query cho kích thước điện thoại */
