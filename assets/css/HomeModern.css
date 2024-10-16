@@ -3006,8 +3006,18 @@ width: 241px;
       background-position: right; */
 }
 
+
+
+.xeoto{
+
+
+  margin-top: -95px;
+}
+
+
+
 .xeoto {
-  margin-left: 176px;
+  margin-left: 395px;
   position: absolute;
   top: 35%;
  
@@ -3108,7 +3118,7 @@ p {
 
 .phone-image {
   position: absolute;
-  width: 266px;
+  width: 350px;
   float: right;
   left: 31%;
   height: auto;
@@ -3136,15 +3146,20 @@ p {
 
 
 .animated-2{
-  color: #666;
+  color: #fff;
   font-family: "Space Grotesk", sans-serif;
+
+
+
+  left: -3px;
+  position: relative;
+  font-size: 17px;
 
 }
 
 
 
-
-
+/*  */
 
 
 
