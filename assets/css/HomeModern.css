@@ -3572,7 +3572,7 @@ img {
 
 
 
-/*  */
+/* hình cam mục OUR */
 
 
 
@@ -3581,7 +3581,7 @@ img {
   position: absolute;
   top: -3%;
   left: 50%;
-  transform: translate(-50%, 85%) rotate(-90deg) skewY(-1deg);
+  transform: translate(-50%, 85%) rotate(-90deg) skewY(0deg);
   width: 80px;
   height: 261px;
   background-color: #ff9900;
@@ -3589,7 +3589,7 @@ img {
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
 
-  clip-path: (0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%)
+  clip-path: (0 0, 100% 0, 100% 70%, 90% 100%, 0 100%)
 }
 
 
@@ -3607,4 +3607,57 @@ a {
   text-decoration: none;  /* Xóa gạch chân của liên kết */
   font-size: 18px;        /* Điều chỉnh kích thước chữ */
   color: #333;            /* Màu chữ */
+}
+
+
+
+/* dòng chữ nằm ngang */
+
+
+.the1 {
+  display: inline-block;
+  writing-mode: vertical-lr; /* Thay đổi hướng chữ từ dọc sang ngang */
+  /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
+  transform: rotate(1deg); /* Xoay chữ nếu cần đảo ngược */
+  font-size: 16px; /* Kích thước chữ */
+  white-space: nowrap; /* Đảm bảo chữ không xuống hàng */
+  position: relative;
+  top: 76px;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+/* hình màu đen  */
+
+.chunhat2{
+  position: absolute;
+  top: -61%;
+  left: -17%;
+  transform: translate(-50%, 85%) rotate(0deg) skewY(0deg);
+  width: 80px;
+  height: 215px;
+  background-color: #222;
+  z-index: 1;
+  background-size: 8px 8px;
+  clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
+}
+
+/* dòng chữ nằm ngang */
+
+
+.the2 {
+  display: inline-block;
+  writing-mode: vertical-lr; /* Thay đổi hướng chữ từ dọc sang ngang */
+  /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
+  transform: rotate(1deg); /* Xoay chữ nếu cần đảo ngược */
+  font-size: 16px; /* Kích thước chữ */
+  white-space: nowrap; /* Đảm bảo chữ không xuống hàng */
+  position: relative;
+  top: 55px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
 }
