@@ -1431,6 +1431,8 @@ img.image-car2 {
   color: rgb(227, 215, 215);
   position: relative;
   overflow: hidden;
+
+ 
 }
 
 .cover-image .overlay {
@@ -1442,6 +1444,8 @@ img.image-car2 {
   background-color: rgba(0, 0, 0, 0.5);
   /* Màu tối với độ mờ */
   z-index: 1;
+
+  
 }
 
 .cover-image .content {
@@ -1498,6 +1502,7 @@ img.image-car2 {
   color: #ddd;
   position: relative;
   right: 38px;
+  padding-bottom: 70px;
 }
 
 .card {
