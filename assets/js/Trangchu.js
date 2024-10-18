@@ -28,27 +28,7 @@ document.getElementById("searchBtn").addEventListener("click", function() {
   });
   
   /*  */
-    $(document).ready(function() {
-      // Xử lý khi form đăng ký nhận tin được submit
-      $('#subscribe-form').submit(function(e) {
-        e.preventDefault(); // Ngăn chặn hành vi submit mặc định của form
-        var email = $('input[name="email"]').val(); // Lấy giá trị email từ input
     
-        // Gửi request AJAX đến server để xử lý đăng ký nhận tin
-        $.ajax({
-          url: 'subscribe.php', // Đường dẫn đến file xử lý đăng ký nhận tin trên server
-          method: 'POST',
-          data: {email: email},
-          success: function(response) {
-            // Xử lý kết quả trả về từ server (response)
-            alert('Đăng ký nhận tin thành công!');
-          },
-          error: function() {
-            alert('Đã xảy ra lỗi. Vui lòng thử lại sau!');
-          }
-        });
-      });
-    });
   
   /*  */
     $(document).ready(function() {

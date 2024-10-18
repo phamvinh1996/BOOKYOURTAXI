@@ -1153,6 +1153,10 @@ button.carousel-control-next {
   opacity: 0.2;
 }
 
+/* code css khoảng cách mục about our company */
+.section-online-vechungtoi{
+  padding-bottom: 130px;
+}
 /*  Code CSS VỀ CHÚNG TÔI */
 /* thẻ chữ book you */
 /* Khoảng cách Giua anh va chu VE CHUNG TOI */
@@ -5468,6 +5472,7 @@ img.image-car2 {
 /* code chữ book you taxi */
 /* CSS cho màn hình điện thoại di động */
 @media (max-width: 767px) {
+
   .carousel-item {
     position: relative;
   }
@@ -5507,6 +5512,8 @@ img.image-car2 {
     object-fit: cover;
 
   }
+
+  
 }
 
 /* nút button xem trên điện thoại mục book your */

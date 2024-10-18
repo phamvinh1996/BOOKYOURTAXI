@@ -30,8 +30,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome/dist/line-awesome/css/line-awesome.min.css">
   <link rel="stylesheet" href="./assets/css/trangchu.css">
 </head>
-
 <body>
+
   <!-- thanhcuon -->
   <!-- Thư viện xưm website trên điện thoại -->
   <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -412,9 +412,9 @@
       <i class="las la-long-arrow-alt-right" aria-hidden="true"></i>
     </button>
   </div>
-  </div>
-  </div>
-  </div>
+  
+  
+  
   <!-- tạo mục giới thiệu về chúng tôi -->
   <!-- /* Khoảng cách Giua anh va chu VE CHUNG TOI */
   .image-container ,.form-group  -->
@@ -477,6 +477,7 @@
   </div>
   </div>
   </div>
+  <!-- <br>
   <br>
   <br>
   <br>
@@ -484,8 +485,9 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
+  
+  <br> -->
+  <!-- pading bottom: px -->
   <!-- Start Format -->
   <!-- code Dịch vụ nỗi bật -->
   <!-- TẠO DỊCH VỤ NỖI BẬT -->
@@ -1454,83 +1456,92 @@
 
 
 
-  <!-- code js thanh cuộn -->
-  <script>
 
-    $("p").clone().appendTo(document.body);
-    $("p").clone().appendTo(document.body);
-    $("p").clone().appendTo(document.body);
-    $(window).on("scroll", function () {
-      $("span").css("display", "inline").fadeOut("slow");
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="../assets/lib/jquery/jquery.min.js"></script>
+<script src="../assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
+<script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<script src="../assets/lib/select2/js/select2.full.min.js"></script>
+<script src="../assets/lib/select2/js/i18n/vi.js"></script>
+<script src="../assets/js/Trangchu.js"></script>
+<script>
+  $(document).ready(function () {
+
+    //$('.carousel').slick();
+
+    $('.table-1').slick({
+      arrows: false,
+      dots: true,
+      infinite: true,
+      speed: 500,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: false, // Tự động chuyển đổi slide
+      autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
     });
-  </script>
 
-  <script>
-    $(document).ready(function () {
-      $('.carousel').slick();
+    $('.select2').select2();
+
+    jQuery('#datepicker').datetimepicker({
+      timepicker: false,
     });
-  </script>
-
-
-
-  <!-- code js 1000 trai nghiem -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/jquery.slick/1.8.1/slick.min.js"></script>
-  <script>
-    $(document).ready(function () {
-      $('.table-1').slick({
-        arrows: false,
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: false, // Tự động chuyển đổi slide
-        autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
-      });
+    jQuery('#timepicker').datetimepicker({
+      datepicker: false,
     });
-  </script>
-  <script src="./assets/lib/jquery/jquery.min.js"></script>
-  <script src="./assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
-  <script src="./assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-  <script src="./assets/lib/select2/js/select2.full.min.js"></script>
-  <script src="./assets/lib/select2/js/i18n/vi.js"></script>
-  <script src="./assets/js/Trangchu.js"></script>
-  <script>
-    $(document).ready(function () {
+    $('.slider').slick({
 
-      $('.select2').select2();
 
-      jQuery('#datepicker').datetimepicker({
-        timepicker: false,
-      });
-      jQuery('#timepicker').datetimepicker({
-        datepicker: false,
-      });
-      $('.slider').slick({
-        dots: true,
-        slidesToShow: 3, // Hiển thị 3 slide cùng lúc
-        slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
-        autoplay: true, // Tự động chạy slide
-        autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
-        //  prevArrow: ' < button class = "slick-prev" > Previous < /button>', // Nút điều khiển slide trước
-        // nextArrow: ' < button class = "slick-next" > Next < /button>', // Nút điều khiển slide kế tiếp
-        responsive: [{
-          breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
-          settings: {
-            slidesToShow: 2, // Hiển thị 2 slide ở màn hình có độ rộng từ 768px trở xuống
-          }
-        }, {
-          breakpoint: 576,
-          settings: {
-            slidesToShow: 1, // Hiển thị 1 slide ở màn hình có độ rộng từ 576px trở xuống
-          }
-        }]
-      });
-      $('.multiple-items').slick({});
+
+
+
+      dots: true,
+      slidesToShow: 3, // Hiển thị 3 slide cùng lúc
+      slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
+      autoplay: true, // Tự động chạy slide
+      autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
+      //  prevArrow: ' < button class = "slick-prev" > Previous < /button>', // Nút điều khiển slide trước
+      // nextArrow: ' < button class = "slick-next" > Next < /button>', // Nút điều khiển slide kế tiếp
+      responsive: [{
+        breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
+        settings: {
+          slidesToShow: 2, // Hiển thị 2 slide ở màn hình có độ rộng từ 768px trở xuống
+        }
+      }, {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1, // Hiển thị 1 slide ở màn hình có độ rộng từ 576px trở xuống
+        }
+      }]
     });
-  </script>
+
+    $('.multiple-items').slick({});
+
+
+  });
+
+</script>
 
 
 </body>
