@@ -6,7 +6,6 @@ window.addEventListener('load', function() {
   }, 1000); // Đặt thời gian trễ 1 giây (1000ms) trước khi ẩn phần tử loading và hiển thị kết quả
   
 });
-
 /*  */
 document.getElementById("searchBtn").addEventListener("click", function() {
     console.log(123)
@@ -17,7 +16,6 @@ document.getElementById("searchBtn").addEventListener("click", function() {
       searchContainer.style.display = "none";
     }
   });
-  
   /*  */
   document.addEventListener('DOMContentLoaded', function() {
     var iconContainer = document.querySelector('.icon-container');
@@ -145,65 +143,22 @@ document.getElementById("searchBtn").addEventListener("click", function() {
   });
   
   /* Dịch vụ nổi  bật */
-  
-  
-  
-  
-  
-  
-  
-  
-  
   $('.single-item-rtl').slick({
     rtl: true
   });
-  
-  
-  
-  
   /* di chuyển trang dịch vụ nổi bât */
    $('.multiple-items').slick({
      infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3
    });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /*  */
-  
-  
-  
-  
   $(document).ready(function () {
     $('.slider').slick({
       slidesToShow: 3, // Hiển thị 3 slide cùng lúc
       slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
      autoplay: true, // Tự động chạy slide
       autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
-      // prevArrow: '<button class="slick-prev">Previous</button>', // Nút điều khiển slide trước
-    // nextArrow: '<button class="slick-next">Next</button>', // Nút điều khiển slide kế tiếp
      responsive: [
       {
         breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
@@ -219,86 +174,40 @@ document.getElementById("searchBtn").addEventListener("click", function() {
         }
     ]
     });
-  
-  
-  
      // Bắt sự kiện click cho nút "Previous"
      $('.prev-btn').click(function(){
       $('.slider').slick('slickPrev'); // Di chuyển đến slide trước
     });
-  
     // Bắt sự kiện click cho nút "Next"
     $('.next-btn').click(function(){
       $('.slider').slick('slickNext'); // Di chuyển đến slide kế tiếp
     });
   });
-  
-  
-  
-  
-  
   /*  */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   $(document).ready(function () {
     $('.multiple-items').slick({
     });
   });
-  
-  
-  
-  
-  
   /* code cắt thanh nav trangchu, phần menu */
-  
-  
   const prevButton = document.querySelector('.prev');
   const nextButton = document.querySelector('.next');
   const content = document.querySelector('.content');
   const cartItems = document.querySelectorAll('.cart');
   const cartWidth = cartItems[0].offsetWidth;
   const containerWidth = content.offsetWidth;
-  
   let currentIndex = 0;
-  
   prevButton.addEventListener('click', () => {
     if (currentIndex > 0) {
       currentIndex--;
       content.scrollLeft = currentIndex * cartWidth;
     }
   });
-  
   nextButton.addEventListener('click', () => {
     if (currentIndex < cartItems.length - 1) {
       currentIndex++;
       content.scrollLeft = currentIndex * cartWidth;
     }
   });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
   /* hon 10000 */
   
   const carouselItems = document.querySelectorAll('.carousel-content');
@@ -329,82 +238,9 @@ document.getElementById("searchBtn").addEventListener("click", function() {
     e.preventDefault();
     prevItem();
   });
-  
-  
-  
-  
   /*  */
-  
-  
-  
-  
   /* di chuyển trang hon 1000 khach hang */
-  
-  
-  
-  
-  /* dịch vụ nổi bật */
-  
-  // $(document).ready(function() {
-  //   $('.slider').slick({
-  //     slidesToShow: 1,
-  //     slidesToScroll: 1,
-  //     dots: true,
-  //     appendDots: '.slider', // Thêm các nút dot vào phần tử có class "slider"
-  //     customPaging: function(slider, i) {
-  //       return '<button></button>'; // Tạo nút dot tùy chỉnh
-  //     }
-  //   });
-  // });
-  
-  
-  
-  
-  
-  
-  
   /* dich vu noi bat... */
-  
-  // document.addEventListener("DOMContentLoaded", function() {
-  //    var slider = document.querySelector(".slider");
-  
-  //    $(slider).slick({
-  //      dots: true,
-  //      arrows: false
-  //    });
-  //  });
-  
-  // $(document).ready(function(){
-  //   $('.slider').slick({
-  //     dots: true, // Hiển thị nút dot
-  //     //dotsClass: '.dots', // Đặt nút dot vào một phần tử có class "dots"
-  //     // customPaging: function(slider, i) {
-  //     //   // Tạo HTML cho nút dot
-  //     //   return '<button class="dot"></button>';
-  //     // }
-  //   });
-  // });
-  
-  
-  
-  
-   // JavaScript để cuộn xuống khi nhấp vào liên kết
-  
-  
-  
-      // JavaScript để hiển thị thanh điều hướng khi cuộn trang xuống
-   
-
-/* hiệu ứng mới vào website */
-
-
-
-
-
-/*  */
-
-
-
 document.getElementById('navbar-toggler').addEventListener('click', function() {
   const bars = document.querySelectorAll('.bar');
   bars.forEach(bar => bar.classList.toggle('active')); // Bật hoặc tắt lớp active
