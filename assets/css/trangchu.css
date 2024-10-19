@@ -1155,7 +1155,7 @@ button.carousel-control-next {
 
 /* code css khoảng cách mục about our company */
 .section-online-vechungtoi{
-  padding-bottom: 130px;
+  /* padding-bottom: 130px; */
 }
 /*  Code CSS VỀ CHÚNG TÔI */
 /* thẻ chữ book you */
@@ -1631,7 +1631,7 @@ img.image-car2 {
   font-size: 15px;
   top: -3px;
   position: relative;
-  /* left: -1148px; */
+  left: -1148px;
   transition: background-color 0.3s ease;
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
