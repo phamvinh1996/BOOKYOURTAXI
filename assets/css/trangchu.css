@@ -1471,7 +1471,7 @@ img.image-car2 {
 .cover-image .textdichvunoibat {
   color: #fff;
   position: relative;
-  top: 99px;
+  top: 58px;
   left: 678px;
   font-weight: 700;
   line-height: 50px;
@@ -1486,7 +1486,7 @@ img.image-car2 {
 
 .cover-image p {
   position: relative;
-  top: 203px;
+  top: 179px;
   font-size: 17px;
   /* margin-top: -23px; */
   font-family: "Space Grotesk", sans-serif;
@@ -1502,7 +1502,6 @@ img.image-car2 {
   color: #ddd;
   position: relative;
   right: 38px;
-  padding-bottom: 66px;
 }
 
 .card {
@@ -1885,7 +1884,7 @@ img.image-car2 {
   font-size: 17px;
   z-index: 999;
   left: -40px;
-  top: 65px;
+  top: 28px;
 }
 
 .section-heading001 h4 span,
