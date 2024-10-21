@@ -3279,18 +3279,6 @@ p {
   color: white;
 }
 
-/* code css media query mục bảng cam why ride witdth */
-
-/* Media query cho thiết bị di động */
-@media (max-width: 768px) {
-  .custom-size {
-    font-size: 71px;
-    /* Thay đổi kích thước chữ cho điện thoại */
-    left: -12px;
-    /* Đặt lại vị trí */
-  }
-}
-
 /* dòng chữ 3 thông tin công ty */
 .table-heading03 {
   color: white;
@@ -3473,37 +3461,6 @@ p {
   text-align: left;
 }
 
-/*  */
-/* Media query cho màn hình điện thoại */
-@media (max-width: 768px) {
-  .review-heading {
-    font-size: 23px;
-    /* Giảm kích thước chữ cho màn hình nhỏ */
-    text-align: center;
-    /* Căn giữa văn bản trên màn hình nhỏ */
-    margin: 0 auto;
-    /* Đảm bảo căn giữa nếu có khoảng cách */
-    margin-left: -78px;
-    color: #000;
-  }
-}
-
-/*  */
-/* hon1000 khach hang */
-/* bảng hon 1000 */
-/* code html chữ kich co chữ bang hon 1000 */
-/* bảng hon 1000 khách trải nghiệm */
-/* bảng ridek peseenger riviews */
-/* Media query cho màn hình nhỏ hơn 600px */
-@media (max-width: 600px) {
-  .table-1 {
-    right: -15px;
-    /* Di chuyển qua phải hơn */
-    /* Hoặc bạn có thể dùng transform */
-    /* transform: translateX(10px); */
-  }
-}
-
 /* code Diệu lê */
 .table-1 {
   position: relative;
@@ -3543,17 +3500,6 @@ p {
 .table-1 .slick-dots li.slick-active {
   background-color: #ff9900;
   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
-}
-
-/*  code css dấu slick chuyển trang mục redek passenger riview*/
-@media (max-width: 768px) {
-  .table-1 .slick-dots li.slick-active {
-    margin-left: -170px;
-    background-color: #ffcc00;
-    /* Thay đổi màu nền cho điểm đang hoạt động */
-    box-shadow: 0 0 0 2px rgba(255, 204, 0, 0.5);
-    /* Giảm độ dày của bóng */
-  }
 }
 
 /*  */
@@ -3755,26 +3701,6 @@ p {
   text-align: center;
   color: #666;
   top: -85px;
-}
-
-/* code css media query new and inghlight */
-/* Media query cho màn hình điện thoại */
-@media (max-width: 768px) {
-  .tintuc {
-    font-size: 14px;
-    /* Giảm kích thước chữ cho màn hình nhỏ */
-    top: -58px;
-    /* Điều chỉnh vị trí lên một chút nếu cần */
-  }
-}
-
-/*  */
-/* Media query cho màn hình điện thoại */
-@media (max-width: 768px) {
-  .tintuc1 {
-    margin-top: 33px;
-    /* Đặt lại margin-top cho màn hình nhỏ */
-  }
 }
 
 /*  */
@@ -4136,19 +4062,6 @@ button {
 }
 
 /*  */
-
-@media only screen and (max-width: 600px) {
-  .address-label {
-    white-space: nowrap;
-    /* Đảm bảo chữ không xuống hàng */
-    overflow: hidden;
-    /* Ẩn phần chữ vượt quá chiều rộng */
-    text-overflow: ellipsis;
-    /* Hiển thị dấu "..." nếu chữ vượt quá */
-  }
-}
-
-/*  */
 /* head office footer */
 .address-label-111 {
   color: white;
@@ -4179,19 +4092,6 @@ button {
 }
 
 /*  */
-/* code css media query chữ working hour footer */
-@media only screen and (max-width: 600px) {
-  .address-label-111 {
-    white-space: nowrap;
-    /* Đảm bảo chữ không tự xuống hàng */
-    overflow: hidden;
-    /* Ẩn phần chữ vượt quá chiều rộng */
-    text-overflow: ellipsis;
-    /* Hiển thị dấu "..." nếu chữ vượt quá */
-  }
-}
-
-/*  */
 .row-footer {
   display: flex;
   flex-wrap: wrap;
@@ -4205,22 +4105,7 @@ button {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
   font-size: 17px;
 }
-
 /*  */
-/* code css media query chữ footer  monday- friday */
-@media only screen and (max-width: 600px) {
-  .address-text {
-    white-space: nowrap;
-    /* Đảm bảo chữ không xuống hàng */
-    overflow: hidden;
-    /* Ẩn phần chữ vượt quá chiều rộng */
-    text-overflow: ellipsis;
-    /* Hiển thị dấu "..." nếu chữ vượt quá */
-  }
-}
-
-/*  */
-
 /* code css ghạch chân liên hệ footer */
 .contact-label {
   color: #333333;
@@ -4348,17 +4233,6 @@ button {
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
-}
-
-/* màu chữ footer địa chỉ, mở cửa */
-/*  */
-/* Media Query cho màn hình điện thoại */
-/* code css media query new and Inght */
-/* Media Query cho màn hình điện thoại */
-@media (max-width: 768px) {
-  .row-tintuc1 {
-    margin-left: -113px;
-  }
 }
 
 /*  */
@@ -4619,38 +4493,6 @@ img.image-car2 {
 }
 
 /*  */
-/* Media query cho màn hình điện thoại */
-/* code css media query new and Insights */
-/* For tablets and smaller screens (768px and below) */
-@media (max-width: 768px) {
-  .card {
-    width: 95%;
-    /* Slightly reduce width for tablets */
-    max-width: 320px;
-    margin-bottom: 25px;
-  }
-}
-
-/* For mobile devices (576px and below) */
-@media (max-width: 576px) {
-  .card {
-    width: 100%;
-    /* Adjust width for mobile */
-    max-width: 378px;
-    margin-bottom: 20px;
-  }
-}
-
-/* For very small mobile screens (360px and below) */
-@media (max-width: 360px) {
-  .card {
-    width: 85%;
-    /* Further reduce width for small devices */
-    max-width: 240px;
-    margin-bottom: 15px;
-  }
-}
-
 /*  */
 /* Card Image */
 .card-img-top {
@@ -4761,16 +4603,6 @@ img.image-car2 {
 
 .side-navbar.show {
   display: block;
-}
-
-/*  */
-/* Styles for the side navbar */
-/*  mục bảng màu cam ridek passengers */
-@media (max-width: 767px) {
-  .table-heading000 {
-    font-size: 25px;
-    line-height: 20px;
-  }
 }
 
 /*  */
@@ -4923,7 +4755,6 @@ img.image-car2 {
   color: #ff8c00;
   /* Orange color */
 }
-
 /* kích cỡ  website khi xem trên điện thoại */
 /* @media (max-width: 767px) {
 }  
@@ -7251,6 +7082,189 @@ main {
   /* Center the images */
 }
 }
+
+
+
+/* code css media query mục bảng cam why ride witdth */
+
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+  .custom-size {
+    font-size: 71px;
+    /* Thay đổi kích thước chữ cho điện thoại */
+    left: -12px;
+    /* Đặt lại vị trí */
+  }
+}
+
+/*  */
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .review-heading {
+    font-size: 23px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    text-align: center;
+    /* Căn giữa văn bản trên màn hình nhỏ */
+    margin: 0 auto;
+    /* Đảm bảo căn giữa nếu có khoảng cách */
+    margin-left: -78px;
+    color: #000;
+  }
+}
+
+/*  */
+/* hon1000 khach hang */
+/* bảng hon 1000 */
+/* code html chữ kich co chữ bang hon 1000 */
+/* bảng hon 1000 khách trải nghiệm */
+/* bảng ridek peseenger riviews */
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .table-1 {
+    right: -15px;
+    /* Di chuyển qua phải hơn */
+    /* Hoặc bạn có thể dùng transform */
+    /* transform: translateX(10px); */
+  }
+}
+
+
+
+
+/*  code css dấu slick chuyển trang mục redek passenger riview*/
+@media (max-width: 768px) {
+  .table-1 .slick-dots li.slick-active {
+    margin-left: -170px;
+    background-color: #ffcc00;
+    /* Thay đổi màu nền cho điểm đang hoạt động */
+    box-shadow: 0 0 0 2px rgba(255, 204, 0, 0.5);
+    /* Giảm độ dày của bóng */
+  }
+}
+
+
+/* code css media query new and inghlight */
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .tintuc {
+    font-size: 14px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    top: -58px;
+    /* Điều chỉnh vị trí lên một chút nếu cần */
+  }
+}
+
+/*  */
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .tintuc1 {
+    margin-top: 33px;
+    /* Đặt lại margin-top cho màn hình nhỏ */
+  }
+}
+
+
+/*  */
+
+@media only screen and (max-width: 600px) {
+  .address-label {
+    white-space: nowrap;
+    /* Đảm bảo chữ không xuống hàng */
+    overflow: hidden;
+    /* Ẩn phần chữ vượt quá chiều rộng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." nếu chữ vượt quá */
+  }
+}
+
+
+
+/*  */
+/* code css media query chữ working hour footer */
+@media only screen and (max-width: 600px) {
+  .address-label-111 {
+    white-space: nowrap;
+    /* Đảm bảo chữ không tự xuống hàng */
+    overflow: hidden;
+    /* Ẩn phần chữ vượt quá chiều rộng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." nếu chữ vượt quá */
+  }
+}
+
+
+/*  */
+/* code css media query chữ footer  monday- friday */
+@media only screen and (max-width: 600px) {
+  .address-text {
+    white-space: nowrap;
+    /* Đảm bảo chữ không xuống hàng */
+    overflow: hidden;
+    /* Ẩn phần chữ vượt quá chiều rộng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." nếu chữ vượt quá */
+  }
+}
+
+
+/* màu chữ footer địa chỉ, mở cửa */
+/*  */
+/* Media Query cho màn hình điện thoại */
+/* code css media query new and Inght */
+/* Media Query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .row-tintuc1 {
+    margin-left: -113px;
+  }
+}
+
+
+/*  */
+/* Media query cho màn hình điện thoại */
+/* code css media query new and Insights */
+/* For tablets and smaller screens (768px and below) */
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+    /* Slightly reduce width for tablets */
+    max-width: 320px;
+    margin-bottom: 25px;
+  }
+}
+
+/* For mobile devices (576px and below) */
+@media (max-width: 576px) {
+  .card {
+    width: 100%;
+    /* Adjust width for mobile */
+    max-width: 378px;
+    margin-bottom: 20px;
+  }
+}
+
+/* For very small mobile screens (360px and below) */
+@media (max-width: 360px) {
+  .card {
+    width: 85%;
+    /* Further reduce width for small devices */
+    max-width: 240px;
+    margin-bottom: 15px;
+  }
+}
+
+
+
+/*  */
+/* Styles for the side navbar */
+/*  mục bảng màu cam ridek passengers */
+@media (max-width: 767px) {
+  .table-heading000 {
+    font-size: 25px;
+    line-height: 20px;
+  }
+}
+
+
 
 
 
