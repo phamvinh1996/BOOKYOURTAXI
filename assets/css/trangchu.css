@@ -59,7 +59,6 @@ p {
 
 .logoridekft {
   width: 206px;
-
 }
 
 .doctt1 {
@@ -400,21 +399,6 @@ div#offcanvasDarkNavbar {
   /* Set the desired height */
 }
 
-/* code css kích cỡ bảng xem media */
-@media (max-width: 767px) {
-
-  /* Đặt .collapse không hiển thị mặc định */
-  .collapse {
-    display: none;
-    height: 300px;
-    /* Điều chỉnh chiều cao tự động */
-  }
-}
-
-.show {
-  display: block;
-}
-
 /* nút css menu trangchu... */
 .navbar-toggler {
   float: right;
@@ -583,63 +567,6 @@ div#offcanvasDarkNavbar {
   object-fit: cover;
   width: 100%;
   height: 100%;
-}
-
-/*  */
-/* code css media bảng trắng */
-@media (max-width: 767px) {
-
-  /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
-  .carousel-inner {
-    height: 600vh;
-    /* 100% chiều cao màn hình */
-    background-color: white;
-    border: 1px solid #ccc;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-}
-
-/*  */
-/*  */
-@media (max-width: 767px) {
-  body {
-    font-size: 14px;
-    /* Giảm kích thước chữ cho điện thoại */
-    padding: 10px;
-    /* Thêm khoảng cách xung quanh */
-  }
-
-  h1 {
-    font-size: 24px;
-    /* Kích thước tiêu đề nhỏ hơn */
-  }
-
-  .container {
-    padding: 10px;
-    /* Giảm khoảng cách bên trong */
-  }
-
-  .button {
-    width: 100%;
-    /* Nút chiếm toàn bộ chiều rộng */
-    padding: 10px;
-    /* Thêm khoảng cách cho nút */
-    font-size: 16px;
-    /* Kích thước chữ cho nút */
-  }
-
-  .image {
-    width: 100%;
-    /* Hình ảnh chiếm toàn bộ chiều rộng */
-    height: auto;
-    /* Giữ tỉ lệ khung hình */
-  }
-
-  /* Các quy tắc khác cho màn hình nhỏ */
-  .text {
-    line-height: 1.4;
-    /* Điều chỉnh khoảng cách dòng */
-  }
 }
 
 /*  */
@@ -883,25 +810,6 @@ div#offcanvasDarkNavbar {
 }
 
 /*  */
-/* code css media query book your mục pre-next */
-/* Media query cho màn hình nhỏ */
-@media (max-width: 767px) {
-  .button-carousel {
-    height: 40px;
-    /* Điều chỉnh chiều cao cho màn hình nhỏ */
-    width: 80%;
-    /* Đặt chiều rộng thành 80% */
-    left: 10%;
-    /* Căn giữa nút */
-    bottom: 50px;
-    /* Điều chỉnh vị trí dưới cùng */
-    margin-top: -7px;
-    font-size: 14px;
-    /* Điều chỉnh kích thước chữ */
-  }
-}
-
-/*  */
 /* code chu pre - next */
 .previous-word {
   font-size: 17px;
@@ -1001,15 +909,6 @@ button.carousel-control-next {
 }
 
 /*  */
-/* nút làm ẩn bảng dưới mục pre next book you */
-/* Media query cho màn hình nhỏ hơn */
-@media (max-width: 767px) {
-  .carousel-inner::after {
-    display: none;
-  }
-}
-
-/*  */
 /*  */
 /*  */
 /* clip path cắt ảnh boook you */
@@ -1061,29 +960,6 @@ button.carousel-control-next {
   font-size: 30px;
   font-weight: bold;
   right: auto;
-}
-
-/*  */
-/* code css media query book you mục chuyển số trang 1/2 */
-/*  */
-@media (max-width: 767px) {
-  #carouselExampleFade .carousel-indicators li {
-    right: -46px;
-    /* Đưa chỉ báo vào trong màn hình */
-    position: relative;
-    color: #ff9900;
-    background-color: transparent;
-    width: auto;
-    background-clip: unset;
-    text-indent: 0;
-    top: 60px;
-    /* Điều chỉnh vị trí trên dưới cho di động */
-    height: auto;
-    font-size: 20px;
-    /* Giảm kích thước font chữ cho di động */
-    padding: 5px;
-    /* Thêm khoảng cách cho chỉ báo */
-  }
 }
 
 /* nut tim kiem */
@@ -1176,23 +1052,6 @@ button.carousel-control-next {
   background-color: #ff9900;
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
-}
-
-/*  */
-/* code css media query bảng  white choosee us*/
-/* Media query cho màn hình nhỏ hơn 768px */
-@media (max-width: 768px) {
-  .form-group1 {
-    width: 124%;
-    margin-top: 17px;
-    margin-left: -40px;
-    padding: 110px 50px;
-    /* Adjust the value as needed */
-    position: relative;
-    background-color: #ff9900;
-    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
-    background-size: 10px 10px;
-  }
 }
 
 /*  */
@@ -1373,31 +1232,6 @@ img.image-car1 {
   position: relative;
   width: 300px;
 }
-
-/*  */
-/* code css media query mục ABOUT COMPANY hình ảnh */
-/* Media query cho màn hình nhỏ hơn 768px (máy tính bảng và điện thoại) */
-@media (max-width: 768px) {
-  .section-online-vechungtoi .image-car1 {
-    width: 83%;
-    /* Cho hình ảnh chiếm toàn bộ chiều rộng container */
-    left: -46px;
-    /* Đặt lại vị trí hình ảnh ở giữa */
-  }
-
-  .section-online-vechungtoi .image-car2 {
-    width: 85%;
-    /* Điều chỉnh cho hình ảnh chiếm hết chiều rộng container */
-    left: 109px;
-    /* Đặt lại vị trí hình ảnh */
-  }
-
-  .section-online-vechungtoi .image-container {
-    text-align: center;
-    /* Căn giữa toàn bộ hình ảnh */
-  }
-}
-
 /*  */
 .image-car2-container {
   display: flex;
@@ -1431,12 +1265,7 @@ img.image-car2 {
   color: rgb(227, 215, 215);
   position: relative;
   overflow: hidden;
-
- 
 }
-
-
-
 
 .cover-image .overlay {
   position: absolute;
@@ -1447,8 +1276,6 @@ img.image-car2 {
   background-color: rgba(0, 0, 0, 0.5);
   /* Màu tối với độ mờ */
   z-index: 1;
-
-  
 }
 
 .cover-image .content {
@@ -1646,33 +1473,6 @@ img.image-car2 {
 .nutxemthem:hover {
   background-color: black;
   color: white;
-}
-
-/*  */
-/* Media query cho kích thước điện thoại */
-@media (max-width: 412px) {
-  .nutxemthem {
-    padding: 16px;
-    /* Thay đổi padding cho điện thoại */
-    left: 0;
-    /* Đặt lại vị trí */
-    top: 0;
-    /* Đặt lại vị trí */
-    width: 43%;
-    /* Nút chiếm toàn bộ chiều rộng */
-    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
-  }
-}
-
-/* nút xem thêm mục  start you joney media query */
-/* Media query cho màn hình nhỏ hơn hoặc bằng 600px */
-@media (max-width: 600px) {
-  .nutxemthem {
-    left: 5%;
-    /* Di chuyển nút sang phải một chút */
-    width: 60%;
-    /* Nút chiếm 90% chiều rộng cho màn hình nhỏ */
-  }
 }
 
 /*  */
@@ -1923,28 +1723,6 @@ img.image-car2 {
   opacity: 0.2;
 }
 
-/*code css media query mục chữ nàu what we ofer  */
-
-
-/* Media query cho màn hình nhỏ hơn 600px */
-@media (max-width: 600px) {
-  .section-heading001 h4 {
-    padding-left: 51px;
-    /* Giảm padding cho hợp lý */
-    left: 87px;
-    /* Điều chỉnh vị trí sang trái */
-    top: 20px;
-    /* Điều chỉnh vị trí cho hợp lý trên điện thoại */
-    font-size: 14px;
-    /* Giảm kích thước chữ */
-  }
-
-  .section-heading001 h4 span {
-    left: 20px;
-    /* Điều chỉnh vị trí span */
-  }
-}
-
 /* choosee taxi dấu chấm */
 .card {
   position: relative;
@@ -1962,7 +1740,6 @@ img.image-car2 {
   padding-left: 0;
   margin-bottom: 0;
   padding-left: 499px;
-
   position: relative;
   left: -88px;
 
@@ -2021,31 +1798,6 @@ img.image-car2 {
   left: 100%;
   position: absolute;
   top: 53%;
-}
-
-/* code css media query tạo start your jouney làm ẩn nút */
-/* code css media query next */
-@media (max-width: 768px) {
-  .slick-next.slick-arrow {
-    position: absolute;
-    top: auto;
-    bottom: -59px;
-    margin-left: -77px;
-    right: 20px;
-    transform: none;
-  }
-}
-
-/* code css media query pre*/
-
-@media (max-width: 768px) {
-  .slick-prev.slick-arrow {
-    position: absolute;
-    top: auto;
-    bottom: -59px;
-    margin-left: -128px;
-    transform: none;
-  }
 }
 
 /* Hình cắt bên trái Start Your Jouney */
@@ -2190,29 +1942,6 @@ button {
   top: 1%;
 }
 
-/*  */
-
-/* Media query cho màn hình điện thoại */
-@media (max-width: 768px) {
-  .section-heading06 h4 {
-    padding-left: 51px;
-    /* Giảm khoảng cách bên trái */
-    font-size: 16px;
-    /* Giảm kích thước chữ */
-    line-height: 14px;
-    /* Điều chỉnh line-height */
-    top: -64px;
-    /* Điều chỉnh vị trí */
-    color: #ff9900;
-  }
-
-  .section-heading06 h4 span,
-  .section-heading06 h4 span:before,
-  .section-heading06 h4 span::after {
-    height: 10px;
-    /* Giảm chiều cao cho các span */
-  }
-}
 
 /*  */
 /* dau 3 ghach */
@@ -3123,19 +2852,6 @@ button {
   color: #101114;
   background-color: #f0e6e6;
 }
-
-/* code tạo di chuyển nút choossee taxi */
-/* dich vu noi bat pre */
-/*  */
-/* code css media query mục ẩn nút start you joney */
-/* Media query để ẩn nút trên màn hình nhỏ */
-@media (max-width: 600px) {
-  .cart-service .slick-next {
-    display: none;
-    /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
-  }
-}
-
 /*  */
 /* Hinh Start your journey with
 Ridek Taxi Company! */
@@ -3309,50 +3025,6 @@ p {
 .animated-2 {
   color: #666;
   font-family: "Space Grotesk", sans-serif;
-}
-
-/*  */
-/* Media query cho các thiết bị nhỏ */
-/*  code css media query mục GET THE RIDEK MOBILE */
-/* Media query for mobile devices */
-@media (max-width: 600px) {
-  .image-row {
-    display: flex;
-    flex-wrap: wrap;
-    /* Allow icons to wrap to the next line */
-    justify-content: space-between;
-  }
-
-  .image-item {
-    text-align: center;
-  }
-
-  .image-item:nth-child(1),
-  {
-  display: inline-block;
-  width: 30%;
-  /* Icon 1 and Icon 2 will share the same row */
-}
-
-
-.image-item:nth-child(2) {
-  position: relative;
-  left: -160px;
-}
-
-.image-item:nth-child(3) {
-  width: 30%;
-  /* Icon 3 will take full width and move to the next row */
-  /* margin-left: 78px; */
-  margin-right: 105px;
-
-}
-
-.image-item img {
-  display: block;
-  margin: 0 auto;
-  /* Center the images */
-}
 }
 
 /*  */
@@ -7241,3 +6913,351 @@ main {
 }
 
 /*  */
+
+/* code css kích cỡ bảng xem media */
+@media (max-width: 767px) {
+
+  /* Đặt .collapse không hiển thị mặc định */
+  .collapse {
+    display: none;
+    height: 300px;
+    /* Điều chỉnh chiều cao tự động */
+  }
+}
+
+.show {
+  display: block;
+}
+
+
+/*  */
+/* code css media bảng trắng */
+@media (max-width: 767px) {
+
+  /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
+  .carousel-inner {
+    height: 600vh;
+    /* 100% chiều cao màn hình */
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/*  */
+/*  */
+@media (max-width: 767px) {
+  body {
+    font-size: 14px;
+    /* Giảm kích thước chữ cho điện thoại */
+    padding: 10px;
+    /* Thêm khoảng cách xung quanh */
+  }
+
+  h1 {
+    font-size: 24px;
+    /* Kích thước tiêu đề nhỏ hơn */
+  }
+
+  .container {
+    padding: 10px;
+    /* Giảm khoảng cách bên trong */
+  }
+
+  .button {
+    width: 100%;
+    /* Nút chiếm toàn bộ chiều rộng */
+    padding: 10px;
+    /* Thêm khoảng cách cho nút */
+    font-size: 16px;
+    /* Kích thước chữ cho nút */
+  }
+
+  .image {
+    width: 100%;
+    /* Hình ảnh chiếm toàn bộ chiều rộng */
+    height: auto;
+    /* Giữ tỉ lệ khung hình */
+  }
+
+  /* Các quy tắc khác cho màn hình nhỏ */
+  .text {
+    line-height: 1.4;
+    /* Điều chỉnh khoảng cách dòng */
+  }
+}
+
+
+
+/*  */
+/* code css media query book your mục pre-next */
+/* Media query cho màn hình nhỏ */
+@media (max-width: 767px) {
+  .button-carousel {
+    height: 40px;
+    /* Điều chỉnh chiều cao cho màn hình nhỏ */
+    width: 80%;
+    /* Đặt chiều rộng thành 80% */
+    left: 10%;
+    /* Căn giữa nút */
+    bottom: 50px;
+    /* Điều chỉnh vị trí dưới cùng */
+    margin-top: -7px;
+    font-size: 14px;
+    /* Điều chỉnh kích thước chữ */
+  }
+}
+
+
+/*  */
+/* nút làm ẩn bảng dưới mục pre next book you */
+/* Media query cho màn hình nhỏ hơn */
+@media (max-width: 767px) {
+  .carousel-inner::after {
+    display: none;
+  }
+}
+
+/*  */
+
+
+/*  */
+/* code css media query book you mục chuyển số trang 1/2 */
+/*  */
+@media (max-width: 767px) {
+  #carouselExampleFade .carousel-indicators li {
+    right: -46px;
+    /* Đưa chỉ báo vào trong màn hình */
+    position: relative;
+    color: #ff9900;
+    background-color: transparent;
+    width: auto;
+    background-clip: unset;
+    text-indent: 0;
+    top: 60px;
+    /* Điều chỉnh vị trí trên dưới cho di động */
+    height: auto;
+    font-size: 20px;
+    /* Giảm kích thước font chữ cho di động */
+    padding: 5px;
+    /* Thêm khoảng cách cho chỉ báo */
+  }
+}
+
+/*  */
+
+/*  */
+/* code css media query bảng  white choosee us*/
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .form-group1 {
+    width: 124%;
+    margin-top: 17px;
+    margin-left: -40px;
+    padding: 110px 50px;
+    /* Adjust the value as needed */
+    position: relative;
+    background-color: #ff9900;
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
+  }
+}
+/*  */
+
+/*  */
+/* code css media query mục ABOUT COMPANY hình ảnh */
+/* Media query cho màn hình nhỏ hơn 768px (máy tính bảng và điện thoại) */
+@media (max-width: 768px) {
+  .section-online-vechungtoi .image-car1 {
+    width: 83%;
+    /* Cho hình ảnh chiếm toàn bộ chiều rộng container */
+    left: -46px;
+    /* Đặt lại vị trí hình ảnh ở giữa */
+  }
+
+  .section-online-vechungtoi .image-car2 {
+    width: 85%;
+    /* Điều chỉnh cho hình ảnh chiếm hết chiều rộng container */
+    left: 109px;
+    /* Đặt lại vị trí hình ảnh */
+  }
+
+  .section-online-vechungtoi .image-container {
+    text-align: center;
+    /* Căn giữa toàn bộ hình ảnh */
+  }
+}
+/*  */
+
+
+/*  */
+/* Media query cho kích thước điện thoại */
+@media (max-width: 412px) {
+  .nutxemthem {
+    padding: 16px;
+    /* Thay đổi padding cho điện thoại */
+    left: 0;
+    /* Đặt lại vị trí */
+    top: 0;
+    /* Đặt lại vị trí */
+    width: 43%;
+    /* Nút chiếm toàn bộ chiều rộng */
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+  }
+}
+
+/* nút xem thêm mục  start you joney media query */
+/* Media query cho màn hình nhỏ hơn hoặc bằng 600px */
+@media (max-width: 600px) {
+  .nutxemthem {
+    left: 5%;
+    /* Di chuyển nút sang phải một chút */
+    width: 60%;
+    /* Nút chiếm 90% chiều rộng cho màn hình nhỏ */
+  }
+}
+/*  */
+
+/*code css media query mục chữ nàu what we ofer  */
+
+
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .section-heading001 h4 {
+    padding-left: 51px;
+    /* Giảm padding cho hợp lý */
+    left: 87px;
+    /* Điều chỉnh vị trí sang trái */
+    top: 20px;
+    /* Điều chỉnh vị trí cho hợp lý trên điện thoại */
+    font-size: 14px;
+    /* Giảm kích thước chữ */
+  }
+
+  .section-heading001 h4 span {
+    left: 20px;
+    /* Điều chỉnh vị trí span */
+  }
+}
+/*  */
+
+/* code css media query tạo start your jouney làm ẩn nút */
+/* code css media query next */
+@media (max-width: 768px) {
+  .slick-next.slick-arrow {
+    position: absolute;
+    top: auto;
+    bottom: -59px;
+    margin-left: -77px;
+    right: 20px;
+    transform: none;
+  }
+}
+
+/* code css media query pre*/
+
+@media (max-width: 768px) {
+  .slick-prev.slick-arrow {
+    position: absolute;
+    top: auto;
+    bottom: -59px;
+    margin-left: -128px;
+    transform: none;
+  }
+}
+
+/*  */
+
+/*  */
+
+/* Media query cho màn hình điện thoại */
+@media (max-width: 768px) {
+  .section-heading06 h4 {
+    padding-left: 51px;
+    /* Giảm khoảng cách bên trái */
+    font-size: 16px;
+    /* Giảm kích thước chữ */
+    line-height: 14px;
+    /* Điều chỉnh line-height */
+    top: -64px;
+    /* Điều chỉnh vị trí */
+    color: #ff9900;
+  }
+
+  .section-heading06 h4 span,
+  .section-heading06 h4 span:before,
+  .section-heading06 h4 span::after {
+    height: 10px;
+    /* Giảm chiều cao cho các span */
+  }
+}
+
+
+
+/* code tạo di chuyển nút choossee taxi */
+/* dich vu noi bat pre */
+/*  */
+/* code css media query mục ẩn nút start you joney */
+/* Media query để ẩn nút trên màn hình nhỏ */
+@media (max-width: 600px) {
+  .cart-service .slick-next {
+    display: none;
+    /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
+  }
+}
+/*  */
+
+
+/*  */
+/* Media query cho các thiết bị nhỏ */
+/*  code css media query mục GET THE RIDEK MOBILE */
+/* Media query for mobile devices */
+@media (max-width: 600px) {
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow icons to wrap to the next line */
+    justify-content: space-between;
+  }
+
+  .image-item {
+    text-align: center;
+  }
+
+  .image-item:nth-child(1),
+  {
+  display: inline-block;
+  width: 30%;
+  /* Icon 1 and Icon 2 will share the same row */
+}
+
+
+.image-item:nth-child(2) {
+  position: relative;
+  left: -160px;
+}
+
+.image-item:nth-child(3) {
+  width: 30%;
+  /* Icon 3 will take full width and move to the next row */
+  /* margin-left: 78px; */
+  margin-right: 105px;
+
+}
+
+.image-item img {
+  display: block;
+  margin: 0 auto;
+  /* Center the images */
+}
+}
+
+
+
+
+
+
+
+
+
+
