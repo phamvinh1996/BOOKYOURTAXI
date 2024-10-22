@@ -2165,6 +2165,8 @@ button {
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 .centered-text {
   text-align: center;
+  padding-bottom: 23px;
+  margin-top: 157px;
 }
 
 .centered-text h1 {
