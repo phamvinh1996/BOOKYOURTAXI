@@ -226,4 +226,5 @@ document.getElementById('navbar-toggler').addEventListener('click', function() {
   bars.forEach(bar => bar.classList.toggle('active')); // Bật hoặc tắt lớp active
 });
 
-/* code carousel */
+/* code carousel, slick, slide ,  */
+
