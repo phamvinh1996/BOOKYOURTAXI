@@ -60,24 +60,9 @@ $(document).ready(function () {
 
 
 
-/* hiệu ứng website */
-window.addEventListener('load', function() {
-  setTimeout(function() {
-      var loading = document.getElementById('loading-wrapper');
-      loading.style.display = 'none';
-  }, 1000); // Đặt thời gian trễ 1 giây (1000ms) trước khi ẩn phần tử loading và hiển thị kết quả
-  
-});
+
 /*  */
-document.getElementById("searchBtn").addEventListener("click", function() {
-    console.log(123)
-    var searchContainer = document.getElementById("searchContainer");
-    if (searchContainer.style.display === "none") {
-      searchContainer.style.display = "block";
-    } else {
-      searchContainer.style.display = "none";
-    }
-  });
+
   /*  */
   document.addEventListener('DOMContentLoaded', function() {
     var iconContainer = document.querySelector('.icon-container');
