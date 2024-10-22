@@ -4985,6 +4985,7 @@ img.image-car2 {
 /* code chữ book you taxi */
 /* CSS cho màn hình điện thoại di động */
 @media (max-width: 767px) {
+  /* ffrgfg */
 
   .carousel-item {
     position: relative;
@@ -4999,6 +5000,10 @@ img.image-car2 {
     color: #fff;
     width: 90%;
   }
+
+  /* end */
+
+  
 
   .carousel-caption h4 {
     font-size: 18px;
