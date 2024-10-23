@@ -6672,7 +6672,7 @@ margin: 0 auto;
   .new-container {
     padding: 10px;
     /* Thay đổi padding cho điện thoại */
-    width: 128%;
+    width: 105%;
     /* Thay đổi chiều rộng cho điện thoại */
     left: -5px;
     /* Điều chỉnh vị trí nếu cần */
