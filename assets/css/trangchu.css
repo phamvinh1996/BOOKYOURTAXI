@@ -6279,7 +6279,7 @@ header {
 /* ONLINE BOOKING- book you taxi ride */
 /* Default styles for all devices */
 .img-car {
-  display: block;
+  /* display: block; */
   animation-duration: 3s;
 }
 
