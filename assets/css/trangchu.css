@@ -1030,9 +1030,10 @@ button.carousel-control-next {
 }
 
 /* code css khoảng cách mục about our company */
-.section-online-vechungtoi{
+.section-online-vechungtoi {
   padding-bottom: 156px;
 }
+
 /*  Code CSS VỀ CHÚNG TÔI */
 /* thẻ chữ book you */
 /* Khoảng cách Giua anh va chu VE CHUNG TOI */
@@ -1231,6 +1232,7 @@ img.image-car1 {
   position: relative;
   width: 300px;
 }
+
 /*  */
 .image-car2-container {
   display: flex;
@@ -2842,6 +2844,7 @@ button {
   color: #101114;
   background-color: #f0e6e6;
 }
+
 /*  */
 /* Hinh Start your journey with
 Ridek Taxi Company! */
@@ -4091,6 +4094,7 @@ button {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
   font-size: 17px;
 }
+
 /*  */
 /* code css ghạch chân liên hệ footer */
 .contact-label {
@@ -4737,6 +4741,7 @@ img.image-car2 {
   color: #ff8c00;
   /* Orange color */
 }
+
 /* kích cỡ  website khi xem trên điện thoại */
 /* @media (max-width: 767px) {
 }  
@@ -4804,6 +4809,7 @@ img.image-car2 {
 /* Styles for larger screens */
 /* Media query for screens smaller than 768px (mobile devices) */
 @media (max-width: 767px) {
+
   /*  ẩn thanh logo*/
   .logo-container {
     display: none;
@@ -4825,437 +4831,450 @@ img.image-car2 {
     width: 100%;
   }
 
-/* thanh cuộn ẩn dòng chữ  */
-
-.side-navbar li:not(.logo000) {
-  display: none;
-}
-
-
-
-/* code css điều chỉnh dấu 3 ghạch nằm bên phải thanh cuộn */
-
-.side-navbar {
-  /* left: -20px; Điều chỉnh độ rộng của thanh cuộn */
-  transition: left 0.3s ease;
-}
-
-.side-navbar.show {
-  left: 0;
-}
-
-
-
-/*  */
-/* CSS Code */
-/* code chữ book you taxi */
-.carousel-item {
-  position: relative;
-}
-
-.carousel-caption {
-  position: absolute;
-  top: 71%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  width: 90%;
-}
-
-
-.carousel-caption h4 {
-  font-size: 18px;
-  margin-bottom: 5px;
-  margin-top: 80px;
-  margin-right: -140px;
-  text-align: left;
-}
-
-.carousel-caption h1 {
-  font-size: 31px;
-  /* margin-bottom: 5px; */
-  margin-right: 25px;
-}
-
-.carousel-caption p {
-  font-size: 14px;
-  line-height: 1.3;
-  margin-bottom: 15px;
-  margin-right: 37px;
-}
-
-.carousel-item img {
-  height: 641px;
-  object-fit: cover;
-
-}
-
-/* nút button xem trên điện thoại mục book your */
-
-.btn-view-more {
-  padding: 11px 10px;
-  /* Tăng kích thước nút */
-  font-size: 16px;
-  /* Tăng kích thước chữ */
-  width: 48%;
-  /* Đặt nút với chiều rộng 100% */
-  float: none;
-  /* Đặt nút ở vị trí bình thường (không float) */
-  text-align: center;
-  /* Canh giữa chữ */
-  margin-top: -50px;
-}
-
-/* code css media query xem điện thoại mục Chỉnh số trang1/2 Book your taxi */
-
-.carousel-indicators {
-  bottom: 10px;
-  /* Giảm khoảng cách từ dưới lên cho màn hình nhỏ */
-}
-
-.carousel-indicators li {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  /* Điều chỉnh để số trang nằm giữa theo chiều dọc */
-  font-size: 14px;
-  /* Giảm kích thước chữ */
-  margin: 0 3px;
-  /* Giảm khoảng cách giữa các nút */
-  margin-right: -70px;
-  margin-top: -120px;
-}
-
-.carousel-indicators li .total-slide {
-  font-size: 10px;
-  margin-top: 3px;
-  /* Giảm khoảng cách giữa số và phần /2 */
-}
-
-/* code css media query xem điện thoại mục Chỉnh số trang1/2 Book your taxi */
-
-
-
-
-.carousel-indicators {
-  bottom: 10px;
-  /* Giảm khoảng cách từ dưới lên cho màn hình nhỏ */
-}
-
-
-.carousel-indicators li {
-  width: 25px;
-  height: 25px;
-  line-height: 25px;
-  /* Điều chỉnh để số trang nằm giữa theo chiều dọc */
-  font-size: 14px;
-  /* Giảm kích thước chữ */
-  margin: 0 3px;
-  /* Giảm khoảng cách giữa các nút */
-  margin-right: -70px;
-  margin-top: -120px;
-}
-
-.carousel-indicators li .total-slide {
-  font-size: 10px;
-  margin-top: 3px;
-  /* Giảm khoảng cách giữa số và phần /2 */
-}
-/* code css media kích cỡ pre next book your */
-
-
-
-.carousel-control-next {
-  padding: 5px 15px;
-  /* Thu nhỏ padding cho phù hợp với điện thoại di động */
-  margin-left: -110px;
-  /* Thêm khoảng cách giữa các nút nếu cần */
-  margin-top: -20px;
-}
-
-.carousel-control-prev {
-  padding: 5px 15px;
-  /* Thu nhỏ padding cho phù hợp với điện thoại di động */
-  margin-top: -20px;
-}
-
-
-i {
-  font-size: 16px;
-  /* Giảm kích thước icon */
-}
-/* code thanh trắng media book your */
-
-.chunhat1 {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  width: 100%;
-  height: 100px;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  /* transform: translate(-50%, -50%); */
-
-}
-
-
-/* code css mục feel the diffrent */
-
-.image-car1-container
-{
-width: auto;
-/* Điều chỉnh kích thước theo nhu cầu */
-height: auto;
-margin-left: 0px;
-}
-
-.image-car2-container {
-width: auto;
-/* Điều chỉnh kích thước theo nhu cầu */
-height: auto;
-margin-left: -300px;
-margin-top: -130px;
-
-}
-
-.additional-images {
-width: auto;
-/* Điều chỉnh kích thước theo nhu cầu */
-height: auto;
-margin-left: -200px;
-}
-
-.Image {
-margin-left: -220px;
-}
-
-.image-animation {
-margin-left: -235px;
-}
-
-.image-container::after {
-margin-left: -66px;
-width: 174px;
-height: -150px;
-margin-top: -40px;
-}
-
-/* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
-
-.cover-image {
-  position: relative;
-}
-
-.cover-image .textdichvunoibat {
-  color: #fff;
-  position: absolute;
-  top: 36px;
-  left: 56px;
-  font-weight: 700;
-  line-height: 50px;
-}
-
-/* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
-
-
-
-
-.cover-image {
-  position: relative;
-}
-
-.animated {
-  color: #fff;
-  position: absolute;
-  top: 144px;
-  font-size: 13px;
-}
-
-.second-line {
-  font-size: 13px;
-  line-height: 1.5;
-}
-
-.cover-image .wow.bounceInUp .second-line {
-  margin-left: 30px;
-  color: #fff;
-}
-
-
-
-.wow.bounceInUp.animated {
-  font-size: 13px;
-  line-height: 1.5;
-  white-space: normal;
-  margin-top: -58px;
-}
-
-.wow.bounceInUp.animated br {
-  display: block;
-}
-
-.wow.bounceInUp.animated .second-line {
-  display: block;
-}
-/* Media query for mobile devices */
-
-.img-car {
-  display: none;
-}
-
-/* Ẩn hình thanh màu cam  ONLINE BOOKING- book you taxi ride */
-
-.section-online-booking::before {
-  display: none;
-}
-
-/*thẻ chữ h3  ONLINE BOOKING- book you taxi ride */
-.section-online-booking h3 {
-  font-size: 23px;
-  position: relative;
-  top: -51px;
-}
-
-.section-online-booking h3 span {
-  font-size: 28px;
-  margin-right: 10px;
-}
-/* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
-.section-online-booking::after {
-  background-color: #1c1c1c;
-  background-repeat: no-repeat;
-  position: relative;
-  padding: 107px 0;
-}
-/* mục kích cỡ nút button ONLINE BOOKING- book you taxi ride  */
-
-
-
-.sumit1 {
-  width: 100%;
-  height: 45px;
-  font-size: 16px;
-}
-/* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
-.section-heading07 h4 {
-  top: -43px;
-  margin-left: 35px;
-}
-
-
-/* Dòng chữ choosee your taxi rides  thanh tiêu đề*/
-
-.wow.bounceInUp.animated {
-  font-size: 21px;
-  line-height: 1.5;
-  white-space: normal;
-  margin-top: -58px;
-}
-/*  dòng chữ p choosee your taxi*/
-
-.choose-your-taxi .chooseetaxi1 {
-  max-width: 100%;
-  top: 0;
-  margin-left: 10px;
-}
-/* code thanh chọn choosee taxi nằm ngang */
-.choose-your-taxi .nav-pills {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  top: 0;
-}
-
-.choose-your-taxi .nav-pills .nav-link1 {
-  margin: 0 10px 10px 0;
-  padding: 8px 12px;
-  font-size: 14px;
-  left: 37px;
-}
-/* code làm ẩn điện thoại ONLINE BOOKING */
-.form-group .car-image,
-.form-group .phone-image {
-  display: none;
-}
-
-.form-group .xeoto {
-  width: 100%;
-  height: auto;
-}
-/* cpde làm ẩn xe ô tô  ONLONE BOOKING*/
-.xeoto {
-  display: none;
-}
-
-
-/* CSS for mobile */
-.animated-1,
-.new1 {
-  font-size: 24px;
-  position: relative;
-  top: 50%;
-  left: 8%;
-}
-/*  ridek mobile*/
-.animated-1,
-.new1 {
-  font-size: 24px;
-  display: block;
-  position: relative;
-  left: 56%;
-  transform: translate(-56%, 15%);
-  z-index: 1;
-}
-
-.new1 {
-  margin-top: 11px;
-  margin-right: -799px;
-  transform: translate(-20%, -32%);
-}
-
-
-.text-overlay {
-  font-size: 18px;
-  margin-right: -60px;
-  z-index: 1;
-}
-/* Media query for mobile devices */
-.image-item {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.image-item img {
-  margin-right: 10px;
-}
-
-.image-item p.easy1 {
-  font-size: 16px;
-  white-space: nowrap;
-}
-/* Kích thước nút button trên thiết bị di động GET STARRT RIDEK */
-
-.image-button {
-  width: 400px;
-  height: 56px;
-  margin-right: 30px;
-}
-.orange-table {
-  display: block;
-}
-
-.orange-table .left-column,
-.orange-table .right-column {
-  width: 100%;
-}
-
-/* bảng màu cam điện thoại ridke */
-
-.right-column h1,
+  /* thanh cuộn ẩn dòng chữ  */
+
+  .side-navbar li:not(.logo000) {
+    display: none;
+  }
+
+
+
+  /* code css điều chỉnh dấu 3 ghạch nằm bên phải thanh cuộn */
+
+  .side-navbar {
+    /* left: -20px; Điều chỉnh độ rộng của thanh cuộn */
+    transition: left 0.3s ease;
+  }
+
+  .side-navbar.show {
+    left: 0;
+  }
+
+
+
+  /*  */
+  /* CSS Code */
+  /* code chữ book you taxi */
+  .carousel-item {
+    position: relative;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 71%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 90%;
+  }
+
+
+  .carousel-caption h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    margin-right: -140px;
+    text-align: left;
+  }
+
+  .carousel-caption h1 {
+    font-size: 31px;
+    /* margin-bottom: 5px; */
+    margin-right: 25px;
+  }
+
+  .carousel-caption p {
+    font-size: 14px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+    margin-right: 37px;
+  }
+
+  .carousel-item img {
+    height: 641px;
+    object-fit: cover;
+
+  }
+
+  /* nút button xem trên điện thoại mục book your */
+
+  .btn-view-more {
+    padding: 11px 10px;
+    /* Tăng kích thước nút */
+    font-size: 16px;
+    /* Tăng kích thước chữ */
+    width: 48%;
+    /* Đặt nút với chiều rộng 100% */
+    float: none;
+    /* Đặt nút ở vị trí bình thường (không float) */
+    text-align: center;
+    /* Canh giữa chữ */
+    margin-top: -50px;
+  }
+
+  /* code css media query xem điện thoại mục Chỉnh số trang1/2 Book your taxi */
+
+  .carousel-indicators {
+    bottom: 10px;
+    /* Giảm khoảng cách từ dưới lên cho màn hình nhỏ */
+  }
+
+  .carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    /* Điều chỉnh để số trang nằm giữa theo chiều dọc */
+    font-size: 14px;
+    /* Giảm kích thước chữ */
+    margin: 0 3px;
+    /* Giảm khoảng cách giữa các nút */
+    margin-right: -70px;
+    margin-top: -120px;
+  }
+
+  .carousel-indicators li .total-slide {
+    font-size: 10px;
+    margin-top: 3px;
+    /* Giảm khoảng cách giữa số và phần /2 */
+  }
+
+  /* code css media query xem điện thoại mục Chỉnh số trang1/2 Book your taxi */
+
+
+
+
+  .carousel-indicators {
+    bottom: 10px;
+    /* Giảm khoảng cách từ dưới lên cho màn hình nhỏ */
+  }
+
+
+  .carousel-indicators li {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    /* Điều chỉnh để số trang nằm giữa theo chiều dọc */
+    font-size: 14px;
+    /* Giảm kích thước chữ */
+    margin: 0 3px;
+    /* Giảm khoảng cách giữa các nút */
+    margin-right: -70px;
+    margin-top: -120px;
+  }
+
+  .carousel-indicators li .total-slide {
+    font-size: 10px;
+    margin-top: 3px;
+    /* Giảm khoảng cách giữa số và phần /2 */
+  }
+
+  /* code css media kích cỡ pre next book your */
+
+
+
+  .carousel-control-next {
+    padding: 5px 15px;
+    /* Thu nhỏ padding cho phù hợp với điện thoại di động */
+    margin-left: -110px;
+    /* Thêm khoảng cách giữa các nút nếu cần */
+    margin-top: -20px;
+  }
+
+  .carousel-control-prev {
+    padding: 5px 15px;
+    /* Thu nhỏ padding cho phù hợp với điện thoại di động */
+    margin-top: -20px;
+  }
+
+
+  i {
+    font-size: 16px;
+    /* Giảm kích thước icon */
+  }
+
+  /* code thanh trắng media book your */
+
+  .chunhat1 {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* transform: translate(-50%, -50%); */
+
+  }
+
+
+  /* code css mục feel the diffrent */
+
+  .image-car1-container {
+    width: auto;
+    /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .image-car2-container {
+    width: auto;
+    /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    margin-left: -300px;
+    margin-top: -130px;
+
+  }
+
+  .additional-images {
+    width: auto;
+    /* Điều chỉnh kích thước theo nhu cầu */
+    height: auto;
+    margin-left: -200px;
+  }
+
+  .Image {
+    margin-left: -220px;
+  }
+
+  .image-animation {
+    margin-left: -235px;
+  }
+
+  .image-container::after {
+    margin-left: -66px;
+    width: 174px;
+    height: -150px;
+    margin-top: -40px;
+  }
+
+  /* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
+
+  .cover-image {
+    position: relative;
+  }
+
+  .cover-image .textdichvunoibat {
+    color: #fff;
+    position: absolute;
+    top: 36px;
+    left: 56px;
+    font-weight: 700;
+    line-height: 50px;
+  }
+
+  /* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
+
+
+
+
+  .cover-image {
+    position: relative;
+  }
+
+  .animated {
+    color: #fff;
+    position: absolute;
+    top: 144px;
+    font-size: 13px;
+  }
+
+  .second-line {
+    font-size: 13px;
+    line-height: 1.5;
+  }
+
+  .cover-image .wow.bounceInUp .second-line {
+    margin-left: 30px;
+    color: #fff;
+  }
+
+
+
+  .wow.bounceInUp.animated {
+    font-size: 13px;
+    line-height: 1.5;
+    white-space: normal;
+    margin-top: -58px;
+  }
+
+  .wow.bounceInUp.animated br {
+    display: block;
+  }
+
+  .wow.bounceInUp.animated .second-line {
+    display: block;
+  }
+
+  /* Media query for mobile devices */
+
+  .img-car {
+    display: none;
+  }
+
+  /* Ẩn hình thanh màu cam  ONLINE BOOKING- book you taxi ride */
+
+  .section-online-booking::before {
+    display: none;
+  }
+
+  /*thẻ chữ h3  ONLINE BOOKING- book you taxi ride */
+  .section-online-booking h3 {
+    font-size: 23px;
+    position: relative;
+    top: -51px;
+  }
+
+  .section-online-booking h3 span {
+    font-size: 28px;
+    margin-right: 10px;
+  }
+
+  /* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
+  .section-online-booking::after {
+    background-color: #1c1c1c;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 107px 0;
+  }
+
+  /* mục kích cỡ nút button ONLINE BOOKING- book you taxi ride  */
+
+
+
+  .sumit1 {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  /* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
+  .section-heading07 h4 {
+    top: -43px;
+    margin-left: 35px;
+  }
+
+
+  /* Dòng chữ choosee your taxi rides  thanh tiêu đề*/
+
+  .wow.bounceInUp.animated {
+    font-size: 21px;
+    line-height: 1.5;
+    white-space: normal;
+    margin-top: -58px;
+  }
+
+  /*  dòng chữ p choosee your taxi*/
+
+  .choose-your-taxi .chooseetaxi1 {
+    max-width: 100%;
+    top: 0;
+    margin-left: 10px;
+  }
+
+  /* code thanh chọn choosee taxi nằm ngang */
+  .choose-your-taxi .nav-pills {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    top: 0;
+  }
+
+  .choose-your-taxi .nav-pills .nav-link1 {
+    margin: 0 10px 10px 0;
+    padding: 8px 12px;
+    font-size: 14px;
+    left: 37px;
+  }
+
+  /* code làm ẩn điện thoại ONLINE BOOKING */
+  .form-group .car-image,
+  .form-group .phone-image {
+    display: none;
+  }
+
+  .form-group .xeoto {
+    width: 100%;
+    height: auto;
+  }
+
+  /* cpde làm ẩn xe ô tô  ONLONE BOOKING*/
+  .xeoto {
+    display: none;
+  }
+
+
+  /* CSS for mobile */
+  .animated-1,
+  .new1 {
+    font-size: 24px;
+    position: relative;
+    top: 50%;
+    left: 8%;
+  }
+
+  /*  ridek mobile*/
+  .animated-1,
+  .new1 {
+    font-size: 24px;
+    display: block;
+    position: relative;
+    left: 56%;
+    transform: translate(-56%, 15%);
+    z-index: 1;
+  }
+
+  .new1 {
+    margin-top: 11px;
+    margin-right: -799px;
+    transform: translate(-20%, -32%);
+  }
+
+
+  .text-overlay {
+    font-size: 18px;
+    margin-right: -60px;
+    z-index: 1;
+  }
+
+  /* Media query for mobile devices */
+  .image-item {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .image-item img {
+    margin-right: 10px;
+  }
+
+  .image-item p.easy1 {
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  /* Kích thước nút button trên thiết bị di động GET STARRT RIDEK */
+
+  .image-button {
+    width: 400px;
+    height: 56px;
+    margin-right: 30px;
+  }
+
+  .orange-table {
+    display: block;
+  }
+
+  .orange-table .left-column,
+  .orange-table .right-column {
+    width: 100%;
+  }
+
+  /* bảng màu cam điện thoại ridke */
+
+  .right-column h1,
   .right-column p {
     text-align: left;
     position: relative;
@@ -5269,79 +5288,84 @@ margin-top: -40px;
     right: -58px;
     top: -70px;
   }
-/* Hiển thị nút chỉ trên điện thoại di động */
 
-.btn-search {
-  display: none;
-}
+  /* Hiển thị nút chỉ trên điện thoại di động */
 
-/*code css làm ẩn thanh nav nút BOOKTAXI  */
+  .btn-search {
+    display: none;
+  }
 
-.contact-nav111 {
-  display: none;
-  /* Hiển thị trên thiết bị nhỏ hơn 768px */
-}
-/* dòng chữ thẻ p Start your joney */
-.wow.bounceInUp.animated {
-  font-size: 16px;
-  line-height: 1.5;
-  white-space: normal;
-  margin-top: -7px;
-  margin-left: 20px;
-  text-align: center;
-}
+  /*code css làm ẩn thanh nav nút BOOKTAXI  */
 
-.second-line {
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
-  position: relative;
-  right: 23px;
-}
-.logo01 {
-  max-height: 40px;
-  margin-left: -3px;
-  margin-top: 2px;
-  height: auto;
-  width: 133px;
-}
+  .contact-nav111 {
+    display: none;
+    /* Hiển thị trên thiết bị nhỏ hơn 768px */
+  }
+
+  /* dòng chữ thẻ p Start your joney */
+  .wow.bounceInUp.animated {
+    font-size: 16px;
+    line-height: 1.5;
+    white-space: normal;
+    margin-top: -7px;
+    margin-left: 20px;
+    text-align: center;
+  }
+
+  .second-line {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    position: relative;
+    right: 23px;
+  }
+
+  .logo01 {
+    max-height: 40px;
+    margin-left: -3px;
+    margin-top: 2px;
+    height: auto;
+    width: 133px;
+  }
 
 
-/* code css book you */
+  /* code css book you */
 
-.chunhatden {
-  display: none;
-}
-/* khoảng trắng book you */
+  .chunhatden {
+    display: none;
+  }
 
-.chunhat1 {
-  display: block;
-  position: absolute;
-  top: 546px;
-  left: -65px;
-  width: 168%;
-  height: 100px;
-  background-color: white;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  transform: translate(-48%, -84%);
-}
-/* dòng chữ book you */
-.carousel-caption h4 {
-  font-size: 18px;
-  margin-bottom: 5px;
-  margin-top: 80px;
-  margin-right: -140px;
-}
+  /* khoảng trắng book you */
 
-.carousel-caption {
-  position: absolute;
-  top: 71%;
-  left: 59%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: #fff;
-  width: 90%;
-}
+  .chunhat1 {
+    display: block;
+    position: absolute;
+    top: 546px;
+    left: -65px;
+    width: 168%;
+    height: 100px;
+    background-color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    transform: translate(-48%, -84%);
+  }
+
+  /* dòng chữ book you */
+  .carousel-caption h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 80px;
+    margin-right: -140px;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 71%;
+    left: 59%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 90%;
+  }
 
   /* Đặt chiều cao của carousel-inner chiếm toàn bộ màn hình */
   .carousel-inner {
@@ -5391,159 +5415,163 @@ margin-top: -40px;
     /* Điều chỉnh khoảng cách dòng */
   }
 
-/* mục book you pre */
+  /* mục book you pre */
 
-.button-carousel {
-  height: 40px;
-  /* Điều chỉnh chiều cao cho màn hình nhỏ */
-  width: 80%;
-  /* Đặt chiều rộng thành 80% */
-  left: 10%;
-  /* Căn giữa nút */
-  bottom: 50px;
-  /* Điều chỉnh vị trí dưới cùng */
-  margin-top: -55px;
-  font-size: 14px;
-  /* Điều chỉnh kích thước chữ */
-}
-/* nút làm ẩn */
-.carousel-inner::after {
-  display: none;
-}
-/* nút booj you 1/2 */
-#carouselExampleFade .carousel-indicators li {
-  right: -46px;
-  /* Đưa chỉ báo vào trong màn hình */
-  position: relative;
-  color: #ff9900;
-  background-color: transparent;
-  width: auto;
-  background-clip: unset;
-  text-indent: 0;
-  top: 10px;
-  /* Điều chỉnh vị trí trên dưới cho di động */
-  height: auto;
-  font-size: 20px;
-  /* Giảm kích thước font chữ cho di động */
-  padding: 5px;
-  /* Thêm khoảng cách cho chỉ báo */
-}
+  .button-carousel {
+    height: 40px;
+    /* Điều chỉnh chiều cao cho màn hình nhỏ */
+    width: 80%;
+    /* Đặt chiều rộng thành 80% */
+    left: 10%;
+    /* Căn giữa nút */
+    bottom: 50px;
+    /* Điều chỉnh vị trí dưới cùng */
+    margin-top: -55px;
+    font-size: 14px;
+    /* Điều chỉnh kích thước chữ */
+  }
 
-/* ridek passger */
-.table-heading000 {
-  font-size: 25px;
-  line-height: 20px;
-}
-/* thanh cuộn */
+  /* nút làm ẩn */
+  .carousel-inner::after {
+    display: none;
+  }
 
+  /* nút booj you 1/2 */
+  #carouselExampleFade .carousel-indicators li {
+    right: -46px;
+    /* Đưa chỉ báo vào trong màn hình */
+    position: relative;
+    color: #ff9900;
+    background-color: transparent;
+    width: auto;
+    background-clip: unset;
+    text-indent: 0;
+    top: 10px;
+    /* Điều chỉnh vị trí trên dưới cho di động */
+    height: auto;
+    font-size: 20px;
+    /* Giảm kích thước font chữ cho di động */
+    padding: 5px;
+    /* Thêm khoảng cách cho chỉ báo */
+  }
 
-.side-navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  z-index: 999;
-  overflow-x: auto;
-  white-space: nowrap;
-}
+  /* ridek passger */
+  .table-heading000 {
+    font-size: 25px;
+    line-height: 20px;
+  }
 
-.side-navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  display: inline-block;
-}
-
-.side-navbar li {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.side-navbar a {
-  color: #333;
-  text-decoration: none;
-  padding: 10px;
-}
-
-.side-navbar a:hover {
-  background-color: #555;
-}
-
-.logo000 {
-  display: inline-block;
-  margin-right: 20px;
-}
-
-.logo01 {
-  max-height: 50px;
-  height: auto;
-}
-
-.menu-icons {
-  display: inline-block;
-  margin-left: auto;
-}
-
-.contact-nav111 {
-  color: #fff;
-  padding: 10px 20px;
-  background-color: black;
-  border-radius: 5px;
-  margin-left: 20px;
-
-}
-/*  ảnh bìa book you*/
+  /* thanh cuộn */
 
 
-.carousel-item img {
-  height: 559px;
-}
+  .side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 999;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
 
-.carousel-caption {
-  top: 30%;
-  transform: translateY(-30%);
-}
+  .side-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
 
-.carousel-caption h1 {
-  font-size: 29px;
-  line-height: 36px;
-  top: 1px;
-  margin-left: -121px;
-}
+  .side-navbar li {
+    display: inline-block;
+    margin-right: 20px;
+  }
 
-.carousel-caption p {
-  font-size: 13px;
- margin-top: 11px;
- margin-right: -328px;
-}
+  .side-navbar a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+  }
 
-.doctt1 {
-  display: inline-block;
-}
+  .side-navbar a:hover {
+    background-color: #555;
+  }
 
-.chunhat1 {
-  display: block;
-}
+  .logo000 {
+    display: inline-block;
+    margin-right: 20px;
+  }
 
-.chunhatden {
-  display: block;
-}
+  .logo01 {
+    max-height: 50px;
+    height: auto;
+  }
 
-.carousel-caption::before {
+  .menu-icons {
+    display: inline-block;
+    margin-left: auto;
+  }
 
-  display: none;
-}
+  .contact-nav111 {
+    color: #fff;
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 5px;
+    margin-left: 20px;
 
-.btn-view-more {
-  font-size: 14px;
-  padding: 8px 16px;
+  }
 
-}
+  /*  ảnh bìa book you*/
+
+
+  .carousel-item img {
+    height: 559px;
+  }
+
+  .carousel-caption {
+    top: 30%;
+    transform: translateY(-30%);
+  }
+
+  .carousel-caption h1 {
+    font-size: 29px;
+    line-height: 36px;
+    top: 1px;
+    margin-left: -121px;
+  }
+
+  .carousel-caption p {
+    font-size: 13px;
+    margin-top: 11px;
+    margin-right: -328px;
+  }
+
+  .doctt1 {
+    display: inline-block;
+  }
+
+  .chunhat1 {
+    display: block;
+  }
+
+  .chunhatden {
+    display: block;
+  }
+
+  .carousel-caption::before {
+
+    display: none;
+  }
+
+  .btn-view-more {
+    font-size: 14px;
+    padding: 8px 16px;
+
+  }
 
 
 
@@ -5731,50 +5759,54 @@ margin-top: -40px;
     /* Thay đổi thời gian animation cho màn hình nhỏ */
     margin-left: -41px;
   }
-/* hình thanh cam */
+
+  /* hình thanh cam */
 
 
-.hotline {
-  position: relative;
-  top: 284px;
-  right: auto;
-  width: 100%;
-  height: 86px;
-  white-space: normal;
-  text-overflow: clip;
-  clip-path: none;
-  background-image: none;
-  padding: 10px;
-  box-sizing: border-box;
-}
-/*  code css điện thoại icon*/
-.hotline-image {
-  float: none;
-  position: relative;
-  top: 1px;
-  left: -165px;
-  width: 57px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-  margin-top: -17px;
-}
-.hotline-image {
-  float: none;
-  position: relative;
-  top: 1px;
-  left: -165px;
-  width: 57px;
-  margin: 0 auto;
-  display: block;
-  margin-bottom: 10px;
-  margin-top: -17px;
-}
-.hotline-text1 {
-  font-size: 20px;
-  top: 47%;
-  left: 48%;
-}
+  .hotline {
+    position: relative;
+    top: 284px;
+    right: auto;
+    width: 100%;
+    height: 86px;
+    white-space: normal;
+    text-overflow: clip;
+    clip-path: none;
+    background-image: none;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  /*  code css điện thoại icon*/
+  .hotline-image {
+    float: none;
+    position: relative;
+    top: 1px;
+    left: -165px;
+    width: 57px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -17px;
+  }
+
+  .hotline-image {
+    float: none;
+    position: relative;
+    top: 1px;
+    left: -165px;
+    width: 57px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: -17px;
+  }
+
+  .hotline-text1 {
+    font-size: 20px;
+    top: 47%;
+    left: 48%;
+  }
 
   /* Stack columns vertically */
   .row-footer {
@@ -5809,6 +5841,7 @@ margin-top: -40px;
     margin-top: 10px;
     /* Space above the button */
   }
+
   .col-3 .opening-hours {
     display: block;
     /* Hide the .opening-hours section */
@@ -5818,6 +5851,7 @@ margin-top: -40px;
     height: 967px;
     /* Adjust height for tablets */
   }
+
   .background-image {
     /* height: 800px; Adjust height for mobile devices */
     background-position: bottom;
@@ -5864,6 +5898,7 @@ margin-top: -40px;
     margin-left: -29px;
     font-size: 16px;
   }
+
   /* dòng chữ fooer xuống hàng */
   .footer-text {
     display: block;
@@ -5878,7 +5913,7 @@ margin-top: -40px;
     /* Đảm bảo xuống hàng */
   }
 
-/* dòng emeil */
+  /* dòng emeil */
   .icon-car {
     flex-direction: row;
     justify-content: center;
@@ -5891,382 +5926,396 @@ margin-top: -40px;
     max-width: 80%;
     /* Chiều rộng tối đa cho hình ảnh */
   }
-/* thanh cắt call us */
-.section-online-thepeople {
-  background-size: contain;
-  /* Thay đổi kích thước cho phù hợp với màn hình */
-  background-position: center;
-  /* Căn giữa hình ảnh */
-}
 
-.section-online-thepeople::after {
-  width: 100%;
-  /* Đặt chiều rộng đầy đủ cho mobile */
-  height: auto;
-  /* Tự động điều chỉnh chiều cao */
-  clip-path: polygon(100% 100%, 0 100%, 100% 0);
-}
+  /* thanh cắt call us */
+  .section-online-thepeople {
+    background-size: contain;
+    /* Thay đổi kích thước cho phù hợp với màn hình */
+    background-position: center;
+    /* Căn giữa hình ảnh */
+  }
 
-.section-online-thepeople::before {
-  width: 100%;
-  /* Đặt chiều rộng đầy đủ cho mobile */
-  left: 0;
-  /* Đặt lại vị trí cho mobile */
-  top: 0;
-  /* Đặt lại vị trí cho mobile */
-}
+  .section-online-thepeople::after {
+    width: 100%;
+    /* Đặt chiều rộng đầy đủ cho mobile */
+    height: auto;
+    /* Tự động điều chỉnh chiều cao */
+    clip-path: polygon(100% 100%, 0 100%, 100% 0);
+  }
 
-.title {
-  margin-top: 30px;
-  /* Giảm khoảng cách trên cho di động */
-  transform: translateY(-114px);
-  /* Di chuyển lên trên */
-  transition: transform 0.3s ease;
-  /* Thêm hiệu ứng chuyển động mượt mà */
-  margin-left: 121px;
-  font-size: 22px;
-}
+  .section-online-thepeople::before {
+    width: 100%;
+    /* Đặt chiều rộng đầy đủ cho mobile */
+    left: 0;
+    /* Đặt lại vị trí cho mobile */
+    top: 0;
+    /* Đặt lại vị trí cho mobile */
+  }
 
-.white-text {
-  text-align: center;
-  /* Căn giữa văn bản */
-  margin-top: 50px;
-  /* Thêm khoảng cách trên nếu cần */
-}
+  .title {
+    margin-top: 30px;
+    /* Giảm khoảng cách trên cho di động */
+    transform: translateY(-114px);
+    /* Di chuyển lên trên */
+    transition: transform 0.3s ease;
+    /* Thêm hiệu ứng chuyển động mượt mà */
+    margin-left: 121px;
+    font-size: 22px;
+  }
 
-.white-text {
-  margin-top: 10px;
-  /* Giảm khoảng cách trên cho di động */
-  transform: translateY(-116px);
-  /* Di chuyển lên trên */
-  font-size: 13px;
-  transition: transform 0.3s ease;
-  /* Hiệu ứng chuyển động mượt mà */
-  font-weight: 500;
-}
+  .white-text {
+    text-align: center;
+    /* Căn giữa văn bản */
+    margin-top: 50px;
+    /* Thêm khoảng cách trên nếu cần */
+  }
 
-.icon-text-1,
-.icon-text-001 {
-  text-align: center;
-  /* Căn giữa nội dung */
-  margin-top: -89px;
-  margin-left: 93px;
-  font-size: 19px;
-}
+  .white-text {
+    margin-top: 10px;
+    /* Giảm khoảng cách trên cho di động */
+    transform: translateY(-116px);
+    /* Di chuyển lên trên */
+    font-size: 13px;
+    transition: transform 0.3s ease;
+    /* Hiệu ứng chuyển động mượt mà */
+    font-weight: 500;
+  }
 
-/* thanh vuông footer */
-.icon-telephone1::before {
-  top: 90%;
-  /* Điều chỉnh vị trí trên */
-  left: 31%;
-  /* Căn giữa theo chiều ngang */
-  transform: translate(-50%, -50%);
-  /* Căn giữa hoàn toàn */
-  width: 80px;
-  /* Thay đổi kích thước cho di động */
-  height: 80px;
-  /* Thay đổi kích thước cho di động */
-  font-size: 30px;
-  /* Giảm kích thước font cho di động */
-}
+  .icon-text-1,
+  .icon-text-001 {
+    text-align: center;
+    /* Căn giữa nội dung */
+    margin-top: -89px;
+    margin-left: 93px;
+    font-size: 19px;
+  }
 
-
-
-.banner {
-  position: relative;
-  /* Để chèn navbar lên ảnh */
-}
-
-.banner-image {
-  width: 100%;
-  /* Ảnh bìa chiếm toàn bộ chiều rộng */
-  height: auto;
-  /* Tự động điều chỉnh chiều cao */
-}
-
-/* CSS cho navbar */
-.navbar {
-  position: absolute;
-  /* Để navbar chèn lên ảnh bìa */
-  top: 0;
-  /* Ghim navbar ở trên cùng */
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  /* Đảm bảo navbar nằm trên cùng */
-  background-color: rgba(255, 255, 255, 0.8);
-  /* Nền trong suốt cho navbar */
-}
-
-/* nút trên bảng */
-.navbar-toggler {
-  float: right;
-  margin: -3px;
-  width: 99px;
-  height: 56px;
-  color: #f4f4f4;
-}
-
-.navbar-nav {
-  flex-direction: column;
-  text-align: center;
-}
-
-.nav-item {
-  margin: 5px 0;
-}
-
-.navbar-toggler {
-  margin-left: auto;
-}
-
-.navbar-brand {
-  display: none;
-}
-.hotline-image1 {
-  left: 76px;
-  /* Đặt lại vị trí sang bên phải */
-  top: 3px;
-  /* Điều chỉnh vị trí lên hoặc xuống */
-  font-size: 40px;
-  /* Giảm kích thước biểu tượng cho di động */
-}
-
-.navbar-left {
-  display: none;
-  /* Ẩn navbar-left khi màn hình nhỏ */
-}
-.navbar-right {
-  display: none;
-  /* Ẩn navbar-right khi màn hình nhỏ */
-}
-/* thanh cuộn */
-
-.navbar-nav {
-  flex-direction: column;
-  /* Xếp dọc các mục menu */
-  margin-left: 0;
-  /* Không có khoảng cách bên trái */
-  /* width: 100%; Đặt chiều rộng 100% cho navbar */
-  */
-}
-
-.nav-link {
-  text-align: center;
-  /* Căn giữa chữ trong liên kết */
-  padding: 10px;
-  /* Tăng khoảng cách cho dễ nhấn */
-}
-/* kích cỡ thanh cuộn */
-
-.navbar {
-  width: 70%;
-  height: auto;
-  padding: 10px;
-  /* background-color: white; */
-}
-header {
-  display: none;
-  /* Ẩn header trên điện thoại */
-}
-
-.menu-table {
-  border: 1px solid black;
-}
-
-.menu-item {
-  border-bottom: 1px solid black;
-}
-
-.nav-link {
-  padding: 10px;
-  font-size: 0.9rem;
-}
-
-
-.navbar-nav {
-  flex-direction: column;
-  margin-left: 0;
-
-  width: 387px;
-  margin-top: 44px;
-}
-
-
-.navbar {
-  width: 103%;
-  height: auto;
-  padding: 10px;
-}
+  /* thanh vuông footer */
+  .icon-telephone1::before {
+    top: 90%;
+    /* Điều chỉnh vị trí trên */
+    left: 31%;
+    /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Căn giữa hoàn toàn */
+    width: 80px;
+    /* Thay đổi kích thước cho di động */
+    height: 80px;
+    /* Thay đổi kích thước cho di động */
+    font-size: 30px;
+    /* Giảm kích thước font cho di động */
+  }
 
 
 
+  .banner {
+    position: relative;
+    /* Để chèn navbar lên ảnh */
+  }
 
-/*code css dấu nhân  */
+  .banner-image {
+    width: 100%;
+    /* Ảnh bìa chiếm toàn bộ chiều rộng */
+    height: auto;
+    /* Tự động điều chỉnh chiều cao */
+  }
 
-.navbar-toggler {
-  display: block;
-}
+  /* CSS cho navbar */
+  .navbar {
+    position: absolute;
+    /* Để navbar chèn lên ảnh bìa */
+    top: 0;
+    /* Ghim navbar ở trên cùng */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* Đảm bảo navbar nằm trên cùng */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Nền trong suốt cho navbar */
+  }
 
-.navbar-toggler .navbar-toggler-icon {
-  background: none;
-}
+  /* nút trên bảng */
+  .navbar-toggler {
+    float: right;
+    margin: -3px;
+    width: 99px;
+    height: 56px;
+    color: #f4f4f4;
+  }
 
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
 
-.bar1 {
-  width: 41px;
-  transform: rotate(45deg) translate(0, 10px);
-}
+  .nav-item {
+    margin: 5px 0;
+  }
 
-.bar2 {
-  width: 38px;
-  display: block;
+  .navbar-toggler {
+    margin-left: auto;
+  }
 
-}
+  .navbar-brand {
+    display: none;
+  }
 
-.bar3 {
-  width: 29px;
-  position: relative;
-  right: -12px;
-  transform: rotate(-45deg) translate(4px, -16px);
-}
+  .hotline-image1 {
+    left: 76px;
+    /* Đặt lại vị trí sang bên phải */
+    top: 3px;
+    /* Điều chỉnh vị trí lên hoặc xuống */
+    font-size: 40px;
+    /* Giảm kích thước biểu tượng cho di động */
+  }
 
-/* choosee us */
-.form-group1 {
-  width: 124%;
-  margin-top: 17px;
-  margin-left: -40px;
-  padding: 110px 50px;
-  /* Adjust the value as needed */
-  position: relative;
-  background-color: #ff9900;
-  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
-  background-size: 10px 10px;
-}
+  .navbar-left {
+    display: none;
+    /* Ẩn navbar-left khi màn hình nhỏ */
+  }
 
+  .navbar-right {
+    display: none;
+    /* Ẩn navbar-right khi màn hình nhỏ */
+  }
 
-/* company */
+  /* thanh cuộn */
 
-.section-online-vechungtoi .image-car1 {
-  width: 83%;
-  /* Cho hình ảnh chiếm toàn bộ chiều rộng container */
-  left: -46px;
-  /* Đặt lại vị trí hình ảnh ở giữa */
-}
+  .navbar-nav {
+    flex-direction: column;
+    /* Xếp dọc các mục menu */
+    margin-left: 0;
+    /* Không có khoảng cách bên trái */
+    /* width: 100%; Đặt chiều rộng 100% cho navbar */
+    */
+  }
 
-.section-online-vechungtoi .image-car2 {
-  width: 85%;
-  /* Điều chỉnh cho hình ảnh chiếm hết chiều rộng container */
-  left: 109px;
-  /* Đặt lại vị trí hình ảnh */
-}
+  .nav-link {
+    text-align: center;
+    /* Căn giữa chữ trong liên kết */
+    padding: 10px;
+    /* Tăng khoảng cách cho dễ nhấn */
+  }
 
-.section-online-vechungtoi .image-container {
-  text-align: center;
-  /* Căn giữa toàn bộ hình ảnh */
-}
-/* joney làm ẩn nút */
+  /* kích cỡ thanh cuộn */
 
-.slick-next.slick-arrow {
-  position: absolute;
-  top: auto;
-  bottom: -59px;
-  margin-left: -77px;
-  right: 20px;
-  transform: none;
-}
-/* query pre */
+  .navbar {
+    width: 70%;
+    height: auto;
+    padding: 10px;
+    /* background-color: white; */
+  }
 
-.slick-prev.slick-arrow {
-  position: absolute;
-  top: auto;
-  bottom: -59px;
-  margin-left: -128px;
-  transform: none;
-}
-.section-heading06 h4 {
-  padding-left: 51px;
-  /* Giảm khoảng cách bên trái */
-  font-size: 16px;
-  /* Giảm kích thước chữ */
-  line-height: 14px;
-  /* Điều chỉnh line-height */
-  top: -64px;
-  /* Điều chỉnh vị trí */
-  color: #ff9900;
-}
+  header {
+    display: none;
+    /* Ẩn header trên điện thoại */
+  }
 
-.section-heading06 h4 span,
-.section-heading06 h4 span:before,
-.section-heading06 h4 span::after {
-  height: 10px;
-  /* Giảm chiều cao cho các span */
-}
+  .menu-table {
+    border: 1px solid black;
+  }
 
+  .menu-item {
+    border-bottom: 1px solid black;
+  }
 
-
-.custom-size {
-  font-size: 71px;
-  /* Thay đổi kích thước chữ cho điện thoại */
-  left: -12px;
-  /* Đặt lại vị trí */
-}
-
-
-.review-heading {
-  font-size: 23px;
-  /* Giảm kích thước chữ cho màn hình nhỏ */
-  text-align: center;
-  /* Căn giữa văn bản trên màn hình nhỏ */
-  margin: 0 auto;
-  /* Đảm bảo căn giữa nếu có khoảng cách */
-  margin-left: -78px;
-  color: #000;
-}
-
-.table-1 .slick-dots li.slick-active {
-  margin-left: -170px;
-  background-color: #ffcc00;
-  /* Thay đổi màu nền cho điểm đang hoạt động */
-  box-shadow: 0 0 0 2px rgba(255, 204, 0, 0.5);
-  /* Giảm độ dày của bóng */
-}
-
-.tintuc {
-  font-size: 14px;
-  /* Giảm kích thước chữ cho màn hình nhỏ */
-  top: -58px;
-  /* Điều chỉnh vị trí lên một chút nếu cần */
-}
-
-.tintuc1 {
-  margin-top: 33px;
-  /* Đặt lại margin-top cho màn hình nhỏ */
-}
-
-.card {
-  width: 95%;
-  /* Slightly reduce width for tablets */
-  max-width: 320px;
-  margin-bottom: 25px;
-}
-
-/* code css book you */
-.carousel-caption .btn-view-more {
-  font-size: 14px; /* Giảm kích thước font cho điện thoại */
-  left: 0; /* Đặt lại vị trí của nút */
-  animation: none; /* Tắt animation cho thiết bị di động nếu cần */
-  position: relative;
-  left: -315px;
-}
+  .nav-link {
+    padding: 10px;
+    font-size: 0.9rem;
+  }
 
 
-/* code css book you taxi ride */
+  .navbar-nav {
+    flex-direction: column;
+    margin-left: 0;
 
-.section-online-booking .img-car {
-  display: none; /* Hiện hình ảnh trên thiết bị di động */
-  left: 0; /* Đặt lại vị trí nếu cần thiết */
-}
+    width: 387px;
+    margin-top: 44px;
+  }
+
+
+  .navbar {
+    width: 103%;
+    height: auto;
+    padding: 10px;
+  }
+
+
+
+
+  /*code css dấu nhân  */
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+
+  }
+
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+  }
+
+  /* choosee us */
+  .form-group1 {
+    width: 124%;
+    margin-top: 17px;
+    margin-left: -40px;
+    padding: 110px 50px;
+    /* Adjust the value as needed */
+    position: relative;
+    background-color: #ff9900;
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
+  }
+
+
+  /* company */
+
+  .section-online-vechungtoi .image-car1 {
+    width: 83%;
+    /* Cho hình ảnh chiếm toàn bộ chiều rộng container */
+    left: -46px;
+    /* Đặt lại vị trí hình ảnh ở giữa */
+  }
+
+  .section-online-vechungtoi .image-car2 {
+    width: 85%;
+    /* Điều chỉnh cho hình ảnh chiếm hết chiều rộng container */
+    left: 109px;
+    /* Đặt lại vị trí hình ảnh */
+  }
+
+  .section-online-vechungtoi .image-container {
+    text-align: center;
+    /* Căn giữa toàn bộ hình ảnh */
+  }
+
+  /* joney làm ẩn nút */
+
+  .slick-next.slick-arrow {
+    position: absolute;
+    top: auto;
+    bottom: -59px;
+    margin-left: -77px;
+    right: 20px;
+    transform: none;
+  }
+
+  /* query pre */
+
+  .slick-prev.slick-arrow {
+    position: absolute;
+    top: auto;
+    bottom: -59px;
+    margin-left: -128px;
+    transform: none;
+  }
+
+  .section-heading06 h4 {
+    padding-left: 51px;
+    /* Giảm khoảng cách bên trái */
+    font-size: 16px;
+    /* Giảm kích thước chữ */
+    line-height: 14px;
+    /* Điều chỉnh line-height */
+    top: -64px;
+    /* Điều chỉnh vị trí */
+    color: #ff9900;
+  }
+
+  .section-heading06 h4 span,
+  .section-heading06 h4 span:before,
+  .section-heading06 h4 span::after {
+    height: 10px;
+    /* Giảm chiều cao cho các span */
+  }
+
+
+
+  .custom-size {
+    font-size: 71px;
+    /* Thay đổi kích thước chữ cho điện thoại */
+    left: -12px;
+    /* Đặt lại vị trí */
+  }
+
+
+  .review-heading {
+    font-size: 23px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    text-align: center;
+    /* Căn giữa văn bản trên màn hình nhỏ */
+    margin: 0 auto;
+    /* Đảm bảo căn giữa nếu có khoảng cách */
+    margin-left: -78px;
+    color: #000;
+  }
+
+  .table-1 .slick-dots li.slick-active {
+    margin-left: -170px;
+    background-color: #ffcc00;
+    /* Thay đổi màu nền cho điểm đang hoạt động */
+    box-shadow: 0 0 0 2px rgba(255, 204, 0, 0.5);
+    /* Giảm độ dày của bóng */
+  }
+
+  .tintuc {
+    font-size: 14px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    top: -58px;
+    /* Điều chỉnh vị trí lên một chút nếu cần */
+  }
+
+  .tintuc1 {
+    margin-top: 33px;
+    /* Đặt lại margin-top cho màn hình nhỏ */
+  }
+
+  .card {
+    width: 95%;
+    /* Slightly reduce width for tablets */
+    max-width: 320px;
+    margin-bottom: 25px;
+  }
+
+  /* code css book you */
+  .carousel-caption .btn-view-more {
+    font-size: 14px;
+    /* Giảm kích thước font cho điện thoại */
+    left: 0;
+    /* Đặt lại vị trí của nút */
+    animation: none;
+    /* Tắt animation cho thiết bị di động nếu cần */
+    position: relative;
+    left: -315px;
+  }
+
+
+  /* code css book you taxi ride */
+
+  .section-online-booking .img-car {
+    display: none;
+    /* Hiện hình ảnh trên thiết bị di động */
+    left: 0;
+    /* Đặt lại vị trí nếu cần thiết */
+  }
 
 
 
@@ -6318,11 +6367,12 @@ header {
     margin-top: 10px;
   }
 
-/* Media query for mobile screens */
+  /* Media query for mobile screens */
   .cart-service .slick-prev {
     display: none;
     /* Hide the button */
   }
+
   /* code css làm ẩn get the ridek moblie */
   .overlay-logo1 {
     display: none;
@@ -6336,183 +6386,190 @@ header {
     display: none;
     /* Hide the icons on mobile devices */
   }
-/* ẩn nút cam ridek joney */
-.cart-service .slick-prev {
-  display: none;
-  /* Hide the button on mobile devices */
-  left: 30px;
-}
-/* get the ridek moblie */
-.overlay-image {
-  display: none;
-  /* Hide the .overlay-image element on mobile devices */
-}
 
-.section-heading090 h4 {
-  padding-left: 146px;
-  /* Adjust padding to move text left */
-  font-size: 16px;
-  /* Optionally adjust font size for smaller screens */
-  line-height: 14px;
-  /* Optionally adjust line height */
-  top: -37px;
-  /* Adjust top position if needed */
-  font-weight: 500;
-}
+  /* ẩn nút cam ridek joney */
+  .cart-service .slick-prev {
+    display: none;
+    /* Hide the button on mobile devices */
+    left: 30px;
+  }
 
-.section-heading090 h4 span {
-  left: 123px;
-  /* Adjust position of the span element */
-}
+  /* get the ridek moblie */
+  .overlay-image {
+    display: none;
+    /* Hide the .overlay-image element on mobile devices */
+  }
 
-/* dòng chữ footer */
-.description {
-  position: relative;
-  /* Change to static positioning for better responsiveness */
-  top: -167px;
-  /* Reset top positioning */
-  left: -41px;
-  /* Reset left positioning */
-  width: 90%;
-  /* Adjust width for better fit on small screens */
-  margin: 0 auto;
-  /* Center the text horizontally */
-  text-align: center;
-  /* Center text alignment */
-  font-size: 16px;
-  /* Adjust font size for better readability */
-}
+  .section-heading090 h4 {
+    padding-left: 146px;
+    /* Adjust padding to move text left */
+    font-size: 16px;
+    /* Optionally adjust font size for smaller screens */
+    line-height: 14px;
+    /* Optionally adjust line height */
+    top: -37px;
+    /* Adjust top position if needed */
+    font-weight: 500;
+  }
 
-/* dòng logo footer media */
-.logo-image {
-  float: none;
-  /* Remove float for better responsiveness */
-  position: absolute;
-  /* Change to static positioning for normal flow */
-  width: 213px;
-  /* Adjust width for better fit on small screens */
-  top: 37px;
-  /* Reset top positioning */
-  left: 185px;
-  /* Reset left positioning */
-  display: block;
-  /* Make sure it takes up its own line */
-  margin: 20px auto;
-  /* Center the logo and add margin for spacing */
-}
+  .section-heading090 h4 span {
+    left: 123px;
+    /* Adjust position of the span element */
+  }
 
-.links {
-  display: none;
-  /* Ẩn toàn bộ phần tử này khi chiều rộng màn hình nhỏ hơn 600px */
-}
-.address-label-111 {
-  white-space: nowrap;
-  /* Đảm bảo chữ không tự xuống hàng */
-  overflow: hidden;
-  /* Ẩn phần chữ vượt quá chiều rộng */
-  text-overflow: ellipsis;
-  /* Hiển thị dấu "..." nếu chữ vượt quá */
-}
-.address-text {
-  white-space: nowrap;
-  /* Đảm bảo chữ không xuống hàng */
-  overflow: hidden;
-  /* Ẩn phần chữ vượt quá chiều rộng */
-  text-overflow: ellipsis;
-  /* Hiển thị dấu "..." nếu chữ vượt quá */
-}
+  /* dòng chữ footer */
+  .description {
+    position: relative;
+    /* Change to static positioning for better responsiveness */
+    top: -167px;
+    /* Reset top positioning */
+    left: -41px;
+    /* Reset left positioning */
+    width: 90%;
+    /* Adjust width for better fit on small screens */
+    margin: 0 auto;
+    /* Center the text horizontally */
+    text-align: center;
+    /* Center text alignment */
+    font-size: 16px;
+    /* Adjust font size for better readability */
+  }
+
+  /* dòng logo footer media */
+  .logo-image {
+    float: none;
+    /* Remove float for better responsiveness */
+    position: absolute;
+    /* Change to static positioning for normal flow */
+    width: 213px;
+    /* Adjust width for better fit on small screens */
+    top: 37px;
+    /* Reset top positioning */
+    left: 185px;
+    /* Reset left positioning */
+    display: block;
+    /* Make sure it takes up its own line */
+    margin: 20px auto;
+    /* Center the logo and add margin for spacing */
+  }
+
+  .links {
+    display: none;
+    /* Ẩn toàn bộ phần tử này khi chiều rộng màn hình nhỏ hơn 600px */
+  }
+
+  .address-label-111 {
+    white-space: nowrap;
+    /* Đảm bảo chữ không tự xuống hàng */
+    overflow: hidden;
+    /* Ẩn phần chữ vượt quá chiều rộng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." nếu chữ vượt quá */
+  }
+
+  .address-text {
+    white-space: nowrap;
+    /* Đảm bảo chữ không xuống hàng */
+    overflow: hidden;
+    /* Ẩn phần chữ vượt quá chiều rộng */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu "..." nếu chữ vượt quá */
+  }
 
 
-.section-heading h4 {
-  left: -190px;
-  /* Di chuyển qua trái hơn */
-  margin-top: 40px;
-}
+  .section-heading h4 {
+    left: -190px;
+    /* Di chuyển qua trái hơn */
+    margin-top: 40px;
+  }
 
-.about-us {
-  left: -51%;
-  /* Di chuyển qua trái */
-  text-align: center;
-  font-size: 26px;
-  line-height: 40px;
-}
-.pict1 {
-  right: 137px;
-  text-align: left;
-  font-size: 17px;
-  line-height: 27px;
-  text-align: justify;
-}
-body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  /* height: 100vh; Chiều cao toàn màn hình */
-}
+  .about-us {
+    left: -51%;
+    /* Di chuyển qua trái */
+    text-align: center;
+    font-size: 26px;
+    line-height: 40px;
+  }
 
-.nutxemthem {
-  left: 5%;
-  /* Di chuyển nút sang phải một chút */
-  width: 60%;
-  /* Nút chiếm 90% chiều rộng cho màn hình nhỏ */
-}
+  .pict1 {
+    right: 137px;
+    text-align: left;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: justify;
+  }
 
-.section-heading001 h4 {
-  padding-left: 51px;
-  /* Giảm padding cho hợp lý */
-  left: 87px;
-  /* Điều chỉnh vị trí sang trái */
-  top: 20px;
-  /* Điều chỉnh vị trí cho hợp lý trên điện thoại */
-  font-size: 14px;
-  /* Giảm kích thước chữ */
-}
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* height: 100vh; Chiều cao toàn màn hình */
+  }
 
-.section-heading001 h4 span {
-  left: 20px;
-  /* Điều chỉnh vị trí span */
-}
+  .nutxemthem {
+    left: 5%;
+    /* Di chuyển nút sang phải một chút */
+    width: 60%;
+    /* Nút chiếm 90% chiều rộng cho màn hình nhỏ */
+  }
 
-.cart-service .slick-next {
-  display: none;
-  /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
-}
-.image-row {
-  display: flex;
-  flex-wrap: wrap;
-  /* Allow icons to wrap to the next line */
-  justify-content: space-between;
-}
+  .section-heading001 h4 {
+    padding-left: 51px;
+    /* Giảm padding cho hợp lý */
+    left: 87px;
+    /* Điều chỉnh vị trí sang trái */
+    top: 20px;
+    /* Điều chỉnh vị trí cho hợp lý trên điện thoại */
+    font-size: 14px;
+    /* Giảm kích thước chữ */
+  }
 
-.image-item {
-  text-align: center;
-}
+  .section-heading001 h4 span {
+    left: 20px;
+    /* Điều chỉnh vị trí span */
+  }
 
-.image-item:nth-child(1),
-{
-display: inline-block;
-width: 30%;
-/* Icon 1 and Icon 2 will share the same row */
+  .cart-service .slick-next {
+    display: none;
+    /* Ẩn nút khi màn hình nhỏ hơn hoặc bằng 600px */
+  }
+
+  .image-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Allow icons to wrap to the next line */
+    justify-content: space-between;
+  }
+
+  .image-item {
+    text-align: center;
+  }
+
+  .image-item:nth-child(1),
+  {
+  display: inline-block;
+  width: 30%;
+  /* Icon 1 and Icon 2 will share the same row */
 }
 
 
 .image-item:nth-child(2) {
-position: relative;
-left: -160px;
+  position: relative;
+  left: -160px;
 }
 
 .image-item:nth-child(3) {
-width: 30%;
-/* Icon 3 will take full width and move to the next row */
-/* margin-left: 78px; */
-margin-right: 105px;
+  width: 30%;
+  /* Icon 3 will take full width and move to the next row */
+  /* margin-left: 78px; */
+  margin-right: 105px;
 
 }
 
 .image-item img {
-display: block;
-margin: 0 auto;
-/* Center the images */
+  display: block;
+  margin: 0 auto;
+  /* Center the images */
 }
 
 
@@ -6587,6 +6644,7 @@ margin: 0 auto;
     margin-top: -23px;
     /* Adjust spacing for small screens */
   }
+
   .hotline-text0 {
     font-size: 18px;
     top: 47%;
@@ -6677,12 +6735,13 @@ margin: 0 auto;
     left: -5px;
     /* Điều chỉnh vị trí nếu cần */
   }
-/*  code làm ẩn hình icon mục logo  muck hình icon call us now*/
 
-.contact-info i {
-  display: none;
-  /* Ẩn tất cả các biểu tượng */
-}
+  /*  code làm ẩn hình icon mục logo  muck hình icon call us now*/
+
+  .contact-info i {
+    display: none;
+    /* Ẩn tất cả các biểu tượng */
+  }
 
 }
 
@@ -6988,6 +7047,7 @@ main {
     clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
   }
 }
+
 /* màu chữ footer địa chỉ, mở cửa */
 /*  */
 /* For tablets and smaller screens (768px and below) */
@@ -7011,19 +7071,3 @@ main {
     margin-bottom: 15px;
   }
 }
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
