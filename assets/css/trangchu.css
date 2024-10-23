@@ -6260,7 +6260,18 @@ header {
   left: -315px;
 }
 
+
+/* code css book you taxi ride */
+
+.section-online-booking .img-car {
+  display: none; /* Hiện hình ảnh trên thiết bị di động */
+  left: 0; /* Đặt lại vị trí nếu cần thiết */
 }
+
+
+
+}
+
 
 
 /*  */
