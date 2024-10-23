@@ -5929,8 +5929,6 @@ img.image-car2 {
     /* Giảm kích thước font cho di động */
   }
 
-
-
   .banner {
     position: relative;
     /* Để chèn navbar lên ảnh */
@@ -6062,9 +6060,6 @@ img.image-car2 {
     height: auto;
     padding: 10px;
   }
-
-
-
 
   /*code css dấu nhân  */
 
@@ -6532,11 +6527,6 @@ img.image-car2 {
   text-overflow: ellipsis;
   /* Hiển thị dấu "..." nếu chữ vượt quá */
 }
-
-
-
-
-
 }
 
 /*  */
@@ -6948,7 +6938,6 @@ main {
 .show {
   display: block;
 }
-
 
 /* code css media query mục ABOUT COMPANY hình ảnh */
 /* Media query cho màn hình nhỏ hơn 768px (máy tính bảng và điện thoại) */

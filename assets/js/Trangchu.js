@@ -5,7 +5,6 @@
 
 $(document).ready(function () {
 
-
   $('.table-1').slick({
     arrows: false,
     dots: true,
@@ -62,7 +61,6 @@ $(document).ready(function () {
     var iconContainer = document.querySelector('.icon-container');
     var carInfo = document.getElementById('carInfo');
     carInfo.style.display = 'none'; // Ẩn carInfo ban đầu
-  
     iconContainer.addEventListener('click', function() {
       carInfo.style.display = carInfo.style.display === 'none' ? 'block' : 'none';
     });
@@ -85,7 +83,6 @@ $(document).ready(function () {
       setInterval(animateCar, 6000);
     });
   /*  */
-  
     window.addEventListener('DOMContentLoaded', function() {
       var bannerImage = document.getElementById('banner-image');
       var overlay = document.getElementById('overlay');
@@ -104,9 +101,6 @@ $(document).ready(function () {
   
   /*  */
 
-  /*  */
-  
-  /*  */
   $(document).ready(function () {
     $('.slider').slick({
       slidesToShow: 3, // Hiển thị 3 slide cùng lúc
