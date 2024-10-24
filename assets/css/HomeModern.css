@@ -164,6 +164,7 @@ p {
 
 .logo-container {
   flex-basis: 20%;
+  margin-right: 175px;
 }
 
 .logo-brand {
@@ -180,7 +181,7 @@ p {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-right: 30px;
+  margin-right: -35px;
 }
 
 .contact-item a {
