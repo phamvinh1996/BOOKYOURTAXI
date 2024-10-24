@@ -5531,7 +5531,8 @@ img.image-car2 {
     padding: 8px 16px;
 
   }
-/*  */
+
+  /*  */
   /* For example: */
   .header {
     padding: 10px;
@@ -6732,9 +6733,6 @@ main {
   /* Ẩn header khi cuộn lên */
 
 }
-
-
-
 /*  */
 /* code css nút search trên thanh cuộn */
 .btn {
@@ -6852,9 +6850,6 @@ main {
   /* Màu của thanh gạch */
   transition: all 0.3s ease;
 }
-
-
-
 /* code css media nút 3 ghạch dấu nhân */
 .navbar-toggler.collapsed .bar1 {
   transform: rotate(0deg);
@@ -6868,7 +6863,6 @@ main {
 .navbar-toggler.collapsed .bar3 {
   transform: rotate(0deg);
 }
-
 
 .navbar-toggler:not(.collapsed) .bar1 {
   transform: rotate(45deg) translate(0px, 14px);
@@ -6935,7 +6929,6 @@ main {
 }
 
 /* màu chữ footer địa chỉ, mở cửa */
-/*  */
 /* For tablets and smaller screens (768px and below) */
 
 /* For mobile devices (576px and below) */
