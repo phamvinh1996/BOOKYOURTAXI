@@ -4758,34 +4758,7 @@ img.image-car2 {
 }
 
 /* Styles for small screens (phones) */
-@media (max-width: 767px) {
-  /* Add your mobile-specific styles here */
 
-  /* For example: */
-  .header {
-    padding: 10px;
-  }
-
-  .logo {
-    max-width: 150px;
-  }
-
-  .nav-menu {
-    display: none;
-  }
-
-  .mobile-menu-toggle {
-    display: block;
-  }
-
-  .hero-content h1 {
-    font-size: 24px;
-  }
-
-  .feature-item {
-    flex-basis: 50%;
-  }
-}
 
 /* Styles for extra-small screens (smaller phones) */
 @media (max-width: 575px) {
@@ -4800,11 +4773,6 @@ img.image-car2 {
     flex-basis: 100%;
   }
 }
-
-/*  */
-
-
-
 
 /* Styles for larger screens */
 /* Media query for screens smaller than 768px (mobile devices) */
@@ -4836,8 +4804,6 @@ img.image-car2 {
   .side-navbar li:not(.logo000) {
     display: none;
   }
-
-
 
   /* code css điều chỉnh dấu 3 ghạch nằm bên phải thanh cuộn */
 
@@ -5067,8 +5033,6 @@ img.image-car2 {
   /* Hiển thị chữ lên ảnh cover khi xem trên màn hình nhỏ (điện thoại) */
 
 
-
-
   .cover-image {
     position: relative;
   }
@@ -5089,7 +5053,6 @@ img.image-car2 {
     margin-left: 30px;
     color: #fff;
   }
-
 
 
   .wow.bounceInUp.animated {
@@ -5140,8 +5103,6 @@ img.image-car2 {
   }
 
   /* mục kích cỡ nút button ONLINE BOOKING- book you taxi ride  */
-
-
 
   .sumit1 {
     width: 100%;
@@ -5526,8 +5487,6 @@ img.image-car2 {
   }
 
   /*  ảnh bìa book you*/
-
-
   .carousel-item img {
     height: 559px;
   }
@@ -5572,9 +5531,35 @@ img.image-car2 {
     padding: 8px 16px;
 
   }
+/*  */
+  /* For example: */
+  .header {
+    padding: 10px;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: block;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+
+  .feature-item {
+    flex-basis: 50%;
+  }
+
+
+
 }
-
-
 
 /*  */
 /* code thanh trắng media book your */
@@ -5585,7 +5570,6 @@ img.image-car2 {
 
 
 /*mục ABOUT COMPANY  */
-/*  */
 /* code css media query chữ about company */
 /* Hiệu ứng di chuyển cho thiết bị di động */
 @media (max-width: 768px) {
@@ -6165,8 +6149,6 @@ img.image-car2 {
     /* Giảm chiều cao cho các span */
   }
 
-
-
   .custom-size {
     font-size: 71px;
     /* Thay đổi kích thước chữ cho điện thoại */
@@ -6490,8 +6472,6 @@ img.image-car2 {
   /* Center the images */
 }
 
-
-
 .table-1 {
   right: -15px;
   /* Di chuyển qua phải hơn */
@@ -6507,8 +6487,6 @@ img.image-car2 {
   text-overflow: ellipsis;
   /* Hiển thị dấu "..." nếu chữ vượt quá */
 }
-
-
 
 .address-label-111 {
   white-space: nowrap;
@@ -6528,10 +6506,6 @@ img.image-car2 {
   /* Hiển thị dấu "..." nếu chữ vượt quá */
 }
 }
-
-/*  */
-
-
 
 /* Media query for extra-small screens */
 @media only screen and (max-width: 480px) {
