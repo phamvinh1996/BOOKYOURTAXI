@@ -53,19 +53,11 @@ p {
 
 }
 
-
-
 .doctt1 {
   padding: 10px;
   text-align: left;
   font-size: 20px;
 }
-
-
-
-
-
-
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
@@ -89,10 +81,7 @@ p {
   top: 1%;
 }
 
-
-
 /* youtube  iocon*/
-
 .navbar-icon-tt {
   position: absolute;
   left: 86%;
@@ -115,8 +104,6 @@ p {
   top: 1%;
 }
 
-
-
 /* hình iconfb */
 .navbar-icon-fb {
   position: absolute;
@@ -132,14 +119,12 @@ p {
   font-size: 15px;
 
 }
-
 .navbar-link {
   text-decoration: none;
   color: #333;
   font-size: 16px;
   margin-right: 10px;
 }
-
 .contact {
   display: flex;
   justify-content: center;
@@ -150,15 +135,12 @@ p {
   width: 7%;
 }
 
-
-
-
 /* logo  RIDEK... hotline...*/
 
 .container {
-   /* display: flex;
+  /* display: flex;
   justify-content: space-between; */
-  align-items: center; 
+  align-items: center;
   padding: 30px 0;
 }
 
@@ -224,14 +206,6 @@ p {
 }
 
 
-
-
-
-
-
-
-
-
 /*  */
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
@@ -268,7 +242,6 @@ p {
   /* Áp dụng clip-path */
   z-index: -1;
   /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
-
 }
 
 .menu {
@@ -314,8 +287,6 @@ p {
   margin-left: 10px;
 }
 
-
-
 /* màu menu thanh NAV */
 
 /*  */
@@ -334,8 +305,6 @@ div#offcanvasDarkNavbar {
 }
 
 /* nằm chèn mục liên hệ */
-
-
 /* nút tìm kiếm thanh nav  */
 /* nut tìm kiếm thanh nav trang chu... */
 .search-icon img,
@@ -348,11 +317,9 @@ div#offcanvasDarkNavbar {
   top: 11%;
   left: 53%;
   filter: brightness(0) invert(1);
-
 }
 
 /* thanh menu */
-
 .navbar-dark .navbar-toggler {
   right: -168px;
   top: -39px;
@@ -362,8 +329,6 @@ div#offcanvasDarkNavbar {
 }
 
 /* nút search  nut tim kiem*/
-
-
 .collapse {
   display: none;
   width: 200px;
@@ -402,11 +367,13 @@ div#offcanvasDarkNavbar {
   color: #000;
   background-color: #000;
 }
+
 /*  thanh nav cam*/
 .dropdown-menu.show {
   display: block;
   margin-left: -126px;
 }
+
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 
 .contact-nav {
@@ -451,9 +418,7 @@ div#offcanvasDarkNavbar {
   margin-right: 10px;
   right: -61%;
   position: absolute;
-
 }
-
 
 /*  */
 .navbar-text p {
@@ -472,15 +437,12 @@ div#offcanvasDarkNavbar {
   position: relative;
   right: -100%;
   top: 60%;
-
 }
 
 .contact-info {
   margin-top: -37px;
   color: #f4f5f8;
   font-size: 20px;
-
-
   margin-right: 568px;
   position: relative;
   right: -546px;
@@ -492,27 +454,7 @@ div#offcanvasDarkNavbar {
 }
 
 
-
-
-
-
-
-
 /*  */
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
 /* dùng thư viện di chuyển trang book you */
 .carousel {
   /* width: 100px; */
@@ -543,34 +485,21 @@ div#offcanvasDarkNavbar {
 }
 
 .carousel-caption h1 {
-
   margin-bottom: 20px;
   color: #faf1f1;
   text-align: start;
   font-size: 47px;
-
   position: absolute;
   left: 81%;
 }
-
-
-
-
-
 
 .carousel-caption .img-car {
   left: 1148px;
   position: relative;
   bottom: 220px;
   width: 500px;
-
 }
-
-
-
-
 /* code css màu chữ book you p */
-
 /* NÚT LIÊN HỆ BOOK YOUR */
 .btn-view-more {
   background-color: orange;
@@ -613,18 +542,6 @@ div#offcanvasDarkNavbar {
   opacity: 1;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*  */
 /* CODE THE BOOK 1/2 */
 .carousel-indicators li:after {
@@ -648,9 +565,7 @@ div#offcanvasDarkNavbar {
   font-family: "Space Grotesk", sans-serif;
   font-size: 52px;
   top: 5px;
-
 }
-
 
 .carousel-caption p {
   font-size: 18px;
@@ -742,11 +657,9 @@ div#offcanvasDarkNavbar {
   /* Điều chỉnh khoảng cách giữa nút và văn bản bên trong nút */
   position: fixed;
   top: 30%;
-
 }
 
 /* code chu pre - next */
-
 .previous-word {
   font-size: 16px;
   color: black;
@@ -794,8 +707,6 @@ button.carousel-control-next {
   width: 100px;
   position: absolute;
   left: 601%;
-
-
   top: -346px;
   height: 61px;
 }
@@ -863,7 +774,6 @@ button.carousel-control-next {
   background-clip: unset;
   text-indent: 0;
   top: -46px;
-
 }
 
 #carouselExampleFade .carousel-indicators li:not(.active) {
@@ -891,18 +801,10 @@ button.carousel-control-next {
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
   font-family: "Space Grotesk", sans-serif;
-
-
 }
-
-
-
-
-
 
 /*  */
 /* ĐẶT XE NHANH */
-
 /* .orange-text {
     color: orange;
   } */
@@ -910,7 +812,6 @@ button.carousel-control-next {
 .section-heading06 {
   position: relative;
 }
-
 .section-heading06 h4 {
   position: relative;
   color: #f90;
@@ -922,7 +823,6 @@ button.carousel-control-next {
   letter-spacing: 1px;
   top: -39px;
 }
-
 .section-heading06 h4 span,
 .section-heading06 h4 span:before,
 .section-heading06 h4 span::after {
@@ -1005,21 +905,9 @@ button.carousel-control-next {
   left: 3px;
   top: 1px;
   background-size: 70%;
-
-
 }
 
 .section-online-booking {
-  /* background-color: #1c1c1c;
-    background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
-    background-repeat: no-repeat;
-    position: relative;
-    padding: 107px 0;
-    position: relative;
-    width: 1353px;
-    right: -305px;
-    top: 10px; */
-
   position: absolute;
   top: 796px;
   right: 248px;
@@ -1034,7 +922,6 @@ button.carousel-control-next {
   text-align: center;
   z-index: 1;
   height: 446px;
-
 }
 
 /* biểu tượng đặt xe nhanh */
@@ -1107,8 +994,6 @@ button.carousel-control-next {
 }
 
 /*  */
-
-
 /* khi trỏ màu cam dropdown đặt xe nhanh */
 /*  */
 .section-online-booking .form-control {
@@ -1138,13 +1023,6 @@ button.carousel-control-next {
 }
 
 /* button đặt xe nhanh */
-/* màu button */
-/* .sumit1 {
-    width: 267px;
-    background-color: #333333;
-    height: 53px;
-  } */
-
 .sumit1 {
   background-color: #ff8c00;
   /* Màu cam mặc định */
@@ -1177,17 +1055,8 @@ button.carousel-control-next {
 .select2-container--default .select2-selection--single {
   border: unset !important;
 }
-
-
-
-
-
-
 /*  */
-
-
 .slick1-next.slick-arrow {
-
   position: absolute;
   /* top: 50%; */
   top: 575px;
@@ -1208,7 +1077,6 @@ button.carousel-control-next {
   position: absolute;
   top: 575px;
   transform: translateY(-50%);
-
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -1216,33 +1084,6 @@ button.carousel-control-next {
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*  */
 .image-car2-container {
@@ -1263,28 +1104,6 @@ img.image-car2 {
 /* Dịch vụ nỗi bật css */
 
 /* CODE DỊCH VỤ NỖI BẬT */
-/* .overlay-image {
-    animation-play-state: paused;
-  }
-
-    .cover-image {
-    background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/slider-bg.jpg");
-    background-position: left;
-    background-repeat: no-repeat;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: rgb(227, 215, 215);
-    top: 118px;
-    position: relative; 
-    
-
-    
-
-  }    */
 .cover-image {
   background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/bg-1.jpg");
   background-position: left;
@@ -1311,7 +1130,6 @@ img.image-car2 {
   /* Màu tối với độ mờ */
   z-index: 1;
 }
-
 .cover-image .content {
   position: relative;
   z-index: 2;
@@ -1319,10 +1137,6 @@ img.image-car2 {
 
   /* width: 1900px; */
 }
-
-
-
-
 /* chữ màu cam */
 
 /* carrt anhr chen anh banner dich vu noi bat */
@@ -1355,9 +1169,6 @@ img.image-car2 {
   font-weight: bold;
 }
 
-
-
-
 .cover-image p {
   position: relative;
   top: 126px;
@@ -1366,7 +1177,6 @@ img.image-car2 {
   font-family: "Space Grotesk", sans-serif;
   color: #ddd;
   /* left: 213px; */
-
   margin-left: 421px;
 
 }
@@ -1381,13 +1191,6 @@ img.image-car2 {
   right: 38px;
 }
 
-
-
-
-/* .container {
-    display: flex;
-    justify-content: space-between;
-  } */
 
 .card {
   background-color: #f2f2f2;
@@ -1438,15 +1241,6 @@ img.image-car2 {
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
 .vuong1 {
   position: relative;
   top: 10px;
@@ -1454,18 +1248,13 @@ img.image-car2 {
 
 
 /*  */
-
-
 /* tạo css nút chuyển trang  dịch vụ nổi bật*/
 .card-navigation {
   position: absolute;
   bottom: -70px;
   left: 50%;
   transform: translateX(-70%);
-
 }
-
-
 
 /* start your jnoyey tạo khoảng cách card ảnh */
 .cart-service .card {
@@ -1485,19 +1274,11 @@ img.image-car2 {
 .card-image {
   width: 113%;
   height: auto;
-
-
   position: relative;
   top: -20px;
   left: -20px;
-
 }
-
-
 /*  */
-
-
-
 .card-image2 {
   width: 65%;
   height: auto;
@@ -1547,7 +1328,6 @@ img.image-car2 {
   transition: background-color 0.3s ease;
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
-
   font-weight: 500;
 }
 
@@ -1556,33 +1336,8 @@ img.image-car2 {
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*  */
-
-
-
-/*  */
-
-
 .container {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: center; */
   padding: 20px;
 }
 
@@ -1687,20 +1442,7 @@ img.image-car2 {
 }
 
 
-
-
-
-
-
-
-
-
-
-
 /*  */
-
-
-
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
@@ -1720,11 +1462,7 @@ img.image-car2 {
   content: "";
 }
 
-
 /*  */
-
-
-
 .slick-prev.slick-arrow {
   position: absolute;
   top: 35%;
@@ -1753,18 +1491,7 @@ img.image-car2 {
   top: -10px;
 
 }
-
-
-
-
-
 /* dấu 3 chấm START YOUR TAXI */
-
-
-
-
-
-
 
 /* choosee taxi dấu chấm */
 .card {
@@ -1783,7 +1510,6 @@ img.image-car2 {
   padding-left: 0;
   margin-bottom: 0;
   padding-left: 136px;
-
   position: relative;
   left: 441px;
 
@@ -1837,61 +1563,10 @@ img.image-car2 {
 .slick-slide .company-info {
   flex-grow: 1;
   align-self: center;
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* hinh km tren CHOOOSSEE  TAXI */
-
-
-/* .price {
-display: inline-block;
-background-color: #ff9900;
-color: #222;
-font-size: 20px;
-font-weight: 600;
-padding: 10px 20px;
-clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
- position: absolute;
-right: 40px; 
-top: 35px;
-z-index: 1;
-
-
-}       */
-
-
-
-
 /* code css nằm chèn price */
 .price-container {
   position: relative;
@@ -1975,17 +1650,6 @@ z-index: 1;
   top: 46px;
   z-index: 1;
 }
-
-
-
-
-
-
-
-
-
-
-
 /* nút button dich vu noi bat */
 button {
   background-color: #ff9900;
@@ -1998,10 +1662,6 @@ button {
 
 /*  */
 /* ĐẶT XE NHANH */
-
-/* .orange-text {
-    color: orange;
-  } */
 
 .section-heading06 {
   position: relative;
@@ -2054,38 +1714,7 @@ button {
   }
 }
 
-
-
-
-
 /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .cover-image {
   background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/bg-1.jpg");
@@ -2123,9 +1752,6 @@ button {
   /* width: 1900px; */
 }
 
-
-
-
 /* chữ màu cam */
 
 /* carrt anhr chen anh banner dich vu noi bat */
@@ -2158,9 +1784,6 @@ button {
   font-weight: bold;
 }
 
-
-
-
 .cover-image p {
   position: relative;
   top: 126px;
@@ -2182,13 +1805,6 @@ button {
   right: 38px;
 }
 
-
-
-
-/* .container {
-  display: flex;
-  justify-content: space-between;
-} */
 
 .card {
   background-color: #f2f2f2;
@@ -2239,15 +1855,6 @@ button {
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
 .vuong1 {
   position: relative;
   top: 10px;
@@ -2286,19 +1893,13 @@ button {
 .card-image {
   width: 113%;
   height: auto;
-
-
   position: relative;
   top: -20px;
   left: -20px;
-
 }
 
 
 /*  */
-
-
-
 .card-image2 {
   width: 65%;
   height: auto;
@@ -2349,7 +1950,6 @@ button {
   transition: background-color 0.3s ease;
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
-
   font-weight: 500;
 }
 
@@ -2357,42 +1957,7 @@ button {
   background-color: black;
   color: white;
 }
-
-
-
 /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-
 /* Media query cho kích thước điện thoại */
 @media (max-width: 412px) {
   .nutxemthem {
@@ -2405,15 +1970,8 @@ button {
     width: 43%;
     /* Nút chiếm toàn bộ chiều rộng */
     clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
-
-
-
   }
 }
-
-
-
-
 
 /* nút xem thêm mục  start you joney media query */
 /* Media query cho màn hình nhỏ hơn hoặc bằng 600px */
@@ -2426,18 +1984,13 @@ button {
   }
 }
 
-
-
 /*  */
 /* canh chữ dòng chữ nỗi bật*/
-
 .card-bottom {
   display: inline-block;
 }
 
 /* code css tạo đặt carousel cart ảnh dịch vụ */
-
-
 /* nút di chuyển trang */
 
 .triangle-buttons {
@@ -2687,15 +2240,7 @@ button {
   opacity: 0.2;
 }
 
-
-
-
-
-
-
 /*  */
-
-
 
 /* tạo css ảnh background */
 
@@ -2707,10 +2252,7 @@ button {
   padding: 8px 0;
   width: 1700px;
   height: 350px;
-
 }
-
-
 .section-map h1 {
   display: inline-block;
   white-space: nowrap;
@@ -2728,13 +2270,6 @@ button {
   left: -444px;
 }
 
-
-/*  */
-
-/*  dòng chữ feel your joney*/
-
-
-/*  */
 /*  */
 
 .button1 {
@@ -2753,8 +2288,6 @@ button {
 
 
 /*  */
-
-
 .ridek1 {
   color: black;
   font-size: 16px;
@@ -2799,10 +2332,7 @@ button {
   font-size: 14px;
   color: #fff;
   font-size: 19px;
-
-
   margin-bottom: -6px;
-
 }
 
 /*  */
@@ -2819,7 +2349,6 @@ button {
 
 
 .check-list i {
-
   background-color: #222;
   clip-path: polygon(15% 0%, 100% 0%, 85% 100%, 0% 100%);
   font-size: 12px;
@@ -2831,22 +2360,17 @@ button {
   position: relative;
   left: -215px;
   top: 34px;
-
 }
 
 .easy1 {
-
   position: relative;
   right: -66px;
 }
-
-
 
 /*  */
 
 
 .img-car001 {
-
   width: 200%;
   position: relative;
   right: -747px;
@@ -2854,20 +2378,8 @@ button {
 }
 
 
-
-
-
-
 /* choosee your taxi */
-
-
-
-
 /* chữ màu cam ridek */
-
-
-
-
 /*  choosee taxi chữ màu cam*/
 
 .section-heading07 {
@@ -2884,8 +2396,6 @@ button {
   letter-spacing: 1px;
   top: 7px;
   /* left: 551px; */
-
-
   justify-content: center;
   /* Centers content horizontally */
   align-items: center;
@@ -2944,8 +2454,6 @@ button {
   text-align: center;
 }
 
-
-
 /*  */
 
 
@@ -2957,11 +2465,7 @@ button {
   position: relative;
   top: -11px;
 }
-
-
-
 /*  */
-
 /* màu chữ trỏ chuột hiển thị choossee taxi */
 .choose-your-taxi .nav-pills .nav-link1 {
   color: #333;
@@ -2982,11 +2486,6 @@ button {
 
 
 /*  */
-
-
-
-
-
 .choose-your-taxi .card-body p {
   color: #666;
   display: flex;
@@ -2994,8 +2493,6 @@ button {
   margin-bottom: 10px;
   font-size: 13px;
 }
-
-
 /* ahanh màu trắng choosee taxi */
 .nav-link1 {
   background-color: white;
@@ -3006,10 +2503,6 @@ button {
 
 
 /*  */
-
-
-
-
 /* code HUYNHDAI */
 .huynhdai0 {
 
@@ -3027,31 +2520,6 @@ button {
   right: -18px;
   font-weight: bold;
 }
-
-
-
-/*  */
-
-
-
-
-
-/*  */
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
 
 /* Nút xem thêm choossee taxi */
 .btn.btn-primary1 {
@@ -3074,38 +2542,6 @@ button {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
 /*  */
 /*  Get the Ridek Mobile app and Start Your Journey!*/
 /* tạo dòng chữ get the ridex mobile */
@@ -3117,15 +2553,9 @@ button {
       background-position: right; */
 }
 
-
-
 .xeoto {
-
-
   margin-top: -95px;
 }
-
-
 
 .xeoto {
   margin-left: 461px;
@@ -3240,10 +2670,6 @@ p {
 
 .container .row .col-sm-6 h2 {
   color: black;
-
-
-
-
 }
 
 .animated-1 {
@@ -3259,33 +2685,17 @@ p {
 .animated-2 {
   color: #fff;
   font-family: "Space Grotesk", sans-serif;
-
-
-
   left: -3px;
   position: relative;
   font-size: 17px;
-
 }
 
-
-
 /*  */
-
-
-
-
-
-/*  */
-
-
 /* nút button tải google play xuống hàng */
 .button-container {
   display: flex;
   flex-wrap: wrap;
   /* margin-top: 57px;  */
-
-
 }
 
 .image-button {
@@ -3311,8 +2721,6 @@ p {
 
 
 /* code css mục book you taxi from  */
-
-
 /* nút chỉnh butoon  book your */
 .button-carousel {
   position: relative;
@@ -3344,11 +2752,7 @@ p {
 
 }
 
-
-
-
 /*  */
-
 /* code chu pre - next */
 
 .previous-word {
@@ -3375,9 +2779,6 @@ p {
   right: -95%;
   /* top: -15px; */
   /* bottom: 30px; */
-
-
-
   display: flex;
   align-items: center;
   font-weight: 500;
@@ -3391,37 +2792,26 @@ p {
 
 
 .doct10 {
-
   margin-left: 297px;
 }
 
 .taxidoct10 {
-
   margin-top: 36px;
 }
-
-
 /* code css dòng chữ book you taxi hình 2 */
 
 .doct12 {
   position: relative;
   right: -260px;
-
-
 }
 
 .book11 {
-
   margin-right: 73px;
 }
 
 .taxi1 {
-
   margin-right: 128px;
 }
-
-
-
 
 .btn-book-now {
   display: inline-block;
@@ -3452,21 +2842,7 @@ p {
   color: orange;
 }
 
-
-
-
 /*  */
-
-
-
-
-
-/* .button-carousel {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
-
 .carousel-control-prev,
 .carousel-control-next {
   position: relative;
@@ -3501,14 +2877,7 @@ p {
   /* If you want to hide the text */
 }
 
-
-
-
 /* OUR EXPERT DRIVE */
-
-
-
-
 /*  choosee taxi chữ màu cam*/
 
 .section-heading007 {
@@ -3525,13 +2894,10 @@ p {
   letter-spacing: 1px;
   top: 7px;
   /* left: 551px; */
-
-
   justify-content: center;
   /* Centers content horizontally */
   align-items: center;
   display: flex;
-
 }
 
 .section-heading007 h4 span,
@@ -3566,10 +2932,7 @@ p {
 
 
 /*  */
-
-
 .choose-your-taxi .chooseetaxi002 {
-
   font-weight: 700;
   font-size: 40px;
   position: relative;
@@ -3577,8 +2940,6 @@ p {
   /* right: -360px; */
   text-align: center;
 }
-
-
 
 /*  code css OUR  Expert Drivers*/
 
@@ -3658,14 +3019,7 @@ img {
 
 }
 
-
-
-
-
 /* hình cam mục OUR */
-
-
-
 
 .chunhat1 {
   position: absolute;
@@ -3678,18 +3032,8 @@ img {
   z-index: 1;
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
-
   clip-path: (0 0, 100% 0, 100% 70%, 90% 100%, 0 100%)
 }
-
-
-
-
-
-
-
-
-
 
 a {
   display: inline-block;
@@ -3704,11 +3048,7 @@ a {
   /* Màu chữ */
 }
 
-
-
 /* dòng chữ nằm ngang */
-
-
 .the1 {
   display: inline-block;
   writing-mode: vertical-lr;
@@ -3767,27 +3107,9 @@ a {
 
 
 /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .section-heading101 {
   position: relative;
 }
-
-
 
 .section-heading101 h4 span,
 .section-heading101 h4 span:before,
@@ -3852,9 +3174,6 @@ a {
   background-size: 10px 10px;
 }
 
-
-
-
 .table-heading000 {
   color: white;
   font-size: 36px;
@@ -3863,9 +3182,6 @@ a {
   font-weight: bold;
   line-height: 26px;
 }
-
-
-
 
 /* code css ridek passenger */
 /* ảnh bìa 1000 */
@@ -3877,9 +3193,6 @@ a {
 .form-group1>.orange-table:not(:last-child) {
   margin-bottom: 30px;
 }
-
-
-
 
 /* chữ màu cam hơn 1000 */
 .section-heading09 {
@@ -3928,10 +3241,12 @@ a {
   left: -20px;
   opacity: 0.2;
 }
+
 /* code css thẻ chữ  */
 .company-info0-1 {
   color: #fff;
 }
+
 p {
   color: #000;
   margin: 0;
@@ -3981,6 +3296,7 @@ p {
   position: relative;
   font-size: 23px;
 }
+
 /* code hon 1000 kh tiet kiem chi phi */
 /* Ridek Passengers */
 .table-heading01 {
@@ -4001,6 +3317,7 @@ p {
   width: 50px;
   height: 50px;
 }
+
 /* hơn 1ooo khach hang */
 .orange-table {
   display: flex;
@@ -4031,61 +3348,5 @@ p {
   position: relative;
   color: white;
 }
+
 /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
