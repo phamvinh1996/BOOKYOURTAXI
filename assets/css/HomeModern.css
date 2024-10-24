@@ -166,6 +166,7 @@ p {
   display: flex;
   align-items: center;
   margin-right: -35px;
+  margin-top: -43px;
 }
 
 .contact-item a {
@@ -444,8 +445,10 @@ div#offcanvasDarkNavbar {
   color: #f4f5f8;
   font-size: 20px;
   margin-right: 568px;
-  position: relative;
-  right: -546px;
+  /* position: relative;
+  right: -546px; */
+  /* margin-bottom: 10px; */
+  justify-content: flex-end;
 }
 
 .content {
