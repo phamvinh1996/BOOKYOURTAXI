@@ -3776,18 +3776,6 @@ a {
 
 
 
-.company-info0-1 {
-  color: #fff;
-
-}
-
-
-.company-info0-01 {
-  position: relative;
-  color: #fff;
-}
-
-
 
 
 
@@ -3879,12 +3867,171 @@ a {
 
 
 
+/* code css ridek passenger */
+/* ảnh bìa 1000 */
+.section-online-Hon1000 {
+  background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
+  background-repeat: no-repeat;
+}
+
+.form-group1>.orange-table:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+
+
+
+/* chữ màu cam hơn 1000 */
+.section-heading09 {
+  position: relative;
+}
+
+.section-heading09 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-heading09 h4 span,
+.section-heading09 h4 span:before,
+.section-heading09 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+
+}
+
+.section-heading09 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading09 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading09 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+/* code css thẻ chữ  */
+.company-info0-1 {
+  color: #fff;
+}
+p {
+  color: #000;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.successfully-1 {
+  position: relative;
+  color: #868891;
+}
+
+/* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
+.slide-container {
+  position: relative;
+  padding-top: 50px;
+}
+
+.hinh1-icon {
+  background-color: #f90;
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  font-size: 30px;
+  color: #222;
+  width: 60px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 100px;
+  top: 25px;
+  z-index: 1;
+}
+
+/*   lợi ích đặt xe hon 1000 */
+/* code icon  */
+.custom-size {
+  font-size: 71px;
+  position: relative;
+  color: white;
+}
+
+/* dòng chữ 3 thông tin công ty */
+.table-heading03 {
+  color: white;
+  font-size: 16px;
+  margin-top: 0;
+  position: relative;
+  font-size: 23px;
+}
+/* code hon 1000 kh tiet kiem chi phi */
+/* Ridek Passengers */
+.table-heading01 {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-size: 23px;
+}
+
+.table-heading02 {
+  position: relative;
+  color: white;
+  font-size: 16px;
+  font-size: 23px;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+/* hơn 1ooo khach hang */
+.orange-table {
+  display: flex;
+}
+
+.right-column {
+  flex: 1;
+}
+
+.left-column {
+  margin-right: 20px;
+}
+
+.table-heading000 {
+  color: white;
+  font-size: 36px;
+  margin-top: 0;
+  position: relative;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.company-info0-1 {
+  color: #fafafa;
+}
+
+.company-info0-01 {
+  position: relative;
+  color: white;
+}
 /*  */
-
-
-
-
-
 
 
 
