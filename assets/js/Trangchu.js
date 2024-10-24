@@ -99,43 +99,6 @@ $(document).ready(function () {
       });
     });
   
-  /*  */
-
-  $(document).ready(function () {
-    $('.slider').slick({
-      slidesToShow: 3, // Hiển thị 3 slide cùng lúc
-      slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
-     autoplay: true, // Tự động chạy slide
-      autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
-     responsive: [
-      {
-        breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
-         settings: {
-           slidesToShow: 2, // Hiển thị 2 slide ở màn hình có độ rộng từ 768px trở xuống
-         }
-       },
-       {
-         breakpoint: 576,
-          settings: {
-           slidesToShow: 1, // Hiển thị 1 slide ở màn hình có độ rộng từ 576px trở xuống
-          }
-        }
-    ]
-    });
-     // Bắt sự kiện click cho nút "Previous"
-     $('.prev-btn').click(function(){
-      $('.slider').slick('slickPrev'); // Di chuyển đến slide trước
-    });
-    // Bắt sự kiện click cho nút "Next"
-    $('.next-btn').click(function(){
-      $('.slider').slick('slickNext'); // Di chuyển đến slide kế tiếp
-    });
-  });
-  /*  */
-  $(document).ready(function () {
-    $('.multiple-items').slick({
-    });
-  });
   /* code cắt thanh nav trangchu, phần menu */
   const prevButton = document.querySelector('.prev');
   const nextButton = document.querySelector('.next');
