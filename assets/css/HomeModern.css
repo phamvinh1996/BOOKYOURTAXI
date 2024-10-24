@@ -2924,8 +2924,12 @@ button {
 }
 
 
-/*  */
-
+/*code css choosee you taxi  */
+.choose-your-taxi .nav-pills {
+  justify-content: center;
+  position: relative;
+  top: -17px;
+}
 
 /* .choose-your-taxi .nav-pills {
   justify-content: center;
