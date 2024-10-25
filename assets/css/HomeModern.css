@@ -4476,7 +4476,7 @@ main {
   margin-top: 3px;
 }
 
-/*  */
+/* cde css nút tìm kiếm trên thanh nav */
 
 .search-icon img, .menu-icon img {
   max-width: 100%;
@@ -4501,7 +4501,7 @@ main {
   outline: 0;
   border: 0;
   position: absolute;
-  top: 10px;
+  top: -3px;
   right: 96px;
 }
 
