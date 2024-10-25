@@ -1584,7 +1584,7 @@ img.image-car2 {
 .huynhdai01 {
   position: relative;
   z-index: 2;
-  top: -118px;
+  top: -183px;
 }
 
 .price {
@@ -1614,6 +1614,7 @@ img.image-car2 {
   z-index: 2;
 
   position: relative;
+  top: -186px;
 
 }
 
@@ -1640,9 +1641,8 @@ img.image-car2 {
 
 .huynhdai0-06 {
   z-index: 2;
-
   position: relative;
-
+top: -186px;
 }
 
 .price {
@@ -2451,6 +2451,7 @@ button {
   top: -31px;
 }
 
+/*  */
 /* .choose-your-taxi .nav-pills {
   justify-content: center;
 } */
@@ -2495,6 +2496,13 @@ button {
   /* Trọng lượng chữ đậm */
 }
 
+/* codecss kích cỡ choosee you taxi ride */
+.text-center{
+margin-top: -59px;
+position: relative;
+top: -100px;
+}
+
 
 /*  */
 .choose-your-taxi .card-body p {
@@ -2502,7 +2510,9 @@ button {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10px;
-  font-size: 13px;
+  font-size: 16px;
+  position: relative;
+  top: -43px;
 }
 /* ahanh màu trắng choosee taxi */
 .nav-link1 {
@@ -3594,8 +3604,12 @@ p {
   width: 100%;
   max-width: 380px;
   margin-bottom: 30px;
-}
 
+}
+/*  */
+
+
+/*  */
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
