@@ -2535,6 +2535,7 @@ button {
   /* Thay đổi màu chữ thành trắng */
   transition: background-color 0.3s ease;
   /* Thêm hiệu ứng chuyển đổi */
+  margin-left: -103px;
 }
 
 .btn.btn-primary1:hover {
