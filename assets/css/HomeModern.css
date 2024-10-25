@@ -2395,7 +2395,7 @@ button {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: 7px;
+  top: -35px;
   /* left: 551px; */
   justify-content: center;
   /* Centers content horizontally */
@@ -2439,7 +2439,7 @@ button {
 .choose-your-taxi .nav-pills {
   justify-content: center;
   position: relative;
-  top: -17px;
+  top: -31px;
 }
 
 /* .choose-your-taxi .nav-pills {
@@ -2450,7 +2450,7 @@ button {
   font-weight: 700;
   font-size: 40px;
   position: relative;
-  top: 6px;
+  top: -25px;
   /* right: -360px; */
   text-align: center;
 }
@@ -2464,7 +2464,7 @@ button {
   text-align: center;
   margin: 0 auto 45px auto;
   position: relative;
-  top: -11px;
+  top: -21px;
 }
 /*  */
 /* màu chữ trỏ chuột hiển thị choossee taxi */
@@ -2475,7 +2475,9 @@ button {
   /* Trọng lượng chữ bình thường */
   transition: color 0.3s ease, font-weight 0.3s ease;
   /* Thêm hiệu ứng chuyển động */
+
 }
+
 
 .choose-your-taxi .nav-pills .nav-link1.active,
 .choose-your-taxi .nav-pills .nav-link1:hover {
@@ -2894,7 +2896,7 @@ p {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: 7px;
+  top: -84px;
   /* left: 551px; */
   justify-content: center;
   /* Centers content horizontally */
@@ -2938,7 +2940,7 @@ p {
   font-weight: 700;
   font-size: 40px;
   position: relative;
-  top: 6px;
+  top: -59px;
   /* right: -360px; */
   text-align: center;
 }
