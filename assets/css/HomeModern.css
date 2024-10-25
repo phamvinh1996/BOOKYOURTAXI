@@ -2473,7 +2473,17 @@ button {
   text-align: center;
   margin: 0 auto 45px auto;
   position: relative;
-  top: -30px;
+  top: -27px;
+}
+
+
+
+/*  */
+
+
+.choose-your-taxi{
+  position: relative;
+  top: -60px;
 }
 /*  */
 /* màu chữ trỏ chuột hiển thị choossee taxi */
