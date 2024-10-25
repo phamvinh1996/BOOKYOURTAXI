@@ -1136,6 +1136,13 @@ img.image-car2 {
   z-index: 2;
   /* color: white; */
 
+
+
+
+
+
+
+
   /* width: 1900px; */
 }
 /* chữ màu cam */
@@ -2253,7 +2260,9 @@ button {
   padding: 8px 0;
   width: 1700px;
   height: 350px;
+  margin-top: -150px;
 }
+
 .section-map h1 {
   display: inline-block;
   white-space: nowrap;
@@ -2454,7 +2463,6 @@ button {
   /* right: -360px; */
   text-align: center;
 }
-
 /*  */
 
 
@@ -2464,7 +2472,7 @@ button {
   text-align: center;
   margin: 0 auto 45px auto;
   position: relative;
-  top: -21px;
+  top: -30px;
 }
 /*  */
 /* màu chữ trỏ chuột hiển thị choossee taxi */
@@ -2940,7 +2948,7 @@ p {
   font-weight: 700;
   font-size: 40px;
   position: relative;
-  top: -59px;
+  top: -70px;
   /* right: -360px; */
   text-align: center;
 }
