@@ -1885,7 +1885,7 @@ button {
 
 /* start your jnoyey tạo khoảng cách card ảnh */
 .cart-service .card {
-  margin-right: 30px;
+  margin-right: 53px;
   /* Khoảng cách giữa các card */
   margin-bottom: 30px;
   /* Khoảng cách giữa các hàng */
@@ -2171,10 +2171,10 @@ button {
 /* dau 3 chấm nút di chuyển dịch vụ nỗi bâtj */
 
 
-.slider {
+ .slider {
   position: relative;
   width: 1180px;
-}
+} 
 
 .dots {
   position: absolute;
