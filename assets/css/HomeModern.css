@@ -2473,8 +2473,9 @@ button {
   max-width: 50%;
   text-align: center;
   margin: 0 auto 45px auto;
-  position: relative;
-  top: -27px;
+  /* position: relative;
+  top: -27px; */
+  margin-top: -63px;
 }
 
 
