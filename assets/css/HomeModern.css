@@ -1472,10 +1472,8 @@ img.image-car2 {
 
 /*  */
 .slick-prev.slick-arrow {
-  position: absolute;
-  top: 35%;
-  transform: translateY(-50%);
-  left: 1283px;
+  transform: translateY(360%);
+  margin-left: 1250px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -1517,9 +1515,9 @@ img.image-car2 {
   margin-top: 17px;
   padding-left: 0;
   margin-bottom: 0;
-  padding-left: 136px;
-  position: relative;
-  left: 441px;
+  padding-left: 128px;
+    position: relative; 
+  left: 441px; 
 
 }
 
@@ -2274,10 +2272,8 @@ button {
 .section-map button {
   width: 130px;
   height: 50px;
-  margin-top: 92px;
-  transform: translate(136%);
-  position: relative;
-  left: -444px;
+  margin-top: 19px;
+  transform: translate(-173%);
 }
 
 /*  */
@@ -2301,16 +2297,13 @@ button {
 .ridek1 {
   color: black;
   font-size: 16px;
-  position: relative;
-  top: 70px;
-  left: -222px;
+margin-top: 157px;
+margin-right: 185px;
   font-weight: 600;
 }
 
 .class1 {
-  position: relative;
-  right: 37px;
-  top: 73px;
+ margin-top: 10px;
 }
 
 /* dòng chữ */
@@ -2383,9 +2376,11 @@ button {
 
 .img-car001 {
   width: 200%;
-  position: relative;
+  /* position: relative;
   right: -747px;
-  top: -323px;
+  top: -323px; */
+  margin-top: -325px;
+  margin-left: 711px;
 }
 
 
