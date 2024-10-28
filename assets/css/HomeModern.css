@@ -2405,7 +2405,7 @@ button {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: -35px;
+  top: -58px;
   /* left: 551px; */
   justify-content: center;
   /* Centers content horizontally */
@@ -2461,7 +2461,7 @@ button {
   font-weight: 700;
   font-size: 40px;
   position: relative;
-  top: -25px;
+  top: -50px;
   /* right: -360px; */
   text-align: center;
 }
@@ -3625,7 +3625,7 @@ p {
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
-  margin-top: 113px;
+  margin-top: 153px;
 }
 .row-tintuc1 {
   display: flex;
