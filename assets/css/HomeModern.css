@@ -2606,7 +2606,7 @@ top: -100px;
   width: 889px;
   height: 550px;
   right: 156px;
-  top: 47px;
+  top: 166px;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -2617,7 +2617,7 @@ top: -100px;
 
 .section-online-book {
   background-color: #f2f2f2;
-  padding: 30px;
+  padding: 15px;
   position: relative;
 }
 
@@ -2683,7 +2683,7 @@ p {
   height: 659px;
   margin-bottom: 10px;
   position: absolute;
-  top: 7px;
+  top: 59px;
 }
 
 .phone-image {
@@ -2748,7 +2748,10 @@ p {
 }
 
 
-
+/* dòng chữ get the ridek */
+.book1{
+  margin-top: 146px;
+}
 /* code css mục book you taxi from  */
 /* nút chỉnh butoon  book your */
 .button-carousel {
