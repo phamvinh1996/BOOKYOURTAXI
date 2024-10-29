@@ -1696,7 +1696,7 @@ button {
     /* Giảm kích thước chữ */
     line-height: 14px;
     /* Điều chỉnh line-height */
-    top: -64px;
+    top: 50px;
     /* Điều chỉnh vị trí */
     color: #ff9900;
   }
@@ -4922,6 +4922,13 @@ margin-top: -390px;
 .section-online-booking .img-car {
   opacity: 0; /* Ẩn phần tử bằng cách đặt độ mờ về 0 */
 }
+.section-online-booking h3 {
+  font-size: 24px; /* Giảm kích thước chữ */
+  text-align: center; /* Căn giữa chữ */
+  margin-top: 93px;
+  margin-right: -471px;
+  padding-bottom: 7px;
+}
 
 
 }
@@ -4986,6 +4993,13 @@ margin-top: -390px;
       height: 250px; /* Chiều cao cho ảnh trên điện thoại ngang */
   }
 }
+
+
+
+
+
+
+
 
 
 
