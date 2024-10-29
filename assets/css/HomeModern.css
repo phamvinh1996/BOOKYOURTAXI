@@ -4591,8 +4591,125 @@ main {
   .nav-menu {
       display: none; /* Ẩn phần tử */
   }
+  .slick-prev.slick-arrow {
+    display: none; /* Ẩn nút điều hướng */
+}
+
+.img-car001 {
+  display: none; /* Ẩn hình ảnh */
+}
+button.carousel-control-next {
+  display: none; /* Ẩn nút điều khiển */
+}
+
+.slick-next.slick-arrow {
+  display: none; /* Ẩn nút điều hướng tiếp theo */
+
+
+}
+
+
+.section-heading090 h4 {
+  font-size: 14px; /* Giảm kích thước chữ */
+  margin-left: -681px;
+
+}
+
+.carousel-control-prev {
+  width: 30px; /* Kích thước nhỏ hơn cho di động */
+  height: 30px; /* Kích thước nhỏ hơn cho di động */
+}
+
+.slick-dots {
+  left: 50%; /* Giữa màn hình */
+  transform: translateX(-50%); /* Giữa theo chiều ngang */
+  padding-left: 0; /* Bỏ padding trái */
+}
+
+
+.slick-prev.slick-arrow {
+  width: 40px; /* Kích thước nhỏ hơn cho di động */
+  height: 40px; /* Kích thước nhỏ hơn cho di động */
+  left: 10px; /* Khoảng cách từ bên trái */
+  transform: translateY(-50%); /* Giữa dọc */
+  margin-left: -100px;
+}
+}
+
+/* Media query để di chuyển chữ qua bên trái trên điện thoại */
+@media (max-width: 768px) {
+.ridek1 {
+  transform: translateX(-20px); /* Di chuyển chữ qua bên trái */
+  font-size: 14px; /* Giảm kích thước chữ */
+  margin-right: 1047px; /* Giảm khoảng cách bên phải */
+}
+}
+
+
+/* Media query để di chuyển chữ qua trái trên điện thoại */
+@media (max-width: 768px) {
+.section-map h1 {
+  transform: translate(-236%); /* Di chuyển sang trái 20% */
+  font-size: 24px; /* Giảm kích thước chữ cho di động */
+}
+}
+
+/* Media query để điều chỉnh nút trên điện thoại */
+@media (max-width: 768px) {
+.section-map button {
+  transform: translate(-829%);
+  margin-top: 10px; /* Giảm khoảng cách từ trên cho di động */
+}
+
+
+.section-map {
+  width: 100%; /* Chiều rộng 100% */
+  height: 200px; /* Chiều cao nhỏ hơn cho điện thoại dọc */
+  margin-top: 0; /* Bỏ khoảng cách trên */
+}
+
+.section-online-book {
+  padding: 10px; /* Giảm padding cho điện thoại dọc */
+}
+
+.get-app {
+  text-align: center; /* Căn giữa nội dung */
+}
+
+.section-heading08 h4 {
+  font-size: 24px; /* Giảm kích thước chữ cho tiêu đề */
+}
+
+.car-image {
+width: 100px;
+  height: 200px; /* Đặt chiều cao cố định cho ảnh */
+  object-fit: cover; /* Đảm bảo ảnh không bị méo */
+}
+
+.section-heading07 h4 span {
+  left: 20px; /* Di chuyển sang trái */
+  transform: skew(-10deg, 0deg); /* Giảm độ nghiêng nếu cần */
+}
+
+
+
 }
 /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Media query để ẩn phần tử khi màn hình nhỏ hơn 768px */
@@ -4600,99 +4717,11 @@ main {
   .element-to-hide {
     display: none;
   }
-}
 
-
-
-/*  */
-
-/* Media query để ẩn phần tử khi màn hình nhỏ hơn 768px */
-@media (max-width: 767px) {
   .contact-item {
     display: none;
   }
-}
-/*  */
-
-
-/* nust start joney */
-
-
-/* Media query để ẩn nút điều hướng trên màn hình nhỏ */
-@media (max-width: 768px) {
-  .slick-prev.slick-arrow {
-      display: none; /* Ẩn nút điều hướng */
-  }
-}
-
-/* hình bìa màu cam */
-/* Media query để ẩn hình ảnh trên màn hình nhỏ */
-@media (max-width: 768px) {
-  .img-car001 {
-      display: none; /* Ẩn hình ảnh */
-  }
-}
-
-
-/*  */
-/* Media query để ẩn nút điều khiển trên màn hình nhỏ */
-@media (max-width: 768px) {
-  button.carousel-control-next {
-      display: none; /* Ẩn nút điều khiển */
-  }
-}
-
-
-/* nút  */
-
-
-
-/* Media query để ẩn nút điều hướng trên màn hình nhỏ */
-@media (max-width: 768px) {
-  .slick-next.slick-arrow {
-      display: none; /* Ẩn nút điều hướng tiếp theo */
-
-
-  }
-}
-
-
-/* Media query để điều chỉnh cho màn hình nhỏ hơn */
-@media (max-width: 768px) {
-  .section-heading090 h4 {
-      font-size: 14px; /* Giảm kích thước chữ */
-      margin-left: -681px;
-
-  }
-}
-
-
-/*code css media nút di chuyển strar you jouney  */
-
-
-/* Media query cho di động */
-@media (max-width: 768px) {
-  .carousel-control-prev {
-    width: 30px; /* Kích thước nhỏ hơn cho di động */
-    height: 30px; /* Kích thước nhỏ hơn cho di động */
-  }
-
-  .slick-dots {
-    left: 50%; /* Giữa màn hình */
-    transform: translateX(-50%); /* Giữa theo chiều ngang */
-    padding-left: 0; /* Bỏ padding trái */
-  }
-}
-
-/*  */
-
-
-
-
-
-/* Styles for larger screens */
-/* Media query for screens smaller than 768px (mobile devices) */
-@media (max-width: 767px) {
+  
 
   /*  ẩn thanh logo*/
   .logo-container {
@@ -4732,7 +4761,7 @@ main {
     left: 0;
   }
 
-
+  
 
   /*  */
   /* CSS Code */
@@ -4876,61 +4905,54 @@ main {
     /* Giảm kích thước icon */
   }
 
+  .demo2 {
+    margin-left:  -500px; /* Di chuyển về vị trí ban đầu */
+}
+.section-online-booking {
+  width: 100%; /* Chiếm toàn bộ chiều rộng */
+  height: 150%;
+  padding: 0px 0; 
+  font-size: 18px; /* Giảm kích thước chữ */
+  margin-right: -250px;
+margin-top: -390px;
+}
+.section-online-booking::before {
+  width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
+}
+.section-online-booking .img-car {
+  opacity: 0; /* Ẩn phần tử bằng cách đặt độ mờ về 0 */
+}
+
+
 }
 
 
 
-/* nút pre start you joney */
-/* Media query để điều chỉnh nút trên điện thoại */
-@media (max-width: 768px) {
-  .slick-prev.slick-arrow {
-      width: 40px; /* Kích thước nhỏ hơn cho di động */
-      height: 40px; /* Kích thước nhỏ hơn cho di động */
-      left: 10px; /* Khoảng cách từ bên trái */
-      transform: translateY(-50%); /* Giữa dọc */
-      margin-left: -100px;
-  }
-}
 
-/* Media query để di chuyển chữ qua bên trái trên điện thoại */
-@media (max-width: 768px) {
-  .ridek1 {
-      transform: translateX(-20px); /* Di chuyển chữ qua bên trái */
-      font-size: 14px; /* Giảm kích thước chữ */
-      margin-right: 1047px; /* Giảm khoảng cách bên phải */
-  }
-}
+/*  */
 
 
-/* Media query để di chuyển chữ qua trái trên điện thoại */
-@media (max-width: 768px) {
-  .section-map h1 {
-      transform: translate(-236%); /* Di chuyển sang trái 20% */
-      font-size: 24px; /* Giảm kích thước chữ cho di động */
-  }
-}
 
-/* Media query để điều chỉnh nút trên điện thoại */
-@media (max-width: 768px) {
-  .section-map button {
-      transform: translate(-829%);
-      margin-top: 10px; /* Giảm khoảng cách từ trên cho di động */
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 
 
 /* feel you joney */
-/* Media query cho điện thoại dọc */
-@media (max-width: 768px) {
-  .section-map {
-      width: 100%; /* Chiều rộng 100% */
-      height: 200px; /* Chiều cao nhỏ hơn cho điện thoại dọc */
-      margin-top: 0; /* Bỏ khoảng cách trên */
-  }
-}
 
 /* Media query cho điện thoại ngang */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -4946,23 +4968,7 @@ main {
 
 /* Media query cho điện thoại dọc */
 @media (max-width: 768px) {
-  .section-online-book {
-      padding: 10px; /* Giảm padding cho điện thoại dọc */
-  }
 
-  .get-app {
-      text-align: center; /* Căn giữa nội dung */
-  }
-
-  .section-heading08 h4 {
-      font-size: 24px; /* Giảm kích thước chữ cho tiêu đề */
-  }
-
-  .car-image {
-    width: 100px;
-      height: 200px; /* Đặt chiều cao cố định cho ảnh */
-      object-fit: cover; /* Đảm bảo ảnh không bị méo */
-  }
 }
 
 /* Media query cho điện thoại ngang */
@@ -4983,51 +4989,7 @@ main {
 
 
 
-/* Media query để di chuyển qua trái trên điện thoại */
-@media (max-width: 768px) {
-  .section-heading07 h4 span {
-      left: 20px; /* Di chuyển sang trái */
-      transform: skew(-10deg, 0deg); /* Giảm độ nghiêng nếu cần */
-  }
-}
 
 
 
 
-/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
-@media (max-width: 767px) {
-  .demo2 {
-      margin-left:  -500px; /* Di chuyển về vị trí ban đầu */
-  }
-}
-
-
-/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
-@media (max-width: 767px) {
-  .section-online-booking {
-      width: 100%; /* Chiếm toàn bộ chiều rộng */
-      height: 150%;
-      padding: 0px 0; 
-      font-size: 18px; /* Giảm kích thước chữ */
-      margin-right: -250px;
-    margin-top: -390px;
-  }
-}
-
-/* code css làm ẩn thanh cam book taxi ride */
-
-/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
-@media (max-width: 767px) {
-  .section-online-booking::before {
-      width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
-  }
-}
-
-/* code css làm ẩn ô tô book taxi ride */
-
-/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
-@media (max-width: 767px) {
-  .section-online-booking .img-car {
-      opacity: 0; /* Ẩn phần tử bằng cách đặt độ mờ về 0 */
-  }
-}
