@@ -5000,3 +5000,34 @@ main {
       margin-left:  -500px; /* Di chuyển về vị trí ban đầu */
   }
 }
+
+
+/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
+@media (max-width: 767px) {
+  .section-online-booking {
+      width: 100%; /* Chiếm toàn bộ chiều rộng */
+      height: 150%;
+      padding: 0px 0; 
+      font-size: 18px; /* Giảm kích thước chữ */
+      margin-right: -250px;
+    margin-top: -390px;
+  }
+}
+
+/* code css làm ẩn thanh cam book taxi ride */
+
+/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
+@media (max-width: 767px) {
+  .section-online-booking::before {
+      width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
+  }
+}
+
+/* code css làm ẩn ô tô book taxi ride */
+
+/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
+@media (max-width: 767px) {
+  .section-online-booking .img-car {
+      opacity: 0; /* Ẩn phần tử bằng cách đặt độ mờ về 0 */
+  }
+}
