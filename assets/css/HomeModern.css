@@ -2565,8 +2565,8 @@ button {
 }
 
 .xeoto {
-  margin-left: 370px;
-  margin-top: -279px;
+  /* margin-left: 370px;
+  margin-top: -279px; */
 }
 
 .xeoto {
@@ -2586,11 +2586,11 @@ button {
 .demo2 {
   /* background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/taxi-background.png"); */
   background-size: contain;
-  width: 889px;
-  height: 550px;
-  right: 156px;
-  top: 166px;
-  position: relative;
+  /* width: 889px; */
+  /* height: 550px; */
+  /* right: 156px; */
+  /* top: 166px; */
+  /* position: relative; */
   background-repeat: no-repeat;
 }
 
@@ -2664,13 +2664,13 @@ p {
 
 .phone-image {
   /* position: absolute; */
-  width: 350px;
+  /* width: 350px; */
   /* float: right;
   left: 31%; */
-  margin-left: 173px;
+  /* margin-left: 173px; */
   height: auto;
   margin-bottom: 10px;
-  top: -39px;
+  /* top: -39px; */
 
 }
 
@@ -4906,15 +4906,15 @@ width: 100px;
   }
 
   .demo2 {
-    margin-left:  -500px; /* Di chuyển về vị trí ban đầu */
+    /* margin-left:  -500px; Di chuyển về vị trí ban đầu */
 }
 .section-online-booking {
   width: 100%; /* Chiếm toàn bộ chiều rộng */
   height: 150%;
   padding: 0px 0; 
   font-size: 18px; /* Giảm kích thước chữ */
-  margin-right: -250px;
-margin-top: -390px;
+   margin-right: -250px;
+margin-top: -390px; 
 }
 .section-online-booking::before {
   width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
@@ -4925,8 +4925,8 @@ margin-top: -390px;
 .section-online-booking h3 {
   font-size: 24px; /* Giảm kích thước chữ */
   text-align: center; /* Căn giữa chữ */
-  margin-top: 93px;
-  margin-right: -471px;
+  /* margin-top: 93px; */
+  /* margin-right: -471px; */
   padding-bottom: 7px;
 }
 
@@ -4973,10 +4973,7 @@ margin-top: -390px;
 /*  */
 
 
-/* Media query cho điện thoại dọc */
-@media (max-width: 768px) {
 
-}
 
 /* Media query cho điện thoại ngang */
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -5003,6 +5000,15 @@ margin-top: -390px;
 
 
 
+
+
+/* Media query cho màn hình nhỏ hơn 768px (điện thoại) */
+@media (max-width: 767px) {
+  .section-heading007 h4 span {
+      left: 20px; /* Di chuyển sang trái cho thiết bị di động */
+      font-size: 18px; /* Có thể điều chỉnh kích thước chữ nếu cần */
+  }
+}
 
 
 
