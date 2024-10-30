@@ -4642,9 +4642,9 @@ button.carousel-control-next {
 /* Media query để di chuyển chữ qua bên trái trên điện thoại */
 @media (max-width: 768px) {
 .ridek1 {
-  transform: translateX(-20px); /* Di chuyển chữ qua bên trái */
+  transform: translateX(30px); /* Di chuyển chữ qua bên trái */
   font-size: 14px; /* Giảm kích thước chữ */
-  margin-right: 1047px; /* Giảm khoảng cách bên phải */
+  /* margin-right: 1047px; Giảm khoảng cách bên phải */
 }
 }
 
@@ -4652,7 +4652,7 @@ button.carousel-control-next {
 /* Media query để di chuyển chữ qua trái trên điện thoại */
 @media (max-width: 768px) {
 .section-map h1 {
-  transform: translate(-236%); /* Di chuyển sang trái 20% */
+  /* transform: translate(-236%); Di chuyển sang trái 20% */
   font-size: 24px; /* Giảm kích thước chữ cho di động */
 }
 }
