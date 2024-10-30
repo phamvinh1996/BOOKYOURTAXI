@@ -331,9 +331,9 @@ div#offcanvasDarkNavbar {
 /* nút search  nut tim kiem*/
 .collapse {
   display: none;
-  width: 200px;
+  /* width: 200px; */
   /* Set the desired width */
-  height: 850px;
+  /* height: 850px; */
   /* Set the desired height */
 }
 
@@ -371,7 +371,7 @@ div#offcanvasDarkNavbar {
 /*  thanh nav cam*/
 .dropdown-menu.show {
   display: block;
-  margin-left: -126px;
+  margin-left: 91px;
 }
 
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
@@ -4728,8 +4728,12 @@ width: 100px;
 
   /*  ẩn thanh logo*/
   .logo-container {
-    display: none;
+    height: 41px;
+    /* display: none; */
   }
+
+
+
 
   .contact-info {
     width: 100%;
@@ -5054,4 +5058,329 @@ left: -410px;
 font-size: 13px;
 white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+      position: absolute;
+      top: 0;
+      left: 168px;
+      right: 0;
+      z-index: 1000;
+      background-color: rgba(255, 255, 255, 0.8);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  /* thanh vuông footer */
+  .icon-telephone1::before {
+    top: 90%;
+    /* Điều chỉnh vị trí trên */
+    left: 31%;
+    /* Căn giữa theo chiều ngang */
+    transform: translate(-50%, -50%);
+    /* Căn giữa hoàn toàn */
+    width: 80px;
+    /* Thay đổi kích thước cho di động */
+    height: 80px;
+    /* Thay đổi kích thước cho di động */
+    font-size: 30px;
+    /* Giảm kích thước font cho di động */
+  }
+
+  .banner {
+    position: relative;
+    /* Để chèn navbar lên ảnh */
+  }
+
+  .banner-image {
+    width: 100%;
+    /* Ảnh bìa chiếm toàn bộ chiều rộng */
+    height: auto;
+    /* Tự động điều chỉnh chiều cao */
+  }
+
+  /* CSS cho navbar */
+  .navbar {
+    position: absolute;
+    /* Để navbar chèn lên ảnh bìa */
+    top: 0;
+    /* Ghim navbar ở trên cùng */
+    left: 168px;
+    right: 0;
+    z-index: 1000;
+    /* Đảm bảo navbar nằm trên cùng */
+    background-color: rgba(255, 255, 255, 0.8);
+    /* Nền trong suốt cho navbar */
+  }
+
+  /* nút trên bảng */
+  .navbar-toggler {
+    float: right;
+    margin: -3px;
+    width: 99px;
+    height: 56px;
+    color: #f4f4f4;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-item {
+    margin: 5px 0;
+  }
+
+  .navbar-toggler {
+    margin-left: auto;
+  }
+
+  .navbar-brand {
+    display: none;
+  }
+
+  .hotline-image1 {
+    left: 76px;
+    /* Đặt lại vị trí sang bên phải */
+    top: 3px;
+    /* Điều chỉnh vị trí lên hoặc xuống */
+    font-size: 40px;
+    /* Giảm kích thước biểu tượng cho di động */
+  }
+
+  .navbar-left {
+    display: none;
+    /* Ẩn navbar-left khi màn hình nhỏ */
+  }
+
+  .navbar-right {
+    display: none;
+    /* Ẩn navbar-right khi màn hình nhỏ */
+  }
+
+  /* thanh cuộn */
+
+  .navbar-nav {
+    flex-direction: column;
+    /* Xếp dọc các mục menu */
+    margin-left: 0;
+    /* Không có khoảng cách bên trái */
+    /* width: 100%; Đặt chiều rộng 100% cho navbar */
+    */
+  }
+}
+
+
+
+
+
+
+/* code css media logo  */
+@media (max-width: 768px) {
+  .logo-brand {
+      max-width: 51%; /* Tăng kích thước cho logo trên màn hình nhỏ */
+      top: 10px; /* Điều chỉnh vị trí từ trên xuống */
+  }
+}
+
+
+/* code css dau 3 ghach */
+
+
+/* dau 3 ghachj */
+
+/* Định dạng cho các thanh gạch */
+.bar {
+  display: block;
+  height: 4px;
+  /* Chiều cao của mỗi thanh gạch */
+  background-color: #666;
+  /* Màu của thanh gạch */
+  transition: all 0.3s ease;
+}
+/* code css media nút 3 ghạch dấu nhân */
+.navbar-toggler.collapsed .bar1 {
+  transform: rotate(0deg);
+  width: 23px;
+}
+
+.navbar-toggler.collapsed .bar2 {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bar3 {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .bar1 {
+  transform: rotate(45deg) translate(0px, 14px);
+  position: relative;
+  right: -21px;
+  width: 45px;
+}
+
+.navbar-toggler:not(.collapsed) .bar2 {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .bar3 {
+  transform: rotate(-45deg) translate(-11px, -29px);
+  position: relative;
+  left: 38px;
+  width: 47px;
+}
+
+
+  /*code css dấu nhân  */
+  @media (max-width: 768px) {
+
+  .navbar-toggler {
+    display: block;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+
+  }
+
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /* code chữ màu about our company */
+
+/* code css kích cỡ bảng xem media */
+@media (max-width: 767px) {
+
+  /* Đặt .collapse không hiển thị mặc định */
+  .collapse {
+    display: none;
+    height: 300px;
+    /* Điều chỉnh chiều cao tự động */
+  }
+}
+
+.show {
+  display: block;
+}
+
+
+
+
+
+/*  */
+
+
+
+/*  */
+
+
+/*  */
+/* code css tạo bảng thanh dấu nhân*/
+.menu-table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.menu-item {
+  border-bottom: 1px solid black;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+  color: black;
+
+  .navbar-nav .nav-link {
+    padding-right: 100px;
+    padding-left: 0;
+    font-weight: bold;
+  }
+
+}
+
+
+/* ẩn meida */
+
+/* Media Query to hide the logo on smaller screens */
+@media (max-width: 768px) {
+  .logo-0 {
+      display: none; /* Hide the logo */
+  }
+}
+
+/* ẩn ngoài destop */
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    display: flex !important;
+    flex-basis: auto;
+    width: 100px;
+    height: 50px;
+    margin-left: -94px;
+  }
 }
