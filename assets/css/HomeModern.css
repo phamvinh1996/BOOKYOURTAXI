@@ -5130,6 +5130,7 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
     z-index: 1000;
     /* Đảm bảo navbar nằm trên cùng */
     background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -40px;
     /* Nền trong suốt cho navbar */
   }
 
@@ -5255,6 +5256,8 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   @media (max-width: 768px) {
 
   .navbar-toggler {
+    position: relative;
+    top: 46px;
     display: block;
   }
 
@@ -5382,5 +5385,16 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
     width: 100px;
     height: 50px;
     margin-left: -94px;
+    margin-top: -40px;
   }
+}
+
+
+/* code css media bảng book you */
+.navbar-collapse {
+  top: 76px;
+  flex-basis: 100%;
+  position: relative;
+  flex-grow: 1;
+  align-items: center;
 }
