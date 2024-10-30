@@ -5034,7 +5034,7 @@ margin-top: -390px;
       position: relative;
       /* left: 788px; Đặt lại vị trí bên trái về 0 */
       margin-left: 23px;
-      top: 11px; /* Đặt lại vị trí phía trên về 0 */
+      top: 10px; /* Đặt lại vị trí phía trên về 0 */
       font-size: 12px; /* Giảm kích thước chữ cho màn hình nhỏ */
       white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   }
@@ -5048,6 +5048,7 @@ margin-top: -390px;
   .cover-image p {
 position: relative; 
 left: -410px;
+font-size: 13px;
 white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 }
 }
