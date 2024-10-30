@@ -4660,8 +4660,8 @@ button.carousel-control-next {
 /* Media query để điều chỉnh nút trên điện thoại */
 @media (max-width: 768px) {
 .section-map button {
-  transform: translate(-829%);
-  margin-top: 10px; /* Giảm khoảng cách từ trên cho di động */
+  transform: translate(-117%);
+  /* margin-top: 10px; Giảm khoảng cách từ trên cho di động */
 }
 
 
@@ -5021,8 +5021,8 @@ margin-top: -390px;
 /* Media query cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .icon-wrapper {
-      margin-top: -60px; /* Giảm khoảng cách trên cho màn hình nhỏ */
-      gap: 5px; /* Giảm khoảng cách giữa các biểu tượng */
+      margin-top: -18px; /* Giảm khoảng cách trên cho màn hình nhỏ */
+      /* gap: 5px; Giảm khoảng cách giữa các biểu tượng */
   }
 }
 
