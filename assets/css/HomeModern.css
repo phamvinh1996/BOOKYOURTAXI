@@ -5022,3 +5022,20 @@ margin-top: -390px;
       gap: 5px; /* Giảm khoảng cách giữa các biểu tượng */
   }
 }
+
+
+
+
+
+
+/* dich vu noi bat */
+@media (max-width: 768px) {
+  .second-line {
+      position: relative;
+      left: -688px; /* Đặt lại vị trí bên trái về 0 */
+      top: -191px; /* Đặt lại vị trí phía trên về 0 */
+      font-size: 12px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
+  }
+}
+  
