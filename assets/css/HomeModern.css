@@ -4983,6 +4983,20 @@ margin-top: -390px;
       height: 250px; /* Chiều cao cho điện thoại ngang */
       margin-top: 0; /* Bỏ khoảng cách trên */
   }
+
+  .section-online-book {
+    padding: 10px; /* Padding cho điện thoại ngang */
+}
+
+.section-heading08 h4 {
+    font-size: 26px; /* Kích thước chữ cho tiêu đề */
+}
+
+.car-image {
+  width: 100px;
+    height: 250px; /* Chiều cao cho ảnh trên điện thoại ngang */
+}
+
 }
 
 /*  */
@@ -4990,21 +5004,7 @@ margin-top: -390px;
 
 
 
-/* Media query cho điện thoại ngang */
-@media (min-width: 769px) and (max-width: 1024px) {
-  .section-online-book {
-      padding: 10px; /* Padding cho điện thoại ngang */
-  }
 
-  .section-heading08 h4 {
-      font-size: 26px; /* Kích thước chữ cho tiêu đề */
-  }
-
-  .car-image {
-    width: 100px;
-      height: 250px; /* Chiều cao cho ảnh trên điện thoại ngang */
-  }
-}
 
 
 
@@ -5030,24 +5030,24 @@ margin-top: -390px;
       margin-top: -18px; /* Giảm khoảng cách trên cho màn hình nhỏ */
       /* gap: 5px; Giảm khoảng cách giữa các biểu tượng */
   }
-}
 
-
-
-
-
-
-/* dich vu noi bat */
-@media (max-width: 768px) {
+  /* dich vu noi bat */
   .second-line {
-      position: relative;
-      /* left: 788px; Đặt lại vị trí bên trái về 0 */
-      margin-left: 23px;
-      top: 10px; /* Đặt lại vị trí phía trên về 0 */
-      font-size: 12px; /* Giảm kích thước chữ cho màn hình nhỏ */
-      white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
-  }
+    position: relative;
+    /* left: 788px; Đặt lại vị trí bên trái về 0 */
+    margin-left: 23px;
+    top: 10px; /* Đặt lại vị trí phía trên về 0 */
+    font-size: 12px; /* Giảm kích thước chữ cho màn hình nhỏ */
+    white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 }
+}
+
+
+
+
+
+
+
   
 
 
@@ -5453,5 +5453,160 @@ top: 25px;
       font-size: 14px; /* Kích thước chữ cho màn hình nhỏ */
       overflow-x: auto; /* Thêm thanh cuộn ngang nếu cần */
       flex-wrap: nowrap; 
+  }
+}
+
+
+/*Online booking  */
+
+@media (max-width: 768px) {
+  .phone-image,
+  .xeoto {
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .car-image {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* mục get the ridek mobile */
+/* chữ màu cam ridek */
+.section-heading08 {
+  position: relative;
+}
+
+.section-heading08 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 60px;
+  display: flex;
+  line-height: 16px;
+  top: 1px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.section-heading08 h4 span,
+.section-heading08 h4 span:before,
+.section-heading08 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading08 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 35px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading08 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading08 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* online */
+@media (max-width: 768px) {
+  .section-heading08 h4 {
+    font-size: 13px; /* Adjust font size as needed */
+    letter-spacing: 0.5px; /* Reduce letter spacing */
+    padding-left: 47px; /* Adjust padding */
+    line-height: 1; /* Adjust line height to fit on one line */
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .animated-1 {
+    color: #000; /* Change text color to black */
+    font-size: 24px; /* Reduce font size to fit on one line */
+    white-space: nowrap; /* Prevent text from wrapping */
+    left: 0; /* Adjust positioning if necessary */
+  }
+}
+/* get the mobile */
+  @media (max-width: 768px) {
+  .section-online-book {
+    background-color: #fff; /* Set background color to white */
+  }
+}  
+
+@media (max-width: 768px) {
+  .animated-2 {
+    color: #000; /* Change text color to black */
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .animated-2 {
+    font-size: 19px; /* Adjust font size as needed */
+    white-space: normal; /* Allow text to wrap normally */
+    width: 289%; /* Use full width to help manage line breaks */
+    line-height: 1.5; /* Adjust line spacing */
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .button-container {
+    display: flex; /* Use flexbox to align items horizontally */
+    gap: 10px; /* Space between buttons */
+    justify-content: center; /* Center buttons within the container */
+    align-items: center; /* Vertically center-align buttons */
+    width: 300%;
+  }
+
+  .image-button {
+    display: inline-flex; /* Ensure each button takes only the space it needs */
+    margin-right: 1px;
   }
 }
