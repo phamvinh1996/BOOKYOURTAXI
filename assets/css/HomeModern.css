@@ -5546,7 +5546,7 @@ top: 25px;
     letter-spacing: 0.5px; /* Reduce letter spacing */
     padding-left: 47px; /* Adjust padding */
     line-height: 1; /* Adjust line height to fit on one line */
-  }
+margin-bottom: -254px;  }
 }
 
 
@@ -5558,17 +5558,17 @@ top: 25px;
 @media (max-width: 768px) {
   .animated-1 {
     color: #000; /* Change text color to black */
-    font-size: 24px; /* Reduce font size to fit on one line */
+    font-size: 17px; /* Reduce font size to fit on one line */
     white-space: nowrap; /* Prevent text from wrapping */
     left: 0; /* Adjust positioning if necessary */
   }
 }
 /* get the mobile */
-  @media (max-width: 768px) {
+ @media (max-width: 768px) {
   .section-online-book {
     background-color: #fff; /* Set background color to white */
   }
-}  
+}   
 
 @media (max-width: 768px) {
   .animated-2 {
@@ -5582,9 +5582,9 @@ top: 25px;
   .animated-2 {
     font-size: 19px; /* Adjust font size as needed */
     white-space: normal; /* Allow text to wrap normally */
-    width: 289%; /* Use full width to help manage line breaks */
+    width: 289%; 
     line-height: 1.5; /* Adjust line spacing */
-    text-align: center;
+    text-align: left;
   }
 }
 
@@ -5601,12 +5601,30 @@ top: 25px;
     display: flex; /* Use flexbox to align items horizontally */
     gap: 10px; /* Space between buttons */
     justify-content: center; /* Center buttons within the container */
-    align-items: center; /* Vertically center-align buttons */
+    align-items: left; /* Vertically center-align buttons */
     width: 300%;
+    margin-left: -50px;
   }
 
   .image-button {
     display: inline-flex; /* Ensure each button takes only the space it needs */
     margin-right: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .section-heading08 {
+    position: relative; /* Ensure relative positioning */
+    top: -280px; /* Move element 20px upwards */
+    /* Alternatively, you can use transform */
+    /* transform: translateY(-20px); */
   }
 }
