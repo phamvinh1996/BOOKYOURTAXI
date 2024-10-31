@@ -5434,3 +5434,10 @@ top: 25px;
 
 
 
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .logo-brand {
+      max-width: 50%; /* Thay đổi kích thước cho màn hình nhỏ */
+      margin-top: -21px;
+  }
+}
