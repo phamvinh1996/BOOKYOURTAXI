@@ -314,16 +314,18 @@ div#offcanvasDarkNavbar {
   width: 63%;
   height: 70%;
   position: absolute;
-  top: 11%;
-  left: 53%;
+  top: 30%;
+  left: 17%;
   filter: brightness(0) invert(1);
 }
 
 /* thanh menu */
 .navbar-dark .navbar-toggler {
-  right: -168px;
-  top: -39px;
-  position: relative;
+  /* left: -168%;
+  top: -39px; */
+  /* position: relative;  */
+margin-left: -8px;
+margin-top: -65px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 }
@@ -2448,7 +2450,7 @@ button {
 
 .choose-your-taxi .chooseetaxi1 {
   color: #666;
-  max-width: 50%;
+  /* max-width: 50%; */
   text-align: center;
   margin: 0 auto 45px auto;
   /* position: relative;
@@ -5064,7 +5066,7 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 
 
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar {
       position: absolute;
       top: 0;
@@ -5073,6 +5075,7 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
       z-index: 1000;
       background-color: rgba(255, 255, 255, 0.8);
   }
+ */
 
 
 
@@ -5080,8 +5083,20 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 
 
 
+  @media (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        top: 21px;
+        left: 159px;
+        right: 0;
+        z-index: 1000;
+        background-color: rgba(255, 255, 255, 0.8);
+        margin-top: -40px;
+    }
+}
 
 
+ 
 
 
 
@@ -5120,19 +5135,19 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   }
 
   /* CSS cho navbar */
-  .navbar {
+  / .navbar {
     position: absolute;
-    /* Để navbar chèn lên ảnh bìa */
+   
     top: 0;
-    /* Ghim navbar ở trên cùng */
-    left: 168px;
+
+    left: 350px;
     right: 0;
     z-index: 1000;
-    /* Đảm bảo navbar nằm trên cùng */
+   
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: -40px;
-    /* Nền trong suốt cho navbar */
-  }
+  
+  } 
 
   /* nút trên bảng */
   .navbar-toggler {
@@ -5256,9 +5271,22 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   @media (max-width: 768px) {
 
   .navbar-toggler {
-    position: relative;
-    top: 46px;
+    /* position: relative;
+    top: 46px; */
     display: block;
+    /* margin-top: 81px; */
+position: relative;
+top: 25px;
+
+
+
+
+
+
+
+      /* position: relative;
+      right: -338px;
+      top: 100px; */
   }
 
   .navbar-toggler .navbar-toggler-icon {
@@ -5398,3 +5426,11 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   flex-grow: 1;
   align-items: center;
 }
+
+
+
+
+
+
+
+
