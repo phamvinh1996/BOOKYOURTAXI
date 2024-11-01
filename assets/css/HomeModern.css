@@ -4698,10 +4698,8 @@ button.carousel-control-next {
 }
 
 .car-image {
-width: 260%;
-  height: auto; /* Đặt chiều cao cố định cho ảnh */
-  object-fit: cover; /* Đảm bảo ảnh không bị méo */
-  margin-top: -65px;
+
+  margin-top: -96px;
 }
 
 .section-heading07 h4 span {
@@ -5571,7 +5569,7 @@ margin-bottom: -254px;  }
     font-size: 17px; /* Reduce font size to fit on one line */
     white-space: nowrap; /* Prevent text from wrapping */
     left: 0; /* Adjust positioning if necessary */
-    margin-top: 136px;
+    margin-top: 17px;
   }
 }
 /* get the mobile */
