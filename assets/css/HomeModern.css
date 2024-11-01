@@ -2574,8 +2574,13 @@ button {
 .xeoto {
   /* margin-left: 461px;
   position: absolute; */
-  margin-left: 30%;
-  margin-top: -25%;
+  /* margin-left: 30%;
+  margin-top: -25%; */
+   position: absolute;
+ margin-top: 350px;
+  right: -86px; 
+  width: 250px;
+
 
 }
 
@@ -2602,9 +2607,10 @@ button {
 }
 
 .section-online-book {
-  background-color: #f2f2f2;
-  padding: 0px;
-  position: relative;
+  /* background-color: #f2f2f2; */
+  /* padding: 0px; */
+  /* position: relative; */
+  padding-bottom: 100px;
 }
 
 .column {
@@ -2657,12 +2663,16 @@ p {
 }
 
 .car-image {
-  width: 1929px;
+  /* width: 1929px;
   left: -45%;
   height: 659px;
-  margin-bottom: 10px;
+  margin-bottom: 10px; */
+  /* position: absolute;
+  top: 0px;
+  left: 0; */
   position: absolute;
-  top: 59px;
+  height: 67%;
+  width: 100%;
 }
 
 .phone-image {
@@ -2674,9 +2684,11 @@ p {
   height: auto;
   margin-bottom: 10px;
   /* top: -39px; */
-  max-width: 50%;
+  max-width: 60%;
   margin-top: 31%;
-
+position: absolute;
+right: 0px;
+top: 0px;
 }
 
 .container .row .col-sm-6 h2 {
@@ -2731,7 +2743,7 @@ p {
 
 /* dòng chữ get the ridek */
 .book1 {
-  margin-top: 146px;
+  margin-top: 253px;
 }
 
 /* code css mục book you taxi from  */
