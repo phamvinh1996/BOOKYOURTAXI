@@ -673,6 +673,7 @@ margin-top: -65px;
   width: 30px; /* Chiều rộng của mũi tên */
   text-align: center;
   line-height: 1; /* Đảm bảo chiều cao của mũi tên không quá lớn */
+  margin-top: -10px;
 }
 
 .prev-arrow {
