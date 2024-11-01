@@ -664,7 +664,34 @@ margin-top: -65px;
   position: fixed;
   top: 30%;
 }
+/* code css nút mũi tên book you */
 
+.carousel-arrow {
+  font-size: 50px; /* Kích thước font cho mũi tên */
+  font-weight: bold; /* Độ đậm của mũi tên */
+  display: inline-block;
+  width: 30px; /* Chiều rộng của mũi tên */
+  text-align: center;
+  line-height: 1; /* Đảm bảo chiều cao của mũi tên không quá lớn */
+}
+
+.prev-arrow {
+  content: "\2190"; /* Mã Unicode cho mũi tên trái */
+}
+
+.next-arrow {
+  content: "\2192"; /* Mã Unicode cho mũi tên phải */
+}
+
+
+
+
+
+
+
+
+
+/*  */
 /* code chu pre - next */
 .previous-word {
   font-size: 16px;
