@@ -4686,9 +4686,10 @@ button.carousel-control-next {
 }
 
 .car-image {
-width: 100px;
-  height: 200px; /* Đặt chiều cao cố định cho ảnh */
+width: 260%;
+  height: auto; /* Đặt chiều cao cố định cho ảnh */
   object-fit: cover; /* Đảm bảo ảnh không bị méo */
+  margin-top: -65px;
 }
 
 .section-heading07 h4 span {
@@ -5468,11 +5469,7 @@ margin-top: 25px;
 }
 
 
-@media (max-width: 768px) {
-  .car-image {
-    display: none;
-  }
-}
+
 
 
 
@@ -5558,10 +5555,11 @@ margin-bottom: -254px;  }
 
 @media (max-width: 768px) {
   .animated-1 {
-    color: #000; /* Change text color to black */
+    color: #fff; /* Change text color to black */
     font-size: 17px; /* Reduce font size to fit on one line */
     white-space: nowrap; /* Prevent text from wrapping */
     left: 0; /* Adjust positioning if necessary */
+    margin-top: 136px;
   }
 }
 /* get the mobile */
@@ -5571,21 +5569,17 @@ margin-bottom: -254px;  }
   }
 }   
 
-@media (max-width: 768px) {
-  .animated-2 {
-    color: #000; /* Change text color to black */
-  }
-}
 
 
 
 @media (max-width: 768px) {
   .animated-2 {
-    font-size: 19px; /* Adjust font size as needed */
-    white-space: normal; /* Allow text to wrap normally */
-    width: 289%; 
-    line-height: 1.5; /* Adjust line spacing */
-    text-align: left;
+    font-size: 16px; /* Adjust font size as needed */
+    color: #f1f1f1; /* Change text color to black */
+
+
+    text-align: center;
+    margin-right: -167px;
   }
 }
 
@@ -5603,7 +5597,7 @@ margin-bottom: -254px;  }
     gap: 10px; /* Space between buttons */
     justify-content: center; /* Center buttons within the container */
     align-items: left; /* Vertically center-align buttons */
-    width: 300%;
+    /* width: 300%; */
     margin-left: -50px;
   }
 
@@ -5620,15 +5614,17 @@ margin-bottom: -254px;  }
 
 
 
-/* online bôking  */
-@media (max-width: 768px) {
+
+
+
+ /* online bôking  */
+  @media (max-width: 768px) {
   .section-heading08 {
-    position: relative; /* Ensure relative positioning */
-    top: -280px; /* Move element 20px upwards */
-    /* Alternatively, you can use transform */
-    /* transform: translateY(-20px); */
+    position: relative; 
+    top: -280px; 
+    color: #ff9900;
   }
-}
+}   
 
 
 /* dòng chữ choosee taxi */
