@@ -5275,8 +5275,9 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
     top: 46px; */
     display: block;
     /* margin-top: 81px; */
-position: relative;
-top: 25px;
+/* position: relative; */
+/* top: 25px; */
+margin-top: 25px;
 
 
 
@@ -5619,12 +5620,21 @@ margin-bottom: -254px;  }
 
 
 
-
+/* online bôking  */
 @media (max-width: 768px) {
   .section-heading08 {
     position: relative; /* Ensure relative positioning */
     top: -280px; /* Move element 20px upwards */
     /* Alternatively, you can use transform */
     /* transform: translateY(-20px); */
+  }
+}
+
+
+/* dòng chữ choosee taxi */
+/* Media query cho các màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .choose-your-taxi .chooseetaxi2 {
+      font-size: 30px; /* Kích thước font nhỏ hơn trên màn hình nhỏ */
   }
 }
