@@ -862,11 +862,12 @@ button.carousel-control-next {
 }
 
 .section-online-booking h3 {
-  left: -313px;
-  font-size: 30px;
+  left: -243px;
+  font-size: 33px;
   position: relative;
   color: #e8dede;
-  top: -28px;
+  top: -20px;
+  font-weight: bold;
   /* Màu chữ trắng */
 }
 
@@ -1676,7 +1677,7 @@ button {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: -41px;
+  top: -29px;
 }
 
 .section-heading06 h4 span,
