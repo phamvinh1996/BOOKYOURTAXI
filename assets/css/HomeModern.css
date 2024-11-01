@@ -4926,7 +4926,7 @@ width: 100px;
   padding: 0px 0; 
   font-size: 18px; /* Giảm kích thước chữ */
    margin-right: -250px;
-margin-top: -390px; 
+margin-top: -317px; 
 }
 .section-online-booking::before {
   width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
