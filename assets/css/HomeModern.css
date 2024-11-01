@@ -1039,6 +1039,7 @@ button.carousel-control-next {
   cursor: pointer;
   width: 267px;
   height: 53px;
+  font-size: 17px;
 }
 
 .sumit1:hover {
