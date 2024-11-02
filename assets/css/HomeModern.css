@@ -2346,6 +2346,15 @@ button {
   gap: 10px;
   margin-top: 106px;
 }
+/*  */
+/* code css dòng chữ feel jouney */
+.check-list{
+  padding-bottom: 1px; /* Giữ khoảng cách dưới cùng */
+  line-height: 0.2; /* Điều chỉnh khoảng cách giữa các dòng */
+  margin-top: 53px;
+}
+
+/*  */
 
 .icon-wrapper img {
   width: 50px;
@@ -2396,7 +2405,7 @@ button {
   /* position: relative;
   right: -747px;
   top: -323px; */
-  margin-top: -325px;
+  margin-top: -263px;
   margin-left: 711px;
 }
 
