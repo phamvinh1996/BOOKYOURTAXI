@@ -729,7 +729,7 @@ margin-top: -65px;
 }
 
 button.carousel-control-prev {
-  width: 100px;
+  width: 67px;
   position: absolute;
   left: -61%;
   height: 61px;
@@ -738,9 +738,9 @@ button.carousel-control-prev {
 }
 
 button.carousel-control-next {
-  width: 100px;
+  width: 67px;
   position: absolute;
-  left: 601%;
+  left: 614%;
   top: -346px;
   height: 61px;
 }
