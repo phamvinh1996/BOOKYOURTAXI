@@ -2541,7 +2541,7 @@ button {
   color: #666;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
   font-size: 16px;
   position: relative;
   top: -43px;
