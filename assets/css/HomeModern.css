@@ -3082,6 +3082,17 @@ img {
 
 }
 
+
+
+
+
+
+/*  */
+
+
+
+
+/*  */
 /* hình cam mục OUR */
 
 .chunhat1 {
@@ -3709,7 +3720,62 @@ p {
 
 /*  */
 
+/* NEW AND LINE */
+.price01 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 267px;
+  top: 179px;
+}
 
+.price011 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 273px;
+  top: 179px;
+}
+
+.price012 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  right: 286px;
+  top: 179px;
+}
+
+/*  */
+/* màu hình icon NEW AND LINE */
+.icon-container i {
+  font-size: 16px;
+  color: #ff8c00;
+  /* Orange color */
+}
+
+.user-icon {
+  font-size: 16px;
+  color: #ff8c00;
+  /* Orange color */
+}
 /*  */
 .centered-text {
   text-align: center;
