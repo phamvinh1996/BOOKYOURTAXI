@@ -3084,7 +3084,7 @@ img {
 /* hình cam mục OUR */
 
 .chunhat1 {
-  position: absolute;
+   /* position: absolute;
   top: -3%;
   left: 50%;
   transform: translate(-50%, 85%) rotate(-90deg) skewY(0deg);
@@ -3094,7 +3094,38 @@ img {
   z-index: 1;
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
-  clip-path: (0 0, 100% 0, 100% 70%, 90% 100%, 0 100%)
+  
+  clip-path: (0 0, 100% 0, 100% 70%, 90% 100%, 0 100%)  */
+
+
+
+
+
+  background-color: #ff9900;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 8px 8px;
+  width: 95%;
+  height: 70px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 auto;
+  margin-top: -35px;
+  /* padding-bottom: 10px;  */
+
+
+
+
+
+
+
+
+
 }
 
 a {
@@ -3116,24 +3147,26 @@ a {
   writing-mode: vertical-lr;
   /* Thay đổi hướng chữ từ dọc sang ngang */
   /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
-  transform: rotate(1deg);
+  transform: rotate(-90deg);
   /* Xoay chữ nếu cần đảo ngược */
   font-size: 16px;
   /* Kích thước chữ */
   white-space: nowrap;
   /* Đảm bảo chữ không xuống hàng */
   position: relative;
-  top: 76px;
+  top: 1px;
   text-align: center;
   color: #000;
   font-weight: 700;
   font-size: 22px;
+
+
 }
 
 /* hình màu đen  */
 
 .chunhat2 {
-  position: absolute;
+    /* position: absolute;
   top: -61%;
   left: -17%;
   transform: translate(-50%, 85%) rotate(0deg) skewY(0deg);
@@ -3142,7 +3175,35 @@ a {
   background-color: #222;
   z-index: 1;
   background-size: 8px 8px;
-  clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
+  clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0); 
+  */
+
+ background-color: #222;
+ background-repeat: repeat;
+ background-size: cover;
+ clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
+ color: #fff;
+ width: 70%;
+ height: 63px;
+ border-radius: 2px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 14px;
+ font-weight: 600;
+ line-height: 1;
+ letter-spacing: 0;
+ margin-left: auto;
+ position: absolute;
+ right: 59px;
+ top: 362px;
+ box-shadow: 0 1px 5px rgb(0 0 0 / 20%); 
+
+
+
+
+
+
 }
 
 /* dòng chữ nằm ngang */
@@ -3153,13 +3214,13 @@ a {
   writing-mode: vertical-lr;
   /* Thay đổi hướng chữ từ dọc sang ngang */
   /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
-  transform: rotate(1deg);
+  transform: rotate(-89deg);
   /* Xoay chữ nếu cần đảo ngược */
   font-size: 16px;
   /* Kích thước chữ */
   white-space: nowrap;
   /* Đảm bảo chữ không xuống hàng */
-  position: relative;
+  /* position: relative; */
   top: 55px;
   text-align: center;
   color: #fff;
