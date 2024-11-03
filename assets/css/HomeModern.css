@@ -3717,6 +3717,19 @@ p {
   margin-bottom: 30px;
 
 }
+/*  */
+
+.card-img-top {
+  position: relative;
+  top: -18px;
+  left: -20px;
+  width: 378px;
+  height: 221px;
+  object-fit: cover;
+}
+
+
+
 
 /*  */
 
@@ -4709,6 +4722,12 @@ main {
 .table-1 {
   position: relative;
   background-color: #ffffff;
+
+  border: 2px solid #ccc; /* Đường viền cho bảng */
+  border-radius: 8px; /* Bo góc cho bảng */
+  /* overflow: hidden; Để bo góc hoạt động */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho bảng */
+ 
 }
 
 .table-1 .slick-slide {
@@ -5815,3 +5834,17 @@ margin-bottom: -254px;  }
       font-size: 30px; /* Kích thước font nhỏ hơn trên màn hình nhỏ */
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
