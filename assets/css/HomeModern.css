@@ -3733,8 +3733,8 @@ p {
 
 .card-img-top {
    position: relative;
-  top: -18px;
-  left: -20px;
+  /* top: -18px;
+  left: -20px; */
   width: 100px;
   height: 221px;
   object-fit: cover;
@@ -3762,8 +3762,10 @@ p {
   padding: 10px 20px;
   clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
   position: absolute;
-  right: 267px;
-  top: 179px;
+  /* right: 267px;
+  top: 179px; */
+  bottom: 0;
+  left: 0;
 }
 
 .price011 {
@@ -3776,8 +3778,10 @@ p {
   padding: 10px 20px;
   clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
   position: absolute;
-  right: 273px;
-  top: 179px;
+  /* right: 273px;
+  top: 179px; */
+  bottom: 0;
+  left: 0;
 }
 
 .price012 {
@@ -3790,8 +3794,10 @@ p {
   padding: 10px 20px;
   clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
   position: absolute;
-  right: 286px;
-  top: 179px;
+  /* right: 286px;
+  top: 179px; */
+  bottom: 0;
+  
 }
 
 /*  */
