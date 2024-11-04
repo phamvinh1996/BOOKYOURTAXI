@@ -3459,7 +3459,7 @@ p {
   position: relative;
   background-color: #ffffff;
   
-  border: 2px solid #ccc; Đường viền cho bảng
+  border: 2px solid #ccc; 
   border-radius: 8px; /* Bo góc cho bảng */
   /* overflow: hidden; Để bo góc hoạt động */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng cho bảng */
