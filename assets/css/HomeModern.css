@@ -4538,7 +4538,7 @@ img.image-car2 {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 30%;
+  top: 60%;
   /* Adjust the distance from the top as needed */
   left: 79%;
   display: flex;
@@ -4546,70 +4546,9 @@ img.image-car2 {
   align-items: center;
   background-color: black;
   color: #fff;
-  background-color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
 }
-
-
-/*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*  */
