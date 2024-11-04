@@ -262,7 +262,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -15px;
+  top: -8px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -325,8 +325,11 @@ div#offcanvasDarkNavbar {
   /* left: -168%;
   top: -39px; */
   /* position: relative;  */
-margin-left: -8px;
-margin-top: -65px;
+/* margin-left: -8px;
+margin-top: -65px; */
+position: absolute;
+top: -46px;
+right: -76px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 }
@@ -4752,6 +4755,7 @@ main {
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
   margin-top: 3px;
+  margin-right: -23px;
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
