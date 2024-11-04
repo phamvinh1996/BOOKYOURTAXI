@@ -2541,10 +2541,11 @@ button {
   color: #666;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0px;
+  margin-bottom: 19px;
   font-size: 16px;
-  position: relative;
-  top: -43px;
+  margin-top: 39px;
+  /* position: relative;
+  top: -43px; */
 }
 
 /* ahanh màu trắng choosee taxi */
