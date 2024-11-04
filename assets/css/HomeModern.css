@@ -3399,12 +3399,36 @@ p {
   margin: 0;
   font-family: "Space Grotesk", sans-serif;
 }
-
+/* passsger riview */
 .successfully-1 {
   position: relative;
-  color: #868891;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 17px;
+  line-height: 27px;
+  color: #666;
+  font-weight: 400;
+
+}
+/* thẻ chữ h1  ridek pasenger riview*/
+.review-heading {
+  font-size: 41px;
+  font-weight: bold;
+  color: #333333;
+  position: relative;
+  text-align: left;
+}
+/* thẻ chữ pridek passger rivew */
+.place-1{
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 0;
+  letter-spacing: -0.5px;
+  color: #a2a2a2;
 }
 
+
+/*  */
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 .slide-container {
   position: relative;
@@ -3426,6 +3450,35 @@ p {
   top: 25px;
   z-index: 1;
 }
+
+/* code css thẻ chữ code passenfger riview */
+
+.ten01{
+
+  margin-top: 59px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.ten02{
+  font-size: 21px;
+  position: relative;
+  top: -31px;
+}
+
+.ten05{
+
+  margin-top: 59px;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.ten06{
+  font-size: 21px;
+  position: relative;
+  top: -31px;
+}
+/*  */
 
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
@@ -4790,6 +4843,10 @@ main {
   box-shadow: 0 0 0 3px rgba(255, 153, 0, 0.5);
 }
 
+
+
+
+/*  */
 /*  */
 
 
