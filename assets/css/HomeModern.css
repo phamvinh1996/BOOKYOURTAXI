@@ -3091,16 +3091,19 @@ img {
 
 .overlay1{
 
-  background-color: rgba(2, 2, 2, 0.7);
+  /* background-color: rgba(2, 2, 2, 0.7); */
+  background-color: rgba(0, 0, 0, 0.5);
     width: 100%;
     height: 100%;
-    /* position: relative; */
     left: 0;
     top: 0;
-    z-index: -1;
+    z-index: 1;
+    pointer-events: none; /* Để cho phép tương tác với ảnh bên dưới nếu cần */
 }
 
-
+.section-online-book {
+  overflow: hidden; /* Ẩn phần ảnh vượt ra ngoài */
+}
 /*  */
 /* hình cam mục OUR */
 
