@@ -5841,7 +5841,7 @@ margin-bottom: -254px;  }
     gap: 10px; /* Space between buttons */
     justify-content: center; /* Center buttons within the container */
     align-items: left; /* Vertically center-align buttons */
-     width:411px; 
+     width:517px; 
     margin-top: -16px;
     margin-left: -50px;
   }
@@ -5849,6 +5849,7 @@ margin-bottom: -254px;  }
   .image-button {
     display: inline-flex; /* Ensure each button takes only the space it needs */
     margin-right: 1px;
+    
   }
 }
 
