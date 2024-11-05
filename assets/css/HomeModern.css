@@ -5810,6 +5810,7 @@ margin-bottom: -254px;  }
  @media (max-width: 768px) {
   .section-online-book {
     background-color: #fff; /* Set background color to white */
+    padding-bottom: 11px;
   }
 }   
 
@@ -5939,3 +5940,6 @@ margin-bottom: -254px;  }
       background-color: white; /* Màu nền đỏ với độ trong suốt */
   }
 }
+
+
+/*  */
