@@ -377,7 +377,7 @@ right: -76px;
 /*  thanh nav cam*/
 .dropdown-menu.show {
   display: block;
-  margin-left: -125px;
+  margin-left: -8px;
 }
 
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
@@ -5919,7 +5919,7 @@ margin-bottom: -254px;  }
 
 
 
-/*  */
+/* chỉnh qua phải  */
 
 
 @media (max-width: 768px) {
@@ -5927,3 +5927,7 @@ margin-bottom: -254px;  }
       justify-content: flex-end; /* Căn chỉnh sang bên phải trên màn hình nhỏ */
   }
 }
+
+/*  */
+
+
