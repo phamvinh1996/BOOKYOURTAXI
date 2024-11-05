@@ -5159,6 +5159,7 @@ button.carousel-control-next {
   font-size: 18px; /* Giảm kích thước chữ */
    margin-right: -250px;
 margin-top: -317px; 
+clip-path: polygon(0 0, 90% 0%, 100% 8%, 100% 100%, 0 99%);
 }
 .section-online-booking::before {
   width: 0; /* Ẩn phần tử trước bằng cách đặt chiều rộng về 0 */
@@ -5171,9 +5172,11 @@ margin-top: -317px;
   text-align: center; /* Căn giữa chữ */
   /* margin-top: 93px; */
   /* margin-right: -471px; */
-  padding-bottom: 7px;
-  margin-top: 93px;
-  margin-right: -100%;
+  padding-bottom: 11px;
+   margin-top: 57px; 
+  position: static;
+  margin-left: -50px;
+
 }
 .section-heading007 h4 span {
   left: 20px; /* Di chuyển sang trái cho thiết bị di động */
@@ -5882,3 +5885,9 @@ margin-bottom: -254px;  }
 
 
 
+/* Media query để ẩn .contact-nav111 trên màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .contact-nav111 {
+      display: none;
+  }
+}
