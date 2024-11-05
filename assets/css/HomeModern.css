@@ -4907,7 +4907,8 @@ button.carousel-control-next {
 }
 
 .section-online-book {
-  padding: 10px; /* Giảm padding cho điện thoại dọc */
+  padding: 77px; /* Giảm padding cho điện thoại dọc */
+  margin-left: -74px;
 }
 
 .get-app {
@@ -5929,5 +5930,9 @@ margin-bottom: -254px;  }
 }
 
 /*  */
-
-
+/* Media query để ẩn overlay trên các thiết bị nhỏ */
+@media (max-width: 768px) {
+  .overlay1 {
+      background-color: white; /* Màu nền đỏ với độ trong suốt */
+  }
+}
