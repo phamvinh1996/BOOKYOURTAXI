@@ -4962,7 +4962,7 @@ button.carousel-control-next {
 
   /*  ẩn thanh logo*/
   .logo-container {
-    height: 41px;
+    height: 100px;
     /* display: none; */
   }
 
@@ -5324,11 +5324,13 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
     .navbar {
         position: absolute;
         top: 21px;
-        left: 159px;
+        left: 312px;
         right: 0;
         z-index: 1000;
         background-color: rgba(255, 255, 255, 0.8);
         margin-top: -40px;
+
+        width: 23%;
     }
 }
 
@@ -5451,8 +5453,8 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 /* code css media logo  */
 @media (max-width: 768px) {
   .logo-brand {
-      max-width: 51%; /* Tăng kích thước cho logo trên màn hình nhỏ */
-      top: 10px; /* Điều chỉnh vị trí từ trên xuống */
+      max-width: 80%; /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
   }
 }
 
@@ -5499,7 +5501,8 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 .navbar-toggler:not(.collapsed) .bar3 {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
-  left: 38px;
+  left: 40px;
+  top: 13px;
   width: 47px;
 }
 
@@ -5511,12 +5514,16 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
     /* position: relative;
     top: 46px; */
     display: block;
-    /* margin-top: 81px; */
-/* position: relative; */
-/* top: 25px; */
-margin-top: 25px;
+    margin-top: 117px;
+    position: absolute;
 
 
+
+    .collapse {
+      position: absolute;
+
+
+    }
 
 
 
@@ -5551,8 +5558,7 @@ margin-top: 25px;
     transform: rotate(-45deg) translate(4px, -16px);
     margin-top: 3px;
   }
-  }
-
+}
 
 
 
@@ -5571,7 +5577,8 @@ margin-top: 25px;
   /* Đặt .collapse không hiển thị mặc định */
   .collapse {
     display: none;
-    height: 300px;
+    height: 6px;
+    margin-top: 18px;
     /* Điều chỉnh chiều cao tự động */
   }
 }
@@ -5675,8 +5682,8 @@ margin-top: 25px;
 /* Media query cho màn hình nhỏ hơn 600px */
 @media (max-width: 600px) {
   .logo-brand {
-      max-width: 50%; /* Thay đổi kích thước cho màn hình nhỏ */
-      margin-top: -21px;
+      max-width: 71%; /* Thay đổi kích thước cho màn hình nhỏ */
+      margin-top: 5px;
   }
 }
 
@@ -5877,17 +5884,46 @@ margin-bottom: -254px;  }
 
 
 
-
-
-
-
-
-
-
-
+/* nút ẩn book taxi thanh cuộn */
 /* Media query để ẩn .contact-nav111 trên màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
   .contact-nav111 {
       display: none;
+  }
+}
+
+
+
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+      left: auto; /* Bỏ giá trị bên trái */
+      right: 0; /* Căn phải */
+  }
+}
+
+/* nền trắng thanh dấu 3 chấm bảng */
+/* Media query để điều chỉnh phong cách trên các thiết bị nhỏ */
+@media (max-width: 768px) {
+  .navbar-nav {
+      background-color: white; /* Nền trắng cho navbar trên màn hình nhỏ */
+      position: relative;
+      width: 93%;
+      right: -38px;
+  }
+
+  .dropdown-menu {
+      background-color: white; /* Nền trắng cho menu dropdown trên màn hình nhỏ */
+  }
+}
+
+
+
+/*  */
+
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      justify-content: flex-end; /* Căn chỉnh sang bên phải trên màn hình nhỏ */
   }
 }
