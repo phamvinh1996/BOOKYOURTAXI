@@ -5868,6 +5868,8 @@ margin-bottom: -254px;  }
     position: relative; 
     top: -280px; 
     color: #ff9900;
+    white-space: nowrap; /* Forces text to stay on a single line */
+   
   }
 }    
 
