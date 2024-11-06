@@ -5990,3 +5990,24 @@ margin-bottom: -254px;  }
       font-family: 'Space Grotesk', sans-serif;
   }
 }
+
+
+/*  */
+
+/* Điều chỉnh vị trí khi màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .hotline {
+    left: -63px;
+      top: 180px; /* Di chuyển xuống dưới cho màn hình nhỏ */
+  }
+}
+
+/*  */
+
+/* Điều chỉnh vị trí khi màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .subscribe button {
+      top: 92%; /* Di chuyển xuống dưới cho màn hình nhỏ */
+      left: 1%; /* Điều chỉnh vị trí bên trái nếu cần */
+  }
+}
