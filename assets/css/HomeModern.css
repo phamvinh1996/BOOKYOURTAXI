@@ -6030,3 +6030,19 @@ margin-bottom: -254px;  }
       width: 90%;
   }
 }
+
+
+/*  */
+
+
+@media (max-width: 767px) {
+  .icon-car {
+      align-items: center; /* Di chuyển nội dung vào giữa theo chiều dọc */
+      margin-top: 696px; /* Tăng khoảng cách trên khi màn hình nhỏ */
+  }
+
+  .icon-car img {
+      width: 80px; /* Thay đổi kích thước hình ảnh nếu cần */
+      margin: 0 5px; /* Điều chỉnh khoảng cách giữa các hình ảnh */
+  }
+}
