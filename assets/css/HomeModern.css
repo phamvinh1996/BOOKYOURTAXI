@@ -4843,7 +4843,6 @@ button.carousel-control-next {
 .slick-next.slick-arrow {
   display: none; /* Ẩn nút điều hướng tiếp theo */
 
-
 }
 
 
@@ -5942,4 +5941,22 @@ margin-bottom: -254px;  }
 }
 
 
+/* code css media query mục our */
+
+
+@media (max-width: 768px) {
+  .chunhat1 {
+    position: relative;
+    top: -43px;
+  }
+}
+
+
 /*  */
+
+@media (max-width: 768px) {
+  .chunhat2 {
+    position: absolute;
+    top: 393px;
+  }
+}
