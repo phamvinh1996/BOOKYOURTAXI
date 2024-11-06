@@ -5972,4 +5972,12 @@ margin-bottom: -254px;  }
   }
 }
 
+/* code css why ride */
 
+/* Điều chỉnh kích thước font khi màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .table-heading000 {
+      font-size: 24px; /* Giảm kích thước font chữ cho màn hình nhỏ */
+      line-height: 20px; /* Cũng có thể điều chỉnh line-height */
+  }
+}
