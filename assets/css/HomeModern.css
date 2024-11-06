@@ -1543,11 +1543,11 @@ img.image-car2 {
 
 .slick-dots {
   display: flex;
-  margin-top: 17px;
+  /* margin-top: 17px; */
   padding-left: 0;
   margin-bottom: 0;
   padding-left: 128px;
-  position: absolute;
+  /* position: absolute; */
   left: 441px;
 
 }
@@ -4764,11 +4764,11 @@ main {
 
 .table-1 .slick-dots {
   display: flex;
-  margin-top: 35px;
+  /* margin-top: 35px; */
   padding-left: 0;
   margin-bottom: 0;
-  padding-left: 92px;
-  margin-left: -473px;
+  /* padding-left: 92px; */
+  /* margin-left: -473px; */
 }
 
 .table-1 .slick-dots li {
@@ -4858,9 +4858,9 @@ button.carousel-control-next {
 }
 
 .slick-dots {
-  left: 50%; /* Giữa màn hình */
-  transform: translateX(-50%); /* Giữa theo chiều ngang */
-  padding-left: 0; /* Bỏ padding trái */
+  left: 10%;
+  /* transform: translateX(-50%);  */
+  padding-left: 0; 
 }
 
 
@@ -5960,3 +5960,16 @@ margin-bottom: -254px;  }
     top: 393px;
   }
 }
+
+
+/*code css media ridek passge  */
+
+@media (max-width: 768px) {
+  .form-group1 {
+    margin-top: 47px;
+      margin-left: -11px; /* Giảm khoảng cách bên trái khi màn hình nhỏ */
+      padding: 80px 20px; /* Giảm padding để phần tử nhỏ hơn */
+  }
+}
+
+
