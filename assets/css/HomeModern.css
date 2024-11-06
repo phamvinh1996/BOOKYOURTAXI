@@ -5986,7 +5986,7 @@ margin-bottom: -254px;  }
 /* Điều chỉnh kích thước font khi màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
   .tintuc {
-      font-size: 14px; /* Giảm kích thước font chữ cho màn hình nhỏ */
-      top: -70px; /* Có thể điều chỉnh vị trí nếu cần */
+      font-size: 16px; /* Giảm kích thước font chữ cho màn hình nhỏ */
+      font-family: 'Space Grotesk', sans-serif;
   }
 }
