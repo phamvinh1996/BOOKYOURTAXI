@@ -2406,13 +2406,14 @@ button {
   line-height: 20px;
   text-align: center;
   position: relative;
-  left: -215px;
+  left: 78px;
   top: 34px;
 }
 
 .easy1 {
   position: relative;
   right: -66px;
+  top: 36px;
 }
 
 /*  */
@@ -2422,7 +2423,7 @@ button {
   /* position: relative;
   right: -747px;
   top: -323px; */
-  margin-top: -263px;
+  margin-top: -166px;
   margin-left: 711px;
 }
 
@@ -6145,4 +6146,44 @@ margin-bottom: -254px;  }
   .row-footer {
     margin-top: 62px;
   }
+
 }
+
+
+
+
+
+
+
+
+
+
+.check-list {
+  list-style: none; /* Loại bỏ dấu chấm tròn */
+  padding: 0; /* Bỏ padding mặc định */
+  margin: 0; /* Bỏ margin mặc định */
+}
+
+.check-list li {
+  display: flex; /* Sử dụng flexbox để căn chỉnh nội dung */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-bottom: 10px; /* Khoảng cách giữa các mục */
+}
+
+.check-list li i {
+  margin-right: 10px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
