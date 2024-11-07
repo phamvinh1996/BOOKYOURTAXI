@@ -6118,7 +6118,7 @@ margin-bottom: -254px;  }
 /* Media query for large screens (desktops) */
 @media (min-width: 1200px) {
   .copyright-wrap {
-      padding: 20px 0; /* Increase padding for large screens */
+      padding: 0px 0; /* Increase padding for large screens */
       font-size: 16px; /* Increase font size for larger screens */
   }
 }
