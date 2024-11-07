@@ -6044,8 +6044,11 @@ margin-bottom: -254px;  }
   }
 
   .icon-car img {
-      width: 80px; /* Thay đổi kích thước hình ảnh nếu cần */
-      margin: 0 5px; /* Điều chỉnh khoảng cách giữa các hình ảnh */
+    margin: 0 10px;
+    /* Khoảng cách giữa các hình ảnh */
+    /* max-width: 80%; */
+    width: 23%;
+    /* Chiều rộng tối đa cho hình ảnh */
   }
 }
 
