@@ -6133,3 +6133,13 @@ margin-bottom: -254px;  }
 
 
 
+
+
+
+/* dòng chữ footer working hour */
+/* Media query for mobile screens */
+@media (max-width: 576px) {
+  .row-footer {
+    margin-top: 62px;
+  }
+}
