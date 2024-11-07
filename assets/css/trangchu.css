@@ -3965,6 +3965,7 @@ button {
   /* tạo thanh nav có đường viền */
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
+  z-index: 1;
 }
 
 /* chữ css foter  */
@@ -4298,7 +4299,7 @@ footer {
   align-items: flex-end;
   width: 100%;
   overflow: hidden;
-  top: 358px;
+  bottom: 0;
   position: absolute;
   z-index: 2;
 }
@@ -6953,3 +6954,23 @@ main {
     margin-bottom: 15px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

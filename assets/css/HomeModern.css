@@ -3990,6 +3990,7 @@ button {
   /* tạo thanh nav có đường viền */
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
+  z-index: 1;
 }
 
 /* chữ css foter  */
@@ -6037,8 +6038,9 @@ margin-bottom: -254px;  }
 
 @media (max-width: 767px) {
   .icon-car {
+    position: absolute;
+    top: 96%;
       align-items: center; /* Di chuyển nội dung vào giữa theo chiều dọc */
-      margin-top: 718px; /* Tăng khoảng cách trên khi màn hình nhỏ */
   }
 
   .icon-car img {
@@ -6107,14 +6109,27 @@ margin-bottom: -254px;  }
     margin-top: 10px; /* Move content upward on tablet screens */
   }
 }
-/* code css media container mục dòng chữ wourking hour  footer*/
 
-/* Media query for tablets */
-@media (max-width: 768px) {
-  .container {
-      padding: 43px;
- 
+
+/*  */
+/* Media query for large screens (desktops) */
+@media (min-width: 1200px) {
+  .copyright-wrap {
+      padding: 20px 0; /* Increase padding for large screens */
+      font-size: 16px; /* Increase font size for larger screens */
   }
 }
 
-/*  */
+
+
+
+/* Media query for tablet screens and below */
+@media (max-width: 992px) {
+  .description {
+  margin-top: 36px;
+      font-size: 18px; /* Adjust font size for tablets */
+  }
+}
+
+
+
