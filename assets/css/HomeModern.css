@@ -3034,8 +3034,8 @@ body {
 }
 
 .container {
-  width: 100%;
-  padding: 10px;
+   width: 100%; 
+  padding: 10px; 
   /* Khoảng cách cho container */
 }
 
@@ -6032,13 +6032,13 @@ margin-bottom: -254px;  }
 }
 
 
-/*  */
+/* xe footer  */
 
 
 @media (max-width: 767px) {
   .icon-car {
       align-items: center; /* Di chuyển nội dung vào giữa theo chiều dọc */
-      margin-top: 696px; /* Tăng khoảng cách trên khi màn hình nhỏ */
+      margin-top: 718px; /* Tăng khoảng cách trên khi màn hình nhỏ */
   }
 
   .icon-car img {
@@ -6046,3 +6046,75 @@ margin-bottom: -254px;  }
       margin: 0 5px; /* Điều chỉnh khoảng cách giữa các hình ảnh */
   }
 }
+
+/* ảnh background fo0ter */
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .background-image {
+    /* Move the background position downward */
+    background-position: 200% 100%; /* Adjust the vertical position as needed */
+    margin-top: 50px;
+  }
+}
+
+/*  */
+
+/* Media query for moving the form up on smaller screens */
+@media (max-width: 768px) {
+  .subscribe {
+    margin-top: 20px; /* Adjusts the margin-top to move form closer to the top */
+  }
+
+
+  .links-label{
+    top: -65px;
+    position: relative;
+  }
+}
+/*  */
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .subscribe input[type="email"] {
+    position: relative;
+        top: -66px;
+        width: 89%;
+  }
+}
+/*  */
+@media (max-width: 768px) {
+  .subscribe button {
+      top: 43%; /* Move button further down on tablet screens */
+  }
+}
+
+
+
+
+
+
+/* chiều rộng xe footer media */
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .logo-image {
+    top: 3px; /* Move logo down on tablet screens */
+  }
+}
+/*  */
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .content {
+    margin-top: 30px; /* Move content upward on tablet screens */
+  }
+}
+/* code css media container mục dòng chữ wourking hour  footer*/
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .container {
+      padding: 43px;
+ 
+  }
+}
+
+/*  */
