@@ -5839,7 +5839,8 @@ img.image-car2 {
   .icon-car img {
     margin: 0 10px;
     /* Khoảng cách giữa các hình ảnh */
-    max-width: 80%;
+    /* max-width: 80%; */
+    width: 78px;
     /* Chiều rộng tối đa cho hình ảnh */
   }
 
@@ -6326,9 +6327,9 @@ img.image-car2 {
   .description {
     position: relative;
     /* Change to static positioning for better responsiveness */
-    top: -167px;
+    top: -151px;
     /* Reset top positioning */
-    left: -41px;
+    left: -1px;
     /* Reset left positioning */
     width: 90%;
     /* Adjust width for better fit on small screens */
@@ -6346,7 +6347,7 @@ img.image-car2 {
     /* Remove float for better responsiveness */
     position: absolute;
     /* Change to static positioning for normal flow */
-    width: 213px;
+    width: 250px;
     /* Adjust width for better fit on small screens */
     top: 37px;
     /* Reset top positioning */
