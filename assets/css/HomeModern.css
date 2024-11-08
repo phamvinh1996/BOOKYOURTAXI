@@ -209,7 +209,37 @@ p {
   left: -76px;
 }
 
+/*  */
+/* code css media query modal content */
+/* code css tạo nút search thanh nav */
+.modal {
+  /* Position the modal in the center of the page */
+  position: fixed;
+  top: 57%;
+  left: 69%;
+  transform: translate(0%, -70%);
+  /* Set the size of the modal */
+  width: 136%;
+  height: 80%;
+  /* Add a z-index to ensure the modal is on top of other elements */
+  z-index: 9999;
+  /* Add a white background */
+  background-color: #ffffff;
+  /* Add some padding to the modal content */
+  padding: 20px;
+  /* Add a border and border-radius to the modal */
+  border: 1px solid ;
+  border-radius: 5px;
+  /* Add a box-shadow to the modal */
+}
 
+
+/* code css hộp thoại madal */
+.modal-content{
+margin-top: 140%;
+}
+
+/*  */
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
   left: 11%;
@@ -6191,10 +6221,7 @@ margin-bottom: -254px;  }
 
 
 
-
-
-
-
+/*  */
 
 
 
