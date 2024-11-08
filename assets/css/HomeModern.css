@@ -6002,7 +6002,7 @@ margin-bottom: -254px;  }
       /* top: 180px; Di chuyển xuống dưới cho màn hình nhỏ */
 
       margin-right: 2px;
-      margin-top: 168px;
+      margin-top: 181px;
       width: 111%;
     }
 }
@@ -6145,7 +6145,7 @@ margin-bottom: -254px;  }
 /* Media query for mobile screens */
 @media (max-width: 576px) {
   .row-footer {
-    margin-top: 46px;
+    margin-top: 67px;
   }
 
 }
