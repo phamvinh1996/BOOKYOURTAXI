@@ -3956,11 +3956,16 @@ p {
 /* dòng chữ trắng p */
 
 .description {
-  /* position: absolute; */
+  position: relative;
   top: 25px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
+
+
+
+  top: -53px;
+  left: 256px;
 }
 
 /* nút màu cam  nút dịch vụ nỗi bật*/
@@ -6002,7 +6007,7 @@ margin-bottom: -254px;  }
       /* top: 180px; Di chuyển xuống dưới cho màn hình nhỏ */
 
       margin-right: 2px;
-      margin-top: 181px;
+      margin-top: 222px;
       width: 111%;
     }
 }
@@ -6131,8 +6136,10 @@ margin-bottom: -254px;  }
 /* Media query for tablet screens and below */
 @media (max-width: 992px) {
   .description {
-  margin-top: 36px;
+  margin-top: 97px;
       font-size: 18px; /* Adjust font size for tablets */
+      position: relative;
+      left: 1px;
   }
 }
 
@@ -6145,7 +6152,7 @@ margin-bottom: -254px;  }
 /* Media query for mobile screens */
 @media (max-width: 576px) {
   .row-footer {
-    margin-top: 67px;
+    margin-top: 51px;
   }
 
 }
