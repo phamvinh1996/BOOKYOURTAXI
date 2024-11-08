@@ -6002,7 +6002,7 @@ margin-bottom: -254px;  }
       /* top: 180px; Di chuyển xuống dưới cho màn hình nhỏ */
 
       margin-right: 2px;
-      margin-top: 177px;
+      margin-top: 168px;
       width: 111%;
     }
 }
@@ -6060,7 +6060,7 @@ margin-bottom: -254px;  }
   .background-image {
     /* Move the background position downward */
     background-position: 200% 100%; /* Adjust the vertical position as needed */
-    margin-top: 50px;
+    margin-top: 50px;    
   }
 }
 
@@ -6074,7 +6074,7 @@ margin-bottom: -254px;  }
 
 
   .links-label{
-    top: -65px;
+    top: -45px;
     position: relative;
   }
 }
@@ -6083,14 +6083,15 @@ margin-bottom: -254px;  }
 @media (max-width: 768px) {
   .subscribe input[type="email"] {
     position: relative;
-        top: -66px;
+        top: -46px;
         width: 89%;
   }
 }
 /*  */
 @media (max-width: 768px) {
   .subscribe button {
-      top: 43%; /* Move button further down on tablet screens */
+      top: 59%; /* Move button further down on tablet screens */
+      left: 6px;
   }
 }
 
@@ -6144,7 +6145,7 @@ margin-bottom: -254px;  }
 /* Media query for mobile screens */
 @media (max-width: 576px) {
   .row-footer {
-    margin-top: 62px;
+    margin-top: 46px;
   }
 
 }
