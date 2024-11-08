@@ -5705,7 +5705,10 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
   .choose-your-taxi .nav-pills {
       font-size: 14px; /* Kích thước chữ cho màn hình nhỏ */
       overflow-x: auto; /* Thêm thanh cuộn ngang nếu cần */
-      flex-wrap: nowrap; 
+      /* flex-wrap: nowrap;  */
+      white-space: nowrap;
+      display: flex; /* Đảm bảo các phần tử trên cùng một hàng */
+      flex-wrap: nowrap; /* Ngăn cuộn xuống hàng */
   }
 }
 
