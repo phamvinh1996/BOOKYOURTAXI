@@ -6109,7 +6109,9 @@ margin-bottom: -254px;  }
 /* Media query for tablets */
 @media (max-width: 768px) {
   .logo-image {
-    top: 3px; /* Move logo down on tablet screens */
+    top: 19px;
+    right: 85px;
+    width: 65%;
   }
 }
 /*  */
@@ -6136,8 +6138,8 @@ margin-bottom: -254px;  }
 /* Media query for tablet screens and below */
 @media (max-width: 992px) {
   .description {
-  margin-top: 97px;
-      font-size: 18px; /* Adjust font size for tablets */
+  margin-top: 141px;
+      font-size: 16px; /* Adjust font size for tablets */
       position: relative;
       left: 1px;
   }
@@ -6152,7 +6154,7 @@ margin-bottom: -254px;  }
 /* Media query for mobile screens */
 @media (max-width: 576px) {
   .row-footer {
-    margin-top: 51px;
+    margin-top: 8px;
   }
 
 }

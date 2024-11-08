@@ -6327,7 +6327,7 @@ img.image-car2 {
   .description {
     position: relative;
     /* Change to static positioning for better responsiveness */
-    top: -151px;
+    top: -150px;
     /* Reset top positioning */
     left: -1px;
     /* Reset left positioning */
