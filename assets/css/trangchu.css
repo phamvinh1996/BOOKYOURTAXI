@@ -19,9 +19,11 @@
 
 .navbar-on1 {
   position: relative;
-  left: 57px;
+  left: 35px;
+  top: 86px;
   font-size: 15px;
   font-weight: bold;
+  padding: 22px;
 }
 
 /* code css màu menu thanh nav */
@@ -329,7 +331,7 @@ p {
 div#offcanvasDarkNavbar {
   background-color: #000000;
   color: #f3ebeb;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .text-bg-dark h5,
