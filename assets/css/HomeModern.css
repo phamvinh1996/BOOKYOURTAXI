@@ -20,6 +20,7 @@
 .navbar-on1 {
   position: relative;
   left: 57px;
+  top: 73px;
   font-size: 15px;
   font-weight: bold;
 }
@@ -325,14 +326,15 @@ margin-top: 140%;
 div#offcanvasDarkNavbar {
   background-color: #000000;
   color: #f3ebeb;
-  width: 500px;
+  /* width: 500px; */
 }
 
 .text-bg-dark h5,
 .text-bg-dark p,
 .text-bg-dark a {
-  color: #ffffff;
+  color: #999;
   font-size: 16px;
+  font-weight:400 ;
 }
 
 /* nằm chèn mục liên hệ */
@@ -5488,6 +5490,17 @@ white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 /* code css media logo  */
 @media (max-width: 768px) {
   .logo-brand {
@@ -6222,8 +6235,6 @@ margin-bottom: -254px;  }
 
 
 /*  */
-
-
 
 
 
