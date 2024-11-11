@@ -1334,7 +1334,7 @@ img.image-car2 {
 
 /* start your jnoyey tạo khoảng cách card ảnh */
 .cart-service .card {
-  margin-right: 30px;
+  /* margin-right: 30px; */
   /* Khoảng cách giữa các card */
   margin-bottom: 30px;
   /* Khoảng cách giữa các hàng */
@@ -1962,6 +1962,8 @@ button {
   /* Khoảng cách giữa các card */
   margin-bottom: 30px;
   /* Khoảng cách giữa các hàng */
+
+
 }
 
 .cart-service .card:last-child {
@@ -6244,16 +6246,11 @@ margin-bottom: -254px;  }
 
 
 
-/*  */
-/* Media query cho màn hình với chiều rộng tối đa 425px */
-@media only screen and (max-width: 425px) {
-
-
-
-  /* Các kiểu khác cho các phần tử */
-  .container {
-    padding: 10px;
-    width: 86%;
-    position: relative;
+/* codecss media start your jouney */
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .cart-service .card {
+      /* width: calc(100% - 20px); Chiếm toàn bộ chiều rộng khi màn hình nhỏ */
+      margin-right: 0; /* Đặt lại margin-right để tránh không gian thừa */
   }
 }
