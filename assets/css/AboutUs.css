@@ -202,6 +202,7 @@ p {
   .text, .text1, .text02, .text03 {
     font-size: 14px; /* Adjust as needed */
     line-height: 1.2;
+    color: #000;
   }
 
   /* cpde css dòng chữ so 5267214 trên hàng logo  */
@@ -225,3 +226,398 @@ p {
     position: relative;
    margin-top: 13px;
   }
+
+  
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tạo css thanh Nav ngang Trang chủ, ... */
+.navbar-yellow {
+    left: 29%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    top: 43px;
+    height: 87px;
+  }
+  
+  /* kich co thanh nav trang chu... */
+  .navbar::before {
+    content: '';
+    /* Tạo một pseudo-element */
+    position: absolute;
+    /* Vị trí tuyệt đối */
+    left: -3%;
+    /* Điều chỉnh theo left của navbar */
+    width: 101%;
+    /* Chiều rộng 100% */
+    height: 100%;
+    /* Chiều cao 100% */
+    background-color: inherit;
+    /* Màu nền giống với navbar */
+    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 160%);
+    /* Áp dụng clip-path */
+    z-index: -1;
+    /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  /* thanh nav bỏ dấu dropdown */
+  .dropdown-toggle::after,
+  .dropdown-btn::after {
+    display: none;
+  }
+  
+  /* thanh nav chữ */
+  /* dấu ghạch chân thanh nav chữ */
+  /* chữ trên thanh nav màu cam */
+  .menu li a {
+    right: 8px;
+    top: -3px;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .search-icon,
+  .menu-icon {
+    width: 95px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* màu menu thanh NAV */
+  /*  */
+  /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
+  div#offcanvasDarkNavbar {
+    background-color: #000000;
+    color: #f3ebeb;
+    /* width: 500px; */
+  }
+  
+  .text-bg-dark h5,
+  .text-bg-dark p,
+  .text-bg-dark a {
+    /* color: #999; */
+  }
+  
+  /* nằm chèn mục liên hệ */
+  /* thanh cuộn nút Search */
+  .search-icon1 .icon-img-1 {
+    float: left;
+    margin: 2px;
+    height: 70%;
+    position: absolute;
+    top: 27px;
+    left: -382px;
+  }
+  
+  /* nút tìm kiếm thanh nav  */
+  /* nut tìm kiếm thanh nav trang chu... */
+  /* thanh search tren thanh nav  */
+  .search-icon img,
+  .menu-icon img {
+    max-width: 100%;
+    filter: brightness(0) invert(1);
+    color: white;
+  }
+  
+  .menu-icons .btn-search {
+    width: 41px;
+    height: 50px;
+    background-color: transparent;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    right: 96px;
+  }
+  
+  .menu-icons .btn-search:focus {
+    box-shadow: none;
+  }
+  
+  /* thanh menu */
+  /* Tạo thanh chọn trên thanh nav */
+  .navbar-dark .navbar-toggler {
+    position: relative;
+    right: -100px;
+    top: -4px;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+  }
+  
+  .navbar-dark .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* nút search  nut tim kiem*/
+  .collapse {
+    display: none;
+    /* width: 200px; */
+    /* Set the desired width */
+    height: 500px;
+    /* Set the desired height */
+  }
+  
+  /* nút css menu trangchu... */
+  .navbar-toggler {
+    float: right;
+    margin: -127px;
+    width: 130px;
+    /* Set the desired width */
+    height: 40px;
+    /* Set the desired height */
+  }
+  
+  /* nút trên thanh nav màu cam trang chu, lien he */
+  .dropdown-toggle.black-text,
+  .dropdown-menu .black-text {
+    /* color: #666; */
+    font-size: 15px;
+    top: 5px;
+    left: 6px;
+    position: relative;
+    color: #666;
+  }
+  
+  .mau1 {
+    color: #000;
+    background-color: #000;
+  }
+  
+  /* code css tạo comtact  thanh NAV TRANGCHU...*/
+  .contact-nav {
+    position: absolute;
+    top: -19%;
+    /* Adjust the distance from the top as needed */
+    left: 101%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(0deg);
+    width: 19%;
+    /* Adjust the width as needed */
+    height: 73px;
+    font-weight: bold;
+  }
+  
+  /* nut css  chinh kich co  thanh nav menu trang chu... */
+  .navbar {
+    transform: skewX(0deg);
+    width: 45%;
+    height: 10%;
+    z-index: 999;
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+  }
+  
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .navbar-text img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    right: -61%;
+    position: absolute;
+  }
+  
+  /*  */
+  .navbar-text p {
+    margin: 0;
+    color: #f4f5f8;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    /* Thay đổi kích thước chữ theo ý muốn */
+    white-space: nowrap;
+    /* Ngăn chữ xuống dòng */
+    overflow: hidden;
+    /* Ẩn nội dung dư thừa */
+    text-overflow: ellipsis;
+    /* Hiển thị dấu chấm 3 chấm (...) khi chữ bị cắt ngang */
+    position: relative;
+    right: -100%;
+    top: 60%;
+  }
+  
+  .contact-info {
+    margin-top: 10px;
+    color: #f4f5f8;
+    font-size: 20px;
+  }
+  
+  .content {
+    margin-top: 80px;
+    /* Đảm bảo nội dung không bị che phủ bởi thanh navbar */
+  }
+  
+  /* code css độ dài thanh  nav tìm kiếm trangchu... */
+  /* thanh css nut menu trangchu...*/
+  .col-right-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-colright {
+    height: 53px;
+    width: 53px;
+    color: #ff9900;
+  }
+  
+  .nav.navbar.navbar-dark.bg-dark {
+    width: 50px;
+  }
+  
+  .container {
+    position: relative;
+  }
+  
+  /* code css tạo nút search thanh nav */
+  .modal {
+    /* Position the modal in the center of the page */
+    position: fixed;
+    top: 57%;
+    left: 69%;
+    transform: translate(-63%, -129%);
+    /* Set the size of the modal */
+    width: 136%;
+    height: 80%;
+    /* Add a z-index to ensure the modal is on top of other elements */
+    z-index: 9999;
+    /* Add a white background */
+    background-color: #ffffff;
+    /* Add some padding to the modal content */
+    padding: 20px;
+    /* Add a border and border-radius to the modal */
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    /* Add a box-shadow to the modal */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* kích thước nút thanh search */
+  .modal-content {
+    top: 480px;
+    position: relative;
+  }
+  
+  /* dùng thư viện di chuyển trang book you */
+  .carousel {
+    height: 630px;
+    width: auto;
+    /* Đảm bảo carousel phủ kín chiều ngang của màn hình */
+    position: relative;
+  }
+  
+  .carousel-inner {
+    height: 100%;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /*  */
+  .carousel-caption {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0%;
+    transform: translateY(-83%);
+    width: 70%;
+    padding-left: 15px;
+  }
+  
+  .carousel-caption h1 {
+    margin-bottom: 20px;
+    color: #faf1f1;
+    text-align: start;
+    font-size: 47px;
+    position: absolute;
+    left: 30%;
+  }
+  
+  .carousel-caption .img-car {
+    left: 1046px;
+    position: relative;
+    bottom: 220px;
+    width: 500px;
+  }
+  
+  /*  */
