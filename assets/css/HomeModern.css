@@ -404,7 +404,9 @@ margin-top: -65px; */
 /*  thanh nav cam*/
 .dropdown-menu.show {
   display: block;
-  margin-left: -8px;
+  /* margin-left: -8px; */
+  right: 30px;
+  position: absolute;
 }
 
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
