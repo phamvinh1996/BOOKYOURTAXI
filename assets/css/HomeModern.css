@@ -5282,6 +5282,63 @@ main {
     transform: rotate(-45deg) translate(4px, -16px);
     margin-top: 3px;
   }
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
+  }
+
+  .logo-0 {
+    display: none;
+    /* Hide the logo */
+  }
+  .choose-your-taxi .nav-pills {
+    font-size: 14px;
+    /* Kích thước chữ cho màn hình nhỏ */
+    overflow-x: auto;
+    /* Thêm thanh cuộn ngang nếu cần */
+    /* flex-wrap: nowrap;  */
+    white-space: nowrap;
+    display: flex;
+    /* Đảm bảo các phần tử trên cùng một hàng */
+    flex-wrap: nowrap;
+    /* Ngăn cuộn xuống hàng */
+  }
+
+  .phone-image,
+  .xeoto {
+    display: none;
+  }
+
+  .section-heading08 h4 {
+    font-size: 13px;
+    /* Adjust font size as needed */
+    letter-spacing: 0.5px;
+    /* Reduce letter spacing */
+    padding-left: 47px;
+    /* Adjust padding */
+    line-height: 1;
+    /* Adjust line height to fit on one line */
+    margin-bottom: -254px;
+  }
+  .animated-1 {
+    color: #fff;
+    /* Change text color to black */
+    font-size: 17px;
+    /* Reduce font size to fit on one line */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    left: 0;
+    /* Adjust positioning if necessary */
+    margin-top: 17px;
+  }
+
+  .section-online-book {
+    background-color: #fff;
+    /* Set background color to white */
+    padding-bottom: 11px;
+  }
+
 
 
 
@@ -5408,22 +5465,23 @@ main {
 }
 }
 
-/* code css media logo  */
-@media (max-width: 768px) {
-  .logo-brand {
-    max-width: 80%;
-    /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -28px;
-  }
-}
 
 
 /* code css dau 3 ghach */
 
 
+/* Định dạng chung cho biểu tượng hamburger */
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  /* Kích thước chiều ngang của biểu tượng */
+  height: 25px;
+  /* Kích thước chiều cao */
+}
 /* dau 3 ghachj */
 
-/* Định dạng cho các thanh gạch */
 .bar {
   display: block;
   height: 4px;
@@ -5431,8 +5489,8 @@ main {
   background-color: #666;
   /* Màu của thanh gạch */
   transition: all 0.3s ease;
-}
-
+} 
+/*  */
 /* code css media nút 3 ghạch dấu nhân */
 .navbar-toggler.collapsed .bar1 {
   transform: rotate(0deg);
@@ -5528,17 +5586,6 @@ main {
 
 }
 
-
-/* ẩn meida */
-
-/* Media Query to hide the logo on smaller screens */
-@media (max-width: 768px) {
-  .logo-0 {
-    display: none;
-    /* Hide the logo */
-  }
-}
-
 /* ẩn ngoài destop */
 
 
@@ -5572,49 +5619,9 @@ main {
   }
 }
 
-
 /*  */
 
 /*  *kích cỡ choosee taxi/
-
-/* Media query cho màn hình nhỏ */
-@media (max-width: 768px) {
-  .choose-your-taxi .nav-pills {
-    font-size: 14px;
-    /* Kích thước chữ cho màn hình nhỏ */
-    overflow-x: auto;
-    /* Thêm thanh cuộn ngang nếu cần */
-    /* flex-wrap: nowrap;  */
-    white-space: nowrap;
-    display: flex;
-    /* Đảm bảo các phần tử trên cùng một hàng */
-    flex-wrap: nowrap;
-    /* Ngăn cuộn xuống hàng */
-  }
-}
-
-
-/*Online booking  */
-
-@media (max-width: 768px) {
-
-  .phone-image,
-  .xeoto {
-    display: none;
-  }
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* mục get the ridek mobile */
 /* chữ màu cam ridek */
 .section-heading08 {
@@ -5673,21 +5680,6 @@ main {
 
 
 
-/* online */
-@media (max-width: 768px) {
-  .section-heading08 h4 {
-    font-size: 13px;
-    /* Adjust font size as needed */
-    letter-spacing: 0.5px;
-    /* Reduce letter spacing */
-    padding-left: 47px;
-    /* Adjust padding */
-    line-height: 1;
-    /* Adjust line height to fit on one line */
-    margin-bottom: -254px;
-  }
-}
-
 
 
 
@@ -5714,8 +5706,8 @@ main {
     background-color: #fff;
     /* Set background color to white */
     padding-bottom: 11px;
-  }
-}
+
+}}
 
 
 
@@ -6132,3 +6124,5 @@ main {
     /* Đặt lại margin-right để tránh không gian thừa */
   }
 }
+
+
