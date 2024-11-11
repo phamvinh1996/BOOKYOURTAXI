@@ -5317,12 +5317,14 @@ clip-path: polygon(0 0, 90% 0%, 100% 8%, 100% 100%, 0 99%);
 
   /* dich vu noi bat */
   .second-line {
-    position: relative;
+    /* position: relative; */
     /* left: 788px; Đặt lại vị trí bên trái về 0 */
-    margin-left: 23px;
+    margin-left: 37px;
     top: 10px; /* Đặt lại vị trí phía trên về 0 */
     font-size: 12px; /* Giảm kích thước chữ cho màn hình nhỏ */
-    white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
+    white-space: nowrap; 
+    color: #ddd;
+    white-space: inherit; 
 }
 }
 
@@ -5340,9 +5342,10 @@ clip-path: polygon(0 0, 90% 0%, 100% 8%, 100% 100%, 0 99%);
 @media (max-width: 480px) {
   .cover-image p {
 position: relative; 
-left: -410px;
-font-size: 13px;
+left: -424px;
+font-size: 15px;
 white-space: nowrap; /* Cho phép dòng chữ xuống hàng */
+color: #ddd;
 }
 }
 
