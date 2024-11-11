@@ -6604,7 +6604,8 @@ img.image-car2 {
   /* Các kiểu khác cho các phần tử */
   .container {
     padding: 10px;
-    width: 86%;
+    width: 100%;
+    right: -14px;
     position: relative;
   }
 
