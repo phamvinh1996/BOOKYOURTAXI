@@ -380,7 +380,7 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  right: -73px;
+  right: -100px;
   top: -4px;
   border: none;
   background-color: transparent;
