@@ -33,7 +33,7 @@ $(document).ready(function () {
     dots: true,
     // slidesToShow: 3, // Hiển thị 3 slide cùng lúc
     slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
-    autoplay: false, // Tự động chạy slide
+    autoplay: true, // Tự động chạy slide
     autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
     //  prevArrow: ' < button class = "slick-prev" > Previous < /button>', // Nút điều khiển slide trước
     // nextArrow: ' < button class = "slick-next" > Next < /button>', // Nút điều khiển slide kế tiếp
