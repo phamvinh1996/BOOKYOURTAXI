@@ -137,3 +137,91 @@ p {
     width: 7%;
   }
   
+  /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* Container to hold logo and contact information */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  /* Style for the logo */
+  .logo-container {
+    flex-shrink: 0;
+  }
+  
+  .logo-brand {
+    height: 60px; /* Adjust as needed */
+  }
+  
+  /* Contact information styling */
+  .contact-info {
+    display: flex;
+    gap: 20px; /* Space between contact items */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item i {
+    margin-right: 10px; /* Space between icon and text */
+  }
+  
+  .text, .text1, .text02, .text03 {
+    font-size: 14px; /* Adjust as needed */
+    line-height: 1.2;
+  }
+
+  /* cpde css dòng chữ so 5267214 trên hàng logo  */
+  .text1
+  {
+    left: -75px;
+    position: relative;
+   margin-top: 13px;
+  }
+
+  .text02
+  {
+    left: -66px;
+    position: relative;
+   margin-top: 13px;
+  }
+
+  .text03
+  {
+    left: -66px;
+    position: relative;
+   margin-top: 13px;
+  }
