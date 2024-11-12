@@ -356,6 +356,7 @@ p {
     border: 0;
     position: absolute;
     right: 96px;
+    top: 11px;
   }
   
   .menu-icons .btn-search:focus {
@@ -366,7 +367,7 @@ p {
   /* Tạo thanh chọn trên thanh nav */
   .navbar-dark .navbar-toggler {
     position: relative;
-    right: -100px;
+    right: -83px;
     top: -4px;
     border: none;
     background-color: transparent;
@@ -513,51 +514,238 @@ p {
 /*  */
 
 
+/* CODE THE BOOK 1/2 */
+.carousel-indicators li:after {
+  content: "/2";
+  font-size: 16px;
+  color: #666666;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.active {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.carousel-caption h1 {
+  font-weight: bold;
+  left: 95%;
+  right: -136px;
+  margin-bottom: -7px;
+  animation: slide-up 0.5s ease forwards;
+  text-align: text;
+  position: relative;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 52px;
+  top: -319px;
+}
+
+.carousel-caption p {
+  font-size: 18px;
+  animation: slide-up 0.5s ease 0.3s forwards;
+  text-align: text;
+  position: relative;
+  left: 48%;
+  color: white;
+  font-family: "Space Grotesk", sans-serif;
+  top: -458px;
+}
+
+/* Travel securely with us THE BOOK */
+.doct1 {
+  position: relative;
+  left: 20%;
+  top: -15%;
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+.carousel-caption .btn-view-more {
+  font-size: 16px;
+  animation: slide-up 0.5s ease 0.6s forwards;
+}
+
+.carousel-caption .img-car {
+  position: absolute;
+  width: 675px;
+  height: auto;
+  /* right: 100%; */
+  top: -99px;
+
+  opacity: 0;
+  animation: drive-in 1s ease 0.9s forwards;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translate(-50%, 50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+@keyframes drive-in {
+  from {
+    transform: translate(100%, -50%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+/* code css chỉnh nút button book */
+
+/* nút chỉnh butoon  book your */
+.button-carousel {
+  position: absolute;
+  bottom: 58px;
+  height: 47px;
+  top: 57%;
+  left: 3%;
+  text-align: center;
+  width: 270px;
+}
+
+
+/*  */
+/* dùng thư viện di chuyển trang book you */
+.carousel {
+  /* width: 100px; */
+  height: 700px;
+  /* overflow: hidden; */
+  /* Ẩn phần thừa */
+}
+
+.carousel-inner {
+  height: 76%;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* .carousel-caption {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0%;
+  transform: translateY(-83%);
+  width: 70%;
+  padding-left: 15px;
+} */
+
+.carousel-caption h1 {
+  margin-bottom: 20px;
+  color: #faf1f1;
+  text-align: start;
+  font-size: 47px;
+  position: absolute;
+  left: 36%;
+  margin-top: -139px;
+}
+
+.carousel-caption .img-car {
+  left: 1148px;
+  position: relative;
+  bottom: 220px;
+  width: 500px;
+}
+/* chữ h1*/
+.carousel-caption {
+  position: relative;
+  bottom: 5.25rem;
+  left: -150%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+  font-size: 38px;
+  white-space: nowrap;
+}
+/* màu chữ ridek màu vnagf */
+.ridek {
+  color: #ff9900; /* Đặt màu vàng cho chữ RIDEK */
+}
 
 
 
+/*  */
+
+/*dòng chữ book you taxi hình 1  */
 
 
 
+.taxidoct10 {
+  margin-top: 36px;
+}
+/* code css mục màu chữ about */
 
 
+.chunhat0 {
+  background-color: #ff9900;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 8px 8px;
+  width: 11%;
+  height: 47px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 auto;
+  position: absolute;
+  top: -565px;
+  /* margin-top: -35px; */
+}
+
+.chunhat01{
+  position: relative;
+  top: -592px;
+  left: -591px;
+}
 
 
+/*  code css màu mục joney*/
+.hotline01 {
+  position: absolute;
+  top: -271px;
+  right: -285px;
+  background-color: #ff9900;
+  padding: 10px;
+  width: 822px;
+  height: 110px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-size: 10px 10px;
+  z-index: 1;
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
+.hotline02 {
+  position: absolute; /* Định vị phần tử này */
+  bottom: 0; /* Đặt phần tử ở dưới cùng của container */
+  left: 520px; /* Căn trái */
+  background-color: #222; /* Màu nền đen */
+  padding: 10px; /* Đệm nội dung */
+  width: 100%; /* Chiều rộng 100% của container */
+  height: 110px; /* Chiều cao cố định */
+  overflow: hidden; /* Ẩn nội dung vượt quá */
+  white-space: nowrap; /* Không xuống dòng */
+  text-overflow: ellipsis; /* Hiện ba chấm (...) khi quá dài */
+  clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%); /* Hình dạng */
+  top: -265px;
+}
