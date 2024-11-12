@@ -749,3 +749,321 @@ p {
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%); /* Hình dạng */
   top: -265px;
 }
+/*  */
+/* thẻ chữ book you */
+/* Khoảng cách Giua anh va chu VE CHUNG TOI */
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  /* Adjust the value as needed */
+}
+
+.form-group1 {
+  margin-left: 40px;
+  padding: 110px 40px;
+  /* Adjust the value as needed */
+  position: relative;
+  background-color: #ff9900;
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+}
+
+/* code css Ve chung toi */
+
+
+/* nut tim kiem */
+/* code css giới thiệu về chúng tôi */
+/*  Code chi cột về chúng tôi*/
+/* thẻ p về chúng tôi */
+ .pict1 {
+  font-size: 17px;
+  line-height: 26px;
+  margin-bottom: 15px;
+  color: rgb(102, 102, 102);
+  font-family: "Space Grotesk", sans-serif;
+  top: 133px;
+  right: 55px;
+  position: relative;
+  text-align: center; /* Căn giữa văn bản */
+} 
+
+
+
+/* hiệu ứng ảnh về chúng tôi */
+/* CSS */
+.my-heading {
+  color: rgb(222, 222, 226);
+}
+
+/* thanh nav trang chu menu ảnh logo */
+/* giới thiệu về chững tôi  chữ màu cam*/
+/*code màu chữ gioi thieu ve chung toi */
+.section-heading {
+  position: relative;
+}
+
+.section-heading h4 {
+  font-weight: bold;
+  font-size: 16px;
+  position: relative;
+  color: #f90;
+  padding-left: 50px;
+  display: flex;
+  line-height: 16px;
+  /* top: -358px; */
+  /* right: 341%; */
+  top: -10px;
+  left: -63px;
+  white-space: nowrap;
+}
+
+.section-heading h4 span,
+.section-heading h4 span:before,
+.section-heading h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+}
+
+.section-heading h4 span {
+  left: 32px;
+  transform: skew(-20deg, 0deg);
+}
+
+.section-heading h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+/* code css khoảng cách mục about our company */
+.section-online-vechungtoi {
+  padding-bottom: 156px;
+}
+
+/*  Code CSS VỀ CHÚNG TÔI */
+/* thẻ chữ book you */
+/* Khoảng cách Giua anh va chu VE CHUNG TOI */
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 30px;
+  /* Adjust the value as needed */
+}
+
+.form-group1 {
+  margin-left: 40px;
+  padding: 110px 40px;
+  /* Adjust the value as needed */
+  position: relative;
+  background-color: #ff9900;
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+}
+
+/*  */
+/* về chúng tôi  tổng phần chữ*/
+.form-group {
+  right: -153px;
+  top: 40px;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+/* code css chữ về chúng tôi */
+
+/*  */
+p {
+  margin: 0;
+}
+
+/*  */
+
+.about-us {
+  position: absolute;
+  left: -5%;
+  top: 65px;
+  color: black;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 42px;
+  /* top: -287px; */
+  white-space: nowrap;
+}
+
+.image {
+  width: 220px;
+  height: auto;
+}
+
+/* code css tạo di chuyển ảnh tròn */
+.section-online-vechungtoi {
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+}
+
+.Image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  z-index: 1;
+}
+
+/* Tạo css chuyển động ảnh tròn */
+.Image {}
+
+/*  */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.image-container .Image {
+  left: 416px;
+  top: 108px;
+  width: 11%;
+  /* Loại bỏ hoạt hình mặc định */
+}
+
+.ExperienceText {
+  animation: rotate 3s infinite linear;
+  /* Áp dụng hoạt hình vòng quay */
+}
+
+.image-animation {
+  position: absolute;
+  top: 48px;
+  left: 351px;
+  animation-name: rotateImage;
+  animation-duration: 4s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transform-origin: center center;
+
+}
+
+
+@keyframes rotateImage {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* code css tạo đường chéo về chứng tôi */
+
+
+.image-container {
+  position: relative;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0%;
+  left: 244px;
+  right: 20%;
+  width: 43%;
+  height: 123%;
+  transform: skew(-26deg);
+  background-color: #ff9900;
+  z-index: -1;
+}
+
+/* chữ số điện thoại về chúng tôi */
+
+.hot1 {
+  left: 39%;
+  color: #666;
+  font-size: 16px;
+  position: absolute;
+  top: 127%;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 500;
+}
+
+.color1 {
+  color: orange;
+  position: absolute;
+  right: 35%;
+  top: 134%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+
+/* ảnh 01 về chúng tôi */
+.image01 {
+  position: absolute;
+  left: 17%;
+  top: 137%;
+  width: 132px;
+}
+
+/* ảnh về chúng tôi */
+.ceo1 {
+  position: absolute;
+  right: 69%;
+  top: 126%;
+  font-size: 16px;
+  color: #666;
+  border-radius: 50px;
+  font-weight: 500;
+}
+
+/* picture vè chung toi */
+.ceo101 {
+  position: relative;
+  left: -2%;
+  border-radius: 90px;
+  width: 86px;
+  top: 144px;
+}
+
+/*  */
+
+img.image-car1 {
+  left: -9%;
+  position: relative;
+  width: 300px;
+}
+
+/*  */
+.image-car2-container {
+  display: flex;
+}
+
+img.image-car2 {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: relative;
+  top: 84px;
+  position: relative;
+  width: 196px;
+
+}
