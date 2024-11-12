@@ -617,7 +617,7 @@ p {
 /* dùng thư viện di chuyển trang book you */
 .carousel {
   /* width: 100px; */
-  height: 700px;
+  height: 566px;
   /* overflow: hidden; */
   /* Ẩn phần thừa */
 }
@@ -719,7 +719,7 @@ p {
 /*  code css màu mục joney*/
 .hotline01 {
   position: absolute;
-  top: -271px;
+  top: -334px;
   right: -285px;
   background-color: #ff9900;
   padding: 10px;
@@ -747,7 +747,7 @@ p {
   white-space: nowrap; /* Không xuống dòng */
   text-overflow: ellipsis; /* Hiện ba chấm (...) khi quá dài */
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%); /* Hình dạng */
-  top: -265px;
+  top: -332px;
 }
 /*  */
 /* thẻ chữ book you */
@@ -783,7 +783,7 @@ p {
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
   font-family: "Space Grotesk", sans-serif;
-  top: 133px;
+  top: 116px;
   right: 55px;
   position: relative;
   text-align: center; /* Căn giữa văn bản */
@@ -893,7 +893,7 @@ p {
 .about-us {
   position: absolute;
   left: -5%;
-  top: 65px;
+  top: 35px;
   color: black;
   font-size: 34px;
   font-weight: 700;
