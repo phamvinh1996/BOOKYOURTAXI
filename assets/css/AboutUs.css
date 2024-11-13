@@ -2249,42 +2249,6 @@ button {
 }
 
 /*  */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* code css ridek passenger */
 /* ảnh bìa 1000 */
 .section-online-Hon1000 {
@@ -2514,10 +2478,6 @@ p {
   color: #fff;
 }
 
-
-
-
-
 /*  */
 
 
@@ -2666,12 +2626,6 @@ img {
 
 }
 
-
-
-
-
-
-
 /*lớp phủ get the ridek mobile  */
 
 .overlay1 {
@@ -2693,9 +2647,6 @@ img {
 }
 
 /*  */
-
-
-
 
 /*lớp phủ get the ridek mobile  */
 
@@ -2721,19 +2672,6 @@ img {
 /* hình cam mục OUR */
 
 .chunhat1 {
-  /* position: absolute;
-  top: -3%;
-  left: 50%;
-  transform: translate(-50%, 85%) rotate(-90deg) skewY(0deg);
-  width: 80px;
-  height: 261px;
-  background-color: #ff9900;
-  z-index: 1;
-  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
-  background-size: 8px 8px;
-  
-  clip-path: (0 0, 100% 0, 100% 70%, 90% 100%, 0 100%)  */
-
   background-color: #ff9900;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
@@ -2788,18 +2726,6 @@ a {
 /* hình màu đen  */
 
 .chunhat2 {
-  /* position: absolute;
-  top: -61%;
-  left: -17%;
-  transform: translate(-50%, 85%) rotate(0deg) skewY(0deg);
-  width: 80px;
-  height: 215px;
-  background-color: #222;
-  z-index: 1;
-  background-size: 8px 8px;
-  clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0); 
-  */
-
   background-color: #222;
   background-repeat: repeat;
   background-size: cover;
