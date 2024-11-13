@@ -324,6 +324,7 @@ p {
   .text-bg-dark p,
   .text-bg-dark a {
     /* color: #999; */
+    font-size: 17px;
   }
   
   /* nằm chèn mục liên hệ */
