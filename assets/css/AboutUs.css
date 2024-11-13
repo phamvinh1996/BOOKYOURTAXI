@@ -482,11 +482,14 @@ p {
   }
   
   .contact-info {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     color: #f4f5f8;
     font-size: 20px;
-    margin-left: 38%; 
-   margin-top: -58px;
+    /* margin-left: 38%; 
+   margin-top: -58px; */
+   position: relative;
+    right: -30%;
+    top: -57px;
   }
   
   .content {
@@ -3254,3 +3257,562 @@ margin-top: -63px;
   gap: 26px;
 }
 
+
+/* footer */
+.background-image {
+  background-color: #1c1c1c;
+  background-image: url('https://html.dynamiclayers.net/dl/ridek/assets/img/city-skiline.png');
+  background-size: 100%;
+  background-position: 200%;
+  background-repeat: no-repeat;
+}
+
+/*  */
+/* Media query cho màn hình nhỏ (điện thoại) */
+/*  */
+.logo {
+  flex: 0 0 auto;
+
+}
+
+/* Lớp che phủ */
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  position: absolute;
+  top: 40px;
+  /* left: 85%; */
+}
+
+.content {
+  flex: 1;
+}
+
+.contact-info,
+.subscribe {
+  margin-top: 20px;
+}
+
+.contact-info p {
+  margin: 5px 0;
+  color: #f0e6e6;
+}
+
+.subscribe input {
+  width: 200px;
+  /* Kích cỡ ô đăng ký */
+}
+
+.subscribe button {
+  padding: 5px 10px;
+}
+
+/* dòng chữ trắng p */
+
+.description {
+  position: relative;
+  top: 25px;
+  left: 522px;
+  color: #ccc;
+  font-family: "Space Grotesk", sans-serif;
+  top: -53px;
+  left: 256px;
+  font-size: 18px;
+}
+
+/* nút màu cam  nút dịch vụ nỗi bật*/
+button {
+  background-color: #ff9900;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* cắt path slide */
+/* thanh nav footer hotline */
+.hotline {
+  position: absolute;
+  top: -10px;
+  right: 0;
+  background-color: #ff9900;
+  padding: 10px;
+  width: 700px;
+  /* Đặt chiều rộng mong muốn */
+  height: 110px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+  /* tạo thanh nav có đường viền */
+  background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+  background-size: 10px 10px;
+  z-index: 1;
+}
+
+/* chữ css foter  */
+.hotline-text0 {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 20%;
+  left: 22%;
+  font-size: 16px;
+  /* Kích cỡ chữ */
+  font-weight: 500;
+  line-height: 1;
+  color: #fafafa;
+  margin-bottom: 5px;
+
+}
+
+.hotline-text1 {
+  color: #222;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1;
+  position: absolute;
+  top: 45%;
+  left: 22%;
+  /* Kích cỡ chữ */
+  font-weight: 700;
+  line-height: 1;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+/*  */
+.hotline-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 350%;
+}
+
+/* code css tạo ảnh anmwf bên trái chữ hotline footer */
+.hotline {
+  overflow: auto;
+  /* Cần thiết để đảm bảo phần tử cha bao quanh cả hình ảnh và văn bản */
+}
+
+.hotline-image {
+  float: left;
+  width: 80px;
+  margin-right: 10px;
+  /* Điều chỉnh khoảng cách giữa hình ảnh và văn bản */
+  position: absolute;
+  top: 14%;
+  left: 90px;
+}
+
+/*  */
+.copyright-wrap {
+  background-color: #1c1c1c;
+  padding: 3px 0;
+  text-align: center;
+}
+
+/* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
+.contact-label,
+.opening-label,
+.links-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  position: relative;
+}
+
+.contact-info,
+.opening-info,
+.links-info {
+  margin: 0;
+}
+
+/*Địa chỉ footer  */
+.contact-info {
+  color: #ffffff;
+  /* Màu trắng cho toàn bộ đoạn text */
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.address-label {
+  color: #ff9900;
+  /* Màu cam cho "Địa chỉ:" */
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/*  */
+/* head office footer */
+.address-label-111 {
+  color: white;
+  font-weight: bold;
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
+}
+
+.address-label-111::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
+}
+
+/*  */
+.row-footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -10px;
+  position: relative;
+  top: -6px;
+}
+
+.address-text {
+  /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
+  font-size: 17px;
+}
+
+/*  */
+/* code css ghạch chân liên hệ footer */
+.contact-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
+}
+
+.contact-label::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
+}
+
+/* code css tạo ghạch chân  mở cửa*/
+.opening-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
+}
+
+.opening-label::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
+}
+
+/* code ghạch chân footer  liên kết */
+.links-label {
+  color: #333333;
+  /* Màu chữ xám */
+  font-size: 18px;
+  /* Kích thước chữ */
+  font-weight: bold;
+  /* Độ đậm chữ */
+  display: inline-block;
+  /* Để tạo kích thước theo nội dung */
+  position: relative;
+  /* Để tạo vị trí tương đối cho gạch chân */
+  padding-bottom: 5px;
+  /* Khoảng cách từ chữ đến gạch chân */
+}
+
+.links-label::after {
+  content: "";
+  /* Tạo nội dung rỗng */
+  position: absolute;
+  /* Đặt gạch chân tuyệt đối so với .contact-label */
+  left: 0;
+  /* Căn trái */
+  bottom: 0;
+  /* Căn dưới */
+  width: 57%;
+  /* Chiều rộng bằng 100% của .contact-label */
+  height: 3px;
+  /* Chiều cao gạch chân */
+  background-color: #ff6b00;
+  /* Màu cam */
+}
+
+.links-info {
+  margin-bottom: 5px;
+}
+
+
+/* nut dang ky footer */
+.subscribe button {
+  padding: 5px 10px;
+  background-color: #ff9900;
+  color: #222;
+  border: none;
+  cursor: pointer;
+  width: 173px;
+  height: 50px;
+  top: -34%;
+  left: 5%;
+  position: absolute;
+  font-weight: 600;
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+/*  */
+.sidebar {
+  /* Your sidebar styles here */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -63px;
+  padding-bottom: 83px;
+}
+
+.row-tintuc1 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -59px;
+  justify-content: center;
+  gap: 26px;
+}
+
+.col {
+  flex-basis: 25%;
+  padding: 10px;
+}
+
+.contact-label,
+.opening-label,
+.links-label,
+.contact-info,
+.opening-info,
+.links-info {
+  color: white;
+}
+
+.contact-label,
+.opening-label,
+.links-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-info,
+.opening-info,
+.links-info {
+  margin: 0;
+}
+
+/* màu chữ 123web footer */
+.footer-text {
+  top: 5px;
+  position: relative;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+footer {
+  position: relative;
+  height: 100px;
+}
+
+/* code css tạo chuyển động xe ô tô */
+.icon-car {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 100%;
+  overflow: hidden;
+  /* top: 452px; */
+  position: absolute;
+  z-index: 2;
+}
+
+.icon-car img {
+  width: 6%;
+  height: auto;
+  object-fit: contain;
+}
+
+.icon-car .car1 {
+  animation: carAnimation 2s linear infinite;
+}
+
+@keyframes carAnimation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.icon-car .car2 {
+  animation: carAnimation2 2s linear infinite;
+}
+
+@keyframes carAnimation2 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.icon-car .car3 {
+  animation: carAnimation3 2s linear infinite;
+}
+
+@keyframes carAnimation3 {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* cỡ chữ footer 123thietkeweb */
+
+.image-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+img.image-car1 {
+  left: 0%;
+  position: relative;
+  width: 300px;
+
+}
+
+.image-car2-container {
+  display: flex;
+}
+
+img.image-car2 {
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
+  position: relative;
+  top: 84px;
+  position: relative;
+  right: -58px;
+}
+
+.ceo {
+  border-radius: 100%;
+  width: 14%;
+}
+
+.datxebutton {
+  left: 94%;
+  width: 353px;
+  top: 37%;
+  position: absolute;
+}
+
+/* footer  chữ liên hệ email */
+.contact-info1 {
+  display: block;
+  align-items: center;
+  position: relative;
+  color: #ccc;
+  margin-bottom: -8px;
+}
+
+
+.subscribe input[type="email"] {
+  padding: 5px;
+  width: 300px;
+  height: 50px;
+  margin-right: 5px;
+  /* clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%); */
+  clip-path: polygon(0% 0%, 90% 0, 100% 30%, 100% 100%, 0 100%);
+}
+
+/* nut dang ky footer */
+.subscribe button {
+  padding: 5px 10px;
+  background-color: #ff9900;
+  color: #222;
+  border: none;
+  cursor: pointer;
+  width: 173px;
+  height: 50px;
+  top: 34%;
+  left: 2%;
+  position: absolute;
+  font-weight: 600;
+  clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+}
+
+/*  */
