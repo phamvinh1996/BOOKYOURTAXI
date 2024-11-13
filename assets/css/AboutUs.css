@@ -1086,11 +1086,11 @@ img.image-car2 {
 
 /* Styling for overlay or secondary image */
 .container .card .card-top .card-image2 {
-  width: 189px; /* Adjust size as needed */
+  width: 223px; /* Adjust size as needed */
   height: auto; /* Maintain aspect ratio */
   position: absolute; /* Allows positioning over main image */
-  top: 20px; /* Adjust position within card */
-  right: 20px; /* Adjust position within card */
+  top: 63px; /* Adjust position within card */
+  left: 150px;
 }
 /*CODE CSS CARD START JONEY  */
 .container.cart-service {
