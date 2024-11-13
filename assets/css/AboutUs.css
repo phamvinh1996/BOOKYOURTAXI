@@ -482,14 +482,22 @@ p {
   }
   
   .contact-info {
-    /* margin-top: 10px; */
+    /* margin-top: 10px;
     color: #f4f5f8;
     font-size: 20px;
-    /* margin-left: 38%; 
-   margin-top: -58px; */
-   position: relative;
-    right: -30%;
-    top: -57px;
+     margin-left: 38%; 
+   margin-top: -58px;  */
+
+
+position: absolute;
+   right: 1px;
+   top: 1px;
+   align-items: flex-start; /* Căn chỉnh sang bên trái */
+   margin-left: auto; /* Đẩy sang bên phải */
+   padding: 20px; /* Thêm một chút khoảng cách xung quanh */
+   background-color: #f9f9f9; /* Màu nền */
+   border-radius: 8px; /* Bo góc */
+
   }
   
   .content {
@@ -3781,13 +3789,13 @@ img.image-car2 {
 }
 
 /* footer  chữ liên hệ email */
-.contact-info1 {
+ .contact-info1 {
   display: block;
   align-items: center;
   position: relative;
   color: #ccc;
   margin-bottom: -8px;
-}
+} 
 
 
 .subscribe input[type="email"] {
