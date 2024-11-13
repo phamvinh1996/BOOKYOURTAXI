@@ -1090,7 +1090,7 @@ img.image-car2 {
   height: auto; /* Maintain aspect ratio */
   position: absolute; /* Allows positioning over main image */
   top: 63px; /* Adjust position within card */
-  left: 150px;
+  left: 191px;
 }
 /*CODE CSS CARD START JONEY  */
 .container.cart-service {
@@ -1450,7 +1450,7 @@ img.image-car2 {
   position: absolute;
   top: 35%;
   transform: translateY(-50%);
-  margin-left: -21px;
+  margin-left: -60px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
