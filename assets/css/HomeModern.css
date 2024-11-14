@@ -4432,6 +4432,12 @@ img.image-car2 {
 
 /*  */
 
+/*  code css footer độ hẹp dòng chữ height*/
+p {
+  font-size: 16px;
+  color: #000;
+  font-family: "Space Grotesk", sans-serif;
+}
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 
