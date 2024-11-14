@@ -327,7 +327,7 @@ div#offcanvasDarkNavbar {
 .text-bg-dark h5,
 .text-bg-dark p,
 .text-bg-dark a {
-  /* color: #999; */
+  color: #999;
   font-size: 16px;
   font-weight: 400;
 }
