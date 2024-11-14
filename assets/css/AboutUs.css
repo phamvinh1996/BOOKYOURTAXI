@@ -4407,7 +4407,7 @@ left: 74%;
 /* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .carousel-caption p {
-      top: -131px; /* Di chuyển lên phía trên */
+      top: -186%; /* Di chuyển lên phía trên */
       left: 86%; /* Căn giữa lại vị trí bên trái */
       transform: translateX(-50%); /* Căn giữa hoàn toàn */
       font-size: 16px; /* Giảm kích thước chữ */
@@ -4430,5 +4430,30 @@ left: 74%;
   .hotline02 {
     top: 41%;
     left: 71%;
+  }
+}
+
+
+
+
+
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .chunhat01 {
+    top: -326%;  
+      left: 7%;
+  }
+}
+
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .chunhat0 {
+    position: relative;
+    top: -299px;
+
+    right: -32px;
+    width: 39%;
   }
 }
