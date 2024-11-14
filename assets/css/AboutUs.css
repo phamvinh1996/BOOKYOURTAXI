@@ -3262,6 +3262,17 @@ a {
   background-size: 100%;
   background-position: 200%;
   background-repeat: no-repeat;
+
+
+
+
+
+
+  background-size: cover; /* Thay đổi kích thước ảnh sao cho phủ đầy phần tử */
+  background-position: center; /* Định vị ảnh ở trung tâm */
+  background-repeat: no-repeat; /* Không lặp lại ảnh */
+  height: 470px; /* Thiết lập chiều cao cụ thể */
+  margin: 0 auto; /* Căn giữa phần tử */
 }
 
 /*  */
@@ -3484,7 +3495,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -6px;
+  top: -69px;
 }
 
 .address-text {
@@ -3683,8 +3694,8 @@ footer {
   align-items: flex-end;
   width: 100%;
   overflow: hidden;
-  /* top: 452px; */
   position: absolute;
+  top: 87%;
   z-index: 2;
 }
 
