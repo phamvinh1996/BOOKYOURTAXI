@@ -3276,6 +3276,15 @@ a {
 }
 
 /*  */
+
+
+
+/* code css độ hẹp heght dòng chữ footer */
+
+
+
+
+
 /* Media query cho màn hình nhỏ (điện thoại) */
 /*  */
 .logo {
@@ -3617,7 +3626,7 @@ button {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: -34%;
+  top: 29%;
   left: 5%;
   position: absolute;
   font-weight: 600;
@@ -3816,14 +3825,31 @@ img.image-car2 {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 34%;
+  top: 29%;
   left: 2%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
 }
 
-/*  */
+/*  code css footer độ hẹp dòng chữ height*/
+.contact-info1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.5; /* Thiết lập khoảng cách giữa các dòng */
+  max-width: 300px; /* Giới hạn độ rộng tối đa */
+}
+
+.address-label,
+.address-text {
+  display: inline-block;
+  max-width: 100%; /* Chiếm toàn bộ độ rộng của phần tử cha */
+  white-space: nowrap; /* Không xuống dòng */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Hiển thị dấu ... nếu chữ quá dài */
+}
+
 
 
 /*  */
@@ -4354,3 +4380,13 @@ left: 74%;
       color: #ff9900;
   }
 }
+
+
+
+
+
+
+
+
+
+
