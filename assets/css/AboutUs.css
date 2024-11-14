@@ -823,8 +823,9 @@ div#offcanvasDarkNavbar {
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
   font-family: "Space Grotesk", sans-serif;
-  top: 116px;
-  right: 55px;
+  top: 44px;
+  /* right: 55px; */
+  right: -15%;
   position: relative;
   text-align: center;
   /* Căn giữa văn bản */
@@ -855,8 +856,8 @@ div#offcanvasDarkNavbar {
   line-height: 16px;
   /* top: -358px; */
   /* right: 341%; */
-  top: -10px;
-  left: -63px;
+  top: 18px;
+  left: 16%;
   white-space: nowrap;
 }
 
@@ -933,13 +934,14 @@ p {
 
 .about-us {
   /* position: absolute; */
-  left: -5%;
   top: 35px;
   color: black;
   font-size: 34px;
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 42px;
+  position: relative;
+  right: -19%;
   /* top: -287px; */
   /* white-space: nowrap; */
 }
@@ -1039,11 +1041,11 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
 .hot1 {
-  left: 39%;
+  left: 55%;
   color: #666;
   font-size: 16px;
   position: absolute;
-  top: 127%;
+  top: 97%;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
 }
@@ -1051,8 +1053,8 @@ p {
 .color1 {
   color: orange;
   position: absolute;
-  right: 35%;
-  top: 134%;
+  right: 19%;
+  top: 99%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1061,16 +1063,16 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 17%;
-  top: 137%;
+  left: 33%;
+  top: 102%;
   width: 132px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
   position: absolute;
-  right: 69%;
-  top: 126%;
+  right: 53%;
+  top: 96%;
   font-size: 16px;
   color: #666;
   border-radius: 50px;
@@ -1080,10 +1082,10 @@ p {
 /* picture vè chung toi */
 .ceo101 {
   position: relative;
-  left: -2%;
+  left: 20%;
   border-radius: 90px;
   width: 86px;
-  top: 144px;
+  top: 60px;
 }
 
 /*  */
@@ -4206,9 +4208,11 @@ main {
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   .about-us {
-    font-size: 26px;
-    left: -38%;
-    margin-top: 33px;
+    font-size: 30px;
+    left: 2%;
+    top: 11px;
+    margin-top: 55px;
+    font-family: 'Space Grotesk', sans-serif;
 }
 }
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
@@ -4265,7 +4269,7 @@ main {
 @media (max-width: 600px) {
   img.image-car2 {
     top: 32px;
-    right: -26px;
+    right: -10px;
   }
 }
 
@@ -4279,12 +4283,12 @@ main {
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   .image-animation {
-      left: 197px; /* Di chuyển qua trái nhiều hơn */
+      left: 125px; /* Di chuyển qua trái nhiều hơn */
   }
 
 
   .image-container .Image{
-left: 74%;
+left: 55%;
 
   }
 }
@@ -4296,11 +4300,12 @@ left: 74%;
 /* Media Query để di chuyển chữ qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   .pict1 {
-    right: 137px;
     text-align: left;
     font-size: 17px;
     line-height: 27px;
     text-align: justify;
+    right: 1%;
+    top: 1%;
   }
 }
 
@@ -4311,7 +4316,8 @@ left: 74%;
       width: 103px;
       margin: 0 auto;
       transform: translateY(10px);
-      left: -70%;
+      left: -33%;
+      top: 1%;
   }
 }
 
@@ -4322,7 +4328,8 @@ left: 74%;
       text-align: center;
       margin: 10px 0;
       position: relative;
-      right: 113px;
+      right: 1%;
+      top: -68px;
   }
 }
 
@@ -4330,8 +4337,8 @@ left: 74%;
 @media (max-width: 768px) {
   .image01 {
       position: absolute;
-      left: 24%;
-      top: 114%;
+      left: 33%;
+      top: 128%;
       width: 132px;
   }
 }
@@ -4339,8 +4346,8 @@ left: 74%;
 @media (max-width: 768px) {
   .hot1 {
       position: relative;
-      left: -141px;
-      top: 132px;
+      top: 1%;
+      left: 1%;
   }
 }
 
@@ -4348,10 +4355,11 @@ left: 74%;
 @media (max-width: 768px) {
   .color1 {
       position: relative;
-      top: 126px;
-      right: 141px;
+      top: 269px;
+      left: -2%;
       font-weight: 700;
       color: #ff9900;
+      margin-top: -75%;
   }
 }
 
@@ -4377,10 +4385,10 @@ left: 74%;
 /* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .section-heading h4 {
-    top: 53px;
+    top: 73px;
     left: 0;
     padding-left: 53px;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
   }
 }
@@ -4388,7 +4396,8 @@ left: 74%;
 /* Media Query cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   img.image-car1 {
-      width: 111%; /* Thay đổi kích thước cho màn hình nhỏ */
+    left: 26px;
+      width: 117%; /* Thay đổi kích thước cho màn hình nhỏ */
   }
 }
 
@@ -4455,5 +4464,12 @@ left: 74%;
 
     right: -32px;
     width: 39%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .form-group {
+     margin-top: 1px;
   }
 }
