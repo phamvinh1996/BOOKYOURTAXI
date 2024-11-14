@@ -918,7 +918,7 @@ div#offcanvasDarkNavbar {
 .form-group {
   right: -153px;
   top: 40px;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 1rem;
 }
 
@@ -932,7 +932,7 @@ p {
 /*  */
 
 .about-us {
-  position: absolute;
+  /* position: absolute; */
   left: -5%;
   top: 35px;
   color: black;
@@ -941,7 +941,7 @@ p {
   margin-bottom: 20px;
   line-height: 42px;
   /* top: -287px; */
-  white-space: nowrap;
+  /* white-space: nowrap; */
 }
 
 .image {
@@ -1103,11 +1103,10 @@ img.image-car2 {
   display: flex;
   justify-content: flex-end;
   align-self: flex-end;
-  position: relative;
+  /* position: relative; */
   top: 84px;
-  position: relative;
-  width: 196px;
-
+  /* position: relative; */
+  /* width: 196px; */
 }
 
 /*  */
@@ -4207,14 +4206,11 @@ main {
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   .about-us {
-
-      left: -31%;
-      text-align: center;
-      font-size: 26px;
-      line-height: 40px;
-  }
+    font-size: 26px;
+    left: -38%;
+    margin-top: 33px;
 }
-
+}
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   .description {
@@ -4268,7 +4264,8 @@ main {
 /* Media Query để di chuyển qua trái trên màn hình nhỏ hơn hoặc bằng 600px */
 @media (max-width: 600px) {
   img.image-car2 {
-      right: -3px; /* Di chuyển qua trái nhiều hơn */
+    top: 32px;
+    right: -26px;
   }
 }
 
@@ -4367,3 +4364,72 @@ left: 74%;
 
 
 
+
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .image-container::after {
+      left: 39%; /* Di chuyển qua trái */
+ 
+  }
+}
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-heading h4 {
+    top: 53px;
+    left: 0;
+    padding-left: 53px;
+    font-size: 13px;
+    line-height: 20px;
+  }
+}
+
+/* Media Query cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  img.image-car1 {
+      width: 111%; /* Thay đổi kích thước cho màn hình nhỏ */
+  }
+}
+
+/* code css chữ ảnh bìa 1 */
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+      top: 11%; /* Di chuyển xuống giữa màn hình */
+      left: 70%; /* Căn chỉnh lại vị trí bên trái */
+      font-size: 36px; /* Giảm kích thước chữ */
+      margin-bottom: 10px; /* Giảm khoảng cách dưới */
+  }
+}
+
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .carousel-caption p {
+      top: -131px; /* Di chuyển lên phía trên */
+      left: 86%; /* Căn giữa lại vị trí bên trái */
+      transform: translateX(-50%); /* Căn giữa hoàn toàn */
+      font-size: 16px; /* Giảm kích thước chữ */
+  }
+}
+
+/* code css thẻ màu cam bìa ảnh */
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .hotline01 {
+    top: 19%;
+    width: 61%;
+    right: -59%;
+  }
+}
+
+/* code css media query thẻ màu đen */
+
+/* Media Query để điều chỉnh vị trí trên màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .hotline02 {
+    top: 27%;
+    left: 71%;
+  }
+}
