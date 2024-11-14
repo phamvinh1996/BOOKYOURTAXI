@@ -4473,3 +4473,18 @@ left: 55%;
      margin-top: 1px;
   }
 }
+
+
+
+
+
+/* code css media màu cam why ridek */
+@media (max-width: 768px) {
+  .form-group1 {
+      height: auto; /* Adjust height as needed */
+      padding: 80px 20px; /* Reduce padding for smaller screens */
+      width: 100%; /* Adjust width to fit the screen */
+      margin-left: 0; /* Reset margin */
+      margin-top: 20px;
+  }
+}
