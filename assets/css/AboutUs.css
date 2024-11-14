@@ -2783,6 +2783,11 @@ a {
   position: relative;
   padding: 40px 0;
   margin-top: 34px;
+
+    background-size: cover; /* hoặc contain tùy thuộc vào hiệu ứng bạn muốn */
+    width: 100%; /* Độ rộng 100% của phần tử cha */
+    height: 470px; /* Thay đổi giá trị này theo nhu cầu của bạn */
+    margin: 0 auto; /* Căn giữa phần tử */
 }
 
 .title {
@@ -2901,7 +2906,7 @@ a {
   height: auto;
   /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
   top: -20%;
-  margin-top: -58px;
+  margin-top: 13px;
   transform: translateX(36%);
 }
 
@@ -2916,7 +2921,7 @@ a {
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 75%;
+  top: 63%;
   left: 138%;
   transform: translateX(-1586%);
   width: 70px;
