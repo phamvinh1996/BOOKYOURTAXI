@@ -4497,3 +4497,35 @@ left: 55%;
       line-height: 22px; /* Adjust line height */
   }
 }
+
+
+
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .section-heading007 h4 {
+      font-size: 14px; /* Có thể điều chỉnh kích thước font nếu cần */
+      margin-top: -251px;
+  }
+}
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .chunhat2 {
+    height: 44px;
+    width: 261px;
+    margin-top: 13%;
+  }
+}
+
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .chunhat1 {
+position: relative;
+top: -21px;
+  }
+}
