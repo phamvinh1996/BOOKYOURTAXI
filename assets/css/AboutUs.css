@@ -3424,7 +3424,7 @@ button {
 /*  */
 .copyright-wrap {
   background-color: #1c1c1c;
-  padding: 10px 0;
+  padding: 3px 0;
   text-align: center;
 }
 
@@ -4735,7 +4735,7 @@ top: -21px;
 @media (max-width: 768px) {
   .footer-text {
       display: block;
-      margin-top: 15px;
+      /* margin-top: 15px; */
       font-size: 16px;
       top: -46px;
       position: relative;
@@ -4744,3 +4744,14 @@ top: -21px;
 
 
 
+
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .copyright-wrap {
+      padding: 1px 0; /* Giảm padding để giảm chiều cao */
+      /* Hoặc bạn có thể thiết lập chiều cao cụ thể */
+      /* height: 40px; */
+  }
+}
