@@ -3888,8 +3888,8 @@ p {
 
 .logo01 {
   width: 188px;
-  margin-left: -538px;
-  margin-top: -50px;
+   margin-left: -538px;
+  margin-top: -50px; 
 }
 
 .side-navbar {
@@ -4848,8 +4848,9 @@ top: -21px;
   .navbar-nav {
       background-color: white;
       position: relative;
-      width: 98%;
-      right: -111px;
+      width: 243%;
+      right: 149px;
+      top: 69px;
   }
 }
 
@@ -4966,14 +4967,7 @@ top: -21px;
 
 
 
-/* Media query for tablets and mobile screens */
-@media (max-width: 1024px) {
-  .navbar-nav {
-      flex-direction: column; /* Stack items vertically */
-      width: 100%; /* Full width */
-  
-  }
-}
+
 
 
 
@@ -5006,3 +5000,25 @@ top: -21px;
 }
 
 
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .logo-brand {
+    max-width: 71%;
+    /* Thay đổi kích thước cho màn hình nhỏ */
+    margin-top: 5px;
+
+  }
+}
+
+
+
+
+/* Media query cho thiết bị có chiều rộng dưới 768px */
+@media (max-width: 768px) {
+  .logo01 {
+
+    margin-left: -293%;
+    top: 63px;
+    position: relative;
+  }
+}
