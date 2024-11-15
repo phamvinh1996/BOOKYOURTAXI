@@ -387,7 +387,7 @@ div#offcanvasDarkNavbar {
 
 /* nút search  nut tim kiem*/
 .collapse {
-  display: none;
+  /* display: none; */
   /* width: 200px; */
   /* Set the desired width */
   height: 500px;
@@ -4843,3 +4843,171 @@ top: -21px;
 
 
 /* code css media dấu chéo menu */
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      background-color: white;
+      position: relative;
+      width: 93%;
+      right: -111px;
+  }
+}
+
+
+
+
+
+
+/*  */
+/* code css media feel you */
+/* Media query cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .icon-wrapper {
+    margin-top: -18px;
+    /* Giảm khoảng cách trên cho màn hình nhỏ */
+    /* gap: 5px; Giảm khoảng cách giữa các biểu tượng */
+  }
+
+  /* dich vu noi bat */
+  .second-line {
+    /* position: relative; */
+    /* left: 788px; Đặt lại vị trí bên trái về 0 */
+    margin-left: 37px;
+    top: 10px;
+    /* Đặt lại vị trí phía trên về 0 */
+    font-size: 12px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    white-space: nowrap;
+    color: #ddd;
+    white-space: inherit;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 21px;
+    left: 312px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -40px;
+    width: 23%;
+  }
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
+  }
+/* dấu nhân */
+  .navbar-toggler {
+    /* position: relative;
+    top: 46px; */
+    display: block;
+    margin-top: -47px;
+    left: 48px;
+    position: absolute;
+
+    .collapse {
+      position: absolute;
+    }
+
+    /* position: relative;
+      right: -338px;
+      top: 100px; */
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+
+  }
+
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
+  }
+
+  .logo-0 {
+    display: none;
+    /* Hide the logo */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+/* Media query for tablets and mobile screens */
+@media (max-width: 1024px) {
+  .navbar-nav {
+      flex-direction: column; /* Stack items vertically */
+      width: 100%; /* Full width */
+  
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      background-color: white;
+      position: relative;
+      width: 93%;
+      right: -111px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+      justify-content: flex-end;
+  }
+}
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .collapse {
+      height: 6px;
+      margin-top: 18px;
+      position: relative;
+      right: 92%;
+  }
+}
