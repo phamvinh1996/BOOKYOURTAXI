@@ -4529,3 +4529,60 @@ position: relative;
 top: -21px;
   }
 }
+
+
+/* code css media mục call us */
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .section-online-thepeople::after {
+      background-color: #1c1c1c; /* Đổi màu nền thành đen */
+  }
+}
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .title {
+      left: 9px; /* Đặt lại vị trí sang bên trái */
+   
+  }
+}
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .white-text {
+    right: -33px;
+  }
+}
+
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .icon-text-1 {
+      left: 41%; /* Đặt lại vị trí sang bên phải hơn */
+   
+  }
+  .icon-text-001 {
+    left: 37%;
+    z-index: 1;
+  }
+}
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .hotline-image1 {
+      left: 50px; /* Đặt lại vị trí sang bên phải */
+      top: 80px; /* Có thể điều chỉnh vị trí dọc nếu cần */
+  }
+}
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .icon-telephone1::before {
+      left: auto; /* Đặt lại giá trị left */
+      right: 70%; /* Đưa sang bên phải */
+      top: 120%; /* Điều chỉnh vị trí dọc nếu cần */
+      transform: translateY(-50%); /* Căn giữa dọc nếu cần */
+  }
+}
