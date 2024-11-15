@@ -4848,7 +4848,7 @@ top: -21px;
   .navbar-nav {
       background-color: white;
       position: relative;
-      width: 93%;
+      width: 98%;
       right: -111px;
   }
 }
@@ -4975,14 +4975,7 @@ top: -21px;
   }
 }
 
-@media (max-width: 768px) {
-  .navbar-nav {
-      background-color: white;
-      position: relative;
-      width: 93%;
-      right: -111px;
-  }
-}
+
 
 @media (max-width: 768px) {
   .navbar-nav {
@@ -5011,3 +5004,5 @@ top: -21px;
       right: 92%;
   }
 }
+
+
