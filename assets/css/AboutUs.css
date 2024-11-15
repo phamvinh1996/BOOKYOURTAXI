@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #f4f5f8;
   padding: 10px;
-  margin-top: 1px;
+  margin-top: -27%;
 }
 
 .navbar-left {
@@ -3907,6 +3907,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
+  margin-top: -28%;
 }
 
 .side-navbar.show {
@@ -4105,6 +4106,89 @@ main {
 }
 
 
+/*  */
+
+
+
+/* thanh cuộn */
+
+.navbar-nav {
+  flex-direction: column;
+  /* Xếp dọc các mục menu */
+  margin-left: 0;
+  /* Không có khoảng cách bên trái */
+  /* width: 100%; Đặt chiều rộng 100% cho navbar */
+  */
+}
+}
+
+
+
+/* code css dau 3 ghach */
+
+
+/* Định dạng chung cho biểu tượng hamburger */
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  /* Kích thước chiều ngang của biểu tượng */
+  height: 25px;
+  /* Kích thước chiều cao */
+}
+/* dau 3 ghachj */
+
+.bar {
+  display: block;
+  height: 4px;
+  /* Chiều cao của mỗi thanh gạch */
+  background-color: #666;
+  /* Màu của thanh gạch */
+  transition: all 0.3s ease;
+} 
+/*  */
+/* code css media nút 3 ghạch dấu nhân */
+.navbar-toggler.collapsed .bar1 {
+  transform: rotate(0deg);
+  width: 23px;
+}
+
+.navbar-toggler.collapsed .bar2 {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bar3 {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .bar1 {
+  transform: rotate(45deg) translate(0px, 14px);
+  position: relative;
+  right: -21px;
+  width: 45px;
+}
+
+.navbar-toggler:not(.collapsed) .bar2 {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .bar3 {
+  transform: rotate(-45deg) translate(-11px, -29px);
+  position: relative;
+  left: 40px;
+  top: 13px;
+  width: 47px;
+}
+
+
+
+
+
+
+
+
+/*  */
 /* code css điện thoại media query */
 
 /* Media Query để ẩn biểu tượng trên màn hình nhỏ */
@@ -4755,3 +4839,7 @@ top: -21px;
       /* height: 40px; */
   }
 }
+
+
+
+/* code css media dấu chéo menu */
