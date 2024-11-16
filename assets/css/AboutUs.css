@@ -4181,6 +4181,110 @@ main {
   width: 47px;
 }
 
+/*  */
+
+
+/*tạo bảng dấu nhân chéo  */
+
+
+
+/* CSS cho navbar */
+/ .navbar {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -40px;
+}
+
+/* nút trên bảng */
+.navbar-toggler {
+  float: right;
+  margin: -3px;
+  width: 99px;
+  height: 56px;
+  color: #f4f4f4;
+  margin-top: 96px;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 5px 0;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.hotline-image1 {
+  left: 76px;
+  /* Đặt lại vị trí sang bên phải */
+  top: 3px;
+  /* Điều chỉnh vị trí lên hoặc xuống */
+  font-size: 40px;
+  /* Giảm kích thước biểu tượng cho di động */
+}
+
+.navbar-left {
+  display: block;
+  /* Ẩn navbar-left khi màn hình nhỏ */
+}
+
+.navbar-right {
+  display: block;
+  /* Ẩn navbar-right khi màn hình nhỏ */
+}
+
+/* code  */
+
+/* code css tạo bảng thanh dấu nhân chéo*/
+.menu-table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.menu-item {
+  border-bottom: 1px solid black;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+  color: black;
+
+  .navbar-nav .nav-link {
+    padding-right: 100px;
+    padding-left: 0;
+    font-weight: bold;
+  }
+
+}
 
 
 
@@ -4859,7 +4963,7 @@ top: -21px;
 
 
 
-/*  */
+/* COPDE CSS MEDIA DẤU CHÉO  */
 /* code css media feel you */
 /* Media query cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
@@ -4903,8 +5007,8 @@ top: -21px;
     /* position: relative;
     top: 46px; */
     display: block;
-    margin-top: -47px;
-    left: 48px;
+    /* margin-top: -47px; */
+    /* left: 48px; */
     position: absolute;
 
     .collapse {
@@ -5022,3 +5126,22 @@ top: -21px;
     position: relative;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
