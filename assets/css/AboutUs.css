@@ -4227,9 +4227,8 @@ main {
 }
 
 .hotline-image1 {
-  left: 76px;
-  /* Đặt lại vị trí sang bên phải */
-  top: 3px;
+  left: -49px;
+  top: 106px;
   /* Điều chỉnh vị trí lên hoặc xuống */
   font-size: 40px;
   /* Giảm kích thước biểu tượng cho di động */
@@ -4750,6 +4749,7 @@ top: -21px;
 @media (max-width: 768px) {
   .icon-text-1 {
       left: 41%; /* Đặt lại vị trí sang bên phải hơn */
+      z-index: 1;
    
   }
   .icon-text-001 {
