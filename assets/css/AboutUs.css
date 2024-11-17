@@ -373,8 +373,8 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  right: -83px;
-  top: -13px;
+  right: 7px;
+  top: -103px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -4061,8 +4061,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -28px;
-  left: 147px;
+  top: -116%;
+  left: 159%;
 }
 
 .custom-icon::before,
