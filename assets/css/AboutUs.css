@@ -4952,8 +4952,8 @@ top: -21px;
   .navbar-nav {
       background-color: white;
       position: relative;
-      width: 243%;
-      right: 149px;
+      width: 222%;
+      right: 133px;
       top: 69px;
   }
 }
@@ -5130,7 +5130,13 @@ top: -21px;
 
 
 
+/*  */
 
+@media (min-width: 768px) {
+  .nav-item.dropdown {
+      display: none; /* Ẩn dropdown trên màn hình lớn */
+  }
+}
 
 
 
