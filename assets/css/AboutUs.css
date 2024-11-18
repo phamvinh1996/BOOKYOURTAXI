@@ -4694,7 +4694,7 @@ main {
     padding: 10px;
     width: 100%;
     position: relative;
-    margin-top: 59px;
+    /* margin-top: 59px; */
   }
 }
 
@@ -4747,7 +4747,7 @@ main {
     display: block;
     /* margin-top: 15px; */
     font-size: 16px;
-    top: -46px;
+    /* top: -46px; */
     position: relative;
   }
 
@@ -4879,6 +4879,14 @@ main {
   }
 
 }
+
+
+
+
+
+
+
+
 
 
 
