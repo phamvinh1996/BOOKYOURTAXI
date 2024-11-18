@@ -1232,14 +1232,14 @@ img.image-car2 {
 }
 
 .cover-image p {
-  position: relative;
-  top: 126px;
-  font-size: 17px;
+  /* position: relative; */
+  /* top: 126px; */
+  /* font-size: 17px; */
   /* margin-top: -23px; */
-  font-family: "Space Grotesk", sans-serif;
-  color: #ddd;
+  /* font-family: "Space Grotesk", sans-serif; */
+  /* color: #ddd; */
   /* left: 36%; */
-  margin-left: 421px;
+  /* margin-left: 421px; */
 
 }
 
@@ -1820,14 +1820,15 @@ button {
 }
 
 .cover-image p {
-  position: relative;
-  top: 103px;
-  font-size: 17px;
+  /* position: relative; */
+  /* top: 103px; */
+  /* font-size: 17px; */
   /* margin-top: -23px; */
-  font-family: "Space Grotesk", sans-serif;
-  color: #ddd;
+  /* font-family: "Space Grotesk", sans-serif; */
+  /* color: #ddd; */
   /* left: 213px; */
-  left: 13%;
+  /* left: 35%; */
+  /* margin-left: 36%; */
 }
 
 /* dòng chữ start your journey with ridekcompany */
@@ -4790,10 +4791,10 @@ main {
   .second-line {
     /* position: relative; */
     /* left: 788px; Đặt lại vị trí bên trái về 0 */
-    margin-left: 37px;
+    margin-left: 65px;
     top: 10px;
     /* Đặt lại vị trí phía trên về 0 */
-    font-size: 12px;
+    font-size: 14px;
     /* Giảm kích thước chữ cho màn hình nhỏ */
     white-space: nowrap;
     color: #ddd;
@@ -4903,7 +4904,12 @@ main {
 
 
 
-
+.dichvunoibat1{
+    color: #ddd; 
+    margin-top: 121px;
+    right: -36%;
+    position: relative;
+}
 
 
 
@@ -4913,6 +4919,17 @@ main {
 /* Media Query cho các màn hình nhỏ */
 @media (max-width: 600px) {
   .dichvunoibat1 {
-   margin-left: -117%;
+   /* margin-left: -38%; */
+   font-size: 14px;
+left: 7px;
+text-align: center !important;
+  }
+}
+
+/*  */
+/* Media query cho thiết bị di động */
+@media (max-width: 600px) {
+  .textdichvunoibat {
+margin-left: 13%;
   }
 }
