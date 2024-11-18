@@ -4429,12 +4429,11 @@ main {
   }
 
   .collapse {
-    height: 6px;
-    margin-top: 18px;
+    height: 39px;
+    margin-top: -25px;
     position: relative;
     right: 92%;
   }
-
 }
 
 
@@ -4513,7 +4512,7 @@ main {
   }
 
   .carousel-caption p {
-    top: -243%;
+    top: -193%;
     /* Di chuyển lên phía trên */
     left: 86%;
     /* Căn giữa lại vị trí bên trái */
@@ -4689,14 +4688,20 @@ main {
 }
 
 
-@media only screen and (max-width: 425px) {
+ /* @media only screen and (max-width: 425px) {
   .container {
     padding: 10px;
     width: 100%;
     position: relative;
-    /* margin-top: 59px; */
+    margin-top: 59px;
   }
 }
+  */
+
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -4800,6 +4805,7 @@ main {
     background-color: rgba(255, 255, 255, 0.8);
     margin-top: -16px;
     width: 23%;
+    height: 78px;
   }
 
   .logo-brand {
@@ -4813,7 +4819,7 @@ main {
     /* position: relative;
   top: 46px; */
     display: block;
-    margin-top: 52px;
+    margin-top: -15px;
     /* left: 48px; */
     position: absolute;
 
@@ -4869,7 +4875,7 @@ main {
   .logo01 {
 
     margin-left: -293%;
-    top: 63px;
+    top: 28px;
     position: relative;
   }
 
