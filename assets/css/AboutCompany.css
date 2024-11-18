@@ -1,0 +1,134 @@
+/* taxi liên tỉnh giá tốt */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f5f8;
+    padding: 10px;
+    /* margin-top: -27%; */
+  }
+  
+  .navbar-left {
+    flex-grow: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-on1 {
+    position: relative;
+    left: 57px;
+    top: 73px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  /* code css màu menu thanh nav */
+
+p {
+    font-size: 28px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .call-for-ride {
+    color: white;
+  }
+  
+  .phone-number {
+    color: orange;
+    font-size: 28px;
+  }
+  
+.every1 {
+    color: #101114;
+  }
+  
+  .logoridekft {
+    width: 206px;
+  }
+  
+  .doctt1 {
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+  }
+  
+/* code css chữ taxi giá liên tỉnh */
+.navbar-link-Help {
+    position: absolute;
+    left: 73%;
+    color: #000;
+    top: 1%;
+  }
+  
+  .navbar-link-Support {
+    position: absolute;
+    left: 76%;
+    color: #000;
+    top: 1%;
+  }
+  
+  .navbar-link-FAQ {
+    position: absolute;
+    left: 81%;
+    color: #000;
+    top: 1%;
+  }
+  
+  /* youtube  iocon*/
+  .navbar-icon-tt {
+    position: absolute;
+    left: 86%;
+    top: 1%;
+  }
+  
+  /*  */
+  /* hình ins */
+  .navbar-icon-ins {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+  }
+  
+  /*  */
+  
+  .navbar-icon-link {
+    position: absolute;
+    left: 90%;
+    top: 1%;
+  }
+  
+  /* hình iconfb */
+  .navbar-icon-fb {
+    position: absolute;
+    left: 84%;
+    top: 1%;
+  }
+  
+  /*  */
+  .navbar-text01 {
+    color: #898b8b;
+    position: relative;
+    left: 250px;
+    font-size: 15px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(10deg);
+    width: 7%;
+  }
