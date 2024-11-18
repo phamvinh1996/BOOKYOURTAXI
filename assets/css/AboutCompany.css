@@ -1136,13 +1136,15 @@ p {
 .video-button {
     display: inline-block;
     text-decoration: none;
-    background-color: #ff4d4d;
+    background-color: #ff9900;
     color: white;
     padding: 10px 20px;
     font-size: 18px;
     font-weight: bold;
+    margin-right: -156px;
     border-radius: 50px;
     transition: background-color 0.3s ease, transform 0.2s ease;
+    z-index: 1;
 }
 
 .video-button i {
@@ -1150,8 +1152,9 @@ p {
 }
 
 .video-button:hover {
-    background-color: #e63939;
+    background-color: #ff9900;
     transform: scale(1.1);
+    z-index: 1;
 }
 
 /* Modal Lightbox */
@@ -1193,6 +1196,7 @@ p {
 }
 
 .close-button:hover {
-    color: #ff4d4d;
+    color: #ff9900;
+    z-index: 1;
 }
 
