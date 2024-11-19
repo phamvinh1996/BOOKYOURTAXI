@@ -1128,8 +1128,8 @@ p {
   text-align: center;
   margin: 20px 0;
   position: relative;
-  right: 32%;
-  top: -131px;
+  right: -1%;
+  top: -160px;
   z-index: 10;
 }
 
@@ -1223,7 +1223,7 @@ iframe {
 
 
   position: relative;
-  left: -260%;
+  left: -423%;
   top: 5%;
   z-index: 1;
 }
@@ -3823,9 +3823,9 @@ img.image-car2 {
   justify-content: flex-end;
   align-self: flex-end;
   position: relative;
-  top: 84px;
+  top: -611px;
   position: relative;
-  right: -58px;
+  /* right: -58px; */
 }
 
 .ceo {
