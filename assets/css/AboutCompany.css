@@ -885,6 +885,7 @@ p {
   /* code css khoảng cách mục about our company */
   .section-online-vechungtoi {
     padding-bottom: 1px;
+    margin-top: -27%;
   }
   
   /*  Code CSS VỀ CHÚNG TÔI */
@@ -1086,7 +1087,7 @@ p {
   /*  */
   
   img.image-car1 {
-    top: 44px;
+    top: 570px;
     left: 76%;
     position: relative;
     width: 255px;
@@ -1118,7 +1119,7 @@ p {
   margin: 20px 0;
   position: relative;
   right: -73%;
-top: -166px;
+top: 370px;
   z-index: 10;
 }
 
@@ -1172,4 +1173,60 @@ top: -166px;
 
 iframe {
   border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* Center the halo container */
+.halo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* The circular halo */
+.halo {
+  position: relative;
+  width: 100px; /* Diameter of the halo */
+  height: 100px;
+  border-radius: 50%; /* Make it circular */
+  background: transparent;
+  box-shadow: 0 0 20px 5px rgba(53, 52, 52, 0.6),
+              0 0 40px 10px rgba(255, 255, 255, 0.4),
+              0 0 60px 15px rgba(255, 255, 255, 0.2);
+  animation: halo-glow 2s infinite ease-in-out;
+
+
+
+  position: relative;
+  left: 73%;
+  top: -17%;
+  z-index: 1;
+}
+
+/* Keyframes for glowing effect */
+@keyframes halo-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.6),
+                0 0 40px 10px rgba(255, 255, 255, 0.4),
+                0 0 60px 15px rgba(255, 255, 255, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.8),
+                0 0 50px 15px rgba(255, 255, 255, 0.5),
+                0 0 70px 20px rgba(255, 255, 255, 0.3);
+  }
 }
