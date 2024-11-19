@@ -2991,3 +2991,326 @@ a {
   margin-top: -263px;
   margin-left: 711px;
 }
+
+
+
+
+/*  */
+/* CARD TIN TỨC SỰ KIỆN */
+/* màu chữ cam tin tức */
+.section-heading090 {
+  position: relative;
+}
+
+.section-heading090 h4 {
+  position: relative;
+  color: #f90;
+  padding-left: 883px;
+  display: flex;
+  line-height: 16px;
+  top: -61px;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+}
+
+.section-heading090 h4 span,
+.section-heading090 h4 span:before,
+.section-heading090 h4 span::after {
+  background-color: #f90;
+  width: 5px;
+  height: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 1%;
+}
+
+.section-heading090 h4 span {
+  top: 1px;
+  position: absolute;
+  left: 860px;
+  transform: skew(-20deg, 0deg);
+
+}
+
+.section-heading090 h4 span:after {
+  content: "";
+  left: -10px;
+  opacity: 0.5;
+}
+
+.section-heading090 h4 span:before {
+  content: "";
+  left: -20px;
+  opacity: 0.2;
+}
+
+/* Tin tức sự kiện */
+/* chữ */
+.tintuc {
+  position: relative;
+  text-align: center;
+  color: #666;
+  top: -85px;
+  font-size: 19px;
+}
+
+/*  */
+/* chu h1 */
+.tintuc1 {
+  position: relative;
+  top: -54px;
+}
+
+/* kích cỡ nút tin tức sự kiện */
+.card .custom-button {
+  position: absolute;
+  bottom: 20px;
+  left: 30%;
+  transform: translateX(-70%);
+  width: 107px;
+  height: 50px;
+  top: 91%;
+  color: #666;
+  text-decoration: none;
+  /* Bỏ dấu gạch chân */
+  font-weight: 600;
+}
+
+/* chữ card  */
+.card-title000 {
+  position: relative;
+  top: -20px;
+  color: #000;
+}
+
+/* tintuc  */
+/* chỉnh chữ lên xuống tin tức */
+.card-text-0 {
+  font-family: Arial, sans-serif;
+  /* Thiết lập font chữ */
+  font-size: 16px;
+  /* Thiết lập kích thước chữ */
+  color: #666;
+  /* Thiết lập màu chữ */
+  line-height: 1.5;
+  /* Thiết lập độ cao dòng */
+  text-align: left;
+  /* Thiết lập căn chỉnh nội dung */
+  margin-top: 39px;
+  /* Tạo khoảng cách trên */
+  margin-bottom: -15px;
+  /* Tạo khoảng cách dưới */
+  top: -31px;
+  position: relative;
+}
+
+.card-text-01 {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 47px;
+  margin-bottom: -3px;
+  top: 1px;
+  position: relative;
+  left: -6px;
+}
+
+.card-title-1 {
+  position: relative;
+  /* top: 23px; */
+  padding-bottom: -3px;
+}
+
+/* New And Inghlight */
+.card-title-1 {
+  color: #333;
+  /* Màu chữ mặc định */
+  text-decoration: none;
+  /* Bỏ gạch chân mặc định */
+  transition: color 0.3s, text-decoration 0.3s;
+  /* Thêm hiệu ứng chuyển động */
+}
+
+.card-title-1:hover {
+  color: black;
+  /* Màu chữ khi trỏ chuột vào */
+  text-decoration: underline;
+  /* Thêm gạch chân */
+  text-decoration-color: #ffa500;
+  /* Màu gạch chân */
+  text-decoration-thickness: 3px;
+  /* Độ dày của gạch chân */
+  font-weight: bold;
+  /* Chữ đậm */
+}
+
+/*  */
+.card-title000 {
+  color: black;
+  /* Màu chữ mặc định */
+  text-decoration: none;
+  /* Bỏ gạch chân mặc định */
+  transition: color 0.3s, text-decoration 0.3s;
+  /* Thêm hiệu ứng chuyển động */
+}
+
+.card-title000:hover {
+  color: black;
+  /* Màu chữ khi trỏ chuột vào */
+  text-decoration: underline;
+  /* Thêm gạch chân */
+  text-decoration-color: #ffa500;
+  /* Màu gạch chân */
+  text-decoration-thickness: 3px;
+  /* Độ dày của gạch chân */
+  font-weight: bold;
+  /* Chữ đậm */
+}
+
+/* ghạch ngang read more */
+.custom-button {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+}
+
+.custom-button::before {
+  content: "";
+  position: absolute;
+  left: -28%;
+  top: 27%;
+  transform: translateY(-50%);
+  width: 43px;
+  height: 2px;
+  background-color: #ff6b00;
+}
+
+/* chữ màu cam  */
+.custom-button {
+  display: inline-block;
+  position: relative;
+  padding-left: 20px;
+  color: #333;
+  /* Màu chữ mặc định */
+  transition: color 0.3s ease-in-out;
+  /* Thêm transition để hiệu ứng trơn */
+}
+
+.custom-button::before {
+  content: "";
+  position: absolute;
+  left: -16%;
+  top: 27%;
+  transform: translateY(-50%);
+  width: 29px;
+  height: 2px;
+  background-color: #ff6b00;
+}
+
+.custom-button:hover {
+  color: #ff6b00;
+  /* Màu chữ khi trỏ chuột vào */
+}
+
+.card {
+  width: 100%;
+  max-width: 380px;
+  margin-bottom: 30px;
+
+}
+
+/*  */
+
+.card-img-top {
+  position: relative;
+  /* top: -18px;
+  left: -20px; */
+  width: 100px;
+  height: 221px;
+  object-fit: cover;
+}
+
+/*  */
+
+/* NEW AND LINE */
+.price01 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  /* right: 267px;
+  top: 179px; */
+  bottom: 0;
+  left: 0;
+}
+
+.price011 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  /* right: 273px;
+  top: 179px; */
+  bottom: 0;
+  left: 0;
+}
+
+.price012 {
+  position: relative;
+  display: inline-block;
+  background-color: #ff9900;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 20px;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  position: absolute;
+  /* right: 286px;
+  top: 179px; */
+  bottom: 0;
+
+}
+
+/*  */
+/* màu hình icon NEW AND LINE */
+.icon-container i {
+  font-size: 16px;
+  color: #ff8c00;
+  /* Orange color */
+}
+
+.user-icon {
+  font-size: 16px;
+  color: #ff8c00;
+  /* Orange color */
+}
+
+/*  */
+.centered-text {
+  text-align: center;
+  padding-bottom: 23px;
+  margin-top: 153px;
+}
+
+.row-tintuc1 {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: 80px;
+  justify-content: center;
+  gap: 26px;
+}
