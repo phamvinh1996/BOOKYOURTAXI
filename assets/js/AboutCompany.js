@@ -57,3 +57,36 @@ $(document).ready(function () {
   
   
     /*  */
+    /* mục about company */
+// Open the modal and load the video
+function openVideo(event) {
+  event.preventDefault(); // Prevent the default anchor behavior
+  const modal = document.getElementById('videoModal');
+  const iframe = document.getElementById('youtubeVideo');
+
+  // Show the modal
+  modal.style.display = 'block';
+
+  // Set the YouTube video URL with autoplay
+  iframe.src = "https://www.youtube.com/embed/lrf-GAYUOkQ?autoplay=1";
+}
+
+// Close the modal and stop the video
+function closeVideo() {
+  const modal = document.getElementById('videoModal');
+  const iframe = document.getElementById('youtubeVideo');
+
+  // Hide the modal
+  modal.style.display = 'none';
+
+  // Stop the video by resetting the iframe source
+  iframe.src = "";
+}
+
+// Close the modal when clicking outside of it
+window.onclick = function (event) {
+  const modal = document.getElementById('videoModal');
+  if (event.target === modal) {
+    closeVideo();
+  }
+};
