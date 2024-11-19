@@ -640,7 +640,7 @@ p {
   }
   
   .carousel-inner {
-    height: 76%;
+    height: 81%;
   }
   
   .carousel-item img {
@@ -790,7 +790,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     /* Adjust the value as needed */
   }
   
@@ -819,8 +819,8 @@ p {
     font-family: "Space Grotesk", sans-serif;
     top: 44px;
     /* right: 55px; */
-    right: -15%;
-    position: relative;
+    /* right: -15%; */
+    /* position: relative; */
     text-align: center;
     /* Căn giữa văn bản */
   }
@@ -843,15 +843,15 @@ p {
   .section-heading h4 {
     font-weight: bold;
     font-size: 16px;
-    position: relative;
+    /* position: relative; */
     color: #f90;
-    padding-left: 50px;
+    /* padding-left: 50px; */
     display: flex;
     line-height: 16px;
     /* top: -358px; */
     /* right: 341%; */
-    top: 18px;
-    left: 16%;
+    /* top: 18px; */
+    /* left: 16%; */
     white-space: nowrap;
   }
   
@@ -885,7 +885,7 @@ p {
   /* code css khoảng cách mục about our company */
   .section-online-vechungtoi {
     padding-bottom: 1px;
-    margin-top: -27%;
+    /* margin-top: -27%; */
   }
   
   /*  Code CSS VỀ CHÚNG TÔI */
@@ -895,7 +895,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     /* Adjust the value as needed */
   }
   
@@ -930,14 +930,14 @@ p {
   
   .about-us {
     /* position: absolute; */
-    top: 35px;
+    /* top: 35px; */
     color: black;
     font-size: 34px;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 42px;
     position: relative;
-    right: -19%;
+    /* right: -19%; */
     /* top: -287px; */
     /* white-space: nowrap; */
   }
@@ -1037,11 +1037,11 @@ p {
   /* chữ số điện thoại về chúng tôi */
   
   .hot1 {
-    left: 60%;
+    left: 46%;
     color: #666;
     font-size: 16px;
     position: absolute;
-    top: 97%;
+    top: 81%;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
   }
@@ -1049,8 +1049,8 @@ p {
   .color1 {
     color: orange;
     position: absolute;
-    right: 11%;
-    top: 99%;
+    right: 25%;
+    top: 86%;
     font-size: 28px;
     font-weight: bold;
   }
@@ -1059,16 +1059,16 @@ p {
   /* ảnh 01 về chúng tôi */
   .image01 {
     position: absolute;
-    left: 37%;
-    top: 102%;
+    /* left: 37%; */
+    top: 88%;
     width: 132px;
   }
   
   /* ảnh về chúng tôi */
   .ceo1 {
     position: absolute;
-    right: 48%;
-    top: 96%;
+    right: 67%;
+     top: 80%; 
     font-size: 16px;
     color: #666;
     border-radius: 50px;
@@ -1077,21 +1077,24 @@ p {
   
   /* picture vè chung toi */
   .ceo101 {
-    position: relative;
-    left: 20%;
+    /* position: relative; */
+    /* left: 20%; */
     border-radius: 90px;
     width: 86px;
-    top: 60px;
+    /* top: 60px; */
   }
   
   /*  */
   
   img.image-car1 {
-    top: 570px;
-    left: 76%;
-    position: relative;
+    /* top: 570px; */
+    /* left: 76%; */
+    /* position: relative; */
     width: 255px;
     z-index: 1;
+    left: -29%;
+    top: 107px;
+    position: relative;
   }
   
   /*  */
@@ -1103,12 +1106,19 @@ p {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-    position: relative;
-    right: -150px;
+    /* position: relative; */
+    /* right: -150px; */
     /* top: 84px; */
     /* position: relative; */
-    width: 151%;
+    /* width: 151%; */
+    width: 400px;
+
+    position: relative;
+    right: -70%;
+    top: -691px;
   }
+
+
   
 /*  nút yoube */
 /* mục about our company nút youtube */
@@ -1118,8 +1128,8 @@ p {
   text-align: center;
   margin: 20px 0;
   position: relative;
-  right: -73%;
-top: 370px;
+  right: 32%;
+  top: -131px;
   z-index: 10;
 }
 
@@ -1199,6 +1209,7 @@ iframe {
 
 /* The circular halo */
 .halo {
+
   position: relative;
   width: 100px; /* Diameter of the halo */
   height: 100px;
@@ -1212,8 +1223,8 @@ iframe {
 
 
   position: relative;
-  left: 73%;
-  top: -17%;
+  left: -260%;
+  top: 5%;
   z-index: 1;
 }
 
