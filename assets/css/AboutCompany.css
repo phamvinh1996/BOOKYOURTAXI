@@ -1108,8 +1108,6 @@ p {
     align-self: flex-end;
     width: 400px;
     position: relative;
-    right: -70%;
-    transform: translateY(-137%);
   }
 
 
@@ -1123,7 +1121,7 @@ p {
   margin: 20px 0;
   position: relative;
   right: -1%;
-  top: -160px;
+  top: -190px;
   z-index: 10;
 }
 
@@ -1198,7 +1196,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 /* The circular halo */
@@ -1217,7 +1215,7 @@ iframe {
 
 
   position: relative;
-  left: -423%;
+  left: -593%;
   top: 5%;
   z-index: 1;
 }
@@ -1785,7 +1783,7 @@ iframe {
   color: rgb(227, 215, 215);
   position: relative;
   overflow: hidden;
-  margin-top: 166px;
+  /* margin-top: 166px; */
 }
 
 .cover-image .overlay {
@@ -3678,7 +3676,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -63px;
+  /* top: -63px; */
   padding-bottom: 83px;
 }
 
