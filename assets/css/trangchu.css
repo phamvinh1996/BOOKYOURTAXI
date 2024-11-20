@@ -1258,7 +1258,7 @@ img.image-car2 {
   align-items: center; /* Căn giữa theo chiều dọc */
   justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
   padding: 10px; /* Khoảng cách bên trong */
-  background-color: #f9f9f9; /* Màu nền cho thẻ div */
+  /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 8px; /* Bo tròn góc */
 }
