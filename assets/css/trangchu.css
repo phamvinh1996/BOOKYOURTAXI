@@ -1251,6 +1251,28 @@ img.image-car2 {
 
 }
 
+/* về chúng tôi */
+/* chữ màu cam about company */
+.info-container {
+  display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
+  padding: 10px; /* Khoảng cách bên trong */
+  background-color: #f9f9f9; /* Màu nền cho thẻ div */
+  /* border: 1px solid #ccc; Đường viền cho thẻ div */
+  border-radius: 8px; /* Bo tròn góc */
+}
+
+.info-container img {
+  max-width: 100px; /* Giới hạn kích thước ảnh */
+  margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.info-container h1, .info-container h4, .info-container p {
+  margin: 0; /* Bỏ khoảng cách mặc định */
+}
+
+
 /* Dịch vụ nỗi bật css */
 
 /* CODE DỊCH VỤ NỖI BẬT */
