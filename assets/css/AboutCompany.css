@@ -4432,14 +4432,14 @@ main {
 @media (max-width: 768px) {
   .hotline01 {
     width: 231px;
-      top: 59px; /* Điều chỉnh vị trí xuống khi màn hình nhỏ hơn 768px */
+      top: 103px; /* Điều chỉnh vị trí xuống khi màn hình nhỏ hơn 768px */
       right: -63px; /* Tùy chọn: Điều chỉnh vị trí bên phải nếu cần */
   }
 }
 
 @media (max-width: 768px) {
   .hotline02 {
-    margin-top: 138%;
+    margin-top: 153%;
     right: -17%;
   }
 }
@@ -4450,5 +4450,31 @@ main {
       left: 41%; /* Đặt vị trí sang giữa */
       margin-top: 75%;
       font-size: 36px;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+      top: -165px; /* Điều chỉnh vị trí lên khi màn hình nhỏ hơn 768px */
+      margin-right: -41%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .chunhat01 {
+    top: -286px;
+    left: -90px;
+    position: relative;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .chunhat0 {
+    width: 120px;
+    top: -253px;
+    position: relative;
+    left: -95px;
   }
 }
