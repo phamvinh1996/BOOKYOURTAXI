@@ -1077,11 +1077,13 @@ p {
   
   /* picture vè chung toi */
   .ceo101 {
-    /* position: relative; */
+    position: relative;
     /* left: 20%; */
     border-radius: 90px;
     width: 86px;
     /* top: 60px; */
+    top: 17px;
+    left: -9px;
   }
   
   /*  */
