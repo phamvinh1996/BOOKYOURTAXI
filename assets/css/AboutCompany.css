@@ -761,7 +761,7 @@ p {
     /* Định vị phần tử này */
     bottom: 0;
     /* Đặt phần tử ở dưới cùng của container */
-    left: 520px;
+    margin-left: 43%;
     /* Căn trái */
     background-color: #222;
     /* Màu nền đen */
@@ -4425,5 +4425,30 @@ main {
 @media (max-width: 767px) {
   .carousel-item img {
       height: 559px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hotline01 {
+    width: 231px;
+      top: 59px; /* Điều chỉnh vị trí xuống khi màn hình nhỏ hơn 768px */
+      right: -63px; /* Tùy chọn: Điều chỉnh vị trí bên phải nếu cần */
+  }
+}
+
+@media (max-width: 768px) {
+  .hotline02 {
+    margin-top: 138%;
+    right: -17%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+      left: 41%; /* Đặt vị trí sang giữa */
+      margin-top: 75%;
+      font-size: 36px;
   }
 }
