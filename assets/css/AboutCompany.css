@@ -1108,7 +1108,7 @@ p {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-    width: 400px;
+    /* width: 400px; */
     position: relative;
   }
 
@@ -1200,15 +1200,6 @@ iframe {
 .info-container h1, .info-container h4, .info-container p {
   margin: 0; /* Bỏ khoảng cách mặc định */
 }
-
-
-
-
-
-
-
-
-
 
 /*  */
 
@@ -1689,7 +1680,7 @@ iframe {
 /*  */
 .slick-prev.slick-arrow {
   transform: translateY(360%);
-  margin-left: 1298px;
+  margin-left: 100%;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -4349,4 +4340,90 @@ main {
     font-weight: bold;
   }
 
+}
+
+/* code css media query */
+
+
+@media (max-width: 768px) {
+  .header-top {
+      display: none;
+  }
+}
+
+ 
+
+@media (max-width: 768px) {
+  .logo-container,
+  .contact-info {
+      display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-menu {
+      display: none;
+  }
+}
+@media (max-width: 768px) {
+  .slick-prev.slick-arrow {
+      margin-left: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .img-car001 {
+      display: none;
+  }
+}
+/* màu cam feel you jouney */
+@media (max-width: 1700px) {
+  .section-map {
+      width: 100%;
+      height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading007 h4 span {
+      left: 78px;
+  }
+}
+
+@media (max-width: 768px) {
+  img.image-car2 {
+      position: relative;
+      right: auto;
+      left: -177px;
+  }
+}
+
+
+/* chữ new and inght */
+@media (max-width: 768px) {
+  .section-heading090 h4 {
+      padding-left: 156px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading090 h4 span {
+      left: 119px;
+  }
+}
+
+@media (max-width: 768px) {
+  .description {
+      left: -29px; /* Adjusted left position for smaller screens */
+  }
+}
+
+
+
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
 }
