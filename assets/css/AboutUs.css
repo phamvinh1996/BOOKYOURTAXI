@@ -893,6 +893,27 @@ div#offcanvasDarkNavbar {
   padding-bottom: 1px;
 }
 
+/* về chúng tôi */
+/* chữ màu cam about company */
+.info-container {
+  display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
+  padding: 10px; /* Khoảng cách bên trong */
+  /* background-color: #f9f9f9; Màu nền cho thẻ div */
+  /* border: 1px solid #ccc; Đường viền cho thẻ div */
+  border-radius: 8px; /* Bo tròn góc */
+}
+
+.info-container img {
+  max-width: 100px; /* Giới hạn kích thước ảnh */
+  margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+}
+
+.info-container h1, .info-container h4, .info-container p {
+  margin: 0; /* Bỏ khoảng cách mặc định */
+}
+
 /*  Code CSS VỀ CHÚNG TÔI */
 /* thẻ chữ book you */
 /* Khoảng cách Giua anh va chu VE CHUNG TOI */
@@ -1045,7 +1066,6 @@ p {
   color: #666;
   font-size: 16px;
   position: absolute;
-  top: 97%;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
 }
@@ -1054,7 +1074,7 @@ p {
   color: orange;
   position: absolute;
   right: 19%;
-  top: 99%;
+  top: 83%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1064,7 +1084,7 @@ p {
 .image01 {
   position: absolute;
   left: 33%;
-  top: 102%;
+  top: 87%;
   width: 132px;
 }
 
@@ -1072,7 +1092,7 @@ p {
 .ceo1 {
   position: absolute;
   right: 53%;
-  top: 96%;
+  /* top: 96%; */
   font-size: 16px;
   color: #666;
   border-radius: 50px;
@@ -1085,7 +1105,7 @@ p {
   left: 20%;
   border-radius: 90px;
   width: 86px;
-  top: 60px;
+  /* top: 60px; */
 }
 
 /*  */
