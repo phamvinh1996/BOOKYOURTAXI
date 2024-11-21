@@ -4640,3 +4640,11 @@ margin-left: 23px;
       top: 1px;
   }
 }
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+.textdichvunoibat {
+    margin-left: 11%;
+  }
+}
