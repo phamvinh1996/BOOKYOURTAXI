@@ -1366,6 +1366,7 @@ iframe {
   z-index: 1;
   /* top: -950px; */
   margin-top: -13%;
+  top: 1px;
 }
 
 .cover-image .text {
