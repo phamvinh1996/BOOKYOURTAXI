@@ -4479,3 +4479,94 @@ main {
     left: -95px;
   }
 }
+
+
+/* mục chữ about company */
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .form-group {
+      margin-right: -106%; /* Điều chỉnh để di chuyển ít hơn trên màn hình nhỏ */
+      right: -50px; /* Điều chỉnh vị trí bên phải */
+      top: 20px; /* Điều chỉnh vị trí trên */
+  }
+}
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-heading h4.about1 {
+margin-left: 23px;
+  }
+}
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-heading h4 span {
+    margin-left: -20px;
+  }
+}
+
+
+/* cỡ chữ about company */
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .pict1 {
+ margin-left: -12px;
+ letter-spacing: -0.2px;
+ font-family: 'Space Grotesk', sans-serif;
+ font-size: 17px;
+  }
+}
+
+
+/*  */
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .hot1 {
+      left: 21px;
+    top: 105%; /* Thêm khoảng cách phía trên */
+      font-size: 16px; /* Giảm kích thước chữ nếu cần */
+  }
+}
+
+/* số điện thoại */
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .color1 {
+      top: 108%; /* Di chuyển xuống thấp hơn cho màn hình nhỏ */
+      font-size: 21px; /* Giảm kích thước chữ nếu cần */
+  }
+}
+
+
+
+/*  */
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .ceo1 {
+    right: -15px;
+    top: 85%;
+  }
+}
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .image01 {
+    margin-top: 23px;
+    margin-left: 93px;
+  }
+}
+
+/* Media query để ẩn màu nền cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .info-container {
+      background-color: transparent; /* Ẩn màu nền */
+  }
+}
