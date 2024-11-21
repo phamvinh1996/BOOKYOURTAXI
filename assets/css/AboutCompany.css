@@ -4666,3 +4666,28 @@ margin-left: 23px;
       font-size: 27px; /* Giảm kích thước chữ cho màn hình nhỏ */
   }
 }
+
+/* mục our */
+@media (max-width: 768px) {
+  .chunhat1 {
+      position: relative;
+      top: -21px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chunhat2 {
+      height: 44px;
+      width: 261px;
+      margin-top: 13%;
+  }
+}
+
+
+
+/* Media query để điều chỉnh margin-top cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .choose-your-taxi {
+      margin-top: -188px; /* Giảm margin-top cho màn hình nhỏ */
+  }
+}
