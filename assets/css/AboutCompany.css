@@ -4608,6 +4608,33 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .section-heading001 h4 {
-      left: 37%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+      left: -11%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+  }
+}
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-heading001 h4 span {
+      left: -20%; /* Di chuyển qua trái hơn cho màn hình nhỏ */
+      font-size: 14px; /* Giảm kích thước chữ nếu cần */
+  }
+}
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .dichvunoibat1 {
+      right: -3%; /* Di chuyển qua trái hơn cho màn hình nhỏ */
+  }
+}
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .second-line {
+      right: 1px; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+      font-size: 15px; /* Giảm kích thước chữ nếu cần */
   }
 }
