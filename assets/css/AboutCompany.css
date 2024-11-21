@@ -2278,7 +2278,7 @@ iframe {
 .cover-image p {
   position: relative;
   /* top: 143px; */
-  font-size: 17px;
+  /* font-size: 17px; */
   /* margin-top: -23px; */
   font-family: "Space Grotesk", sans-serif;
   color: #ddd;
@@ -4627,6 +4627,7 @@ margin-left: 23px;
 @media (max-width: 768px) {
   .dichvunoibat1 {
       right: -3%; /* Di chuyển qua trái hơn cho màn hình nhỏ */
+      font-size: 14px;
   }
 }
 
@@ -4635,6 +4636,7 @@ margin-left: 23px;
 @media (max-width: 768px) {
   .second-line {
       right: 1px; /* Di chuyển qua phải hơn cho màn hình nhỏ */
-      font-size: 15px; /* Giảm kích thước chữ nếu cần */
+      font-size: 14px; /* Giảm kích thước chữ nếu cần */
+      top: 1px;
   }
 }
