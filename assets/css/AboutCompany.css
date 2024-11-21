@@ -4648,3 +4648,21 @@ margin-left: 23px;
     margin-left: 11%;
   }
 }
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .form-group1 {
+      margin-left: -12px; /* Di chuyển qua trái hơn cho màn hình nhỏ */
+      margin-top: 36px;
+  }
+}
+
+
+/* Media query để điều chỉnh kích thước chữ cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .table-heading000 {
+      font-size: 27px; /* Giảm kích thước chữ cho màn hình nhỏ */
+  }
+}
