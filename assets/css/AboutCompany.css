@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #f4f5f8;
     padding: 10px;
-    /* margin-top: -27%; */
+    margin-top: -27%;
   }
   
   .navbar-left {
@@ -4897,4 +4897,233 @@ top: -28px;
       display: block;
       font-size: 16px;
   }
+}
+
+
+
+
+/* dấu nhân cheo */
+@media (max-width: 768px) {
+  .navbar-nav {
+      background-color: white;
+      position: relative;
+      width: 90%;
+      right: -358px;
+      top: 73px;
+  
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+      display: block;
+      /* margin-top: -15px; */
+      /* left: 48px; */
+      position: absolute;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toggler {
+      display: block;
+      /* margin-top: 48px; */
+      /* left: 282px; */
+      position: absolute;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar-toggler .navbar-toggler-icon {
+      background: none;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .links-label {
+    margin-right: 10px;
+    white-space: nowrap;
+    position: relative;
+    top: -33px;
+    left: -10px;
+  }
+
+  /* mục footer */
+  #emailInput {
+    flex: 1;
+    min-width: 327px;
+    position: relative;
+    top: -41px;
+    left: -2px;
+  }
+
+  #emailInput,
+  #subscribeBtn {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  #subscribeBtn {
+    margin-left: 10px;
+    position: relative;
+    top: -51px;
+    width: 69%;
+    margin-left: -9px;
+    font-size: 16px;
+  }
+
+  .icon-car {
+    top: 96%;
+    /* Đưa phần tử xuống dưới hơn */
+  }
+
+  .icon-car img {
+    margin: 0 10px;
+    /* max-width: 80%; */
+    width: 78px;
+  }
+
+  .footer-text {
+    display: block;
+    /* margin-top: 15px; */
+    font-size: 16px;
+    /* top: -46px; */
+    position: relative;
+  }
+
+  .copyright-wrap {
+    padding: 1px 0;
+    /* Giảm padding để giảm chiều cao */
+    /* Hoặc bạn có thể thiết lập chiều cao cụ thể */
+    /* height: 40px; */
+  }
+
+  /* code css media DẤU CHÉO MENU */
+  .navbar-nav {
+    background-color: white;
+    position: relative;
+    width: 222%;
+    right: 220px;
+    top: 69px;
+  }
+
+
+  /* COPDE CSS MEDIA DẤU CHÉO  */
+  /* code css media feel you */
+
+  .icon-wrapper {
+    margin-top: -18px;
+    /* Giảm khoảng cách trên cho màn hình nhỏ */
+    /* gap: 5px; Giảm khoảng cách giữa các biểu tượng */
+  }
+
+  /* dich vu noi bat */
+  .second-line {
+    /* position: relative; */
+    /* left: 788px; Đặt lại vị trí bên trái về 0 */
+    margin-left: 65px;
+    top: 10px;
+    /* Đặt lại vị trí phía trên về 0 */
+    font-size: 14px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    white-space: nowrap;
+    color: #ddd;
+    white-space: inherit;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 21px;
+    left: 312px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -16px;
+    width: 23%;
+    height: 78px;
+  }
+
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
+  }
+
+  /* dấu nhân */
+  .navbar-toggler {
+    /* position: relative;
+  top: 46px; */
+    display: block;
+    margin-top: -15px;
+    /* left: 48px; */
+    position: absolute;
+
+    .collapse {
+      position: absolute;
+    }
+
+    /* position: relative;
+    right: -338px;
+    top: 100px; */
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+
+  }
+
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -28px;
+  }
+
+  .logo-0 {
+    display: none;
+    /* Hide the logo */
+  }
+
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+
+  .logo01 {
+
+    margin-left: -293%;
+    top: 28px;
+    position: relative;
+  }
+
+  .nav-item.dropdown {
+    display: block;
+    /* Ẩn dropdown trên màn hình lớn */
+  }
+
 }
