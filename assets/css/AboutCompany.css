@@ -3569,6 +3569,7 @@ button {
   font-size: 17px;
 }
 
+
 /*  */
 /* code css ghạch chân liên hệ footer */
 .contact-label {
@@ -4746,4 +4747,154 @@ margin-left: 23px;
   }
 }
 
+/* ft */
+@media (max-width: 768px) {
+  .background-image {
+      background-position: bottom;
+      height: 967px;
+  }
+}
 
+@media (max-width: 768px) {
+  #emailInput {
+      flex: 1;
+      min-width: 327px;
+      position: relative;
+      top: -41px;
+      left: -2px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  #subscribeBtn {
+      margin-left: 10px;
+      position: relative;
+      top: -51px;
+      width: 69%;
+      margin-left: -9px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  #emailInput, #subscribeBtn {
+      width: 80%;
+position: relative;
+top: -28px;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .icon-car img {
+      margin: 0 10px;
+      /* max-width: 80%; */
+      width: 78px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-car {
+      top: 96%;
+  }
+}
+
+
+/* code row ft */
+@media (max-width: 576px) {
+  .row-footer {
+      margin-top: -5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotline {
+      margin-right: 2px;
+      margin-top: 170px;
+      width: 111%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hotline-text1 {
+      font-size: 20px;
+      top: 47%;
+      left: 59%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hotline-text0 {
+      font-size: 18px;
+      top: 47%;
+      left: 31%;
+      white-space: normal;
+      width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .description {
+      margin-top: 119px;
+      font-size: 16px;
+      position: relative;
+      left: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+      top: 19px;
+      right: 85px;
+      width: 65%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries for Responsive Padding */
+@media (max-width: 768px) {
+  .background-image {
+      padding-bottom: 60px; /* Adjust padding for medium screens */
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+  .links-label {
+      top: -28px;
+      position: relative;
+      
+  }
+}
+
+
+@media only screen and (max-width: 425px) {
+  .container {
+      padding: 26px;
+      width: 100%;
+      right: -14px;
+      position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+      display: block;
+      font-size: 16px;
+  }
+}
