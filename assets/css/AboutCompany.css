@@ -2943,6 +2943,14 @@ a {
   margin-top: 53px;
 }
 
+
+/*  */
+/* mục tắt dấu chấm feel you joney */
+.check-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 /*  */
 
 .icon-wrapper img {
@@ -4691,3 +4699,51 @@ margin-left: 23px;
       margin-top: -188px; /* Giảm margin-top cho màn hình nhỏ */
   }
 }
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .ridek1 {
+      margin-right:  37%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+      font-size: 14px; /* Có thể giảm kích thước chữ nếu cần */
+  }
+}
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-map h1 {
+      transform: translate(5%); /* Di chuyển ít hơn cho màn hình nhỏ */
+      font-size: 25px; /* Giảm kích thước chữ nếu cần */
+  }
+}
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .section-map button {
+      transform: translate(-126%); /* Di chuyển nút ít hơn cho màn hình nhỏ */
+  }
+}
+
+/* Media query để điều chỉnh margin-top cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .check-list i {
+    top: -40px;
+    position: relative;
+    left: -260px;
+  }
+}
+
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .easy1 {
+      right: -23px; /* Điều chỉnh vị trí bên phải cho màn hình nhỏ */
+      top: -59px; /* Di chuyển lên cao hơn cho màn hình nhỏ */
+  }
+}
+
+
