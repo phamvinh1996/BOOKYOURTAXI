@@ -1366,7 +1366,7 @@ iframe {
   z-index: 1;
   /* top: -950px; */
   margin-top: -13%;
-  top: 1px;
+  /* top: 1px; */
 }
 
 .cover-image .text {
@@ -4568,5 +4568,35 @@ margin-left: 23px;
 @media (max-width: 768px) {
   .info-container {
       background-color: transparent; /* Ẩn màu nền */
+  }
+}
+
+
+/* hình about company */
+/* Media query để điều chỉnh chiều rộng cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  img.image-car1 {
+      width: 600%; /* Thay đổi chiều rộng thành 100% cho màn hình nhỏ */
+  }
+}
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .video-button-container {
+      right: -217%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+      top: -150px; /* Có thể điều chỉnh chiều dọc nếu cần */
+  }
+}
+
+
+
+
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
+@media (max-width: 768px) {
+  .halo {
+    left: 39%;
+    margin-top: 210px;
+    
   }
 }
