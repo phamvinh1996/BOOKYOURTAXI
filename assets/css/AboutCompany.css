@@ -4903,7 +4903,7 @@ top: -28px;
       width: 100%;
       right: -14px;
       position: relative;
-      top: -16px;
+      /* top: -16px; */
   }
 }
 
@@ -5159,5 +5159,10 @@ display: none;
 
 
 
-
+/* Media query để ẩn nút trên màn hình nhỏ */
+@media (max-width: 600px) {
+  .slick-next.slick-arrow {
+      display: none; /* Ẩn nút khi màn hình nhỏ hơn 600px */
+  }
+}
 
