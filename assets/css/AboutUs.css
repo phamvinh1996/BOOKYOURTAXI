@@ -1182,6 +1182,22 @@ img.image-car2 {
   box-sizing: border-box;
 }
 
+
+
+/* nút di chuyển mục ridek passeger review */
+
+
+.table-1 .slick-dots {
+  display: flex
+;
+  /* margin-top: 35px; */
+  padding-left: 0;
+  margin-bottom: 0;
+  /* padding-left: 92px; */
+  /* margin-left: -473px; */
+}
+
+
 /* Dịch vụ nỗi bật css */
 
 /* CODE DỊCH VỤ NỖI BẬT */
