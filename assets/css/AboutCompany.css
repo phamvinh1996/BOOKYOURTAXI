@@ -4781,7 +4781,7 @@ margin-left: 23px;
 @media (max-width: 768px) {
   .background-image {
       background-position: bottom;
-      height: 967px;
+      /* height: 967px; */
   }
 }
 
@@ -4835,14 +4835,17 @@ top: -28px;
 /* code row ft */
 @media (max-width: 576px) {
   .row-footer {
-      margin-top: -5px;
+      margin-top: 79px;
+      position: relative;
+      top: -17px;
+      margin-top: 41px;
   }
 }
 
 @media (max-width: 768px) {
   .hotline {
       margin-right: 2px;
-      margin-top: 170px;
+      margin-top: 216px;
       width: 111%;
   }
 }
@@ -4868,7 +4871,7 @@ top: -28px;
 
 @media (max-width: 992px) {
   .description {
-      margin-top: 119px;
+      margin-top: 150px;
       font-size: 16px;
       position: relative;
       left: 1px;
@@ -5189,3 +5192,11 @@ display: none;
     margin-top: -50px; /* Giảm khoảng cách trên cho màn hình nhỏ hơn 600px */
   }
 }
+
+
+
+
+
+
+
+
