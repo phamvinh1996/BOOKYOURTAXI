@@ -892,3 +892,952 @@ p {
     padding-bottom: 1px;
     /* margin-top: -27%; */
   }
+
+
+
+  /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Dịch vụ nỗi bật css */
+
+
+  
+  /* chữ màu cam */
+  
+  /* carrt anhr chen anh banner dich vu noi bat */
+  .cart-service {
+    position: relative;
+    bottom: 140px;
+    z-index: 1;
+    /* top: -950px; */
+    margin-top: -13%;
+    /* top: 1px; */
+  }
+  
+  .cover-image .text {
+    font-size: 36px;
+    position: relative;
+    top: -39%;
+  }
+  
+  .cover-image .textdichvunoibat {
+    color: #fff;
+    position: relative;
+    top: 99px;
+    left: -25px;
+    font-weight: 700;
+    line-height: 50px;
+    /* Màu chữ trắng */
+  }
+  
+  .container .card h2 {
+    color: #222;
+    /* Màu chữ trắng */
+    font-weight: bold;
+  }
+  
+  .cover-image p {
+    /* position: relative; */
+    /* top: 126px; */
+    /* font-size: 17px; */
+    /* margin-top: -23px; */
+    /* font-family: "Space Grotesk", sans-serif; */
+    /* color: #ddd; */
+    /* left: 36%; */
+    /* margin-left: 421px; */
+  
+  }
+  
+  /* mục joney */
+  .dichvunoibat1{
+    color: #ddd; 
+    margin-top: 121px;
+    right: -36%;
+    position: relative;
+  }
+  /* dòng chữ start your journey with ridekcompany */
+  .second-line {
+    display: block;
+  
+    animation: fadeIn 1s ease-in-out;
+    color: #ddd;
+    position: relative;
+    right: 38px;
+  }
+  
+  .card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card-banner {}
+  
+  .car-in-card {
+    width: 150%;
+    border-radius: 8px;
+  
+  }
+  
+  .card h2 {
+    font-size: 22px;
+    margin-left: 12px;
+    text-align: left;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgb(190, 97, 17);
+  }
+  
+  /* code css what we offter */
+  
+  .text-1 {
+    color: #252525;
+    font-size: 19px;
+    /* position: relative;  */
+    top: 13px;
+    right: 75px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .vuong1 {
+    position: relative;
+    top: 10px;
+  }
+  
+  /*  */
+  /* tạo css nút chuyển trang  dịch vụ nổi bật*/
+  .card-navigation {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-70%);
+  }
+  
+  /* start your jnoyey tạo khoảng cách card ảnh */
+  .cart-service .card {
+    /* margin-right: 30px; */
+    /* Khoảng cách giữa các card */
+    margin-bottom: 30px;
+    /* Khoảng cách giữa các hàng */
+  }
+  
+  .cart-service .card:last-child {
+    margin-right: 0;
+    /* Không có khoảng cách ở card cuối cùng của hàng */
+  }
+  
+  /* kich co anh css cart picture */
+  
+  .card-image {
+    width: 113%;
+    height: auto;
+    position: relative;
+    top: -20px;
+    left: -20px;
+  }
+  
+  /*  */
+  .card-image2 {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    float: right;
+    bottom: -17px;
+    right: -6%;
+    z-index: 3;
+  }
+  
+  /* hiệu ứng css xe car dịch vụ nỗi bật */
+  
+  .card-image2:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /*code css chỉnh xuống card ảnh strat you joney  */
+  
+  
+  
+  /* nút xem thêm dịch vụ nỗi bật */
+  
+  
+  /* Nut xem them dich vu noi bat */
+  .nutxemthem {
+    background-color: #ff9900;
+    /* color: white; */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    /* top: -3px; */
+    position: relative;
+    /* left: 10px; */
+    transition: background-color 0.3s ease;
+    /* cắt nút bên phải button */
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+    font-weight: 500;
+  }
+  
+  .nutxemthem:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /*  */
+  .container {
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    overflow: hidden;
+    width: 300px;
+    /* Fixed width for larger screens */
+    transition: transform 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-top {
+    position: relative;
+  }
+  
+  .card-image {
+    width: 100%;
+    border-bottom: 2px solid #f1f1f1;
+  }
+  
+  .card-image2 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    /* Adjust size as needed */
+  }
+  
+  .vuongden1,
+  .vuongvang,
+  .vuongden2 {
+    position: absolute;
+    border-radius: 5px;
+  }
+  
+  .vuongden1 {
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    right: 10px;
+  }
+  
+  .vuongvang {
+    background-color: #ffcc00;
+    width: 30px;
+    height: 30px;
+    bottom: 20px;
+    left: 10px;
+  }
+  
+  .vuongden2 {
+    background-color: #000;
+    width: 20px;
+    height: 20px;
+    bottom: 20px;
+    right: 10px;
+  }
+  
+  .card-bottom {
+    padding: 15px;
+  }
+  
+  .card-bottom h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+  }
+  
+  .Transport1 {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .nutxemthem {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .nutxemthem:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  /*  */
+  
+  /*  */
+  /* code p ridek taxi jouney */
+  
+  .Transport1 {
+    color: #666;
+    font-weight: 440;
+    position: relative;
+    top: -10px;
+  
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  /*  */
+  
+
+  /* chữ màu cam */
+  
+  /* carrt anhr chen anh banner dich vu noi bat */
+  .cart-service {
+    position: relative;
+    bottom: 140px;
+    z-index: 1;
+    /* top: -950px; */
+  }
+  
+  .cover-image .text {
+    font-size: 36px;
+    position: relative;
+    top: -39%;
+  }
+  
+  .cover-image .textdichvunoibat {
+    color: #fff;
+    position: relative;
+    top: 99px;
+    font-weight: 700;
+    left: -25px;
+    line-height: 50px;
+    /* Màu chữ trắng */
+  }
+  
+  .container .card h2 {
+    color: #222;
+    /* Màu chữ trắng */
+    font-weight: bold;
+  }
+  
+  .cover-image p {
+    /* position: relative; */
+    /* top: 103px; */
+    /* font-size: 17px; */
+    /* margin-top: -23px; */
+    /* font-family: "Space Grotesk", sans-serif; */
+    /* color: #ddd; */
+    /* left: 213px; */
+    /* left: 35%; */
+    /* margin-left: 36%; */
+  }
+  
+  /* dòng chữ start your journey with ridekcompany */
+  .second-line {
+    display: block;
+    animation: fadeIn 1s ease-in-out;
+    color: #ddd;
+    position: relative;
+    right: 38px;
+  }
+  
+  
+  .card {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .card-banner {}
+  
+  .car-in-card {
+    width: 150%;
+    border-radius: 8px;
+  }
+  
+  .card h2 {
+    font-size: 22px;
+    margin-left: 12px;
+    text-align: left;
+  }
+  
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: rgb(190, 97, 17);
+  }
+  
+  
+  /* code css what we offter */
+  
+  .text-1 {
+    color: #252525;
+    font-size: 19px;
+    /* position: relative;  */
+    top: 13px;
+    right: 75px;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .vuong1 {
+    position: relative;
+    top: 10px;
+  }
+  
+  /* tạo css nút chuyển trang  dịch vụ nổi bật*/
+  .card-navigation {
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-70%);
+  }
+  
+  /* start your jnoyey tạo khoảng cách card ảnh */
+  .cart-service .card {
+    margin-right: 53px;
+    /* Khoảng cách giữa các card */
+    margin-bottom: 30px;
+    /* Khoảng cách giữa các hàng */
+  }
+  
+  .cart-service .card:last-child {
+    margin-right: 0;
+    /* Không có khoảng cách ở card cuối cùng của hàng */
+  }
+  
+  /* kich co anh css cart picture */
+  
+  .card-image {
+    width: 113%;
+    height: auto;
+    position: relative;
+    top: -20px;
+    left: -20px;
+  }
+  
+  
+  /*  */
+  .card-image2 {
+    width: 65%;
+    height: auto;
+    position: absolute;
+    float: right;
+    bottom: -17px;
+    right: -6px;
+    z-index: 3;
+    margin-top: 108px;
+  }
+  
+  /* hiệu ứng css xe car dịch vụ nỗi bật */
+  
+  .card-image2:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* nút xem thêm dịch vụ nỗi bật */
+  
+  
+  /* Nut xem them dich vu noi bat */
+  .nutxemthem {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    top: -3px;
+    position: relative;
+    /* left: -1148px; */
+    transition: background-color 0.3s ease;
+    /* cắt nút bên phải button */
+    clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
+    font-weight: 500;
+  }
+  
+  .nutxemthem:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  /*  */
+  
+  /*  */
+  /* canh chữ dòng chữ nỗi bật*/
+  .card-bottom {
+    display: inline-block;
+  }
+  
+  /* code css tạo đặt carousel cart ảnh dịch vụ */
+  /* nút di chuyển trang */
+  
+  .triangle-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+  }
+  
+  .triangle-button {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: relative;
+    top: 10%;
+    left: 10%;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-2600%);
+    background-color: orange;
+  }
+  
+  .arrow-left {
+    border-right: 12px solid rgb(15, 10, 10);
+    left: 320px;
+  
+  }
+  
+  .arrow-right {
+    border-left: 12px solid rgb(31, 20, 20);
+    right: -1300px;
+  }
+  
+  /* .container {
+    position: relative;
+  } */
+  
+  .vuongvang {
+    position: absolute;
+    top: 53%;
+    left: 72%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 80px;
+    height: 150px;
+    background-color: #ff9900;
+    z-index: 1;
+  }
+  
+  .vuongden1 {
+    position: absolute;
+    top: 65%;
+    left: 59%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 69px;
+    height: 120px;
+    background-color: rgb(22, 20, 14);
+    z-index: 2;
+  }
+  
+  .vuongden2 {
+    position: absolute;
+    top: 66%;
+    left: 83%;
+    transform: translate(-50%, -50%) rotate(10deg) skewY(-10deg);
+    width: 49px;
+    height: 120px;
+    background-color: rgb(22, 20, 14);
+    z-index: 2;
+  }
+  
+  
+  .card-top {
+    position: relative;
+  }
+  
+  /* hiệu ứng 1 */
+  
+  .vuongden1:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  /* hiệu ứng 2 */
+  
+  
+  .vuongden2:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  
+  .vuongvang:hover {
+    animation: imageEffect 0.5s ease-in-out;
+  }
+  
+  @keyframes imageEffect {
+    0% {
+      transform: scale(1);
+    }
+  
+    50% {
+      transform: scale(1.2);
+    }
+  
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+
+  
+  
+  /*kết thúc mục   START YOU JONEY*/
+  .section-heading001 {
+    position: relative;
+  }
+  
+  .section-heading001 h4 {
+    position: absolute;
+    color: #ff9900;
+    /* padding-left: 883px; */
+    margin-left: 46%;
+    display: flex;
+    line-height: 16px;
+    top: -2px;
+    font-size: 17px;
+    z-index: 999;
+    left: -40px;
+    top: 65px;
+  }
+  
+  .section-heading001 h4 span,
+  .section-heading001 h4 span:before,
+  .section-heading001 h4 span::after {
+    background-color: #f90;
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+  }
+  
+  .section-heading001 h4 span {
+    top: 1px;
+    position: absolute;
+    /* left: 853px; */
+    left: -22%;
+    transform: skew(-20deg, 0deg);
+  }
+  
+  .section-heading001 h4 span:after {
+    content: "";
+    left: -10px;
+    opacity: 0.5;
+  }
+  
+  .section-heading001 h4 span:before {
+    content: "";
+    left: -20px;
+    opacity: 0.2;
+  }
+  /*  code css thẻ chữ start you joney*/
+  .cover-image p {
+    position: relative;
+    /* top: 143px; */
+    /* font-size: 17px; */
+    /* margin-top: -23px; */
+    font-family: "Space Grotesk", sans-serif;
+    color: #ddd;
+    /* left: 213px; */
+    /* margin-left: 212px; */
+  }
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+/*  */
+/* CODE CSS kích cỡ card ảnh mục  START YOU JONEY */
+/* Container setup for each card */
+.container.cart-service .card {
+    width: 100%;
+    /* Adjust this for responsive display */
+    max-width: 431px;
+    /* Adjust card max width if necessary */
+    margin: 0 auto;
+  }
+  
+  /* Styling for the main card image */
+  .container .card .card-top .card-image {
+    width: 111%;
+    /* Full width within card */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: cover;
+    /* Cover the area to fill */
+    border-radius: 8px;
+    /* Rounded corners if desired */
+  }
+  
+  /* Styling for overlay or secondary image */
+  .container .card .card-top .card-image2 {
+    width: 223px;
+    /* Adjust size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    position: absolute;
+    /* Allows positioning over main image */
+    top: 63px;
+    /* Adjust position within card */
+    left: 191px;
+  }
+/*CODE CSS CARD START JONEY  */
+.container.cart-service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* Adjust spacing between cards as needed */
+  }
+  
+  .container.cart-service .card {
+    flex: 1 1 calc(33.33% - 20px);
+    /* Each card takes 1/3 of the row, minus the gap */
+    box-sizing: border-box;
+  }
+    
+
+
+
+
+
+
+
+
+
+  .slick-list {
+
+margin-top: 187px;
+  }
+
+
+
+  .container.cart-service {
+    position: relative;
+    top: 65px;
+  }
+
+
+
+
+  .new1-container{
+    position: relative;
+    top: 243px;
+  }
