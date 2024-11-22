@@ -826,7 +826,10 @@ p {
   }
   
   
-  
+  /*  */
+  .about1{
+    margin-left: 50px;
+  }
   /* hiệu ứng ảnh về chúng tôi */
   /* CSS */
   .my-heading {
@@ -1108,7 +1111,7 @@ p {
     display: flex;
     justify-content: flex-end;
     align-self: flex-end;
-    /* width: 400px; */
+    width: 400px;
     position: relative;
   }
 
@@ -1227,7 +1230,7 @@ iframe {
 
 
   position: relative;
-  left: -438%;
+  left: -596%;
   top: 5%;
   z-index: 1;
 }
@@ -5126,4 +5129,14 @@ top: -28px;
     /* Ẩn dropdown trên màn hình lớn */
   }
 
+}
+
+
+/* code css media hình ảnh mục about company */
+/* Media query cho các màn hình nhỏ */
+@media (max-width: 600px) {
+  img.image-car2 {
+    width: 100%; /* Chiều rộng hình ảnh sẽ chiếm toàn bộ chiều rộng của container */
+    max-width: 400px; /* Giới hạn chiều rộng tối đa để không vượt quá 400px */
+  }
 }
