@@ -5172,3 +5172,10 @@ display: none;
   }
 }
 
+/* code css kích cỡ mục start joeny */
+/* Media query để điều chỉnh margin cho màn hình nhỏ */
+@media (max-width: 600px) {
+  .slick-list {
+    margin-top: -50px; /* Giảm khoảng cách trên cho màn hình nhỏ hơn 600px */
+  }
+}
