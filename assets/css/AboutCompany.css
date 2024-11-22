@@ -4725,8 +4725,13 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .ridek1 {
-      margin-right:  37%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
-      font-size: 14px; /* Có thể giảm kích thước chữ nếu cần */
+      margin-right:  28%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
+      font-size: 17px; /* Có thể giảm kích thước chữ nếu cần */
+      top: -77px;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+
   }
 }
 
@@ -4735,15 +4740,20 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .section-map h1 {
-      transform: translate(5%); /* Di chuyển ít hơn cho màn hình nhỏ */
+      transform: translate(6%); /* Di chuyển ít hơn cho màn hình nhỏ */
       font-size: 25px; /* Giảm kích thước chữ nếu cần */
+      position: relative;
+      top: -73px;
   }
 }
 
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .section-map button {
-      transform: translate(-126%); /* Di chuyển nút ít hơn cho màn hình nhỏ */
+    position: relative;
+    top: -70px;
+      transform: translate(-121%); /* Di chuyển nút ít hơn cho màn hình nhỏ */
+      letter-spacing: -1px;
   }
 }
 
