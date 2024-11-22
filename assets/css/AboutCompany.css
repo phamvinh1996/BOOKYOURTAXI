@@ -1190,7 +1190,7 @@ iframe {
   align-items: center; /* Căn giữa theo chiều dọc */
   justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
   padding: 10px; /* Khoảng cách bên trong */
-  background-color: #f9f9f9; /* Màu nền cho thẻ div */
+  /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 8px; /* Bo tròn góc */
 }
@@ -4192,7 +4192,7 @@ main {
   /* width: 100%; Đặt chiều rộng 100% cho navbar */
   */
 }
-}
+
 
 
 
@@ -4368,12 +4368,23 @@ main {
 
  
 
-@media (max-width: 768px) {
-  .logo-container,
+/*  */
+
+
+/* Media query cho màn hình nhỏ */
+@media (max-width: 600px) {
   .contact-info {
-      display: none;
+    display: none; /* Ẩn thông tin liên hệ trên màn hình nhỏ */
+  }
+  
+  .logo-container {
   }
 }
+
+
+
+
+/*  */
 
 @media (max-width: 768px) {
   .nav-menu {
@@ -4888,10 +4899,11 @@ top: -28px;
 
 @media only screen and (max-width: 425px) {
   .container {
-      padding: 26px;
+      padding: 3px;
       width: 100%;
       right: -14px;
       position: relative;
+      top: -16px;
   }
 }
 
@@ -4906,16 +4918,17 @@ top: -28px;
 
 
 /* dấu nhân cheo */
-@media (max-width: 768px) {
+
+ @media (max-width: 768px) {
   .navbar-nav {
       background-color: white;
       position: relative;
-      width: 90%;
-      right: -358px;
-      top: 73px;
+      /* width: 435%;
+      right: 328%;
+      top: 70px; */
   
   }
-}
+} 
 
 
 
@@ -5009,13 +5022,13 @@ top: -28px;
   }
 
   /* code css media DẤU CHÉO MENU */
-  .navbar-nav {
+    .navbar-nav {
     background-color: white;
     position: relative;
-    width: 222%;
-    right: 220px;
+    width: 416px;
+    right: 311px;
     top: 69px;
-  }
+  }   
 
 
   /* COPDE CSS MEDIA DẤU CHÉO  */
@@ -5054,9 +5067,8 @@ top: -28px;
   }
 
   .logo-brand {
-    max-width: 80%;
-    /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -28px;
+    max-width: 39%;
+    margin-top: -53px;
   }
 
   /* dấu nhân */
@@ -5118,7 +5130,7 @@ top: -28px;
   }
 
   .logo01 {
-
+display: none;
     margin-left: -293%;
     top: 28px;
     position: relative;
@@ -5140,3 +5152,12 @@ top: -28px;
     max-width: 400px; /* Giới hạn chiều rộng tối đa để không vượt quá 400px */
   }
 }
+
+
+
+
+
+
+
+
+
