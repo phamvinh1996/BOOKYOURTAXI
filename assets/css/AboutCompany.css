@@ -5198,5 +5198,10 @@ display: none;
 
 
 
-
-
+/* mục hình ridek passentger */
+/* Media query để điều chỉnh vị trí cho màn hình nhỏ */
+@media (max-width: 600px) {
+  .hinh1-icon {
+margin-top: -57px;
+  }
+}
