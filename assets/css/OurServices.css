@@ -3754,8 +3754,8 @@ main {
 
 @media (max-width: 768px) {
   #emailInput, #subscribeBtn {
-      width: 80%;
-      margin-top: 10px;
+      width: 40%;
+      margin-top: 23px;
   }
 }
 @media (max-width: 768px) {
@@ -3792,5 +3792,14 @@ main {
       font-size: 16px;
       /* top: -46px; */
       position: relative;
+  }
+}
+@media (max-width: 768px) {
+  #subscribeBtn {
+      margin-left: 10px;
+      position: relative;
+      top: -64px;
+      margin-left: -9px;
+      font-size: 16px;
   }
 }
