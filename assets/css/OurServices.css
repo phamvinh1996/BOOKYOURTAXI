@@ -3647,3 +3647,16 @@ main {
     margin-top: -61%;
   }
 }
+
+/* tin tuc */
+@media (max-width: 768px) {
+  .section-heading090 h4 span {
+      left: 119px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-heading090 h4 {
+      padding-left: 156px;
+  }
+}
