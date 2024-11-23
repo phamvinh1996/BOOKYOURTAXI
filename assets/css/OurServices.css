@@ -3444,3 +3444,150 @@ main {
   }
 
 }
+/* code css media query  */
+
+
+@media (max-width: 768px) {
+  .header-top {
+      display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .contact-info {
+      display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nav-menu {
+      display: none;
+  }
+}
+
+
+/* Media query để ẩn hình ảnh trên màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .img-car001 {
+      display: none; /* Ẩn phần tử */
+  }
+}
+
+
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .section-map {
+      width: 100%; /* Đặt chiều rộng về 100% */
+      height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung */
+      padding: 16px 0; /* Thay đổi padding nếu cần */
+      /* Bạn có thể thêm các thuộc tính khác nếu cần */
+  }
+}
+
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .section-heading090 h4 {
+    padding-left: 82px;
+    top: -65px;
+      font-size: 14px; /* Thay đổi kích thước chữ nếu cần */
+  }
+}
+
+
+
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .section-heading090 h4 span {
+      left: 20px; /* Giảm giá trị left để dịch qua trái */
+      /* Bạn có thể thêm các thuộc tính khác nếu cần */
+  }
+}
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .description {
+      left: 20px; /* Giảm giá trị left để dịch qua trái */
+      top: -30px; /* Bạn có thể điều chỉnh giá trị top nếu cần */
+      font-size: 16px; /* Thay đổi kích thước chữ nếu cần */
+  }
+}
+
+/* code css media mục  card ảnh 6 ảnh */
+/* Media query cho thiết bị di động */
+@media (max-width: 768px) {
+  .container.cart-service .card {
+      flex: 1 1 100%; /* Mỗi thẻ sẽ chiếm toàn bộ chiều rộng */
+      margin-bottom: 10px; /* Khoảng cách giữa các thẻ */
+  }
+}
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .hotline01 {
+      width: 231px;
+      top: 103px;
+      right: -63px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .hotline02 {
+      margin-top: 153%;
+      right: -17%;
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+      left: 41%;
+      margin-top: 75%;
+      font-size: 36px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption p {
+      top: -165px;
+      margin-right: -41%;
+  }
+}
+
+@media (max-width: 768px) {
+  .chunhat01 {
+      top: -286px;
+      left: -90px;
+      position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .chunhat0 {
+      width: 120px;
+      top: -253px;
+      position: relative;
+      left: -95px;
+  }
+}
