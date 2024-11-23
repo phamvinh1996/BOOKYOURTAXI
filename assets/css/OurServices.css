@@ -3660,3 +3660,110 @@ main {
       padding-left: 156px;
   }
 }
+
+/* ft */
+
+@media (max-width: 768px) {
+  .background-image {
+      padding-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .background-image {
+      background-position: bottom;
+      /* height: 967px; */
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+      padding: 3px;
+      width: 100%;
+      right: -14px;
+      position: relative;
+      /* top: -16px; */
+  }
+}
+
+
+@media (max-width: 576px) {
+  .row-footer {
+      margin-top: 79px;
+      position: relative;
+      top: -56px;
+      /* margin-top: 41px; */
+  }
+}
+
+
+@media (max-width: 768px) {
+    .hotline {
+        margin-right: 2px;
+        margin-top: 178px;
+        width: 111%;
+    }
+}
+
+
+@media (max-width: 768px) {
+  .hotline-text1 {
+      font-size: 20px;
+      top: 47%;
+      left: 59%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hotline-text0 {
+      font-size: 18px;
+      top: 47%;
+      left: 31%;
+      white-space: normal;
+      width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .description {
+      margin-top: 107px;
+      font-size: 16px;
+      position: relative;
+      left: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .logo-image {
+      top: 19px;
+      right: 85px;
+      width: 65%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .links-label {
+      margin-right: 10px;
+      white-space: nowrap;
+      position: relative;
+      top: -22px;
+      left: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #emailInput, #subscribeBtn {
+      width: 80%;
+      margin-top: 10px;
+  }
+}
+@media (max-width: 768px) {
+  #emailInput {
+      flex: 1;
+      min-width: 327px;
+      position: relative;
+      top: -41px;
+      left: -2px;
+  }
+}
