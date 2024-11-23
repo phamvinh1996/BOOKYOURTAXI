@@ -3638,3 +3638,12 @@ main {
     top: -109px;
   }
 }
+
+
+/* code css card ảnh */
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .container.cart-service {
+    margin-top: -61%;
+  }
+}
