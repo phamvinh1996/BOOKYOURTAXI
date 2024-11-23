@@ -3486,6 +3486,8 @@ main {
       height: auto; /* Đặt chiều cao tự động để phù hợp với nội dung */
       padding: 16px 0; /* Thay đổi padding nếu cần */
       /* Bạn có thể thêm các thuộc tính khác nếu cần */
+      position: relative;
+      top: 68px;
   }
 }
 
@@ -3589,5 +3591,50 @@ main {
       top: -253px;
       position: relative;
       left: -95px;
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  .ridek1 {
+      margin-right: 28%;
+      font-size: 17px;
+      top: 3px;
+      position: relative;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-map h1 {
+      transform: translate(6%);
+      font-size: 25px;
+      position: relative;
+      top: -8px;
+  }
+}
+@media (max-width: 768px) {
+  .section-map button {
+      position: relative;
+      top: -11px;
+      transform: translate(-121%);
+      letter-spacing: -1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .check-list i {
+      top: -108px;
+      position: relative;
+      left: 1px;
+  }
+}
+
+@media (max-width: 768px) {
+  .easy1 {
+    right: -4px;
+    top: -109px;
   }
 }
