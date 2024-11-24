@@ -3097,7 +3097,7 @@ p {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 60%;
+  top: 51%;
   /* Adjust the distance from the top as needed */
   left: 79%;
   display: flex;
@@ -3209,7 +3209,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   /* Kích thước height của icon */
-  margin-top: -63px;
+  margin-top: -113px;
 }
 
 
@@ -3221,7 +3221,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -116%;
+  top: -146%;
   left: 159%;
 }
 
@@ -4052,4 +4052,13 @@ display: none;
     /* Ẩn dropdown trên màn hình lớn */
   }
 
+}
+
+
+
+/* Media query để ẩn phần tử trên màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .contact-nav111 {
+      display: none; /* Ẩn phần tử */
+  }
 }
