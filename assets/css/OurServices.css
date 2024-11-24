@@ -3298,7 +3298,7 @@ main {
     /* Thay đổi padding nếu cần */
     /* Bạn có thể thêm các thuộc tính khác nếu cần */
     position: relative;
-    top: 68px;
+    top: 85px;
   }
 
   .section-heading090 h4 {
@@ -3384,19 +3384,19 @@ main {
   .section-map button {
     position: relative;
     top: -11px;
-    transform: translate(-121%);
+    transform: translate(-138%);
     letter-spacing: -1px;
   }
 
   .check-list i {
-    top: -108px;
+    top: 3px;
     position: relative;
     left: 1px;
   }
 
   .easy1 {
     right: -4px;
-    top: -109px;
+    top: 1px;
   }
 
   .container.cart-service {
