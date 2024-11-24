@@ -929,3 +929,87 @@ p {
     background-color: #ff8c00; /* Màu cam */
   }
   
+
+
+
+
+
+
+
+
+
+
+
+  /* bảng đen */
+
+
+
+  .sidebar {
+    background-color: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+.sidebar {
+    background-color: #222;
+    background-image: url(../img/texture.png);
+    background-repeat: repeat;
+    background-size: cover;
+    border-radius: 3px;
+    padding: 179px 51px;
+    margin-left: -433px;
+    margin-top: 331px;
+}
+
+/* ảnh */
+
+.logo1{
+
+    width: 10px;
+    height: 10px;
+    width: 234px;
+    height: 78px;
+    margin-top: -194px;
+}
+
+
+
+.h3{
+    color: #fff;
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 1px;
+}
+.feel1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #fff; /* Màu chữ chính */
+  margin-top: -30px;
+  font-weight: bold;
+}
+
+/* Nhấn mạnh từ "Ridek!" */
+.feel1 span {
+  color: #ff8c00; /* Màu chữ nhấn mạnh */
+  font-style: italic; /* Kiểu chữ in nghiêng */
+  font-size: 28px; /* Tăng kích thước nhấn mạnh */
+}
+
+/* Hiệu ứng hover cho chữ nhấn mạnh */
+.feel1 span:hover {
+  color: #007bff; /* Đổi thành màu lam khi hover */
+  text-decoration: underline; /* Gạch dưới khi hover */
+}
+
+
+.taxi1{
+    color: #fff;
+    font-size: 13px;
+}
