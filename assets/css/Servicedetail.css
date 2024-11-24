@@ -1013,3 +1013,19 @@ p {
     color: #fff;
     font-size: 13px;
 }
+
+
+
+
+/*  */
+
+
+.today span {
+    color: #ff9900;
+    font-size: 50px;
+}
+
+ .today {
+    color: #fff;
+    margin-bottom: 20px;
+}
