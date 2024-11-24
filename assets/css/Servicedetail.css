@@ -883,4 +883,49 @@ p {
     padding-bottom: 1px;
     /* margin-top: -27%; */
   }
+  /* CHIA CỘT */
+
+
+
+  .container {
+    display: flex;
+    gap: 16px; /* Khoảng cách giữa các cột */
+  }
+  
+  .col-8 {
+    flex: 8;
+    /* background-color: #f0f0f0; */
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .col-4 {
+    flex: 4;
+    /* background-color: #d0d0d0; */
+    padding: 16px;
+    text-align: center;
+  }
+  /* bảng  col 4*/
+
+/* styles.css */
+/* Định dạng danh sách */
+.list-group {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .list-group-item {
+    padding: 10px 20px;
+    margin: 5px 0;
+    background-color: #007bff; /* Màu lam */
+    color: #222;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Hiệu ứng chuyển đổi màu */
+  }
+  
+  /* Đổi màu khi trỏ chuột vào */
+  .list-group-item:hover {
+    background-color: #ff8c00; /* Màu cam */
+  }
   
