@@ -963,7 +963,7 @@ p {
     border-radius: 3px;
     padding: 180px 28px;
     /* position: relative; */
-    margin-left: 63%;
+    margin-left: -3%;
     width: 397px;
         /* margin-top: 331px; */
 }  
@@ -1048,7 +1048,7 @@ p {
   margin-bottom: 20px;
   /* position: relative; */
   /* right: 81%; */
-  margin-left: 63%;
+  margin-left: -68%;
   top: 1%;
 }
 
@@ -1107,9 +1107,9 @@ p {
   padding: 0; 
   margin: 0; 
   display: flex; 
-  margin-left: 78%;
+  /* margin-left: 78%; */
   position: relative;
-  left: -15%;
+  /* left: -15%; */
 }
  
 
@@ -1146,3 +1146,35 @@ p {
   color: #fff; /* Màu chữ khi hover */
   cursor: pointer; /* Thay đổi con trỏ chuột thành hình bàn tay */
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
