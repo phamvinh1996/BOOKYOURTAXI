@@ -964,9 +964,10 @@ p {
     background-repeat: repeat;
     background-size: cover;
     border-radius: 3px;
-    padding: 179px 51px;
+    padding: 180px 28px;
     position: relative;
-    left: -83%;
+    left: -108%;
+    width: 399px;
     margin-top: 331px;
 }
 
@@ -1104,35 +1105,12 @@ p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .list {
   list-style: none; /* Xóa dấu chấm mặc định */
   padding: 0; /* Xóa khoảng cách bên trong */
   margin: 0; /* Xóa khoảng cách bên ngoài */
   display: flex; /* Thiết lập chế độ hiển thị flex */
   background-color: #f8f9fa; /* Màu nền cho danh sách */
-  margin-left: -81%;
+  margin-left: -102%;
 }
 
