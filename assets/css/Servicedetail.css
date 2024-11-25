@@ -1076,7 +1076,7 @@ p {
   text-decoration-color: orange; /* Màu gạch chân là cam */
 }
 
-/*table  */
+/*table nút tags */
 
 .list  li a {
   background-color: #eee;
@@ -1102,14 +1102,47 @@ p {
 
 
 
+.list {
+  list-style: none; 
+  padding: 0; 
+  margin: 0; 
+  display: flex; 
+  margin-left: 78%;
+  position: relative;
+  left: -15%;
+}
+ 
+
+
 
 .list {
-  list-style: none; /* Xóa dấu chấm mặc định */
-  padding: 0; /* Xóa khoảng cách bên trong */
-  margin: 0; /* Xóa khoảng cách bên ngoài */
-  display: flex; /* Thiết lập chế độ hiển thị flex */
-  background-color: #f8f9fa; /* Màu nền cho danh sách */
-  /* margin-left: -102%; */
-  margin-left: 63%;
+  display: flex;
+  flex-wrap: wrap; /* Cho phép cắt xuống dòng */
+ 
 }
 
+.list li {
+  flex: 1 1 calc(33.33% - 10px); /* Mỗi nút chiếm 1/3 chiều rộng */
+  margin: 5px; /* Khoảng cách giữa các nút */
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  background-color: #f7a20f; /* Màu nền nút */
+  color: white; /* Màu chữ */
+  text-align: center; /* Căn giữa chữ */
+  text-decoration: none; /* Bỏ gạch chân */
+  border-radius: 5px; /* Bo góc nút */
+  transition: background-color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.button:hover {
+  background-color: #f7a20f; /* Màu nền khi hover */
+}
+/* nút màu tags  */
+.list a:hover {
+  background-color: #f7a20f ;
+  color: #fff; /* Màu chữ khi hover */
+  cursor: pointer; /* Thay đổi con trỏ chuột thành hình bàn tay */
+}
