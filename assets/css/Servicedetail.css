@@ -965,7 +965,8 @@ p {
     background-size: cover;
     border-radius: 3px;
     padding: 179px 51px;
-    margin-left: -433px;
+    position: relative;
+    left: -83%;
     margin-top: 331px;
 }
 
@@ -1029,3 +1030,109 @@ p {
     color: #fff;
     margin-bottom: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+/* mau chữ tag */
+
+
+.title {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 20px;
+  position: relative;
+  right: 81%;
+  top: 1%;
+}
+
+
+
+
+.offer1  h3 {
+  font-weight: 600;
+  color: #222;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  margin: 0;
+  line-height: 1;
+}
+
+
+
+
+
+
+
+.offer1 {
+  text-decoration: underline;
+  text-decoration-color: orange; /* Màu gạch chân là cam */
+}
+
+/*table  */
+
+.list  li a {
+  background-color: #eee;
+  display: inline-block;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #666;
+  padding: 3px 15px;
+  margin: 0 3px 10px 0;
+}
+
+
+
+.list li {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list {
+  list-style: none; /* Xóa dấu chấm mặc định */
+  padding: 0; /* Xóa khoảng cách bên trong */
+  margin: 0; /* Xóa khoảng cách bên ngoài */
+  display: flex; /* Thiết lập chế độ hiển thị flex */
+  background-color: #f8f9fa; /* Màu nền cho danh sách */
+  margin-left: -81%;
+}
+
