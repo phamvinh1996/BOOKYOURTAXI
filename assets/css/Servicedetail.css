@@ -1050,6 +1050,7 @@ p {
   /* right: 81%; */
   margin-left: -68%;
   top: 1%;
+  color: #000;
 }
 
 
@@ -1154,4 +1155,25 @@ p {
   padding: 20px; /* Khoảng cách bên trong */
   border-radius: 10px; /* Bo góc cho section */
   color: white; /* Màu chữ mặc định là trắng */
+}
+
+
+
+
+
+
+.sidebar-widget {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 30px;
+}
+
+
+.category{
+  color: #000;
+}
+
+.category {
+  text-decoration: underline;
+  text-decoration-color: orange;
 }
