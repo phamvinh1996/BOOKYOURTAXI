@@ -893,7 +893,7 @@ p {
   }
   
   .col-8 {
-    flex: 8;
+    /* flex: 8; */
     /* background-color: #f0f0f0; */
     padding: 16px;
     text-align: center;
@@ -1177,3 +1177,54 @@ p {
   text-decoration: underline;
   text-decoration-color: orange;
 }
+
+/*  */
+
+
+
+
+
+/* picture col 8 */
+
+.image1 {
+  border: none;
+  outline: none;
+  max-width: 100%;
+}
+
+
+
+
+
+.Business{
+  color: #000;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-top: 1%;
+}
+
+.find1{
+  font-size: 17px;
+  color: #666;
+}
+
+.find2{
+  font-size: 17px;
+  color: #666;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
