@@ -573,11 +573,11 @@ p {
     font-size: 18px;
     animation: slide-up 0.5s ease 0.3s forwards;
     text-align: text;
-    position: relative;
-    left: 48%;
+    /* position: relative; */
+    /* left: 48%; */
     color: white;
     font-family: "Space Grotesk", sans-serif;
-    top: -483px;
+    /* top: -483px; */
   }
   
   /* Travel securely with us THE BOOK */
@@ -1757,6 +1757,7 @@ button {
   color: white;
   text-align: center;
   font-size: 20px;
+  left: 37%;
 }
 
 footer {
@@ -1894,7 +1895,7 @@ img.image-car2 {
   width: 173px;
   height: 50px;
   top: 65%;
-  left: 2%;
+  left: 6%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -2384,4 +2385,182 @@ main {
     font-weight: bold;
   }
 
+}
+
+/* code css media query */
+
+/* Media Query để ẩn header-top trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .header-top {
+      display: none; /* Ẩn phần tử */
+  }
+}
+
+
+/* Media Query để ẩn contact-info trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .contact-info {
+      display: none; /* Ẩn phần tử contact-info */
+  }
+}
+
+
+/* Media Query để ẩn nav-menu trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .nav-menu {
+      display: none; /* Ẩn nav-menu */
+  }
+}
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column; /* Đặt hướng các phần tử thành cột */
+      gap: 8px; /* Giảm khoảng cách giữa các phần tử */
+  }
+}
+
+@media (max-width: 768px) {
+  .service-details-list1, .service-features {
+      grid-template-columns: 1fr;
+  }
+}
+/* ảnh bìa */
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
+/*code css mục icon đồng hồ ô tô  */
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .service {
+    grid-template-columns: 1fr;
+  }
+
+  .service li {
+    grid-template-columns: 1fr;
+  }
+}
+/* ft */
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .description {
+      top: 0; /* Đặt vị trí top về 0 */
+      left: 20px; /* Di chuyển sang trái */
+      font-size: 16px; /* Giảm kích thước font */
+  }
+}
+
+
+/*  */
+
+
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .footer-text {
+      left: 5%; /* Di chuyển sang trái nhiều hơn */
+  
+  }
+}
+
+
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .sidebar-widget {
+    margin-left: -44px;
+    /* padding: 20px; */
+    width: 488%;
+  }
+}
+/* ảnh bìa chữ  */
+@media (max-width: 768px) {
+  .hotline01 {
+      /* top: 30%; */
+      margin-top: 96%;
+      width: 61%;
+      right: -41%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotline02 {
+    margin-top: 283px;
+        /* top: 41%; */
+        left: 19%;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .carousel-caption h1 {
+      top: -138%;
+      left: 41%;
+      font-size: 36px;
+      margin-bottom: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .taxidoct10 {
+    position: absolute;
+    top: -225%;
+    left: 50%;
+  }
+}
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .image1 {
+    max-width: 198%;
+    margin-left: -37px;
+      display: block; /* Đảm bảo hình ảnh là khối */
+  }
+}
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .Business {
+      font-size: 18px; /* Giảm kích thước chữ */
+      margin-top: 6%; /* Tăng khoảng cách từ trên xuống */
+      font-family: 'Space Grotesk', sans-serif;
+  }
+}
+
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .find1, .find2 {
+      font-size: 18px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      padding: 15px; /* Tăng padding */
+      margin-right: -57%;
+  }
+}
+
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column; /* Đặt hướng thành cột */
+      align-items: left; /* Căn giữa các phần tử */
+      padding: 20px; /* Tăng padding cho không gian */
+  }
+}
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .find3 {
+      font-size: 15px; /* Giảm kích thước chữ cho màn hình nhỏ */
+      color: #444; /* Thay đổi màu chữ để dễ đọc hơn */
+      margin-right: -57%;
+  }
 }
