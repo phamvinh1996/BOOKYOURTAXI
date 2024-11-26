@@ -1209,6 +1209,10 @@ p {
   font-size: 17px;
   color: #666;
 }
+.find3{
+  font-size: 17px;
+  color: #666;
+}
 /*  */
 
 
@@ -1287,3 +1291,53 @@ p {
 
 
 
+/*code css mục passentger */
+.service-details-list1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+  margin-top: 30px;
+}
+
+.service-details-list1 img {
+  height: 220px;
+  margin: 0;
+}
+/* thẻ chữ h3 */
+.Passenger {
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #222;
+  letter-spacing: -0.5px;
+  font-family: 'Space Grotesk', sans-serif;
+  margin-left: -32%;
+}
+/* thẻ chữ p */
+.needs{ 
+  color: #000;
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 15px;
+
+}
+
+
+.service-icon-list2 li i {
+  font-size: 20px;
+  color: #ff9900;
+}
+
+.service-icon-list2  li {
+  font-weight: 500;
+  display: flex
+;
+  align-items: center;
+  column-gap: 10px;
+  color: #666;
+}
+
+
+.service-icon-list2 li:not(:last-of-type) {
+  margin-bottom: 10px;
+}
