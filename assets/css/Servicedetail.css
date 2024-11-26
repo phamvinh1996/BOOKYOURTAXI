@@ -1985,7 +1985,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
-  margin-top: -28%;
+  /* margin-top: -28%; */
 }
 
 .side-navbar.show {
@@ -2026,6 +2026,7 @@ p {
   transform: skewX(0deg);
   padding: 12px 30px;
 }
+
 
 
 /*  */
@@ -2194,7 +2195,7 @@ main {
   /* width: 100%; Đặt chiều rộng 100% cho navbar */
   */
 }
-}
+
 
 /* code css dau 3 ghach */
 /* Định dạng chung cho biểu tượng hamburger */
@@ -2387,6 +2388,7 @@ main {
 
 }
 
+
 /* code css media query */
 
 /* Media Query để ẩn header-top trên màn hình nhỏ */
@@ -2416,7 +2418,7 @@ main {
 /* Media Query cho màn hình nhỏ */
 @media (max-width: 768px) {
   .container {
-      flex-direction: column; /* Đặt hướng các phần tử thành cột */
+      flex-direction: column; 
       gap: 8px; /* Giảm khoảng cách giữa các phần tử */
   }
 }
@@ -2550,9 +2552,9 @@ main {
 /* Media Query cho màn hình nhỏ */
 @media (max-width: 768px) {
   .container {
-      flex-direction: column; /* Đặt hướng thành cột */
+      /* flex-direction: column; Đặt hướng thành cột */
       align-items: left; /* Căn giữa các phần tử */
-      padding: 20px; /* Tăng padding cho không gian */
+      /* padding: 20px; Tăng padding cho không gian */
   }
 }
 
@@ -2708,3 +2710,4 @@ main {
       margin-top: 121px;
   }
 }
+
