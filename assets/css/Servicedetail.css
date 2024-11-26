@@ -2650,7 +2650,7 @@ main {
   .row-footer {
       flex-direction: column; /* Đặt hướng các phần tử thành cột */
       margin: 0; /* Đặt lại margin */
-      top: -134px; /* Điều chỉnh vị trí lên một chút */
+      top: -78px; /* Điều chỉnh vị trí lên một chút */
   }
 }
 
@@ -2668,7 +2668,7 @@ main {
 @media (max-width: 768px) {
   #emailInput, #subscribeBtn {
       width: 80%;
-      margin-top: 10px;
+      margin-top: 23px;
   }
 }
 
@@ -2710,4 +2710,502 @@ main {
       margin-top: 121px;
   }
 }
+/* thanh dau chéo */
+@media (max-width: 768px) {
+  .navbar-toggler .navbar-toggler-icon {
+      background: none;
+  }
+}
 
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+
+  .contact-info {
+    display: none;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .img-car001 {
+    display: none;
+    /* Ẩn phần tử */
+  }
+
+  .section-map {
+    width: 100%;
+    /* Đặt chiều rộng về 100% */
+    height: auto;
+    /* Đặt chiều cao tự động để phù hợp với nội dung */
+    padding: 16px 0;
+    /* Thay đổi padding nếu cần */
+    /* Bạn có thể thêm các thuộc tính khác nếu cần */
+    position: relative;
+    top: 85px;
+  }
+
+  .section-heading090 h4 {
+    padding-left: 82px;
+    top: -65px;
+    font-size: 14px;
+    /* Thay đổi kích thước chữ nếu cần */
+  }
+
+  .section-heading090 h4 span {
+    left: 20px;
+    /* Giảm giá trị left để dịch qua trái */
+    /* Bạn có thể thêm các thuộc tính khác nếu cần */
+  }
+
+  .description {
+    left: 20px;
+    /* Giảm giá trị left để dịch qua trái */
+    top: -134px;
+    /* Bạn có thể điều chỉnh giá trị top nếu cần */
+    font-size: 16px;
+    /* Thay đổi kích thước chữ nếu cần */
+  }
+
+  .container.cart-service .card {
+    flex: 1 1 100%;
+    /* Mỗi thẻ sẽ chiếm toàn bộ chiều rộng */
+    margin-bottom: 10px;
+    /* Khoảng cách giữa các thẻ */
+  }
+
+  .hotline01 {
+    width: 231px;
+    top: 103px;
+    right: -63px;
+  }
+
+  .hotline02 {
+    margin-top: 153%;
+    right: -17%;
+  }
+
+  .carousel-caption h1 {
+    left: 41%;
+    margin-top: -5%;
+    font-size: 36px;
+  }
+
+  .carousel-caption p {
+    top: -165px;
+    margin-right: -41%;
+  }
+
+  .chunhat01 {
+    top: -350px;
+    left: -90px;
+    position: relative;
+  }
+
+  .chunhat0 {
+    width: 173px;
+    top: -315px;
+    position: relative;
+    left: -95px;
+  }
+
+  .ridek1 {
+    margin-right: 28%;
+    font-size: 17px;
+    top: 3px;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .section-map h1 {
+    transform: translate(6%);
+    font-size: 25px;
+    position: relative;
+    top: -8px;
+  }
+
+  .section-map button {
+    position: relative;
+    top: -11px;
+    transform: translate(-138%);
+    letter-spacing: -1px;
+  }
+
+  .check-list i {
+    top: 3px;
+    position: relative;
+    left: 1px;
+  }
+
+  .easy1 {
+    right: -4px;
+    top: 1px;
+  }
+
+  .container.cart-service {
+    margin-top: -61%;
+  }
+
+  .section-heading090 h4 span {
+    left: 119px;
+  }
+
+  .section-heading090 h4 {
+    padding-left: 156px;
+  }
+
+  .background-image {
+    padding-bottom: 60px;
+  }
+
+  .background-image {
+    background-position: bottom;
+    /* height: 967px; */
+  }
+
+  .hotline {
+    margin-right: 2px;
+    margin-top: -11px;
+    width: 100%;
+  }
+
+  .hotline-text1 {
+    font-size: 20px;
+    top: 47%;
+    left: 59%;
+  }
+
+  .logo-image {
+    top: -16px;
+    right: 85px;
+    width: 65%;
+  }
+
+  .links-label {
+    margin-right: 10px;
+    white-space: nowrap;
+    position: relative;
+    top: -18px;
+    left: -10px;
+  }
+
+  #emailInput,
+  #subscribeBtn {
+    width: 40%;
+    margin-top: 23px;
+  }
+
+  #emailInput {
+    flex: 1;
+    min-width: 327px;
+    position: relative;
+    top: -41px;
+    left: -2px;
+  }
+
+  .icon-car {
+    top: 96%;
+  }
+
+  .icon-car img {
+    margin: 0 10px;
+    /* max-width: 80%; */
+    width: 78px;
+  }
+
+  .copyright-wrap {
+    padding: 1px 0;
+    /* height: 40px; */
+  }
+
+  .footer-text {
+    display: block;
+    /* margin-top: 15px; */
+    font-size: 16px;
+    /* top: -46px; */
+    position: relative;
+  }
+
+  #subscribeBtn {
+    margin-left: 10px;
+    position: relative;
+    top: -64px;
+    margin-left: -9px;
+    font-size: 16px;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+  .navbar-toggler {
+    display: block;
+    margin-top: 61px;
+    /* left: 277px; */
+    position: absolute;
+  }
+
+  .links-label {
+    margin-right: 10px;
+    white-space: nowrap;
+    position: relative;
+    top: -18px;
+    left: -10px;
+  }
+
+  /* mục footer */
+  #emailInput {
+    flex: 1;
+    min-width: 327px;
+    position: relative;
+    top: -41px;
+    left: -2px;
+  }
+
+  #emailInput,
+  #subscribeBtn {
+    width: 80%;
+    margin-top: 23px;
+  }
+
+  #subscribeBtn {
+    margin-left: 10px;
+    position: relative;
+    top: -64px;
+    width: 69%;
+    margin-left: -22px;
+    font-size: 16px;
+  }
+
+  .icon-car {
+    top: 96%;
+    /* Đưa phần tử xuống dưới hơn */
+  }
+
+  .icon-car img {
+    margin: 0 10px;
+    /* max-width: 80%; */
+    width: 78px;
+  }
+
+  .footer-text {
+    display: block;
+    /* margin-top: 15px; */
+    font-size: 16px;
+    /* top: -46px; */
+    position: relative;
+  }
+
+  .copyright-wrap {
+    padding: 1px 0;
+    /* Giảm padding để giảm chiều cao */
+    /* Hoặc bạn có thể thiết lập chiều cao cụ thể */
+    /* height: 40px; */
+  }
+
+  /* code css media DẤU CHÉO MENU */
+  .navbar-nav {
+    background-color: white;
+    position: relative;
+    width: 413px;
+    right: 311px;
+    top: 78px;
+  }
+
+
+  /* COPDE CSS MEDIA DẤU CHÉO  */
+  /* code css media feel you */
+
+  .icon-wrapper {
+    margin-top: -18px;
+    /* Giảm khoảng cách trên cho màn hình nhỏ */
+    /* gap: 5px; Giảm khoảng cách giữa các biểu tượng */
+  }
+
+  /* dich vu noi bat */
+  .second-line {
+    /* position: relative; */
+    /* left: 788px; Đặt lại vị trí bên trái về 0 */
+    margin-left: 65px;
+    top: 10px;
+    /* Đặt lại vị trí phía trên về 0 */
+    font-size: 14px;
+    /* Giảm kích thước chữ cho màn hình nhỏ */
+    white-space: nowrap;
+    color: #ddd;
+    white-space: inherit;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 21px;
+    left: 312px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -16px;
+    width: 23%;
+    height: 78px;
+  }
+
+  .logo-brand {
+    max-width: 39%;
+    margin-top: -39px;
+  }
+
+  /* dấu nhân */
+  .navbar-toggler {
+    /* position: relative;
+  top: 46px; */
+    display: block;
+    margin-top: -15px;
+    /* left: 48px; */
+    position: absolute;
+
+    .collapse {
+      position: absolute;
+    }
+
+    /* position: relative;
+    right: -338px;
+    top: 100px; */
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+
+  }
+
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+
+  .logo-brand {
+    max-width: 80%;
+    /* Tăng kích thước cho logo trên màn hình nhỏ */
+    margin-top: -43px;
+  }
+
+  .logo-0 {
+    display: none;
+    /* Hide the logo */
+  }
+
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+
+  .logo01 {
+    display: none;
+    margin-left: -293%;
+    top: 28px;
+    position: relative;
+  }
+
+  .nav-item.dropdown {
+    display: block;
+    /* Ẩn dropdown trên màn hình lớn */
+  }
+
+  .contact-nav111 {
+    display: none;
+    /* Ẩn phần tử */
+  }
+
+}
+
+@media (max-width: 767px) {
+  .carousel-item img {
+    height: 559px;
+  }
+}
+
+/* ft */
+@media only screen and (max-width: 425px) {
+  .container {
+    padding: 3px;
+    width: 100%;
+    right: -14px;
+    position: relative;
+    /* top: -16px; */
+  }
+}
+
+
+.row-footer {
+  display: flex
+;
+  flex-wrap: wrap;
+  margin: -10px;
+  position: relative;
+  top: -78px;
+}
