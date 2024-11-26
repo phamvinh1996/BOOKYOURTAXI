@@ -2564,3 +2564,147 @@ main {
       margin-right: -57%;
   }
 }
+
+/* ft */
+@media (max-width: 768px) {
+  .background-image {
+      background-position: bottom;
+      height: 967px;
+  }
+}
+@media (max-width: 768px) {
+  .hotline {
+      position: relative;
+      top: 267px;
+      right: auto;
+      width: 100%;
+      height: 86px;
+      white-space: normal;
+      text-overflow: clip;
+      clip-path: none;
+      background-image: none;
+      padding: 10px;
+      box-sizing: border-box;
+  }
+}
+@media (max-width: 768px) {
+  .hotline-text1 {
+      font-size: 20px;
+      top: 47%;
+      left: 48%;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .hotline-text0 {
+        font-size: 18px;
+        top: 47%;
+        left: 18%;
+        white-space: normal;
+        width: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+  .hotline-image {
+      float: none;
+      position: relative;
+      top: 1px;
+      width: 57px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: -17px;
+      left: -1px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .description {
+      left: -4px;
+      margin-top: 113px;
+      position: relative;
+      top: -152px;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo-image {
+      float: none;
+      position: absolute;
+      width: 250px;
+      left: 69px;
+      top: -16px;
+      display: block;
+      margin: 20px auto;
+  }
+}
+
+
+/* Media Query cho màn hình nhỏ */
+@media (max-width: 768px) {
+  .row-footer {
+      flex-direction: column; /* Đặt hướng các phần tử thành cột */
+      margin: 0; /* Đặt lại margin */
+      top: -134px; /* Điều chỉnh vị trí lên một chút */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .links-label {
+      margin-right: 10px;
+      white-space: nowrap;
+      position: relative;
+      top: -21px;
+      left: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #emailInput, #subscribeBtn {
+      width: 80%;
+      margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #emailInput {
+      flex: 1;
+      min-width: 327px;
+      position: relative;
+      top: -31px;
+      left: -2px;
+  }
+}
+@media (max-width: 768px) {
+  #subscribeBtn {
+      margin-left: 10px;
+      position: relative;
+      top: -40px;
+      width: 69%;
+      margin-left: -23px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-text {
+      display: block;
+      /* margin-top: 15px; */
+      font-size: 16px;
+      /* top: -46px; */
+      position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .icon-car img {
+      margin: 0 10px;
+      /* max-width: 80%; */
+      width: 78px;
+      margin-top: 121px;
+  }
+}
