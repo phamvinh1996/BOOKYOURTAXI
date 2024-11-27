@@ -1129,7 +1129,7 @@ p {
     /* border: 0; */
 border: 1px solid #ced4da;
 margin-top: -27px;
-width: 100%;
+width: 164%;
 
   }
   /* code css đường viền màu cam */
@@ -3406,3 +3406,11 @@ p {
 
 
 
+
+/* code css table kích cỡ  */
+/* Media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+      width: 100%; /* Adjust width for smaller screens */
+  }
+}
