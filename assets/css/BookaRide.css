@@ -374,7 +374,7 @@ p {
     border: 0;
     position: absolute;
     right: 96px;
-    top: -5px;
+    top: -21px;
   }
   
   .menu-icons .btn-search:focus {
@@ -721,7 +721,7 @@ p {
     line-height: 1;
     margin: 0 auto;
     position: absolute;
-    top: -589px;
+    top: -576px;
     /* margin-top: -35px; */
   }
   
@@ -735,7 +735,7 @@ p {
   /*  code css màu mục joney*/
   .hotline01 {
     position: absolute;
-    top: -352px;
+    top: -327px;
     right: -285px;
     background-color: #ff9900;
     padding: 10px;
@@ -774,7 +774,7 @@ p {
     /* Hiện ba chấm (...) khi quá dài */
     clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
     /* Hình dạng */
-    top: -332px;
+    top: -296px;
   }
   
   
