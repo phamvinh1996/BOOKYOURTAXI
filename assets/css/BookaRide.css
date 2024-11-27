@@ -3411,6 +3411,7 @@ p {
 /* Media query for screens smaller than 768px */
 @media (max-width: 768px) {
   .select2-container--default .select2-selection--single .select2-selection__rendered {
-      width: 100%; /* Adjust width for smaller screens */
+      width: 100%; /* Adjust width for tablet screens */
+      margin: 0 auto; /* Center the element */
   }
 }
