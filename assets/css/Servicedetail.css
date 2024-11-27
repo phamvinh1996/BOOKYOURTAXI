@@ -2874,7 +2874,7 @@ main {
   /* dấu nhân */
   .navbar-toggler {
     /* position: relative;
-top: 46px; */
+    top: 46px; */
     display: block;
     margin-top: -15px;
     /* left: 48px; */
@@ -2885,15 +2885,13 @@ top: 46px; */
     }
 
     /* position: relative;
-  right: -338px;
-  top: 100px; */
+      right: -338px;
+      top: 100px; */
   }
 
   .navbar-toggler .navbar-toggler-icon {
     background: none;
   }
-
-
   .bar1 {
     width: 41px;
     transform: rotate(45deg) translate(0, 10px);
@@ -2987,7 +2985,6 @@ top: 46px; */
     /* top: -16px; */
   }
 }
-
 .row-footer {
   display: flex;
   flex-wrap: wrap;
