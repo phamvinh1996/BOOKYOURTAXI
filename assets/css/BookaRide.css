@@ -1129,12 +1129,21 @@ p {
     /* border: 0; */
 border: 1px solid #ced4da;
 margin-top: -27px;
+width: 100%;
 
   }
-  /*  */
+  /* code css đường viền màu cam */
 
 
- 
+  .form-field:hover input,
+  .form-field:hover select {
+      border-color: orange;
+      box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Optional glow */
+  }
+  
+  .form-field:hover i {
+      color: orange;
+  }
 
 
 
@@ -3372,3 +3381,28 @@ p {
       width: 78px;
   }
 }
+
+
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .form-field input, 
+  .form-field select {
+      font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Hover effect for mobile */
+  .form-field:hover input,
+  .form-field:hover select {
+      border-color: orange;
+      box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Optional glow */
+  }
+
+  .form-field:hover i {
+      color: orange;
+  }
+}
+
+
+
+
