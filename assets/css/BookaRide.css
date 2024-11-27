@@ -374,7 +374,7 @@ p {
     border: 0;
     position: absolute;
     right: 96px;
-    top: 11px;
+    top: -5px;
   }
   
   .menu-icons .btn-search:focus {
@@ -1112,7 +1112,7 @@ p {
   }
   
   .sumit1:hover {
-    background-color: #333333;
+    background-color: #f7a20f;
     /* Màu xám khi trỏ chuột vào */
   }
   
@@ -1120,15 +1120,51 @@ p {
   
   /* tạo kích cỡ lịch */
   .select2-container--default .select2-selection--single .select2-selection__rendered {
-    background-color: #333;
+    /* background-color: #333; */
     line-height: 50px;
     /* height: 20px; */
-    color: white;
+    color: blac;
     font-size: 17px;
     text-align: left;
     /* border: 0; */
+border: 1px solid #ced4da;
+margin-top: -27px;
+
   }
-  
+  /*  */
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  */
   /* code xóa viền trắng đặt xe nhanh */
   .select2-container--default .select2-selection--single {
     border: unset !important;
@@ -2398,3 +2434,115 @@ p {
 
 
  
+  /* code css đường viền  */
+
+
+
+  .form-control {
+    border: 1px solid #ccc; /* Màu viền mặc định */
+    transition: border-color 0.3s; /* Hiệu ứng chuyển đổi */
+}
+
+.form-control:hover,
+.form-control:focus {
+    border-color: orange; /* Màu viền khi trỏ chuột hoặc khi trường được chọn */
+    outline: none; /* Xóa bỏ viền mặc định của trình duyệt */
+}
+/* code css icon */
+.form-field {
+  position: relative; /* Đặt vị trí tương đối cho phần chứa biểu tượng */
+}
+
+.form-field i {
+  position: absolute; /* Đặt vị trí tuyệt đối cho biểu tượng */
+  right: 10px; /* Cách cạnh phải 10px */
+  top: 50%; /* Giữa theo chiều dọc */
+  transform: translateY(-50%); /* Điều chỉnh để căn giữa hoàn hảo */
+  color: #aaa; /* Màu của biểu tượng */
+  pointer-events: none; /* Không cho phép tương tác với biểu tượng */
+  color: orange;
+  
+}
+/* khoảng cách form */
+.form-field {
+  margin-bottom: 35px; /* Khoảng cách giữa các trường nhập liệu */
+}
+
+.btn {
+  margin-top: 35px; /* Khoảng cách phía trên của nút bấm */
+}
+/*  */
+/* code css độ height */
+.form-field {
+  position: relative; /* Để có thể sử dụng icon */
+  margin-bottom: 35px; /* Khoảng cách giữa các trường nhập liệu */
+}
+
+.form-control {
+  height: 60px; /* Chiều cao cho các trường nhập liệu (tăng lên từ 50px) */
+  background-color: white; /* Nền trắng cho các trường nhập liệu */
+  border: 1px solid black; /* Đường viền màu đen */
+  color: #333; /* Màu chữ */
+  padding-left: 40px; /* Khoảng cách bên trái cho chữ */
+}
+
+.form-control:focus {
+  border-color: orange; /* Màu viền khi focus */
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.5); /* Hiệu ứng đổ bóng khi focus */
+}
+
+.select2-container--default .select2-selection--single {
+  height: 30px; /* Chiều cao cho Select2 (tăng lên từ 50px) */
+  background-color: white; /* Nền trắng cho Select2 */
+  border: 1px solid black; /* Đường viền màu đen */
+  border-radius: 4px; /* Góc bo tròn */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: 50px; /* Căn giữa theo chiều dọc */
+  color: black; /* Màu chữ */
+  font-size: 17px; /* Kích thước chữ */
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+  height: 30px; /* Chiều cao cho mũi tên */
+}
+
+.btn {
+  height: 30px; /* Chiều cao cho nút bấm */
+  margin-top: 35px; /* Khoảng cách phía trên của nút bấm */
+}
+
+
+
+/*nút button  */
+
+.sumit1 {
+  background-color: #ff8c00;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 267px;
+  height: 53px;
+  font-size: 17px;
+}
+
+
+.sumit1 {
+  cursor: pointer; /* Thay đổi con trỏ khi di chuột */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu mượt mà */
+}
+
+.sumit1:hover {
+  background-color: black; /* Màu nền khi di chuột */
+  color: white; /* Giữ màu chữ */
+}
+
+
+
+
+
+
+

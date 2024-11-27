@@ -270,11 +270,10 @@
 
 
 
-
+<!-- 
   <div class="section-heading06">
   
-  </div>
-  <!-- <h3> Book Your Taxi Ride</h3> -->
+
   <form class="needs-validation" novalidate>
     <div class="form-row">
       <div class="col-md-4">
@@ -344,6 +343,7 @@
           <i class="   las la-clock"></i>
         </div>
       </div>
+
       <div class="col-md-4">
         <button class="sumit1" type="button">Book Your Taxi</button>
       </div>
@@ -369,17 +369,86 @@
 
 
 
+ -->
 
 
 
 
 
 
+ <div class="container mt-5">
+  <div class="section-heading06">
+      <form class="needs-validation" novalidate>
+          <div class="form-row">
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" class="form-control" id="validationCustom01" placeholder="Your Name" required>
+                      <i class="las la-user-tie"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" class="form-control" id="validationCustom02" placeholder="Email" required>
+                      <i class="las la-envelope-open"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <select class="form-control select2" id="Standard" required>
+                          <option value="Standard">Standard</option>
+                          <option value="Business">Business</option>
+                          <option value="Economy">Economy</option>
+                          <option value="Vip Special">Vip Special</option>
+                          <option value="Comfort">Comfort</option>
+                      </select>
+                      <i class="las la-tags"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <select class="form-control select2" id="seat-select" required>
+                          <option value="1 Person">1 Person</option>
+                          <option value="2 Person">2 Person</option>
+                          <option value="3 Person">3 Person</option>
+                          <option value="4 Person">4 Person</option>
+                          <option value="5 Person">5 Person</option>
+                          <option value="6 Person">6 Person</option>
+                      </select>
+                      <i class="las la-user-friends"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" class="form-control" id="validationCustom03" placeholder="Start Destination" required>
+                      <i class="las la-map-marker"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" class="form-control" id="validationCustom05" placeholder="End Destination" required>
+                      <i class="las la-map-marker"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" id="datepicker" class="form-control" placeholder="Chọn ngày" required>
+                      <i class="las la-calendar"></i>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                  <div class="form-field">
+                      <input type="text" id="timepicker" class="form-control" placeholder="Chọn Giờ" required>
+                      <i class="las la-clock"></i>
+                  </div>
+              </div>
+              <div class="col-md-12">
 
-
-
-
-
+                <button class="sumit1" type="button">Book you Taxi</button>
+              </div>
+          </div>
+      </form>
+  </div>
+</div>
 
 
 
@@ -434,7 +503,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="../assets/lib/select2/js/select2.full.min.js"></script>
   <script src="../assets/lib/select2/js/i18n/vi.js"></script>
-  <script src="../assets/js/OurServices.js"></script>
+  <script src="../assets/js/BookaRide.js"></script>
 
 
 </body>
