@@ -3843,7 +3843,7 @@ main {
   .row-footer {
       margin-top: 79px;
       position: relative;
-      top: -68px;
+      top: -78px;
       margin-top: 97px;
   }
 }
@@ -4194,7 +4194,7 @@ main {
     margin-right: 10px;
     white-space: nowrap;
     position: relative;
-    top: -33px;
+    top: -22px;
     left: -10px;
   }
 
@@ -4376,3 +4376,38 @@ main {
 }
 
 
+@media only screen and (max-width: 425px) {
+  .container {
+      padding: 3px;
+      width: 100%;
+      /* right: -14px; */
+      position: relative;
+      /* top: -16px; */
+  }
+}
+@media (max-width: 768px) {
+  #emailInput, #subscribeBtn {
+      width: 80%;
+      margin-top: 23px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  #emailInput {
+      flex: 1;
+      min-width: 327px;
+      position: relative;
+      top: -41px;
+      left: -2px;
+  }
+}
+@media (max-width: 768px) {
+  #subscribeBtn {
+      margin-left: -9px;
+      position: relative;
+      top: -64px;
+      width: 69%;
+      font-size: 16px;
+  }
+}
