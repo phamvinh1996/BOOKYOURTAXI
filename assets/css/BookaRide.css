@@ -1142,6 +1142,11 @@ width: 100%;
   vertical-align: middle;
   width: 100%;
 }
+/*code css mục stardar & 1 person  */
+
+.select2.select2-container {
+  width: 100% !important; /* Ghi đè giá trị width inline */
+}
 
 
 
@@ -3424,4 +3429,11 @@ p {
 
 /* code css table kích cỡ  */
 /* Media query for screens smaller than 768px */
+/* mục form  stardar & 1 person */
 
+
+@media (max-width: 643px) {
+  .select2.select2-container {
+      width: 100% !important; /* Hoặc auto, hoặc một giá trị bạn muốn */
+  }
+}
