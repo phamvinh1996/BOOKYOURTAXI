@@ -435,7 +435,7 @@ p {
   /* code css tạo comtact  thanh NAV TRANGCHU...*/
   .contact-nav {
     position: absolute;
-    top: -10%;
+    top: -22%;
     /* Adjust the distance from the top as needed */
     left: 100%;
     display: flex;
@@ -1109,6 +1109,8 @@ p {
     width: 267px;
     height: 53px;
     font-size: 17px;
+    position: relative;
+    top: -17px;
   }
   
   .sumit1:hover {
