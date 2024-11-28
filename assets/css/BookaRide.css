@@ -1478,7 +1478,7 @@ width: 100%;
   
   /*  */
   .container {
-    padding: 20px;
+    padding: 3px;
   }
   
   .card {
@@ -3844,7 +3844,7 @@ main {
       margin-top: 79px;
       position: relative;
       top: -68px;
-      margin-top: 41px;
+      margin-top: 97px;
   }
 }
 @media (max-width: 768px) {
@@ -3940,12 +3940,7 @@ main {
   }
 }
 
-/* Ẩn logo trên màn hình nhỏ hơn 768px */
-@media (max-width: 768px) {
-  .logo {
-    display: none; /* Ẩn logo */
-  }
-}
+
 /* Ẩn menu và nút "Book a Taxi" trên màn hình nhỏ hơn 576px */
 @media (max-width: 576px) {
   .menu,
@@ -4008,9 +4003,9 @@ main {
   }
 
   .description {
-    left: 20px;
+    left: -3px;
     /* Giảm giá trị left để dịch qua trái */
-    top: -30px;
+    top: -39px;
     /* Bạn có thể điều chỉnh giá trị top nếu cần */
     font-size: 16px;
     /* Thay đổi kích thước chữ nếu cần */
@@ -4036,12 +4031,12 @@ main {
 
   .carousel-caption h1 {
     left: 41%;
-    margin-top: -40%;
+    margin-top: -55%;
     font-size: 36px;
   }
 
   .carousel-caption p {
-    top: -100px;
+    top: -121px;
     margin-right: -41%;
   }
 
@@ -4116,7 +4111,7 @@ main {
   .hotline {
     margin-right: 2px;
     margin-top: 178px;
-    width: 111%;
+    width: 100%;
   }
 
   .hotline-text1 {
@@ -4126,7 +4121,7 @@ main {
   }
 
   .logo-image {
-    top: 19px;
+    top: -5px;
     right: 85px;
     width: 65%;
   }
@@ -4259,7 +4254,7 @@ main {
     position: relative;
     width: 413px;
     right: 311px;
-    top: 50px;
+    top: 73px;
   }
 
 
@@ -4349,7 +4344,7 @@ main {
   .logo-brand {
     max-width: 80%;
     /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -43px;
+    margin-top: -100px;
   }
 
   .logo-0 {
@@ -4379,3 +4374,5 @@ main {
   }
 
 }
+
+
