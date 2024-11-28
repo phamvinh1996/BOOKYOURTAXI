@@ -374,7 +374,7 @@ p {
     border: 0;
     position: absolute;
     right: 96px;
-    top: -21px;
+    top: 10px;
   }
   
   .menu-icons .btn-search:focus {
@@ -386,7 +386,7 @@ p {
   .navbar-dark .navbar-toggler {
     position: relative;
     right: 7px;
-    top: -103px;
+    top: -115px;
     border: none;
     background-color: transparent;
     align-items: center;
@@ -3140,6 +3140,501 @@ p {
   color: #000;
   font-family: "Space Grotesk", sans-serif;
 }
+
+
+
+/*  */
+/* trang cuộn xuống */
+/* CODE TẠO THANH CUỘN XUỐNG */
+
+.scroll-navbar {
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-navbar .container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.scroll-navbar .navbar-brand img {
+  height: 40px;
+}
+
+.side-navbar {
+  height: 80px;
+  background-color: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  margin-top: -70px;
+}
+
+.side-navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.side-navbar li {
+  margin-right: 20px;
+}
+
+.side-navbar a {
+  color: #666;
+  text-decoration: none;
+}
+
+.logo000 {
+  position: absolute;
+  left: 190px;
+  top: 10px;
+  width: 10px;
+}
+
+.logo01 {
+  width: 188px;
+  margin-left: -538px;
+  margin-top: -50px;
+}
+
+.side-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  background-color: white;
+  color: black;
+}
+
+.side-navbar {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 15%;
+  z-index: 2;
+  /* margin-top: -28%; */
+}
+
+.side-navbar.show {
+  display: block;
+}
+
+/*  */
+.side-navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.side-navbar li {
+  margin-right: 20px;
+}
+
+.side-navbar a {
+  position: relative;
+  top: 19px;
+  color: #222;
+  font-weight: 500;
+}
+
+/* mục liện hệ  THANH CUỘN*/
+.contact-nav111 {
+  position: absolute;
+  top: 51%;
+  /* Adjust the distance from the top as needed */
+  left: 79%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: #fff;
+  transform: skewX(0deg);
+  padding: 12px 30px;
+}
+
+
+/*  */
+/* ẩn dòng heft */
+/* Ẩn dòng trên màn hình nhỏ */
+/*  */
+/* cpde css thanh cuộn tranhc chính */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+nav.menu {
+  flex: 1;
+}
+
+.scroll-menu {
+  display: flex;
+  /* overflow-x: auto; Tạo thanh cuộn ngang nếu cần */
+  white-space: nowrap;
+  /* Đảm bảo các liên kết nằm trên một dòng */
+  padding: 10px 0;
+  /* background-color: white; */
+  margin-left: 623px;
+  /* margin-top: -152px; */
+}
+
+.scroll-menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 15px 20px;
+  margin-right: 10px;
+  font-weight: bold;
+  white-space: nowrap;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: -76px;
+}
+
+.scroll-menu a:hover {
+  background-color: #ddd;
+  border-radius: 5px;
+  color: #000;
+}
+
+.logo-0 {
+  overflow: auto;
+  /* Cho phép thanh cuộn xuất hiện nếu cần */
+  max-height: 200px;
+  /* Đặt chiều cao tối đa cho phần tử */
+  width: 110px;
+  /* Chiều rộng của thanh cuộn dọc */
+  height: 50px;
+  /* Chiều cao của thanh cuộn ngang */
+  margin-top: 73px;
+  position: relative;
+  left: 290px;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+main {
+  padding-top: -80px;
+  /* Đảm bảo nội dung không bị che khuất bởi header */
+}
+
+/* Header ẩn khi cuộn lên và hiện khi cuộn xuống */
+.header-hidden {
+  top: -80px;
+  /* Ẩn header khi cuộn lên */
+
+}
+
+/*  */
+/* code css nút search trên thanh cuộn */
+.btn {
+  position: relative;
+  right: -147px;
+}
+
+/*  */
+
+.icon-imgsearch {
+  color: black;
+  background-color: white;
+}
+
+.icon-imgsearch {
+  width: 80px;
+  /* Kích thước width của icon */
+  height: 50px;
+  /* Kích thước height của icon */
+  margin-top: -113px;
+}
+
+
+/* code css nút 3 ghạch thanh cuộn */
+
+.custom-icon {
+  display: inline-block;
+  width: 30px;
+  height: 2px;
+  background-color: black;
+  position: relative;
+  top: -146%;
+  left: 159%;
+}
+
+.custom-icon::before,
+.custom-icon::after {
+  content: '';
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+
+.custom-icon::before {
+  top: -8px;
+}
+
+.custom-icon::after {
+  top: 8px;
+}
+
+.custom-toggler {
+  border: none;
+  background-color: transparent;
+}
+
+/*  */
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  margin-top: 3px;
+  margin-right: -23px;
+}
+
+/* cde css nút tìm kiếm trên thanh nav */
+
+.search-icon img,
+.menu-icon img {
+  max-width: 100%;
+  filter: brightness(0) invert(1);
+  color: white;
+}
+
+
+/*  */
+/* thanh cuộn */
+.navbar-nav {
+  flex-direction: column;
+  /* Xếp dọc các mục menu */
+  margin-left: 0;
+  /* Không có khoảng cách bên trái */
+  /* width: 100%; Đặt chiều rộng 100% cho navbar */
+  */
+}
+
+
+/* code css dau 3 ghach */
+/* Định dạng chung cho biểu tượng hamburger */
+.navbar-toggler-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  /* Kích thước chiều ngang của biểu tượng */
+  height: 25px;
+  /* Kích thước chiều cao */
+}
+
+/* dau 3 ghachj */
+
+.bar {
+  display: block;
+  height: 4px;
+  /* Chiều cao của mỗi thanh gạch */
+  background-color: #666;
+  /* Màu của thanh gạch */
+  transition: all 0.3s ease;
+}
+
+/*  */
+/* code css media nút 3 ghạch dấu nhân */
+.navbar-toggler.collapsed .bar1 {
+  transform: rotate(0deg);
+  width: 23px;
+}
+
+.navbar-toggler.collapsed .bar2 {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bar3 {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .bar1 {
+  transform: rotate(45deg) translate(0px, 14px);
+  position: relative;
+  right: -21px;
+  width: 45px;
+}
+
+.navbar-toggler:not(.collapsed) .bar2 {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .bar3 {
+  transform: rotate(-45deg) translate(-11px, -29px);
+  position: relative;
+  left: 40px;
+  top: 13px;
+  width: 47px;
+}
+
+/*  */
+/* code css media nút 3 ghạch dấu nhân */
+.navbar-toggler.collapsed .bar1 {
+  transform: rotate(0deg);
+  width: 23px;
+}
+
+.navbar-toggler.collapsed .bar2 {
+  opacity: 1;
+}
+
+.navbar-toggler.collapsed .bar3 {
+  transform: rotate(0deg);
+}
+
+.navbar-toggler:not(.collapsed) .bar1 {
+  transform: rotate(45deg) translate(0px, 14px);
+  position: relative;
+  right: -21px;
+  width: 45px;
+}
+
+.navbar-toggler:not(.collapsed) .bar2 {
+  display: none;
+}
+
+.navbar-toggler:not(.collapsed) .bar3 {
+  transform: rotate(-45deg) translate(-11px, -29px);
+  position: relative;
+  left: 40px;
+  top: 13px;
+  width: 47px;
+}
+
+/*  */
+/*tạo bảng dấu nhân chéo  */
+
+/* CSS cho navbar */
+/ .navbar {
+  position: absolute;
+  top: 0;
+  left: 350px;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin-top: -40px;
+}
+
+/* nút trên bảng */
+.navbar-toggler {
+  float: right;
+  margin: -3px;
+  width: 99px;
+  height: 56px;
+  color: #f4f4f4;
+  margin-top: 96px;
+}
+
+.navbar-nav {
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-item {
+  margin: 5px 0;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  display: none;
+}
+
+.hotline-image1 {
+  left: -49px;
+  top: 106px;
+  /* Điều chỉnh vị trí lên hoặc xuống */
+  font-size: 40px;
+  /* Giảm kích thước biểu tượng cho di động */
+}
+
+.navbar-left {
+  display: block;
+  /* Ẩn navbar-left khi màn hình nhỏ */
+}
+
+.navbar-right {
+  display: block;
+  /* Ẩn navbar-right khi màn hình nhỏ */
+}
+
+/* code  */
+
+/* code css tạo bảng thanh dấu nhân chéo*/
+.menu-table {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.menu-item {
+  border-bottom: 1px solid black;
+}
+
+.menu-item:last-child {
+  border-bottom: none;
+}
+
+.nav-link {
+  display: block;
+  padding: 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.nav-link:hover {
+  background-color: #f8f9fa;
+  color: black;
+
+  .navbar-nav .nav-link {
+    padding-right: 100px;
+    padding-left: 0;
+    font-weight: bold;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* code css media */
 
