@@ -578,10 +578,10 @@ p {
     animation: slide-up 0.5s ease 0.3s forwards;
     text-align: text;
     position: relative;
-    /* left: 48%; */
+    left: 48%;
     color: white;
     font-family: "Space Grotesk", sans-serif;
-    /* top: -483px; */
+    top: -483px;
   }
   
   /* Travel securely with us THE BOOK */
@@ -701,7 +701,7 @@ p {
   /*  */
   /*dòng chữ book you taxi hình 1  */
   .taxidoct10 {
-    margin-top: 36px;
+    margin-left: 0%;
   }
   
   /* code css mục màu chữ about */
@@ -1129,9 +1129,24 @@ p {
     /* border: 0; */
 border: 1px solid #ced4da;
 margin-top: -27px;
-width: 164%;
-
+width: 100%;
   }
+
+/* code css form mục standard & 1 person */
+
+.select2-container {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+
+
+
   /* code css đường viền màu cam */
 
 
@@ -3190,7 +3205,7 @@ p {
 @media (max-width: 768px) {
   .carousel-caption p {
     position: absolute;
-      top: -95%;
+      top: -75%;
       left: 50%;
       transform: translateX(-50%);
       font-size: 16px;
@@ -3409,9 +3424,4 @@ p {
 
 /* code css table kích cỡ  */
 /* Media query for screens smaller than 768px */
-@media (max-width: 768px) {
-  .select2-container--default .select2-selection--single .select2-selection__rendered {
-      width: 100%; /* Adjust width for tablet screens */
-      margin: 0 auto; /* Center the element */
-  }
-}
+
