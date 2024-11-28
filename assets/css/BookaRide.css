@@ -3373,8 +3373,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -146%;
-  left: 159%;
+  top: -129%;
+  left: 189%;
 }
 
 .custom-icon::before,
@@ -3930,5 +3930,26 @@ main {
 @media (max-width: 643px) {
   .select2.select2-container {
       width: 100% !important; /* Hoặc auto, hoặc một giá trị bạn muốn */
+  }
+}
+
+/* Ẩn navbar khi màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .side-navbar {
+    display: none;
+  }
+}
+
+/* Ẩn logo trên màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .logo {
+    display: none; /* Ẩn logo */
+  }
+}
+/* Ẩn menu và nút "Book a Taxi" trên màn hình nhỏ hơn 576px */
+@media (max-width: 576px) {
+  .menu,
+  .contact-nav111 {
+    display: none; /* Ẩn menu và nút "Book a Taxi" */
   }
 }
