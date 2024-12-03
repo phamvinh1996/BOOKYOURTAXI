@@ -3642,20 +3642,9 @@ margin-left: -19%;
 
 
 
-@media only screen and (max-width: 600px) {
-  .description {
-      position: relative;
-      top: -25px;
-      left: -1px;
-      width: 90%;
-      margin: 0 auto;
-      text-align: center;
-      font-size: 16px;
-  }
-}
 
 
-@media only screen and (max-width: 600px) {
+/* @media only screen and (max-width: 600px) {
   .logo-image {
       float: none;
       position: absolute;
@@ -3665,7 +3654,7 @@ margin-left: -19%;
       display: block;
       margin: 20px auto;
   }
-}
+} */
 
 
 
@@ -3868,7 +3857,7 @@ margin-left: -19%;
   }
 
   .logo-image {
-    top: 19px;
+    top: 3px;
     right: 85px;
     width: 65%;
   }
@@ -4115,4 +4104,9 @@ margin-left: -19%;
     /* Ẩn phần tử */
   }
 
+}
+
+
+.contact-info, .subscribe {
+  margin-top: 35px;
 }
