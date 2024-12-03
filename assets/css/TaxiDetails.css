@@ -3437,7 +3437,7 @@ img.image-car1 {
 .taxi1 {
   grid-template-columns: 1fr;
   position: relative;
-  left: -19px;
+  left: -51px;
 }
 .centered-text {
   font-size: 20px; /* Giảm kích thước phông chữ */
@@ -3460,9 +3460,10 @@ margin-left: -19%;
   margin-bottom: 10px; /* Giảm khoảng cách dưới */
   top: 30px; /* Điều chỉnh vị trí lên trên */
   letter-spacing: -0.2px;
+  margin-left: -17%;
 }
 .about-us {
-  left: -8%; /* Di chuyển sang phải cho màn hình nhỏ */
+  left: -15%; /* Di chuyển sang phải cho màn hình nhỏ */
   font-size: 25px; /* Giảm kích thước chữ */
   line-height: 36px; /* Điều chỉnh chiều cao dòng */
   top: 0; /* Điều chỉnh vị trí lên trên */
@@ -3509,6 +3510,14 @@ margin-left: -19%;
   top: -290px;
   left: -43%;
 }
+.tintuc1 {
+  top: -40px; /* Điều chỉnh vị trí lên trên */
+  margin-left: 23%; /* Giảm khoảng cách bên trái */
+}
+.container.cart-service {
+  top: -195px; /* Điều chỉnh vị trí lên trên cho màn hình nhỏ */
+}
+
 }
 
 
@@ -3524,18 +3533,178 @@ margin-left: -19%;
 
 
 
-
-/* Media query cho màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
-  .tintuc1 {
-      top: -40px; /* Điều chỉnh vị trí lên trên */
-      margin-left: 23%; /* Giảm khoảng cách bên trái */
+  .hotline {
+      position: relative;
+      top: 252px;
+      right: auto;
+      width: 100%;
+      height: 86px;
+      white-space: normal;
+      text-overflow: clip;
+      clip-path: none;
+      background-image: none;
+      padding: 10px;
+      box-sizing: border-box;
   }
 }
 
+@media (max-width: 768px) {
+  .hotline-text1 {
+      font-size: 20px;
+      top: 47%;
+      left: 48%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hotline-text0 {
+      font-size: 18px;
+      top: 47%;
+      left: 18%;
+      white-space: normal;
+      width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .hotline-image {
+      float: none;
+      position: relative;
+      top: 1px;
+      left: 1px;
+      /* left: -165px; */
+      width: 57px;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 10px;
+      margin-top: -17px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .description {
+      position: relative;
+      top: -25px;
+      left: -1px;
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 16px;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .logo-image {
+      float: none;
+      position: absolute;
+      width: 250px;
+      top: -7px;
+      left: 99px;
+      display: block;
+      margin: 20px auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .background-image {
+      background-position: bottom;
+  }
+}
+@media (max-width: 768px) {
+  .background-image {
+      height: 967px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .row-footer {
+      display: flex;
+      flex-direction: column;
+  }
+}
+.row-footer {
+  display: flex
+;
+  flex-wrap: wrap;
+  margin: -10px;
+  position: relative;
+  top: -39px;
+}
+
+@media only screen and (max-width: 425px) {
+  .container {
+      padding: 10px;
+      width: 100%;
+      right: -14px;
+      position: relative;
+  }
+}
+
+
 /* Media query cho màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
-  .container.cart-service {
-      top: -195px; /* Điều chỉnh vị trí lên trên cho màn hình nhỏ */
+  .row-footer {
+      margin-top: 0; /* Điều chỉnh margin-top cho màn hình nhỏ */
+      top: 17px; /* Điều chỉnh vị trí lên trên */
+  }
+}
+
+@media (max-width: 768px) {
+  .links-label {
+      margin-right: 10px;
+      white-space: nowrap;
+      position: relative;
+      top: -16px;
+      left: -10px;
+  }
+}
+
+@media (max-width: 768px) {
+  #emailInput {
+      flex: 1;
+      min-width: 327px;
+      position: relative;
+      top: -15px;
+      left: -13px;
+  }
+}
+
+@media (max-width: 768px) {
+  #subscribeBtn {
+      margin-left: 10px;
+      position: relative;
+      top: -15px;
+      width: 45%;
+      margin-left: -21px;
+      font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .icon-car {
+      flex-direction: row;
+      justify-content: center;
+      top: 23px;
+      position: relative;
+  }
+}
+@media (max-width: 768px) {
+  .icon-car img {
+      margin: 0 10px;
+      /* max-width: 80%; */
+      width: 78px;
+  }
+}
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .hotline {
+margin-top: -57%;
   }
 }
