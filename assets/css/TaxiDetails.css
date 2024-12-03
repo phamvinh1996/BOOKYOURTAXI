@@ -3431,7 +3431,6 @@ main {
 }
 img.image-car1 {
   left: 1%; /* Di chuyển sang phải cho màn hình nhỏ */
-  width: 121%;
 }
 /* about company */
 .taxi1 {
@@ -3452,7 +3451,7 @@ margin-left: -19%;
 }
 .image-container {
   flex-direction: column; /* Đổi chiều sắp xếp thành cột */
-  margin-right: 13%; /* Đặt lại margin nếu cần */
+  margin-right: 11%; /* Đặt lại margin nếu cần */
 }
 .pict1 {
   font-size: 16px; /* Giảm kích thước chữ */
@@ -3463,8 +3462,8 @@ margin-left: -19%;
   margin-left: -17%;
 }
 .about-us {
-  left: -15%; /* Di chuyển sang phải cho màn hình nhỏ */
-  font-size: 25px; /* Giảm kích thước chữ */
+  left: -8%; /* Di chuyển sang phải cho màn hình nhỏ */
+  font-size: 23px; /* Giảm kích thước chữ */
   line-height: 36px; /* Điều chỉnh chiều cao dòng */
   top: 0; /* Điều chỉnh vị trí lên trên */
   white-space: nowrap;
@@ -3635,14 +3634,6 @@ margin-left: -19%;
   top: -39px;
 }
 
-@media only screen and (max-width: 425px) {
-  .container {
-      padding: 10px;
-      width: 100%;
-      right: -14px;
-      position: relative;
-  }
-}
 
 
 /* Media query cho màn hình nhỏ hơn 768px */
@@ -3688,7 +3679,7 @@ margin-left: -19%;
   .icon-car {
       flex-direction: row;
       justify-content: center;
-      top: 23px;
+      top: -11px;
       position: relative;
   }
 }
@@ -3711,14 +3702,8 @@ margin-top: -57%;
 
 
 
-@media only screen and (max-width: 425px) {
-  .container {
-      padding: 10px;
-      width: 100%;
-      right: -14px;
-      position: relative;
-  }
-}
+
+
 
 @media (max-width: 768px) {
   .footer-text {
