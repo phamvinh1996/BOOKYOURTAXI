@@ -12,7 +12,7 @@ $(document).ready(function () {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false, // Tự động chuyển đổi slide
+      autoplay: true, // Tự động chuyển đổi slide
       autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
     });
   

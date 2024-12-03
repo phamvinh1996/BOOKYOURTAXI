@@ -2870,7 +2870,7 @@ footer {
 img.image-car1 {
   left: 0%;
   position: relative;
-  width: 300px;
+  width: 100%;
 
 }
 
@@ -3396,4 +3396,146 @@ main {
     font-weight: bold;
   }
 
+}
+
+/* code css media  */
+
+
+
+@media (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+  .contact-info {
+    display: none;
+  }
+  .nav-menu {
+    display: none;
+  }
+  .section-heading090 h4 {
+    /* padding-left: 76px; Giảm padding-left cho phù hợp */
+    font-size: 12px; /* Điều chỉnh kích thước chữ */
+    line-height: 14px; /* Điều chỉnh chiều cao dòng */
+    top: -15px; /* Điều chỉnh vị trí */
+    left: -173%;
+    /* left: -177%; Đặt lại vị trí bên trái */
+    white-space: nowrap; /* Ngăn không cho chữ xuống dòng */
+}
+/* about company */
+.form-group {
+  right: -11px; /* Di chuyển sang trái cho màn hình nhỏ */
+  top: 31%; /* Điều chỉnh vị trí lên trên */
+}
+.description {
+  left: -21px; /* Di chuyển sang trái khi màn hình nhỏ */
+}
+img.image-car1 {
+  left: 1%; /* Di chuyển sang phải cho màn hình nhỏ */
+  width: 121%;
+}
+/* about company */
+.taxi1 {
+  grid-template-columns: 1fr;
+  position: relative;
+  left: -19px;
+}
+.centered-text {
+  font-size: 20px; /* Giảm kích thước phông chữ */
+  margin-top: 30%;
+}
+.slick-prev.slick-arrow {
+  display: none; /* Ẩn nút */
+  margin-left: 0%;
+}
+.slick-next.slick-arrow{
+margin-left: -19%;
+}
+.image-container {
+  flex-direction: column; /* Đổi chiều sắp xếp thành cột */
+  margin-right: 13%; /* Đặt lại margin nếu cần */
+}
+.pict1 {
+  font-size: 16px; /* Giảm kích thước chữ */
+  line-height: 22px; /* Giảm chiều cao dòng */
+  margin-bottom: 10px; /* Giảm khoảng cách dưới */
+  top: 30px; /* Điều chỉnh vị trí lên trên */
+  letter-spacing: -0.2px;
+}
+.about-us {
+  left: -8%; /* Di chuyển sang phải cho màn hình nhỏ */
+  font-size: 25px; /* Giảm kích thước chữ */
+  line-height: 36px; /* Điều chỉnh chiều cao dòng */
+  top: 0; /* Điều chỉnh vị trí lên trên */
+  white-space: nowrap;
+  color: #000;
+}
+.section-heading h4 {
+  right: -20px; /* Di chuyển sang trái cho màn hình nhỏ */
+  font-size: 14px; /* Giảm kích thước chữ */
+  line-height: 14px; /* Điều chỉnh chiều cao dòng */
+  top: -10px; /* Điều chỉnh vị trí lên trên */
+}
+
+
+.hotline01 {
+  top: 46%;
+  width: 61%;
+  right: -46%;
+}
+.hotline02 {
+  top: 51%;
+  left: 16%;
+}
+.carousel-caption h1 {
+  top: 26%;
+  left: 39%;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+.carousel-caption p {
+  position: relative;
+  top: -150px;
+  left: 98px;
+  transform: translateX(-50%);
+  font-size: 16px;
+}
+.chunhat0 {
+  position: relative;
+  top: -252px;
+  right: 127px;
+  width: 39%;
+}
+.chunhat01 {
+  top: -290px;
+  left: -43%;
+}
+}
+
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
+
+
+
+
+
+
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .tintuc1 {
+      top: -40px; /* Điều chỉnh vị trí lên trên */
+      margin-left: 23%; /* Giảm khoảng cách bên trái */
+  }
+}
+
+/* Media query cho màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .container.cart-service {
+      top: -195px; /* Điều chỉnh vị trí lên trên cho màn hình nhỏ */
+  }
 }
