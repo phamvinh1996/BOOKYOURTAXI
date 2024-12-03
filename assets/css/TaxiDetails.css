@@ -1521,7 +1521,7 @@ img.image-car2 {
 
 /*  */
 .container {
-  padding: 20px;
+  padding: 3px;
 }
 
 .card {
@@ -3783,7 +3783,7 @@ margin-left: -19%;
   }
 
   .carousel-caption p {
-    top: -165px;
+    top: -148px;
     /* margin-right: -41%; */
   }
 
@@ -3996,7 +3996,7 @@ margin-left: -19%;
     position: relative;
     width: 413px;
     right: 311px;
-    top: 21%;
+    top: 15%;
   }
 
 
