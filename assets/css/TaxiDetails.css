@@ -728,7 +728,7 @@ div#offcanvasDarkNavbar {
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -589px;
+  top: -605px;
   /* margin-top: -35px; */
 }
 
@@ -2365,7 +2365,7 @@ img.image-car2 {
 /*  */
 .slick-prev.slick-arrow {
   /* transform: translateY(360%); */
-  margin-left: 100%;
+  margin-left: 98%;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -2374,7 +2374,7 @@ img.image-car2 {
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
   position: absolute;
-  top: 47%;
+  top: 50%;
 }
 
 .slick-prev.slick-arrow:before {
