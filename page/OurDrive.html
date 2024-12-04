@@ -28,9 +28,59 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 </head>
-
 <body>
 
+
+
+
+
+
+
+
+  
+  <!--  -->
+  <!--  code html thanh cuộn-->
+  <header>
+    <nav class="side-navbar show" id="nav-scroll">
+      <div class="logo">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo-0">
+      </div>
+      <nav class="menu">
+        <div class="scroll-menu">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+          <div class="button-container">
+            <button type="button" class="btn btn-icon" data-toggle="modal" data-target="#myModal">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg" alt="Search Icon"
+                class="icon-imgsearch">
+            </button>
+          </div>
+          <nav class="navbar navbar-dark navbar-colright1">
+            <div class="container-fluid">
+              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="custom-icon"></span>
+              </button>
+            </div>
+          </nav>
+          <div class="contact-nav111"> Book a Taxi </div>
+        </div>
+        </div>
+  </header>
+  <script>
+    window.addEventListener('scroll', function () {
+      var navbar = document.getElementById('nav-scroll');
+      if (window.scrollY > 250) {
+        navbar.classList.add('show');
+      } else {
+        navbar.classList.remove('show');
+      }
+    });
+  </script>
 
   <!-- tạo lien tinh oto -->
   <div class="header-top">
@@ -56,8 +106,6 @@
     </div>
   </div>
   </header>
-
-  
   <!-- Tạo Logo RIDEK-->
   <div class="container">
     <div class="logo-container">
@@ -88,31 +136,10 @@
     </div>
   </div>
   </div>
-    <!-- Thanh Nav Tìm kiếm, trang chủ... -->
+  <!-- Thanh Nav Tìm kiếm, trang chủ... -->
   <!-- tạo html tạo mục tìm kiếm mục search trong thanh NAV để ngoài -->
   <!-- <div class="nav-menu">  -->
   <!-- Modal -->
-
-
-  <!-- <div class="modal fade" id="myModal" role="dialog">
-      <div class="modal-dialog">  -->
-  <!-- Modal content-->
-  <!-- <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title"> </h4>
-          </div>
-          <nav class="navbar bg-body-tertiary search-bar">
-            <div class="container-fluid">
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Type Keyword here..." aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-              </form>
-            </div>
-          </nav>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>  -->
   <!--  -->
 
   <div class="nav-menu">
@@ -187,66 +214,33 @@
             </ul>
           </li>
         </ul>
-        <!-- <ul class="menu">
+
+        <ul class="menu">
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <b class="caret"></b></a>
+            <a href="./AboutUs.html" class="dropdown-toggle" data-toggle="dropdown">page <b class="caret"></b></a>
             <ul class="dropdown-menu">
-              <li><a href="./pages/questions.html" class="black-text">Home Defaul</a></li>
+              <li><a href="./OurDrive.html" class="black-text">Our Drive</a></li>
               <li>
                 <hr class="dropdown-divider">
               </li>
-              <li><a href="./pages/CustomerFeedback.html" class="black-text">Home Modern</a></li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">About Company</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./OurServices.html" class="black-text">Our Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Service Details</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Book A Ride</a></li>
             </ul>
-
-
-
-
-      
           </li>
-        </ul> -->
-  
-        <ul class="menu">
-            <li class="dropdown">
-              <a href="./AboutUs.html" class="dropdown-toggle" data-toggle="dropdown">page <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li><a href="./OurDrive.html" class="black-text">Our Drive</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a href="./pages/CustomerFeedback.html" class="black-text">About Company</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a href="./OurServices.html" class="black-text">Our Services</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a href="./pages/CustomerFeedback.html" class="black-text">Service Details</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a href="./pages/CustomerFeedback.html" class="black-text">Book A Ride</a></li>
-              </ul>
-            </li>
-          </ul>
-
-
-
-
-
-
-
-
-
-
-
-
+        </ul>
 
         <!--  -->
-
-
-
-
 
         <ul class="menu">
           <li class="dropdown">
@@ -257,10 +251,6 @@
                 <hr class="dropdown-divider">
               </li>
               <li><a href="./pages/CustomerFeedback.html" class="black-text">Home Modern</a></li>
-
-
-
-
             </ul>
           </li>
         </ul>
@@ -307,8 +297,6 @@
     </nav>
   </div>
 
-
-
   <!-- TẠO ảnh nền  book your taxi  -->
   <!-- code html tạo book your -->
   <!-- code html tạo book your -->
@@ -335,161 +323,144 @@
   </div>
   </div>
 
-
-    <!--  -->
-    <section class="choose-your-taxi">
-
-        <div class="container">
-    
-          <div class="centered-text">
-            <div class="section-heading007 wow bounceInUp" style="animation-duration: 6s;">
-          
+  <!--  -->
+  <section class="choose-your-taxi">
+    <div class="container">
+      <div class="centered-text">
+        <div class="section-heading007 wow bounceInUp" style="animation-duration: 6s;">
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-1.jpg" alt="Image 1" class="anh1">
+            <div class=" chunhat1">
+              <!-- <a href="the1"> felix leguee</a> -->
+              <p class="the1"> feliz legue</p>
+              <!-- <div class="chunhat2">
+                    <p class="the2"> BMN X5 2008</p> -->
             </div>
-        
+            <div class="chunhat2">
+              <p class="the2"> BMN X5 2008</p>
+            </div>
           </div>
-    
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-1.jpg" alt="Image 1" class="anh1">
-                <div class=" chunhat1">
-                  <!-- <a href="the1"> felix leguee</a> -->
-                  <p class="the1"> feliz legue</p>
-                  <!-- <div class="chunhat2">
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-2.jpg" alt="Image 2" class="anh2">
+            <div class=" chunhat1">
+              <p class="the1"> feliz legue</p>
+              <!-- <div class="chunhat2">
                     <p class="the2"> BMN X5 2008</p> -->
-                </div>
-                <div class="chunhat2">
-                  <p class="the2"> BMN X5 2008</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-2.jpg" alt="Image 2" class="anh2">
-                <div class=" chunhat1">
-                  <p class="the1"> feliz legue</p>
-                  <!-- <div class="chunhat2">
-                    <p class="the2"> BMN X5 2008</p> -->
-                </div>
-                <div class="chunhat2">
-                  <p class="the2"> BMN X5 2008</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-3.jpg" alt="Image 3" class="anh3">
-                <div class=" chunhat1">
-                  <p class="the1"> feliz legue</p>
-                  <!-- <div class="chunhat2">
-                    <p class="the2"> BMN X5 2008</p> -->
-                </div>
-                <div class="chunhat2">
-                  <p class="the2"> BMN X5 2008</p>
-                </div>
-              </div>
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-4.jpg" alt="Image 4" class="anh4">
-                <div class=" chunhat1">
-                  <p class="the1"> feliz legue</p>
-                  <!-- <div class="chunhat2">
-                    <p class="the2"> BMN X5 2008</p> -->
-                </div>
-                <div class="chunhat2">
-                  <p class="the2"> BMN X5 2008</p>
-                </div>
-              </div>
             </div>
-    
-            
-<!--  -->
-
-<div class="the1"> 
-
-</div>
-</div>
-<div class="row">
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-1.jpg" alt="Image 1" class="anh1">
-      <div class=" chunhat1">
-        <!-- <a href="the1"> felix leguee</a> -->
-        <p class="the1"> feliz legue</p>
-        <!-- <div class="chunhat2">
+            <div class="chunhat2">
+              <p class="the2"> BMN X5 2008</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-3.jpg" alt="Image 3" class="anh3">
+            <div class=" chunhat1">
+              <p class="the1"> feliz legue</p>
+              <!-- <div class="chunhat2">
+                    <p class="the2"> BMN X5 2008</p> -->
+            </div>
+            <div class="chunhat2">
+              <p class="the2"> BMN X5 2008</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12">
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-4.jpg" alt="Image 4" class="anh4">
+            <div class=" chunhat1">
+              <p class="the1"> feliz legue</p>
+              <!-- <div class="chunhat2">
+                    <p class="the2"> BMN X5 2008</p> -->
+            </div>
+            <div class="chunhat2">
+              <p class="the2"> BMN X5 2008</p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div class="the1">
+        </div>
+      </div> 
+      <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-1.jpg" alt="Image 1" class="anh1">
+          <div class=" chunhat1">
+            <!-- <a href="the1"> felix leguee</a> -->
+            <p class="the1"> feliz legue</p>
+            <!-- <div class="chunhat2">
           <p class="the2"> BMN X5 2008</p> -->
-      </div>
-      <div class="chunhat2">
-        <p class="the2"> BMN X5 2008</p>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-2.jpg" alt="Image 2" class="anh2">
-      <div class=" chunhat1">
-        <p class="the1"> feliz legue</p>
-        <!-- <div class="chunhat2">
+          </div>
+          <div class="chunhat2">
+            <p class="the2"> BMN X5 2008</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-2.jpg" alt="Image 2" class="anh2">
+          <div class=" chunhat1">
+            <p class="the1"> feliz legue</p>
+            <!-- <div class="chunhat2">
           <p class="the2"> BMN X5 2008</p> -->
-      </div>
-      <div class="chunhat2">
-        <p class="the2"> BMN X5 2008</p>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-3.jpg" alt="Image 3" class="anh3">
-      <div class=" chunhat1">
-        <p class="the1"> feliz legue</p>
-        <!-- <div class="chunhat2">
+          </div>
+          <div class="chunhat2">
+            <p class="the2"> BMN X5 2008</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-3.jpg" alt="Image 3" class="anh3">
+          <div class=" chunhat1">
+            <p class="the1"> feliz legue</p>
+            <!-- <div class="chunhat2">
           <p class="the2"> BMN X5 2008</p> -->
-      </div>
-      <div class="chunhat2">
-        <p class="the2"> BMN X5 2008</p>
-      </div>
-    </div>
-    <div class="col-lg-3 col-md-6 col-sm-12">
-      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-4.jpg" alt="Image 4" class="anh4">
-      <div class=" chunhat1">
-        <p class="the1"> feliz legue</p>
-        <!-- <div class="chunhat2">
+          </div>
+          <div class="chunhat2">
+            <p class="the2"> BMN X5 2008</p>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+          <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-4.jpg" alt="Image 4" class="anh4">
+          <div class=" chunhat1">
+            <p class="the1"> feliz legue</p>
+            <!-- <div class="chunhat2">
           <p class="the2"> BMN X5 2008</p> -->
+          </div>
+          <div class="chunhat2">
+            <p class="the2"> BMN X5 2008</p>
+          </div>
+        </div>
       </div>
-      <div class="chunhat2">
-        <p class="the2"> BMN X5 2008</p>
+    </div>
+    </div>
+
+    <!-- code thanh nav nút menu -->
+    <div class="offcanvas offcanvas-end text-bg-dark popup" tabindex="-1" id="offcanvasDarkNavbar"
+      aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item" style="display: none;">
+          <a class="nav-link" href="#"> </a>
+        </li>
+      </ul>
+      <div class="navbar-on1">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-light.png" alt="Logo" class="logoridekft">
+        <br>
+        <br>
+        <p class="every111"> Everything your taxi business needs is <br> already here! Ridek, a theme made for <br>
+          taxi
+          service companies. </p>
+      </div>
+      <div class="navbar-on1">
+        <!-- <p>Call for Ride: 0909 123 456</p><br> -->
+        <p><span class="call-for-ride">Call for Ride:</span> <span class="phone-number">5267-214-392</span></p>
+        <p class="find1">You Can Find Us At:</p>
+        <p class="doctt1"> Halk Street New York, USA - 2386</p>
+        <p class="email">Email Now: </p>
+        <p class="doctt1"> Info.ridek@mail.com</p>
       </div>
     </div>
-  </div>
-</div>
-</div>
-
-
-
-
-
-
-
-
-  <!-- code thanh nav nút menu -->
-  <div class="offcanvas offcanvas-end text-bg-dark popup" tabindex="-1" id="offcanvasDarkNavbar"
-    aria-labelledby="offcanvasDarkNavbarLabel">
-    <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> </h5>
-      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-    </div>
-    <ul class="navbar-nav">
-      <li class="nav-item" style="display: none;">
-        <a class="nav-link" href="#"> </a>
-      </li>
-    </ul>
-    <div class="navbar-on1">
-      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-light.png" alt="Logo" class="logoridekft">
-      <br>
-      <br>
-      <p class="every111"> Everything your taxi business needs is <br> already here! Ridek, a theme made for <br>
-        taxi
-        service companies. </p>
-    </div>
-    <div class="navbar-on1">
-      <!-- <p>Call for Ride: 0909 123 456</p><br> -->
-      <p><span class="call-for-ride">Call for Ride:</span> <span class="phone-number">5267-214-392</span></p>
-      <p class="find1">You Can Find Us At:</p>
-      <p class="doctt1"> Halk Street New York, USA - 2386</p>
-      <p class="email">Email Now: </p>
-      <p class="doctt1"> Info.ridek@mail.com</p>
-    </div>
-  </div>
 
 
     <!-- code foooter -->
@@ -598,8 +569,8 @@
           <p class="footer-text"> © 2024 DynamicLayers All Rights Reserved.</p>
         </div>
       </div>
-  </div>
-  </footer>
+      </div>
+    </footer>
 
 
 
@@ -638,19 +609,18 @@
 
 
 
-    
 
 
-        <!-- code script -->
-        <script src="../assets/lib/jquery/jquery.min.js"></script>
-        <script src="../assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
-        <script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="../assets/lib/select2/js/select2.full.min.js"></script>
-        <script src="../assets/lib/select2/js/i18n/vi.js"></script>
-        <script src="../assets/js/OurDrive.js"></script>
+
+    <!-- code script -->
+    <script src="../assets/lib/jquery/jquery.min.js"></script>
+    <script src="../assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
+    <script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../assets/lib/select2/js/select2.full.min.js"></script>
+    <script src="../assets/lib/select2/js/i18n/vi.js"></script>
+    <script src="../assets/js/OurDrive.js"></script>
 
 
 </body>
-
 </html>
