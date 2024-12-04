@@ -3527,15 +3527,15 @@ main {
   }
 
 
-  .hotline01 {
+  /* .hotline01 {
     top: 46%;
     width: 61%;
     right: -46%;
-  }
+  } */
 
   .hotline02 {
     top: 51%;
-    left: 16%;
+    left: 7%;
   }
 
   .carousel-caption h1 {
@@ -3832,12 +3832,12 @@ main {
 
   .hotline01 {
     width: 231px;
-    top: 103px;
-    right: -63px;
+    top: 96px;
+    right: -152px;
   }
 
   .hotline02 {
-    margin-top: 153%;
+    margin-top: -5%;
     right: -17%;
   }
 

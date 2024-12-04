@@ -2307,3 +2307,45 @@
       font-weight: bold;
     }
   }
+
+  /* code css media */
+
+
+  @media (max-width: 768px) {
+    .header-top {
+      display: none;
+    }
+
+
+    .contact-info {
+      display: none;
+    }
+    .nav-menu {
+      display: none;
+    }
+    .contact-nav111 {
+      display: none; /* Ẩn phần tử khi chiều rộng màn hình nhỏ hơn hoặc bằng 768px */
+  }
+.logo-0{
+  display: none;
+}
+.side-navbar.show {
+  display: none;
+}
+/* footer */
+.description {
+  top: 17px;
+  left: 15px; /* Dịch chuyển qua trái */
+  font-size: 16px; /* Có thể điều chỉnh kích thước font nếu cần */
+}
+
+  }
+
+
+
+
+  @media (max-width: 767px) {
+    .carousel-item img {
+        height: 559px;
+    }
+}
