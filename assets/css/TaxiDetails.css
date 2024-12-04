@@ -1134,6 +1134,46 @@ p {
 
 /*  */
 
+
+.price01 {
+  background-color: #222;
+  background-image: url(https://html.dynamiclayers.net/dl/ridek/assets/img/texture.png);
+  background-repeat: repeat;
+  background-size: cover;
+  clip-path: polygon(85% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
+  width: auto;
+  padding: 15px 25px;
+  position: absolute;
+  right: 37px;
+  top: 71px;
+  display: flex
+;
+  align-items: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  z-index: -1;
+}
+
+ .price01 i {
+  font-size: 25px;
+  color: #ff9900;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 img.image-car1 {
   left: -9%;
   position: relative;
@@ -4183,3 +4223,8 @@ main {
 }
 
 
+@media (max-width: 768px) {
+  .price01 {
+    right: -27px; /* Điều chỉnh giá trị này để di chuyển qua phải */
+  }
+}
