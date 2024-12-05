@@ -2705,9 +2705,9 @@ footer {
 }
 
 img.image-car1 {
-  left: 0%;
+  left: 15%;
   position: relative;
-  width: 300px;
+  /* width: 300px; */
 
 }
 
