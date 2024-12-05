@@ -11,7 +11,7 @@ $(document).ready(function () {
     // dots:true,
     infinite: true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: false, // Tự động chuyển đổi slide
     autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
@@ -31,8 +31,18 @@ $(document).ready(function () {
 
 
 
+
+
+
+
+
+
+
+
+
+
     dots: true,
-    // slidesToShow: 3, // Hiển thị 3 slide cùng lúc
+    // slidesToShow: 2, // Hiển thị 3 slide cùng lúc
     slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
     autoplay: true, // Tự động chạy slide
     autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
@@ -42,6 +52,7 @@ $(document).ready(function () {
       breakpoint: 768, // Tùy chỉnh breakpoint cho responsive
       settings: {
         slidesToShow: 2, // Hiển thị 2 slide ở màn hình có độ rộng từ 768px trở xuống
+
       }
     }, {
       breakpoint: 576,
@@ -56,42 +67,12 @@ $(document).ready(function () {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
  });
 
 
   
  /*  */
+
+
 
 
