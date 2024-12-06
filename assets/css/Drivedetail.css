@@ -3234,3 +3234,179 @@ main {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+/* code css media */
+
+
+
+/* Ẩn phần tử .header-top trên màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .header-top {
+    display: none;
+  }
+
+
+  .contact-info {
+    display: none;
+  }
+
+
+  .nav-menu {
+    display: none;
+  }
+/* book you */
+.hotline01 {
+  width: 231px;
+  top: 96px;
+  right: -152px;
+}
+
+.hotline02 {
+  margin-top: 154%;
+  right: -38%;
+}
+.carousel-caption p {
+  top: -148px;
+  margin-right: -41%;
+}
+.carousel-caption h1 {
+  left: 41%;
+  /* margin-top: 75%; */
+  font-size: 36px;
+}
+.carousel-caption h1 {
+  top: 13%;
+  left: 39%;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.chunhat0 {
+  width: 195px;
+  top: -253px;
+  position: relative;
+  left: -95px;
+}
+.chunhat01 {
+  top: -286px;
+  left: -90px;
+  position: relative;
+}
+.hinh2-icon {
+  display: none;
+}
+
+.about-us {
+  left: -3%;
+  font-size: 23px;
+  line-height: 36px;
+  top: 0;
+  white-space: nowrap;
+  color: #000;
+}
+img.image-car1 {
+  top: 130px;
+  position: relative;
+  width: 228%;
+  left: 1px;
+}
+.ceo101 {
+  left: 10px; /* Điều chỉnh sang phải */
+  margin-top: 26px;
+}
+.color1 {
+  top: 101%; /* Có thể điều chỉnh thêm nếu cần */
+  left: 27px;
+}
+.hot1 {
+  top: 100%;
+  left: 39px;
+}
+.ceo1 {
+  right: 44%;
+  top: 83%;
+  font-size: 14px; /* Giảm kích thước font */
+}
+.image01 {
+  left: 33%; /* Điều chỉnh sang phải */
+}
+.year-box {
+  width: 178px;
+  left: 13px;
+  padding: 20px;
+  top: 170px;
+  height: 130px;
+}
+.section-heading09 h4 {
+  font-size: 14px; /* Giảm kích thước font */
+  margin-left: -60px; /* Điều chỉnh lại margin-left */
+}
+.review-heading {
+  font-size: 28px; /* Giảm kích thước font */
+  top: 100px; /* Điều chỉnh vị trí top */
+  margin-left: 5%; /* Giảm margin-left */
+}
+.successfully-1 {
+  font-size: 16px; /* Giảm kích thước font */
+  line-height: 24px; /* Giảm line-height */
+  top: 100px; /* Điều chỉnh vị trí top */
+  margin-left: 8%; /* Giảm margin-left */
+}
+.slide-container {
+  position: relative;
+  padding-top: 185px;
+  right: -9px;
+}
+
+
+}
+
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
+
+
+/* Thay đổi vị trí khi màn hình nhỏ hơn 768px */
+@media (max-width: 768px) {
+  .description {
+      left: 7px; /* Đẩy phần tử sang trái */
+      top: 0; /* Điều chỉnh lại khoảng cách từ trên xuống */
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .about-us {
+      left: -3%;
+      text-align: center;
+      font-size: 23px;
+      line-height: 40px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .pict1 {
+    position: relative;
+      right: -8px;
+      text-align: left;
+      font-size: 17px;
+      line-height: 27px;
+      text-align: justify;
+      white-space: normal;
+  }
+}
+

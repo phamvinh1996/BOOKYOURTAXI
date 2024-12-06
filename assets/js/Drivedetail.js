@@ -12,9 +12,17 @@ $(document).ready(function () {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
+
     slidesToScroll: 1,
     autoplay: false, // Tự động chuyển đổi slide
     autoplaySpeed: 2000 // Thời gian chờ giữa các slide (ms)
+
+
+
+
+
+
+
   });
 
   $('.select2').select2();
@@ -41,7 +49,7 @@ $(document).ready(function () {
 
 
 
-    dots: true,
+    // dots: true,
     // slidesToShow: 2, // Hiển thị 3 slide cùng lúc
     slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
     autoplay: true, // Tự động chạy slide
@@ -72,6 +80,64 @@ $(document).ready(function () {
 
   
  /*  */
+
+
+
+
+
+
+
+
+
+/* dùng điện thoại */
+
+
+ $(document).ready(function () {
+  function initializeSlider() {
+    // Xóa slider nếu đã khởi tạo trước đó
+    if ($('.table-1').hasClass('slick-initialized')) {
+      $('.table-1').slick('unslick');
+    }
+
+    // Kiểm tra kích thước màn hình
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      // Thiết lập cho màn hình nhỏ
+      $('.table-1').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1, // Hiển thị 1 slide trên màn hình nhỏ
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000
+      });
+    } else {
+      // Thiết lập cho màn hình lớn
+      $('.table-1').slick({
+        arrows: false,
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2, // Hiển thị 2 slide trên màn hình lớn
+        slidesToScroll: 1,
+        autoplay: false,
+        autoplaySpeed: 2000
+      });
+    }
+  }
+
+  // Gọi hàm khởi tạo khi tải trang
+  initializeSlider();
+
+  // Lắng nghe sự thay đổi kích thước màn hình
+  $(window).resize(function () {
+    initializeSlider();
+  });
+});
+
+
+
 
 
 
