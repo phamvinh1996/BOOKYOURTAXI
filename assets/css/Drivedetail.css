@@ -3367,6 +3367,69 @@ img.image-car1 {
   padding-top: 185px;
   right: -9px;
 }
+.background-image {
+  background-position: bottom;
+  /* height: 967px; */
+}
+.hotline {
+  margin-right: 2px;
+  margin-top: 199px;
+  width: 111%;
+}
+.hotline-text1 {
+  font-size: 20px;
+  top: 47%;
+  left: 59%;
+}
+.logo-image {
+  top: 19px;
+  right: 85px;
+  width: 65%;
+}
+.links-label {
+  margin-right: 10px;
+  white-space: nowrap;
+  position: relative;
+  top: -33px;
+  left: -1px;
+}
+#emailInput, #subscribeBtn {
+  width: 80%;
+  margin-top: 10px;
+}
+#emailInput {
+  flex: 1;
+  min-width: 327px;
+  position: relative;
+  top: -41px;
+  left: 8px;
+}
+#subscribeBtn {
+  margin-left: 10px;
+  position: relative;
+  top: -51px;
+  width: 43%;
+  margin-left: 1px;
+  font-size: 16px;
+}
+.icon-car {
+  top: 96%;
+}
+.icon-car img {
+  margin: 0 10px;
+  /* max-width: 80%; */
+  width: 78px;
+}
+.copyright-wrap {
+  padding: 1px 0;
+  /* height: 40px; */
+}
+.footer-text {
+  display: block;
+  /* margin-top: 15px; */
+  font-size: 16px;
+  /* top: -46px; */
+}
 
 
 }
@@ -3407,6 +3470,47 @@ img.image-car1 {
       line-height: 27px;
       text-align: justify;
       white-space: normal;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 480px) {
+  .hotline-text0 {
+      font-size: 18px;
+      top: 47%;
+      left: 31%;
+      white-space: normal;
+      width: 90%;
+  }
+}
+
+@media (max-width: 992px) {
+  .description {
+      margin-top: 70px;
+      font-size: 16px;
+      /* position: relative; */
+      left: 1px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .row-footer {
+      margin-top: 79px;
+      /* position: relative; */
+      top: -20px;
+      /* margin-top: 41px; */
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+      padding: 3px;
+      width: 100%;
+      right: 6px;
+      /* position: relative; */
+      /* top: -16px; */
   }
 }
 
