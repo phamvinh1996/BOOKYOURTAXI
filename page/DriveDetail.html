@@ -28,11 +28,133 @@
     integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
     crossorigin="anonymous"></script>
 </head>
-
 <body>
 
 
 
+  <!-- thanhcuoon -->
+  <!--  -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo01">
+    <!--  -->
+    <!-- code nút dấu 3 ghạch chéo media query  -->
+    <a class="navbar-brand" href="#"></a>
+    <!--  -->
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Home
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Home Defaul </a>
+            <a class="dropdown-item" href="./page/HomeModern.html">Home Moderm</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            company
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="./AboutUs.html">About us </a>
+            <a class="dropdown-item" href="./AboutCompany.html">About Company</a>
+            <a class="dropdown-item" href="/page/OurServices.html">Our Services</a>
+            <a class="dropdown-item" href="#">Services Details</a>
+            <a class="dropdown-item" href="#">Book a Rides</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Our Taxi
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Taxi Lists </a>
+            <a class="dropdown-item" href="#">Taxi defaul </a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Pages
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Our Drive </a>
+            <a class="dropdown-item" href="#">Driver defaul </a>
+            <a class="dropdown-item" href="#">customer review</a>
+            <a class="dropdown-item" href="#">heft & faq'g</a>
+            <a class="dropdown-item" href="#">404 Error</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false"
+            style="display: none;">
+            Blog
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Grid post</a>
+            <a class="dropdown-item" href="#">classic post </a>
+            <a class="dropdown-item" href="#"> Blog Defaul</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="navbar-toggler-icon">
+        <span class="bar bar1"></span>
+        <span class="bar bar2"></span>
+        <span class="bar bar3"></span>
+      </div>
+    </button>
+  </nav>
+  </div>
+
+
+
+
+  <!--  -->
+  <!--  code html thanh cuộn-->
+  <header>
+    <nav class="side-navbar show" id="nav-scroll">
+      <div class="logo">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo-0">
+      </div>
+      <nav class="menu">
+        <div class="scroll-menu">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#about">About</a>
+          <a href="#pricing">Pricing</a>
+          <a href="#contact">Contact</a>
+          <div class="button-container">
+            <button type="button" class="btn btn-icon" data-toggle="modal" data-target="#myModal">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg" alt="Search Icon"
+                class="icon-imgsearch">
+            </button>
+          </div>
+          <nav class="navbar navbar-dark navbar-colright1">
+            <div class="container-fluid">
+              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="custom-icon"></span>
+              </button>
+            </div>
+          </nav>
+          <div class="contact-nav111"> Book a Taxi </div>
+        </div>
+        </div>
+  </header>
+  <script>
+    window.addEventListener('scroll', function () {
+      var navbar = document.getElementById('nav-scroll');
+      if (window.scrollY > 250) {
+        navbar.classList.add('show');
+      } else {
+        navbar.classList.remove('show');
+      }
+    });
+  </script>
 
   <!-- tạo lien tinh oto -->
   <div class="header-top">
@@ -58,7 +180,6 @@
     </div>
   </div>
   </header>
-
   <!-- Tạo Logo RIDEK-->
   <div class="container">
     <div class="logo-container">
@@ -89,14 +210,11 @@
     </div>
   </div>
   </div>
-
   <!-- Thanh Nav Tìm kiếm, trang chủ... -->
   <!-- tạo html tạo mục tìm kiếm mục search trong thanh NAV để ngoài -->
   <!-- <div class="nav-menu">  -->
   <!-- Modal -->
-
   <!--  -->
-
   <div class="nav-menu">
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
@@ -169,8 +287,6 @@
             </ul>
           </li>
         </ul>
-
-
         <ul class="menu">
           <li class="dropdown">
             <a href="./page/OurDrive.html" class="dropdown-toggle" data-toggle="dropdown">page <b class="caret"></b></a>
@@ -195,17 +311,6 @@
             </ul>
           </li>
         </ul>
-
-
-
-
-
-
-
-
-
-
-
         <ul class="menu">
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
@@ -260,8 +365,6 @@
       </div>
     </nav>
   </div>
-
-  
   <!-- TẠO ảnh nền  book your taxi  -->
   <!-- code html tạo book your -->
   <!-- code html tạo book your -->
@@ -272,16 +375,12 @@
         <div class="carousel-caption ">
           <div class="container"></div>
           <!-- <div class="col-sm-8"> -->
-
           <div class=" hotline01"></div>
           <div class=" hotline02"></div>
-
           <div class="chunhat0"></div>
           <h4 class="chunhat01"> SERVICE DETAILS</h4>
-
           <!-- <h1 class="feel1">FEEL YOUR JOURNEY <br> WITH RIDEK</h1> -->
           <h1 class="feel1">Our ExperT Drive will <br> Make you <span class="ridek">Ride Safe</span></h1>
-
           <p class="taxidoct10"> Everything your taxi business needs is already <br> here! Ridek made for taxi service
             companies! </p>
         </div>
@@ -290,204 +389,181 @@
   </div>
   </div>
   </div>
-
-
-
-
-  
-
   <!-- tạo mục giới thiệu về chúng tôi -->
   <!-- /* Khoảng cách Giua anh va chu VE CHUNG TOI */
   .image-container ,.form-group  -->
-
-
   <div class="section-online-vechungtoi" style="position: relative; top: 0px; ">
     <div class="container">
-        <div class="row align-items-center">
-            <!-- Phần chữ -->
-            <div class="col-md-6">
-                <div class="form-group">
-                    <div class="section-heading wow slideInRight" style="animation-duration: 5s;">
-                        <h4 class="about1">
-                        <span></span>
-                         ABOUT OUR COMPANY 
-                         </h4>
-                    </div>
-                    <h1 class="about-us wow slideInRight" style="animation-duration: 5s;">
-                        <span style="display: block;">Feel the difference and Relaxation with</span>
-                        <span>Ridek Taxi Company!</span>
-                    </h1>
-                    <p class="pict1 wow slideInRight" style="animation-duration: 5s;">
-                        We successfully cope with tasks of varying complexity, provide long-term guarantees, and
-                        regularly master new technologies. Our portfolio includes dozens of successfully completed
-                        projects of houses of different storeys, with high–quality finishes and good repairs. Book your
-                        taxi from anywhere today!
-                    </p>
-                    <!-- <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Icon"
-                        class="ceo101 wow slideInRight" style="animation-duration: 5s;">
-                    <h1 class="ceo1 wow slideInRight" style="animation-duration: 5s;">Founder - CEO</h1>
-                    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/signature.png" alt="Icon"
-                        class="image01 wow slideInRight" style="animation-duration: 5s;">
-                    <h4 class="hot1 wow slideInRight" style="animation-duration: 5s;">Call For Taxi:</h4>
-                    <p class="color1 wow slideInRight" style="animation-duration: 5s;">5267-214-392</p>
-                </div>
-            </div> -->
-
+      <div class="row align-items-center">
+        <!-- Phần chữ -->
+        <div class="col-md-6">
+          <div class="form-group">
+            <div class="section-heading wow slideInRight" style="animation-duration: 5s;">
+              <h4 class="about1">
+                <span></span>
+                ABOUT OUR COMPANY
+              </h4>
+            </div>
+            <h1 class="about-us wow slideInRight" style="animation-duration: 5s;">
+              <span style="display: block;">Feel the difference and Relaxation with</span>
+              <span>Ridek Taxi Company!</span>
+            </h1>
+            <p class="pict1 wow slideInRight" style="animation-duration: 5s;">
+              We successfully cope with tasks of varying complexity, provide long-term guarantees, and
+              regularly master new technologies. Our portfolio includes dozens of successfully completed
+              projects of houses of different storeys, with high–quality finishes and good repairs. Book your
+              taxi from anywhere today!
+            </p>
             <div class="info-container">
               <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Icon"
-                   class="ceo101 wow slideInRight" style="animation-duration: 5s;">
+                class="ceo101 wow slideInRight" style="animation-duration: 5s;">
               <h1 class="ceo1 wow slideInRight" style="animation-duration: 5s;">Founder - CEO</h1>
               <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/signature.png" alt="Icon"
-                   class="image01 wow slideInRight" style="animation-duration: 5s;">
+                class="image01 wow slideInRight" style="animation-duration: 5s;">
               <h4 class="hot1 wow slideInRight" style="animation-duration: 5s;">Call For Taxi:</h4>
               <p class="color1 wow slideInRight" style="animation-duration: 5s;">5267-214-392</p>
-          </div>
-          </div>
-          </div>
-
-
-
-
-
-
-
-
-            <!-- Phần hình ảnh -->
-            <div class="col-md-6 image-container">
-                <div class="image-car1-container">
-                    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-details.jpg" alt="Image 1"
-                        class="image-car1 wow slideInLeft" style="animation-duration: 4s;">
-
-
-
-                        <div class="year-box">
-                            <h3>  
-                                <span> 12+</span>
-                                "year-box"
-                                <br>
-                                " Experiences!"
-                            </h3>
-                        </div>
-                        </div>
-                        </div>
-</div>
-<!--  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="section-heading09">
-    <h4>
-      <span></span>
-      CLIENT TESTIMONIAL
-    </h4>
-  </div>
-  <br>
-  <h1 class="review-heading">Ridek Passengers Reviews...</h1>
-  <!-- <div class="alert-box">   -->
-  <!-- code html hon 1000 -->
-  <p class="successfully-1"> We successfully cope with tasks of vaying complexity, provide long-term
-    guarantees
-    and regularly master
-    technologies</p>
-
-
-
-<div class="section-online-Hon1000">
-    <div class="container">
-      <div class="row">
-        <!-- <div class="col-sm-6 upper-alert-box"> -->
-          <div class="slide-container">
-            <div class="hinh1-icon">
-              <i class=" icon1 las la-quote-right"></i>
             </div>
-            <div class="hinh2-icon">
-              <i class=" icon1 las la-quote-right"></i>
+          </div>
+        </div>
+        <!-- Phần hình ảnh -->
+        <div class="col-md-6 image-container">
+          <div class="image-car1-container">
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/team-details.jpg" alt="Image 1"
+              class="image-car1 wow slideInLeft" style="animation-duration: 4s;">
+            <div class="year-box">
+              <h3>
+                <span> 12+</span>
+                "year-box"
+                <br>
+                " Experiences!"
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--  -->
+      <div class="section-heading09">
+        <h4>
+          <span></span>
+          CLIENT TESTIMONIAL
+        </h4>
+      </div>
+      <br>
+      <h1 class="review-heading">Ridek Passengers Reviews...</h1>
+      <!-- <div class="alert-box">   -->
+      <!-- code html hon 1000 -->
+      <p class="successfully-1"> We successfully cope with tasks of vaying complexity, provide long-term
+        guarantees
+        and regularly master
+        technologies</p>
+
+
+
+      <div class="section-online-Hon1000">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col-sm-6 upper-alert-box"> -->
+            <div class="slide-container">
+              <div class="hinh1-icon">
+                <i class=" icon1 las la-quote-right"></i>
               </div>
-            <div class="table-1">
-              <div class="slide">
-                <div class="comment">
-                  <!-- dấu màu cam -->
-                  <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
-                    find,
-                    but the app has always been a bit difficult to use especially how it works or doesnt with large
-                    font
-                    phone settings. </p>
-                </div>
-                <div class="user-info">
-                  <div class="avatar">
-                    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Logo 1"
-                      class="avatar-image">
+              <div class="hinh2-icon">
+                <i class=" icon1 las la-quote-right"></i>
+              </div>
+              <div class="table-1">
+                <div class="slide">
+                  <div class="comment">
+                    <!-- dấu màu cam -->
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings. </p>
                   </div>
-                  <div class="company-info">
-                    <p class="ten01"> Eredrik Johanson </p>
-                    <p class="ten02"> Financial .INC </p>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Logo 1"
+                        class="avatar-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten01"> Eredrik Johanson </p>
+                      <p class="ten02"> Financial .INC </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="comment">
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings.</p>
+                  </div>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-2.png" alt="Logo 2"
+                        class="info2-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten01"> Eredrik Johanson </p>
+                      <p class="ten02"> Financial .INC </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="comment">
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings.</p>
+                  </div>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-3.png" alt="Logo 3"
+                        class="info3-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten05"> Eredrik Johanson </p>
+                      <p class="ten06">Financial .INC </p>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="slide">
-                <div class="comment">
-                  <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
-                    find,
-                    but the app has always been a bit difficult to use especially how it works or doesnt with large
-                    font
-                    phone settings.</p>
-                </div>
-                <div class="user-info">
-                  <div class="avatar">
-                    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Logo 2"
-                      class="info2-image">
-                  </div>
-                  <div class="company-info">
-                    <p class="ten01"> Eredrik Johanson </p>
-                    <p class="ten02"> Financial .INC </p>
-                  </div>
-                </div>
-              </div>
-              <div class="slide">
-                <div class="comment">
-                  <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
-                    find,
-                    but the app has always been a bit difficult to use especially how it works or doesnt with large
-                    font
-                    phone settings.</p>
-                </div>
-                <div class="user-info">
-                  <div class="avatar">
-                    <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Logo 3"
-                      class="info3-image">
-                  </div>
-                  <div class="company-info">
-                    <p class="ten05"> Eredrik Johanson </p>
-                    <p class="ten06">Financial .INC </p>
-                  </div>
-                </div>
-              </div>
-             </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    </div> 
-</div>
-</div>
-</div>
-
-
-
-
-
-        
-
-
+    <!-- code thanh nav nút menu -->
+    <div class="offcanvas offcanvas-end text-bg-dark popup" tabindex="-1" id="offcanvasDarkNavbar"
+      aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item" style="display: none;">
+          <a class="nav-link" href="#"> </a>
+        </li>
+      </ul>
+      <div class="navbar-on1">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-light.png" alt="Logo" class="logoridekft">
+        <br>
+        <br>
+        <p class="every111"> Everything your taxi business needs is <br> already here! Ridek, a theme made for <br>
+          taxi
+          service companies. </p>
+      </div>
+      <div class="navbar-on1">
+        <!-- <p>Call for Ride: 0909 123 456</p><br> -->
+        <p><span class="call-for-ride">Call for Ride:</span> <span class="phone-number">5267-214-392</span></p>
+        <p class="find1">You Can Find Us At:</p>
+        <p class="doctt1"> Halk Street New York, USA - 2386</p>
+        <p class="email">Email Now: </p>
+        <p class="doctt1"> Info.ridek@mail.com</p>
+      </div>
+    </div>
     <!-- code foooter -->
     <footer>
       <div class="hotline">
@@ -597,84 +673,7 @@
   </div>
   </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- code script -->
+  <!-- code script -->
   <script src="../assets/lib/jquery/jquery.min.js"></script>
   <script src="../assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
   <script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -682,7 +681,6 @@
   <script src="../assets/lib/select2/js/select2.full.min.js"></script>
   <script src="../assets/lib/select2/js/i18n/vi.js"></script>
   <script src="../assets/js/Drivedetail.js"></script>
-
 
 </body>
 </html>
