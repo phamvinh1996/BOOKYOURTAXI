@@ -2433,3 +2433,176 @@ p {
     }
   }
   
+  /* code css media */
+
+  @media (max-width: 768px) {
+    .header-top {
+        display: none; /* Ẩn phần tử khi màn hình nhỏ hơn 768px */
+    }
+
+    .contact-info {
+        display: none; /* Ẩn phần tử khi màn hình nhỏ hơn 768px */
+    }
+
+    .nav-menu {
+        display: none; /* Ẩn phần tử khi màn hình nhỏ hơn 768px */
+    }
+    .description {
+        left: 20px; /* Thay đổi vị trí left */
+        font-size: 16px; /* Thay đổi kích thước chữ */
+        color: #fff; /* Thay đổi màu chữ */
+    }
+    .hinh2-icon {
+        display: none; /* Ẩn phần tử khi màn hình nhỏ hơn 768px */
+    }
+    .carousel-caption h1 {
+        left: 41%;
+        /* margin-top: 75%; */
+        font-size: 36px;
+    }
+    .carousel-caption h1 {
+        top: 13%;
+        left: 39%;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+    .carousel-caption p {
+        position: relative;
+        top: -150px;
+        left: 98px;
+        transform: translateX(-50%);
+        font-size: 16px;
+    }
+    .hotline01 {
+        width: 231px;
+        top: 96px;
+        right: -152px;
+    }
+
+    .hotline02 {
+        margin-top: 139%;
+        right: -36%;
+    }
+    .chunhat0 {
+        width: 155px;
+        top: -253px;
+        position: relative;
+        left: -95px;
+    }
+    .chunhat01 {
+        top: -286px;
+        left: -90px;
+        position: relative;
+    }
+    .logo-image {
+        top: 3px;
+        right: 85px;
+        width: 65%;
+    }
+    .description {
+        left: 20px;
+        top: -30px;
+        font-size: 16px;
+    }
+    .hotline {
+        margin-right: 2px;
+        margin-top: 178px;
+        width: 111%;
+    }
+    /* ft */
+    .background-image {
+        background-position: bottom;
+        /* height: 967px; */
+    }
+    .background-image {
+        padding-bottom: 60px;
+    }
+    .hotline-text1 {
+        font-size: 20px;
+        top: 47%;
+        left: 59%;
+    }
+    .hotline-text0 {
+        font-size: 18px;
+        top: 47%;
+        left: 32%;
+        white-space: normal;
+        width: 90%;
+    }
+    .hotline-image {
+        float: none;
+        position: relative;
+        top: 1px;
+        left: 50px;
+        /* left: -165px; */
+        width: 57px;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 10px;
+        margin-top: -17px;
+    }
+    .links-label {
+        margin-right: 10px;
+        white-space: nowrap;
+        position: relative;
+        top: -33px;
+        left: -10px;
+    }
+    #emailInput, #subscribeBtn {
+        width: 80%;
+        margin-top: 10px;
+    }
+    #emailInput {
+        flex: 1;
+        min-width: 327px;
+        position: relative;
+        top: -41px;
+        left: -2px;
+    }
+    #subscribeBtn {
+        margin-left: 10px;
+        position: relative;
+        top: -51px;
+        width: 43%;
+        margin-left: -9px;
+        font-size: 16px;
+    }
+    .icon-car {
+        flex-direction: row;
+        justify-content: center;
+        top: 62px;
+        position: relative;
+    }
+    .icon-car img {
+        margin: 0 10px;
+        /* max-width: 80%; */
+        width: 78px;
+    }
+    .copyright-wrap {
+        padding: 1px 0;
+        /* height: 40px; */
+    }
+    .footer-text {
+        display: block;
+        /* margin-top: 15px; */
+        font-size: 16px;
+        /* top: -46px; */
+        position: relative;
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 559px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .row-footer {
+        margin-top: 79px;
+        top: -20px;
+    }
+}
