@@ -1782,8 +1782,13 @@ s .table-1 .slick-dots {
   background-color: #ffffff;
 }
 
+/* tách bảng */
 .slick-slide {
   border: 1px solid #ccc;
+  margin: 10px; /* Tạo khoảng cách giữa các slide */
+  padding: 20px; /* Tạo không gian bên trong slide */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng cho slide */
+  border-radius: 5px; /* Bo tròn các góc */
 }
 
 .slick-dots {
@@ -2803,13 +2808,9 @@ main {
   .header-top {
     display: none;
   }
-
-
   .contact-info {
     display: none;
   }
-
-
   .nav-menu {
     display: none;
   }
@@ -3019,9 +3020,6 @@ main {
   }
 
   /*  */
-
-
-
   /* code css media DẤU CHÉO MENU */
   .navbar-nav {
     background-color: white;
@@ -3030,8 +3028,6 @@ main {
     right: 311px;
     top: 70px;
   }
-
-
   /* COPDE CSS MEDIA DẤU CHÉO  */
   /* code css media feel you */
 
@@ -3081,8 +3077,6 @@ main {
   .navbar-toggler .navbar-toggler-icon {
     background: none;
   }
-
-
   .bar1 {
     width: 41px;
     transform: rotate(45deg) translate(0, 10px);
@@ -3094,7 +3088,6 @@ main {
     margin-top: 3px;
 
   }
-
   .bar3 {
     width: 29px;
     position: relative;
@@ -3133,14 +3126,11 @@ main {
 
 }
 
-
-
 @media (max-width: 767px) {
   .carousel-item img {
     height: 559px;
   }
 }
-
 
 /* Thay đổi vị trí khi màn hình nhỏ hơn 768px */
 @media (max-width: 768px) {
@@ -3149,7 +3139,6 @@ main {
     top: 0;
   }
 }
-
 
 @media only screen and (max-width: 600px) {
   .about-us {
@@ -3172,9 +3161,6 @@ main {
   }
 }
 
-
-
-
 @media only screen and (max-width: 480px) {
   .hotline-text0 {
     font-size: 18px;
@@ -3192,7 +3178,6 @@ main {
     left: 1px;
   }
 }
-
 
 @media (max-width: 576px) {
   .row-footer {
