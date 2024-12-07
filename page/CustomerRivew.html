@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang chủ</title>
+  <link rel="stylesheet" href="../assets/lib/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../assets/lib/datetimepicker-master/jquery.datetimepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- dòng chữ màu cam -->
+  <link rel="stylesheet" href="../assets/fonts/Space_Grotesk/static/">
+  <!--  -->
+  <link rel="stylesheet" href="../assets/js/matthieua-WOW-07a2b50/css/libs/animate.css">
+  <link rel="stylesheet" href="../assets/lib/select2/css/select2.min.css">
+  <script type=" text/javascript" src="../assets/js/matthieua-WOW-07a2b50/dist/wow.min.js"></script>
+  <link rel="stylesheet" href="../assets/css/CustomerRiview.css">
+  <!-- icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/line-awesome/dist/line-awesome/css/line-awesome.min.css">
+  <!-- <link rel="stylesheet" href="/assets/css/HomeModern.css"> -->
+  <!-- thư viện menu trên thanh nav -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+
+    
+  <!-- tạo lien tinh oto -->
+  <div class="header-top">
+    <div class="navbar-left">
+      <span class="navbar-text01"> Reliable Taxi Service & Transport Solutions! </span>
+    </div>
+    <div class="navbar-right">
+      <a class="navbar-link-Help" href="#">Help</a>
+      <a class="navbar-link-Support" href="#"> Support </a>
+      <a class="navbar-link-FAQ" href="#"> FAQ </a>
+      <a class="navbar-icon-fb" href="#">
+        <i class="fab fa-facebook-f" style="color: #666; font-size: 19px"></i>
+      </a>
+      <a class="navbar-icon-tt" href="#">
+        <i class="fab fa-twitter" style="color: #666; font-size: 20px"></i>
+      </a>
+      <a class="navbar-icon-ins" href="#">
+        <i class="fab fa-instagram" style="color: #666; font-size: 20px"></i>
+      </a>
+      <a class="navbar-icon-link" href="#">
+        <i class="fab fa-linkedin" style="color: #666; font-size: 20px"></i>
+      </a>
+    </div>
+  </div>
+  </header>
+
+  
+  <!-- Tạo Logo RIDEK-->
+  <div class="container">
+    <div class="logo-container">
+      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo-brand">
+    </div>
+    <div class="contact-info">
+      <div class="contact-item">
+        <a href="tel:0123456789">
+          <i class="las la-phone-volume" style="color: #ff9900; font-size: 41px"></i>
+        </a>
+        <span class="text">Call Us Now: </span>
+        <span class="text1"> <br> <br>5267-214-392 </span>
+      </div>
+      <div class="contact-item">
+        <a href="mailto:example@example.com">
+          <i class="lar la-envelope-open" style="color: #ff9900; font-size: 41px"></i>
+        </a>
+        <span class="text">Email Now:</span>
+        <span class="text02"> <br> <br> Info.Ridek@Mail.Com</span>
+      </div>
+      <div class="contact-item">
+        <a href="https://maps.google.com">
+          <i class="las la-map-marked-alt" style="color: #ff9900; font-size: 41px"></i>
+        </a>
+        <span class="text">Halk Street: </span>
+        <span class="text03"><br> <br> New York, USA - 2386.</span>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  
+  <!-- Thanh Nav Tìm kiếm, trang chủ... -->
+  <!-- tạo html tạo mục tìm kiếm mục search trong thanh NAV để ngoài -->
+  <!-- <div class="nav-menu">  -->
+  <!-- Modal -->
+  <!--  -->
+  <div class="nav-menu">
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 class="modal-title"> </h4>
+          </div>
+          <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+    <nav class="navbar-yellow navbar">
+      <div class="container">
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="/index.html" class="black-text">Home Defaul</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="/page/HomeModern.html" class="black-text">Home Modern</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="./AboutUs.html" class="dropdown-toggle" data-toggle="dropdown">Company <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="./AboutUs.html" class="black-text">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">About Company</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./OurServices.html" class="black-text">Our Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Service Details</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Book A Ride</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Our Taxi <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="./pages/questions.html" class="black-text">Taxi List</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Taxi Details</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="./page/OurDrive.html" class="dropdown-toggle" data-toggle="dropdown">page <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="./page/OurDrive.html" class="black-text">Our Drive</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./page/DriveDetail.html" class="black-text">Drive Detail</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./OurServices.html" class="black-text">Our Services</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Service Details</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Book A Ride</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="./pages/questions.html" class="black-text">Home Defaul</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Home Modern</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="menu">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="./pages/questions.html" class="black-text">Home Defaul</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a href="./pages/CustomerFeedback.html" class="black-text">Home Modern</a></li>
+            </ul>
+          </li>
+        </ul>
+        </ul>
+        <div class="menu-icons col-right-nav">
+          <div class="search-icon">
+            <div id="carInfo" class="car-info">
+            </div>
+            <!-- tạo hmtl thanh mục tìm kiếm -->
+            <div class="container nav-col-right">
+              <!-- Trigger the modal with a button -->
+            </div>
+            <div class="white-bg">
+              <button type="button" class="btn btn-search btn-lg" data-toggle="modal" data-target="#myModal">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg" alt="Icon"
+                  class="icon-img">
+              </button>
+            </div>
+          </div>
+          <nav class="navbar navbar-dark navbar-colright ">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+          <div class="contact-nav"> Book a Taxi </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!-- TẠO ảnh nền  book your taxi  -->
+  <!-- code html tạo book your -->
+  <!-- code html tạo book your -->
+  <div id="carouselExampleFade" class="carousel carousel-fade">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/slider-bg.jpg" class=" d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <div class="container"></div>
+          <!-- <div class="col-sm-8"> -->
+          <div class=" hotline01"></div>
+          <div class=" hotline02"></div>
+          <div class="chunhat0"></div>
+          <h4 class="chunhat01"> TESTIMONIAL</h4>
+          <!-- <h1 class="feel1">FEEL YOUR JOURNEY <br> WITH RIDEK</h1> -->
+          <h1 class="feel1">Our Passengers <span class="ridek">Riview</span></h1>
+          <p class="taxidoct10"> Everything your taxi business needs is already <br> here! Ridek made for taxi service
+            companies! </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+
+      <!--  -->
+      <div class="section-heading09">
+      
+      </div>
+ 
+
+      <div class="section-online-Hon1000">
+        <div class="container">
+          <div class="row">
+            <!-- <div class="col-sm-6 upper-alert-box"> -->
+            <div class="slide-container">
+              <div class="hinh1-icon">
+                <i class=" icon1 las la-quote-right"></i>
+              </div>
+              <div class="hinh2-icon">
+                <i class=" icon1 las la-quote-right"></i>
+              </div>
+              <div class="table-1">
+                <div class="slide">
+                  <div class="comment">
+                    <!-- dấu màu cam -->
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings. </p>
+                  </div>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-1.png" alt="Logo 1"
+                        class="avatar-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten01"> Eredrik Johanson </p>
+                      <p class="ten02"> Financial .INC </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="comment">
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings.</p>
+                  </div>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-2.png" alt="Logo 2"
+                        class="info2-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten01"> Eredrik Johanson </p>
+                      <p class="ten02"> Financial .INC </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="comment">
+                    <p class="place-1">Good to have transportation available in places and times it is otherwise hard to
+                      find,
+                      but the app has always been a bit difficult to use especially how it works or doesnt with large
+                      font
+                      phone settings.</p>
+                  </div>
+                  <div class="user-info">
+                    <div class="avatar">
+                      <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/comment-3.png" alt="Logo 3"
+                        class="info3-image">
+                    </div>
+                    <div class="company-info">
+                      <p class="ten05"> Eredrik Johanson </p>
+                      <p class="ten06">Financial .INC </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- code thanh nav nút menu -->
+    <div class="offcanvas offcanvas-end text-bg-dark popup" tabindex="-1" id="offcanvasDarkNavbar"
+      aria-labelledby="offcanvasDarkNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel"> </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <ul class="navbar-nav">
+        <li class="nav-item" style="display: none;">
+          <a class="nav-link" href="#"> </a>
+        </li>
+      </ul>
+      <div class="navbar-on1">
+        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-light.png" alt="Logo" class="logoridekft">
+        <br>
+        <br>
+        <p class="every111"> Everything your taxi business needs is <br> already here! Ridek, a theme made for <br>
+          taxi
+          service companies. </p>
+      </div>
+      <div class="navbar-on1">
+        <!-- <p>Call for Ride: 0909 123 456</p><br> -->
+        <p><span class="call-for-ride">Call for Ride:</span> <span class="phone-number">5267-214-392</span></p>
+        <p class="find1">You Can Find Us At:</p>
+        <p class="doctt1"> Halk Street New York, USA - 2386</p>
+        <p class="email">Email Now: </p>
+        <p class="doctt1"> Info.ridek@mail.com</p>
+      </div>
+    </div>
+
+
+
+
+    <!-- code foooter -->
+    <footer>
+        <div class="hotline">
+          <i class="las la-phone-volume hotline-image"
+            style="color: white; font-size: 50px; transform: rotate(4deg); top: 30px;"></i>
+          <span class="hotline-text0">Call For Taxi:</span>
+          <span class="hotline-text1"> 5267-214-392</span>
+        </div>
+        <div class="background-image position-relative">
+          <div class="container">
+            <div class="logo">
+              <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-light.png" alt="Logo" class="logo-image">
+            </div>
+  
+            <div class="content">
+              <p class="description">We successfully cope with tasks of varying complexity, provide long- <br> term
+                guarantees and regularly master new technologies. </p>
+            </div>
+          </div>
+          <!--  -->
+          <div class="container">
+            <div class="row-footer">
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="opening-hours">
+                  <p class="contact-label">Working Hours:</p>
+                  <p class="contact-info1">
+                    <span class="address-label d-block">MONDAY - FRIDAY:</span>
+                    <span class="address-text">9.00am To 8.00pm</span>
+                  </p>
+                  <!-- email -->
+                  <p class="contact-info1">
+                    <span class="address-label d-block">SATURDAY:</span>
+                    <span class="address-text">10.00am To 7.30pm</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label d-block">SUNDAY :</span>
+                    <span class="address-text">Close day</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="opening-hours">
+                  <p class="opening-label">Usefull Links: </p>
+                  <p class="contact-info1">
+                    <span class="address-label"> </span>
+                    <span class="address-text"> Taxi Booking</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"> </span>
+                    <span class="address-text"> Help Center</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"></span>
+                    <span class="address-text"> Privacy and Policy</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"></span>
+                    <span class="address-text"> Terms of Use</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"></span>
+                    <span class="address-text"> Contact Us</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="links">
+                  <p class="contact-info1">
+                    <span class="address-label-111"> Working Hours:</span> <br>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"> MONDAY - FRIDAY:</span> <br>
+                    <span class="address-text"> 9:00 am - To.8:00pm</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"> SATURDAY:</span> <br>
+                    <span class="address-text"> 10:00 am - To 7:30 pm</span>
+                  </p>
+                  <p class="contact-info1">
+                    <span class="address-label"> SUNDAY:</span> <br>
+                    <span class="address-text"> Close Day!</span>
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-lg-3">
+                <div class="subscribe">
+                  <p class="links-label">Newsletter Signup:</p>
+                  <input id="emailInput" type="email" placeholder="You email">
+                  <button id="subscribeBtn" type="submit">Subscribe Now</button>
+                </div>
+              </div>
+            </div>
+            <!--  -->
+          </div>
+          <!--  -->
+          <div class="icon-car">
+            <img src=" https://html.dynamiclayers.net/dl/ridek/assets/img/truck-3.png" alt="Car 1" class='car1'>
+            <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/truck-2.png" alt="Car 2" class='car2'>
+            <img src=" https://html.dynamiclayers.net/dl/ridek/assets/img/truck-1.png" alt="Car 3" class='car3'>
+          </div>
+        </div>
+        <div class="copyright-wrap">
+          <div class="container">
+            <p class="footer-text"> © 2024 DynamicLayers All Rights Reserved.</p>
+          </div>
+        </div>
+    </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- code script -->
+  <script src="../assets/lib/jquery/jquery.min.js"></script>
+  <script src="../assets/lib/datetimepicker-master/jquery.datetimepicker.full.min.js"></script>
+  <script src="../assets/lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="../assets/lib/select2/js/select2.full.min.js"></script>
+  <script src="../assets/lib/select2/js/i18n/vi.js"></script>
+  <script src="../assets/js/CustomerRiview.js"></script>
+
+</body>
+</html>
