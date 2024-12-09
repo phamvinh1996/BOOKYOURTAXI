@@ -1287,3 +1287,1201 @@ p {
     right: -58px;
   
   }
+
+
+
+
+  
+  
+  /* footer */
+  .background-image {
+    background-color: #1c1c1c;
+    background-image: url('https://html.dynamiclayers.net/dl/ridek/assets/img/city-skiline.png');
+    background-size: 100%;
+    background-position: 200%;
+    background-repeat: no-repeat;
+  }
+  
+  /*  */
+  /* code css độ hẹp heght dòng chữ footer */
+  /* Media query cho màn hình nhỏ (điện thoại) */
+  /*  */
+  .logo {
+    flex: 0 0 auto;
+  }
+  
+  /* Lớp che phủ */
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    position: absolute;
+    top: 40px;
+    /* left: 85%; */
+  }
+  
+  .content {
+    flex: 1;
+  }
+  
+  .contact-info,
+  .subscribe {
+    margin-top: 20px;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color: #f0e6e6;
+  }
+  
+  .subscribe input {
+    width: 200px;
+    /* Kích cỡ ô đăng ký */
+  }
+  
+  .subscribe button {
+    padding: 5px 10px;
+  }
+  
+  /* dòng chữ trắng p */
+  
+  .description {
+    position: relative;
+    top: 25px;
+    left: 522px;
+    color: #ccc;
+    font-family: "Space Grotesk", sans-serif;
+    top: -53px;
+    left: 256px;
+    font-size: 18px;
+  }
+  
+  /* nút màu cam  nút dịch vụ nỗi bật*/
+  button {
+    background-color: #ff9900;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* cắt path slide */
+  /* thanh nav footer hotline */
+  .hotline {
+    position: absolute;
+    top: -10px;
+    right: 0;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 700px;
+    /* Đặt chiều rộng mong muốn */
+    height: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 10% 100%);
+    /* tạo thanh nav có đường viền */
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
+    z-index: 1;
+  }
+  
+  /* chữ css foter  */
+  .hotline-text0 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    left: 22%;
+    font-size: 16px;
+    /* Kích cỡ chữ */
+    font-weight: 500;
+    line-height: 1;
+    color: #fafafa;
+    margin-bottom: 5px;
+  
+  }
+  
+  .hotline-text1 {
+    color: #222;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1;
+    position: absolute;
+    top: 45%;
+    left: 22%;
+    /* Kích cỡ chữ */
+    font-weight: 700;
+    line-height: 1;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  /*  */
+  .hotline-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 350%;
+  }
+  
+  /* code css tạo ảnh anmwf bên trái chữ hotline footer */
+  .hotline {
+    overflow: auto;
+    /* Cần thiết để đảm bảo phần tử cha bao quanh cả hình ảnh và văn bản */
+  }
+  
+  .hotline-image {
+    float: left;
+    width: 80px;
+    margin-right: 10px;
+    /* Điều chỉnh khoảng cách giữa hình ảnh và văn bản */
+    position: absolute;
+    top: 14%;
+    left: 90px;
+  }
+  
+  /*  */
+  .copyright-wrap {
+    background-color: #1c1c1c;
+    padding: 3px 0;
+    text-align: center;
+  }
+  
+  /* code css tạo hàng chữ địa chỉ, mở cửa, liên kết */
+  .contact-label,
+  .opening-label,
+  .links-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    position: relative;
+  }
+  
+  .contact-info,
+  .opening-info,
+  .links-info {
+    margin: 0;
+  }
+  
+  /*Địa chỉ footer  */
+  .contact-info {
+    color: #ffffff;
+    /* Màu trắng cho toàn bộ đoạn text */
+    font-size: 16px;
+    font-weight: normal;
+  }
+  
+  .address-label {
+    color: #ff9900;
+    /* Màu cam cho "Địa chỉ:" */
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  /*  */
+  /* head office footer */
+  .address-label-111 {
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    /* Để tạo kích thước theo nội dung */
+    position: relative;
+    /* Để tạo vị trí tương đối cho gạch chân */
+    padding-bottom: 5px;
+    /* Khoảng cách từ chữ đến gạch chân */
+  }
+  
+  .address-label-111::after {
+    content: "";
+    /* Tạo nội dung rỗng */
+    position: absolute;
+    /* Đặt gạch chân tuyệt đối so với .contact-label */
+    left: 0;
+    /* Căn trái */
+    bottom: 0;
+    /* Căn dưới */
+    width: 57%;
+    /* Chiều rộng bằng 100% của .contact-label */
+    height: 3px;
+    /* Chiều cao gạch chân */
+    background-color: #ff6b00;
+    /* Màu cam */
+  }
+  
+  /*  */
+  .row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+    position: relative;
+    top: -69px;
+  }
+  
+  .address-text {
+    /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
+    font-size: 17px;
+  }
+  
+  /*  */
+  /* code css ghạch chân liên hệ footer */
+  .contact-label {
+    color: #333333;
+    /* Màu chữ xám */
+    font-size: 18px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Độ đậm chữ */
+    display: inline-block;
+    /* Để tạo kích thước theo nội dung */
+    position: relative;
+    /* Để tạo vị trí tương đối cho gạch chân */
+    padding-bottom: 5px;
+    /* Khoảng cách từ chữ đến gạch chân */
+  }
+  
+  .contact-label::after {
+    content: "";
+    /* Tạo nội dung rỗng */
+    position: absolute;
+    /* Đặt gạch chân tuyệt đối so với .contact-label */
+    left: 0;
+    /* Căn trái */
+    bottom: 0;
+    /* Căn dưới */
+    width: 57%;
+    /* Chiều rộng bằng 100% của .contact-label */
+    height: 3px;
+    /* Chiều cao gạch chân */
+    background-color: #ff6b00;
+    /* Màu cam */
+  }
+  
+  /* code css tạo ghạch chân  mở cửa*/
+  .opening-label {
+    color: #333333;
+    /* Màu chữ xám */
+    font-size: 18px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Độ đậm chữ */
+    display: inline-block;
+    /* Để tạo kích thước theo nội dung */
+    position: relative;
+    /* Để tạo vị trí tương đối cho gạch chân */
+    padding-bottom: 5px;
+    /* Khoảng cách từ chữ đến gạch chân */
+  }
+  
+  .opening-label::after {
+    content: "";
+    /* Tạo nội dung rỗng */
+    position: absolute;
+    /* Đặt gạch chân tuyệt đối so với .contact-label */
+    left: 0;
+    /* Căn trái */
+    bottom: 0;
+    /* Căn dưới */
+    width: 57%;
+    /* Chiều rộng bằng 100% của .contact-label */
+    height: 3px;
+    /* Chiều cao gạch chân */
+    background-color: #ff6b00;
+    /* Màu cam */
+  }
+  
+  /* code ghạch chân footer  liên kết */
+  .links-label {
+    color: #333333;
+    /* Màu chữ xám */
+    font-size: 18px;
+    /* Kích thước chữ */
+    font-weight: bold;
+    /* Độ đậm chữ */
+    display: inline-block;
+    /* Để tạo kích thước theo nội dung */
+    position: relative;
+    /* Để tạo vị trí tương đối cho gạch chân */
+    padding-bottom: 5px;
+    /* Khoảng cách từ chữ đến gạch chân */
+  }
+  
+  .links-label::after {
+    content: "";
+    /* Tạo nội dung rỗng */
+    position: absolute;
+    /* Đặt gạch chân tuyệt đối so với .contact-label */
+    left: 0;
+    /* Căn trái */
+    bottom: 0;
+    /* Căn dưới */
+    width: 57%;
+    /* Chiều rộng bằng 100% của .contact-label */
+    height: 3px;
+    /* Chiều cao gạch chân */
+    background-color: #ff6b00;
+    /* Màu cam */
+  }
+  
+  .links-info {
+    margin-bottom: 5px;
+  }
+  
+  
+  /* nut dang ky footer */
+  .subscribe button {
+    padding: 5px 10px;
+    background-color: #ff9900;
+    color: #222;
+    border: none;
+    cursor: pointer;
+    width: 173px;
+    height: 50px;
+    top: 65%;
+    left: 5%;
+    position: absolute;
+    font-weight: 600;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+  }
+  
+  /*  */
+  .sidebar {
+    /* Your sidebar styles here */
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -63px;
+    padding-bottom: 83px;
+  }
+  
+  .row-tintuc1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -59px;
+    justify-content: center;
+    gap: 26px;
+  }
+  
+  .col {
+    flex-basis: 25%;
+    padding: 10px;
+  }
+  
+  .contact-label,
+  .opening-label,
+  .links-label,
+  .contact-info,
+  .opening-info,
+  .links-info {
+    color: white;
+  }
+  
+  .contact-label,
+  .opening-label,
+  .links-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-info,
+  .opening-info,
+  .links-info {
+    margin: 0;
+  }
+  
+  /* màu chữ 123web footer */
+  .footer-text {
+    top: 5px;
+    position: relative;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  footer {
+    position: relative;
+    height: 100px;
+  }
+  
+  /* code css tạo chuyển động xe ô tô */
+  .icon-car {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 83%;
+    z-index: 2;
+  }
+  
+  .icon-car img {
+    width: 6%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .icon-car .car1 {
+    animation: carAnimation 2s linear infinite;
+  }
+  
+  @keyframes carAnimation {
+    0% {
+      transform: translateX(-100%);
+    }
+  
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .icon-car .car2 {
+    animation: carAnimation2 2s linear infinite;
+  }
+  
+  @keyframes carAnimation2 {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .icon-car .car3 {
+    animation: carAnimation3 2s linear infinite;
+  }
+  
+  @keyframes carAnimation3 {
+    0% {
+      transform: translateX(100%);
+    }
+  
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  /* cỡ chữ footer 123thietkeweb */
+  
+  .image-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img.image-car1 {
+    left: 0%;
+    position: relative;
+    width: 300px;
+  
+  }
+  
+  .image-car2-container {
+    display: flex;
+  }
+  
+  img.image-car2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+    top: 84px;
+    position: relative;
+    right: -58px;
+  }
+  
+  .ceo {
+    border-radius: 100%;
+    width: 14%;
+  }
+  
+  .datxebutton {
+    left: 94%;
+    width: 353px;
+    top: 37%;
+    position: absolute;
+  }
+  
+  /* footer  chữ liên hệ email */
+  .contact-info1 {
+    display: block;
+    align-items: center;
+    position: relative;
+    color: #ccc;
+    margin-bottom: -23px;
+  }
+  
+  
+  .subscribe input[type="email"] {
+    padding: 5px;
+    width: 300px;
+    height: 50px;
+    margin-right: 5px;
+    /* clip-path: polygon(0 0, 75% 0, 100% 100%,  0  100%); */
+    clip-path: polygon(0% 0%, 90% 0, 100% 30%, 100% 100%, 0 100%);
+  }
+  
+  /* nut dang ky footer */
+  .subscribe button {
+    padding: 5px 10px;
+    background-color: #ff9900;
+    color: #222;
+    border: none;
+    cursor: pointer;
+    width: 173px;
+    height: 50px;
+    top: 65%;
+    left: 2%;
+    position: absolute;
+    font-weight: 600;
+    clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
+  }
+  
+  /*  code css footer độ hẹp dòng chữ height*/
+  p {
+    font-size: 17px;
+    color: #000;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  
+  /*  */
+  /* trang cuộn xuống */
+  /* CODE TẠO THANH CUỘN XUỐNG */
+  
+  .scroll-navbar {
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .scroll-navbar .container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+  }
+  
+  .scroll-navbar .navbar-brand img {
+    height: 40px;
+  }
+  
+  .side-navbar {
+    height: 80px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-top: -70px;
+  }
+  
+  .side-navbar ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .side-navbar li {
+    margin-right: 20px;
+  }
+  
+  .side-navbar a {
+    color: #666;
+    text-decoration: none;
+  }
+  
+  .logo000 {
+    position: absolute;
+    left: 190px;
+    top: 10px;
+    width: 10px;
+  }
+  
+  .logo01 {
+    width: 188px;
+    margin-left: -538px;
+    margin-top: -50px;
+  }
+  
+  .side-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: white;
+    color: black;
+  }
+  
+  .side-navbar {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 15%;
+    z-index: 2;
+    margin-top: -28%;
+  }
+  
+  .side-navbar.show {
+    display: block;
+  }
+  
+  /*  */
+  .side-navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .side-navbar li {
+    margin-right: 20px;
+  }
+  
+  .side-navbar a {
+    position: relative;
+    top: 19px;
+    color: #222;
+    font-weight: 500;
+  }
+  
+  /* mục liện hệ  THANH CUỘN*/
+  .contact-nav111 {
+    position: absolute;
+    top: 51%;
+    /* Adjust the distance from the top as needed */
+    left: 79%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(0deg);
+    padding: 12px 30px;
+  }
+  
+  
+  /*  */
+  /* ẩn dòng heft */
+  /* Ẩn dòng trên màn hình nhỏ */
+  /*  */
+  /* cpde css thanh cuộn tranhc chính */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  nav.menu {
+    flex: 1;
+  }
+  
+  .scroll-menu {
+    display: flex;
+    /* overflow-x: auto; Tạo thanh cuộn ngang nếu cần */
+    white-space: nowrap;
+    /* Đảm bảo các liên kết nằm trên một dòng */
+    padding: 10px 0;
+    /* background-color: white; */
+    margin-left: 623px;
+    /* margin-top: -152px; */
+  }
+  
+  .scroll-menu a {
+    text-decoration: none;
+    color: #333;
+    padding: 15px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: -76px;
+  }
+  
+  .scroll-menu a:hover {
+    background-color: #ddd;
+    border-radius: 5px;
+    color: #000;
+  }
+  
+  .logo-0 {
+    overflow: auto;
+    /* Cho phép thanh cuộn xuất hiện nếu cần */
+    max-height: 200px;
+    /* Đặt chiều cao tối đa cho phần tử */
+    width: 110px;
+    /* Chiều rộng của thanh cuộn dọc */
+    height: 50px;
+    /* Chiều cao của thanh cuộn ngang */
+    margin-top: 73px;
+    position: relative;
+    left: 290px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  main {
+    padding-top: -80px;
+    /* Đảm bảo nội dung không bị che khuất bởi header */
+  }
+  
+  /* Header ẩn khi cuộn lên và hiện khi cuộn xuống */
+  .header-hidden {
+    top: -80px;
+    /* Ẩn header khi cuộn lên */
+  
+  }
+  
+  /*  */
+  /* code css nút search trên thanh cuộn */
+  .btn {
+    position: relative;
+    right: -147px;
+  }
+  
+  /*  */
+  
+  .icon-imgsearch {
+    color: black;
+    background-color: white;
+  }
+  
+  .icon-imgsearch {
+    width: 80px;
+    /* Kích thước width của icon */
+    height: 50px;
+    /* Kích thước height của icon */
+    margin-top: -113px;
+  }
+  
+  
+  /* code css nút 3 ghạch thanh cuộn */
+  
+  .custom-icon {
+    display: inline-block;
+    width: 30px;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    top: -146%;
+    left: 159%;
+  }
+  
+  .custom-icon::before,
+  .custom-icon::after {
+    content: '';
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+  }
+  
+  .custom-icon::before {
+    top: -8px;
+  }
+  
+  .custom-icon::after {
+    top: 8px;
+  }
+  
+  .custom-toggler {
+    border: none;
+    background-color: transparent;
+  }
+  
+  /*  */
+  
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    margin-top: 3px;
+    margin-right: -23px;
+    display: none;
+  }
+  
+  /* cde css nút tìm kiếm trên thanh nav */
+  
+  .search-icon img,
+  .menu-icon img {
+    max-width: 100%;
+    filter: brightness(0) invert(1);
+    color: white;
+  }
+  
+  
+  /*  */
+  /* thanh cuộn */
+  .navbar-nav {
+    flex-direction: column;
+    /* Xếp dọc các mục menu */
+    margin-left: 0;
+    /* Không có khoảng cách bên trái */
+    /* width: 100%; Đặt chiều rộng 100% cho navbar */
+    */
+  }
+  }
+  
+  /* code css dau 3 ghach */
+  /* Định dạng chung cho biểu tượng hamburger */
+  .navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    /* Kích thước chiều ngang của biểu tượng */
+    height: 25px;
+    /* Kích thước chiều cao */
+  }
+  
+  /* dau 3 ghachj */
+  
+  .bar {
+    display: block;
+    height: 4px;
+    /* Chiều cao của mỗi thanh gạch */
+    background-color: #666;
+    /* Màu của thanh gạch */
+    transition: all 0.3s ease;
+  }
+  
+  /*  */
+  /* code css media nút 3 ghạch dấu nhân */
+  .navbar-toggler.collapsed .bar1 {
+    transform: rotate(0deg);
+    width: 23px;
+  }
+  
+  .navbar-toggler.collapsed .bar2 {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bar3 {
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar1 {
+    transform: rotate(45deg) translate(0px, 14px);
+    position: relative;
+    right: -21px;
+    width: 45px;
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar2 {
+    display: none;
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar3 {
+    transform: rotate(-45deg) translate(-11px, -29px);
+    position: relative;
+    left: 40px;
+    top: 13px;
+    width: 47px;
+  }
+  
+  /*  */
+  /* code css media nút 3 ghạch dấu nhân */
+  .navbar-toggler.collapsed .bar1 {
+    transform: rotate(0deg);
+    width: 23px;
+  }
+  
+  .navbar-toggler.collapsed .bar2 {
+    opacity: 1;
+  }
+  
+  .navbar-toggler.collapsed .bar3 {
+    transform: rotate(0deg);
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar1 {
+    transform: rotate(45deg) translate(0px, 14px);
+    position: relative;
+    right: -21px;
+    width: 45px;
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar2 {
+    display: none;
+  }
+  
+  .navbar-toggler:not(.collapsed) .bar3 {
+    transform: rotate(-45deg) translate(-11px, -29px);
+    position: relative;
+    left: 40px;
+    top: 13px;
+    width: 47px;
+  }
+  
+  /*  */
+  /*tạo bảng dấu nhân chéo  */
+  
+  /* CSS cho navbar */
+  / .navbar {
+    position: absolute;
+    top: 0;
+    left: 350px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -40px;
+  }
+  
+  /* nút trên bảng */
+  .navbar-toggler {
+    float: right;
+    margin: -3px;
+    width: 99px;
+    height: 56px;
+    color: #f4f4f4;
+    margin-top: 96px;
+  }
+  
+  .navbar-nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .nav-item {
+    margin: 5px 0;
+  }
+  
+  .navbar-toggler {
+    margin-left: auto;
+  }
+  
+  .navbar-brand {
+    display: none;
+  }
+  
+  .hotline-image1 {
+    left: -49px;
+    top: 106px;
+    /* Điều chỉnh vị trí lên hoặc xuống */
+    font-size: 40px;
+    /* Giảm kích thước biểu tượng cho di động */
+  }
+  
+  .navbar-left {
+    display: block;
+    /* Ẩn navbar-left khi màn hình nhỏ */
+  }
+  
+  .navbar-right {
+    display: block;
+    /* Ẩn navbar-right khi màn hình nhỏ */
+  }
+  
+  /* code  */
+  
+  /* code css tạo bảng thanh dấu nhân chéo*/
+  .menu-table {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border: 2px solid black;
+  }
+  
+  .menu-item {
+    border-bottom: 1px solid black;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  .nav-link {
+    display: block;
+    padding: 15px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: white;
+  }
+  
+  .nav-link:hover {
+    background-color: #f8f9fa;
+    color: black;
+  
+    .navbar-nav .nav-link {
+      padding-right: 100px;
+      padding-left: 0;
+      font-weight: bold;
+    }
+  
+  }
+  
+  /* code css media */
+
+  @media (max-width: 768px) {
+    .header-top {
+      display: none;
+    }
+    .contact-info {
+      display: none;
+    }
+
+    .nav-menu {
+      display: none;
+    }
+/* boook you */
+.carousel-caption p {
+  top: -148px;
+  margin-right: -41%;
+}
+
+.carousel-caption h1 {
+  left: 41%;
+  /* margin-top: 75%; */
+  font-size: 36px;
+}
+.carousel-caption h1 {
+  top: 13%;
+  left: 39%;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.hotline01 {
+  width: 231px;
+  top: 96px;
+  right: -152px;
+}
+
+.hotline02 {
+  margin-top: 139%;
+  right: -36%;
+}
+.chunhat0 {
+  width: 120px;
+  top: -253px;
+  position: relative;
+  left: -95px;
+}
+
+.chunhat01 {
+  top: -286px;
+  left: -90px;
+  position: relative;
+}
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media (max-width: 767px) {
+    .carousel-item img {
+        height: 559px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+  .btn:not(:disabled):not(.disabled) {
+    cursor: pointer; /* Kích hoạt con trỏ khi di chuột vào nút */
+    margin-top: 3px; /* Đặt khoảng cách phía trên */
+    margin-right: -23px; /* Đặt khoảng cách bên phải */
+    display: none;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .description {
+    position: relative; /* Giữ nguyên vị trí tương đối */
+    top: 10px; /* Điều chỉnh khoảng cách từ đầu */
+    left: 20px; /* Điều chỉnh khoảng cách từ bên trái */
+    color: #ccc; /* Giữ nguyên màu chữ */
+    font-family: "Space Grotesk", sans-serif; /* Giữ nguyên font chữ */
+    font-size: 16px; /* Điều chỉnh kích thước font chữ cho vừa với màn hình nhỏ */
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) { /* Dành cho màn hình nhỏ hơn 768px */
+  .sidebar-widget {
+    top: 454px;
+    position: relative;
+    margin-left: -272px;
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  button.accordion-button {
+      font-size: 14px; /* Giảm kích thước chữ */
+      text-align: center; /* Căn giữa văn bản */
+}
+}
+/*  */
+
+@media (max-width: 768px) {
+  .accordion {
+      width: 301px;
+      margin: 17px auto;
+      margin-left: -26px;
+  }
+}
+
+@media (max-width: 768px) {
+  button.accordion-button {
+      margin-left: 26px;
+      font-size: 14px;
+      padding: 8px 15px;
+      text-align: center;
+      width: 106%;
+  }
+}
