@@ -2120,8 +2120,10 @@ p {
   
   .btn:not(:disabled):not(.disabled) {
     cursor: pointer;
-    margin-top: 3px;
+    top: -7px;
     margin-right: -23px;
+    position: relative;
+    left: 1px;
     /* display: none; */
   }
   
