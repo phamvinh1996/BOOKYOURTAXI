@@ -1845,7 +1845,7 @@ p {
     width: 173px;
     height: 50px;
     top: 65%;
-    left: 2%;
+    left: 6%;
     position: absolute;
     font-weight: 600;
     clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -1935,7 +1935,7 @@ p {
     width: 100%;
     height: 15%;
     z-index: 2;
-    margin-top: -28%;
+    /* margin-top: -28%; */
   }
   
   .side-navbar.show {
@@ -2122,7 +2122,7 @@ p {
     cursor: pointer;
     margin-top: 3px;
     margin-right: -23px;
-    display: none;
+    /* display: none; */
   }
   
   /* cde css nút tìm kiếm trên thanh nav */
@@ -2459,7 +2459,7 @@ p {
   min-width: 327px;
   position: relative;
   top: -16px;
-  left: -2px;
+  left: -14px;
 }
 #subscribeBtn {
   margin-left: 10px;
@@ -2486,8 +2486,164 @@ p {
   font-size: 16px;
   /* top: -46px; */
   position: relative;
-  right: -21px;
+  right: 116px;
 }
+
+.footer-text {
+  white-space: nowrap; /* Ngăn không cho dòng chữ xuống hàng */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." nếu chữ quá dài */
+}
+.side-navbar.show{
+  display: none;
+}
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* thanh cuon */
+.side-navbar.show {
+  display: none;
+
+}
+.navbar-toggler .navbar-toggler-icon {
+  background: none;
+}
+/*  */
+
+
+
+  /* dau cheo */
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+
+  /*  */
+  /* code css media DẤU CHÉO MENU */
+  .navbar-nav {
+    background-color: white;
+    position: relative;
+    width: 413px;
+    right: 311px;
+    top: 83px;
+  }
+  /* COPDE CSS MEDIA DẤU CHÉO  */
+  /* code css media feel you */
+
+  .icon-wrapper {
+    margin-top: -18px;
+  }
+
+  /* dich vu noi bat */
+  .second-line {
+    margin-left: 65px;
+    top: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #ddd;
+    white-space: inherit;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 21px;
+    left: 312px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -16px;
+    width: 23%;
+    height: 78px;
+  }
+
+  .logo-brand {
+    max-width: 39%;
+    margin-top: -39px;
+  }
+
+  /* dấu nhân */
+  .navbar-toggler {
+    top: 46px;
+    */ display: block;
+    margin-top: -15px;
+    position: absolute;
+
+    .collapse {
+      position: absolute;
+    }
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+
+  }
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+/*  */
+
+
+
+
+
+
+
+
+
+
+.logo-brand {
+  max-width: 80%;
+  margin-top: -43px;
+}
+
+.logo-0 {
+  display: none;
+}
+
+.navbar-nav {
+  justify-content: flex-end;
+}
+
+.logo01 {
+  display: none;
+  margin-left: -293%;
+  top: 28px;
+  position: relative;
+}
+
+.nav-item.dropdown {
+  display: block;
+}
+
+.contact-nav111 {
+  display: none;
+}
+
 
 
   }
