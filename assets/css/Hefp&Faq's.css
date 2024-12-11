@@ -144,6 +144,8 @@ p {
 }
 
 .logo-brand {
+  position: relative;
+  top: 22px;
   width: 181px;
   height: 60px;
   /* Adjust as needed */
@@ -1948,7 +1950,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
-  margin-top: -9%;
+  margin-top: -11%;
 }
 
 .side-navbar.show {
@@ -2044,9 +2046,9 @@ nav.menu {
   /* Cho phép thanh cuộn xuất hiện nếu cần */
   max-height: 200px;
   /* Đặt chiều cao tối đa cho phần tử */
-  width: 110px;
+  width: 157px;
   /* Chiều rộng của thanh cuộn dọc */
-  height: 50px;
+  height: 53px;
   /* Chiều cao của thanh cuộn ngang */
   margin-top: 73px;
   position: relative;
