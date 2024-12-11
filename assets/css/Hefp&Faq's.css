@@ -940,12 +940,12 @@ div#offcanvasDarkNavbar {
   /* Căn giữa theo chiều dọc */
 }
 
- .category a {
+.category a {
   text-decoration: none;
   color: #333;
   font-family: 'Space Grotesk', sans-serif;
 
-} 
+}
 
 .category span {
   background: #f9f9f9;
@@ -1213,25 +1213,21 @@ div#offcanvasDarkNavbar {
   padding: 30px;
 }
 
-  .category {
+.category {
   color: #000;
-} 
+}
 
 .category {
   /* text-decoration: underline; */
   text-decoration-color: orange;
-} 
+}
 
 
 /* nút bảng phải */
 .form-control {
-  margin-top: 0px; /* Thay đổi giá trị theo nhu cầu */
-} 
-
-
-
-
-
+  margin-top: 0px;
+  /* Thay đổi giá trị theo nhu cầu */
+}
 
 
 /*  */
@@ -2145,8 +2141,6 @@ main {
 }
 
 
-
-
 /* cde css nút tìm kiếm trên thanh nav */
 
 .search-icon img,
@@ -2167,6 +2161,7 @@ main {
   /* width: 100%; Đặt chiều rộng 100% cho navbar */
   */
 }
+
 /* code css dau 3 ghach */
 /* Định dạng chung cho biểu tượng hamburger */
 .navbar-toggler-icon {
@@ -2724,24 +2719,28 @@ main {
 
 @media (max-width: 600px) {
   .sidebar-widget .category li a {
-      text-decoration: none; /* Bỏ gạch chân khi màn hình nhỏ */
+    text-decoration: none;
+    /* Bỏ gạch chân khi màn hình nhỏ */
   }
 }
 
 /* bỏ dấu ghạch màu cam */
 @media (max-width: 600px) {
   .category {
-      text-decoration: none; /* Bỏ gạch chân trên màn hình nhỏ */
+    text-decoration: none;
+    /* Bỏ gạch chân trên màn hình nhỏ */
   }
 }
+
 /*  */
 @media (max-width: 600px) {
   .category li a:hover {
-      text-decoration: underline; /* Gạch chân khi hover trên màn hình nhỏ */
-      text-decoration-color: black; /* Màu gạch chân khi hover */
+    text-decoration: underline;
+    /* Gạch chân khi hover trên màn hình nhỏ */
+    text-decoration-color: black;
+    /* Màu gạch chân khi hover */
   }
 }
 
 
 /*  */
-
