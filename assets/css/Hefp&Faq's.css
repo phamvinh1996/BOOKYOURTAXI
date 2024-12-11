@@ -2086,11 +2086,11 @@ main {
 }
 
 .icon-imgsearch {
+  right: -55px;
+  position: relative;
   width: 80px;
-  /* Kích thước width của icon */
   height: 50px;
-  /* Kích thước height của icon */
-  margin-top: -113px;
+  margin-top: -75px;
 }
 
 
