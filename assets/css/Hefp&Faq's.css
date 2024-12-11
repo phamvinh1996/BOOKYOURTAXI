@@ -1223,7 +1223,10 @@ div#offcanvasDarkNavbar {
 } 
 
 
-
+/* nút bảng phải */
+.form-control {
+  margin-top: -11px; /* Thay đổi giá trị theo nhu cầu */
+} 
 
 
 
@@ -2134,12 +2137,15 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  top: -7px;
+  top: -13px;
   margin-right: -23px;
   position: relative;
   left: 1px;
   /* display: none; */
 }
+
+
+
 
 /* cde css nút tìm kiếm trên thanh nav */
 
@@ -2661,7 +2667,6 @@ main {
     /* Đặt khoảng cách phía trên */
     margin-right: -23px;
     /* Đặt khoảng cách bên phải */
-    display: none;
   }
 
   .description {
@@ -2732,5 +2737,19 @@ main {
   .category li a:hover {
       text-decoration: underline; /* Gạch chân khi hover trên màn hình nhỏ */
       text-decoration-color: black; /* Màu gạch chân khi hover */
+  }
+}
+
+
+/*  */
+
+@media (max-width: 600px) {
+  .btn {
+      padding: 8px 16px; /* Giảm đệm cho nút trên màn hình nhỏ */
+      font-size: 14px; /* Giảm kích thước chữ */
+  }
+
+  .search-button i {
+      font-size: 16px; /* Giảm kích thước biểu tượng */
   }
 }
