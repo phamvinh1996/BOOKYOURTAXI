@@ -940,14 +940,12 @@ div#offcanvasDarkNavbar {
   /* Căn giữa theo chiều dọc */
 }
 
-.category a {
+ .category a {
   text-decoration: none;
-  /* Xóa gạch chân */
   color: #333;
-  /* Màu chữ */
   font-family: 'Space Grotesk', sans-serif;
 
-}
+} 
 
 .category span {
   background: #f9f9f9;
@@ -2705,5 +2703,25 @@ main {
 @media (max-width: 767px) {
   .carousel-item img {
     height: 559px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sidebar-widget .category li a {
+      text-decoration: none; /* Bỏ gạch chân khi màn hình nhỏ */
+  }
+}
+
+/* bỏ dấu ghạch màu cam */
+@media (max-width: 600px) {
+  .category {
+      text-decoration: none; /* Bỏ gạch chân trên màn hình nhỏ */
+  }
+}
+/*  */
+@media (max-width: 600px) {
+  .category li a:hover {
+      text-decoration: underline; /* Gạch chân khi hover trên màn hình nhỏ */
+      text-decoration-color: black; /* Màu gạch chân khi hover */
   }
 }
