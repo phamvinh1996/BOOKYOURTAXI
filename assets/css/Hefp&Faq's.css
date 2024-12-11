@@ -1225,7 +1225,7 @@ div#offcanvasDarkNavbar {
 
 /* nút bảng phải */
 .form-control {
-  margin-top: -11px; /* Thay đổi giá trị theo nhu cầu */
+  margin-top: 0px; /* Thay đổi giá trị theo nhu cầu */
 } 
 
 
@@ -2667,6 +2667,8 @@ main {
     /* Đặt khoảng cách phía trên */
     margin-right: -23px;
     /* Đặt khoảng cách bên phải */
+    position: relative;
+    left: -58px;
   }
 
   .description {
@@ -2743,13 +2745,3 @@ main {
 
 /*  */
 
-@media (max-width: 600px) {
-  .btn {
-      padding: 8px 16px; /* Giảm đệm cho nút trên màn hình nhỏ */
-      font-size: 14px; /* Giảm kích thước chữ */
-  }
-
-  .search-button i {
-      font-size: 16px; /* Giảm kích thước biểu tượng */
-  }
-}
