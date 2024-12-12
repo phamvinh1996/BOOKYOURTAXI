@@ -1122,7 +1122,7 @@ element.style {
   /* code css mục màu chữ about */
   .chunhat0 {
     background-color: #ff9900;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    clip-path: polygon(93% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
     width: 11%;
@@ -1144,6 +1144,7 @@ element.style {
     position: relative;
     top: -625px;
     left: -591px;
+    font-size: 16px;
   }
   
   
@@ -1198,11 +1199,12 @@ element.style {
   /* code css mục màu chữ about */
 .chunhat0 {
     background-color: #ff9900;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%); */
+    clip-path: polygon(93% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
-    width: 11%;
-    height: 47px;
+    width: 12%;
+    height: 32px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -1223,11 +1225,12 @@ element.style {
   }
   .chunhat0 {
     background-color: #ff9900;
-    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    /* clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%); */
+    clip-path: polygon(93% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
-    width: 21%;
-    height: 47px;
+    width: 15%;
+    height: 32px;
     border-radius: 2px;
     display: flex
 ;
@@ -1240,5 +1243,5 @@ element.style {
     position: absolute;
     /* top: -589px; */
     margin-top: 65px;
-    margin-left: 37%;
+    margin-left: 40%;
 }
