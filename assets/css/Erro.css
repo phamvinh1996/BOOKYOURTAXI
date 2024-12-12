@@ -2294,3 +2294,76 @@ main {
   }
 
 }
+
+
+/* code css media */
+
+@media (max-width: 768px) {
+  .navbar-right {
+    display: none; /* Ẩn phần tử */
+  }
+
+  .contact-info {
+    display: none; /* Ẩn phần tử */
+  }
+
+  .navbar-left {
+    display: none; /* Ẩn phần tử */
+  }
+
+  .nav-menu {
+    display: none; /* Ẩn phần tử */
+  }
+  .btn-view-more {
+    /* display: none; Ẩn phần tử */
+    margin-top: -70%;
+    width: 76%;
+  }
+  /* ft */
+  .description {
+    position: relative; /* Có thể thay đổi thành absolute nếu cần */
+    top: 0; /* Đặt lại giá trị top */
+    left: 0; /* Đặt lại giá trị left */
+ 
+  }
+.background-image{
+margin-top: -37%;
+
+}
+.header-top{
+  display: none;
+}
+/*  */
+.chunhat0 {
+  width: 184px;
+  top: -259px;
+  position: relative;
+  left: -63px;
+}
+.chunhat01 {
+  top: -286px;
+  left: 2px;
+  position: relative;
+}
+.carousel-caption h1 {
+  top: 21%;
+  left: 50%;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.carousel-caption p {
+  top: -207px;
+  margin-right: -108%;
+}
+
+
+
+}
+
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
