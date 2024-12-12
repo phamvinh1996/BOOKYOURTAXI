@@ -1183,7 +1183,7 @@ button {
 /* thanh nav footer hotline */
 .hotline {
   position: absolute;
-  top: -10px;
+  top: 16px;
   right: 0;
   background-color: #ff9900;
   padding: 10px;
