@@ -2133,28 +2133,23 @@ main {
     display: none;
     /* Ẩn phần tử */
   }
-
   .contact-info {
     display: none;
     /* Ẩn phần tử */
   }
-
   .navbar-left {
     display: none;
     /* Ẩn phần tử */
   }
-
   .nav-menu {
     display: none;
     /* Ẩn phần tử */
   }
-
   .btn-view-more {
     /* display: none; Ẩn phần tử */
     margin-top: -70%;
     width: 76%;
   }
-
   /* ft */
   .description {
     position: relative;
@@ -2163,18 +2158,14 @@ main {
     /* Đặt lại giá trị top */
     left: 0;
     /* Đặt lại giá trị left */
-
   }
 
   .background-image {
     margin-top: -37%;
-
   }
-
   .header-top {
     display: none;
   }
-
   /*  */
   .chunhat0 {
     width: 184px;
@@ -2182,51 +2173,43 @@ main {
     position: relative;
     left: -63px;
   }
-
   .chunhat01 {
     top: -284px;
     left: 2px;
     position: relative;
     font-size: 13px;
   }
-
   .carousel-caption h1 {
     top: 21%;
     left: 50%;
     font-size: 32px;
     margin-bottom: 10px;
   }
-
   .carousel-caption p {
     top: -207px;
     margin-right: -108%;
   }
-
   /* ft */
   .logo-image {
     top: 3px;
     right: 85px;
     width: 65%;
   }
-
   .background-image {
     background-position: bottom;
     /* height: 967px; */
     margin-top: -33%;
   }
-
   .hotline {
     margin-right: 2px;
     margin-top: 163px;
     width: 111%;
   }
-
   .hotline-text1 {
     font-size: 20px;
     top: 47%;
     left: 59%;
   }
-
   .hotline-text0 {
     font-size: 18px;
     top: 47%;
@@ -2234,18 +2217,15 @@ main {
     white-space: normal;
     width: 90%;
   }
-
   .description {
     position: relative;
     top: -33px;
     left: 0;
   }
-
   .row-footer {
     margin-top: 79px;
     top: -51px;
   }
-
   .links-label {
     margin-right: 10px;
     white-space: nowrap;
@@ -2253,7 +2233,6 @@ main {
     top: -20px;
     left: -2px;
   }
-
   #emailInput {
     flex: 1;
     min-width: 327px;
@@ -2261,7 +2240,6 @@ main {
     top: -16px;
     left: 13px;
   }
-
   #subscribeBtn {
     margin-left: 10px;
     position: relative;
@@ -2270,12 +2248,10 @@ main {
     margin-left: -9px;
     font-size: 16px;
   }
-
   .footer-text {
     white-space: nowrap;
     text-overflow: ellipsis;
   }
-
   .footer-text {
     display: block;
     /* margin-top: 15px; */
@@ -2284,40 +2260,33 @@ main {
     position: relative;
     /* right: 116px; */
   }
-
   .icon-car {
     flex-direction: row;
     justify-content: center;
     top: 3px;
     position: relative;
   }
-
   .icon-car img {
     margin: 0 10px;
     /* max-width: 80%; */
     width: 78px;
   }
-
   .side-navbar.show {
     display: none;
   }
-
   /*  */
   /* thanh cuon */
   .side-navbar.show {
     display: none;
-
   }
   .navbar-toggler .navbar-toggler-icon {
     background: none;
   }
-
   /*  */
   /* dau cheo */
   .navbar-toggler .navbar-toggler-icon {
     background: none;
   }
-
   /*  */
   /* code css media DẤU CHÉO MENU */
   .navbar-nav {
@@ -2327,14 +2296,12 @@ main {
     right: 311px;
     top: 83px;
   }
-
   /* COPDE CSS MEDIA DẤU CHÉO  */
   /* code css media feel you */
 
   .icon-wrapper {
     margin-top: -18px;
   }
-
   /* dich vu noi bat */
   .second-line {
     margin-left: 65px;
@@ -2344,7 +2311,6 @@ main {
     color: #ddd;
     white-space: inherit;
   }
-
   .navbar {
     position: absolute;
     top: 21px;
@@ -2361,35 +2327,28 @@ main {
     max-width: 39%;
     margin-top: -39px;
   }
-
   /* dấu nhân */
   .navbar-toggler {
     top: 46px;
     */ display: block;
     margin-top: -15px;
     position: absolute;
-
     .collapse {
       position: absolute;
     }
   }
-
   .navbar-toggler .navbar-toggler-icon {
     background: none;
   }
-
   .bar1 {
     width: 41px;
     transform: rotate(45deg) translate(0, 10px);
   }
-
   .bar2 {
     width: 38px;
     display: block;
     margin-top: 3px;
-
   }
-
   .bar3 {
     width: 29px;
     position: relative;
@@ -2397,13 +2356,11 @@ main {
     transform: rotate(-45deg) translate(4px, -16px);
     margin-top: 3px;
   }
-
   /*  */
   .logo-brand {
     max-width: 80%;
     margin-top: -86px;
   }
-
   .logo-0 {
     display: none;
   }
@@ -2411,23 +2368,19 @@ main {
   .navbar-nav {
     justify-content: flex-end;
   }
-
   .logo01 {
     display: none;
     margin-left: -293%;
     top: 28px;
     position: relative;
   }
-
   .nav-item.dropdown {
     display: block;
   }
-
   .contact-nav111 {
     display: none;
   }
 }
-
 @media (max-width: 767px) {
   .carousel-item img {
     height: 559px;
