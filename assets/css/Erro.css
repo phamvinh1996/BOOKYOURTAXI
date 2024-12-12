@@ -1,0 +1,1244 @@
+/* taxi liên tỉnh giá tốt */
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f5f8;
+    padding: 10px;
+    /* margin-top: -9%; */
+  }
+  
+  .navbar-left {
+    flex-grow: 1;
+  }
+  
+  .navbar-right {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .navbar-on1 {
+    position: relative;
+    left: 57px;
+    top: 73px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+
+/* code css màu menu thanh nav */
+p {
+    font-size: 28px;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .call-for-ride {
+    color: white;
+  }
+  
+  .phone-number {
+    color: orange;
+    font-size: 28px;
+  }
+  
+  .every1 {
+    color: #101114;
+  }
+  
+  .logoridekft {
+    width: 206px;
+  }
+  
+  .doctt1 {
+    padding: 10px;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* code css chữ taxi giá liên tỉnh */
+  .navbar-link-Help {
+    position: absolute;
+    left: 73%;
+    color: #000;
+    top: 1%;
+  }
+  
+  .navbar-link-Support {
+    position: absolute;
+    left: 76%;
+    color: #000;
+    top: 1%;
+  }
+  
+  .navbar-link-FAQ {
+    position: absolute;
+    left: 81%;
+    color: #000;
+    top: 1%;
+  }
+  
+  /* youtube  iocon*/
+  .navbar-icon-tt {
+    position: absolute;
+    left: 86%;
+    top: 1%;
+  }
+  
+  /*  */
+  /* hình ins */
+  .navbar-icon-ins {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+  }
+  
+  /*  */
+  .navbar-icon-link {
+    position: absolute;
+    left: 90%;
+    top: 1%;
+  }
+  
+  /* hình iconfb */
+  .navbar-icon-fb {
+    position: absolute;
+    left: 84%;
+    top: 1%;
+  }
+  
+  /*  */
+  .navbar-text01 {
+    color: #898b8b;
+    position: relative;
+    left: 250px;
+    font-size: 15px;
+  }
+  
+  .navbar-link {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    margin-right: 10px;
+  }
+  
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(10deg);
+    width: 7%;
+  }
+  
+  /* MỤC LOGO */
+  /* Container to hold logo and contact information */
+  .container {
+    padding: 10px;
+  }
+  
+  /* Style for the logo */
+  .logo-container {
+    flex-shrink: 0;
+  }
+  
+  .logo-brand {
+    position: relative;
+    top: 22px;
+    width: 181px;
+    height: 60px;
+    /* Adjust as needed */
+  }
+  
+  /* Contact information styling */
+  .contact-info {
+    display: flex;
+    gap: 20px;
+    /* Space between contact items */
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-item i {
+    margin-right: 10px;
+    /* Space between icon and text */
+  }
+  
+  .text,
+  .text1,
+  .text02,
+  .text03 {
+    font-size: 14px;
+    /* Adjust as needed */
+    line-height: 1.2;
+    color: #000;
+  }
+  
+  /* cpde css dòng chữ so 5267214 trên hàng logo  */
+  .text1 {
+    left: -75px;
+    position: relative;
+    margin-top: 13px;
+  }
+  
+  .text02 {
+    left: -66px;
+    position: relative;
+    margin-top: 13px;
+  }
+  
+  .text03 {
+    left: -66px;
+    position: relative;
+    margin-top: 13px;
+  }
+  
+  .contact-info {
+    position: absolute;
+    right: 13%;
+    top: 35px;
+    align-items: flex-start;
+    margin-left: auto;
+    padding: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 8px;
+  }
+  
+  /*  */
+  /* THANH NAV */
+  /* code css media query modal content */
+  /* code css tạo nút search thanh nav */
+  .modal {
+    /* Position the modal in the center of the page */
+    position: fixed;
+    top: 57%;
+    left: 69%;
+    transform: translate(0%, -70%);
+    width: 136%;
+    height: 80%;
+    z-index: 9999;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+  }
+  
+  /* code css hộp thoại madal */
+  .modal-content {
+    margin-top: 140%;
+  }
+  
+  /* Tạo css thanh Nav ngang Trang chủ, ... */
+  .navbar-yellow {
+    left: 29%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 30%;
+    position: relative;
+    top: 43px;
+    height: 87px;
+  }
+  
+  /* kich co thanh nav trang chu... */
+  .navbar::before {
+    content: '';
+    position: absolute;
+    left: -3%;
+    width: 101%;
+    height: 100%;
+    background-color: inherit;
+    clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 160%);
+    z-index: -1;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu li {
+    margin-right: 10px;
+  }
+  
+  /* thanh nav bỏ dấu dropdown */
+  .dropdown-toggle::after,
+  .dropdown-btn::after {
+    display: none;
+  }
+  
+  /* thanh nav chữ */
+  /* dấu ghạch chân thanh nav chữ */
+  /* chữ trên thanh nav màu cam */
+  .menu li a {
+    right: 8px;
+    top: -11px;
+    position: relative;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .menu li a:hover {
+    border-bottom: 1px solid #ffffff;
+    font-weight: bold;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+  }
+  
+  .search-icon,
+  .menu-icon {
+    width: 95px;
+    height: 50px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* màu menu thanh NAV */
+  /*  */
+  /* code css tạo hiển thị menu trên thanh NAV trangchu........ */
+  div#offcanvasDarkNavbar {
+    background-color: #000000;
+    color: #f3ebeb;
+    /* width: 500px; */
+  }
+  
+  .text-bg-dark h5,
+  .text-bg-dark p,
+  .text-bg-dark a {
+    color: #999;
+    font-size: 17px;
+  }
+  
+  /* nằm chèn mục liên hệ */
+  /* thanh cuộn nút Search */
+  .search-icon1 .icon-img-1 {
+    float: left;
+    margin: 2px;
+    height: 70%;
+    position: absolute;
+    top: 27px;
+    left: -382px;
+  }
+  
+  /* nút tìm kiếm thanh nav  */
+  /* nut tìm kiếm thanh nav trang chu... */
+  /* thanh search tren thanh nav  */
+  .search-icon img,
+  .menu-icon img {
+    max-width: 100%;
+    filter: brightness(0) invert(1);
+    color: white;
+  }
+  
+  .menu-icons .btn-search {
+    width: 41px;
+    height: 50px;
+    background-color: transparent;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    position: absolute;
+    right: 96px;
+    top: 11px;
+  }
+  
+  .menu-icons .btn-search:focus {
+    box-shadow: none;
+  }
+  
+  /* thanh menu */
+  /* Tạo thanh chọn trên thanh nav */
+  .navbar-dark .navbar-toggler {
+    position: relative;
+    right: 7px;
+    top: -103px;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+  }
+  
+  .navbar-dark .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* nút search  nut tim kiem*/
+  .collapse {
+    height: 153px;
+  }
+  
+  /* nút css menu trangchu... */
+  .navbar-toggler {
+    float: right;
+    margin: -127px;
+    width: 130px;
+    height: 40px;
+  }
+  
+  /* nút trên thanh nav màu cam trang chu, lien he */
+  .dropdown-toggle.black-text,
+  .dropdown-menu .black-text {
+    /* color: #666; */
+    font-size: 15px;
+    top: 5px;
+    left: 6px;
+    position: relative;
+    color: #666;
+  }
+  
+  .mau1 {
+    color: #000;
+    background-color: #000;
+  }
+  
+  /* code css tạo comtact  thanh NAV TRANGCHU...*/
+  .contact-nav {
+    position: absolute;
+    top: -11%;
+    left: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    transform: skewX(0deg);
+    width: 19%;
+    height: 87px;
+    font-weight: bold;
+  }
+  
+  /* nut css  chinh kich co  thanh nav menu trang chu... */
+  .navbar {
+    transform: skewX(0deg);
+    width: 45%;
+    height: -8%;
+    z-index: 999;
+  }
+  
+  .navbar-brand img {
+    width: 50px;
+  }
+  
+  .navbar-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .navbar-text img {
+    width: 300px;
+    height: auto;
+    margin-right: 10px;
+    right: -61%;
+    position: absolute;
+  }
+  
+  /*  */
+  .navbar-text p {
+    margin: 0;
+    color: #f4f5f8;
+    display: inline-block;
+    margin: 0;
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    right: -100%;
+    top: 60%;
+  }
+  
+  .contact-info {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    align-items: flex-start;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .content {
+    margin-top: 80px;
+  }
+  
+  /* code css độ dài thanh  nav tìm kiếm trangchu... */
+  /* thanh css nut menu trangchu...*/
+  .col-right-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navbar-colright {
+    height: 53px;
+    width: 53px;
+    color: #ff9900;
+  }
+  
+  .nav.navbar.navbar-dark.bg-dark {
+    width: 50px;
+  }
+  
+  .container {
+    position: relative;
+  }
+  /*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/*  */
+/* ĐẶT XE NHANH */
+/* .orange-text {
+    color: orange;
+  } */
+
+.section-heading06 {
+    position: relative;
+  }
+  
+  .section-heading06 h4 {
+    position: relative;
+    color: #f90;
+    padding-left: 63px;
+    display: flex;
+    line-height: 16px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    top: -39px;
+  }
+  
+  .section-heading06 h4 span,
+  .section-heading06 h4 span:before,
+  .section-heading06 h4 span::after {
+    background-color: #f90;
+    width: 5px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    top: 1%;
+  }
+  
+  /* dau 3 ghach */
+  .section-heading06 h4 span {
+    top: -1px;
+    position: absolute;
+    left: 30px;
+    transform: skew(-20deg, 0deg);
+  }
+  
+  .section-heading06 h4 span:after {
+    content: "";
+    left: -10px;
+    opacity: 0.5;
+  }
+  
+  .section-heading06 h4 span:before {
+    content: "";
+    left: -20px;
+    opacity: 0.2;
+  }
+  
+  .section-online-booking h3 {
+    left: -243px;
+    font-size: 33px;
+    position: relative;
+    color: #e8dede;
+    top: -20px;
+    font-weight: bold;
+    /* Màu chữ trắng */
+  }
+  
+  .section-online-booking::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background-color: #da7b0f;
+  }
+  /* đặt màu css button */
+  .btn.btn-primary {
+    background-color: #333333;
+  }
+  
+  /* chữ màu chữ đen button */
+  .btn.btn-primary {
+    color: white;
+  }
+  
+  /* clip path cắt ảnh */
+  .section-online-booking {
+    /* content: ""; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* width: 400px;
+    height: 80px; */
+    background-color: #e8dede;
+    clip-path: polygon(0% 0%, 90% 0%, 100% 20%, 100% 100%, 0% 100%);
+    z-index: 1;
+  }
+  
+  .section-online-booking .img-car {
+    position: absolute;
+    width: 397px;
+    left: 88px;
+    top: 1px;
+    background-size: 70%;
+  }
+  
+  .section-online-booking {
+    position: absolute;
+    top: 796px;
+    right: 248px;
+    width: 1268px;
+    padding: 107px 0;
+    background-color: #1c1c1c;
+    background-image: url('https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/texture.png');
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    height: 446px;
+  }
+  
+  /* biểu tượng đặt xe nhanh */
+  
+  .input-group-text-1 {
+    position: absolute;
+    left: 78%;
+    top: 51%;
+  }
+  
+  .input-group-text-2 {
+    position: absolute;
+    left: -599%;
+    top: 51%;
+  }
+  
+  .input-group-text-3 {
+    position: absolute;
+    left: 33%;
+    top: 51%;
+  }
+  
+  .input-group-text-4 {
+    position: absolute;
+    left: 63%;
+    top: 51%;
+  }
+  
+  .input-group-online-5 {
+    position: absolute;
+    left: 60%;
+    top: 51%;
+  }
+  
+  .input-group-text-6 {
+    position: absolute;
+    left: -243%;
+    top: -6%;
+  }
+  
+  .input-group-text-7 {
+    position: absolute;
+    left: 97%;
+    top: 16%;
+  }
+  
+  .input-group-text-8 {
+    position: absolute;
+    left: 90%;
+    top: 51%;
+  }
+  
+  /* code css tạo đặt xe nhanh */
+  
+  /* code css mauf form */
+  /* form thẻ icon */
+  .section-online-booking .form-field {
+    position: relative;
+  }
+  
+  .section-online-booking .form-field i {
+    position: absolute;
+    font-size: 18px;
+    right: 10px;
+    color: #f90;
+    top: 50%;
+    transform: translateY(-50%);
+  
+  }
+  
+  /*  */
+  /* khi trỏ màu cam dropdown đặt xe nhanh */
+  /*  */
+  .section-online-booking .form-control {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 14px 38px 14px 24px;
+    height: auto;
+    border-radius: 0;
+    color: white;
+    background-color: #333333;
+    border-color: transparent;
+    outline: 0;
+  }
+  
+  .section-online-booking .form-control:focus {
+    border-color: #f90;
+    outline: 0;
+    box-shadow: none;
+    color: white;
+    background-color: #333333;
+  }
+  
+  .section-online-booking .form-row>[class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* button đặt xe nhanh */
+  .sumit1 {
+    background-color: #ff8c00;
+    /* Màu cam mặc định */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 267px;
+    height: 53px;
+    font-size: 17px;
+  }
+  
+  .sumit1:hover {
+    background-color: #333333;
+    /* Màu xám khi trỏ chuột vào */
+  }
+  
+  /* code css mauf icon */
+  
+  /* tạo kích cỡ lịch */
+  .select2-container--default .select2-selection--single .select2-selection__rendered {
+    background-color: #333;
+    line-height: 50px;
+    /* height: 20px; */
+    color: white;
+    font-size: 17px;
+    text-align: left;
+    /* border: 0; */
+  }
+  
+  /* code xóa viền trắng đặt xe nhanh */
+  .select2-container--default .select2-selection--single {
+    border: unset !important;
+  }
+  
+  /*  */
+  .slick1-next.slick-arrow {
+    position: absolute;
+    /* top: 50%; */
+    top: 575px;
+    transform: translateY(-50%);
+    right: 20px;
+    width: 60px;
+    height: 56px;
+    background-color: #ff9900;
+    -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    cursor: pointer;
+  }
+  
+  .slick2-prev.slick-arrow {
+    left: 1%;
+    position: absolute;
+    top: 575px;
+    transform: translateY(-50%);
+    width: 60px;
+    height: 56px;
+    background-color: #ff9900;
+    -webkit-clip-path: polygon(0 0, 100% 50%, 0 100%);
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+    cursor: pointer;
+  }
+  
+  /*  */
+  .image-car2-container {
+    display: flex;
+  }
+  
+  img.image-car2 {
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    position: relative;
+    top: 84px;
+    position: relative;
+    width: 196px;
+  
+  }
+
+/*  */
+
+
+.doct12 {
+    position: relative;
+    right: -260px;
+}
+/*dòng chữ book you taxi hình 1  */
+.doct10 {
+    top: -165px;
+    position: relative;
+    margin-left: -3px;
+  }
+  
+  .taxidoct10 {
+    margin-top: 36px;
+  }
+  /* code css dòng chữ book you taxi hình 2 */
+
+.doct12 {
+    position: relative;
+    right: -260px;
+  }
+  
+  .carousel-caption h1 {
+    font-weight: bold;
+    /* left: 95%; */
+    /* margin-bottom: -7px; */
+    animation: slide-up 0.5s ease forwards;
+    text-align: text;
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 52px;
+    /* top: 5px; */
+    top: -203px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    animation: slide-up 0.5s ease 0.3s forwards;
+    text-align: text;
+    position: relative;
+    left: 33%;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    /* top: -9%; */
+    top: -239px;
+}
+.taxi1 {
+    margin-right: 128px;
+}
+
+.btn-view-more:hover {
+    background-color: black;
+    color: orange;
+}
+
+.carousel-caption .btn-view-more {
+    font-size: 16px;
+    animation: slide-up 0.5s ease 0.6s forwards;
+}
+
+
+
+
+element.style {
+}
+.carousel-caption .btn-view-more {
+    font-size: 16px;
+    animation: slide-up 0.5s ease 0.6s forwards;
+}
+.btn-view-more {
+    background-color: orange;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    /* float: left; */
+    left: 48%;
+    width: 18%;
+    border-radius: 5px;
+    font-size: 16px;
+    position: absolute;
+    margin-top: -509px;
+}
+
+/*  */
+
+/*  */
+/* CODE THE BOOK 1/2 */
+.carousel-indicators li:after {
+    content: "/2";
+    font-size: 16px;
+    color: #666666;
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  .active {
+    font-family: "Space Grotesk", sans-serif;
+  }
+  
+  .carousel-caption h1 {
+    font-weight: bold;
+    left: 95%;
+    right: -136px;
+    margin-bottom: -7px;
+    animation: slide-up 0.5s ease forwards;
+    text-align: text;
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 52px;
+    top: -319px;
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+    animation: slide-up 0.5s ease 0.3s forwards;
+    text-align: text;
+    position: relative;
+    left: 82%;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    top: -483px;
+  }
+  
+  /* Travel securely with us THE BOOK */
+  .doct1 {
+    position: relative;
+    left: 20%;
+    top: -15%;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+  }
+  
+.carousel-caption .btn-view-more {
+    font-size: 16px;
+    animation: slide-up 0.5s ease 0.6s forwards;
+  }
+  
+  .carousel-caption .img-car {
+    position: absolute;
+    width: 675px;
+    height: auto;
+    /* right: 100%; */
+    top: -99px;
+  
+    opacity: 0;
+    animation: drive-in 1s ease 0.9s forwards;
+  }
+  
+  @keyframes slide-up {
+    from {
+      transform: translate(-50%, 50%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes drive-in {
+    from {
+      transform: translate(100%, -50%);
+      opacity: 0;
+    }
+  
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  
+  /*  */
+  /* dùng thư viện di chuyển trang book you */
+  .carousel {
+    /* width: 100px; */
+    height: 719px;
+    /* overflow: hidden; */
+    /* Ẩn phần thừa */
+  }
+  
+  .carousel-inner {
+    height: 79%;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .carousel-caption h1 {
+    margin-bottom: 20px;
+    color: #faf1f1;
+    text-align: start;
+    font-size: 47px;
+    position: absolute;
+    left: 56%;
+    margin-top: -90px;
+  }
+  
+  .carousel-caption .img-car {
+    left: 1148px;
+    position: relative;
+    bottom: 220px;
+    width: 500px;
+  }
+  
+  /* chữ h1*/
+  .carousel-caption {
+    position: relative;
+    bottom: 5.25rem;
+    left: -150%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+    font-size: 38px;
+    white-space: nowrap;
+  }
+  
+  /* màu chữ ridek màu vnagf */
+  .ridek {
+    color: #ff9900;
+    /* Đặt màu vàng cho chữ RIDEK */
+  }
+  
+  /*  */
+  /*dòng chữ book you taxi hình 1  */
+  .taxidoct10 {
+    margin-top: 36px;
+  }
+  
+  /* code css mục màu chữ about */
+  .chunhat0 {
+    background-color: #ff9900;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 8px 8px;
+    width: 11%;
+    height: 47px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 auto;
+    position: absolute;
+    top: -589px;
+    /* margin-top: -3px;  */
+  }
+  
+  .chunhat01 {
+    position: relative;
+    top: -625px;
+    left: -591px;
+  }
+  
+  
+  /*  code css màu mục joney*/
+  .hotline01 {
+    position: absolute;
+    top: -318px;
+    right: -285px;
+    background-color: #ff9900;
+    padding: 10px;
+    width: 822px;
+    height: 110px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background-size: 10px 10px;
+    z-index: 1;
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 10px 10px;
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+  
+  .hotline02 {
+    position: absolute;
+    /* Định vị phần tử này */
+    bottom: 0;
+    /* Đặt phần tử ở dưới cùng của container */
+    margin-left: 43%;
+    /* Căn trái */
+    background-color: #222;
+    /* Màu nền đen */
+    padding: 10px;
+    /* Đệm nội dung */
+    width: 100%;
+    /* Chiều rộng 100% của container */
+    height: 110px;
+    /* Chiều cao cố định */
+    overflow: hidden;
+    /* Ẩn nội dung vượt quá */
+    white-space: nowrap;
+    /* Không xuống dòng */
+    text-overflow: ellipsis;
+    /* Hiện ba chấm (...) khi quá dài */
+    clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
+    /* Hình dạng */
+    top: -295px;
+  }
+  
+  
+  /*  
+
+  /* code css mục màu chữ about */
+.chunhat0 {
+    background-color: #ff9900;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 8px 8px;
+    width: 11%;
+    height: 47px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 auto;
+    position: absolute;
+    /* top: -589px; */
+    /* margin-top: -3px;  */
+  }
+  
+  .chunhat01 {
+    position: relative;
+    top: -616px;
+    left: -33px;
+  }
+  .chunhat0 {
+    background-color: #ff9900;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
+    background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
+    background-size: 8px 8px;
+    width: 21%;
+    height: 47px;
+    border-radius: 2px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1;
+    margin: 0 auto;
+    position: absolute;
+    /* top: -589px; */
+    margin-top: 65px;
+    margin-left: 37%;
+}
