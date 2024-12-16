@@ -3146,9 +3146,9 @@ main {
     width: 100%; 
     float: none; 
   }
-  .card{
+  /* .card{
     width: 155%;
-  }
+  } */
 }
 
 
@@ -3238,17 +3238,3 @@ main {
 
 
 
-
-/* Căn chỉnh kích thước card */
-.card {
-  width: 100%; /* Chiếm toàn bộ chiều rộng cột */
-  max-width: 500px; /* Giới hạn chiều rộng tối đa */
-  margin: 0 auto; /* Căn giữa card */
-  height: auto; /* Để card tự điều chỉnh chiều cao theo nội dung */
-}
-
-/* Điều chỉnh chiều cao cố định (nếu cần) */
-.card.fixed-height {
-  height: 400px; /* Chiều cao cố định */
-  overflow: hidden; /* Ẩn nội dung thừa */
-}
