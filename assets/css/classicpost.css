@@ -882,8 +882,8 @@ div#offcanvasDarkNavbar {
 .col-8 {
   /* flex: 8; */
   /* background-color: #f0f0f0; */
-  padding: 16px;
-  text-align: center;
+  /* padding: 16px; */
+  /* text-align: center; */
 }
 
 .col-4 {
@@ -1432,8 +1432,9 @@ div#offcanvasDarkNavbar {
 .card .custom-button {
   position: absolute;
   bottom: 20px;
-  left: 30%;
-  transform: translateX(-70%);
+  /* left: 17%;
+  transform: translateX(-70%); */
+  left: 39px;
   width: 107px;
   height: 50px;
   top: 91%;
@@ -1489,6 +1490,7 @@ div#offcanvasDarkNavbar {
   /* top: 23px; */
   padding-bottom: -3px;
   color: #000;
+  /* left: -46px; */
 }
 
 /* New And Inghlight */
@@ -1499,6 +1501,7 @@ div#offcanvasDarkNavbar {
   /* Bỏ gạch chân mặc định */
   transition: color 0.3s, text-decoration 0.3s;
   /* Thêm hiệu ứng chuyển động */
+  /* margin-left: -88px; */
 }
 
 .card-title-1:hover {
@@ -3034,5 +3037,15 @@ main {
     position: relative;
     top: 1360px;
     z-index: 1;
+  }
+}
+
+
+/* card ảnh */
+/* Media query cho thiết bị di động */
+@media (max-width: 767px) {
+  .card {
+   max-width: 100%;
+   width: 155%;
   }
 }
