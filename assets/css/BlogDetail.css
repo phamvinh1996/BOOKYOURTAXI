@@ -1667,6 +1667,8 @@ margin-left: -16%;
   position: relative;
   margin-bottom: 30px;
   line-height: 1;
+  position: relative;
+  top: -32px;
 }
 
 
@@ -1688,9 +1690,6 @@ margin-left: -16%;
   margin-top: 20px; /* Thay đổi giá trị này theo nhu cầu */
 }
 
-.form-control {
-  margin-top: 47px; /* Thay đổi giá trị này để điều chỉnh khoảng cách cho các input */
-}
 
 /*  */
 
