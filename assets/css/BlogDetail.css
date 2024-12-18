@@ -1417,6 +1417,88 @@ margin-left: 1%;
   margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
 }
 
+/*  */
+
+
+
+.authou {
+  background-color: #fff;
+  padding: 60px;
+  border: 1px solid #eee;
+  display: grid
+;
+  align-items: center;
+  grid-template-columns: 80px 1fr;
+  grid-column-gap: 20px;
+  line-height: 1;
+  margin-bottom: 40px;
+
+}
+/*  */
+.Alderson{
+
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #222;
+  letter-spacing: -0.5px;
+   margin-left: 25%;
+  margin-top: -29%; 
+ 
+
+
+}
+.Our{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+  margin-left: 23%;
+
+}
+
+
+
+/*  */
+
+
+
+
+
+
+.social {
+  list-style-type: none; /* Xóa dấu đầu dòng */
+  padding: 0; /* Xóa padding */
+  margin: 0; /* Xóa margin */
+  display: flex; /* Sử dụng flexbox để sắp xếp hàng ngang */
+  justify-content: center; /* Căn giữa các biểu tượng */
+  margin-top: -37px;
+  margin-left: -23%;
+}
+
+.social li {
+  margin: 0 15px; /* Khoảng cách giữa các biểu tượng */
+}
+
+.social a {
+  text-decoration: none; /* Xóa gạch chân mặc định */
+  color: black; /* Màu sắc biểu tượng */
+  font-size: 24px; /* Kích thước biểu tượng */
+  transition: color 0.3s; /* Hiệu ứng chuyển màu */
+}
+
+.social a:hover {
+  color: gray; /* Màu sắc khi hover */
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
