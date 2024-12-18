@@ -1160,7 +1160,7 @@
     color:#1a1a1a ;
 }
 
-/* bang */
+/* thẻ bảng */
 
 
 blockquote {
@@ -1175,21 +1175,10 @@ blockquote {
     display: block;
     margin: 0;
     margin-bottom: 40px;
-
-
-
-
 position: relative;
 left: 18%;
-
  width: 60%;
-
-
-
-
-
 }
-
 
 blockquote span {
     font-family: "Space Grotesk", sans-serif;
@@ -1201,6 +1190,49 @@ blockquote span {
     display: block;
     margin-top: 10px;
 }
+/* thẻ ảnh */
+
+.detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  margin: 40px 0;
+  width: 63%;
+
+}
+
+.detail1 {
+  border: none;
+  outline: none;
+  max-width: 100%;
+  margin-left: 53%;
+}
+/* thẻ chữ h5 */
+.every{
+  margin: 0 0 10px;
+  font-weight: 600;
+  line-height: 1.7;
+  color: #222;
+  letter-spacing: -0.5px;
+  font-size: 20px;
+margin-left: 1%;
+}
+.support{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+
+}
+.support1{
+  font-size: 20px;
+  line-height: 30px;
+  margin-bottom: 40px;
+
+}
+
+
+
+
 
 
 
