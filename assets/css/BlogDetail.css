@@ -1231,6 +1231,196 @@ margin-left: 1%;
 }
 
 
+/* thẻ nút button */
+
+
+/*table nút tags */
+
+.list li a {
+  background-color: #eee;
+  display: inline-block;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-size: 14px;
+  color: #666;
+  padding: 3px 15px;
+  margin: 0 3px 10px 0;
+ 
+}
+
+.list li {
+  display: inline-block;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  /* margin-left: 78%; */
+  position: relative;
+  /* left: -15%; */
+}
+
+.list {
+  display: flex;
+  margin-right: 51%;
+  /* flex-wrap: wrap; */
+  /* Cho phép cắt xuống dòng */
+
+}
+
+.list li {
+  flex: 1 1 calc(33.33% - 10px);
+  /* Mỗi nút chiếm 1/3 chiều rộng */
+  margin: 5px;
+  /* Khoảng cách giữa các nút */
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  background-color: #f7a20f;
+  /* Màu nền nút */
+  color: white;
+  /* Màu chữ */
+  text-align: center;
+  /* Căn giữa chữ */
+  text-decoration: none;
+  /* Bỏ gạch chân */
+  border-radius: 5px;
+  /* Bo góc nút */
+  transition: background-color 0.3s;
+  /* Hiệu ứng chuyển màu */
+
+
+}
+
+.button:hover {
+  background-color: #f7a20f;
+  /* Màu nền khi hover */
+  grid-template-columns: 1fr 1fr;
+}
+
+/* nút màu tags  */
+.list a:hover {
+  background-color: #f7a20f;
+  color: #fff;
+  /* Màu chữ khi hover */
+  cursor: pointer;
+  /* Thay đổi con trỏ chuột thành hình bàn tay */
+}
+
+/* code css màu nền lam  */
+.service-details {
+  background-color: #F4F5F8;
+  /* Màu nền lam đậm */
+  padding: 20px;
+  /* Khoảng cách bên trong */
+  border-radius: 10px;
+  /* Bo góc cho section */
+  color: white;
+  /* Màu chữ mặc định là trắng */
+}
+
+.sidebar-widget {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 30px;
+}
+
+/* .category {
+  color: #000;
+} */
+
+.category {
+  /* text-decoration: underline; */
+  text-decoration-color: orange;
+}
+/*  */
+
+.navigation {
+  display: grid
+;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 50px;
+  align-items: center;
+  margin: 40px 0;
+}
+
+
+.navigation li a {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #222;
+  letter-spacing: -0.5px;
+}
+
+
+.navigation li a span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: #a5a6aa;
+  text-transform: uppercase;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.navigation li a span i {
+  color: #a5a6aa;
+  margin-right: 5px;
+}
+/*  */
+
+
+
+
+.navigation li:last-child {
+  text-align: right;
+}
+
+/*thẻ ghạch chân thẻ chữ*/
+
+
+
+.navigation {
+  list-style-type: none; /* Xóa dấu đầu dòng */
+  padding: 0; /* Xóa padding */
+  margin: 0; /* Xóa margin */
+}
+
+.navigation li {
+  margin: 10px 0; /* Khoảng cách giữa các mục */
+}
+
+.navigation a {
+  text-decoration: none; /* Xóa gạch chân mặc định */
+  color: black; /* Màu chữ */
+  font-size: 16px; /* Kích thước chữ */
+  position: relative; /* Để sử dụng pseudo-element */
+}
+
+.navigation a:hover {
+  text-decoration: underline; /* Gạch chân khi hover */
+  text-decoration-color: black; /* Màu gạch dưới */
+}
+
+.navigation a span {
+  display: inline-flex; /* Để biểu tượng và văn bản nằm ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.navigation a i {
+  margin-right: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+}
+
+
+
+
+
 
 
 
