@@ -1489,11 +1489,236 @@ margin-left: 1%;
 .social a:hover {
   color: gray; /* Màu sắc khi hover */
 }
+/* thẻ chữ */
+
+
+
+.title {
+  font-weight: 600;
+  color: #222;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 1;
+  margin-top: 5%;
+}
+
+.title:before {
+  background-color: #ff9900;
+  width: 50%;
+  height: 4px;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+}
+/*  */
+ .inner {
+  display: grid
+;
+  grid-template-columns: 60px 1fr;
+  grid-column-gap: 20px;
+}
 
 
 
 
 
+ .thumb img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 5px;
+}
+
+
+.porter{
+
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+
+}
+
+ .porter {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+  display: block;
+}
+
+
+.area1{
+  white-space: nowrap; /* Ngăn không cho xuống dòng */
+  font-size: 17px;
+  line-height: 27px;
+  margin-bottom: 10px;
+  margin-left: 123%;
+margin-top: 1%;
+margin-top: -20%;
+}
+
+/* logo2 */
+
+ .children {
+  margin-left: 50px;
+  margin-top: 40px;
+}
+
+
+ .comment-inner {
+  display: grid
+;
+  grid-template-columns: 60px 1fr;
+  grid-column-gap: 20px;
+}
+
+
+.comment-thumb img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 35px;
+}
+
+.trumb{
+
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-top: 31px;
+}
+
+
+
+
+.comments-meta h4 span {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #666;
+  display: block;
+}
+
+.only{
+  font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+    margin-left: 111%;
+    margin-top: -8%;
+}
+/* logo3 */
+
+
+.comment-inner {
+  display: grid
+;
+  grid-template-columns: 60px 1fr;
+  grid-column-gap: 20px;
+}
+
+
+ .pic1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: relative;
+  top: 33px;
+  left: -146px;
+}
+
+.class01{
+
+  font-size: 20px;
+  font-weight: 500;
+  display: block;
+  margin-top: 8%;
+  margin-left: -16%;
+
+}
+
+.name{
+  font-size: 17px;
+    line-height: 27px;
+    margin-bottom: 10px;
+    margin-left: -17%;
+}
+.ten01{
+
+margin-left: -16%;
+
+}
+
+
+
+/* thẻ chữ h3 */
+
+
+.title {
+  font-weight: 600;
+  color: #222;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+
+.title:before {
+  background-color: #ff9900;
+  width: 50%;
+  height: 4px;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+}
+
+
+
+/*  */
+
+.row {
+  margin-top: 20px; /* Thay đổi giá trị này theo nhu cầu */
+}
+
+.form-control {
+  margin-top: 47px; /* Thay đổi giá trị này để điều chỉnh khoảng cách cho các input */
+}
+
+/*  */
+
+
+.default-btn {
+  background-color: #ff9900;
+  border-radius: 2px;
+  height: 45px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  padding: 0 30px;
+  display: inline-flex
+;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+
+
+
+.default-btn:hover {
+  background-color: black; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
 
 
 
