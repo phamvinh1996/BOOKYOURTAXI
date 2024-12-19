@@ -3046,6 +3046,8 @@ margin-left: -16%;
   grid-template-columns: 1fr;  /* Change to a single column */
   padding: 117px;               /* Reduce padding */
   grid-column-gap: 0;          /* Remove gap */
+  margin-left: -21px;
+  width: 118%;
 }
 
 .authou0{
@@ -3058,6 +3060,9 @@ left: -119px;
   position: relative;
   margin-top: -88%;
   left: 41px;
+}
+.social {
+  margin-left: 1px;
 }
 
   }
