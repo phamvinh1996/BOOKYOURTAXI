@@ -2375,7 +2375,7 @@ margin-left: -16%;
     width: 100%;
     height: 15%;
     z-index: 2;
-    margin-top: -11%;
+    /* margin-top: -11%; */
   }
   
   .side-navbar.show {
@@ -2807,24 +2807,24 @@ margin-left: -16%;
     /*  */
     .chunhat0 {
       width: 184px;
-      top: -259px;
+      top: -186px;
       position: relative;
       left: -63px;
     }
     .chunhat01 {
-      top: -284px;
+      top: -207px;
       left: 2px;
       position: relative;
       font-size: 13px;
     }
     .carousel-caption h1 {
-      top: 21%;
-      left: 50%;
+      top: 37%;
+      left: 39%;
       font-size: 32px;
       margin-bottom: 10px;
     }
     .carousel-caption p {
-      top: -207px;
+      top: -87px;
       margin-right: -108%;
     }
     /* ft */
@@ -3018,9 +3018,204 @@ margin-left: -16%;
     .contact-nav111 {
       display: none;
     }
+    .list{
+      margin-left: -88px;
+    }
   }
   @media (max-width: 767px) {
     .carousel-item img {
       height: 559px;
     }
   }
+
+
+  /* code css media */
+  @media (max-width: 600px) {
+    blockquote {
+        font-size: 1.2em; /* Giảm kích thước chữ */
+        /* white-space: nowrap; Cho phép xuống dòng */
+        padding: 10px;
+
+
+
+
+
+
+
+
+        margin: 20px 0;
+        padding: 10px;
+        /* border-left: 5px solid #ccc; */
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .title {
+      font-size: 1.5em; /* Giảm kích thước chữ tiêu đề */
+      display: grid
+;
+    grid-template-columns: 60px 1fr;
+    grid-column-gap: 20px;
+          /* white-space: nowrap;  */
+
+  }
+
+  .comment-inner {
+      grid-template-columns: 1fr; /* Một cột cho màn hình nhỏ */
+  }
+
+  .comment {
+      max-width: 100%; /* Chiều rộng bình luận 100% */
+  }
+
+  .area1 {
+      font-size: 0.9em; /* Giảm kích thước chữ */
+      /* white-space: normal; Cho phép xuống dòng */
+
+display: none;
+
+      letter-spacing: -0.2px;
+
+
+  }
+}
+
+
+/*  */
+
+@media (max-width: 600px) {
+  .comment-inner {
+      flex-direction: column; /* Xếp theo cột cho màn hình nhỏ */
+      align-items: flex-start; /* Căn trái */
+  }
+
+  .comment-thumb {
+      margin-bottom: 10px; /* Khoảng cách dưới hình ảnh */
+  }
+
+  .comment-area {
+      font-size: 0.9em; /* Giảm kích thước chữ */
+  
+  }
+  .only{
+    margin-left: -15%;
+    letter-spacing: -0.2px;
+    display: none;
+  }
+
+  .trumb{
+    top: -83px;
+    position: relative;
+    margin-left: -5%;
+  }
+  .jan1{
+    position: relative;
+    left: -36px;
+    top: -81px;
+  }
+  .melan{
+    margin-left: -16%;
+  }
+}
+
+
+
+/* logo3 */
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .comment-wrap {
+      padding: 10px; /* Giảm padding cho màn hình nhỏ */
+  }
+
+  .class01 {
+      font-size: 1.1em; /* Giảm kích thước chữ cho tên */
+      left: 52px;
+        top: -114px;
+        position: relative;
+        font-size: 1.1em;
+        display: none;
+  }
+
+  .ten01 {
+      font-size: 0.8em; /* Giảm kích thước chữ cho ngày tháng */
+      position: relative;
+      top: -110px;
+      left: 57px;
+      display: none;
+  }
+
+  .name {
+      font-size: 0.9em; /* Giảm kích thước chữ cho nội dung bình luận */
+      letter-spacing: -0.2px;
+      position: relative;
+        left: 1px;
+        top: -110px;
+        display: none;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  .carousel-item img {
+      height: 559px;
+  }
+}
+
+
+
+
+/* Media query cho màn hình nhỏ hơn 600px */
+@media (max-width: 600px) {
+  .post-meta {
+      margin: 15px 0; /* Giảm khoảng cách trên và dưới cho màn hình nhỏ */
+      left: -97px;
+
+  }
+
+  .post-meta li {
+      margin-top: 5px; /* Giảm khoảng cách giữa các phần tử */
+      z-index: 2;
+      top: -133px;
+      position: relative;
+      margin-top: 1px;
+      margin: 14px 0;
+      left: -65px;
+      font-size: 10px;
+
+  }
+}
+
+
+
+
+
+
+
