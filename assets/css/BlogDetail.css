@@ -3021,7 +3021,61 @@ margin-left: -16%;
     .list{
       margin-left: -88px;
     }
+/*hình  */
+.post-thumb img {
+   width: 108%;    
+  height: 559px;  
+  position: relative;
+  left: 1px;
+  
+  
+}
+/*  */
+.detail {
+ margin-left: -26%;
+  width: 100%;                
+}
+
+
+
+
+
+
+
+.authou {
+  grid-template-columns: 1fr;  /* Change to a single column */
+  padding: 117px;               /* Reduce padding */
+  grid-column-gap: 0;          /* Remove gap */
+}
+
+.authou0{
+position: relative;
+top: -67px;
+left: -119px;
+}
+.Alderson {
+
+  position: relative;
+  margin-top: -88%;
+  left: 41px;
+}
+
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   @media (max-width: 767px) {
     .carousel-item img {
       height: 559px;
@@ -3037,14 +3091,16 @@ margin-left: -16%;
         padding: 10px;
 
 
-
+        width: 93%;
+        position: relative;
+        left: 28px;
 
 
 
 
 
         margin: 20px 0;
-        padding: 10px;
+        padding: 36px;
         /* border-left: 5px solid #ccc; */
     
     }
@@ -3070,6 +3126,7 @@ margin-left: -16%;
     grid-template-columns: 60px 1fr;
     grid-column-gap: 20px;
           /* white-space: nowrap;  */
+          margin-top: 28%;
 
   }
 
