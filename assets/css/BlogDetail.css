@@ -1657,6 +1657,71 @@ margin-top: 1%;
   margin-left: 5%;
 }
 
+/* thẻ chữ h3 */
+
+.title1{
+
+  font-weight: 600;
+  color: #222;
+  display: inline-block;
+  padding-bottom: 10px;
+  position: relative;
+  margin-bottom: 30px;
+  line-height: 1;
+
+
+
+
+}
+.title1:before {
+  background-color: #ff9900;
+  width: 50%;
+  height: 4px;
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: 0;
+}
+
+
+
+
+
+.row.g-3 {
+  margin-top: 55px; /* Thay đổi giá trị này theo nhu cầu */
+}
+/* nút button */
+
+
+.default {
+  background-color: #ff9900; /* Màu cam */
+  border: none; /* Không viền */
+  border-radius: 5px; /* Bo góc */
+  font-size: 16px; /* Kích thước chữ */
+  font-weight: 500; /* Độ đậm chữ */
+  color: #fff; /* Màu chữ */
+  padding: 10px 30px; /* Padding trên và dưới, bên trái và phải */
+  cursor: pointer; /* Hiển thị con trỏ chuột dạng tay */
+  width: 200px; /* Chiều rộng cố định của nút */
+  transition: background-color 0.3s ease; /* Hiệu ứng chuyển màu */
+  margin-top: 5%;
+  position: relative;
+  top: -33px;
+}
+
+.default:hover {
+  background-color: #000; /* Màu đen khi hover */
+}
+
+/* table 2 */
+.mb-3 {
+  margin-top: -15%; /* Thay đổi giá trị này theo nhu cầu */
+}
+
+
+
+
+
 
 
 
@@ -3322,4 +3387,26 @@ top: -56px;
 
 
 
+/* code css media cột xuống hàng */
+@media (max-width: 600px) {
+  .row {
+      flex-direction: column; /* Đặt chiều dọc cho cột */
+  }
+  .col {
+      margin-bottom: 15px; /* Khoảng cách giữa các cột khi xuống dòng */
+  }
+}
 
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .mb-3 {
+      margin-top: -47%; /* Giảm khoảng cách trên cho màn hình nhỏ */
+  }
+}
