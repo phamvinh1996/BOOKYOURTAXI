@@ -571,7 +571,7 @@ div#offcanvasDarkNavbar {
   left: 49%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -564px;
+  top: -474px;
 }
 
 /* Travel securely with us THE BOOK */
@@ -673,7 +673,7 @@ div#offcanvasDarkNavbar {
   font-size: 47px;
   position: absolute;
   left: 36%;
-  margin-top: -226px;
+  margin-top: -138px;
 }
 
 .carousel-caption .img-car {
@@ -733,14 +733,15 @@ div#offcanvasDarkNavbar {
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -677px;
+  top: -582px;
+  left: -13px;
   /* margin-top: -35px; */
 }
 
 .chunhat01 {
   position: relative;
-  top: -705px;
-  left: -654px;
+  top: -616px;
+  left: -612px;
 }
 
 
