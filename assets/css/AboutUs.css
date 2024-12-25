@@ -2970,7 +2970,7 @@ a {
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 63%;
+  top: 58%;
   left: 138%;
   transform: translateX(-1586%);
   width: 70px;
