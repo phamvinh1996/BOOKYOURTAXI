@@ -1140,8 +1140,10 @@ blockquote span {
   text-transform: capitalize;
   font-size: 14px;
   color: #666;
-  padding: 3px 15px;
-  margin: 0 3px 10px 0;
+  position: relative;
+  left: 55px;
+  padding: 3px 14px;
+  margin: 0px -6px 8px 0;
 }
 .list li {
   display: inline-block;
