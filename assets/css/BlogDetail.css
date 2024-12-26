@@ -2796,6 +2796,9 @@ main {
       .default {
         margin-top: 10%; 
     }
+   .form-control{
+    margin-top: -37px;
+   }
 }
 
 @media (max-width: 767px) {
@@ -3000,7 +3003,7 @@ main {
 }
 @media (max-width: 600px) {
   .mb-3 {
-    margin-top: -47%;
+    margin-top: -41%;
     /* Giảm khoảng cách trên cho màn hình nhỏ */
   }
 }
