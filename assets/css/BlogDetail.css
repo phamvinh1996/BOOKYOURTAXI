@@ -2867,16 +2867,19 @@ main {
   }
   .alderson {
     position: relative;
-    top: -48px;
-    left: 41px;
+    top: -79px;
+    left: 26px;
   }
   .jan00 {
-    margin-left: 18%;
+    margin-left: 14%;
     position: relative;
-    top: -38px;
+    top: -71px;
   }
   .quality {
     margin-left: 12%;
+    top: -67px;
+    position: relative;
+    margin-left: 8%;
   }
 }
 /*  */
@@ -2902,7 +2905,8 @@ main {
     margin-top: -41%;
     /* font-size: 13px; */
     position: relative;
-    top: -45px;
+    top: -63px;
+    left: 20px;
     margin: 1px;
   }
   .trumb {
@@ -2952,17 +2956,25 @@ main {
   }
   .pic1 {
     position: relative;
+    left: -32px;
   }
   .melania {
-    margin-left: 19%;
+    margin-left: 12%;
     position: relative;
-    top: -56px;
+    top: -73px;
   }
   .jan0 {
     position: relative;
-    top: -52px;
-    left: 41px;
+    top: -75px;
+    left: 21px;
   }
+  .pic2 {
+
+    position: relative;
+    top: -28px;
+    left: -31px;
+  }
+
 }
 
 @media (max-width: 767px) {
