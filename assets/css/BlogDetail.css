@@ -2793,6 +2793,9 @@ main {
   .social {
     margin-left: 1px;
   }
+      .default {
+        margin-top: 10%; 
+    }
 }
 
 @media (max-width: 767px) {
