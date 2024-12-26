@@ -2782,8 +2782,10 @@ main {
   }
   .authou0 {
     position: relative;
-    top: -67px;
-    left: -119px;
+    width: 85px;
+    position: relative;
+    top: 11px;
+    left: -102px;
   }
   .Alderson {
     position: relative;
@@ -2800,6 +2802,31 @@ main {
    .form-control{
     margin-top: -37px;
    }
+
+/* hình icon facebook */
+   .lab.la-facebook-f {
+    color: #000;
+    font-size: 17px; /* Kích thước nhỏ hơn cho màn hình nhỏ */
+}
+.lab.la-twitter{
+  color: #000;
+  font-size: 17px; 
+
+
+}
+.lab.la-instagram{
+  color: #000;
+  font-size: 17px; 
+
+}
+.lab.la-behance{
+  color: #000;
+  font-size: 17px; 
+
+}
+
+
+
 }
 
 @media (max-width: 767px) {
