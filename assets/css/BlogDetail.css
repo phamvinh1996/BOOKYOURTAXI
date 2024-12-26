@@ -2827,9 +2827,19 @@ main {
   font-size: 17px; 
 
 }
+.thechu {
+  text-align: justify; /* Căn giữa cho màn hình nhỏ */
+}
+.thechu1 {
+  text-align: justify; /* Căn giữa cho màn hình nhỏ */
+}
+.support{
+  text-align: justify; /* Căn giữa cho màn hình nhỏ */
 
-
-
+}
+.support1{
+  text-align: justify; /* Căn giữa cho màn hình nhỏ */
+}
 }
 
 @media (max-width: 767px) {
@@ -2894,6 +2904,8 @@ main {
   .have {
     position: relative;
     top: -50px;
+    text-align: justify; /* Căn giữa cho màn hình nhỏ */
+
   }
   .alderson {
     position: relative;
@@ -2910,6 +2922,7 @@ main {
     top: -67px;
     position: relative;
     margin-left: 8%;
+    text-align: justify;
   }
 }
 /*  */
@@ -2938,6 +2951,8 @@ main {
     top: -63px;
     left: 20px;
     margin: 1px;
+    text-align: justify; /* Căn giữa cho màn hình nhỏ */
+
   }
   .trumb {
     top: -61px;
