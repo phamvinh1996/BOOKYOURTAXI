@@ -767,3 +767,29 @@ textarea.form-control:focus {
 
 
 
+/*thẻ cột ngang  */
+.branches-list ul li {
+  margin-bottom: 5px;
+  margin-left: -29px;
+}
+.sm-padding {
+  padding: 15px; /* Tùy chỉnh padding nếu cần */
+}
+/* cột1 */
+.office{
+  font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0;
+    background-color: #ff9900;
+    color: #fff;
+    display: inline-block;
+    padding: 3px 15px;
+    margin-bottom: 20px;
+}
+
+
+.blue-section {
+  background-color: #F4F5F8;
+  color: #666; /* Màu chữ */
+  padding: 50px 0; /* Khoảng cách bên trong */
+}
