@@ -723,20 +723,44 @@ margin-top: 1px;
   color: white; /* Đảm bảo chữ vẫn dễ đọc */
 }
 
+/* code css màu khi trỏ vào bảng */
+/* Form control */
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc; /* Đặt màu viền mặc định */
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Hiệu ứng chuyển màu */
+}
 
+/* Khi trỏ chuột vào trường nhập liệu (hover) */
+.form-control:hover {
+  border-color: orange; /* Đổi màu viền thành cam khi trỏ chuột vào */
+}
 
+/* Tạo hiệu ứng khi focus vào trường nhập liệu */
+.form-control:focus {
+  border-color: orange; /* Đổi màu viền thành cam khi focus vào */
+  outline: none; /* Loại bỏ viền mặc định khi focus */
+}
 
+/* Tạo hiệu ứng cho textarea */
+textarea.form-control {
+  border: 2px solid #ccc; /* Đặt màu viền mặc định cho textarea */
+  transition: border-color 0.3s ease;
+}
 
+/* Khi trỏ chuột vào textarea */
+textarea.form-control:hover {
+  border-color: orange; /* Đổi màu viền thành cam khi trỏ chuột vào */
+}
 
-
-
-
-
-
-
-
-
-
+textarea.form-control:focus {
+  border-color: orange; /* Đổi màu viền thành cam khi focus */
+  outline: none;
+}
 
 
 
