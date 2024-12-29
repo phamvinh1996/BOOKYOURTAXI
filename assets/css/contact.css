@@ -1746,3 +1746,42 @@ main {
     font-weight: bold;
   }
 }
+
+
+/* code css media */
+
+
+@media (max-width: 768px) {
+  .navbar-right {
+      display: none; /* Ẩn tất cả các liên kết trong navbar-right */
+  }
+  .navbar-text01{
+    display: none;
+  }
+  .contact-info {
+    display: none; /* Ẩn toàn bộ phần tử contact-info */
+}
+.logo-brand{
+  display: none;
+}
+/* nav */
+.nav-menu {
+  display: none; /* Ẩn toàn bộ phần tử nav-menu */
+}
+/*  */
+#map-frame iframe {
+  width: 99%;  /* Đặt chiều rộng bằng 100% của container */
+  height: 300px; /* Đặt chiều cao nhỏ hơn cho màn hình nhỏ */
+}
+/*  */
+.description {
+
+position: relative;
+left: 1px;
+}
+/* have */
+.contact-details{
+
+  margin-left: 1%;
+}
+}
