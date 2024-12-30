@@ -3212,7 +3212,7 @@
 /* code css nút làm ẩn hiện thị nút contact */
 /* Ẩn phần tử trên màn hình lớn hơn 768px */
 @media (min-width: 768px) {
-  .nav-link {
+  .nav-item {
       display: none; /* Ẩn phần tử */
   }
 }
