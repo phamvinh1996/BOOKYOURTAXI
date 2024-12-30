@@ -3207,3 +3207,20 @@
         top: 150px; /* Thay đổi giá trị top cho màn hình nhỏ */
     }
 }
+
+
+/* code css nút làm ẩn hiện thị nút contact */
+/* Ẩn phần tử trên màn hình lớn hơn 768px */
+@media (min-width: 768px) {
+  .nav-link {
+      display: none; /* Ẩn phần tử */
+  }
+}
+
+/* Hiển thị phần tử trên màn hình nhỏ hơn hoặc bằng 768px */
+@media (max-width: 768px) {
+  .nav-link {
+      display: block; /* Hiển thị phần tử */
+      margin-top: -11px;
+  }
+}
