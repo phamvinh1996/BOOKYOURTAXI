@@ -837,7 +837,17 @@ textarea.form-control:focus {
   color: #000;
 }
 
-
+/*  */
+.phone-link,
+.email,
+.telephone1,
+.email1,
+.telephone2,
+.email2,
+.telephone3,
+.emai0 {
+    text-decoration: none; /* Bỏ gạch chân */
+}
 
 /* ft */
 
