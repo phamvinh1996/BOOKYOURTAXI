@@ -808,6 +808,37 @@ textarea.form-control:focus {
   color: #666; /* Màu chữ */
   padding: 50px 0; /* Khoảng cách bên trong */
 }
+
+
+/* màu chữ  */
+.phone-link{
+  color: #000;
+}
+.email{
+  color: #000;
+}
+.telephone1{
+  color: #000;
+}
+.email1{
+  color: #000;
+}
+.telephone2{
+  color: #000;
+}
+.email2{
+  color: #000;
+}
+.telephone3{
+  color: #000;
+}
+
+.emai0{
+  color: #000;
+}
+
+
+
 /* ft */
 
 
@@ -1813,4 +1844,19 @@ left: 1px;
 .section-online-booking .form-control:hover {
   border-color: orange; /* Đổi màu viền thành cam khi di chuột vào */
 }
+}
+
+
+/* code css bỏ ghạch chân */
+@media (max-width: 576px) {
+    .phone-link,
+    .email,
+    .telephone1,
+    .email1,
+    .telephone2,
+    .email2,
+    .telephone3,
+    .emai0 {
+      text-decoration: none; /* Bỏ gạch chân */
+    }
 }
