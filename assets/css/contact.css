@@ -1898,6 +1898,167 @@ left: 1px;
   margin-left: -5px;
   font-size: 16px;
 }
+/* thanh nav */
+.navbar-toggler .navbar-toggler-icon {
+  background: none;
+}
+/*  */
+
+  /*  */
+  /* thanh cuon */
+  .side-navbar.show {
+    display: none;
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+  /*  */
+  /* dau cheo */
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+  /*  */
+  /* code css media DẤU CHÉO MENU */
+  .navbar-nav {
+    background-color: white;
+    position: relative;
+    width: 413px;
+    right: 311px;
+    top: 83px;
+  }
+  /* COPDE CSS MEDIA DẤU CHÉO  */
+  /* code css media feel you */
+  .icon-wrapper {
+    margin-top: -18px;
+  }
+  /* dich vu noi bat */
+  .second-line {
+    margin-left: 65px;
+    top: 10px;
+    font-size: 14px;
+    white-space: nowrap;
+    color: #ddd;
+    white-space: inherit;
+  }
+  .navbar {
+    position: absolute;
+    top: -5px;
+    left: 312px;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: -16px;
+    width: 23%;
+    height: 78px;
+  }
+  .logo-brand {
+    max-width: 39%;
+    margin-top: -39px;
+  }
+  /* dấu nhân */
+  .navbar-toggler {
+    top: 46px;
+    */ display: block;
+    margin-top: -15px;
+    position: absolute;
+    .collapse {
+      position: absolute;
+    }
+  }
+  .navbar-toggler .navbar-toggler-icon {
+    background: none;
+  }
+  .bar1 {
+    width: 41px;
+    transform: rotate(45deg) translate(0, 10px);
+  }
+  .bar2 {
+    width: 38px;
+    display: block;
+    margin-top: 3px;
+  }
+  .bar3 {
+    width: 29px;
+    position: relative;
+    right: -12px;
+    transform: rotate(-45deg) translate(4px, -16px);
+    margin-top: 3px;
+  }
+  /*  */
+  .logo-brand {
+    max-width: 80%;
+    margin-top: -86px;
+  }
+  .logo-0 {
+    display: none;
+  }
+  .navbar-nav {
+    justify-content: flex-end;
+  }
+  .logo01 {
+    /* display: none; */
+    margin-left: -293%;
+    top: 41px;
+    position: relative;
+  }
+  .nav-item.dropdown {
+    display: block;
+  }
+  .contact-nav111 {
+    display: none;
+  }
+  .list {
+    margin-left: -88px;
+  }
+  /*hình  */
+  .post-thumb img {
+    width: 108%;
+    height: 559px;
+    position: relative;
+    left: 1px;
+  }
+  /*  */
+  .detail {
+    margin-left: -26%;
+    width: 100%;
+  }
+  .authou {
+    grid-template-columns: 1fr;
+    /* Change to a single column */
+    padding: 117px;
+    /* Reduce padding */
+    grid-column-gap: 0;
+    /* Remove gap */
+    margin-left: -21px;
+    width: 118%;
+  }
+  .authou0 {
+    position: relative;
+    width: 85px;
+    position: relative;
+    top: 11px;
+    left: -102px;
+  }
+  .Alderson {
+    position: relative;
+    margin-top: -88%;
+    left: 41px;
+  }
+  .social {
+    margin-left: 1px;
+  }
+      .default {
+        margin-top: 10%; 
+    }
+    /* bảng leave  comment */
+   .form-control{
+    margin-top: -37px;
+   }
+   /* logo*/
+   .logo-brand {
+    max-width: 80%;
+    margin-top: -86px;
+}
 
 }
 
@@ -1943,4 +2104,19 @@ left: 1px;
     .emai0 {
       text-decoration: none; /* Bỏ gạch chân */
     }
+}
+
+@media (max-width: 576px) {
+  .side-navbar {
+    display: none; /* Ẩn navbar khi màn hình nhỏ */
+  }
+  .logo-0{
+    display: none;
+  }
+  .nav-scroll{
+    display: none;
+  }
+  .contact-nav111{
+    display: none;
+  }
 }
