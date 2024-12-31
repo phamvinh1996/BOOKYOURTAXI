@@ -1815,6 +1815,80 @@ left: 1px;
 
   margin-left: 1%;
 }
+/* ft */
+.description {
+  position: relative;
+  top: -33px;
+  left: 0;
+}
+.hotline {
+  margin-right: 2px;
+  margin-top: 195px;
+  width: 111%;
+}
+
+.logo-image {
+  top: 3px;
+  right: 85px;
+  width: 65%;
+}
+.hotline-text1 {
+  font-size: 20px;
+  top: 47%;
+  left: 59%;
+}
+
+.hotline-text0 {
+  font-size: 18px;
+  top: 47%;
+  left: 32%;
+  white-space: normal;
+  width: 90%;
+}
+.row-footer {
+  margin-top: 79px;
+  top: -51px;
+}
+.background-image {
+  background-position: bottom;
+  /* height: 967px; */
+  margin-top: -1%;
+}
+.icon-car {
+  flex-direction: row;
+  justify-content: center;
+  top: 88px;
+  position: relative;
+}
+.icon-car img {
+  margin: 0 10px;
+  /* max-width: 80%; */
+  width: 78px;
+}
+
+.links-label {
+  margin-right: 10px;
+  white-space: nowrap;
+  position: relative;
+  top: -20px;
+  left: -2px;
+}
+#emailInput {
+  flex: 1;
+  min-width: 327px;
+  position: relative;
+  top: -16px;
+  left: 13px;
+}
+#subscribeBtn {
+  margin-left: 10px;
+  position: relative;
+  top: -16px;
+  width: 43%;
+  margin-left: -5px;
+  font-size: 16px;
+}
+
 }
 
 
