@@ -1785,3 +1785,32 @@ left: 1px;
   margin-left: 1%;
 }
 }
+
+
+/*  */
+
+@media (max-width: 576px) {
+  .section-online-booking .row {
+    flex-direction: column; /* Đặt hướng cột thành hàng */
+    position: relative;
+    top: 1px;
+  }
+
+  .section-online-booking .col {
+    width: 100%; /* Đảm bảo mỗi cột chiếm 100% chiều rộng */
+    margin-bottom: 1rem; /* Thêm khoảng cách giữa các hàng */
+    padding: 3px;
+  }
+  .mb-3 {
+    margin-top: -7px;
+}
+/* đường viền code css màu cam bảng */
+.section-online-booking .form-control {
+  border: 1px solid #ccc; /* Đường viền mặc định */
+  transition: border-color 0.3s; /* Thêm hiệu ứng chuyển đổi màu viền */
+}
+
+.section-online-booking .form-control:hover {
+  border-color: orange; /* Đổi màu viền thành cam khi di chuột vào */
+}
+}
