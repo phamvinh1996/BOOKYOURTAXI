@@ -2069,7 +2069,7 @@ left: 1px;
   .section-online-booking .row {
     flex-direction: column; /* Đặt hướng cột thành hàng */
     position: relative;
-    top: 1px;
+    /* top: 1px; */
   }
 
   .section-online-booking .col {
@@ -2089,6 +2089,8 @@ left: 1px;
 .section-online-booking .form-control:hover {
   border-color: orange; /* Đổi màu viền thành cam khi di chuột vào */
 }
+
+
 }
 
 
@@ -2135,5 +2137,28 @@ left: 1px;
   .nav-link {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
+  }
+}
+
+
+
+
+
+
+
+/*mục bảng  */
+@media (max-width: 768px) { /* Điều chỉnh cho màn hình nhỏ hơn hoặc bằng 768px */
+  .section-online-booking .row {
+    margin-bottom: 20px; /* Khoảng cách giữa các hàng */
+  }
+
+  /* Bạn cũng có thể điều chỉnh các khoảng cách khác ở đây */
+  .section-online-booking .col {
+    padding: 10px; /* Khoảng cách bên trong các cột */
+  }
+}
+@media (max-width: 576px) {
+  .mb-3 {
+      margin-top: 52px;
   }
 }
