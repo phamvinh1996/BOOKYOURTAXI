@@ -4065,7 +4065,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -15px;
 }
 
 /*Địa chỉ footer  */
@@ -4301,7 +4301,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -15px;
 }
 
 /* màu chữ 123web footer */
