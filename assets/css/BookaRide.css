@@ -430,7 +430,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -22%;
+  top: -29%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -1365,7 +1365,7 @@ img.image-car2 {
 
 /*  */
 .container {
-  padding: 3px;
+  padding: 0px;
 }
 
 .card {
@@ -2651,7 +2651,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -2880,7 +2880,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
@@ -3298,7 +3298,7 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: 3px;
+  margin-top: -14px;
   margin-right: -23px;
 }
 
