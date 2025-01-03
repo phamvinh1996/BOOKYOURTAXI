@@ -140,7 +140,7 @@ p {
   /* display: flex; */
   /* align-items: center; */
   /* justify-content: space-between; */
-  padding: 10px;
+  padding: 6px;
 }
 
 /* Style for the logo */
@@ -1431,7 +1431,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -1659,7 +1659,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
