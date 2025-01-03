@@ -1365,7 +1365,7 @@ img.image-car2 {
 
 /*  */
 .container {
-  padding: 0px;
+  padding: 10px;
 }
 
 .card {
@@ -2542,7 +2542,7 @@ button {
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  /* top: -53px; */
   left: 256px;
   font-size: 18px;
 }
