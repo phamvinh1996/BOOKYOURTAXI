@@ -145,7 +145,7 @@ p {
 
 .logo-brand {
   position: relative;
-  top: 22px;
+  top: 12px;
   width: 181px;
   height: 60px;
   /* Adjust as needed */
@@ -242,7 +242,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 33px;
   height: 87px;
 }
 
@@ -1484,7 +1484,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -1713,7 +1713,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
