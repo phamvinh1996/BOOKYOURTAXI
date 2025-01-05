@@ -125,7 +125,7 @@ p {
 }
 .logo-brand {
   position: relative;
-  top: 22px;
+  top: 2px;
   width: 181px;
   height: 60px;
   /* Adjust as needed */
@@ -211,7 +211,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 26px;
   height: 87px;
 }
 /* kich co thanh nav trang chu... */
@@ -244,7 +244,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -11px;
+  top: -4px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -1273,7 +1273,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -1502,7 +1502,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
