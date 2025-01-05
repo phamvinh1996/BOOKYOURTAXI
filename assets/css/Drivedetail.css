@@ -240,7 +240,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 25px;
   height: 87px;
 }
 
@@ -586,6 +586,7 @@ div#offcanvasDarkNavbar {
 /* dùng thư viện di chuyển trang book you */
 .carousel {
   height: 566px;
+  margin-top: -22px;
 }
 
 .carousel-inner {
