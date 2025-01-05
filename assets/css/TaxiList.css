@@ -253,7 +253,7 @@
     padding: 10px;
     width: 30%;
     position: relative;
-    top: 43px;
+    top: 21px;
     height: 87px;
   }
   
@@ -1858,7 +1858,7 @@
   .contact-info,
   .opening-info,
   .links-info {
-    margin: 0;
+    margin: -20px;
   }
   
   /*Địa chỉ footer  */
@@ -2087,7 +2087,7 @@
   .contact-info,
   .opening-info,
   .links-info {
-    margin: 0;
+    margin: -20px;
   }
   
   /* màu chữ 123web footer */
