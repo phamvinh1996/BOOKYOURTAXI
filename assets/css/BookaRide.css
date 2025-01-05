@@ -251,7 +251,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 25px;
   height: 87px;
 }
 
@@ -430,7 +430,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -29%;
+  top: -11%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
