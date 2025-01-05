@@ -252,7 +252,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 34px;
   height: 87px;
 }
 
@@ -2603,7 +2603,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -2834,7 +2834,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
