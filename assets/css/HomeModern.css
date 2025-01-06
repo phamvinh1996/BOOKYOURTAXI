@@ -252,23 +252,22 @@ p {
 
 /* kich co thanh nav trang chu... */
 .navbar::before {
-  content: '';
-  /* Tạo một pseudo-element */
+  /* content: '';
   position: absolute;
-  /* Vị trí tuyệt đối */
-
   left: -25%;
-  /* Điều chỉnh theo left của navbar */
   width: 129%;
-  /* Chiều rộng 100% */
   height: 100%;
-  /* Chiều cao 100% */
   background-color: inherit;
-  /* Màu nền giống với navbar */
   clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 100%);
-  /* Áp dụng clip-path */
+  z-index: -1; */
+  content: '';
+  position: absolute;
+  left: -19%;
+  width: 123%;
+  height: 100%;
+  background-color: inherit;
+  clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 160%);
   z-index: -1;
-  /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
 }
 
 .menu {
