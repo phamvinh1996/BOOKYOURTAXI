@@ -254,7 +254,7 @@ p {
     padding: 10px;
     width: 30%;
     position: relative;
-    top: 43px;
+    top: 21px;
     height: 87px;
   }
   
@@ -633,6 +633,7 @@ p {
   .carousel {
     /* width: 100px; */
     height: 566px;
+    margin-top: -25px;
     /* overflow: hidden; */
     /* Ẩn phần thừa */
   }
@@ -1964,7 +1965,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -2195,7 +2196,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
