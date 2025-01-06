@@ -536,6 +536,31 @@ margin-top: -65px; */
   width: 500px;
 }
 
+/*  */
+
+
+
+.menu .dropdown-toggle::after{
+  display: none;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
 /* code css màu chữ book you p */
 /* NÚT LIÊN HỆ BOOK YOUR */
 .btn-view-more {
@@ -972,7 +997,7 @@ button.carousel-control-next {
 .section-online-booking {
   position: absolute;
   top: 796px;
-  right: 248px;
+  right: 379px;
   width: 1268px;
   padding: 107px 0;
   background-color: #1c1c1c;
@@ -1092,7 +1117,7 @@ button.carousel-control-next {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 267px;
+  width: 230px;
   height: 53px;
   font-size: 17px;
 }
@@ -3217,9 +3242,10 @@ a {
   clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
   color: #fff;
   width: 70%;
-  height: 63px;
+  height: 40px;
   border-radius: 2px;
-  display: flex;
+  display: flex
+;
   align-items: center;
   justify-content: center;
   font-size: 14px;
@@ -3228,8 +3254,8 @@ a {
   letter-spacing: 0;
   margin-left: auto;
   position: absolute;
-  right: 59px;
-  top: 362px;
+  right: 48px;
+  top: 397px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -3485,7 +3511,62 @@ p {
 }
 
 /*  */
+/* mục OUR EXPERT DRIVES */
+/*  */
+.choose-your-taxi .row {
+  display: flex;
+  justify-content: space-between; /* Căn chỉnh không gian đều giữa các cột */
+  flex-wrap: wrap; /* Đảm bảo các cột di chuyển xuống hàng nếu không đủ không gian */
+}
 
+.choose-your-taxi .col-lg-3 {
+  flex: 0 0 23%; /* Đặt chiều rộng của mỗi cột là khoảng 23% */
+  box-sizing: border-box; /* Bao gồm padding và border trong kích thước */
+  margin-bottom: 20px; /* Thêm khoảng cách giữa các hàng */
+}
+
+.choose-your-taxi img {
+  /* width: 100%; Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của cột */
+  height: auto; /* Giữ tỉ lệ hình ảnh */
+}
+
+.chunhat1, .chunhat2 {
+  text-align: center; /* Căn giữa nội dung trong các div */
+  margin-top: -12px; /* Thêm khoảng cách trên các div */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /*   lợi ích đặt xe hon 1000 */
 /* code icon  */
 .custom-size {
@@ -3789,7 +3870,7 @@ p {
   position: relative;
   /* top: -18px;
   left: -20px; */
-  width: 100px;
+  /* width: 100px; */
   height: 221px;
   object-fit: cover;
 }
@@ -6147,4 +6228,11 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+}
+
+
+
+
+.dropdown-toggle::after{
+  display: none;
 }
