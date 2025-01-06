@@ -298,8 +298,8 @@ p {
 /* dấu ghạch chân thanh nav chữ */
 /* chữ trên thanh nav màu cam */
 .menu li a {
-  right: -5px;
-  top: -3px;
+  margin-left: 14px;
+  right: 3px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
