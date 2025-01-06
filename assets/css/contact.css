@@ -124,7 +124,7 @@ p {
   }
   .logo-brand {
     position: relative;
-    top: 22px;
+    top: 2px;
     width: 181px;
     height: 60px;
     /* Adjust as needed */
@@ -210,7 +210,7 @@ p {
     padding: 10px;
     width: 30%;
     position: relative;
-    top: 43px;
+    top: 19px;
     height: 87px;
   }
   /* kich co thanh nav trang chu... */
@@ -499,7 +499,7 @@ p {
     margin-top: 20px;
     transition: opacity 0.3s ease;
     position: relative;
-    top: -10px;
+    top: -28px;
 }
 
 .hidden {
@@ -1014,7 +1014,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 /*Địa chỉ footer  */
 .contact-info {
@@ -1221,7 +1221,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 /* màu chữ 123web footer */
 .footer-text {
