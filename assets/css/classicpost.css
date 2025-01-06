@@ -249,7 +249,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 28px;
   height: 87px;
 }
 
@@ -295,7 +295,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -11px;
+  top: -3px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -627,6 +627,7 @@ div#offcanvasDarkNavbar {
 .carousel {
   /* width: 100px; */
   height: 566px;
+  margin-top: -16px;
   /* overflow: hidden; */
   /* Ẩn phần thừa */
 }
@@ -1864,7 +1865,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /*Địa chỉ footer  */
@@ -2093,7 +2094,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: 0;
+  margin: -20px;
 }
 
 /* màu chữ 123web footer */
@@ -2327,7 +2328,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
-  margin-top: -28%;
+  margin-top: -30%;
 }
 
 .side-navbar.show {
