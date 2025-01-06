@@ -3097,7 +3097,7 @@ body {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của cột */
   height: auto;
   /* Giữ tỷ lệ ảnh */
@@ -3255,7 +3255,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 48px;
-  top: 397px;
+  top: 444px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -5223,8 +5223,8 @@ main {
     padding: 0px 0;
     font-size: 18px;
     /* Giảm kích thước chữ */
-    margin-right: -250px;
-    margin-top: -317px;
+    margin-right: -277px;
+    margin-top: -327px;
     clip-path: polygon(0 0, 90% 0%, 100% 8%, 100% 100%, 0 99%);
   }
 
@@ -6236,3 +6236,24 @@ main {
 .dropdown-toggle::after{
   display: none;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
