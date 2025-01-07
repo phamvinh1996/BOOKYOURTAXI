@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -23px;
 }
@@ -288,7 +288,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -8px;
+  top: -16px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -5280,9 +5280,11 @@ main {
     padding: 0px 0;
     font-size: 18px;
     /* Giảm kích thước chữ */
-    margin-right: -277px;
+    /* margin-right: -277px; */
     margin-top: -327px;
     clip-path: polygon(0 0, 90% 0%, 100% 8%, 100% 100%, 0 99%);
+
+
   }
 
   .section-online-booking::before {
@@ -6014,7 +6016,7 @@ main {
 @media (max-width: 768px) {
   .chunhat2 {
     position: absolute;
-    top: 393px;
+    top: 336px;
   }
 }
 
