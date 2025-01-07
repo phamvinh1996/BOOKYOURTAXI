@@ -3144,14 +3144,38 @@ img {
 }
 
 
-/*  */
+/* code css khoảng cách ảnh our */
 
 
 
 
 
 
+.container {
+  margin: 0 auto; /* Giúp căn giữa container */
+  padding: 20px; /* Thêm khoảng cách bên trong */
+}
 
+.row {
+  display: flex; /* Sử dụng Flexbox để sắp xếp các cột */
+  flex-wrap: wrap; /* Cho phép các cột xuống hàng khi không đủ chỗ */
+}
+
+.col-lg-3, .col-md-6, .col-sm-12 {
+  padding: 10px; /* Thêm khoảng cách giữa các cột */
+  box-sizing: border-box; /* Đảm bảo padding không làm tăng kích thước */
+}
+
+img {
+  width: 100%; /* Để hình ảnh chiếm toàn bộ chiều rộng của cột */
+  height: auto; /* Giữ tỷ lệ khung hình */
+  border-radius: 8px; /* Thêm bo góc cho hình ảnh (tuỳ chọn) */
+}
+
+.chunhat1, .chunhat2 {
+  text-align: center; /* Căn giữa nội dung bên trong */
+  margin-top: -10px; /* Thêm khoảng cách phía trên các khối chữ */
+}
 
 
 
@@ -3286,7 +3310,6 @@ a {
   margin-left: auto;
   position: absolute;
   right: 48px;
-  top: 413px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
