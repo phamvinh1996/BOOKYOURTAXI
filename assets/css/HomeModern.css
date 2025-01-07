@@ -5011,6 +5011,8 @@ main {
   }
 
   .ridek1 {
+    white-space: nowrap;
+    margin-left: -91px;
     transform: translateX(30px);
     /* Di chuyển chữ qua bên trái */
     font-size: 14px;
@@ -5018,13 +5020,14 @@ main {
     /* margin-right: 1047px; Giảm khoảng cách bên phải */
   }
   .section-map h1 {
+    margin-left: -91px;
     /* transform: translate(-236%); Di chuyển sang trái 20% */
     font-size: 24px;
     /* Giảm kích thước chữ cho di động */
   }
 
   .section-map button {
-    transform: translate(-117%);
+    transform: translate(-53%);
     /* margin-top: 10px; Giảm khoảng cách từ trên cho di động */
   }
 
@@ -6055,7 +6058,7 @@ main {
     /* top: 180px; Di chuyển xuống dưới cho màn hình nhỏ */
 
     margin-right: 2px;
-    margin-top: 222px;
+    margin-top: 211px;
     width: 111%;
   }
 }
@@ -6319,6 +6322,19 @@ main {
 
 
 
+/* code media footer */
 
+@media screen and (max-width: 768px) {
+  .row-footer {
+    flex-direction: column; /* Xếp các cột thành dọc */
+  }
 
+  .col-md-6 {
+    flex: 0 0 100%; /* Chiều rộng đầy đủ */
+  }
+
+  .contact-info1, .address-text {
+    font-size: 14px; /* Giảm kích thước chữ */
+  }
+}
 
