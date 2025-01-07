@@ -3147,36 +3147,7 @@ img {
 /*  */
 
 
-/* Tổng thể reset cho ảnh */
-img {
-  max-width: 100%;
-  height: auto;
-}
 
-/* Bố cục cho từng thẻ col */
-.container .row .col-lg-3 {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-/* Hình ảnh */
-.anh1, .anh2, .anh3, .anh4 {
-  display: block;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-/* Phần chữ nằm dưới hình ảnh */
-.chunhat1, .chunhat2 {
-  margin-top: 10px;
-  text-align: center;
-}
-
-.the1, .the2 {
-  font-size: 16px;
-  font-weight: bold;
-  color: #333;
-}
 
 
 

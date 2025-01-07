@@ -2665,6 +2665,48 @@ img {
 
 }
 
+
+
+/* code css mục ảnh  */
+.container {
+  width: 100%;
+  padding: 15px;
+}
+
+.row {
+  display: flex; /* Sử dụng Flexbox */
+  flex-wrap: wrap; /* Tự động xuống hàng nếu không đủ không gian */
+  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
+}
+
+.col-lg-3 {
+  flex: 0 0 24%; /* Mỗi ảnh chiếm 24% chiều rộng, còn lại cho khoảng cách */
+  max-width: 24%; /* Đảm bảo kích thước tối đa */
+  box-sizing: border-box; /* Bao gồm padding và border */
+  text-align: center; /* Căn giữa nội dung */
+}
+
+img {
+  width: 100%; /* Đảm bảo ảnh không vượt quá kích thước cột */
+  height: auto; /* Giữ nguyên tỷ lệ ảnh */
+  border-radius: 8px; /* Thêm bo tròn nếu cần */
+}
+
+.chunhat1, .chunhat2 {
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /*lớp phủ get the ridek mobile  */
 
 .overlay1 {
@@ -3217,7 +3259,7 @@ a {
   position: relative;
   /* top: -18px;
   left: -20px; */
-  width: 100px;
+  /* width: 100px; */
   height: 221px;
   object-fit: cover;
 }
@@ -4965,4 +5007,12 @@ text-align: center !important;
   }
 }
 
+/*mục ảnh code media OUR MỤC ABOUTUS*/
+
+@media (max-width: 576px) { /* Màn hình dưới 576px */
+  .col-lg-3 {
+    flex: 0 0 100%; /* Mỗi ảnh chiếm toàn bộ một hàng */
+    max-width: 100%;
+  }
+}
 
