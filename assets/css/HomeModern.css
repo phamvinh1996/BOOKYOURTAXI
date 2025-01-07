@@ -6090,7 +6090,7 @@ main {
     /* top: 180px; Di chuyển xuống dưới cho màn hình nhỏ */
 
     margin-right: 2px;
-    margin-top: 211px;
+    margin-top: 229px;
     width: 111%;
   }
 }
@@ -6185,7 +6185,7 @@ main {
   .subscribe button {
     top: 59%;
     /* Move button further down on tablet screens */
-    left: 6px;
+    left: 11px;
   }
 }
 
