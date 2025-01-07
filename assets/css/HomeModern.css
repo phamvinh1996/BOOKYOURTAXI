@@ -5962,8 +5962,8 @@ main {
     background-color: white;
     /* Nền trắng cho navbar trên màn hình nhỏ */
     position: relative;
-    width: 93%;
-    right: -38px;
+    width: 77%;
+    right: -131px;
   }
 
   .dropdown-menu {
