@@ -211,8 +211,8 @@ p {
 .modal {
   /* Position the modal in the center of the page */
   position: fixed;
-  top: 57%;
-  left: 69%;
+  top: 1%;
+  /* left: 69%; */
   transform: translate(0%, -70%);
   /* Set the size of the modal */
   width: 136%;
@@ -232,6 +232,7 @@ p {
 /* code css hộp thoại madal */
 .modal-content {
   margin-top: 140%;
+  margin-left: -66%;
 }
 
 /*  */
@@ -434,7 +435,16 @@ margin-top: -65px; */
   /* height: 10%; */
   z-index: 999;
 }
+/*  */
+.navbar {
+  transform: skewX(0deg);
+  width: 59%; /* Chiều rộng là 59% của container hoặc viewport */
+  box-sizing: border-box; /* Bao gồm cả padding và border trong chiều rộng */
 
+}
+
+
+/*  */
 .navbar-brand img {
   width: 50px;
 }
