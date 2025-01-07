@@ -290,7 +290,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -11px;
+  top: -1px;
   position: relative;
   color: #ffffff;
   text-decoration: none;

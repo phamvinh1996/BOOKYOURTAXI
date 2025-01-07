@@ -3286,7 +3286,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 48px;
-  top: 395px;
+  top: 413px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -3563,7 +3563,7 @@ p {
 
 .chunhat1, .chunhat2 {
   text-align: center; /* Căn giữa nội dung trong các div */
-  margin-top: -12px; /* Thêm khoảng cách trên các div */
+  /* margin-top: -12px; Thêm khoảng cách trên các div */
 }
 
 
