@@ -3133,6 +3133,55 @@ img {
 }
 
 
+/*  */
+
+
+/* Tổng thể reset cho ảnh */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Bố cục cho từng thẻ col */
+.container .row .col-lg-3 {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+/* Hình ảnh */
+.anh1, .anh2, .anh3, .anh4 {
+  display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần chữ nằm dưới hình ảnh */
+.chunhat1, .chunhat2 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.the1, .the2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /*lớp phủ get the ridek mobile  */
 
 .overlay1 {
@@ -3255,7 +3304,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 48px;
-  top: 444px;
+  top: 395px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -6241,6 +6290,21 @@ main {
 
 
 
+@media screen and (max-width: 768px) {
+  .container .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container .row .col-lg-3 {
+    max-width: 90%; /* Chiều rộng nhỏ hơn cho màn hình nhỏ */
+    margin-bottom: 15px;
+  }
+
+  .the1, .the2 {
+    font-size: 14px; /* Font nhỏ hơn trên thiết bị nhỏ */
+  }
+}
 
 
 
