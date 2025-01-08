@@ -417,9 +417,10 @@ div#offcanvasDarkNavbar {
   /* color: #666; */
   font-size: 15px;
   top: 5px;
-  left: 6px;
+  /* left: 6px; */
   position: relative;
   color: #666;
+  white-space: nowrap;
 }
 
 .mau1 {
