@@ -3996,7 +3996,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
-  margin-top: -28%;
+  margin-top: -30%;
 }
 
 .side-navbar.show {
@@ -4316,8 +4316,8 @@ main {
 }
 
 .hotline-image1 {
-  left: -49px;
-  top: 106px;
+  left: -55px;
+  top: 122px;
   /* Điều chỉnh vị trí lên hoặc xuống */
   font-size: 40px;
   /* Giảm kích thước biểu tượng cho di động */
