@@ -395,6 +395,7 @@ margin-top: -65px; */
   left: 6px;
   position: relative;
   color: #666;
+  white-space: nowrap;
 }
 
 .mau1 {
@@ -6369,4 +6370,10 @@ main {
     font-size: 14px; /* Giảm kích thước chữ */
   }
 }
+
+/*  */
+
+
+
+
 
