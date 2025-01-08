@@ -211,8 +211,8 @@ p {
 .modal {
   /* Position the modal in the center of the page */
   position: fixed;
-  top: 57%;
-  left: 69%;
+  top: 3%;
+  left: 0%;
   transform: translate(0%, -70%);
   /* Set the size of the modal */
   width: 136%;
@@ -231,7 +231,8 @@ p {
 
 /* code css hộp thoại madal */
 .modal-content {
-  margin-top: 140%;
+  margin-left: -63%;
+    margin-top: 110%;
 }
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
@@ -290,7 +291,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -1px;
+  top: -5px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -374,7 +375,7 @@ div#offcanvasDarkNavbar {
 .navbar-dark .navbar-toggler {
   position: relative;
   right: 7px;
-  top: -103px;
+  top: -108px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -672,7 +673,7 @@ div#offcanvasDarkNavbar {
   text-align: start;
   font-size: 47px;
   position: absolute;
-  left: 36%;
+  left: 35%;
   margin-top: -138px;
 }
 
@@ -687,7 +688,8 @@ div#offcanvasDarkNavbar {
 .carousel-caption {
   position: relative;
   bottom: 5.25rem;
-  left: -150%;
+  /* left: -150%; */
+  margin-top: -8%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
@@ -740,8 +742,8 @@ div#offcanvasDarkNavbar {
 
 .chunhat01 {
   position: relative;
-  top: -616px;
-  left: -612px;
+  top: -638px;
+  left: -856px;
   z-index: 1;
 }
 
@@ -750,7 +752,7 @@ div#offcanvasDarkNavbar {
 .hotline01 {
   position: absolute;
   top: -352px;
-  right: -285px;
+  right: 283px;
   background-color: #ff9900;
   padding: 10px;
   width: 822px;
@@ -3514,6 +3516,8 @@ button {
 .contact-label,
 .opening-label,
 .links-label {
+  position: relative;
+  left: -20%;
   font-weight: bold;
   margin-bottom: 5px;
   position: relative;
