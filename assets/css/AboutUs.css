@@ -244,7 +244,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 43px;
+  top: 20px;
   height: 87px;
 }
 
@@ -423,7 +423,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -27%;
+  top: -12%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -742,6 +742,7 @@ div#offcanvasDarkNavbar {
   position: relative;
   top: -616px;
   left: -612px;
+  z-index: 1;
 }
 
 
@@ -1190,7 +1191,7 @@ img.image-car2 {
 
 .table-1 .slick-dots {
   display: flex;
-  /* margin-top: 35px; */
+  margin-top: 50px;
   padding-left: 0;
   margin-bottom: 0;
   /* padding-left: 92px; */
@@ -1593,6 +1594,8 @@ img.image-car2 {
 
 .slick-slide {
   border: 1px solid #ccc;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .slick-dots {
