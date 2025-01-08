@@ -5019,3 +5019,9 @@ text-align: center !important;
   }
 }
 
+@media (max-width: 600px) {
+  .container {
+    padding: 5px; /* Decrease padding for smaller screens */
+    margin-top: 17%; /* Adjust margin-top for better spacing */
+  }
+}
