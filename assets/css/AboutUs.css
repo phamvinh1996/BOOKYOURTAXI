@@ -907,6 +907,7 @@ div#offcanvasDarkNavbar {
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 8px; /* Bo tròn góc */
+  margin-top: 8%;
 }
 
 .info-container img {
@@ -1087,7 +1088,7 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 33%;
+  left: 35%;
   top: 87%;
   width: 132px;
 }
@@ -1095,7 +1096,7 @@ p {
 /* ảnh về chúng tôi */
 .ceo1 {
   position: absolute;
-  right: 53%;
+  right: 51%;
   /* top: 96%; */
   font-size: 16px;
   color: #666;
@@ -1106,7 +1107,8 @@ p {
 /* picture vè chung toi */
 .ceo101 {
   position: relative;
-  left: 20%;
+  left: 21%;
+  top: 3px;
   border-radius: 90px;
   width: 86px;
   /* top: 60px; */
