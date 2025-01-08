@@ -4555,8 +4555,8 @@ text-align: center !important;
     width: 103px;
     margin: 0 auto;
     transform: translateY(10px);
-    left: -33%;
-    top: 1%;
+    top: 44px;
+    left: 1px;
   }
 
   .ceo1 {
@@ -4565,29 +4565,32 @@ text-align: center !important;
     margin: 10px 0;
     position: relative;
     right: 1%;
-    top: -68px;
+    top: 42px;
+    white-space: nowrap;
   }
 
   .image01 {
     position: absolute;
-    left: 33%;
-    top: 128%;
+    left: 29%;
+    top: 95%;
     width: 132px;
   }
 
   .hot1 {
     position: relative;
-    top: 1%;
-    left: 1%;
+    top: 145px;
+    left: -207px;
+    white-space: pre;
   }
 
   .color1 {
     position: relative;
-    top: 269px;
-    left: -2%;
+    top: 181px;
+    left: -312px;
     font-weight: 700;
     color: #ff9900;
     margin-top: -75%;
+    white-space: pre;
   }
 
   .image-container::after {
