@@ -154,6 +154,7 @@ p {
 .logo-brand {
   width: 181px;
   height: 60px;
+  margin-top: -36px;
   /* Adjust as needed */
 }
 
@@ -245,7 +246,7 @@ p {
   padding: 10px;
   width: 30%;
   position: relative;
-  top: 20px;
+  top: -15px;
   height: 87px;
 }
 
@@ -291,7 +292,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -5px;
+  top: -38px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -374,8 +375,8 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  right: 7px;
-  top: -108px;
+  right: -19px;
+  top: -139px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -424,9 +425,8 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -12%;
-  /* Adjust the distance from the top as needed */
-  left: 100%;
+  top: -7%;
+  left: 101%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -572,7 +572,7 @@ div#offcanvasDarkNavbar {
   left: 49%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -474px;
+  top: -548px;
 }
 
 /* Travel securely with us THE BOOK */
@@ -642,6 +642,7 @@ div#offcanvasDarkNavbar {
 /* dùng thư viện di chuyển trang book you */
 .carousel {
   /* width: 100px; */
+  margin-top: -47px;
   height: 566px;
   /* overflow: hidden; */
   /* Ẩn phần thừa */
@@ -742,7 +743,7 @@ div#offcanvasDarkNavbar {
 
 .chunhat01 {
   position: relative;
-  top: -638px;
+  top: -703px;
   left: -856px;
   z-index: 1;
 }
@@ -827,11 +828,11 @@ div#offcanvasDarkNavbar {
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
   font-family: "Space Grotesk", sans-serif;
-  top: 44px;
+  top: 11px;
   /* right: 55px; */
-  right: -19%;
+  right: -21%;
   position: relative;
-  text-align: center;
+  /* text-align: center; */
   /* Căn giữa văn bản */
 }
 
@@ -861,7 +862,7 @@ div#offcanvasDarkNavbar {
   /* top: -358px; */
   /* right: 341%; */
   top: 18px;
-  left: 19%;
+  left: 16%;
   white-space: nowrap;
 }
 
@@ -907,7 +908,7 @@ div#offcanvasDarkNavbar {
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 8px; /* Bo tròn góc */
-  margin-top: 8%;
+  margin-top: 3%;
 }
 
 .info-container img {
@@ -960,7 +961,7 @@ p {
 
 .about-us {
   /* position: absolute; */
-  top: 35px;
+  top: 5px;
   color: black;
   font-size: 34px;
   font-weight: 700;
@@ -1079,7 +1080,7 @@ p {
   color: orange;
   position: absolute;
   right: 19%;
-  top: 83%;
+  top: 87%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1088,15 +1089,15 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 35%;
-  top: 87%;
+  left: 36%;
+  top: 90%;
   width: 132px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
   position: absolute;
-  right: 51%;
+  right: 49%;
   /* top: 96%; */
   font-size: 16px;
   color: #666;
@@ -4150,7 +4151,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -116%;
+  top: -66%;
   left: 159%;
 }
 
