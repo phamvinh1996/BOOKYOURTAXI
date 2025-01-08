@@ -2677,7 +2677,7 @@ img {
 /* code css mục ảnh  */
 .container {
   width: 100%;
-  padding: 15px;
+  padding: 47px;
 }
 
 .row {
@@ -4612,44 +4612,36 @@ text-align: center !important;
 
   /* code css chữ ảnh bìa 1 */
   .carousel-caption h1 {
-    top: 11%;
-    /* Di chuyển xuống giữa màn hình */
-    left: 70%;
-    /* Căn chỉnh lại vị trí bên trái */
+    top: 34%;
+    left: 44%;
     font-size: 36px;
-    /* Giảm kích thước chữ */
     margin-bottom: 10px;
-    /* Giảm khoảng cách dưới */
   }
 
   .carousel-caption p {
-    top: -193%;
-    /* Di chuyển lên phía trên */
-    left: 86%;
-    /* Căn giữa lại vị trí bên trái */
+    top: -331%;
+    left: 46%;
     transform: translateX(-50%);
-    /* Căn giữa hoàn toàn */
     font-size: 16px;
-    /* Giảm kích thước chữ */
   }
 
   /* code css thẻ màu cam bìa ảnh */
 
   .hotline01 {
-    top: 30%;
+    top: 57%;
     width: 61%;
-    right: -59%;
+    right: -68px;
   }
 
   /* code css media query thẻ màu đen */
   .hotline02 {
-    top: 41%;
-    left: 71%;
+    top: 75%;
+    left: 39%;
   }
 
   .chunhat01 {
-    top: -348%;
-    left: 7%;
+    top: -497%;
+    left: -31%;
   }
 
   .chunhat0 {
@@ -4658,6 +4650,7 @@ text-align: center !important;
 
     right: -32px;
     width: 39%;
+    margin-left: 1%;
   }
 
   .form-group {
