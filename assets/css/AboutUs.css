@@ -829,7 +829,7 @@ div#offcanvasDarkNavbar {
   font-family: "Space Grotesk", sans-serif;
   top: 44px;
   /* right: 55px; */
-  right: -15%;
+  right: -19%;
   position: relative;
   text-align: center;
   /* Căn giữa văn bản */
@@ -861,7 +861,7 @@ div#offcanvasDarkNavbar {
   /* top: -358px; */
   /* right: 341%; */
   top: 18px;
-  left: 16%;
+  left: 19%;
   white-space: nowrap;
 }
 
@@ -967,7 +967,7 @@ p {
   margin-bottom: 20px;
   line-height: 42px;
   position: relative;
-  right: -19%;
+  right: -22%;
   /* top: -287px; */
   /* white-space: nowrap; */
 }
