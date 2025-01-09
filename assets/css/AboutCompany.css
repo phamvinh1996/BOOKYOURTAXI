@@ -4742,8 +4742,8 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .halo {
-    left: 39%;
-    margin-top: 210px;
+    left: -190%;
+    margin-top: 98px;
     
   }
 }
