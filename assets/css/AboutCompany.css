@@ -2700,7 +2700,7 @@ body {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của cột */
   height: auto;
   /* Giữ tỷ lệ ảnh */
@@ -2758,7 +2758,7 @@ img {
 }
 
 img {
-  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của cột */
+  /* width: 100%; Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của cột */
   height: auto; /* Giữ tỉ lệ hình ảnh */
   border-radius: 8px; /* Tùy chọn: Bo tròn góc */
 }
@@ -4566,14 +4566,14 @@ main {
 @media (max-width: 768px) {
   .hotline01 {
     width: 231px;
-      top: 103px; /* Điều chỉnh vị trí xuống khi màn hình nhỏ hơn 768px */
-      right: -63px; /* Tùy chọn: Điều chỉnh vị trí bên phải nếu cần */
+      top: 59px; /* Điều chỉnh vị trí xuống khi màn hình nhỏ hơn 768px */
+      right: 27px; /* Tùy chọn: Điều chỉnh vị trí bên phải nếu cần */
   }
 }
 
 @media (max-width: 768px) {
   .hotline02 {
-    margin-top: 153%;
+    margin-top: 56%;
     right: -17%;
   }
 }
@@ -4581,24 +4581,24 @@ main {
 
 @media (max-width: 768px) {
   .carousel-caption h1 {
-      left: 41%; /* Đặt vị trí sang giữa */
-      margin-top: 75%;
+    left: 41%;
+    margin-top: 26%;
       font-size: 36px;
   }
 }
 
 @media (max-width: 768px) {
   .carousel-caption p {
-      top: -165px; /* Điều chỉnh vị trí lên khi màn hình nhỏ hơn 768px */
-      margin-right: -41%;
+    top: -287px;
+    margin-right: -29%;
   }
 }
 
 
 @media (max-width: 768px) {
   .chunhat01 {
-    top: -286px;
-    left: -90px;
+    top: -463px;
+    left: 22px;
     position: relative;
   }
 }
@@ -4607,9 +4607,9 @@ main {
 @media (max-width: 768px) {
   .chunhat0 {
     width: 120px;
-    top: -253px;
+    top: -423px;
     position: relative;
-    left: -95px;
+    left: -158px;
   }
 }
 
@@ -4647,11 +4647,23 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .pict1 {
- margin-left: -12px;
+  margin-left: -43px;
  letter-spacing: -0.2px;
  font-family: 'Space Grotesk', sans-serif;
- font-size: 17px;
+ font-size: 15px; 
+
+
+ white-space: normal;
+
+
+
+
   }
+  .ceo101 {
+    position: relative;
+    left: 52px;
+  }
+
 }
 
 
@@ -4672,6 +4684,8 @@ margin-left: 23px;
   .color1 {
       top: 108%; /* Di chuyển xuống thấp hơn cho màn hình nhỏ */
       font-size: 21px; /* Giảm kích thước chữ nếu cần */
+      white-space: nowrap;
+      left: 10px;
   }
 }
 
@@ -4682,7 +4696,7 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .ceo1 {
-    right: -15px;
+    right: 23px;
     top: 85%;
   }
 }
@@ -4803,14 +4817,16 @@ margin-left: 23px;
   .chunhat1 {
       position: relative;
       top: -21px;
+      left: 33px;
   }
 }
 
 @media (max-width: 768px) {
   .chunhat2 {
-      height: 44px;
-      width: 261px;
-      margin-top: 13%;
+    height: 44px;
+    width: 206px;
+    margin-top: 16%;
+    right: 18px;
   }
 }
 
@@ -5020,9 +5036,9 @@ top: -28px;
 
 @media only screen and (max-width: 425px) {
   .container {
-      padding: 3px;
+      padding: 38px;
       width: 100%;
-      right: -14px;
+      /* right: -14px; */
       position: relative;
       /* top: -16px; */
   }
@@ -5271,6 +5287,7 @@ display: none;
   img.image-car2 {
     width: 100%; /* Chiều rộng hình ảnh sẽ chiếm toàn bộ chiều rộng của container */
     max-width: 400px; /* Giới hạn chiều rộng tối đa để không vượt quá 400px */
+    margin-left: 118%;
   }
 }
 
@@ -5312,6 +5329,7 @@ margin-top: -57px;
   .nav-item {
       display: none; /* Ẩn phần tử */
   }
+
 }
 
 /* Hiển thị phần tử trên màn hình nhỏ hơn hoặc bằng 768px */
@@ -5385,3 +5403,37 @@ margin-top: -57px;
   background-color: #e9ecef;
   color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .about-us {
+    position: relative; /* Giữ relative để dễ chỉnh vị trí */
+    right: 28%; /* Dịch chữ qua phải */
+    text-align: right; /* Căn phải chữ */
+    font-size: 28px; /* Giảm kích thước chữ (nếu cần) */
+    line-height: 36px; /* Giảm chiều cao dòng để phù hợp hơn */
+    top: 1px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
