@@ -420,6 +420,7 @@ div#offcanvasDarkNavbar {
   left: 6px;
   position: relative;
   color: #666;
+  white-space: nowrap;
 }
 
 .mau1 {
