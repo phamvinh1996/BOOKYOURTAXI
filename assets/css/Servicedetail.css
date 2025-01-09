@@ -3009,3 +3009,69 @@ main {
       margin-top: -11px;
   }
 }
+
+
+
+
+
+
+
+/* thanh nav màu cam  tự hiển thị bảng*/
+/* Ẩn dropdown menu mặc định */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Màu nền của bảng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+  margin-left: -13%;
+}
+
+/* Khi trỏ chuột vào .dropdown, hiển thị dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Định dạng menu chính */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hiển thị menu ngang */
+}
+
+.menu > li {
+  position: relative; /* Để dropdown-menu có vị trí tuyệt đối so với menu cha */
+  margin-right: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333; /* Màu chữ */
+}
+
+.menu a:hover {
+  background-color: #ff9900; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+/* Dropdown menu item */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+  color: #000;
+}
+
