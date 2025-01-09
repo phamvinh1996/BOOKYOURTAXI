@@ -1667,7 +1667,19 @@ iframe {
   text-decoration: underline;
 }
 
+/* mục card dịch vụ nỗi bật  */
 
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    margin-top: -79px;
+}
 
 
 /*  */
@@ -2435,6 +2447,19 @@ p {
 }
 
 
+/* mục bảng Ridek Passengers Reviews... */
+
+
+.slick-slider{
+  margin-top: 50px;
+}
+
+
+
+
+
+
+
 /*  */
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 .slide-container {
@@ -2454,7 +2479,7 @@ p {
   justify-content: center;
   position: absolute;
   right: 100px;
-  top: 25px;
+  top: -13px;
   z-index: 1;
 }
 
