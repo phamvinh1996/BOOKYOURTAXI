@@ -2609,7 +2609,7 @@ body {
 
 .container {
   width: 100%;
-  padding: 1px;
+  padding: 38px;
   /* Khoảng cách cho container */
 }
 
@@ -4453,7 +4453,7 @@ main {
     /* Di chuyển qua trái */
     margin-top: 113px;
     position: relative;
-    top: -51px;
+    top: -99px;
   }
 
   .img-car {
@@ -4571,8 +4571,8 @@ text-align: center !important;
 
   .image01 {
     position: absolute;
-    left: 29%;
-    top: 95%;
+    left: 34%;
+    top: 98%;
     width: 132px;
   }
 
@@ -4623,7 +4623,7 @@ text-align: center !important;
   }
 
   .carousel-caption p {
-    top: -331%;
+    top: -300%;
     left: 46%;
     transform: translateX(-50%);
     font-size: 16px;
@@ -4687,9 +4687,10 @@ text-align: center !important;
   }
 
   .chunhat2 {
-    height: 44px;
-    width: 261px;
-    margin-top: 13%;
+    height: 38px;
+    width: 220px;
+    /* margin-top: 23%; */
+    margin-right: 3%;
   }
 
   .chunhat1 {
@@ -4724,24 +4725,21 @@ text-align: center !important;
   .icon-text-001 {
     left: 37%;
     z-index: 1;
+    white-space: nowrap;
+    margin-top: 9px;
   }
 
   .hotline-image1 {
-    left: 50px;
-    /* Đặt lại vị trí sang bên phải */
-    top: 80px;
-    /* Có thể điều chỉnh vị trí dọc nếu cần */
+    left: 55px;
+    top: 103px;
   }
 
   .icon-telephone1::before {
     left: auto;
-    /* Đặt lại giá trị left */
-    right: 70%;
-    /* Đưa sang bên phải */
-    top: 120%;
-    /* Điều chỉnh vị trí dọc nếu cần */
+    right: 69%;
+    top: 131%;
     transform: translateY(-50%);
-    /* Căn giữa dọc nếu cần */
+    z-index: 1;
   }
 
   .background-image {
@@ -4751,7 +4749,7 @@ text-align: center !important;
 
   .hotline {
     position: relative;
-    top: 337px;
+    top: 244px;
     right: auto;
     width: 100%;
     height: 86px;
@@ -4778,7 +4776,7 @@ text-align: center !important;
     display: block;
     margin-bottom: 10px;
     margin-top: -17px;
-    left: -1px;
+    left: -170px;
   }
 
 }
@@ -4841,7 +4839,7 @@ text-align: center !important;
     position: relative;
     top: -51px;
     width: 69%;
-    margin-left: -9px;
+    margin-left: -91px;
     font-size: 16px;
   }
 
@@ -4983,7 +4981,7 @@ text-align: center !important;
   .logo01 {
 
     margin-left: -293%;
-    top: 28px;
+    top: 11px;
     position: relative;
   }
 
@@ -5022,14 +5020,29 @@ text-align: center !important;
   }
 }
 
-@media (max-width: 600px) {
-  .container {
-    padding: 5px; /* Decrease padding for smaller screens */
-    margin-top: 17%; /* Adjust margin-top for better spacing */
+
+
+@media (max-width: 768px) {
+  .row-footer {
+    margin-left: 33%;
+    position: relative;
+    left: -125px;
+    top: -88px;
   }
 }
 
 
+@media (max-width: 768px) {
+  .container {
+      padding: 28px; /* Thay đổi padding cho màn hình nhỏ */
+  }
+}
+
+@media (max-width: 768px) {
+  .new01-container {
+      padding: 15px; /* Thay đổi padding cho màn hình nhỏ */
+  }
+}
 
 /*  */
 
