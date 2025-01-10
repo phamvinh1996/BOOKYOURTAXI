@@ -2266,7 +2266,7 @@ div#offcanvasDarkNavbar {
 
 .contact-info,
 .subscribe {
-  margin-top: -20px;
+  margin-top: -3px;
 }
 
 .contact-info p {
@@ -2776,8 +2776,8 @@ img.image-car2 {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
-  left: 2%;
+  top: 53%;
+  left: 5%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
