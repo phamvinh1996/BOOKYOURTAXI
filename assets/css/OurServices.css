@@ -1824,8 +1824,8 @@ margin-right: 29%;
   /* position: relative;
   right: -747px;
   top: -323px; */
-  margin-top: -238px;
-  margin-left: 711px;
+  margin-top: -159px;
+  margin-left: 714px;
 }
 
 /* choosee your taxi */
@@ -3349,26 +3349,26 @@ main {
 
   .carousel-caption h1 {
     left: 41%;
-    margin-top: 75%;
+    margin-top: 18%;
     font-size: 36px;
   }
 
   .carousel-caption p {
-    top: -165px;
-    margin-right: -41%;
+    top: -344px;
+    margin-right: -29%;
   }
 
   .chunhat01 {
-    top: -286px;
-    left: -90px;
+    top: -481px;
+    left: -121px;
     position: relative;
   }
 
   .chunhat0 {
     width: 120px;
-    top: -253px;
+    top: -448px;
     position: relative;
-    left: -95px;
+    left: -124px;
   }
 
   .ridek1 {
@@ -3702,7 +3702,7 @@ main {
 /* ft */
 @media only screen and (max-width: 425px) {
   .container {
-    padding: 3px;
+    padding: 32px;
     width: 100%;
     right: -14px;
     position: relative;
