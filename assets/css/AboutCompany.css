@@ -4638,7 +4638,9 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .section-heading h4 span {
-    margin-left: -20px;
+    /* margin-left: -20px; */
+    position: relative;
+    left: -11px;
   }
 }
 
@@ -4696,7 +4698,7 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .ceo1 {
-    right: 23px;
+    right: 158px;
     top: 85%;
   }
 }
@@ -4849,6 +4851,7 @@ margin-left: 23px;
       position: relative;
       text-transform: uppercase;
       letter-spacing: 1px;
+      white-space: nowrap;
 
   }
 }
@@ -4963,7 +4966,7 @@ top: -28px;
 @media (max-width: 768px) {
   .hotline {
       margin-right: 2px;
-      margin-top: 216px;
+      margin-top: 261px;
       width: 111%;
   }
 }
@@ -5133,8 +5136,7 @@ top: -28px;
   }
 
   .icon-car {
-    top: 96%;
-    /* Đưa phần tử xuống dưới hơn */
+    top: 97%;
   }
 
   .icon-car img {
@@ -5430,7 +5432,7 @@ margin-top: -57px;
 @media (max-width: 768px) {
   .about-us {
     position: relative; /* Giữ relative để dễ chỉnh vị trí */
-    right: 28%; /* Dịch chữ qua phải */
+    right: 22%; /* Dịch chữ qua phải */
     text-align: right; /* Căn phải chữ */
     font-size: 28px; /* Giảm kích thước chữ (nếu cần) */
     line-height: 36px; /* Giảm chiều cao dòng để phù hợp hơn */
