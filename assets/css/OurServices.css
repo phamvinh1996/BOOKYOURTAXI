@@ -416,6 +416,7 @@ div#offcanvasDarkNavbar {
 /* nút trên thanh nav màu cam trang chu, lien he */
 .dropdown-toggle.black-text,
 .dropdown-menu .black-text {
+  white-space: nowrap;
   /* color: #666; */
   font-size: 15px;
   top: 5px;
