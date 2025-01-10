@@ -2897,7 +2897,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 46px;
-  top: 349px;
+  top: 403px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -4573,7 +4573,7 @@ main {
 
 @media (max-width: 768px) {
   .hotline02 {
-    margin-top: 56%;
+    margin-top: 71%;
     right: -17%;
   }
 }
@@ -4589,7 +4589,7 @@ main {
 
 @media (max-width: 768px) {
   .carousel-caption p {
-    top: -287px;
+    top: -339px;
     margin-right: -29%;
   }
 }
@@ -4827,7 +4827,7 @@ margin-left: 23px;
   .chunhat2 {
     height: 44px;
     width: 206px;
-    margin-top: 16%;
+    margin-top: -1%;
     right: 18px;
   }
 }
