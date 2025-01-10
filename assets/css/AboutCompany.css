@@ -429,7 +429,7 @@ p {
   /* code css tạo comtact  thanh NAV TRANGCHU...*/
   .contact-nav {
     position: absolute;
-    top: -14%;
+    top: -11%;
     /* Adjust the distance from the top as needed */
     left: 100%;
     display: flex;
@@ -733,7 +733,7 @@ p {
   
   .chunhat01 {
     position: relative;
-    top: -625px;
+    top: -636px;
     /* left: -591px; */
     margin-left: -88%;
   }
@@ -2774,7 +2774,31 @@ img {
   color: #333; /* Màu chữ */
 }
 
+/*code css mục our khoảng cách  */
 
+.container {
+  padding: 20px; /* Khoảng cách bên trong container */
+}
+
+.row {
+  display: flex; /* Sử dụng flexbox để căn chỉnh các cột */
+  flex-wrap: wrap; /* Đảm bảo các cột sẽ xuống dòng khi không đủ không gian */
+}
+
+.col-lg-3, .col-md-6, .col-sm-12 {
+  padding: 10px; /* Khoảng cách giữa các cột */
+}
+
+.anh1, .anh2, .anh3, .anh4 {
+  width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của cột */
+  border-radius: 8px; /* Tùy chọn: bo góc cho hình ảnh */
+}
+
+.chunhat1, .chunhat2 {
+  margin-top: 10px; /* Khoảng cách giữa các phần tử bên trong cột */
+}
+
+/*  */
 
 
 
@@ -2897,7 +2921,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 46px;
-  top: 403px;
+  top: 334px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -5456,10 +5480,6 @@ margin-top: 31px;
 
   }
 }
-
-
-
-
 
 
 
