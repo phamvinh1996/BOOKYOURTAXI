@@ -5323,7 +5323,7 @@ display: none;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ */
 @media (max-width: 600px) {
   .hinh1-icon {
-margin-top: -57px;
+margin-top: 31px;
   }
 }
 /* code css media query nút contact */
@@ -5443,7 +5443,19 @@ margin-top: -57px;
 
 
 
+@media (max-width: 768px) {
+  .choose-your-taxi .chooseetaxi002 {
+    white-space: nowrap;
+      font-size: 30px; /* Giảm kích thước font */
+      top: -50px;      /* Điều chỉnh vị trí */
+  }
+  .review-heading {
+    white-space: nowrap;
+    font-size: 19px;
+    margin-left: 3%;
 
+  }
+}
 
 
 
