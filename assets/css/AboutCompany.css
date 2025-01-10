@@ -296,7 +296,7 @@ p {
   /* chữ trên thanh nav màu cam */
   .menu li a {
     right: 8px;
-    top: -3px;
+    top: -9px;
     position: relative;
     color: #ffffff;
     text-decoration: none;
@@ -380,7 +380,7 @@ p {
   .navbar-dark .navbar-toggler {
     position: relative;
     right: 7px;
-    top: -103px;
+    top: -112px;
     border: none;
     background-color: transparent;
     align-items: center;
