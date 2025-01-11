@@ -297,7 +297,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -11px;
+  top: 0px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -979,7 +979,7 @@ div#offcanvasDarkNavbar {
   /* Màu chữ nhấn mạnh */
   font-style: italic;
   /* Kiểu chữ in nghiêng */
-  font-size: 28px;
+  font-size: 43px;
   /* Tăng kích thước nhấn mạnh */
 }
 
