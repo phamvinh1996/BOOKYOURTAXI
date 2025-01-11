@@ -922,6 +922,28 @@ div#offcanvasDarkNavbar {
   height: 446px;
 }
 
+/*mục code css khoảng cách bảng  */
+
+.form-row {
+  display: -ms-flexbox;
+  display: flex
+;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  width: 92%;
+}
+
+
+
+
+
+
+
+
+
+/*  */
 /* biểu tượng đặt xe nhanh */
 
 .input-group-text-1 {
