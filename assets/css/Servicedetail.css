@@ -2614,21 +2614,21 @@ main {
   }
 
   .carousel-caption p {
-    top: -165px;
-    margin-right: -41%;
+    top: -69px;
+    margin-left: -15%;
   }
 
   .chunhat01 {
-    top: -350px;
-    left: -90px;
+    top: -486px;
+    left: -141px;
     position: relative;
   }
 
   .chunhat0 {
     width: 173px;
-    top: -315px;
+    top: -447px;
     position: relative;
-    left: -95px;
+    left: -142px;
   }
 
   .ridek1 {
@@ -2983,7 +2983,7 @@ main {
 /* ft */
 @media only screen and (max-width: 425px) {
   .container {
-    padding: 3px;
+    padding: 26px;
     width: 100%;
     right: -14px;
     position: relative;
@@ -3013,6 +3013,9 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+
+ 
+  /*  */
 }
 
 
