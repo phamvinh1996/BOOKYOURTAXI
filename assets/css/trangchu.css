@@ -5630,28 +5630,31 @@ img.image-car2 {
     margin: 10px 0;
     /* Thêm khoảng cách giữa các phần tử */
     position: relative;
-    top: -141px;
-    right: 113px;
+    top: -7px;
+    white-space: nowrap;
+    right: 148px;
   }
 
   .color1 {
     position: relative;
-    top: -41px;
-    right: 141px;
+    top: 108px;
+    right: 415px;
+    white-space: nowrap;
     font-weight: 700;
     color: #ff9900;
   }
 
   .hot1 {
     position: relative;
-    left: -141px;
-    top: -33px;
+    left: -316px;
+    top: 66px;
+    white-space: nowrap;
   }
 
   .image01 {
     position: absolute;
-    left: -11%;
-    top: 72%;
+    left: -6%;
+    top: 75%;
     width: 132px;
   }
 
@@ -6425,7 +6428,7 @@ img.image-car2 {
   }
 
   .pict1 {
-    right: 137px;
+    right: 180px;
     text-align: left;
     font-size: 17px;
     line-height: 27px;
