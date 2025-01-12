@@ -3322,7 +3322,7 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: -14px;
+  margin-top: -0px;
   margin-right: -23px;
 }
 

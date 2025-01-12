@@ -383,7 +383,7 @@
   .navbar-dark .navbar-toggler {
     position: relative;
     right: 7px;
-    top: -103px;
+    top: -113px;
     border: none;
     background-color: transparent;
     align-items: center;
@@ -575,7 +575,7 @@
     animation: slide-up 0.5s ease 0.3s forwards;
     text-align: text;
     position: relative;
-    left: 48%;
+    left: 50%;
     color: white;
     font-family: "Space Grotesk", sans-serif;
     top: -483px;
@@ -681,13 +681,14 @@
   .carousel-caption {
     position: relative;
     bottom: 5.25rem;
-    left: -150%;
+    /* left: -150%; */
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
     font-size: 38px;
     white-space: nowrap;
+    margin-top: -10%;
   }
   
   /* màu chữ ridek màu vnagf */
@@ -726,7 +727,7 @@
   .chunhat01 {
     position: relative;
     top: -625px;
-    left: -591px;
+    left: -846px;
   }
   
   
@@ -734,7 +735,7 @@
   .hotline01 {
     position: absolute;
     top: -318px;
-    right: -285px;
+    right: 183px;
     background-color: #ff9900;
     padding: 10px;
     width: 822px;
@@ -754,7 +755,7 @@
     /* Định vị phần tử này */
     bottom: 0;
     /* Đặt phần tử ở dưới cùng của container */
-    margin-left: 43%;
+    margin-left: 32%;
     /* Căn trái */
     background-color: #222;
     /* Màu nền đen */
