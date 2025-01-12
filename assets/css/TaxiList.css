@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f4f5f8;
+    background-color: #eee;
     padding: 10px;
     margin-top: -27%;
   }
@@ -299,7 +299,7 @@
   /* chữ trên thanh nav màu cam */
   .menu li a {
     right: 8px;
-    top: -11px;
+    top: -6px;
     position: relative;
     color: #ffffff;
     text-decoration: none;
@@ -413,7 +413,7 @@
     /* Set the desired height */
   }
   
-  /* nút trên thanh nav màu cam trang chu, lien he */
+  /* nút trên thanh nav màu cam trang chu, lien he */ 
   .dropdown-toggle.black-text,
   .dropdown-menu .black-text {
     /* color: #666; */
@@ -433,7 +433,7 @@
   /* code css tạo comtact  thanh NAV TRANGCHU...*/
   .contact-nav {
     position: absolute;
-    top: -10%;
+    top: -14%;
     /* Adjust the distance from the top as needed */
     left: 100%;
     display: flex;
@@ -721,7 +721,7 @@
     line-height: 1;
     margin: 0 auto;
     position: absolute;
-    top: -575px;
+    top: -591px;
      /* margin-top: -3px;  */
   }
   
@@ -1100,7 +1100,7 @@
   
   /*  */
   .container {
-    padding: 20px;
+    /* padding: 20px; */
   }
   
   .card {
@@ -2115,7 +2115,7 @@
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 83%;
+    top: 85%;
     z-index: 2;
   }
   
@@ -2327,7 +2327,7 @@
     width: 100%;
     height: 15%;
     z-index: 2;
-    margin-top: -28%;
+    margin-top: -30%;
   }
   
   .side-navbar.show {
@@ -2470,6 +2470,7 @@
     height: 50px;
     /* Kích thước height của icon */
     margin-top: -113px;
+    margin-right: -63%;
   }
   
   
@@ -2481,8 +2482,8 @@
     height: 2px;
     background-color: black;
     position: relative;
-    top: -146%;
-    left: 159%;
+    top: -113%;
+    left: 291%;
   }
   
   .custom-icon::before,
@@ -3157,7 +3158,7 @@
   /* ft */
   @media only screen and (max-width: 425px) {
     .container {
-      padding: 3px;
+      padding: 48px;
       width: 100%;
       right: -14px;
       position: relative;
