@@ -2794,37 +2794,37 @@
   
     .hotline01 {
       width: 231px;
-      top: 103px;
-      right: -63px;
+              top: -51px;
+              right: -4px;
     }
   
     .hotline02 {
-      margin-top: 153%;
+      margin-top: 58%;
       right: -17%;
     }
   
     .carousel-caption h1 {
-      left: 41%;
-      margin-top: 75%;
-      font-size: 36px;
+      left: 36%;
+      margin-top: 16%;
+      font-size: 31px;
     }
   
     .carousel-caption p {
-      top: -165px;
-      margin-right: -41%;
+      top: -322px;
+      margin-right: -28%;
     }
   
     .chunhat01 {
-      top: -286px;
-      left: -90px;
+      top: -430px;
+      left: -143px;
       position: relative;
     }
   
     .chunhat0 {
       width: 120px;
-      top: -253px;
+      top: -393px;
       position: relative;
-      left: -95px;
+      left: -146px;
     }
   
     .ridek1 {
@@ -2884,7 +2884,7 @@
   
     .hotline {
       margin-right: 2px;
-      margin-top: 178px;
+      margin-top: 250px;
       width: 111%;
     }
   
@@ -2904,8 +2904,7 @@
       margin-right: 10px;
       white-space: nowrap;
       position: relative;
-      top: -22px;
-      left: -10px;
+  
     }
   
     #emailInput,
@@ -2948,7 +2947,7 @@
     #subscribeBtn {
       margin-left: 10px;
       position: relative;
-      top: -64px;
+      top: 0px;
       margin-left: -9px;
       font-size: 16px;
     }
@@ -2968,8 +2967,7 @@
       margin-right: 10px;
       white-space: nowrap;
       position: relative;
-      top: -33px;
-      left: -10px;
+
     }
   
     /* mục footer */
@@ -2984,15 +2982,18 @@
     #emailInput,
     #subscribeBtn {
       width: 80%;
-      margin-top: 10px;
+      margin-top: 7px;
+      position: relative;
+      top: 9px;
+      left: 0px;
     }
   
     #subscribeBtn {
       margin-left: 10px;
       position: relative;
-      top: -51px;
+      top: 0px;
       width: 69%;
-      margin-left: -9px;
+      margin-left: 0px;
       font-size: 16px;
     }
   
@@ -3027,7 +3028,7 @@
       background-color: white;
       position: relative;
       width: 413px;
-      right: 311px;
+      right: 301px;
       top: 50px;
     }
   
@@ -3070,6 +3071,8 @@
     .logo-brand {
       max-width: 39%;
       margin-top: -39px;
+      position: relative;
+      top: 38px;
     }
   
     /* dấu nhân */
@@ -3118,7 +3121,9 @@
     .logo-brand {
       max-width: 80%;
       /* Tăng kích thước cho logo trên màn hình nhỏ */
-      margin-top: -43px;
+      margin-top: 43px;
+      position: relative;
+      top: -36px;
     }
   
     .logo-0 {
@@ -3158,11 +3163,12 @@
   /* ft */
   @media only screen and (max-width: 425px) {
     .container {
-      padding: 48px;
+      /* padding: 48px; */
       width: 100%;
       right: -14px;
       position: relative;
       /* top: -16px; */
+      /* margin-bottom: 73px; */
     }
   }
   
@@ -3227,6 +3233,15 @@
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+/* xe ô tô card  */
+  .container .card .card-top .card-image2 {
+    width: 223px;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 158px;
+    /* left: 80px; */
+}
 }
 
 
