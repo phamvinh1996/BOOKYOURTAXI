@@ -3586,8 +3586,8 @@ main {
 
   .carousel-caption p {
     position: absolute;
-    top: -75%;
-    left: 50%;
+    top: 1px;
+    left: 40%;
     transform: translateX(-50%);
     font-size: 16px;
   }
@@ -3604,10 +3604,10 @@ main {
   }
 
   .chunhat0 {
+    width: 120px;
+    top: -432px;
     position: relative;
-    top: -322px;
-    right: 118px;
-    width: 39%;
+    left: -170px;
   }
 
   .chunhat01 {
@@ -3650,7 +3650,7 @@ main {
     display: block;
     margin-bottom: 10px;
     margin-top: -17px;
-    left: -1px;
+    left: -167px;
   }
 
   .links-label {
@@ -3796,7 +3796,7 @@ main {
   .row-footer {
     margin-top: 79px;
     position: relative;
-    top: -78px;
+    top: -146px;
     margin-top: 97px;
   }
 }
@@ -3885,12 +3885,12 @@ main {
 
   .hotline01 {
     width: 231px;
-    top: 103px;
-    right: -63px;
+    top: -55px;
+    right: -26px;
   }
 
   .hotline02 {
-    margin-top: 153%;
+    /* margin-top: 153%; */
     right: -17%;
   }
 
@@ -3901,21 +3901,21 @@ main {
   }
 
   .carousel-caption p {
-    top: -121px;
+    top: -200px;
     margin-right: -41%;
   }
 
   .chunhat01 {
-    top: -336px;
-    left: -90px;
+    top: -469px;
+    left: -164px;
     position: relative;
   }
 
   .chunhat0 {
     width: 120px;
-    top: -293px;
+    top: -432px;
     position: relative;
-    left: -95px;
+    left: -170px;
   }
 
   .ridek1 {
@@ -4010,7 +4010,7 @@ main {
     min-width: 327px;
     position: relative;
     top: -41px;
-    left: -2px;
+    left: 9px;
   }
 
   .icon-car {
@@ -4069,7 +4069,7 @@ main {
     min-width: 327px;
     position: relative;
     top: -41px;
-    left: -2px;
+    left: 9px;
   }
 
   #emailInput,
@@ -4161,6 +4161,8 @@ main {
   .logo-brand {
     max-width: 39%;
     margin-top: -39px;
+    position: relative;
+    top: 41px;
   }
 
   /* dấu nhân */
@@ -4249,7 +4251,7 @@ main {
     min-width: 327px;
     position: relative;
     top: -41px;
-    left: -2px;
+    left: 9px;
   }
 
   #subscribeBtn {
@@ -4266,7 +4268,7 @@ main {
   .container {
     padding: 3px;
     width: 100%;
-    /* right: -14px; */
+    right: 25px;
     position: relative;
     /* top: -16px; */
   }
@@ -4291,7 +4293,11 @@ main {
 
 
 
-
+@media (max-width: 768px) {
+  .container {
+      padding: 28px;
+  }
+}
 
 
 
