@@ -3270,7 +3270,7 @@ p {
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 .slide-container {
   position: relative;
-  padding-top: 50px;
+  padding-top: 64px;
 }
 
 .hinh1-icon {
@@ -3493,7 +3493,7 @@ p {
 }
 
 .table-1 .slick-slide {
-  border: 1px solid #ccc;
+  border: 0px solid #ccc;
 }
 
 .table-1 .slick-dots {
@@ -3502,6 +3502,8 @@ p {
   padding-left: 0;
   margin-bottom: 0;
   padding-left: 92px;
+  position: relative;
+  top: 70px;
 }
 
 .table-1 .slick-dots li {
@@ -4250,7 +4252,7 @@ button {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 60%;
+  top: 36%;
   left: 5%;
   position: absolute;
   font-weight: 600;
