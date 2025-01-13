@@ -2804,7 +2804,7 @@ p {
   top: 0px;
   left: 0; */
   position: absolute;
-  height: 67%;
+  height: 69%;
   width: 100%;
 }
 
@@ -5026,9 +5026,11 @@ main {
   }
 
   .slick-dots {
-    left: 10%;
+    left:10%;
     /* transform: translateX(-50%);  */
-    padding-left: 151px;
+   
+
+
   }
 
 
@@ -5102,6 +5104,22 @@ main {
     transform: skew(-10deg, 0deg);
     /* Giảm độ nghiêng nếu cần */
   }
+
+
+  /*  */
+
+
+  .table-1 .slick-dots {
+    display: flex;
+    /* margin-top: 35px; */
+    padding-left: 0;
+    margin-bottom: 0;
+    /* padding-left: 92px; */
+    /* margin-left: -473px; */
+    position: relative;
+    top: 43px;
+    margin-left: -8%;
+}
 }
 
 /*  */
@@ -5506,7 +5524,7 @@ main {
     /* Reduce font size to fit on one line */
     white-space: nowrap;
     /* Prevent text from wrapping */
-    left: 0;
+    left: -91px;
     /* Adjust positioning if necessary */
     margin-top: 17px;
   }
@@ -5864,19 +5882,7 @@ main {
 
 
 
-@media (max-width: 768px) {
-  .animated-1 {
-    color: #fff;
-    /* Change text color to black */
-    font-size: 17px;
-    /* Reduce font size to fit on one line */
-    white-space: nowrap;
-    /* Prevent text from wrapping */
-    left: 0;
-    /* Adjust positioning if necessary */
-    margin-top: 17px;
-  }
-}
+
 
 /* get the mobile */
 @media (max-width: 768px) {
@@ -5900,6 +5906,9 @@ main {
 
     text-align: center;
     margin-right: -255px;
+
+    position: relative;
+    left: -86px;
   }
 }
 
@@ -5922,8 +5931,8 @@ main {
     align-items: left;
     /* Vertically center-align buttons */
     width: 517px;
-    margin-top: -16px;
-    margin-left: -50px;
+    margin-top: 8px;
+    margin-left: -120px;
   }
 
   .image-button {
@@ -6000,6 +6009,7 @@ main {
     position: relative;
     width: 95%;
     right: -38px;
+    top: 13px;
   }
 
   .dropdown-menu {
