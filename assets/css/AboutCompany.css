@@ -3819,8 +3819,8 @@ button {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
-  left: 5%;
+  top: 63%;
+  left: 3%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -4019,8 +4019,8 @@ img.image-car2 {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
-  left: 2%;
+  top: 63%;
+  left: 3%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -4383,7 +4383,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 2px;
   width: 47px;
 }
 
@@ -4946,9 +4946,9 @@ margin-left: 23px;
   #subscribeBtn {
       margin-left: 10px;
       position: relative;
-      top: -51px;
+      top: -53px;
       width: 69%;
-      margin-left: -9px;
+      margin-left: -13px;
       font-size: 16px;
   }
 }
@@ -5016,7 +5016,7 @@ top: -28px;
 
 @media (max-width: 992px) {
   .description {
-      margin-top: 150px;
+      margin-top: 123px;
       font-size: 16px;
       position: relative;
       left: 1px;
@@ -5153,9 +5153,9 @@ top: -28px;
   #subscribeBtn {
     margin-left: 10px;
     position: relative;
-    top: -51px;
+    top: -53px;
     width: 69%;
-    margin-left: -9px;
+    margin-left: -13px;
     font-size: 16px;
   }
 
@@ -5479,6 +5479,8 @@ margin-top: 31px;
     margin-left: 3%;
 
   }
+
+
 }
 
 
