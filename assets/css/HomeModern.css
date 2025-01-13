@@ -5545,7 +5545,7 @@ main {
 @media (max-width: 480px) {
   .cover-image p {
     position: relative;
-    left: -424px;
+    left: -412px;
     font-size: 15px;
     white-space: nowrap;
     /* Cho phép dòng chữ xuống hàng */
@@ -6382,6 +6382,16 @@ main {
   .contact-info1, .address-text {
     font-size: 14px; /* Giảm kích thước chữ */
   }
+/* strat your joney */
+
+  .cover-image .textdichvunoibat {
+    color: #fff;
+    position: relative;
+    top: 99px;
+    font-weight: 700;
+    left: -1px;
+    line-height: 50px;
+}
 }
 
 /*  */
