@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -27%;
 }
@@ -298,7 +298,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -11px;
+  top: -1px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -421,7 +421,9 @@ div#offcanvasDarkNavbar {
   left: 6px;
   position: relative;
   color: #666;
+  white-space: nowrap;
 }
+
 
 .mau1 {
   color: #000;
@@ -576,7 +578,7 @@ div#offcanvasDarkNavbar {
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 48%;
+  left: 50%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
   top: -463px;
@@ -682,13 +684,14 @@ div#offcanvasDarkNavbar {
 .carousel-caption {
   position: relative;
   bottom: 5.25rem;
-  left: -150%;
+  /* left: -150%; */
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
   font-size: 38px;
   white-space: nowrap;
+  margin-top: -7%;
 }
 
 /* màu chữ ridek màu vnagf */
@@ -735,7 +738,7 @@ div#offcanvasDarkNavbar {
 .chunhat01 {
   position: relative;
   top: -625px;
-  left: -591px;
+  left: -839px;
 }
 
 
@@ -743,7 +746,7 @@ div#offcanvasDarkNavbar {
 .hotline01 {
   position: absolute;
   top: -352px;
-  right: -285px;
+  right: 287px;
   background-color: #ff9900;
   padding: 10px;
   width: 822px;
@@ -763,7 +766,7 @@ div#offcanvasDarkNavbar {
   /* Định vị phần tử này */
   bottom: 0;
   /* Đặt phần tử ở dưới cùng của container */
-  margin-left: 43%;
+  margin-left: 27%;
   /* Căn trái */
   background-color: #222;
   /* Màu nền đen */
@@ -2143,6 +2146,17 @@ img.image-car2 {
   margin-top: 187px;
 }
 
+/*  */
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 21px;
+  padding: 0;
+  margin-top: 19%;
+}
+/*  */
 .container.cart-service {
   position: relative;
   top: -51px;
@@ -3072,7 +3086,7 @@ p {
   width: 100%;
   height: 15%;
   z-index: 2;
-  margin-top: -28%;
+  margin-top: -30%;
 }
 
 .side-navbar.show {
@@ -3344,7 +3358,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 
@@ -3543,7 +3557,7 @@ main {
   }
 
   .about-us {
-    left: -8%;
+    left: -2%;
     /* Di chuyển sang phải cho màn hình nhỏ */
     font-size: 23px;
     /* Giảm kích thước chữ */
@@ -3642,7 +3656,7 @@ main {
     float: none;
     position: relative;
     top: 1px;
-    left: 1px;
+    left: -169px;
     /* left: -165px; */
     width: 57px;
     margin: 0 auto;
@@ -3675,7 +3689,7 @@ main {
   .row-footer {
     margin-top: 0;
     /* Điều chỉnh margin-top cho màn hình nhỏ */
-    top: 17px;
+    top: 48px;
     /* Điều chỉnh vị trí lên trên */
   }
 
@@ -3885,24 +3899,26 @@ main {
     left: 41%;
     /* margin-top: 75%; */
     font-size: 36px;
+    top: -99px;
   }
 
   .carousel-caption p {
     top: -148px;
-    /* margin-right: -41%; */
+    margin-right: 40%;
   }
 
   .chunhat01 {
-    top: -286px;
-    left: -90px;
+    margin-top: -31%;
+    /* top: -439px; */
+    left: -141px;
     position: relative;
   }
 
   .chunhat0 {
     width: 120px;
-    top: -253px;
+    top: -380px;
     position: relative;
-    left: -95px;
+    left: -141px;
   }
 
   .ridek1 {
@@ -4191,7 +4207,7 @@ main {
   .logo-brand {
     max-width: 80%;
     /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -43px;
+    margin-top: 20px;
   }
 
   .logo-0 {
@@ -4243,4 +4259,65 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+}
+
+
+
+
+/* thanh nav màu cam */
+/* Ẩn dropdown menu mặc định */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Màu nền của bảng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+/* Khi trỏ chuột vào .dropdown, hiển thị dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Định dạng menu chính */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hiển thị menu ngang */
+}
+
+.menu > li {
+  position: relative; /* Để dropdown-menu có vị trí tuyệt đối so với menu cha */
+  margin-right: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333; /* Màu chữ */
+}
+
+.menu a:hover {
+  background-color: #ff9900; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+/* Dropdown menu item */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+  color: #000;
 }
