@@ -979,7 +979,7 @@ body {
 }
 
 img {
-  width: 100%;
+  /* width: 100%; */
   /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của cột */
   height: auto;
   /* Giữ tỷ lệ ảnh */
@@ -1032,7 +1032,7 @@ img {
 }
 
 img {
-  width: 100%; /* Đảm bảo ảnh không vượt quá kích thước cột */
+  /* width: 100%; Đảm bảo ảnh không vượt quá kích thước cột */
   height: auto; /* Giữ nguyên tỷ lệ ảnh */
   border-radius: 8px; /* Thêm bo tròn nếu cần */
 }
@@ -2351,14 +2351,15 @@ main {
   }
 
   .chunhat01 {
-    top: -286px;
+    margin-top: -34%;
+    /* top: -286px; */
     left: -90px;
     position: relative;
   }
 
   .chunhat0 {
     width: 120px;
-    top: -253px;
+    top: -390px;
     position: relative;
     left: -95px;
   }
@@ -2456,6 +2457,8 @@ main {
   .row-footer {
     margin-top: 0;
     top: -5px;
+    margin-left: -64%;
+    white-space: nowrap;
   }
 
   .links-label {
@@ -2469,7 +2472,9 @@ main {
   #emailInput,
   #subscribeBtn {
     width: 80%;
-    margin-top: 10px;
+    margin-top: -9px;
+    margin-left: -135%;
+    top: 29px;
   }
 
   #emailInput {
@@ -2586,13 +2591,13 @@ main {
 
   .carousel-caption h1 {
     left: 41%;
-    /* margin-top: 75%; */
+    margin-top: -59%;
     font-size: 36px;
   }
 
   .carousel-caption p {
     top: -148px;
-    /* margin-right: -41%; */
+    margin-right: 39%;
   }
 
   .chunhat01 {
@@ -2603,7 +2608,7 @@ main {
 
   .chunhat0 {
     width: 120px;
-    top: -253px;
+    top: -390px;
     position: relative;
     left: -95px;
   }
@@ -2764,14 +2769,16 @@ main {
   #subscribeBtn {
     width: 80%;
     margin-top: 10px;
+    margin-top: 10px;
+        position: relative;
+        top: 19px;
   }
 
   #subscribeBtn {
-    margin-left: 10px;
     position: relative;
-    top: -51px;
+    top: 69px;
     width: 69%;
-    margin-left: -9px;
+    margin-left: -342px;
     font-size: 16px;
   }
 
@@ -2894,7 +2901,9 @@ main {
   .logo-brand {
     max-width: 80%;
     /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -43px;
+    margin-top: 26px;
+    position: relative;
+    top: -28px;
   }
 
   .logo-0 {
@@ -3004,3 +3013,64 @@ main {
   background-color: #e9ecef;
   color: #000;
 }
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .choose-your-taxi .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Optional: Center items horizontally */
+    margin-left: -53%;
+  }
+
+  .choose-your-taxi .col-lg-3,
+  .choose-your-taxi .col-md-6,
+  .choose-your-taxi .col-sm-12 {
+    width: 100%; /* Make each column take full width */
+    margin-bottom: 20px; /* Space between items */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .chunhat1 {
+      position: relative;
+      top: -39px;
+      width: 251%;
+      height: 59px;
+  }
+}
+
+@media (max-width: 768px) {
+  .chunhat2 {
+      height: 38px;
+      width: 220px;
+      /* margin-top: 23%; */
+      margin-right: 3%;
+      margin-top: -40%;
+      margin-left: 54%;
+  }
+}
+
+
+
+/*  */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .row-footer {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .col-md-6, .col-lg-3 {
+    width: 100%; /* Make each column full width */
+    margin-bottom: 20px; /* Add space between stacked items */
+  }
+}
+
