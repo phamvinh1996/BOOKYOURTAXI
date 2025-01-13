@@ -288,7 +288,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -16px;
+  top: -9px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -356,8 +356,8 @@ div#offcanvasDarkNavbar {
   /* margin-left: -8px;
 margin-top: -65px; */
   position: absolute;
-  top: -199px;
-  right: -576px;
+  top: -206px;
+  right: -593px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 }
@@ -1490,8 +1490,8 @@ img.image-car2 {
 
 .card-image2 {
   position: absolute;
-  top: 10px;
-  left: 10px;
+  top: 19px;
+  margin-right: 1%;
   width: 50px;
   /* Adjust size as needed */
 }
@@ -1571,7 +1571,7 @@ img.image-car2 {
   position: absolute;
   top: 35%;
   transform: translateY(-50%);
-  margin-left: -21px;
+  margin-left: -47px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -1588,7 +1588,7 @@ img.image-car2 {
 /*  */
 .slick-prev.slick-arrow {
   transform: translateY(360%);
-  margin-left: 1298px;
+  margin-left: 1245px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -1997,10 +1997,10 @@ button {
   left: 50%;
   transform: translateX(-70%);
 }
-
+/* khoang cach muc Start your journey with */
 /* start your jnoyey tạo khoảng cách card ảnh */
 .cart-service .card {
-  margin-right: 53px;
+  margin-right: 37px;
   /* Khoảng cách giữa các card */
   margin-bottom: 30px;
   /* Khoảng cách giữa các hàng */
@@ -4388,7 +4388,7 @@ button {
   width: 173px;
   height: 50px;
   top: 60%;
-  left: 5%;
+  left: 3%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -4586,7 +4586,7 @@ img.image-car2 {
   width: 173px;
   height: 50px;
   top: 49%;
-  left: 2%;
+  left: 3%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
