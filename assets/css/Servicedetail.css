@@ -1490,7 +1490,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -53px;
 }
 
 .address-text {
@@ -2397,6 +2397,8 @@ main {
     margin-top: 6%;
     /* Tăng khoảng cách từ trên xuống */
     font-family: 'Space Grotesk', sans-serif;
+    margin-left: -23%;
+    white-space: nowrap;
   }
 
   .find1,
@@ -2466,7 +2468,7 @@ main {
     display: block;
     margin-bottom: 10px;
     margin-top: -17px;
-    left: -1px;
+    left: -168px;
   }
 
   .description {
@@ -2484,6 +2486,10 @@ main {
     top: -78px;
     /* Điều chỉnh vị trí lên một chút */
   }
+
+
+
+
 
   .links-label {
     margin-right: 10px;
@@ -2583,7 +2589,7 @@ main {
   .description {
     left: 20px;
     /* Giảm giá trị left để dịch qua trái */
-    top: -134px;
+    top: -161px;
     /* Bạn có thể điều chỉnh giá trị top nếu cần */
     font-size: 16px;
     /* Thay đổi kích thước chữ nếu cần */
@@ -2992,10 +2998,10 @@ main {
 }
 .row-footer {
   display: flex;
-  flex-wrap: wrap;
-  margin: -10px;
-  position: relative;
-  top: -78px;
+      flex-wrap: wrap;
+      margin: -10px;
+      position: relative;
+      top: -53px;
 }
 
 
@@ -3083,3 +3089,11 @@ main {
   color: #000;
 }
 
+
+@media (max-width: 768px) {
+  .row-footer {
+      flex-direction: column; /* Đặt các phần tử theo chiều dọc */
+      top: -150px; /* Điều chỉnh vị trí */
+      margin: -5px; /* Giảm khoảng cách */
+  }
+}
