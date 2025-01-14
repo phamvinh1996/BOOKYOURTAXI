@@ -677,7 +677,7 @@ p {
   .hotline01 {
     position: absolute;
     top: -352px;
-    right: -285px;
+    right: 261px;
     background-color: #ff9900;
     padding: 10px;
     width: 822px;
@@ -695,7 +695,7 @@ p {
   .hotline02 {
     position: absolute;
     bottom: 0;
-    margin-left: 43%;
+    margin-left: 26%;
     background-color: #222;
     padding: 10px;
     width: 100%;
