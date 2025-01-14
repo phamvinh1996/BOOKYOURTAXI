@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -9%;
 }
@@ -243,6 +243,7 @@ p {
 /* dấu ghạch chân thanh nav chữ */
 /* chữ trên thanh nav màu cam */
 .menu li a {
+  white-space: nowrap;
   right: 8px;
   top: -4px;
   position: relative;
@@ -817,7 +818,7 @@ element.style {}
   font-size: 16px;
   transition: background-color 0.3s ease, color 0.3s ease;
   /* float: left; */
-  left: 48%;
+  left: 38%;
   width: 18%;
   border-radius: 5px;
   font-size: 16px;
@@ -857,7 +858,7 @@ element.style {}
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 82%;
+  left: 77%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
   top: -483px;
@@ -937,7 +938,7 @@ element.style {}
   text-align: start;
   font-size: 47px;
   position: absolute;
-  left: 56%;
+  left: 53%;
   margin-top: -90px;
 }
 
@@ -952,13 +953,14 @@ element.style {}
 .carousel-caption {
   position: relative;
   bottom: 5.25rem;
-  left: -150%;
+  /* left: -150%; */
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
   font-size: 38px;
   white-space: nowrap;
+  margin-top: -12%;
 }
 
 /* màu chữ ridek màu vnagf */
@@ -1072,7 +1074,7 @@ element.style {}
 .chunhat01 {
   position: relative;
   top: -616px;
-  left: -33px;
+  left: -243px;
 }
 
 .chunhat0 {
@@ -1094,7 +1096,7 @@ element.style {}
   position: absolute;
   /* top: -589px; */
   margin-top: 65px;
-  margin-left: 40%;
+  margin-left: 30%;
 }
 
 /* footer */
@@ -2401,4 +2403,63 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+}
+
+
+/* thanh nav màu cam */
+/* Ẩn dropdown menu mặc định */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Màu nền của bảng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+/* Khi trỏ chuột vào .dropdown, hiển thị dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Định dạng menu chính */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hiển thị menu ngang */
+}
+
+.menu > li {
+  position: relative; /* Để dropdown-menu có vị trí tuyệt đối so với menu cha */
+  margin-right: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333; /* Màu chữ */
+}
+
+.menu a:hover {
+  background-color: #ff9900; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+/* Dropdown menu item */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+  color: #000;
 }
