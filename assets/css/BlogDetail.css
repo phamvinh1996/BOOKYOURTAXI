@@ -2556,10 +2556,11 @@ main {
     width: 184px;
     position: relative;
     left: -63px;
+    top: -536px;
   }
   .chunhat01 {
-    left: 2px;
-    top: -610px;
+    left: -14px;
+    top: -558px;
     position: relative;
     font-size: 13px;
   }
