@@ -2709,7 +2709,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 
@@ -2898,7 +2898,7 @@ main {
 
   /* dấu nhân */
   .navbar-toggler {
-    top: 46px;
+    top: 27px;
     */ display: block;
     margin-top: -15px;
     position: absolute;
@@ -2935,7 +2935,9 @@ main {
   /*  */
   .logo-brand {
     max-width: 80%;
-    margin-top: -43px;
+    margin-top: 31px;
+    position: relative;
+    top: -20px;
   }
 
   .logo-0 {
@@ -2996,24 +2998,24 @@ main {
 /* book you */
 .chunhat0 {
   width: 163px;
-  top: -253px;
+  top: -413px;
   position: relative;
   left: -89px;
 }
 .chunhat01 {
-  top: -286px;
+  top: -447px;
   left: -90px;
   position: relative;
 }
 .carousel-caption h1 {
-  top: 13%;
-  left: 39%;
+  top: -37%;
+  left: 46%;
   font-size: 28px;
   margin-bottom: 10px;
 }
 .carousel-caption p {
-  top: -148px;
-  margin-right: -41%;
+  top: -294px;
+  margin-right: -24%;
 }
 
 .taxidoct10 {
