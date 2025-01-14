@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -9%;
 }
@@ -280,7 +280,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 8px;
-  top: -5px;
+  top: -3px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -391,6 +391,7 @@ div#offcanvasDarkNavbar {
 /* nút trên thanh nav màu cam trang chu, lien he */
 .dropdown-toggle.black-text,
 .dropdown-menu .black-text {
+  white-space: nowrap;
   /* color: #666; */
   font-size: 15px;
   top: 5px;
@@ -407,7 +408,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -11%;
+  top: -14%;
   left: 100%;
   display: flex;
   justify-content: center;
@@ -606,7 +607,7 @@ div#offcanvasDarkNavbar {
   text-align: start;
   font-size: 47px;
   position: absolute;
-  left: 36%;
+  left: 35%;
   margin-top: -165px;
 }
 
@@ -621,13 +622,14 @@ div#offcanvasDarkNavbar {
 .carousel-caption {
   position: relative;
   bottom: 5.25rem;
-  left: -150%;
+  /* left: -150%; */
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
   text-align: center;
   font-size: 38px;
   white-space: nowrap;
+  margin-top: -8%;
 }
 
 /* màu chữ ridek màu vnagf */
@@ -666,14 +668,14 @@ div#offcanvasDarkNavbar {
 .chunhat01 {
   position: relative;
   top: -625px;
-  left: -591px;
+  left: -830px;
 }
 
 /*  code css màu mục joney*/
 .hotline01 {
   position: absolute;
   top: -352px;
-  right: -285px;
+  right: 283px;
   background-color: #ff9900;
   padding: 10px;
   width: 822px;
@@ -691,7 +693,7 @@ div#offcanvasDarkNavbar {
 .hotline02 {
   position: absolute;
   bottom: 0;
-  margin-left: 43%;
+  margin-left: 21%;
   background-color: #222;
   padding: 10px;
   width: 100%;
@@ -2761,4 +2763,65 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+}
+
+
+
+
+/* thanh nav màu cam */
+/* Ẩn dropdown menu mặc định */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Màu nền của bảng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+/* Khi trỏ chuột vào .dropdown, hiển thị dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Định dạng menu chính */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hiển thị menu ngang */
+}
+
+.menu > li {
+  position: relative; /* Để dropdown-menu có vị trí tuyệt đối so với menu cha */
+  margin-right: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333; /* Màu chữ */
+}
+
+.menu a:hover {
+  background-color: #ff9900; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+/* Dropdown menu item */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+  color: #000;
 }
