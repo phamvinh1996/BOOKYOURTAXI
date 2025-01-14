@@ -2701,7 +2701,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 
@@ -2821,18 +2821,19 @@ main {
   /* book you */
   .hotline01 {
     width: 231px;
-    top: 96px;
-    right: -152px;
+    top: -77px;
+    right: -63px;
   }
 
   .hotline02 {
-    margin-top: 154%;
     right: -38%;
+    margin-top: 65%;
   }
 
   .carousel-caption p {
-    top: -148px;
-    margin-right: -41%;
+    top: -293px;
+    margin-right: -24%;
+
   }
 
   .carousel-caption h1 {
@@ -2842,21 +2843,21 @@ main {
   }
 
   .carousel-caption h1 {
-    top: 13%;
-    left: 39%;
+    top: -45%;
+    left: 42%;
     font-size: 28px;
     margin-bottom: 10px;
   }
 
   .chunhat0 {
     width: 195px;
-    top: -253px;
+    top: -395px;
     position: relative;
     left: -95px;
   }
 
   .chunhat01 {
-    top: -286px;
+    top: -431px;
     left: -90px;
     position: relative;
   }
@@ -3067,7 +3068,7 @@ main {
 
   /* dấu nhân */
   .navbar-toggler {
-    top: 46px;
+    top: 29px;
     */ display: block;
     margin-top: -15px;
     position: absolute;
@@ -3101,7 +3102,9 @@ main {
 
   .logo-brand {
     max-width: 80%;
-    margin-top: -43px;
+    margin-top: 42px;
+    position: relative;
+    top: -32px;
   }
 
   .logo-0 {
