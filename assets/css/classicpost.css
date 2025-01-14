@@ -2584,7 +2584,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 
@@ -2746,7 +2746,7 @@ main {
 
   .navbar {
     position: absolute;
-    top: 21px;
+    top: 8px;
     left: 312px;
     right: 0;
     z-index: 1000;
@@ -2765,7 +2765,7 @@ main {
   .navbar-toggler {
     top: 46px;
     */ display: block;
-    margin-top: -15px;
+    margin-top: -31px;
     position: absolute;
 
     .collapse {
@@ -2799,7 +2799,9 @@ main {
   /*  */
   .logo-brand {
     max-width: 80%;
-    margin-top: -43px;
+    margin-top: 9px;
+    position: relative;
+    top:-10px;
   }
 
   .logo-0 {
@@ -2861,27 +2863,27 @@ main {
   /* book you */
   .chunhat0 {
     width: 163px;
-    top: -253px;
+    top: -416px;
     position: relative;
     left: -89px;
   }
 
   .chunhat01 {
-    top: -286px;
+    top: -450px;
     left: -90px;
     position: relative;
   }
 
   .carousel-caption h1 {
-    top: 13%;
-    left: 39%;
+    top: -40%;
+    left: 44%;
     font-size: 28px;
     margin-bottom: 10px;
   }
 
   .carousel-caption p {
-    top: -148px;
-    margin-right: -41%;
+    top: -304px;
+    margin-right: 6%;
   }
 
   .taxidoct10 {
@@ -2892,13 +2894,13 @@ main {
 
   .hotline01 {
     width: 231px;
-    top: 118px;
-    right: -152px;
+    right: -66px;
+    margin-top: 68%;
   }
 
   .hotline02 {
-    margin-top: 158%;
     right: -43%;
+    margin-top: 63%;
   }
 
   .logo-image {
