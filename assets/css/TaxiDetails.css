@@ -3722,7 +3722,7 @@ main {
   .icon-car {
     flex-direction: row;
     justify-content: center;
-    top: -11px;
+    top: 31px;
     position: relative;
   }
 
@@ -4062,7 +4062,7 @@ main {
     white-space: nowrap;
     position: relative;
     top: -33px;
-    left: -10px;
+    left: 1px;
   }
 
   /* mục footer */
@@ -4078,6 +4078,7 @@ main {
   #subscribeBtn {
     width: 80%;
     margin-top: 10px;
+    margin-left: 3%;
   }
 
   #subscribeBtn {
