@@ -241,7 +241,8 @@ p {
 /* code css hộp thoại madal */
 .modal-content {
   margin-top: 100%;
-  margin-left: -70%;}
+  margin-left: -70%;
+}
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
