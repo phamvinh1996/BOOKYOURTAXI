@@ -1676,7 +1676,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 /*  */
@@ -1704,7 +1704,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 /*  */
@@ -2149,6 +2149,16 @@ left: 1px;
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+/* code css thanh cuộn media */
+  .header-top {
+    display: flex
+;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 10%;
+}
 }
 
 
