@@ -5532,7 +5532,7 @@ img.image-car2 {
   }
 
   .carousel-caption h1 {
-    font-size: 26px;
+    font-size: 25px;
     line-height: 36px;
     top: 1px;
     margin-left: -121px;
@@ -7000,6 +7000,18 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+
+
+  .table-1 .slick-dots {
+    display: flex
+;
+    margin-top: 35px;
+    padding-left: 0;
+    margin-bottom: 0;
+    padding-left: 92px;
+    position: relative;
+    top: 16px;
+}
 }
 
 
