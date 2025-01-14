@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #f4f5f8;
+    background-color: #eee;
     padding: 10px;
     margin-top: -27%;
   }
@@ -417,6 +417,7 @@ p {
   /* nút trên thanh nav màu cam trang chu, lien he */
   .dropdown-toggle.black-text,
   .dropdown-menu .black-text {
+    white-space: nowrap;
     /* color: #666; */
     font-size: 15px;
     top: 5px;
@@ -433,7 +434,7 @@ p {
   /* code css tạo comtact  thanh NAV TRANGCHU...*/
   .contact-nav {
     position: absolute;
-    top: -10%;
+    top: -14%;
     /* Adjust the distance from the top as needed */
     left: 100%;
     display: flex;
@@ -572,11 +573,11 @@ p {
     font-size: 18px;
     animation: slide-up 0.5s ease 0.3s forwards;
     text-align: text;
-    /* position: relative; */
-    /* left: 48%; */
+    position: relative;
+    left: 48%;
     color: white;
     font-family: "Space Grotesk", sans-serif;
-    /* top: -483px; */
+    top: -443px;
   }
   
   /* Travel securely with us THE BOOK */
@@ -664,7 +665,7 @@ p {
     text-align: start;
     font-size: 47px;
     position: absolute;
-    left: 36%;
+    left: 35%;
     margin-top: -139px;
   }
   
@@ -679,13 +680,14 @@ p {
   .carousel-caption {
     position: relative;
     bottom: 5.25rem;
-    left: -150%;
+    /* left: -150%; */
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
     font-size: 38px;
     white-space: nowrap;
+    margin-top: -8%;
   }
   
   /* màu chữ ridek màu vnagf */
@@ -697,8 +699,9 @@ p {
   /*  */
   /*dòng chữ book you taxi hình 1  */
   .taxidoct10 {
-    margin-top: 36px;
-  }
+position: relative;
+top: 1px;
+}
   
   /* code css mục màu chữ about */
   .chunhat0 {
@@ -724,15 +727,15 @@ p {
   
   .chunhat01 {
     position: relative;
-    top: -625px;
-    left: -591px;
+    top: -618px;
+    left: -827px;
   }
   
   /*  code css màu mục joney*/
   .hotline01 {
     position: absolute;
     top: -352px;
-    right: -285px;
+    right: 283px;
     background-color: #ff9900;
     padding: 10px;
     width: 822px;
@@ -752,7 +755,7 @@ p {
     /* Định vị phần tử này */
     bottom: 0;
     /* Đặt phần tử ở dưới cùng của container */
-    margin-left: 43%;
+    margin-left: 23%;
     /* Căn trái */
     background-color: #222;
     /* Màu nền đen */
@@ -1684,7 +1687,6 @@ p {
   position: relative;
   /* top: -18px;
   left: -20px; */
-  width: 100px;
   height: 221px;
   object-fit: cover;
 }
@@ -3213,4 +3215,63 @@ main {
       display: block; /* Hiển thị phần tử */
       margin-top: -11px;
   }
+}
+
+
+/* thanh nav màu cam */
+/* Ẩn dropdown menu mặc định */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff; /* Màu nền của bảng */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin-top: 5px;
+  z-index: 1000;
+}
+
+/* Khi trỏ chuột vào .dropdown, hiển thị dropdown-menu */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Định dạng menu chính */
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex; /* Hiển thị menu ngang */
+}
+
+.menu > li {
+  position: relative; /* Để dropdown-menu có vị trí tuyệt đối so với menu cha */
+  margin-right: 15px;
+}
+
+.menu a {
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  color: #333; /* Màu chữ */
+}
+
+.menu a:hover {
+  background-color: #ff9900; /* Màu nền khi hover */
+  color: white; /* Màu chữ khi hover */
+}
+
+/* Dropdown menu item */
+.dropdown-menu li {
+  list-style: none;
+}
+
+.dropdown-menu a {
+  color: #333;
+  padding: 8px 12px;
+  display: block;
+}
+
+.dropdown-menu a:hover {
+  background-color: #e9ecef;
+  color: #000;
 }
