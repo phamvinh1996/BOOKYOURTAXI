@@ -1998,7 +1998,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 
@@ -2029,7 +2029,7 @@ main {
   transform: rotate(-45deg) translate(-11px, -29px);
   position: relative;
   left: 40px;
-  top: 13px;
+  top: 3px;
   width: 47px;
 }
 /*  */
@@ -2149,7 +2149,7 @@ main {
   }
   .btn-view-more {
     /* display: none; Ẩn phần tử */
-    margin-top: -70%;
+    margin-top: -92%;
     width: 76%;
   }
   /* ft */
@@ -2171,25 +2171,25 @@ main {
   /*  */
   .chunhat0 {
     width: 184px;
-    top: -259px;
+    top: -500px;
     position: relative;
     left: -63px;
   }
   .chunhat01 {
-    top: -284px;
-    left: 2px;
+    top: -523px;
+    left: -55px;
     position: relative;
     font-size: 13px;
   }
   .carousel-caption h1 {
-    top: 21%;
-    left: 50%;
+    top: -37%;
+    left: 43%;
     font-size: 32px;
     margin-bottom: 10px;
   }
   .carousel-caption p {
-    top: -207px;
-    margin-right: -108%;
+    top: -370px;
+    margin-right: -82%;
   }
   /* ft */
   .logo-image {
@@ -2315,7 +2315,7 @@ main {
   }
   .navbar {
     position: absolute;
-    top: 21px;
+    top: 13px;
     left: 312px;
     right: 0;
     z-index: 1000;
@@ -2331,7 +2331,7 @@ main {
   }
   /* dấu nhân */
   .navbar-toggler {
-    top: 46px;
+    top: 20px;
     */ display: block;
     margin-top: -15px;
     position: absolute;
@@ -2361,7 +2361,7 @@ main {
   /*  */
   .logo-brand {
     max-width: 80%;
-    margin-top: -86px;
+    margin-top: -3px;
   }
   .logo-0 {
     display: none;
