@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
   margin-top: -27%;
 }
@@ -426,7 +426,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -14%;
+  top: -32%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -572,7 +572,7 @@ div#offcanvasDarkNavbar {
   left: 50%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -483px;
+  top: -453px;
 }
 
 /* Travel securely with us THE BOOK */
@@ -710,7 +710,7 @@ div#offcanvasDarkNavbar {
 
 .chunhat01 {
   position: relative;
-  top: -625px;
+  top: -600px;
   left: -835px;
 }
 
@@ -1254,6 +1254,7 @@ a {
   background-size: 100%;
   background-position: 200%;
   background-repeat: no-repeat;
+  padding: 1px;
 }
 
 /*  */
@@ -1278,7 +1279,7 @@ a {
   width: 200px;
   height: auto;
   position: absolute;
-  top: 40px;
+  top: -40px;
   /* left: 85%; */
 }
 
@@ -1598,7 +1599,7 @@ button {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
+  top: 63%;
   left: 5%;
   position: absolute;
   font-weight: 600;
@@ -1797,8 +1798,8 @@ img.image-car2 {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
-  left: 2%;
+  top: 63%;
+  left: 5%;
   position: absolute;
   font-weight: 600;
   clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -3072,5 +3073,65 @@ main {
     width: 100%; /* Make each column full width */
     margin-bottom: 20px; /* Add space between stacked items */
   }
+
+
+
 }
 
+
+/* Base styles for the section */
+
+
+
+
+
+
+
+
+
+
+
+.container {
+  padding: 0; /* Remove default padding for container */
+}
+
+.row {
+  margin: 0; /* Reset margin for rows */
+}
+
+/* Column styles */
+.col-lg-3, .col-md-6, .col-sm-12 {
+  padding: 15px; /* Padding inside columns */
+}
+
+/* Image styles */
+.anh1, .anh2, .anh3, .anh4 {
+  width: 100%; /* Full width images */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Add spacing between columns */
+.col-lg-3 {
+  margin-bottom: 30px; /* Space between rows */
+}
+
+/* Horizontal spacing between columns */
+@media (min-width: 768px) {
+  .col-lg-3 {
+      margin-right: 15px; /* Right margin for horizontal spacing */
+  }
+
+  /* Remove right margin for the last column in each row */
+  .col-lg-3:last-child {
+      margin-right: 0; 
+  }
+
+
+}
+
+
+
+
+
+/*
