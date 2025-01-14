@@ -5932,8 +5932,8 @@ img.image-car2 {
   .icon-text-001 {
     text-align: center;
     /* Căn giữa nội dung */
-    margin-top: -89px;
-    margin-left: 93px;
+    margin-top: -138px;
+    margin-left: 117px;
     font-size: 19px;
   }
 
@@ -5941,7 +5941,7 @@ img.image-car2 {
   .icon-telephone1::before {
     top: 90%;
     /* Điều chỉnh vị trí trên */
-    left: 31%;
+    left: 27%;
     /* Căn giữa theo chiều ngang */
     transform: translate(-50%, -50%);
     /* Căn giữa hoàn toàn */
