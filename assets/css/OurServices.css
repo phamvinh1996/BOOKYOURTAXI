@@ -220,8 +220,8 @@ p {
 .modal {
   /* Position the modal in the center of the page */
   position: fixed;
-  top: 57%;
-  left: 69%;
+  top: 8%;
+  left: 0%;
   transform: translate(0%, -70%);
   /* Set the size of the modal */
   width: 136%;
@@ -240,8 +240,8 @@ p {
 
 /* code css hộp thoại madal */
 .modal-content {
-  margin-top: 140%;
-}
+  margin-top: 100%;
+  margin-left: -70%;}
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
