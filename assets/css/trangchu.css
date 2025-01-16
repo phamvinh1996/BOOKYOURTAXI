@@ -1315,7 +1315,7 @@ img.image-car2 {
   position: relative;
   bottom: 140px;
   z-index: 1;
-  top: -266px;
+  top: -241px;
 }
 
 .cover-image .text {
@@ -1489,7 +1489,7 @@ img.image-car2 {
   font-size: 15px;
   top: -3px;
   position: relative;
-  left: -1148px;
+  left: -1231px;
   transition: background-color 0.3s ease;
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
@@ -2832,7 +2832,7 @@ button {
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -636px;
+  top: -610px;
   left: 295px;
   z-index: 999;
 }
@@ -2841,7 +2841,7 @@ button {
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -633px;
+  top: -607px;
   left: 1501px;
   z-index: 999;
 }
