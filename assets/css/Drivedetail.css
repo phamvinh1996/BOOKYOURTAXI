@@ -2945,7 +2945,7 @@ main {
 
   .hotline {
     margin-right: 2px;
-    margin-top: 199px;
+    margin-top: 179px;
     width: 111%;
   }
 
@@ -2956,7 +2956,7 @@ main {
   }
 
   .logo-image {
-    top: 19px;
+    top: 2px;
     right: 85px;
     width: 65%;
   }
@@ -3142,7 +3142,7 @@ main {
 @media (max-width: 768px) {
   .description {
     left: 7px;
-    top: 0;
+    top: -17px;
   }
 }
 
