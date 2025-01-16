@@ -3009,14 +3009,14 @@ main {
   position: relative;
 }
 .carousel-caption h1 {
-  top: -37%;
-  left: 46%;
+  top: -43%;
+  left: 44%;
   font-size: 28px;
   margin-bottom: 10px;
 }
 .carousel-caption p {
-  top: -294px;
-  margin-right: -24%;
+  top: -338px;
+    margin-right: -24%;
 }
 
 .taxidoct10 {
@@ -3027,13 +3027,13 @@ main {
 
 .hotline01 {
   width: 231px;
-  top: 118px;
-  right: -152px;
+  margin-top: 72%;
+  right: -71px;
 }
 
 .hotline02 {
-  margin-top: 158%;
   right: -43%;
+  margin-top: 70%;
 }
 
 .logo-image {
