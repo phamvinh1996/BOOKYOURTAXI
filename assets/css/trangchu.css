@@ -2157,7 +2157,7 @@ button {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 267px;
+  width: 247px;
   height: 53px;
   font-weight: bold;
 }
@@ -2835,7 +2835,7 @@ button {
   color: #222;
   position: relative;
   top: -610px;
-  left: 295px;
+  left: 307px;
   z-index: 999;
 }
 
@@ -2876,7 +2876,7 @@ button {
 /* Hinh Start your journey with
 Ridek Taxi Company! */
 .cart-service .slick-next {
-  left: -4%;
+  left: -3%;
   position: absolute;
   top: 37%;
 }
@@ -4280,11 +4280,14 @@ button {
   /* Your sidebar styles here */
 }
 
+/* mục choosee your taxi */
 .row {
   display: flex;
   flex-wrap: wrap;
   position: relative;
   top: 16px;
+  margin-right: 7%;
+right: -77px;  
 }
 
 .row-tintuc1 {
