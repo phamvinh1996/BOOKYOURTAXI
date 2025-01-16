@@ -2326,16 +2326,16 @@ main {
     /* Có thể điều chỉnh kích thước font nếu cần */
   }
 
-  .hotline01 {
+  /* .hotline01 {
     width: 231px;
     top: 104px;
     right: -128px;
-  }
+  } */
 
-  .hotline02 {
+  /* .hotline02 {
     margin-top: 142%;
     right: -36%;
-  }
+  } */
 
   .carousel-caption h1 {
     top: 13%;
@@ -2582,13 +2582,13 @@ main {
 
   .hotline01 {
     width: 231px;
-    top: 96px;
-    right: -152px;
+    right: -40px;
+    margin-top: 65%;
   }
 
   .hotline02 {
-    margin-top: 139%;
     right: -36%;
+    margin-top: 61%;
   }
 
   .carousel-caption h1 {
