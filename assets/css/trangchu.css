@@ -2480,7 +2480,7 @@ button {
 /* nút button bấm vào  choosee taxi */
 
 .nav-link1 {
-  background-color: white;
+  background-color: #f4f4f4;
   color: #999;
   font-size: 17px;
   position: relative;
@@ -4499,7 +4499,7 @@ img.image-car2 {
   top: 17px;
   color: #fff;
   font-weight: 500;
-  left: 10px;
+  left: 0px;
 }
 
 .choose-your-taxi .card-body p {
