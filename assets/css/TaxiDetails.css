@@ -746,8 +746,8 @@ div#offcanvasDarkNavbar {
 /*  code css màu mục joney*/
 .hotline01 {
   position: absolute;
-  top: -352px;
-  right: 287px;
+  top: -367px;
+  right: 283px;
   background-color: #ff9900;
   padding: 10px;
   width: 822px;
@@ -785,7 +785,7 @@ div#offcanvasDarkNavbar {
   /* Hiện ba chấm (...) khi quá dài */
   clip-path: polygon(10% 0%, 100% 0%, 100% 100%, 0% 100%);
   /* Hình dạng */
-  top: -332px;
+  top: -340px;
 }
 
 
