@@ -1454,6 +1454,8 @@ img.image-car2 {
   bottom: -17px;
   right: -6%;
   z-index: 3;
+
+  transition: all .3s cubic-bezier(.165, .85, .45, 1);
 }
 
 /* hiệu ứng css xe car dịch vụ nỗi bật */
