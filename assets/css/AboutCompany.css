@@ -4607,7 +4607,7 @@ main {
 @media (max-width: 768px) {
   .carousel-caption h1 {
     left: 41%;
-    margin-top: 26%;
+    margin-top: 17%;
       font-size: 36px;
   }
 }
@@ -4674,7 +4674,7 @@ margin-left: 23px;
 /* Media query để điều chỉnh vị trí cho màn hình nhỏ hơn */
 @media (max-width: 768px) {
   .pict1 {
-  margin-left: -43px;
+  margin-left: -23px;
  letter-spacing: -0.2px;
  font-family: 'Space Grotesk', sans-serif;
  font-size: 15px; 
@@ -4850,10 +4850,10 @@ margin-left: 23px;
 
 @media (max-width: 768px) {
   .chunhat2 {
-    height: 44px;
+    height: 40px;
     width: 206px;
-    margin-top: -1%;
-    right: 50px;
+    margin-top: 20%;
+    right: 77px;
   }
 }
 
@@ -4873,6 +4873,7 @@ margin-left: 23px;
       margin-right:  28%; /* Di chuyển qua phải hơn cho màn hình nhỏ */
       font-size: 17px; /* Có thể giảm kích thước chữ nếu cần */
       top: -77px;
+      right: -17px;
       position: relative;
       text-transform: uppercase;
       letter-spacing: 1px;
@@ -4991,7 +4992,7 @@ top: -28px;
 @media (max-width: 768px) {
   .hotline {
       margin-right: 2px;
-      margin-top: 261px;
+      margin-top: 223px;
       width: 111%;
   }
 }
@@ -5064,7 +5065,7 @@ top: -28px;
 
 @media only screen and (max-width: 425px) {
   .container {
-      padding: 38px;
+      /* padding: 38px; */
       width: 100%;
       /* right: -14px; */
       position: relative;
@@ -5281,7 +5282,7 @@ top: -28px;
   .logo-brand {
     max-width: 80%;
     /* Tăng kích thước cho logo trên màn hình nhỏ */
-    margin-top: -43px;
+    margin-top: -15px;
   }
 
   .logo-0 {
@@ -5336,6 +5337,7 @@ display: none;
 @media (max-width: 600px) {
   .slick-list {
     margin-top: -50px; /* Giảm khoảng cách trên cho màn hình nhỏ hơn 600px */
+    margin-right: 9%;
   }
 }
 
@@ -5484,6 +5486,14 @@ margin-top: 31px;
 
 }
 
+@media (max-width: 768px) {
+  .section-heading007 h4 {
+
+    position: relative;
+    top: 40px;
+    font-size: 13px; /* Thu nhỏ font chữ nếu cần */
+  }
+}
 
 
 
