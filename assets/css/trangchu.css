@@ -3532,12 +3532,25 @@ p {
 }
 
 /*  */
-.table-1 .slick-slide .comment p {
+/* .table-1 .slick-slide .comment p {
   margin-bottom: 24px;
-  color: #898989;
+  color: #666;
   font-weight: bold;
   font-size: 20px;
   letter-spacing: -0.5px;
+  font-family: 'Space Grotesk', sans-serif;
+} */
+
+/* thẻ chữ pridek passger rivew */
+.place-1 {
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 500;
+  margin-bottom: 0;
+  letter-spacing: -0.5px;
+  color: #a2a2a2;
+
+  margin-top: 5%;
 }
 
 .table-1 .slick-slide .user-info {
@@ -3545,11 +3558,12 @@ p {
 }
 
 .table-1 .slick-slide .user-info .avatar {
-  width: 112px;
-  height: 106px;
+  width: 99px;
+  height: 96px;
   border-radius: 112%;
   margin-right: 20px;
   overflow: hidden;
+  margin-left: 8%;
 }
 
 .table-1 .slick-slide .user-info .avatar img {
