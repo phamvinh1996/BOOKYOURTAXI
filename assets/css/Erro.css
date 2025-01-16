@@ -2150,8 +2150,8 @@ main {
   }
   .btn-view-more {
     /* display: none; Ẩn phần tử */
-    margin-top: -92%;
-    width: 76%;
+    margin-top: -101%;
+    width: 51%;
   }
   /* ft */
   .description {
@@ -2189,7 +2189,7 @@ main {
     margin-bottom: 10px;
   }
   .carousel-caption p {
-    top: -370px;
+    top: -406px;
     margin-right: -82%;
   }
   /* ft */
