@@ -3478,6 +3478,15 @@ p {
   height: 50px;
 }
 
+/* code css bảng ridek Passengers Reviews... */
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 27px;
+  padding: 0px;
+}
+
 /*  */
 
 .review-heading {
