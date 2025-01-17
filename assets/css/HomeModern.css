@@ -1569,9 +1569,9 @@ img.image-car2 {
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 39%;
+  top: 37%;
   transform: translateY(-50%);
-  margin-left: -47px;
+  margin-left: -25px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
@@ -1588,7 +1588,7 @@ img.image-car2 {
 /*  */
 .slick-prev.slick-arrow {
   transform: translateY(360%);
-  margin-left: 1245px;
+  margin-left: 1222px;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
