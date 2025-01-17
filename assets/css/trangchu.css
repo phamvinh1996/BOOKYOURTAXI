@@ -3420,6 +3420,9 @@ p {
 .section-online-Hon1000 {
   background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
   background-repeat: no-repeat;
+  background-color: #eee;
+  position: relative;
+  top: -23px;
 }
 
 .form-group1>.orange-table:not(:last-child) {
