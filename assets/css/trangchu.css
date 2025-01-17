@@ -6556,7 +6556,7 @@ img.image-car2 {
 }
 
 .table-1 {
-  right: -15px;
+  right: 23px;
   /* Di chuyển qua phải hơn */
   /* Hoặc bạn có thể dùng transform */
   /* transform: translateX(10px); */
