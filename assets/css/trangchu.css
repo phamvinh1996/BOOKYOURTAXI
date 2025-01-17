@@ -5185,7 +5185,7 @@ img.image-car2 {
   /* cắt ghạch chéo ONLINE BOOKING- book you taxi ride  */
   .section-heading07 h4 {
     top: -43px;
-    margin-left: 35px;
+    margin-left: 102px;
   }
 
 
@@ -5204,6 +5204,9 @@ img.image-car2 {
     max-width: 100%;
     top: 0;
     margin-left: 10px;
+
+    position: relative;
+    right: -35px;
   }
 
   /* code thanh chọn choosee taxi nằm ngang */
@@ -5217,7 +5220,7 @@ img.image-car2 {
     margin: 0 10px 10px 0;
     padding: 8px 12px;
     font-size: 14px;
-    left: 37px;
+    left: 91px;
   }
 
   /* code làm ẩn điện thoại ONLINE BOOKING */
@@ -5341,7 +5344,7 @@ img.image-car2 {
     line-height: 1.5;
     white-space: normal;
     margin-top: -7px;
-    margin-left: 20px;
+    margin-left: 93px;
     text-align: center;
   }
 
@@ -5795,6 +5798,9 @@ img.image-car2 {
   .row-footer {
     display: flex;
     flex-direction: column;
+
+    position: relative;
+    right: -51px;
   }
 
   .col-3 {
@@ -5888,6 +5894,7 @@ img.image-car2 {
     /* Đảm bảo chữ xuống hàng */
     margin-top: 15px;
     font-size: 16px;
+    margin-right: -17%;
   }
 
   .footer-text::after {
@@ -6396,7 +6403,7 @@ img.image-car2 {
     /* Change to static positioning for better responsiveness */
     top: -150px;
     /* Reset top positioning */
-    left: -1px;
+    left: 38px;
     /* Reset left positioning */
     width: 90%;
     /* Adjust width for better fit on small screens */
@@ -6418,7 +6425,7 @@ img.image-car2 {
     /* Adjust width for better fit on small screens */
     top: 37px;
     /* Reset top positioning */
-    left: 185px;
+    left: 222px;
     /* Reset left positioning */
     display: block;
     /* Make sure it takes up its own line */
@@ -6451,13 +6458,13 @@ img.image-car2 {
 
 
   .section-heading h4 {
-    left: -190px;
+    left: -156px;
     /* Di chuyển qua trái hơn */
     margin-top: 40px;
   }
 
   .about-us {
-    left: -51%;
+    left: -41%;
     /* Di chuyển qua trái */
     text-align: center;
     font-size: 26px;
@@ -6465,7 +6472,7 @@ img.image-car2 {
   }
 
   .pict1 {
-    right: 180px;
+    right: 138px;
     text-align: left;
     font-size: 17px;
     line-height: 27px;
