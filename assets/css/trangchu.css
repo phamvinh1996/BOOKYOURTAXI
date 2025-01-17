@@ -2394,10 +2394,14 @@ button {
 /* choossee taxi */
 /* card right taxi */
 /* Cards */
+/* mục card Start your journey with
+Ridek Taxi Company! */
 .card {
   border: none;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15); */
   position: relative;
+border: #333333;
+
 }
 
 .card-img-top {
@@ -3553,7 +3557,6 @@ p {
   margin-top: 5%;
 
 
-  margin-bottom: 0;
   text-align: justify; /* Căn chữ đều hai bên */
 
 }
@@ -6658,7 +6661,7 @@ img.image-car2 {
   .container {
     padding: 10px;
     width: 100%;
-    right: -14px;
+    right: 43px;
     position: relative;
   }
 
