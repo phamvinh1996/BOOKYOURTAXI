@@ -2839,8 +2839,8 @@ border: #333333;
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -610px;
-  left: 307px;
+  top: -619px;
+  left: 318px;
   z-index: 999;
 }
 
@@ -2848,8 +2848,8 @@ border: #333333;
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -607px;
-  left: 1501px;
+  top: -618px;
+  left: 1476px;
   z-index: 999;
 }
 
@@ -2881,15 +2881,15 @@ border: #333333;
 /* Hinh Start your journey with
 Ridek Taxi Company! */
 .cart-service .slick-next {
-  left: -3%;
+  left: -2%;
   position: absolute;
-  top: 37%;
+  top: 34%;
 }
 
 .cart-service .slick-prev {
-  left: 97%;
+  left: 95%;
   position: absolute;
-  top: 33%;
+  top: 29%;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
