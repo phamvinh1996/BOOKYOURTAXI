@@ -1569,7 +1569,7 @@ img.image-car2 {
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 35%;
+  top: 39%;
   transform: translateY(-50%);
   margin-left: -47px;
   width: 60px;
@@ -1596,6 +1596,8 @@ img.image-car2 {
   -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
+  position: relative;
+  top: 16px;
 }
 
 .slick-prev.slick-arrow:before {
@@ -1685,7 +1687,15 @@ img.image-car2 {
   flex-grow: 1;
   align-self: center;
 }
+/* code css Ridek Passengers Reviews... */
 
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 27px;
+  padding: 0px;
+}
 
 /* hinh km tren CHOOOSSEE  TAXI */
 /* code css nằm chèn price */
@@ -1863,7 +1873,7 @@ button {
   color: rgb(227, 215, 215);
   position: relative;
   overflow: hidden;
-  margin-top: 355px;
+  margin-top: 133px;
 }
 
 .cover-image .overlay {
@@ -2744,6 +2754,7 @@ button {
   /* padding: 0px; */
   /* position: relative; */
   padding-bottom: 100px;
+  margin-top: -7%;
 }
 
 .column {
