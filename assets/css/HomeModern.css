@@ -2637,7 +2637,7 @@ button {
 .text-center {
   margin-top: -59px;
   position: relative;
-  top: -100px;
+  top: -126px;
 }
 
 
@@ -2649,7 +2649,7 @@ button {
   margin-bottom: 0px;
   font-size: 16px;
   position: relative;
-  top: -43px;
+  top: -71px;
 }
 
 /* ahanh màu trắng choosee taxi */
@@ -4873,10 +4873,10 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  /* margin-top: 9px; */
+  margin-top: 9px;
   margin-right: -26px;
   position: relative;
-  top: -34px;
+  top: -48px;
 
 }
 

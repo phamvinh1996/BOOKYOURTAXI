@@ -31,7 +31,7 @@ $(document).ready(function () {
   
   
       dots: true,
-      // slidesToShow: 3, // Hiển thị 3 slide cùng lúc
+      slidesToShow: 3, // Hiển thị 3 slide cùng lúc
       slidesToScroll: 1, // Di chuyển 1 slide khi chuyển đổi
       autoplay: true, // Tự động chạy slide
       autoplaySpeed: 2000, // Tốc độ chạy slide (ms)
