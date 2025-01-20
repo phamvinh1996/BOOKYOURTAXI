@@ -630,7 +630,7 @@ margin-top: -65px; */
 
 .carousel-caption h1 {
   font-weight: bold;
-  left: 110%;
+  left: 95%;
   margin-bottom: -7px;
   animation: slide-up 0.5s ease forwards;
   text-align: text;
@@ -645,7 +645,7 @@ margin-top: -65px; */
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 109%;
+  left: 97%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
   top: -9%;
@@ -2969,11 +2969,11 @@ p {
 }
 
 .book11 {
-  margin-right: 73px;
+  margin-right: 161px;
 }
 
 .taxi1 {
-  margin-right: 128px;
+  margin-right: 230px;
 }
 
 .btn-book-now {
@@ -2993,7 +2993,7 @@ p {
   /* Rounded corners */
   transition: background-color 0.3s ease;
   /* Smooth color transition */
-  margin-right: -389px;
+  margin-right: -609px;
   width: 180px;
   height: 46px;
 }
@@ -3001,6 +3001,7 @@ p {
 .btn-view-more:hover {
   background-color: black;
   color: orange;
+  margin-left: -3%;
 }
 
 /*  */
