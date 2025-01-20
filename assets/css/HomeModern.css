@@ -3825,22 +3825,27 @@ p {
 /* tintuc  */
 /* chỉnh chữ lên xuống tin tức */
 .card-text-0 {
-  font-family: Arial, sans-serif;
-  /* Thiết lập font chữ */
+  /* font-family: Arial, sans-serif;
   font-size: 16px;
-  /* Thiết lập kích thước chữ */
   color: #666;
-  /* Thiết lập màu chữ */
   line-height: 1.5;
-  /* Thiết lập độ cao dòng */
   text-align: left;
-  /* Thiết lập căn chỉnh nội dung */
   margin-top: 39px;
-  /* Tạo khoảng cách trên */
   margin-bottom: -15px;
-  /* Tạo khoảng cách dưới */
   top: -31px;
+  position: relative; */
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 47px;
+  margin-bottom: -3px;
+  top: 1px;
   position: relative;
+  left: -6px;
+  margin-top: 18%;
 }
 
 .card-text-01 {
@@ -3854,6 +3859,7 @@ p {
   top: 1px;
   position: relative;
   left: -6px;
+  margin-top: 25%;
 }
 
 .card-title-1 {
