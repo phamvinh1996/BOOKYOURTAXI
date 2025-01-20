@@ -288,7 +288,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -17px;
+  top: -2px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -344,7 +344,7 @@ div#offcanvasDarkNavbar {
   height: 70%;
   position: absolute;
   top: -21%;
-  left: 558%;
+  left: 594%;
   filter: brightness(0) invert(1);
 }
 
@@ -357,12 +357,12 @@ div#offcanvasDarkNavbar {
 margin-top: -65px; */
   position: absolute;
   /* top: -206px; */
-  top: -161px;
+  top: -201px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 
 
-  margin-left: 844%;
+  margin-left: 898%;
 }
 
 /* nút search  nut tim kiem*/
@@ -4832,7 +4832,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   /* Kích thước height của icon */
-  margin-top: -21px;
+  margin-top: 20px;
 }
 
 
