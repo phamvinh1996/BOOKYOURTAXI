@@ -2968,15 +2968,15 @@ p {
 
 .doct12 {
   position: relative;
-  right: -316px;
+  right: -253px;
 }
 
 .book11 {
-  margin-right: 161px;
+  margin-right: 89px;
 }
 
 .taxi1 {
-  margin-right: 230px;
+  margin-right: 153px;
 }
 
 .btn-book-now {
@@ -2996,7 +2996,7 @@ p {
   /* Rounded corners */
   transition: background-color 0.3s ease;
   /* Smooth color transition */
-  margin-right: -609px;
+  margin-right: -568px;
   width: 180px;
   height: 46px;
 }
