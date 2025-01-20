@@ -288,7 +288,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -9px;
+  top: -17px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -356,8 +356,9 @@ div#offcanvasDarkNavbar {
   /* margin-left: -8px;
 margin-top: -65px; */
   position: absolute;
-  top: -206px;
-  right: -593px;
+  /* top: -206px; */
+  top: -156px;
+  right: -98px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 }
