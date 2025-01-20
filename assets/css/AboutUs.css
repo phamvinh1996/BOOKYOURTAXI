@@ -1284,7 +1284,20 @@ img.image-car2 {
   /* margin-left: 421px; */
 
 }
+/*code css Start your journey with
+Ridek Taxi Company!  */
 
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 6px;
+    padding: 0;
+}
+
+
+/*  */
 /* mục joney */
 .dichvunoibat1{
   color: #ddd; 
