@@ -4844,8 +4844,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: 17px;
-  margin-left: 77%;
+  top: 48px;
+  margin-left: -21%;
 }
 
 .custom-icon::before,
