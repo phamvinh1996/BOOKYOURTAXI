@@ -357,8 +357,7 @@ div#offcanvasDarkNavbar {
 margin-top: -65px; */
   position: absolute;
   /* top: -206px; */
-  top: -162px;
-  right: -65px;
+  top: -161px;
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
 }
