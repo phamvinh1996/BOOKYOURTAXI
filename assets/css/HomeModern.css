@@ -343,8 +343,8 @@ div#offcanvasDarkNavbar {
   width: 63%;
   height: 70%;
   position: absolute;
-  top: 30%;
-  left: 17%;
+  top: -21%;
+  left: 44%;
   filter: brightness(0) invert(1);
 }
 
@@ -3953,6 +3953,7 @@ p {
 
 .card {
   width: 100%;
+  height: 89%;
   max-width: 380px;
   margin-bottom: 30px;
 
@@ -4829,7 +4830,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   /* Kích thước height của icon */
-  margin-top: -63px;
+  margin-top: -21px;
 }
 
 
@@ -4872,8 +4873,10 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: 9px;
+  /* margin-top: 9px; */
   margin-right: -26px;
+  position: relative;
+  top: -34px;
 
 }
 
