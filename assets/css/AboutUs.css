@@ -1294,6 +1294,7 @@ Ridek Taxi Company!  */
     overflow: hidden;
     margin: 6px;
     padding: 0;
+    margin-top: -10%;
 }
 
 
@@ -1557,7 +1558,7 @@ Ridek Taxi Company!  */
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 35%;
+  top: 29%;
   transform: translateY(-50%);
   margin-left: -60px;
   width: 60px;
@@ -1575,6 +1576,8 @@ Ridek Taxi Company!  */
 
 /*  */
 .slick-prev.slick-arrow {
+  position: relative;
+  top: -81px;
   transform: translateY(360%);
   margin-left: 1298px;
   width: 60px;
