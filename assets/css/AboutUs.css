@@ -3159,7 +3159,7 @@ a {
   /* Tạo khoảng cách trên */
   margin-bottom: -15px;
   /* Tạo khoảng cách dưới */
-  top: -31px;
+  top: -58px;
   position: relative;
 }
 
@@ -3171,7 +3171,7 @@ a {
   text-align: left;
   margin-top: 47px;
   margin-bottom: -3px;
-  top: 1px;
+  top: -30px;
   position: relative;
   left: -6px;
 }
