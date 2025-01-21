@@ -1292,7 +1292,7 @@ Ridek Taxi Company!  */
     position: relative;
     display: block;
     overflow: hidden;
-    margin: 6px;
+    margin: 26px;
     padding: 0;
     margin-top: -10%;
 }
@@ -2411,6 +2411,7 @@ p {
   margin-bottom: 0;
   letter-spacing: -0.5px;
   color: #a2a2a2;
+  margin-top: 3%;
 }
 
 
