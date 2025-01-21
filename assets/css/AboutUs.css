@@ -1295,6 +1295,8 @@ Ridek Taxi Company!  */
     margin: 26px;
     padding: 0;
     margin-top: -10%;
+    position: relative;
+    left: -23px;
 }
 
 
