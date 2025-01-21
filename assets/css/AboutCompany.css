@@ -1677,9 +1677,9 @@ iframe {
     display: block;
     overflow: hidden;
 
-    margin: 0;
+    margin: -2px;
     padding: 0;
-    margin-top: -79px;
+    margin-top: -200px;
 }
 
 
@@ -1687,7 +1687,7 @@ iframe {
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 35%;
+  top: 17%;
   transform: translateY(-50%);
   margin-left: -60px;
   width: 60px;
@@ -1714,6 +1714,8 @@ iframe {
   -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
+  top: -169px;
+  position: relative;
 }
 
 .slick-prev.slick-arrow:before {
@@ -2445,6 +2447,7 @@ p {
   margin-bottom: 0;
   letter-spacing: -0.5px;
   color: #a2a2a2;
+  margin-top: 5%;
 }
 
 
@@ -2452,7 +2455,7 @@ p {
 
 
 .slick-slider{
-  margin-top: 50px;
+  margin-top: 168px;
 }
 
 
@@ -3253,7 +3256,7 @@ a {
   /* Tạo khoảng cách trên */
   margin-bottom: -15px;
   /* Tạo khoảng cách dưới */
-  top: -31px;
+  top: -50px;
   position: relative;
 }
 
@@ -3265,7 +3268,7 @@ a {
   text-align: left;
   margin-top: 47px;
   margin-bottom: -3px;
-  top: 1px;
+  top: -22px;
   position: relative;
   left: -6px;
 }
