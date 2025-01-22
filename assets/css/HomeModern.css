@@ -2478,7 +2478,7 @@ Ridek Taxi Company! */
   color: black;
   font-size: 16px;
   margin-top: 157px;
-  margin-right: 185px;
+  margin-right: 156px;
   font-weight: 600;
 }
 
@@ -2505,6 +2505,8 @@ Ridek Taxi Company! */
   align-items: center;
   gap: 10px;
   margin-top: 106px;
+  position: relative;
+  top: 44px;
 }
 
 /*  */
