@@ -1080,12 +1080,9 @@ div#offcanvasDarkNavbar {
 /* code css màu cam */
 
 .accordion-button {
-  background-color: orange;
-  /* Màu nền nút */
-  color: white;
-  /* Màu chữ */
+  /* background-color: orange; */
+  /* color: white; */
   border: none;
-  /* Xóa viền */
 }
 
 .accordion-button:not(.collapsed) {
