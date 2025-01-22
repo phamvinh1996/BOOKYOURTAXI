@@ -935,6 +935,25 @@ button.carousel-control-next {
   top: 1%;
 }
 
+/*  */
+
+
+
+
+
+.form-row {
+  display: -ms-flexbox;
+  display: flex
+;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -5px;
+  margin-left: -5px;
+  position: relative;
+  left: -74px;
+  top: 39px;
+}
+/*  */
 /* dau 3 ghach */
 .section-heading06 h4 span {
   top: -1px;
@@ -956,11 +975,11 @@ button.carousel-control-next {
 }
 
 .section-online-booking h3 {
-  left: -243px;
-  font-size: 33px;
+  left: -334px;
+  font-size: 38px;
   position: relative;
   color: #e8dede;
-  top: -20px;
+  top: 10px;
   font-weight: bold;
   /* Màu chữ trắng */
 }
@@ -1154,7 +1173,7 @@ margin: 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 256px;
+  width: 286px;
   height: 53px;
   font-size: 17px;
 }
@@ -1822,7 +1841,8 @@ button {
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: -29px;
+  top: -8px;
+  left: -66px;
 }
 
 .section-heading06 h4 span,
