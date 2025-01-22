@@ -4567,9 +4567,9 @@ img.image-car2 {
   margin-bottom: 30px;
 
 
-  border: none;
   box-shadow: none;
   border-radius: 0px;
+  border: 1px solid #ccc; /* Đường viền chính */
 }
 
 /* Card Image */
