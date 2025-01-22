@@ -1240,7 +1240,39 @@ img.image-car2 {
   /* color: white; */
   /* width: 1900px; */
 }
+/*  */
+/* code css Start your journey with
+Ridek Taxi Company! xóa chữ pre và next  */
+.slick-next,
+.slick-prev {
+  text-indent: -9999px; /* Đẩy nội dung ra khỏi màn hình */
+  overflow: hidden;     /* Ngăn nội dung tràn ra */
+  white-space: nowrap;  /* Ngăn chữ xuống dòng */
+}
 
+
+/* code css mục hình nút mục  Start your journey with
+Ridek Taxi Company! */
+.hinhicon1 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -734px;
+  left: 308px;
+  z-index: 999;
+}
+
+.hinhicon2 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -733px;
+  left: 1493px;
+  z-index: 999;
+}
+
+
+/*  */
 /* chữ màu cam */
 
 /* carrt anhr chen anh banner dich vu noi bat */
