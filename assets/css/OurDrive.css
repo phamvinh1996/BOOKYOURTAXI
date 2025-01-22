@@ -1131,7 +1131,7 @@ a {
   clip-path: polygon(100% 0, 100% 100%, 10% 100%, 0% 70%, 0 0);
   color: #fff;
   width: 70%;
-  height: 63px;
+  height: 41px;
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -1151,6 +1151,7 @@ a {
 
 
 .the2 {
+  margin-top: 6%;
   display: inline-block;
   writing-mode: vertical-lr;
   /* Thay đổi hướng chữ từ dọc sang ngang */
