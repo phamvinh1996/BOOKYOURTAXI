@@ -1730,6 +1730,8 @@ text-align: justify;
   position: relative;
   z-index: 2;
   top: -183px;
+  width: 88%;
+  right: -28px;
 }
 
 .price {
@@ -2720,7 +2722,8 @@ Ridek Taxi Company! */
 /* code HUYNHDAI */
 .huynhdai0 {
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
 }
 
 .huynhdai01 {
@@ -3662,11 +3665,16 @@ p {
 
 /*  */
 /* mục OUR EXPERT DRIVES */
-/*  */
+/* khoảngcacsh */
 .choose-your-taxi .row {
-  display: flex;
-  justify-content: space-between; /* Căn chỉnh không gian đều giữa các cột */
-  flex-wrap: wrap; /* Đảm bảo các cột di chuyển xuống hàng nếu không đủ không gian */
+  /* display: flex;
+  justify-content: space-between;  */
+  flex-wrap: wrap; 
+ 
+
+  flex-grow: 1; /* Ảnh sẽ tự điều chỉnh kích thước nếu cần */
+  flex-shrink: 0; /* Ngăn ảnh co lại quá nhỏ */
+  object-fit: cover; /* Đảm bảo ảnh được căn chỉnh trong khung */
 }
 
 .choose-your-taxi .col-lg-3 {
