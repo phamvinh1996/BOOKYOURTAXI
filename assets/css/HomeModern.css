@@ -975,7 +975,7 @@ button.carousel-control-next {
 }
 
 .section-online-booking h3 {
-  left: -334px;
+  left: -291px;
   font-size: 38px;
   position: relative;
   color: #e8dede;
@@ -1173,7 +1173,7 @@ margin: 0;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  width: 286px;
+  width: 258px;
   height: 53px;
   font-size: 17px;
 }
@@ -1631,7 +1631,7 @@ img.image-car2 {
   font-weight: 440;
   position: relative;
   top: -10px;
-
+text-align: justify;
 }
 
 
@@ -1825,6 +1825,37 @@ button {
   cursor: pointer;
 }
 
+
+
+/* code css Start your journey with
+Ridek Taxi Company! xóa chữ pre và next  */
+.slick-next,
+.slick-prev {
+  text-indent: -9999px; /* Đẩy nội dung ra khỏi màn hình */
+  overflow: hidden;     /* Ngăn nội dung tràn ra */
+  white-space: nowrap;  /* Ngăn chữ xuống dòng */
+}
+
+
+/* code css mục hình nút mục  Start your journey with
+Ridek Taxi Company! */
+.hinhicon1 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -734px;
+  left: 411px;
+  z-index: 999;
+}
+
+.hinhicon2 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -733px;
+  left: 1604px;
+  z-index: 999;
+}
 /*  */
 /* ĐẶT XE NHANH */
 
@@ -1985,7 +2016,7 @@ button {
 
 .card h2 {
   font-size: 22px;
-  margin-left: 12px;
+  margin-left: 8px;
   text-align: left;
 }
 
@@ -2107,6 +2138,7 @@ button {
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
   font-weight: 500;
+  right: -11px;
 }
 
 .nutxemthem:hover {
