@@ -4023,7 +4023,7 @@ p {
 
 .card {
   width: 100%;
-  height: 81%;
+  /* height: 81%; */
   max-width: 380px;
   margin-bottom: 30px;
 
