@@ -4820,11 +4820,19 @@ img.image-car2 {
 /* khoảng cacsg NEW AND LINE */
 .date {
   margin-right: 10px;
-  color: #666;
+  color: #ccc;
+
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
 }
 
 .name {
   color: #666;
+
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ccc;
 }
 
 /* màu hình icon NEW AND LINE */
