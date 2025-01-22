@@ -3887,13 +3887,13 @@ main {
 
   .hotline01 {
     width: 231px;
-    top: 96px;
-    right: -152px;
+    right: -55px;
+    top: -60px;
   }
 
   .hotline02 {
-    margin-top: -5%;
-    right: -17%;
+    margin-top: -22%;
+    /* right: -17%; */
   }
 
   .carousel-caption h1 {
@@ -4262,7 +4262,15 @@ main {
       margin-top: -11px;
   }
 }
+/*  */
 
+/* Media query for tablets (768px and below) */
+@media (max-width: 768px) {
+  .slick-list {
+      margin: 22px;
+      margin-top: 88%;
+  }
+}
 
 
 
