@@ -2660,6 +2660,16 @@ p {
   text-align: center;
 }
 
+
+
+/*  */
+
+
+
+
+
+
+
 /*  code css OUR  Expert Drivers*/
 
 * {
@@ -2796,6 +2806,17 @@ img {
 .anh1, .anh2, .anh3, .anh4 {
   width: 100%; /* Đảm bảo hình ảnh chiếm toàn bộ chiều rộng của cột */
   border-radius: 8px; /* Tùy chọn: bo góc cho hình ảnh */
+
+
+
+
+  flex: 1; /* Đảm bảo các ảnh chia đều không gian */
+  width: 112%; /* Đảm bảo ảnh không bị méo */
+  border-radius: 8px; /* Tùy chọn: Bo góc cho hình ảnh */
+  object-fit: cover; /* Đảm bảo ảnh hiển thị đẹp trong khung */
+
+
+
 }
 
 .chunhat1, .chunhat2 {
@@ -2803,6 +2824,7 @@ img {
 }
 
 /*  */
+
 
 
 
@@ -2869,6 +2891,7 @@ img {
   margin: 0 auto;
   margin-top: -35px;
   /* padding-bottom: 10px;  */
+  margin-right: -5%;
 }
 
 a {
@@ -2924,8 +2947,8 @@ a {
   letter-spacing: 0;
   margin-left: auto;
   position: absolute;
-  right: 46px;
-  top: 334px;
+  right: 27px;
+  top: 371px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -3277,8 +3300,35 @@ a {
   position: relative;
   /* top: 23px; */
   padding-bottom: -3px;
+  font-weight: bold;
 }
 
+/*  */
+
+.date {
+  margin-right: 10px;
+  color: #ccc;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.name {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* New And Inghlight */
 .card-title-1 {
   color: #333;
@@ -3310,6 +3360,7 @@ a {
   /* Bỏ gạch chân mặc định */
   transition: color 0.3s, text-decoration 0.3s;
   /* Thêm hiệu ứng chuyển động */
+  font-weight: bold;
 }
 
 .card-title000:hover {
