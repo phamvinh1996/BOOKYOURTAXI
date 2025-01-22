@@ -2437,8 +2437,11 @@ border: #333333;
 
 /* code HUYNHDAI */
 .huynhdai0 {
+  width: 105%;
+  margin-top: -6%;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
 
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
 }
 
 .huynhdai01 {
@@ -2520,9 +2523,12 @@ border: #333333;
 
 /* HUYNHDAI03 */
 .huynhdai03 {
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 330px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
+  width: 351px;
   height: 200%;
+  margin-top: -6%;
+
 }
 
 .huynhdai0-04 {
@@ -2534,9 +2540,12 @@ border: #333333;
 
 /* huynh dai chu chooosee taxi toyota */
 .huynhdai05 {
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 330px;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
+
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
+  width: 350px;
   height: 200%;
+  margin-top: -6%;
 }
 
 .huynhdai0-06 {
@@ -2547,9 +2556,12 @@ border: #333333;
 }
 
 .huynhdai07 {
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-  width: 330px;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%); */
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 40%);
+
+  width: 350px;
   height: 200%;
+  margin-top: -6%;
 }
 
 .huynhdai08 {
@@ -4553,6 +4565,11 @@ img.image-car2 {
   width: 100%;
   max-width: 380px;
   margin-bottom: 30px;
+
+
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
 }
 
 /* Card Image */
