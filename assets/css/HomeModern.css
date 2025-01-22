@@ -3928,8 +3928,27 @@ p {
   position: relative;
   /* top: 23px; */
   padding-bottom: -3px;
+  font-weight: bold;
 }
 
+/* News And Insights!  */
+
+.date {
+  margin-right: 10px;
+  color: #ccc;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.name {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ccc;
+}
+
+
+
+/*  */
 /* New And Inghlight */
 .card-title-1 {
   color: #333;
@@ -3961,6 +3980,7 @@ p {
   /* Bỏ gạch chân mặc định */
   transition: color 0.3s, text-decoration 0.3s;
   /* Thêm hiệu ứng chuyển động */
+  font-weight: bold;
 }
 
 .card-title000:hover {
