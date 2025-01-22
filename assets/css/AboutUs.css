@@ -2734,8 +2734,19 @@ img {
 
 .row {
   display: flex; /* Sử dụng Flexbox */
-  flex-wrap: wrap; /* Tự động xuống hàng nếu không đủ không gian */
-  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
+  /* flex-wrap: wrap;
+  justify-content: space-between;  */
+
+
+
+
+
+
+  flex-grow: 1; /* Ảnh sẽ tự điều chỉnh kích thước nếu cần */
+  flex-shrink: 0; /* Ngăn ảnh co lại quá nhỏ */
+  object-fit: cover; /* Đảm bảo ảnh được căn chỉnh trong khung */
+
+
 }
 
 .col-lg-3 {
