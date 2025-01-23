@@ -2127,6 +2127,52 @@ img.image-car2 {
   left: 191px;
 }
 
+/*  */
+
+/* code css Start your journey with
+Ridek Taxi Company! xóa chữ pre và next  */
+.slick-next,
+.slick-prev {
+  text-indent: -9999px; /* Đẩy nội dung ra khỏi màn hình */
+  overflow: hidden;     /* Ngăn nội dung tràn ra */
+  white-space: nowrap;  /* Ngăn chữ xuống dòng */
+}
+
+
+/* code css mục hình nút mục  Start your journey with
+Ridek Taxi Company! */
+.hinhicon1 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -436px;
+  left: 373px;
+  z-index: 999;
+}
+
+.hinhicon2 {
+  font-size: 36px;
+  color: #222;
+  position: relative;
+  top: -448px;
+  left: 1651px;
+  z-index: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /*CODE CSS CARD START JONEY  */
 .container.cart-service {
   display: flex;
