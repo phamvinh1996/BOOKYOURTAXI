@@ -1999,6 +1999,7 @@ margin-right: 29%;
 .card-title000 {
   position: relative;
   top: -20px;
+  font-weight: bold;
   color: #000;
 }
 
@@ -2040,7 +2041,28 @@ margin-right: 29%;
   position: relative;
   /* top: 23px; */
   padding-bottom: -3px;
+  font-weight: bold;
 }
+/*  */
+.date {
+  margin-right: 10px;
+  color: #ccc;
+  font-family: "Space Grotesk", sans-serif;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.name {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: #ccc;
+}
+
+
+
+
+
+
+
 
 /* New And Inghlight */
 .card-title-1 {
