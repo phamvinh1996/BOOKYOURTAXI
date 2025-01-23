@@ -2749,7 +2749,8 @@ Ridek Taxi Company! */
   /* Thay đổi màu chữ thành trắng */
   transition: background-color 0.3s ease;
   /* Thêm hiệu ứng chuyển đổi */
-  margin-left: -103px;
+  margin-left: -96px;
+
 }
 
 .btn.btn-primary1:hover {
@@ -2759,6 +2760,20 @@ Ridek Taxi Company! */
   /* Chuyển lại màu chữ thành đen */
 }
 
+/* choosee you taxi kích cỡ bảng */
+.choose-your-taxi .card {
+  height: 83%; /* Chiều cao cụ thể */
+  overflow: hidden; /* Ẩn nội dung vượt quá chiều cao */
+}
+
+.choose-your-taxi .card img {
+  max-height: 120%; /* Điều chỉnh chiều cao tối đa cho hình ảnh */
+  object-fit: cover; /* Đảm bảo hình ảnh không bị méo */
+}
+
+.choose-your-taxi .card-body {
+  padding: 10px; /* Giảm khoảng cách bên trong để tiết kiệm không gian */
+}
 
 /*  */
 /*  Get the Ridek Mobile app and Start Your Journey!*/
@@ -6578,3 +6593,8 @@ main {
   background-color: #e9ecef;
   color: #000;
 }
+
+
+
+/*  */
+
