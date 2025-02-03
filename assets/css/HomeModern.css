@@ -2762,8 +2762,9 @@ Ridek Taxi Company! */
 
 /* choosee you taxi kích cỡ bảng */
 .choose-your-taxi .card {
-  height: 83%; /* Chiều cao cụ thể */
+  /* height: 83%; Chiều cao cụ thể */
   overflow: hidden; /* Ẩn nội dung vượt quá chiều cao */
+
 }
 
 .choose-your-taxi .card img {
@@ -2772,7 +2773,7 @@ Ridek Taxi Company! */
 }
 
 .choose-your-taxi .card-body {
-  padding: 10px; /* Giảm khoảng cách bên trong để tiết kiệm không gian */
+  /* padding: 10px; Giảm khoảng cách bên trong để tiết kiệm không gian */
 }
 
 /*  */
@@ -3901,16 +3902,8 @@ p {
 
 /* tintuc  */
 /* chỉnh chữ lên xuống tin tức */
-.card-text-0 {
-  /* font-family: Arial, sans-serif;
-  font-size: 16px;
-  color: #666;
-  line-height: 1.5;
-  text-align: left;
-  margin-top: 39px;
-  margin-bottom: -15px;
-  top: -31px;
-  position: relative; */
+ .card-text-0 {
+
 
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -3923,7 +3916,14 @@ p {
   position: relative;
   left: -6px;
   margin-top: 18%;
-}
+} 
+
+
+
+
+
+
+
 
 .card-text-01 {
   font-family: Arial, sans-serif;
@@ -6597,4 +6597,5 @@ main {
 
 
 /*  */
+
 
