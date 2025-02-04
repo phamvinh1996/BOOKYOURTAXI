@@ -2774,6 +2774,7 @@ Ridek Taxi Company! */
 
 .choose-your-taxi .card-body {
   /* padding: 10px; Giảm khoảng cách bên trong để tiết kiệm không gian */
+  height: 137px;
 }
 
 /*  */
@@ -4981,7 +4982,7 @@ main {
   margin-top: 9px;
   margin-right: -26px;
   position: relative;
-  top: -92px;
+  top: -84px;
 
 }
 
