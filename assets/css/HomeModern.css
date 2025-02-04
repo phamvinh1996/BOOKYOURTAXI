@@ -2764,6 +2764,7 @@ Ridek Taxi Company! */
 .choose-your-taxi .card {
   /* height: 83%; Chiều cao cụ thể */
   overflow: hidden; /* Ẩn nội dung vượt quá chiều cao */
+  height: 96%;
 
 }
 
@@ -3897,7 +3898,7 @@ p {
 /* chữ card  */
 .card-title000 {
   position: relative;
-  top: -20px;
+  top: -102px;
   color: #000;
 }
 
@@ -3916,7 +3917,7 @@ p {
   top: 1px;
   position: relative;
   left: -6px;
-  margin-top: 18%;
+  margin-top: -4%;
 } 
 
 
