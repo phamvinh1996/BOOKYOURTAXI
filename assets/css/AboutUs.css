@@ -1319,7 +1319,7 @@ Ridek Taxi Company! */
 /*code css Start your journey with
 Ridek Taxi Company!  */
 
-.slick-list
+  .slick-list
 {
     position: relative;
     display: block;
@@ -1329,7 +1329,25 @@ Ridek Taxi Company!  */
     margin-top: -10%;
     position: relative;
     left: -23px;
-}
+}  
+
+
+/*  */
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*  */
@@ -1417,13 +1435,36 @@ Ridek Taxi Company!  */
   /* Khoảng cách giữa các card */
   margin-bottom: 30px;
   /* Khoảng cách giữa các hàng */
+  gap: 20px;
 }
 
 .cart-service .card:last-child {
-  margin-right: 0;
+  margin-right: 0px;
   /* Không có khoảng cách ở card cuối cùng của hàng */
 }
 
+
+
+
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* kich co anh css cart picture */
 
 .card-image {
@@ -1696,11 +1737,13 @@ Ridek Taxi Company!  */
 }
 
 .slick-slide .user-info .avatar {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   margin-right: 20px;
   overflow: hidden;
+  position: relative;
+  right: -32px;
 }
 
 .slick-slide .user-info .avatar img {
@@ -1711,6 +1754,8 @@ Ridek Taxi Company!  */
 .slick-slide .company-info {
   flex-grow: 1;
   align-self: center;
+  top: -30px;
+  position: relative;
 }
 
 
