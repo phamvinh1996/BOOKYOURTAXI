@@ -3898,7 +3898,7 @@ p {
 /* chữ card  */
 .card-title0001 {
   position: relative;
-  top: -126px;
+  top: -103px;
   color: #000;
   font-weight: bold;
 }
@@ -3948,11 +3948,18 @@ p {
   margin-top: -3%;
 } 
 
+/* code css News And Insights! */
 
+/* Xóa khoảng cách dưới (margin-bottom) */
+.mb-5 {
+  margin-bottom: 0 !important; /* Đặt margin-bottom thành 0 */
+}
 
-
-
-
+/* Xóa khoảng cách dưới (margin-bottom) cho cả .mb-5 và .my-5 */
+.mb-5, .my-5 {
+  margin-bottom: 0 !important; /* Đặt margin-bottom thành 0 cho cả hai lớp */
+}
+/*  */
 
 .card-text-01 {
   font-family: Arial, sans-serif;
