@@ -3896,15 +3896,28 @@ p {
 }
 
 /* chữ card  */
-.card-title000 {
+.card-title0001 {
+  position: relative;
+  top: -126px;
+  color: #000;
+  font-weight: bold;
+}
+.card-title0001:hover {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: #ffa500;
+  text-decoration-thickness: 3px;
+  font-weight: bold;
+}
+.card-title000{
   position: relative;
   top: -102px;
   color: #000;
+  font-weight: bold;
 }
-
 /* tintuc  */
 /* chỉnh chữ lên xuống tin tức */
- .card-text-0 {
+ .card-text-00 {
 
 
   font-family: Arial, sans-serif;
@@ -3917,9 +3930,23 @@ p {
   top: 1px;
   position: relative;
   left: -6px;
-  margin-top: -4%;
+  margin-top: -8%;
 } 
+.card-text-0{
 
+
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+  text-align: left;
+  margin-top: 47px;
+  margin-bottom: -3px;
+  top: 1px;
+  position: relative;
+  left: -6px;
+  margin-top: -3%;
+} 
 
 
 
@@ -3938,12 +3965,12 @@ p {
   top: 1px;
   position: relative;
   left: -6px;
-  margin-top: 25%;
+  margin-top: 36%;
 }
 
 .card-title-1 {
   position: relative;
-  /* top: 23px; */
+  top: 23px;
   padding-bottom: -3px;
   font-weight: bold;
 }
