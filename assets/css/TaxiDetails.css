@@ -827,7 +827,7 @@ div#offcanvasDarkNavbar {
   /* right: 55px; */
   /* right: -15%; */
   /* position: relative; */
-  text-align: center;
+  text-align: justify;
   /* Căn giữa văn bản */
 }
 
@@ -966,7 +966,7 @@ div#offcanvasDarkNavbar {
 /*  */
 /* về chúng tôi  tổng phần chữ*/
 .form-group {
-  right: -153px;
+  right: -87px;
   top: 40px;
   position: relative;
   margin-bottom: 1rem;
@@ -1457,6 +1457,7 @@ img.image-car2 {
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 22px;
 }
 
 .button:hover {
