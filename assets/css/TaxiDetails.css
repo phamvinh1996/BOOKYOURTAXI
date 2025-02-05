@@ -2099,7 +2099,7 @@ img.image-car2 {
   /* Adjust this for responsive display */
   max-width: 431px;
   /* Adjust card max width if necessary */
-  margin: 0 auto;
+  margin: 0 15px;
 }
 
 /* Styling for the main card image */
