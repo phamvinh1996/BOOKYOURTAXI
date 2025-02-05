@@ -2146,7 +2146,7 @@ Ridek Taxi Company! */
   color: #222;
   position: relative;
   top: -436px;
-  left: 267px;
+  left: 295px;
   z-index: 999;
 }
 
@@ -2155,7 +2155,7 @@ Ridek Taxi Company! */
   color: #222;
   position: relative;
   top: -448px;
-  left: 1552px;
+  left: 1535px;
   z-index: 999;
 }
 
@@ -2451,7 +2451,7 @@ Ridek Taxi Company! */
   transform: translateY(-50%);
   width: 55px;
   height: 56px;
-  left: -3%;
+  left: -1%;
   background-color: #ff9900;
   /* Màu cam */
   -webkit-clip-path: polygon(100% 0, 0 50%, 100% 100%);
@@ -2466,7 +2466,7 @@ Ridek Taxi Company! */
 /*  */
 .slick-prev.slick-arrow {
   /* transform: translateY(360%); */
-  margin-left: 98%;
+  margin-left: 97%;
   width: 60px;
   height: 56px;
   background-color: #ff9900;
