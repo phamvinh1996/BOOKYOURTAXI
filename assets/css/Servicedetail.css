@@ -3117,17 +3117,49 @@ main {
 
 
 /*  */
-.button-label{
+.button-label1{
   position: relative;
-left: -78px;
-font-weight: bold;
+left: -56px;
+font-weight: 500;
 font-family: 'Space Grotesk', sans-serif;
 font-size: 17px;
 }
 
+
+.button-label2{
+  position: relative;
+left: -67px;
+font-weight: 500;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 17px;
+}
+.button-label3{
+  position: relative;
+left: -74px;
+font-weight: 500;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 17px;
+}
+.button-label4{
+  position: relative;
+left: -67px;
+font-weight: 500;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 17px;
+}
+
+.button-label5{
+  position: relative;
+left: -60px;
+font-weight: 500;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 17px;
+}
+
+/*  */
 .hinhicon2 {
   font-size: 36px;
-  color: #ff6b00;
+  color: #ff9900;
   position: relative;
   top: 1px;
   left: 67px;
@@ -3135,7 +3167,7 @@ font-size: 17px;
 }
 .hinhicon3 {
   font-size: 36px;
-  color: #ff6b00;
+  color: #ff9900;
   position: relative;
   top: 1px;
   left: 84px;
@@ -3143,7 +3175,7 @@ font-size: 17px;
 }
 .hinhicon4 {
   font-size: 36px;
-  color: #ff6b00;
+  color:#ff9900;
   position: relative;
   top: 1px;
   left: 95px;
@@ -3151,7 +3183,7 @@ font-size: 17px;
 }
 .hinhicon5 {
   font-size: 36px;
-  color: #ff6b00;
+  color: #ff9900;
   position: relative;
   top: 1px;
   left: 92px;
@@ -3159,9 +3191,21 @@ font-size: 17px;
 }
 .hinhicon6 {
   font-size: 36px;
-  color: #ff6b00;
+  color: #ff9900;
   position: relative;
   top: 1px;
   left: 83px;
   z-index: 999;
+}
+
+
+
+.service-sidebar ul li i,
+.hinhicon2,
+.hinhicon3,
+.hinhicon4,
+.hinhicon5,
+.hinhicon6 {
+   font-size: 20px; 
+   color: #ff9900; 
 }
