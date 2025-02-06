@@ -1062,7 +1062,7 @@ top: 1px;
   text-decoration: none;
   color: #333;
   font-family: 'Space Grotesk', sans-serif;
-
+  padding: 5px 10px;
 }
 
 .category span {
@@ -3277,4 +3277,25 @@ main {
 .dropdown-menu a:hover {
   background-color: #e9ecef;
   color: #000;
+}
+
+
+
+/* code css mục bảng kích cỡ bằng nhau  */
+
+
+.new-container .row {
+  display: flex;
+  flex-wrap: wrap;
+  top: 26px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Tự động căn chỉnh chiều cao */
+}
+
+.card-body {
+  flex-grow: 1; /* Kéo dài phần nội dung để các card có chiều cao bằng nhau */
 }

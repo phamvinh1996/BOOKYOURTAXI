@@ -959,6 +959,12 @@ div#offcanvasDarkNavbar {
   /* Bo tròn góc */
   padding: 5px 10px;
   /* Khoảng cách bên trong */
+
+
+
+  line-height: 0.5; /* Điều chỉnh khoảng cách giữa các dòng */
+  text-indent: 20px; /* Lùi dòng đầu tiên */
+  margin: 10px 0; /* Tạo khoảng cách giữa các khối */
 }
 
 /* code css categori */
