@@ -569,10 +569,12 @@ div#offcanvasDarkNavbar {
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   /* position: relative; */
-  /* left: 48%; */
+  left: 50%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
   /* top: -483px; */
+  top: -483px;
+  position: relative;
 }
 
 /* Travel securely with us THE BOOK */
@@ -1601,7 +1603,8 @@ div#offcanvasDarkNavbar {
   /* top: -18px;
   left: -20px; */
   /* width: 100px; */
-  height: 221px;
+  /* height: 221px; */
+  height: 350px;
   object-fit: cover;
 }
 
@@ -2061,6 +2064,7 @@ button {
   position: relative;
   /* top: -63px; */
   padding-bottom: 83px;
+  margin-top: 20px;
 }
 
 .row-tintuc1 {
