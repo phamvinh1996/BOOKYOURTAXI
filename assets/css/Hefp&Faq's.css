@@ -1020,6 +1020,7 @@ div#offcanvasDarkNavbar {
   /* Kích thước tối đa cho hình ảnh */
   border-radius: 5px;
   /* Bo tròn góc cho hình ảnh */
+  width: 91px;
 }
 
 .info {
@@ -1037,6 +1038,7 @@ div#offcanvasDarkNavbar {
   /* Xóa gạch chân */
   color: #333;
   /* Màu chữ */
+  font-weight: bold;
 }
 
 .info .day {
@@ -1065,9 +1067,10 @@ div#offcanvasDarkNavbar {
 }
 
 .article-link:hover {
-  color: #666666;
+  color: #000;
   /* Màu chữ khi di chuột vào */
   text-decoration: underline;
+  font-weight: bold;
 }
 
 /*  */
