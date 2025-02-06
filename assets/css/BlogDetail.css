@@ -1324,6 +1324,11 @@ blockquote i.fas {
   grid-column-gap: 20px;
   line-height: 1;
   margin-bottom: 40px;
+  /* margin-left: -71px; */
+
+  margin-left: -86px;
+  margin-top: 51px;
+  width: 115%;
 }
 /*  */
 .Alderson {
@@ -1384,7 +1389,9 @@ blockquote i.fas {
   position: relative;
   margin-bottom: 30px;
   line-height: 1;
-  margin-top: 11%;
+  margin-top: 6%;
+  font-size: 20px;
+  right: -165px;
 }
 .title:before {
   background-color: #ff9900;
@@ -1403,6 +1410,15 @@ blockquote i.fas {
   grid-template-columns: 60px 1fr;
   grid-column-gap: 20px;
 }
+/*  */
+
+
+
+
+
+
+
+/*  */
 /* ảnh logo1 */
 .pic0 {
   width: 60px;
