@@ -1121,7 +1121,9 @@ blockquote i.fas {
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 10px;
   margin: 40px 0;
-  width: 63%;
+  width: 53%;
+  position: relative;
+  right: -160px;
 }
 .detail1 {
   border: none;
