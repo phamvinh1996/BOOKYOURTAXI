@@ -1589,7 +1589,10 @@ blockquote i.fas {
   /* Hiệu ứng chuyển màu */
   margin-top: 5%;
   position: relative;
-  top: -33px;
+  top: -102px;
+  margin-left: -77%;
+  margin-top: 122px;
+
 }
 
 .default:hover {
