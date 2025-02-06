@@ -3287,7 +3287,7 @@ main {
 .new-container .row {
   display: flex;
   flex-wrap: wrap;
-  top: 26px;
+  top: 43px;
 }
 
 .card {
