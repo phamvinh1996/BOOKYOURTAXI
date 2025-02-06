@@ -1054,13 +1054,14 @@ element.style {}
   margin-bottom: 40px;
 }
 .post-thumb img {
-  width: 51%;
-  height: 100%;
+  width: 71%;
+  height: 95%;
   position: absolute;
   left: 25%;
   top: 0;
   object-fit: cover;
   object-position: center;
+  margin-left: -13%;
 }
 
 /* thẻ chữ */
@@ -1103,6 +1104,16 @@ blockquote span {
   display: block;
   margin-top: 10px;
 }
+/*code css dấu phẩy nháy  */
+blockquote i.fas {
+  color: #ff9900;
+  display: block;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
+
+/*  */
 /* thẻ ảnh */
 .detail {
   display: grid;
