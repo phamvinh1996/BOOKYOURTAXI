@@ -1004,7 +1004,7 @@ element.style {}
   clip-path: polygon(93% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
-  width: 15%;
+  width: 7%;
   height: 32px;
   border-radius: 2px;
   display: flex;
@@ -1017,7 +1017,7 @@ element.style {}
   position: absolute;
   /* top: -589px; */
   margin-top: 122px;
-  margin-left: 41%;
+  margin-left: 45%;
 }
 /*code css ảnh bìa  */
 .page-header .post-meta {
@@ -1269,6 +1269,7 @@ blockquote i.fas {
 .navigation li a span i {
   color: #a5a6aa;
   margin-right: 5px;
+  margin-left: -62%;
 }
 /*  */
 .navigation li:last-child {
@@ -1438,7 +1439,7 @@ blockquote i.fas {
   height: 60px;
   border-radius: 50%;
   margin-top: 5px;
-  margin-left: -57%;
+  margin-left: -61%;
   position: relative;
   top: 31px;
 }
@@ -1477,7 +1478,7 @@ blockquote i.fas {
   margin-top: 38px;
   position: relative;
   top: 30px;
-  margin-left: -57%;
+  margin-left: -63%;
 
 }
 /* logo2 */
@@ -1518,7 +1519,7 @@ blockquote i.fas {
   height: 60px;
   border-radius: 50%;
   margin-top: 38px;
-  margin-left: -60%;
+  margin-left: -65%;
   position: relative;
   top: 24px;
 }
@@ -1547,7 +1548,7 @@ blockquote i.fas {
   position: relative;
   margin-bottom: 30px;
   line-height: 1;
-  margin-left: -52%;
+  margin-left: -50%;
   font-size: 20px;
 }
 
@@ -1590,7 +1591,7 @@ blockquote i.fas {
   margin-top: 5%;
   position: relative;
   top: -102px;
-  margin-left: -77%;
+  margin-left: -75%;
   margin-top: 122px;
 
 }
