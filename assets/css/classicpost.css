@@ -1474,7 +1474,8 @@ div#offcanvasDarkNavbar {
   /* Tạo khoảng cách trên */
   margin-bottom: -15px;
   /* Tạo khoảng cách dưới */
-  top: -31px;
+  top: -57px;
+  left: -7px;
   position: relative;
 }
 
@@ -1486,7 +1487,7 @@ div#offcanvasDarkNavbar {
   text-align: left;
   margin-top: 47px;
   margin-bottom: -3px;
-  top: 1px;
+  top: -47px;
   position: relative;
   left: -6px;
 }
@@ -1497,6 +1498,7 @@ div#offcanvasDarkNavbar {
   padding-bottom: -3px;
   color: #000;
   /* left: -46px; */
+  font-weight: 700;
 }
 
 /* New And Inghlight */
@@ -1531,6 +1533,7 @@ div#offcanvasDarkNavbar {
   /* Bỏ gạch chân mặc định */
   transition: color 0.3s, text-decoration 0.3s;
   /* Thêm hiệu ứng chuyển động */
+  font-weight: 700;
 }
 
 .card-title000:hover {
