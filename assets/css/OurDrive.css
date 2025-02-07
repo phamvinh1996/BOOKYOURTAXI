@@ -694,8 +694,8 @@ div#offcanvasDarkNavbar {
   clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
-  width: 11%;
-  height: 47px;
+  width: 8%;
+  height: 33px;
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -705,14 +705,16 @@ div#offcanvasDarkNavbar {
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -589px;
+  top: -587px;
+  margin-left: 1%;
   /* margin-top: -3px;  */
 }
 
 .chunhat01 {
   position: relative;
   top: -600px;
-  left: -835px;
+  left: -849px;
+  font-size: 18px;
 }
 
 
