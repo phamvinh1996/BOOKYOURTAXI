@@ -652,7 +652,7 @@ p {
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
     width: 8%;
-    height: 42px;
+    height: 34px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -662,14 +662,14 @@ p {
     line-height: 1;
     margin: 0 auto;
     position: absolute;
-    top: -599px;
-    left: 55px;
+    top: -573px;
+    left: -15px;
   }
   
   .chunhat01 {
     position: relative;
-    top: -625px;
-    left: -811px;
+    top: -606px;
+    left: -882px;
     font-size: 16px;
   }
   
