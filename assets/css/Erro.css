@@ -982,8 +982,8 @@ element.style {}
   clip-path: polygon(93% 0%, 100% 30%, 100% 100%, 0 100%, 0 0);
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 8px 8px;
-  width: 11%;
-  height: 47px;
+  width: 12%;
+  height: 32px;
   border-radius: 2px;
   display: flex;
   align-items: center;
@@ -1097,7 +1097,7 @@ element.style {}
   position: absolute;
   /* top: -589px; */
   margin-top: 65px;
-  margin-left: 30%;
+  margin-left: 31%;
 }
 
 /* footer */
