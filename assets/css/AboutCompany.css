@@ -717,8 +717,8 @@ p {
     clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
-    width: 11%;
-    height: 47px;
+    width: 10%;
+    height: 31px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -729,13 +729,14 @@ p {
     margin: 0 auto;
     position: absolute;
     top: -589px;
+    margin-left: 1%;
     /* margin-top: -35px; */
   }
   
   .chunhat01 {
     position: relative;
-    top: -636px;
-    /* left: -591px; */
+    top: -643px;
+    font-size: 17px;
     margin-left: -88%;
   }
   
