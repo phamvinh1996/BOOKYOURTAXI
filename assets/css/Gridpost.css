@@ -710,8 +710,8 @@ top: 1px;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 90% 100%, 0 100%);
     background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
     background-size: 8px 8px;
-    width: 15%;
-    height: 47px;
+    width: 9%;
+    height: 31px;
     border-radius: 2px;
     display: flex;
     align-items: center;
@@ -722,14 +722,15 @@ top: 1px;
     margin: 0 auto;
     position: absolute;
     top: -589px;
-    left: -23px;
+    left: -19px;
     /* margin-top: -35px; */
   }
   
   .chunhat01 {
     position: relative;
-    top: -618px;
-    left: -827px;
+    top: -622px;
+    left: -881px;
+    font-size: 18px;
   }
   
   /*  code css màu mục joney*/
