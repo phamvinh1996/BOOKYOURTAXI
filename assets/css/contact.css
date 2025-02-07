@@ -786,7 +786,7 @@ textarea.form-control:focus {
 .branches-list ul li {
   margin-bottom: 5px;
   margin-left: 0px;
-
+font-size: 17px;
 }
 .sm-padding {
   padding: 15px; /* Tùy chỉnh padding nếu cần */
