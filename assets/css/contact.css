@@ -801,6 +801,7 @@ textarea.form-control:focus {
     display: inline-block;
     padding: 3px 15px;
     margin-bottom: 20px;
+    height: 35px;
    
 }
 
@@ -929,6 +930,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  display: none;
 }
 
 /* cắt path slide */
