@@ -702,13 +702,14 @@ div#offcanvasDarkNavbar {
   margin: 0 auto;
   position: absolute;
   top: -607px;
+  margin-left: 1%;
   /* margin-top: -35px; */
 }
 
 .chunhat01 {
   position: relative;
   top: -639px;
-  left: -843px;
+  left: -847px;
   font-size: 19px;
 }
 
