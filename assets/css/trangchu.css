@@ -4714,7 +4714,7 @@ img.image-car2 {
   position: absolute;
   top: 30%;
   /* Adjust the distance from the top as needed */
-  left: 79%;
+  left: 73%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6878,7 +6878,7 @@ main {
   background-color: black;
   position: relative;
   top: 26px;
-  left: 147px;
+  left: 121px;
 }
 
 .custom-icon::before,
