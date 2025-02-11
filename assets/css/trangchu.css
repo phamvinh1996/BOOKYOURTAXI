@@ -4520,6 +4520,37 @@ img.image-car2 {
   top: -17px;
 }
 
+/*  */
+
+
+/* mục choosee taxi you ride */
+/* .pricing-tab-menu li:not(:last-of-type) {
+  padding-right: 78px;
+}
+ */
+
+
+ .nav-link1::after {
+  content: "-"; /* Thêm dấu "-" */
+  font-weight: 200;
+  font-size: 2.2em; 
+  background-color: #f4f4f4;
+    width: 36px;
+    height: 2px;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    position: relative;
+    left: 22px;
+    top: 4px;
+    color: #ccc;
+}
+/* mục choosee you taxi */
+.nav-item:last-child .nav-link1::after {
+  content: ""; /* Xóa dấu "-" ở phần tử cuối cùng */
+}
+
+
+/*  */
 /* màu chữ trỏ chuột hiển thị choossee taxi */
 .choose-your-taxi .nav-pills .nav-link1 {
   color: #333;
@@ -7162,75 +7193,3 @@ main {
 
 /*  */
 
-/* mục choosee taxi you ride */
-/* 
-.nav-link1::after {
-  content: " -";  
-  font-weight: 200; 
-  color: black; 
-  font-size: 2.2em; 
-} */
-
-
-
-
-
-
-/* .nav-link1::after {
-  content: " -"; 
-  font-weight: 200;
-  font-size: 2.2em; 
-
-
-
-  background-color: #000;
-    width: 36px;
-    height: 2px;
-    content: '';
-    position: absolute;
-    right: -20px;
-    top: 50%;
-    transform: translateY(-50%);
-} */
-
-
-
-
-
-
-.pricing-tab-menu li:not(:last-of-type) {
-  padding-right: 78px;
-}
-
-
-
-
-
-
-
-
-.nav-link1::after {
-  content: "-"; /* Thêm dấu "-" */
-
-
-
-
-  font-weight: 200;
-  font-size: 2.2em; 
-
-
-
-  background-color: #f4f4f4;
-    width: 36px;
-    height: 2px;
-  
-    transform: translateY(-50%);
-    padding-right: 10px;
-    position: relative;
-    left: 22px;
-    top: 4px;
-}
-
-.nav-item:last-child .nav-link1::after {
-  content: ""; /* Xóa dấu "-" ở phần tử cuối cùng */
-}
