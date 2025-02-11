@@ -3073,7 +3073,7 @@ a {
   /* width: 1700px;
   height: 350px;
   margin-top: -150px; */
-  width: 1683px;
+  width: 1545px;
   height: 350px;
   margin-top: -150px;
 }
@@ -3113,7 +3113,7 @@ a {
 .ridek1 {
   color: black;
   font-size: 16px;
-  margin-top: 110px;
+  margin-top: 57px;
   margin-right: 155px;
   font-weight: 600;
 }
@@ -3143,7 +3143,7 @@ a {
   gap: 10px;
   margin-top: 41px;
   position: relative;
-  top: 41px;
+  top: -10px;
   left: -268px;
 }
 
@@ -3220,7 +3220,7 @@ a {
   right: -747px;
   top: -323px; */
   margin-top: -198px;
-  margin-left: 444px;
+  margin-left: 255px;
 }
 
 
@@ -5608,7 +5608,7 @@ margin-top: 31px;
 
 .new-column {
   background-color: #fff;
-  margin-left: 380%;
+  margin-left: 340%;
   margin-top: -188%;
   width: 100px;
   height: 100px;
