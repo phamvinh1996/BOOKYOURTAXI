@@ -1742,6 +1742,7 @@ margin-right: 29%;
 
 .class1 {
   margin-top: 10px;
+  font-weight: 600;
 }
 
 /* dòng chữ */
@@ -1820,6 +1821,7 @@ margin-right: 29%;
   position: relative;
   right: -66px;
   top: 36px;
+  font-weight: 500;
 }
 
 /*  */
