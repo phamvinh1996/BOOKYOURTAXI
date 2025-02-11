@@ -2438,9 +2438,9 @@ Ridek Taxi Company! */
   background-image: url("https://web307.webvungtau.com/wp-content/themes/weboto-vn/img/map.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: orange;
+  background-color: #ff9900;
   padding: 8px 0;
-  width: 1700px;
+  width: 1901px;
   height: 350px;
   margin-top: -150px;
 }
@@ -2479,13 +2479,14 @@ Ridek Taxi Company! */
 .ridek1 {
   color: black;
   font-size: 16px;
-  margin-top: 157px;
+  margin-top: 127px;
   margin-right: 156px;
   font-weight: 600;
 }
 
 .class1 {
   margin-top: 10px;
+  font-weight: 600;
 }
 
 /* dòng chữ */
@@ -2508,7 +2509,7 @@ Ridek Taxi Company! */
   gap: 10px;
   margin-top: 106px;
   position: relative;
-  top: 44px;
+  top: 3px;
 }
 
 /*  */
@@ -2564,18 +2565,16 @@ Ridek Taxi Company! */
   position: relative;
   right: -66px;
   top: 36px;
+  font-weight: 500;
 }
 
 /*  */
 
 .img-car001 {
-  max-width: 200%;
-  width: 200%;
-  /* position: relative;
-  right: -747px;
-  top: -323px; */
-  margin-top: -166px;
-  margin-left: 711px;
+  max-width: 287%;
+  width: 254%;
+  margin-top: -249px;
+  margin-left: 693px;
 }
 
 /* choosee your taxi */
@@ -6633,5 +6632,25 @@ main {
 
 
 /*  */
+
+
+
+
+
+.col-lg-5 {
+  flex: 0 0 41.66667%; /* Chiều rộng tương ứng với col-lg-5 (5/12) */
+  padding: 20px; /* Khoảng cách bên trong cột */
+
+}
+
+.new-column {
+background-color: #fff; 
+margin-left: 227%;
+margin-top: -76%;
+width: 426%;
+height: 132%;
+padding: 20px; /* Khoảng cách bên trong cột */
+
+}
 
 
