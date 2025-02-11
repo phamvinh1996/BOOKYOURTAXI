@@ -1289,7 +1289,7 @@ img.image-car2 {
   position: relative;
   bottom: 140px;
   z-index: 1;
-  top: -266px;
+  top: -308px;
 }
 
 .cover-image .text {
@@ -1588,7 +1588,7 @@ img.image-car2 {
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 37%;
+  top: 43%;
   transform: translateY(-50%);
   margin-left: -25px;
   width: 60px;
@@ -1616,7 +1616,7 @@ img.image-car2 {
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
   position: relative;
-  top: 16px;
+  top: 58px;
 }
 
 .slick-prev.slick-arrow:before {
@@ -1632,6 +1632,8 @@ img.image-car2 {
   position: relative;
   top: -10px;
 text-align: justify;
+font-family: 'Space Grotesk', sans-serif;
+font-size: 16px;
 }
 
 
