@@ -3070,7 +3070,10 @@ a {
   background-repeat: no-repeat;
   background-color: orange;
   padding: 8px 0;
-  width: 1700px;
+  /* width: 1700px;
+  height: 350px;
+  margin-top: -150px; */
+  width: 1683px;
   height: 350px;
   margin-top: -150px;
 }
@@ -3117,6 +3120,7 @@ a {
 
 .class1 {
   margin-top: 10px;
+  font-weight: 600;
 }
 
 /* dòng chữ */
@@ -3205,6 +3209,7 @@ a {
   position: relative;
   right: -66px;
   top: 36px;
+  font-weight: 500;
 }
 
 /*  */
@@ -5601,3 +5606,11 @@ margin-top: 31px;
 
 
 
+.new-column {
+  background-color: #fff;
+  margin-left: 380%;
+  margin-top: -188%;
+  width: 100px;
+  height: 100px;
+  padding: 175px;
+}
