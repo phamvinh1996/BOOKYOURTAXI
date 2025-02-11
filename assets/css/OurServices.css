@@ -3862,5 +3862,12 @@ main {
 
 
 
-
+.new-column {
+  background-color: #fff;
+  margin-left: 547%;
+  margin-top: -185%;
+  width: 512px;
+  height: 351px;
+  padding: 112px;
+}
 
