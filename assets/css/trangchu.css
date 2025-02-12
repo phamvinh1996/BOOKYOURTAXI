@@ -4524,14 +4524,11 @@ img.image-car2 {
 
 
 /* mục choosee taxi you ride */
-/* .pricing-tab-menu li:not(:last-of-type) {
-  padding-right: 78px;
-}
- */
 
 
- .nav-link1::after {
-  content: "-"; /* Thêm dấu "-" */
+
+   .nav-link1::after {
+  content: "———";
   font-weight: 200;
   font-size: 2.2em; 
   background-color: #f4f4f4;
@@ -4543,11 +4540,31 @@ img.image-car2 {
     left: 22px;
     top: 4px;
     color: #ccc;
-}
+}  
+
+
+
+/* .nav-link1::after {
+  content: "———"; 
+  font-weight: 200;
+  font-size: 2.2em;
+  color: #ccc;
+  position: relative;
+  left: 22px;
+  top: 4px;
+} */
+
 /* mục choosee you taxi */
 .nav-item:last-child .nav-link1::after {
-  content: ""; /* Xóa dấu "-" ở phần tử cuối cùng */
-}
+  content: ""; 
+
+} 
+/*  */
+
+
+
+
+
 
 
 /*  */
