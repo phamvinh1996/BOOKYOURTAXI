@@ -3173,15 +3173,36 @@ p {
 
 
 /*  */
-.choose-your-taxi .chooseetaxi002 {
-  font-weight: 700;
-  font-size: 40px;
-  position: relative;
-  top: -70px;
-  /* right: -360px; */
-  text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+/* code css màu nền Our Expert Drivers */
+
+
+.choose-your-taxi {
+  background-color: #ffffff;
+  padding: 50px 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
+  border-radius: 10px; /* Bo góc nhẹ */
 }
 
+
+
+
+
+/*  */
 /*  code css OUR  Expert Drivers*/
 
 * {
