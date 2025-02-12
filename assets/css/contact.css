@@ -923,16 +923,41 @@ font-size: 17px;
   font-size: 18px;
 }
 /* nút màu cam  nút dịch vụ nỗi bật*/
-button {
+/* button {
   background-color: #ff9900;
   color: white;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  /* display: none; */
+} */
+/*  */
+/* xóa nút button */
+
+button {
+  background-color: #f4f4f4; /* Màu cam */
+  color: #f4f4f4;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
+button::after {
+  content: "1"; /* Không có nội dung */
+  display: inline-block; /* Giữ vị trí của nút */
+  width: 0; /* Chiều rộng bằng 0 */
+  height: 0; /* Chiều cao bằng 0 */
+  visibility: hidden; /* Không hiển thị */
+}
+
+
+
+
+
+
+
+/*  */
 /* cắt path slide */
 /* thanh nav footer hotline */
 .hotline {
@@ -2244,3 +2269,7 @@ left: 1px;
   background-color: #e9ecef;
   color: #000;
 }
+
+
+/*  */
+
