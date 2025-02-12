@@ -799,9 +799,10 @@ font-size: 17px;
     background-color: #ff9900;
     color: #fff;
     display: inline-block;
-    padding: 3px 15px;
+    padding: 9px 15px;
     margin-bottom: 20px;
     height: 35px;
+    font-family: 'Space Grotesk', sans-serif;
    
 }
 
@@ -815,29 +816,29 @@ font-size: 17px;
 
 /* màu chữ  */
 .phone-link{
-  color: #000;
+  color: #777;
 }
 .email{
-  color: #000;
+  color: #777;
 }
 .telephone1{
-  color: #000;
+  color: #777;
 }
 .email1{
-  color: #000;
+  color: #777;
 }
 .telephone2{
-  color: #000;
+  color: #777;
 }
 .email2{
-  color: #000;
+  color: #777;
 }
 .telephone3{
-  color: #000;
+  color: #777;
 }
 
 .emai0{
-  color: #000;
+  color: #777;
 }
 
 /*  */
