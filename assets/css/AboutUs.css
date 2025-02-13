@@ -2535,7 +2535,7 @@ p {
   justify-content: center;
   position: absolute;
   right: 100px;
-  top: -12px;
+  top: 33px;
   z-index: 1;
 }
 
@@ -3494,8 +3494,10 @@ a {
 /*  */
 .centered-text {
   text-align: center;
-  padding-bottom: 23px;
-  margin-top: 153px;
+  padding-bottom: 59px;
+  margin-top: -1px;
+  position: relative;
+  top: 79px;
 }
 
 .row-tintuc1 {
