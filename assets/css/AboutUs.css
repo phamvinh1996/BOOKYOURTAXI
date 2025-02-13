@@ -1258,7 +1258,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -678px;
+  top: -665px;
   left: 276px;
   z-index: 999;
 }
@@ -1267,7 +1267,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -678px;
+  top: -667px;
   left: 1502px;
   z-index: 999;
 }
@@ -1306,6 +1306,25 @@ Ridek Taxi Company! */
   font-weight: bold;
 }
 
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 .cover-image p {
   /* position: relative; */
   /* top: 126px; */
@@ -1327,7 +1346,7 @@ Ridek Taxi Company!  */
     overflow: hidden;
     margin: 26px;
     padding: 0;
-    margin-top: -10%;
+    margin-top: -3%;
     position: relative;
     left: -23px;
 }   
@@ -1635,7 +1654,7 @@ Ridek Taxi Company!  */
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 29%;
+  top: 41%;
   transform: translateY(-50%);
   margin-left: -42px;
   width: 60px;
@@ -1654,7 +1673,7 @@ Ridek Taxi Company!  */
 /*  */
 .slick-prev.slick-arrow {
   position: relative;
-  top: -81px;
+  top: 21px;
   transform: translateY(360%);
   margin-left: 1239px;
   width: 60px;
@@ -2398,7 +2417,7 @@ button {
 .section-online-Hon1000 {
   background-image: url("https://html.dynamiclayers.net/dl/ridek/assets/img/map.png");
   background-repeat: no-repeat;
-  margin-top: -138px;
+  margin-top: 55px;
 }
 
 .form-group1>.orange-table:not(:last-child) {
