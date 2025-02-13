@@ -2826,10 +2826,11 @@ Ridek Taxi Company! */
 
 .upper-alert-box {
   /* height: 70px; */
+  margin-top: 71px;
 }
 
 .section-online-book {
-  /* background-color: #f2f2f2; */
+  background-color: white;
   /* padding: 0px; */
   /* position: relative; */
   padding-bottom: 100px;
@@ -3538,6 +3539,7 @@ a {
 }
 
 .form-group1 {
+  margin-top: 44px;
   margin-left: 40px;
   padding: 110px 40px;
   /* Adjust the value as needed */
