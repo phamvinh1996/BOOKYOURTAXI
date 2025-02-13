@@ -3173,7 +3173,11 @@ p {
 
 
 /*  */
-
+.chooseetaxi002 {
+position: relative;
+top: -63px;
+font-weight: 700;
+}
 
 
 
@@ -3192,7 +3196,7 @@ p {
 
 
 .choose-your-taxi {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   padding: 50px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
   border-radius: 10px; /* Bo góc nhẹ */
