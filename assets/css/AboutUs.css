@@ -2995,6 +2995,8 @@ a {
   text-align: center;
   margin: 0 auto 45px auto;
   margin-top: -63px;
+  position: relative;
+  top: -21px;
 }
 
 /*  */
@@ -3497,7 +3499,7 @@ a {
   padding-bottom: 59px;
   margin-top: -1px;
   position: relative;
-  top: 79px;
+  top: 73px;
 }
 
 .row-tintuc1 {
