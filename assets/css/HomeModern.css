@@ -5047,6 +5047,11 @@ main {
   position: relative;
   top: -84px;
 
+
+
+  border: 2px solid white; /* Đường viền vuông góc */
+  border-radius: 0; /* Không bo góc */
+  padding: 10px 20px; /* Khoảng cách bên trong */
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
