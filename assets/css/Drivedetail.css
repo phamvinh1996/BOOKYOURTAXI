@@ -1795,6 +1795,7 @@ s .table-1 .slick-dots {
   padding: 20px; /* Tạo không gian bên trong slide */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Tạo hiệu ứng bóng cho slide */
   border-radius: 5px; /* Bo tròn các góc */
+  background-color: #fff;
 }
 
 .slick-dots {
