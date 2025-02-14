@@ -588,6 +588,7 @@ div#offcanvasDarkNavbar {
 .carousel {
   height: 566px;
   margin-top: -22px;
+  background-color: white;
 }
 
 .carousel-inner {
@@ -1211,6 +1212,7 @@ p {
   position: relative;
   padding-top: 185px;
   right: 6px;
+  top: 107px;
 }
 
 .hinh1-icon {
