@@ -2573,8 +2573,8 @@ Ridek Taxi Company! */
 /*  */
 
 .img-car001 {
-  max-width: 287%;
-  width: 254%;
+  max-width: 269%;
+  width: 248%;
   margin-top: -249px;
   margin-left: 588px;
 }
@@ -3198,7 +3198,7 @@ font-weight: 700;
 
 .choose-your-taxi {
   /* background-color: #ffffff; */
-  padding: 50px 0;
+  /* padding: 50px 0; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
   border-radius: 10px; /* Bo góc nhẹ */
 }
@@ -6675,7 +6675,7 @@ main {
 .new-column {
 background-color: #fff; 
 margin-left: 207%;
-margin-top: -76%;
+margin-top: -74%;
 width: 426%;
 height: 132%;
 padding: 20px; /* Khoảng cách bên trong cột */
