@@ -5049,7 +5049,7 @@ main {
 
 
 
-  border: 2px solid white; /* Đường viền vuông góc */
+  border: 2px ; /* Đường viền vuông góc */
   border-radius: 0; /* Không bo góc */
   padding: 10px 20px; /* Khoảng cách bên trong */
 }
