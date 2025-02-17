@@ -2245,7 +2245,9 @@ margin-right: 29%;
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
-  margin-top: 153px;
+  /* margin-top: 153px; */
+  position: relative;
+  top: 95px;
 }
 
 .row-tintuc1 {
