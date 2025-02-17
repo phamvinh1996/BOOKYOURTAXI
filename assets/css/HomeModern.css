@@ -3854,7 +3854,7 @@ p {
   padding-left: 883px;
   display: flex;
   line-height: 16px;
-  top: -61px;
+  top: -147px;
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -3898,14 +3898,14 @@ p {
   position: relative;
   text-align: center;
   color: #666;
-  top: -85px;
+  top: -150px;
 }
 
 /*  */
 /* chu h1 */
 .tintuc1 {
   position: relative;
-  top: -54px;
+  top: -127px;
 }
 
 /* kích cỡ nút tin tức sự kiện */
@@ -4208,6 +4208,9 @@ p {
   text-align: center;
   padding-bottom: 23px;
   margin-top: 153px;
+
+  position: relative;
+    top: -43px;
 }
 
 .row-tintuc1 {
@@ -4594,7 +4597,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  top: -59px;
+  top: -188px;
   justify-content: center;
   gap: 26px;
 }
