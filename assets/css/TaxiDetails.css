@@ -642,6 +642,7 @@ div#offcanvasDarkNavbar {
   height: 566px;
   /* overflow: hidden; */
   /* Ẩn phần thừa */
+  background-color: white;
 }
 
 .carousel-inner {
@@ -1284,6 +1285,7 @@ img.image-car2 {
 .section-heading090 {
   position: relative;
   margin-top: -3%;
+  top: 30px;
 }
 
 .section-heading090 h4 {
@@ -4381,3 +4383,17 @@ main {
   background-color: #e9ecef;
   color: #000;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
