@@ -1745,6 +1745,19 @@ margin-right: 29%;
   font-weight: 600;
 }
 
+
+/*codecss Feel your journey with Ridek màu nền trắng  */
+.new-column {
+  background-color: #fff;
+  margin-left: 547%;
+  margin-top: -185%;
+  width: 512px;
+  height: 351px;
+  padding: 99px;
+}
+
+
+/*  */
 /* dòng chữ */
 .col-sm-4 {
   width: 33.33%;
@@ -3861,17 +3874,4 @@ main {
 
 
 /*  */
-
-
-
-
-
-.new-column {
-  background-color: #fff;
-  margin-left: 547%;
-  margin-top: -185%;
-  width: 512px;
-  height: 351px;
-  padding: 112px;
-}
 
