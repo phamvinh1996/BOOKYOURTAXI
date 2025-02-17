@@ -2713,7 +2713,7 @@ Ridek Taxi Company! */
 
 /* ahanh màu trắng choosee taxi */
 .nav-link1 {
-  background-color: white;
+  background-color: #f4f4f4;
   color: #999;
   font-size: 17px;
   position: relative;
@@ -6506,11 +6506,11 @@ main {
 
 /* code css nút làm ẩn hiện thị nút contact */
 /* Ẩn phần tử trên màn hình lớn hơn 768px */
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .nav-item {
-      display: none; /* Ẩn phần tử */
+      display: none; 
   }
-}
+} */
 
 /* Hiển thị phần tử trên màn hình nhỏ hơn hoặc bằng 768px */
 @media (max-width: 768px) {
@@ -6688,3 +6688,33 @@ padding: 20px; /* Khoảng cách bên trong cột */
 }
 
 
+
+/*  */
+
+/* mục choosee taxi you ride */
+
+
+
+.nav-link1::after {
+  content: "———";
+  font-weight: 200;
+  font-size: 2.2em; 
+  background-color: #f4f4f4;
+    width: 36px;
+    height: 2px;
+    transform: translateY(-50%);
+    padding-right: 10px;
+    position: relative;
+    left: 22px;
+    top: 4px;
+    color: #ccc;
+}  
+
+
+
+
+/* mục choosee you taxi */
+.nav-item:last-child .nav-link1::after {
+  content: ""; 
+
+} 

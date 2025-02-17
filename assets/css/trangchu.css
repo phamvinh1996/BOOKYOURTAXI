@@ -4544,15 +4544,6 @@ img.image-car2 {
 
 
 
-/* .nav-link1::after {
-  content: "———"; 
-  font-weight: 200;
-  font-size: 2.2em;
-  color: #ccc;
-  position: relative;
-  left: 22px;
-  top: 4px;
-} */
 
 /* mục choosee you taxi */
 .nav-item:last-child .nav-link1::after {
