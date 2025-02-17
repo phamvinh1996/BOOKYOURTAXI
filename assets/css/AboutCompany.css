@@ -3569,7 +3569,7 @@ a {
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
-  margin-top: 153px;
+  /* margin-top: 153px; */
 }
 
 .row-tintuc1 {
