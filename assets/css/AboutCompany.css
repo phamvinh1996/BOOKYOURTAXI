@@ -2867,7 +2867,8 @@ img {
   border-radius: 8px; /* Tùy chọn: Bo góc cho hình ảnh */
   object-fit: cover; /* Đảm bảo ảnh hiển thị đẹp trong khung */
 
-
+position: relative;
+top: -50px;
 
 }
 
@@ -2941,7 +2942,7 @@ img {
   font-weight: 700;
   line-height: 1;
   margin: 0 auto;
-  margin-top: -35px;
+  margin-top: -81px;
   /* padding-bottom: 10px;  */
   margin-right: -5%;
 }
@@ -3000,7 +3001,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 27px;
-  top: 371px;
+  top: 318px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
