@@ -902,6 +902,7 @@ div#offcanvasDarkNavbar {
   margin-left: -50%;
   top: 1%;
   color: #000;
+  font-weight: 600;
 }
 
 .offer h3 {
@@ -918,6 +919,7 @@ div#offcanvasDarkNavbar {
   text-decoration: underline;
   text-decoration-color: orange;
   /* Màu gạch chân là cam */
+  font-size: 20px;
 }
 
 /* code css categori */
@@ -1133,6 +1135,9 @@ div#offcanvasDarkNavbar {
   text-decoration: underline;
   text-decoration-color: orange;
   /* Màu gạch chân là cam */
+  font-size: 20px;
+  position: relative;
+  left: -15px;
 }
 
 /*table nút tags */
