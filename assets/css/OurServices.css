@@ -1678,7 +1678,7 @@ margin-right: 29%;
 .container.cart-service {
   position: relative;
   /* top: 65px; */
-  margin-top: 1%;
+  margin-top: 0%;
 }
 
 .new1-container {
@@ -2258,10 +2258,10 @@ margin-right: 29%;
 /*  */
 .centered-text {
   text-align: center;
-  padding-bottom: 23px;
+  padding-bottom: 125px;
   /* margin-top: 153px; */
   position: relative;
-  top: 95px;
+  top: 160px;
 }
 
 .row-tintuc1 {
