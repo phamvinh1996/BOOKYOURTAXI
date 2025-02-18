@@ -1258,7 +1258,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -665px;
+  top: -398px;
   left: 276px;
   z-index: 999;
 }
@@ -1267,7 +1267,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -667px;
+  top: -403px;
   left: 1502px;
   z-index: 999;
 }
@@ -1279,9 +1279,9 @@ Ridek Taxi Company! */
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service {
   position: relative;
-  bottom: 140px;
+  /* bottom: 140px; */
   z-index: 1;
-  top: -266px;
+  /* top: -266px; */
 }
 
 .cover-image .text {
@@ -1960,9 +1960,9 @@ button {
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service {
   position: relative;
-  bottom: 140px;
+  /* bottom: 140px; */
   z-index: 1;
-  top: -266px;
+  /* top: -266px; */
 }
 
 .cover-image .text {
@@ -3314,7 +3314,13 @@ a {
 
 
 
-
+.centered-text01 {
+  text-align: center;
+  padding-bottom: 120px;
+  margin-top: -1px;
+  position: relative;
+  top: 129px;
+}
 
 
 
