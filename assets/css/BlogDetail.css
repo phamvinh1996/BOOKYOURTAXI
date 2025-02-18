@@ -1600,7 +1600,27 @@ blockquote i.fas {
   background-color: #000;
   /* Màu đen khi hover */
 }
+/*  */
+textarea.form-control {
+  height: 126px;
+  margin-top: -3%;
+}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 /* table 2 */
 .mb-3 {
   margin-top: -15%;
