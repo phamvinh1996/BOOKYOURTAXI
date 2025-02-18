@@ -2190,11 +2190,13 @@ button {
 /* TẠO DÒNG CHỮ CHOOSE TATXI */
 .centered-text {
   text-align: center;
-  padding-bottom: 23px;
-  margin-top: 157px;
+  padding-bottom: 68px;
+  /* margin-top: 157px; */
 
   position: relative;
-  top: 41px;
+  top: 105px;
+
+  margin-top: 8%;
 }
 
 .centered-text h1 {
@@ -7202,5 +7204,12 @@ main {
   color: #000;
 }
 
-/*  */
+/*mục tin tức  */
 
+.centered-text1 {
+  text-align: center;
+  padding-bottom: 132px;
+  /* margin-top: 157px; */
+  position: relative;
+  top: 118px;
+}
