@@ -1272,6 +1272,19 @@ Ridek Taxi Company! */
   z-index: 999;
 }
 
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*  */
 /* chữ màu cam */
@@ -2512,7 +2525,8 @@ p {
   margin-bottom: 0;
   letter-spacing: -0.5px;
   color: #a2a2a2;
-  margin-top: 3%;
+  margin-top: 5%;
+  margin-left: 2%;
 }
 
 
@@ -2521,7 +2535,9 @@ p {
 .slide-container {
   position: relative;
   padding-top: 87px;
+  margin: 1px;
 }
+
 
 .hinh1-icon {
   background-color: #f90;
