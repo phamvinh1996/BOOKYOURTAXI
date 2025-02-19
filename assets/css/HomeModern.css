@@ -2691,6 +2691,25 @@ Ridek Taxi Company! */
 
 /*  */
 /* màu chữ trỏ chuột hiển thị choossee taxi */
+.choose-your-taxi .nav-pills .nav-item {
+  position: relative;
+}
+
+.choose-your-taxi .nav-pills .nav-item:not(:last-of-type) {
+  margin-right: 120px;
+}
+
+.choose-your-taxi .nav-pills .nav-item:not(:last-of-type)::after {
+  content: "";
+  border-top: 2px solid #ccc; 
+  width: 100px; 
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+} 
+
 .choose-your-taxi .nav-pills .nav-link1 {
   color: #333;
   /* Màu chữ mặc định */
@@ -6753,34 +6772,6 @@ padding: 20px; /* Khoảng cách bên trong cột */
   display: inline-block; /* Để phần tử có thể chứa nội dung */
   white-space: nowrap; 
   overflow: visible;    /* Đảm bảo nội dung không bị ẩn */
-}
-
- .nav-link1::after {
-  content: "";
-  font-weight: 200;
-  font-size: 2.2em; 
-  border-top: 2px solid #ccc; 
-  width: 100px; 
-  position: relative;
-  left: 151px;
-  top: -11px;
-  display: block;
-  padding-right: 54px;
-  margin-right: 88px;
-} 
- /* xóa dấu ghạch ngang số 3 */
-.nav-item:last-child .nav-link1::after {
-  content: "";
-  display: none;
-}
-
-
-
-
-/* mục choosee you taxi */
-.nav-item:last-child .nav-link1::after {
-  content: ""; 
-
 }
 
 
