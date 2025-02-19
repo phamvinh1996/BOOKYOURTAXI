@@ -1995,6 +1995,7 @@ margin-right: 29%;
 .tintuc1 {
   position: relative;
   top: -54px;
+  font-weight: 700;
 }
 
 /* kích cỡ nút tin tức sự kiện */
@@ -2039,6 +2040,7 @@ margin-right: 29%;
   /* Tạo khoảng cách dưới */
   top: -51px;
   position: relative;
+  left: -7px;
 }
 
 .card-text-01 {
