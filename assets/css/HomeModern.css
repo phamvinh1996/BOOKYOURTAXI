@@ -1695,11 +1695,13 @@ font-size: 16px;
 }
 
 .slick-slide .user-info .avatar {
-  width: 150px;
-  height: 150px;
+  width: 116px;
+  height: 114px;
   border-radius: 50%;
-  margin-right: 20px;
+  margin-right: 19px;
   overflow: hidden;
+  position: relative;
+  left: 16px;
 }
 
 .slick-slide .user-info .avatar img {
@@ -1710,6 +1712,8 @@ font-size: 16px;
 .slick-slide .company-info {
   flex-grow: 1;
   align-self: center;
+  position: relative;
+  top: -30px;
 }
 /* code css Ridek Passengers Reviews... */
 
