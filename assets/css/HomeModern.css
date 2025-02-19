@@ -2778,14 +2778,11 @@ Ridek Taxi Company! */
 .btn.btn-primary1 {
   background-color: #ff9900;
 
-  width: 241px;
-  /* Thêm màu nền đen khi hover */
+  width: 298px;
   /* background-color: orange; */
   color: white;
-  /* Thay đổi màu chữ thành trắng */
-  transition: background-color 0.3s ease;
-  /* Thêm hiệu ứng chuyển đổi */
-  margin-left: -96px;
+  transition: background-color 0.3sease;
+  margin-left: -125px;
 
 }
 
