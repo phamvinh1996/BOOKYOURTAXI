@@ -3354,6 +3354,7 @@ a {
   /* Tạo khoảng cách dưới */
   top: -50px;
   position: relative;
+  left: -8px;
 }
 
 .card-text-01 {
