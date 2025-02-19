@@ -4559,17 +4559,17 @@ img.image-car2 {
 }
 
  .nav-link1::after {
-  content: "";
-  font-weight: 200;
-  font-size: 2.2em; 
-  border-top: 2px solid #ccc; 
+  /* content: ""; */
+  /* font-weight: 200; */
+  /* font-size: 2.2em;  */
+  /* border-top: 2px solid #ccc; 
   width: 100px; 
   position: relative;
   left: 151px;
   top: -11px;
   display: block;
   padding-right: 54px;
-  margin-right: 88px;
+  margin-right: 88px; */
 } 
  /* xóa dấu ghạch ngang số 3 */
 .nav-item:last-child .nav-link1::after {
@@ -4603,6 +4603,25 @@ img.image-car2 {
 
 
 /*  */
+/* màu chữ trỏ chuột hiển thị choossee taxi */
+.choose-your-taxi .nav-pills .nav-item {
+  position: relative;
+}
+
+.choose-your-taxi .nav-pills .nav-item:not(:last-of-type) {
+  margin-right: 110px;
+}
+
+.choose-your-taxi .nav-pills .nav-item:not(:last-of-type)::after {
+  content: "";
+  border-top: 2px solid #ccc; 
+  width: 100px; 
+  position: absolute;
+  left: calc(100% + 10px);
+  top: 50%;
+  transform: translateY(-50%);
+  display: block;
+} 
 /* màu chữ trỏ chuột hiển thị choossee taxi */
 .choose-your-taxi .nav-pills .nav-link1 {
   color: #333;
