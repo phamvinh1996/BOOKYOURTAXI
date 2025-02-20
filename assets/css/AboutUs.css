@@ -3248,6 +3248,7 @@ a {
 .tintuc1 {
   position: relative;
   top: -54px;
+  font-weight: 700;
 }
 
 /* kích cỡ nút tin tức sự kiện */
@@ -3543,6 +3544,7 @@ a {
   background-size: 100%;
   background-position: 200%;
   background-repeat: no-repeat;
+  height: 459px;
 }
 
 /*  */
@@ -3768,7 +3770,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -21px;
 }
 
 .address-text {
@@ -3968,7 +3970,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 86%;
   z-index: 2;
 }
 
