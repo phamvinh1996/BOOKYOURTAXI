@@ -936,7 +936,7 @@ div#offcanvasDarkNavbar {
   display: inline-block;
   font-size: 13px;
   font-weight: bold;
-  color: black; /* Màu chữ ban đầu */
+  color: white; /* Màu chữ ban đầu */
   background-color: #ff9900; /* Màu nền ban đầu */
   border: 2px solid 0; /* Viền màu cam */
   border-radius: 5px;
