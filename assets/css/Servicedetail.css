@@ -918,6 +918,8 @@ div#offcanvasDarkNavbar {
 }
 
 .list-group-item {
+  position: relative;
+  /* top: 35px; */
   padding: 10px 20px;
   margin: 5px 0;
   background-color: #eee;
@@ -928,7 +930,39 @@ div#offcanvasDarkNavbar {
   transition: background-color 0.3s ease;
   /* Hiệu ứng chuyển đổi màu */
 }
+/* code css nút bảng đen phía phải */
 
+.btn-custom {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  color: black; /* Màu chữ ban đầu */
+  background-color: #ff9900; /* Màu nền ban đầu */
+  border: 2px solid 0; /* Viền màu cam */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, width 0.3s ease, height 0.3s ease;
+  width: 180px;
+  height: 44px;
+  text-align: center;
+  margin-left: -37%;
+}
+
+/* Hiệu ứng khi trỏ chuột vào */
+.btn-custom:hover {
+  background-color: #eee; /* Đổi màu nền sang cam */
+  color: #000; /* Đổi màu chữ */
+  width: 170px;  /* Tăng chiều rộng */
+  height: 41px;  /* Tăng chiều cao */
+}
+
+
+
+
+
+
+
+/*  */
 /* Đổi màu khi trỏ chuột vào */
 .list-group-item:hover {
   background-color: #ff8c00;
