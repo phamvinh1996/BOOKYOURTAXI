@@ -3106,7 +3106,7 @@ a {
 }
 
 .section-map button {
-  margin-right: -2%;
+  margin-right: 1%;
   width: 130px;
   height: 50px;
   margin-top: 19px;
@@ -3134,7 +3134,7 @@ a {
   color: black;
   font-size: 16px;
   margin-top: 57px;
-  margin-right: 155px;
+  margin-right: 169px;
   font-weight: 600;
 }
 
