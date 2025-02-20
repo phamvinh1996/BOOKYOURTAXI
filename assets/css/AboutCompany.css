@@ -1396,6 +1396,7 @@ iframe {
 }
 
 .container .card h2 {
+  margin-left: 8px;
   color: #222;
   /* Màu chữ trắng */
   font-weight: bold;
