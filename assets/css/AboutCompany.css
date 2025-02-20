@@ -3372,6 +3372,7 @@ a {
 
 .card-title-1 {
   position: relative;
+  top: 15px;
   /* top: 23px; */
   padding-bottom: -3px;
   font-weight: bold;
