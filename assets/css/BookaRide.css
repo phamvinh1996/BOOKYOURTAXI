@@ -2434,6 +2434,9 @@ button {
   /* Màu chữ */
   padding-left: 40px;
   /* Khoảng cách bên trái cho chữ */
+  position: relative;
+  top: -3px;
+  margin-top: -1%;
 }
 
 .form-control:focus {
@@ -4366,3 +4369,16 @@ main {
   background-color: #e9ecef;
   color: #000;
 }
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
