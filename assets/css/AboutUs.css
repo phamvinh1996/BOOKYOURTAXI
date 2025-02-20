@@ -1560,6 +1560,7 @@ Ridek Taxi Company!  */
   /* cắt nút bên phải button */
   clip-path: polygon(0 0, 100% 0, calc(100% - 10px) 100%, 0% 100%);
   font-weight: 500;
+  right: -11px;
 }
 
 .nutxemthem:hover {
