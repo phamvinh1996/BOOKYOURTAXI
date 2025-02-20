@@ -911,6 +911,8 @@ div#offcanvasDarkNavbar {
 .list-group {
   list-style: none;
   padding: 0;
+  position: relative;
+    top: -35px;
 }
 
 .list-group-item {
@@ -1039,6 +1041,15 @@ div#offcanvasDarkNavbar {
   /* Màu gạch chân là cam */
 }
 
+/*  */
+.offer1 {
+font-weight: 600;
+font-size: 23px;
+position: relative;
+top: 10px;
+}
+
+/*  */
 /*table nút tags */
 
 .list li a {
@@ -1048,7 +1059,7 @@ div#offcanvasDarkNavbar {
   text-transform: capitalize;
   font-size: 14px;
   color: #666;
-  padding: 3px 15px;
+  padding: 3px 14px;
   margin: 0 3px 10px 0;
 }
 
@@ -1127,11 +1138,17 @@ div#offcanvasDarkNavbar {
   background-color: #fff;
   border: 1px solid #eee;
   padding: 30px;
+  padding-top: 75px;
 }
 
 .category {
+  font-weight: 600;
   color: #000;
   margin-left: -63%;
+  position: relative;
+  top: -52px;
+  font-size: 23px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .category {
