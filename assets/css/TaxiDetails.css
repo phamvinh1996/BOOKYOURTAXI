@@ -2152,7 +2152,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -436px;
+  top: -401px;
   left: 295px;
   z-index: 999;
 }
@@ -2161,7 +2161,7 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -448px;
+  top: -407px;
   left: 1535px;
   z-index: 999;
 }
@@ -2454,7 +2454,7 @@ Ridek Taxi Company! */
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 55%;
+  top: 59%;
   transform: translateY(-50%);
   width: 55px;
   height: 56px;
@@ -2482,7 +2482,7 @@ Ridek Taxi Company! */
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 55%;
 }
 
 .slick-prev.slick-arrow:before {
