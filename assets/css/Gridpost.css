@@ -1031,7 +1031,10 @@ top: 1px;
   text-decoration: underline;
   text-decoration-color: orange;
   /* Màu gạch chân là cam */
+  font-size: 20px;
+  font-weight: 600;
 }
+
 
 /* code css categori */
 
@@ -1240,6 +1243,8 @@ top: 1px;
   text-decoration: underline;
   text-decoration-color: orange;
   /* Màu gạch chân là cam */
+  font-weight: 600;
+  font-size: 20px;
 }
 
 /*table nút tags */
