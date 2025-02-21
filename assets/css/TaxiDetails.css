@@ -2991,7 +2991,7 @@ img.image-car1 {
   left: 0%;
   position: relative;
   width: 100%;
-
+z-index: 1;
 }
 
 .image-car2-container {
