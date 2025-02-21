@@ -1079,14 +1079,15 @@ p {
   top: 0%;
   left: 40px;
   right: 20%;
-  width: 43%;
-  height: 166%;
+  width: 51%;
+  height: 146%;
   /* transform: skew(-26deg); */
   background-color: #ff9900;
   z-index: -1;
 
   background-image: repeating-linear-gradient(45deg, #f7a20f 0, #f7a20f 2px, transparent 0, transparent 50%);
   background-size: 10px 10px;
+  z-index: 0;
 }
 
 /* chữ số điện thoại về chúng tôi */
