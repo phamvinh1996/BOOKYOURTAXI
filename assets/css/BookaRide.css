@@ -939,7 +939,12 @@ div#offcanvasDarkNavbar {
   width: 92%;
 }
 
+/*code css mục bảng tách cột  */
 
+.form-row>.col, .form-row>[class*=col-] {
+  padding-right: 23px;
+  padding-left: 5px;
+}
 
 
 

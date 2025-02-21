@@ -1088,21 +1088,28 @@ top: 10px;
 /*  */
 /*table nút tags */
 
-.list li a {
+ .list li a {
   background-color: #eee;
   display: inline-block;
   font-family: "Space Grotesk", sans-serif;
   text-transform: capitalize;
   font-size: 14px;
   color: #666;
-  /* padding: 3px 14px;
-  margin: 0 3px 10px 0; */
 
   padding: 3px 15px;
   margin: 0 3px 10px 0;
   
-}
+} 
+/*  */
 
+
+
+
+
+
+
+
+/*  */
 .list li {
   display: inline-block;
 }
