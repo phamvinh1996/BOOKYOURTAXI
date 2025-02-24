@@ -704,8 +704,7 @@ div#offcanvasDarkNavbar {
   color: #ff9900;
   /* Đặt màu vàng cho chữ RIDEK */
 }
-
-
+/*  */
 
 /*  */
 
@@ -1272,19 +1271,16 @@ Ridek Taxi Company! */
   z-index: 999;
 }
 
-/*  */
+/* ode css 
+Feel your journey
+with Ridek!  */
+.carousel-inner {
+  background: #222; /* Đổi nền carousel thành màu đen */
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.carousel-item img {
+  opacity: 0.5; /* Làm ảnh mờ đi, có thể điều chỉnh (0.1 - 1) */
+}
 
 /*  */
 /* chữ màu cam */
