@@ -1281,7 +1281,23 @@ img.image-car2 {
   /* color: white; */
   /* width: 1900px; */
 }
+/*  */
 
+/* Lớp phủ nền đen với độ mờ */
+.cover-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222; /* Nền đen với độ mờ 70% */
+  z-index: 1;
+  opacity: 0.3;
+}
+
+
+/*  */
 /* chữ màu cam */
 
 /* carrt anhr chen anh banner dich vu noi bat */
@@ -3158,7 +3174,52 @@ p {
   display: none;
   /* If you want to hide the text */
 }
+/* code css mục get the ridek mobile app and */
 
+/* Căn chỉnh toàn bộ phần section */
+.section-online-book {
+  position: relative;
+  width: 100%;
+  height: 600px; /* Điều chỉnh chiều cao theo nhu cầu */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Ảnh nền */
+.section-online-book .car-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Đảm bảo ảnh nền phủ toàn bộ */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Lớp phủ màu đen */
+.section-online-book .overlay1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Độ trong suốt 70% */
+  /* z-index: 2; */
+}
+
+/* Nội dung hiển thị trên lớp phủ mục get the ridek mobile app and*/
+.section-online-book .container {
+  position: relative;
+  z-index: 3;
+  color: white; /* Giữ văn bản màu trắng để nổi bật */
+  text-align: left;
+  padding: 50px;
+}
+
+
+/*  */
 /* OUR EXPERT DRIVE */
 /*  choosee taxi chữ màu cam*/
 
@@ -6117,7 +6178,7 @@ main {
   padding-bottom: 23px;
   /* margin-top: 153px; */
   position: relative;
-  top: 81px;
+  top: 135px;
 }
 
 
