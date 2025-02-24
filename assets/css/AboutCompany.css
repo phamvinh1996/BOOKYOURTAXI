@@ -643,7 +643,32 @@ p {
   .carousel-inner {
     height: 79%;
   }
-  
+  /* code css mục màu nền ảnh bìa feel your jouney witd ridek */
+ 
+   .carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #222; 
+    opacity: 0.5; 
+    z-index: 1;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 2;
+}  
+
+
+
+  /*  */
   .carousel-item img {
     object-fit: cover;
     width: 100%;
@@ -1395,6 +1420,23 @@ iframe {
   z-index: 1;
 }
 
+/*code css mụcStart your journey with
+Ridek Taxi Company!   */
+
+
+.cover-image::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222; /* Màu nền đen */
+  opacity: 0.5; /* Độ mờ */
+  z-index: 1;
+}
+
+/*  */
 .cover-image .content {
   position: relative;
   z-index: 2;
@@ -1910,7 +1952,7 @@ Ridek Taxi Company! */
 
 
 .table-1 .slick-dots {
-  margin-top: 15%;
+  margin-top: 7%;
   display: flex
 ;
   /* margin-top: 35px; */
