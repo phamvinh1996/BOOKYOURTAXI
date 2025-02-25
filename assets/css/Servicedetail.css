@@ -692,7 +692,7 @@ div#offcanvasDarkNavbar {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.4); /* Điều chỉnh độ mờ: 0.5 = 50% đen */
+  background: rgba(0, 0, 0, 0.3); /* Điều chỉnh độ mờ: 0.5 = 50% đen */
   z-index: 1;
 }
 /*  */
