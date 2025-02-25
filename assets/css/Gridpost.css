@@ -690,7 +690,32 @@ p {
     white-space: nowrap;
     margin-top: -8%;
   }
+  /*code css mục 
+Blog Grid!
+Feel your journey
+with Ridek!  */
+
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
   
+  /* Tạo lớp phủ màu đen */
+  .carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); /* Điều chỉnh độ mờ: 0.5 = 50% đen */
+    z-index: 1;
+  }
+  
+
+  /*  */
   /* màu chữ ridek màu vnagf */
   .ridek {
     color: #ff9900;
