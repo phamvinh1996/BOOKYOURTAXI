@@ -1276,7 +1276,7 @@ Feel your journey
 with Ridek!  */
 .carousel-inner {
   /* background: #222; Đổi nền carousel thành màu đen */
-  background: rgba(0, 0, 0, 1.6);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .carousel-item img {
