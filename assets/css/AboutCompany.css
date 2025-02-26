@@ -1080,6 +1080,7 @@ p {
     top: 81%;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
+    transform: translate(1px, -40px);
   }
   
   .color1 {
@@ -1089,26 +1090,30 @@ p {
     top: 86%;
     font-size: 28px;
     font-weight: bold;
+    transform: translate(-25px, -32px);
   }
   
   
   /* ảnh 01 về chúng tôi */
   .image01 {
     position: absolute;
-    left: 3%;
-    top: 88%;
+    /* left: 3%; */
+    /* top: 88%; */
     width: 132px;
+    transform: translate(83px, 39px);
   }
   
   /* ảnh về chúng tôi */
   .ceo1 {
     position: absolute;
-    right: 80%;
-     top: 80%; 
+    /* right: 80%; */
+     /* top: 80%;  */
     font-size: 16px;
     color: #666;
     border-radius: 50px;
     font-weight: 500;
+
+    transform: translate(87px, 0px);
   }
   
   /* picture vè chung toi */
@@ -1272,7 +1277,10 @@ iframe {
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 8px; /* Bo tròn góc */
   margin-left: -17%;
-  margin-top: -11%;
+  /* margin-top: -11%; */
+
+  position: relative;
+  top: -37px;
 }
 
 .info-container img {
