@@ -90,3 +90,24 @@ window.onclick = function (event) {
     closeVideo();
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */

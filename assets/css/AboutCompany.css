@@ -1212,11 +1212,15 @@ p {
 .video-modal-content {
   position: relative;
   margin: 10% auto;
-  background: white;
-  width: 80%;
-  max-width: 800px;
+  /* background: white; */
+  /* width: 800px;
+  max-width: 800px; */
   padding: 20px;
   border-radius: 10px;
+  width: 1800px;
+  max-width: 1800px;
+  left: -1098px;
+  top: -500px;
 }
 
 .close-button {
@@ -1231,6 +1235,30 @@ p {
 iframe {
   border-radius: 8px;
 }
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* về chúng tôi */
