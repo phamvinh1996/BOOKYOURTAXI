@@ -1129,11 +1129,11 @@ p {
     /* left: 76%; */
     /* position: relative; */
     width: 255px;
-    z-index: 1;
-    left: -29%;
-    top: 107px;
+    /* z-index: 1; */
+    /* left: -29%; */
+    /* top: 107px; */
     position: relative;
-    left: 8%;
+    /* left: 8%; */
   }
   
   /*  */
@@ -1157,11 +1157,18 @@ p {
 /* Video Button Styling */
 .video-button-container {
   text-align: center;
-  margin: 20px 0;
-  position: relative;
-  top: 90px;
-  left: 8px;
+  /* margin: 20px 0; */
+  /* position: relative; */
+  /* top: 90px; */
+  /* left: 8px; */
   z-index: 10;
+  transform: translate(-50x, -50px);
+  border-radius: 77px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .video-button {
@@ -1174,10 +1181,14 @@ p {
   text-decoration: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  top: -162px;
-  left: 33px;
-  transform: translateX(-50%) translateY(-50%);
+  position: absolute;
+  top: -203px;
+  /* left: 33px; */
+  /* transform: translateX(-50%) translateY(-50%); */
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
   box-shadow: 0 10px 33.25px 1.75px rgba(0, 27, 103, .35);
 }
 
@@ -1294,11 +1305,23 @@ iframe {
   /* left: 50%; */
   /* transform: translate(-228%, 12%); */
   z-index: 1;
-  transform: translateX(-521%) translateY(10%);
+  /* transform: translateX(-50%) translateY(-50%); */
+    transform: translate(-3%, -50%) ;
+
 }
+/*  */
+.video-box-inner {
+  position: relative;
+  text-align: right;
+  left: 201px;
+}
+.video-box{
+  position: relative;
+  text-align: left;
+  left: -350px;
+top: 47px;
 
-
-
+}
 
 /*  */
 
@@ -4168,9 +4191,10 @@ footer {
 }
 
 img.image-car1 {
-  left: 0%;
+  /* left: -135%; */
   position: relative;
   /* width: 300px; */
+  z-index: 1;
 }
 
 .image-car2-container {
@@ -4183,9 +4207,9 @@ img.image-car2 {
   align-self: flex-end;
   position: relative;
   /* top: -611px; */
-  position: relative;
+  /* position: relative; */
   /* right: -58px; */
-  left: -50px;
+  /* left: 233px; */
 }
 
 .ceo {
@@ -5714,3 +5738,20 @@ margin-top: 31px;
   height: 351px;
   padding: 112px;
 }
+
+
+
+
+
+/*  */
+
+
+
+
+
+
+
+
+
+
+
