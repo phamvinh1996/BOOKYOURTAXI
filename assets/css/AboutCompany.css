@@ -1080,7 +1080,7 @@ p {
     top: 81%;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
-    transform: translate(1px, -40px);
+    transform: translate(17px, -68px);
   }
   
   .color1 {
@@ -1090,7 +1090,7 @@ p {
     top: 86%;
     font-size: 28px;
     font-weight: bold;
-    transform: translate(-25px, -32px);
+    transform: translate(-10px, -50px);
   }
   
   
@@ -1100,7 +1100,7 @@ p {
     /* left: 3%; */
     /* top: 88%; */
     width: 132px;
-    transform: translate(83px, 39px);
+    transform: translate(83px, 18px);
   }
   
   /* ảnh về chúng tôi */
@@ -1113,7 +1113,7 @@ p {
     border-radius: 50px;
     font-weight: 500;
 
-    transform: translate(87px, 0px);
+    transform: translate(87px, -30px);
   }
   
   /* picture vè chung toi */
@@ -1123,7 +1123,7 @@ p {
     border-radius: 90px;
     width: 86px;
     /* top: 60px; */
-    top: 17px;
+    top: -6px;
     left: -9px;
   }
   
@@ -1280,7 +1280,7 @@ iframe {
   /* margin-top: -11%; */
 
   position: relative;
-  top: -37px;
+  top: -8px;
 }
 
 .info-container img {
