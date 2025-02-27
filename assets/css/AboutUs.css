@@ -1069,8 +1069,8 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
 .hot1 {
-  left: 58%;
-  top: 13%;
+  left: 35%;
+  top: 11%;
   color: #666;
   font-size: 16px;
   position: absolute;
@@ -1081,8 +1081,8 @@ p {
 .color1 {
   color: orange;
   position: absolute;
-  right: 16%;
-  top: 44%;
+  right: 39%;
+  top: 29%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1091,16 +1091,16 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 37%;
-  top: 63%;
+  left: 106px;
+  top: 40px;
   width: 132px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
   position: absolute;
-  right: 49%;
-  top: 17%;
+  left: 106px;
+  top: 9px;
   /* top: 96%; */
   font-size: 16px;
   color: #666;
@@ -1111,8 +1111,8 @@ p {
 /* picture vè chung toi */
 .ceo101 {
   position: relative;
-  left: 21%;
-  top: 3px;
+  left: 2%;
+  top: 9px;
   border-radius: 90px;
   width: 86px;
   /* top: 60px; */
