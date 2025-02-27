@@ -1088,6 +1088,7 @@ button.carousel-control-next {
   top: 40px;
   position: relative;
   margin-bottom: 1rem;
+  margin-top: 7%;
 }
 
 /* code css chữ về chúng tôi */
@@ -3732,7 +3733,7 @@ p {
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 64%;
+  top: 60%;
   left: 150%;
   transform: translateX(-1586%);
   width: 70px;
