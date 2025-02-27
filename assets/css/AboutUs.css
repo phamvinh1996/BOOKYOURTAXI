@@ -902,13 +902,14 @@ div#offcanvasDarkNavbar {
 /* chữ màu cam about company */
 .info-container {
   display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
-  align-items: center; /* Căn giữa theo chiều dọc */
+  /* align-items: center; Căn giữa theo chiều dọc */
   justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
-  padding: 10px; /* Khoảng cách bên trong */
+  padding: 0px; /* Khoảng cách bên trong */
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
-  border-radius: 8px; /* Bo tròn góc */
-  margin-top: 3%;
+  border-radius: 0px; /* Bo tròn góc */
+  position: relative;
+  top: 38px;
 }
 
 .info-container img {
@@ -1068,7 +1069,8 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
 .hot1 {
-  left: 55%;
+  left: 58%;
+  top: 13%;
   color: #666;
   font-size: 16px;
   position: absolute;
@@ -1079,8 +1081,8 @@ p {
 .color1 {
   color: orange;
   position: absolute;
-  right: 19%;
-  top: 87%;
+  right: 16%;
+  top: 44%;
   font-size: 28px;
   font-weight: bold;
 }
@@ -1089,8 +1091,8 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 36%;
-  top: 90%;
+  left: 37%;
+  top: 63%;
   width: 132px;
 }
 
@@ -1098,6 +1100,7 @@ p {
 .ceo1 {
   position: absolute;
   right: 49%;
+  top: 17%;
   /* top: 96%; */
   font-size: 16px;
   color: #666;
