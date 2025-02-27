@@ -1204,12 +1204,12 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
 .hot1 {
-  /* left: 39%; */
+  left: 39%;
   color: #666;
   font-size: 16px;
   position: absolute;
-  /* top: 65%; */
-  transform: translate(252px, 17px);
+  top: 30%;
+  /* transform: translate(252px, 17px); */
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
 }
@@ -1217,9 +1217,9 @@ p {
 .color1 {
   color: orange;
   position: absolute;
-  /* right: 35%; */
-  /* top: 70%; */
-  transform: translate(251px, 51px);
+  right: 33%;
+  top: 67%;
+  /* transform: translate(251px, 51px); */
   font-size: 28px;
   font-weight: bold;
 }
@@ -1228,23 +1228,23 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  /* left: 17%;
-  top: 72%; */
-  transform: translate(99px, 57px);
+  left: 15%;
+  top: 68%;
+  /* transform: translate(99px, 57px); */
   width: 132px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
-  /* position: absolute;
+  position: absolute;
   right: 69%;
-  top: 65%; */
+  top: 27%; 
   font-size: 16px;
   color: #666;
   border-radius: 50px;
   font-weight: 500;
   position: absolute;
-  transform: translate(98px, 21px);
+  /* transform: translate(98px, 21px); */
 }
 
 /* picture vè chung toi */
