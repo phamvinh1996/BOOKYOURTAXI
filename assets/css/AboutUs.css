@@ -909,11 +909,12 @@ div#offcanvasDarkNavbar {
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 0px; /* Bo tròn góc */
   position: relative;
-  top: 38px;
+  top: 31px;
+  right: -153px;
 }
 
 .info-container img {
-  max-width: 100px; /* Giới hạn kích thước ảnh */
+  max-width: 130px; /* Giới hạn kích thước ảnh */
   margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
@@ -1072,7 +1073,7 @@ p {
   left: 35%;
   top: 11%;
   color: #666;
-  font-size: 16px;
+  font-size: 17px;
   position: absolute;
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
@@ -1092,7 +1093,7 @@ p {
 .image01 {
   position: absolute;
   left: 106px;
-  top: 40px;
+  top: 30px;
   width: 132px;
 }
 
@@ -1102,7 +1103,7 @@ p {
   left: 106px;
   top: 9px;
   /* top: 96%; */
-  font-size: 16px;
+  font-size: 17px;
   color: #666;
   border-radius: 50px;
   font-weight: 500;
@@ -1111,8 +1112,8 @@ p {
 /* picture vè chung toi */
 .ceo101 {
   position: relative;
-  left: 2%;
-  top: 9px;
+  left: 1%;
+  top: 0px;
   border-radius: 90px;
   width: 86px;
   /* top: 60px; */
