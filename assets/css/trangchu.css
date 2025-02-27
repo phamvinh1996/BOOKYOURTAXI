@@ -1206,9 +1206,9 @@ p {
 .hot1 {
   left: 43%;
   color: #666;
-  font-size: 16px;
+  font-size: 17px;
   position: absolute;
-  top: 18%;
+  top: 10%;
   /* transform: translate(252px, 17px); */
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
@@ -1218,7 +1218,7 @@ p {
   color: orange;
   position: absolute;
   right: 29%;
-  top: 53%;
+  top: 41%;
   /* transform: translate(251px, 51px); */
   font-size: 28px;
   font-weight: bold;
@@ -1228,18 +1228,18 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 19%;
-  top: 61%;
+  left: 17%;
+  top: 35%;
   /* transform: translate(99px, 57px); */
-  width: 132px;
+  width: 139px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
   position: absolute;
   right: 65%;
-  top: 18%; 
-  font-size: 16px;
+  top: 10%; 
+  font-size: 17px;
   color: #666;
   border-radius: 50px;
   font-weight: 500;
@@ -1296,7 +1296,7 @@ img.image-car2 {
 }
 
 .info-container img {
-  max-width: 100px; /* Giới hạn kích thước ảnh */
+  max-width: 130px; /* Giới hạn kích thước ảnh */
   margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
