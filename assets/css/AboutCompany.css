@@ -1073,9 +1073,9 @@ p {
   /* chữ số điện thoại về chúng tôi */
   
   .hot1 {
-    left: 33%;
+    left: 35%;
     color: #666;
-    font-size: 16px;
+    font-size: 17px;
     position: absolute;
     top: 1%;
     font-family: 'Space Grotesk', sans-serif;
@@ -1087,8 +1087,8 @@ p {
   .color1 {
     color: orange;
     position: absolute;
-    right: 40%;
-    top: 29%;
+    right: 39%;
+    top: 20%;
     font-size: 28px;
     font-weight: bold;
     /* transform: translate(-10px, -50px); */
@@ -1102,7 +1102,7 @@ p {
     /* top: 88%; */
     width: 132px;
     left: 90px;
-    top: 37px;
+    top: 26px;
   }
   
   /* ảnh về chúng tôi */
@@ -1110,7 +1110,7 @@ p {
     position: absolute;
     /* right: 80%; */
      /* top: 80%;  */
-    font-size: 16px;
+    font-size: 17px;
     color: #666;
     border-radius: 50px;
     font-weight: 500;
@@ -1288,7 +1288,7 @@ iframe {
 }
 
 .info-container img {
-  max-width: 100px; /* Giới hạn kích thước ảnh */
+  max-width: 130px; /* Giới hạn kích thước ảnh */
   margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
