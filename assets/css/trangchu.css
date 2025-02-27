@@ -1204,11 +1204,12 @@ p {
 /* chữ số điện thoại về chúng tôi */
 
 .hot1 {
-  left: 39%;
+  /* left: 39%; */
   color: #666;
   font-size: 16px;
   position: absolute;
-  top: 65%;
+  /* top: 65%; */
+  transform: translate(252px, 17px);
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
 }
@@ -1216,8 +1217,9 @@ p {
 .color1 {
   color: orange;
   position: absolute;
-  right: 35%;
-  top: 70%;
+  /* right: 35%; */
+  /* top: 70%; */
+  transform: translate(251px, 51px);
   font-size: 28px;
   font-weight: bold;
 }
@@ -1226,20 +1228,23 @@ p {
 /* ảnh 01 về chúng tôi */
 .image01 {
   position: absolute;
-  left: 17%;
-  top: 72%;
+  /* left: 17%;
+  top: 72%; */
+  transform: translate(99px, 57px);
   width: 132px;
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
-  position: absolute;
+  /* position: absolute;
   right: 69%;
-  top: 65%;
+  top: 65%; */
   font-size: 16px;
   color: #666;
   border-radius: 50px;
   font-weight: 500;
+  position: absolute;
+  transform: translate(98px, 21px);
 }
 
 /* picture vè chung toi */
@@ -1248,7 +1253,7 @@ p {
   left: -2px;
   border-radius: 90px;
   width: 86px;
-  top: -41px;
+  top: 16px;
 }
 
 /*  */
@@ -1279,12 +1284,14 @@ img.image-car2 {
 /* chữ màu cam about company */
 .info-container {
   display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
-  align-items: center; /* Căn giữa theo chiều dọc */
+  /* align-items: center; Căn giữa theo chiều dọc */
   justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
-  padding: 10px; /* Khoảng cách bên trong */
+  padding: 0px; /* Khoảng cách bên trong */
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
-  border-radius: 8px; /* Bo tròn góc */
+  border-radius: 0px; /* Bo tròn góc */
+  position: relative;
+    top: -39px;
 }
 
 .info-container img {
