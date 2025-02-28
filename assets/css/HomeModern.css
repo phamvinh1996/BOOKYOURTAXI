@@ -248,7 +248,7 @@ p {
   width: 30%;
   position: relative;
   top: 43px;
-  height: 87px;
+  height: 78px;
 }
 
 /* kich co thanh nav trang chu... */
@@ -427,9 +427,9 @@ margin-top: -65px; */
   background-color: black;
   color: #fff;
   transform: skewX(0deg);
-  width: 17%;
+  width: 21%;
   /* Adjust the width as needed */
-  height: 87px;
+  height: 79px;
 }
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
