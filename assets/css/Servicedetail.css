@@ -253,7 +253,7 @@ p {
   width: 30%;
   position: relative;
   top: 43px;
-  height: 87px;
+  height: 78px;
 }
 
 /* kich co thanh nav trang chu... */
@@ -443,7 +443,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 19%;
   /* Adjust the width as needed */
-  height: 87px;
+  height: 78px;
   font-weight: bold;
 }
 
@@ -3124,7 +3124,7 @@ main {
   position: absolute;
   background-color: #fff; /* Màu nền của bảng */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  /* padding: 10px; */
   margin-top: 5px;
   z-index: 1000;
   margin-left: -13%;
