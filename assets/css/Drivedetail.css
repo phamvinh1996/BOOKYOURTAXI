@@ -242,7 +242,7 @@ p {
   width: 30%;
   position: relative;
   top: 25px;
-  height: 87px;
+  height: 78px;
 }
 
 /* kich co thanh nav trang chu... */
@@ -363,7 +363,7 @@ div#offcanvasDarkNavbar {
 .navbar-dark .navbar-toggler {
   position: relative;
   right: 7px;
-  top: -103px;
+  top: -111px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -406,7 +406,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -11%;
+  top: -13%;
   left: 100%;
   display: flex;
   justify-content: center;
@@ -415,7 +415,7 @@ div#offcanvasDarkNavbar {
   color: #fff;
   transform: skewX(0deg);
   width: 19%;
-  height: 87px;
+  height: 78px;
   font-weight: bold;
 }
 
