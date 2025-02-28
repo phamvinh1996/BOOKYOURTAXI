@@ -255,7 +255,7 @@
     width: 30%;
     position: relative;
     top: 21px;
-    height: 87px;
+    height: 78px;
   }
   
   /* kich co thanh nav trang chu... */
@@ -445,7 +445,7 @@
     transform: skewX(0deg);
     width: 19%;
     /* Adjust the width as needed */
-    height: 87px;
+    height: 78px;
     font-weight: bold;
   }
   
