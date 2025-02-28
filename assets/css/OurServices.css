@@ -255,7 +255,7 @@ p {
   width: 30%;
   position: relative;
   top: 43px;
-  height: 87px;
+  height: 78px;
 }
 
 /* kich co thanh nav trang chu... */
@@ -445,7 +445,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 19%;
   /* Adjust the width as needed */
-  height: 87px;
+  height: 79px;
   font-weight: bold;
 }
 
