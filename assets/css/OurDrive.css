@@ -249,7 +249,7 @@ p {
   width: 30%;
   position: relative;
   top: 27px;
-  height: 87px;
+  height: 78px;
 }
 
 /* kich co thanh nav trang chu... */
@@ -427,7 +427,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -32%;
+  top: -23%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -438,7 +438,7 @@ div#offcanvasDarkNavbar {
   transform: skewX(0deg);
   width: 19%;
   /* Adjust the width as needed */
-  height: 87px;
+  height: 78px;
   font-weight: bold;
 }
 
