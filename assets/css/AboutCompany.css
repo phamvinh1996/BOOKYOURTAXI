@@ -2867,6 +2867,7 @@ p {
   padding: 50px 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng nhẹ */
   border-radius: 10px; /* Bo góc nhẹ */
+  padding-top: 267px;
 }
 
 
@@ -3019,7 +3020,7 @@ img {
   object-fit: cover; /* Đảm bảo ảnh hiển thị đẹp trong khung */
 
 position: relative;
-top: -50px;
+top: -280px;
 
 }
 
@@ -3093,9 +3094,11 @@ top: -50px;
   font-weight: 700;
   line-height: 1;
   margin: 0 auto;
-  margin-top: -81px;
+  margin-top: -182px;
   /* padding-bottom: 10px;  */
   margin-right: -5%;
+  position: relative;
+  top: -126px;
 }
 
 a {
@@ -3152,7 +3155,7 @@ a {
   margin-left: auto;
   position: absolute;
   right: 27px;
-  top: 318px;
+  top: 96px;
   box-shadow: 0 1px 5px rgb(0 0 0 / 20%);
 }
 
@@ -3232,7 +3235,7 @@ a {
   /* width: 1700px;
   height: 350px;
   margin-top: -150px; */
-  width: 1805px;
+  width: 1625px;
   height: 350px;
   margin-top: -150px;
 }
@@ -3375,12 +3378,10 @@ a {
 /*  */
 
 .img-car001 {
-  width: 200%;
-  /* position: relative;
-  right: -747px;
-  top: -323px; */
-  margin-top: -198px;
-  margin-left: 255px;
+  width: 231%;
+  margin-top: -248px;
+  margin-left: 366px;
+    z-index: -1;
 }
 
 
@@ -3725,6 +3726,8 @@ a {
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
+  position: relative;
+  top: -207px;
   /* margin-top: 153px; */
 }
 
@@ -5777,6 +5780,7 @@ margin-top: 31px;
   width: 512px;
   height: 351px;
   padding: 112px;
+  z-index: -1;
 }
 
 
