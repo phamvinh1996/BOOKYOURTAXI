@@ -2600,7 +2600,8 @@ Ridek Taxi Company! */
   max-width: 269%;
   width: 248%;
   margin-top: -249px;
-  margin-left: 588px;
+  margin-left: 713px;
+  z-index: -1;
 }
 
 /* choosee your taxi */
@@ -6808,6 +6809,7 @@ margin-top: -74%;
 width: 426%;
 height: 132%;
 padding: 20px; /* Khoảng cách bên trong cột */
+z-index: -1;
 
 }
 
