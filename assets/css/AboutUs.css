@@ -828,10 +828,10 @@ div#offcanvasDarkNavbar {
   margin-bottom: 15px;
   color: rgb(102, 102, 102);
   font-family: "Space Grotesk", sans-serif;
-  top: 11px;
+  /* top: 11px; */
   /* right: 55px; */
-  right: -21%;
-  position: relative;
+  /* right: -21%;
+  position: relative; */
   /* text-align: center; */
   /* Căn giữa văn bản */
 }
@@ -861,8 +861,8 @@ div#offcanvasDarkNavbar {
   line-height: 16px;
   /* top: -358px; */
   /* right: 341%; */
-  top: 9px;
-  left: 20%;
+  top: -3px;
+  left: -3%;
   white-space: nowrap;
 }
 
@@ -903,19 +903,16 @@ div#offcanvasDarkNavbar {
 .info-container {
   display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
   /* align-items: center; Căn giữa theo chiều dọc */
-  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
   padding: 0px; /* Khoảng cách bên trong */
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
   border-radius: 0px; /* Bo tròn góc */
-  position: relative;
-  top: 31px;
-  right: -153px;
+ 
 }
 
 .info-container img {
   max-width: 130px; /* Giới hạn kích thước ảnh */
-  margin-right: 10px; /* Khoảng cách giữa ảnh và văn bản */
+  margin-right: 36px; /* Khoảng cách giữa ảnh và văn bản */
 }
 
 .info-container h1, .info-container h4, .info-container p {
@@ -946,7 +943,8 @@ div#offcanvasDarkNavbar {
 /*  */
 /* về chúng tôi  tổng phần chữ*/
 .form-group {
-  right: -153px;
+  position: relative;
+  right: -35px;
   top: 40px;
   /* position: relative; */
   margin-bottom: 1rem;
@@ -969,8 +967,8 @@ p {
   font-weight: 700;
   margin-bottom: 20px;
   line-height: 42px;
-  position: relative;
-  right: -22%;
+  /* position: relative; */
+  /* right: -22%; */
   /* top: -287px; */
   /* white-space: nowrap; */
 }
@@ -1074,46 +1072,46 @@ p {
   top: 11%;
   color: #666;
   font-size: 17px;
-  position: absolute;
+  /* position: absolute; */
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .color1 {
   color: orange;
-  position: absolute;
-  right: 39%;
-  top: 29%;
+
   font-size: 28px;
   font-weight: bold;
+  white-space: nowrap;
 }
 
 
 /* ảnh 01 về chúng tôi */
 .image01 {
-  position: absolute;
+  /* position: absolute; */
   left: 106px;
   top: 30px;
   width: 132px;
+  margin-top: 3%;
+  margin-left: -17%;
+  
 }
 
 /* ảnh về chúng tôi */
 .ceo1 {
-  position: absolute;
-  left: 106px;
-  top: 9px;
-  /* top: 96%; */
+
   font-size: 17px;
   color: #666;
   border-radius: 50px;
   font-weight: 500;
+  white-space: nowrap;
+
 }
 
 /* picture vè chung toi */
 .ceo101 {
-  position: relative;
-  left: 1%;
-  top: 0px;
+
   border-radius: 90px;
   width: 86px;
   /* top: 60px; */
@@ -4047,9 +4045,10 @@ img.image-car2 {
   justify-content: flex-end;
   align-self: flex-end;
   position: relative;
-  top: 84px;
+  top: 61px;
   position: relative;
-  right: -58px;
+  right: 30px;
+  width: 223px;
 }
 
 .ceo {
