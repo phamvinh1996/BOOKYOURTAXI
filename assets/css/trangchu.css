@@ -1109,6 +1109,7 @@ p {
   margin-bottom: 20px;
   line-height: 42px;
   top: -51px;
+  left: -8px;
 }
 
 .image {
@@ -1214,7 +1215,7 @@ p {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
   position: relative;
-  left: -7px;
+  left: 37px;
   top: 10px;
 }
 
@@ -1222,7 +1223,7 @@ p {
   color: orange;
   right: 29%;
   top: 41%;
-  transform: translate(-166px, 37px);
+  /* transform: translate(-62px, 37px); */
     font-size: 28px;
   font-weight: bold;
 }
@@ -1234,7 +1235,7 @@ p {
   left: 17%;
   top: 35%;
   width: 139px;
-  margin-left: -5%;
+  margin-left: 2%;
   margin-top: 5%;
  
 }
@@ -1290,7 +1291,7 @@ img.image-car2 {
 .info-container {
   display: flex; /* Sử dụng Flexbox để căn chỉnh các phần tử */
   /* align-items: center; Căn giữa theo chiều dọc */
-  justify-content: space-between; /* Khoảng cách đều giữa các phần tử */
+  /* justify-content: space-between; Khoảng cách đều giữa các phần tử */
   padding: 0px; /* Khoảng cách bên trong */
   /* background-color: #f9f9f9; Màu nền cho thẻ div */
   /* border: 1px solid #ccc; Đường viền cho thẻ div */
