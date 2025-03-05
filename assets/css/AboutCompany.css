@@ -847,12 +847,7 @@ p {
     color: rgb(102, 102, 102);
     font-family: "Space Grotesk", sans-serif;
     top: 44px;
-    /* right: 55px; */
-    /* right: -15%; */
-    /* position: relative; */
-    /* Căn giữa văn bản */
-    white-space: pre;
-    /* margin-left: -38%; */
+    margin-top: 6%;
   }
   
   
@@ -874,7 +869,7 @@ p {
   }
   
   .section-heading h4 {
-    margin-left: 31%;
+    margin-left: 15%;
     font-weight: bold;
     font-size: 16px;
     /* position: relative; */
@@ -954,7 +949,7 @@ p {
     /* position: relative; */
     margin-bottom: 1rem;
     position: relative;
-    left: -161px;
+    left: -5px;
   }
   
   /* code css chữ về chúng tôi */
@@ -968,14 +963,14 @@ p {
   
   .about-us {
     /* position: absolute; */
-    top: 35px;
+    top: 25px;
     color: black;
     font-size: 33px;
     font-weight: 700;
     margin-bottom: 20px;
     line-height: 42px;
     position: relative;
-    right: -17%;
+    right: -1%;
     /* top: -287px; */
     /* white-space: nowrap; */
   }
@@ -1289,7 +1284,7 @@ iframe {
   /* margin-left: -17%; */
   /* margin-top: -11%; */
   position: relative;
-  right: -107px;
+  right: -5px;
   top: -60px;
 
 
