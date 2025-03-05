@@ -5,7 +5,8 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -27%;
+  margin-top: -1%;
+  /* margin-top: -27%; */
 }
 
 .navbar-left {
@@ -399,7 +400,7 @@ div#offcanvasDarkNavbar {
   /* display: none; */
   /* width: 200px; */
   /* Set the desired width */
-  height: 500px;
+  /* height: 500px; */
   /* Set the desired height */
 }
 
