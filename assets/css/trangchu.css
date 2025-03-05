@@ -1208,31 +1208,35 @@ p {
   left: 43%;
   color: #666;
   font-size: 17px;
-  position: absolute;
+  /* position: absolute; */
   top: 10%;
   /* transform: translate(252px, 17px); */
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 500;
+  position: relative;
+  left: -7px;
+  top: 10px;
 }
 
 .color1 {
   color: orange;
-  position: absolute;
   right: 29%;
   top: 41%;
-  /* transform: translate(251px, 51px); */
-  font-size: 28px;
+  transform: translate(-166px, 37px);
+    font-size: 28px;
   font-weight: bold;
 }
 
 
 /* ảnh 01 về chúng tôi */
 .image01 {
-  position: absolute;
+  /* position: absolute; */
   left: 17%;
   top: 35%;
-  /* transform: translate(99px, 57px); */
   width: 139px;
+  margin-left: -5%;
+  margin-top: 5%;
+ 
 }
 
 /* ảnh về chúng tôi */
