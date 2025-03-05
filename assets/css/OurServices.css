@@ -259,24 +259,16 @@ p {
 }
 
 /* kich co thanh nav trang chu... */
-.navbar::before {
+ .navbar::before {
   content: '';
-  /* Tạo một pseudo-element */
   position: absolute;
-  /* Vị trí tuyệt đối */
   left: -3%;
-  /* Điều chỉnh theo left của navbar */
   width: 101%;
-  /* Chiều rộng 100% */
   height: 100%;
-  /* Chiều cao 100% */
   background-color: inherit;
-  /* Màu nền giống với navbar */
   clip-path: polygon(0 0, 100% 0, 500% 100%, 3% 160%);
-  /* Áp dụng clip-path */
   z-index: -1;
-  /* Đảm bảo pseudo-element hiển thị phía sau phần tử navbar */
-}
+} 
 
 .menu {
   display: flex;
@@ -570,6 +562,7 @@ div#offcanvasDarkNavbar {
   font-family: "Space Grotesk", sans-serif;
   font-size: 52px;
   top: -319px;
+
 }
 
 .carousel-caption p {
@@ -580,7 +573,7 @@ div#offcanvasDarkNavbar {
   left: 50%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -452px;
+  top: -367px;
 }
 
 /* Travel securely with us THE BOOK */
@@ -662,13 +655,16 @@ div#offcanvasDarkNavbar {
   } */
 
 .carousel-caption h1 {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
   color: #faf1f1;
   text-align: start;
   font-size: 47px;
-  position: absolute;
-  left: 36%;
-  margin-top: -139px;
+  /* position: absolute; */
+  /* left: 36%; */
+  /* margin-top: -139px; */
+
+  margin-left: -30%;
+  margin-top: -11%;
 }
 
 .carousel-caption .img-car {
