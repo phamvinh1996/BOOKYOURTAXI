@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -27%;
+  margin-top: -1%;
 }
 .navbar-left {
   flex-grow: 1;
@@ -394,7 +394,7 @@ div#offcanvasDarkNavbar {
   /* display: none; */
   /* width: 200px; */
   /* Set the desired width */
-  height: 500px;
+  /* height: 500px; */
   /* Set the desired height */
 }
 
@@ -1709,7 +1709,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 85%;
   z-index: 2;
 }
 
