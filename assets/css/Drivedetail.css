@@ -3,9 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f4f5f8;
+  background-color: #eee;
   padding: 10px;
-  margin-top: -27%;
+  margin-top: -1%;
 }
 
 .navbar-left {
@@ -376,7 +376,7 @@ div#offcanvasDarkNavbar {
 
 /* nút search  nut tim kiem*/
 .collapse {
-  height: 500px;
+  /* height: 500px; */
 }
 
 /* nút css menu trangchu... */
