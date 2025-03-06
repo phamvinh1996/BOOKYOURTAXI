@@ -154,7 +154,7 @@ p {
   max-width: 21%;
   height: auto;
   position: relative;
-  top: 18px;
+  top: -1px;
 }
 
 .contact-info {
