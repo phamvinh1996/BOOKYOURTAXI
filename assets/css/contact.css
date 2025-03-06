@@ -212,7 +212,7 @@ p {
     width: 30%;
     position: relative;
     top: 19px;
-    height: 87px;
+    height: 78px;
   }
   /* kich co thanh nav trang chu... */
   .navbar::before {
@@ -365,7 +365,7 @@ p {
     color: #fff;
     transform: skewX(0deg);
     width: 19%;
-    height: 87px;
+    height: 78px;
     font-weight: bold;
   }
   /* nut css  chinh kich co  thanh nav menu trang chu... */
