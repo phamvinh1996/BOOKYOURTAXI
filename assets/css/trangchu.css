@@ -4872,7 +4872,7 @@ img.image-car2 {
   position: absolute;
   top: 30%;
   /* Adjust the distance from the top as needed */
-  left: 73%;
+  left: 290%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7035,8 +7035,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: 26px;
-  left: 121px;
+  top: -60px;
+  left: 214px;
 }
 
 .custom-icon::before,
@@ -7327,3 +7327,74 @@ main {
   position: relative;
   top: 118px;
 }
+
+
+
+
+
+
+
+/*code css thanh cuộn  */
+
+
+
+/* Kiểu chung cho mục dropdown */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Nút dropdown */
+.dropdown-toggle {
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+/* Mặc định ẩn submenu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-width: 150px;
+  z-index: 1;
+}
+
+/* Mục con trong submenu */
+.dropdown-content a {
+  display: block;
+  padding: 10px 15px;
+  color: #333;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background 0.3s, color 0.3s;
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+/* Hiển thị submenu khi hover vào mục cha */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Hiệu ứng khi hover vào nút dropdown */
+.dropdown-toggle:hover {
+  color: #007bff;
+}
+
+
+
+
+
+
+
