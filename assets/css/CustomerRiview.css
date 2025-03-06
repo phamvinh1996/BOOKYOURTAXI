@@ -2122,7 +2122,7 @@ Our passengers reviews */
     width: 100%;
     height: 15%;
     z-index: 2;
-    margin-top: -30%;
+    /* margin-top: -30%; */
   }
   
   .side-navbar.show {
