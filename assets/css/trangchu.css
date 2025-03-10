@@ -4870,9 +4870,8 @@ img.image-car2 {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 30%;
-  /* Adjust the distance from the top as needed */
-  left: 290%;
+  top: 13%;
+  left: 269%;
   display: flex;
   justify-content: center;
   align-items: center;
