@@ -4997,7 +4997,7 @@ p {
 .contact-nav111 {
   position: absolute;
   top: 1%;
-  left: 355%;
+  left: 313%;
   /* Adjust the distance from the top as needed */
   display: flex;
   justify-content: center;
@@ -5216,8 +5216,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -46px;
-  margin-left: -700%;
+  top: -48px;
+  margin-left: -793%;
 }
 
 .custom-icon::before,
