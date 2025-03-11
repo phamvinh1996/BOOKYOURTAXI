@@ -2703,23 +2703,24 @@ border: #333333;
   color: #d3d3ca;
   text-align: left;
   margin-bottom: 20px;
-  position: absolute;
+  /* position: absolute; */
   top: 296px;
   left: 71px;
-  margin-left: 16%;
+  margin-left: 12%;
 }
 
 .icon-text-001 {
   font-size: 32px;
   color: #ff9900;
   text-align: left;
-  margin-bottom: 20px;
-  position: absolute;
-  top: 337px;
-  left: 71px;
+  /* margin-bottom: 20px; */
+  /* position: absolute; */
+  /* top: 337px; */
+  /* left: 71px; */
   font-weight: 700;
-  line-height: 1;
-  margin-left: 16%;
+  /* line-height: 1; */
+  margin-left: 12%;
+  margin-top: -2%;
 }
 
 /* code css kích cỡ chữ */
@@ -2763,9 +2764,10 @@ border: #333333;
 /* dòng chữ màu cam call us */
 .title {
   color: white;
-  position: relative;
+  /* position: relative; */
   left: -61px;
   top: 65px;
+  margin-left: -60%;
 }
 
 .orange-text {
@@ -2791,16 +2793,16 @@ border: #333333;
 /* màu chữ p call us  */
 .white-text {
   color: #ccc;
-  position: relative;
-  transform: translateX(-8%);
+  /* position: relative; */
+  /* transform: translateX(-8%); */
   top: 86px;
   font-weight: 500;
   font-size: 17px;
-  margin-left: 19%;
+  /* margin-left: 19%; */
 }
 
 .img-car {
-  left: -2px;
+  left: 25px;
     position: relative;
     width: 416px;
     height: auto;
@@ -2809,15 +2811,23 @@ border: #333333;
   height: auto;
   /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
   transform: translateX(221%);
+  margin-top: -18%;
 }
 
 .hotline-image1 {
   left: -1px;
   position: relative;
-  top: -28px;
-  margin-left: 15%;
+  top: 63px;
+  margin-left: -86%;
+  margin-top: 0%;
 }
-
+/*  */
+.text-wrapper {
+  position: relative; /* Giữ nguyên nếu không cần di chuyển */
+  left: 20px; /* Dịch sang phải */
+  top: 43px; /* Dịch xuống dưới */
+  text-align: center; /* Căn giữa nội dung */
+}
 /* choosee taxi dấu chấm */
 .card {
   position: relative;
@@ -3745,8 +3755,8 @@ p {
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 67%;
-  left: 73%;
+  top: 73%;
+  left: 90%;
   transform: translateX(-1586%);
   width: 70px;
   height: 70px;
