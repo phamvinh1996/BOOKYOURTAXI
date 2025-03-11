@@ -4421,8 +4421,8 @@ p {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 12%;
-  left: 252%;
+  top: 8%;
+  left: 241%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4644,7 +4644,7 @@ main {
   background-color: black;
   position: relative;
   top: -116%;
-  left: 190%;
+  left: 183%;
   margin-left: 586%;
 }
 
