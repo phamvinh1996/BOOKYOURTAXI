@@ -2703,8 +2703,9 @@ border: #333333;
   text-align: left;
   margin-bottom: 20px;
   position: absolute;
-  top: 278px;
+  top: 296px;
   left: 71px;
+  margin-left: 16%;
 }
 
 .icon-text-001 {
@@ -2713,10 +2714,11 @@ border: #333333;
   text-align: left;
   margin-bottom: 20px;
   position: absolute;
-  top: 310px;
+  top: 337px;
   left: 71px;
   font-weight: 700;
   line-height: 1;
+  margin-left: 16%;
 }
 
 /* code css kích cỡ chữ */
@@ -2735,6 +2737,7 @@ border: #333333;
   background-color: #1c1c1c;
   background-size: 100%;
   /* overflow: hidden; */
+  height: 448px;
 }
 
 .section-online-thepeople::after {
@@ -2792,23 +2795,26 @@ border: #333333;
   top: 86px;
   font-weight: 500;
   font-size: 17px;
+  margin-left: 19%;
 }
 
 .img-car {
-  left: -221px;
-  position: relative;
-  width: 489px;
+  left: -2px;
+    position: relative;
+    width: 416px;
+    height: auto;
+    top: -31%;
   /* Đặt chiều rộng hình ảnh thành 200 pixel */
   height: auto;
   /* Đặt chiều cao tự động, giữ nguyên tỷ lệ khung hình */
-  top: -20%;
-  transform: translateX(40%);
+  transform: translateX(221%);
 }
 
 .hotline-image1 {
-  left: -50px;
+  left: -1px;
   position: relative;
-  top: 141px;
+  top: -28px;
+  margin-left: 15%;
 }
 
 /* choosee taxi dấu chấm */
@@ -3738,8 +3744,8 @@ p {
 .icon-telephone1::before {
   content: "";
   position: absolute;
-  top: 60%;
-  left: 150%;
+  top: 67%;
+  left: 73%;
   transform: translateX(-1586%);
   width: 70px;
   height: 70px;
