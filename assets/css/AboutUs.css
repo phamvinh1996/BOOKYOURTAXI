@@ -4214,8 +4214,8 @@ p {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 3%;
-  left: 273%;
+  top: 7%;
+  left: 243%;
   /* Adjust the distance from the top as needed */
   display: flex;
   justify-content: center;
@@ -4329,6 +4329,8 @@ main {
   height: 50px;
   /* Kích thước height của icon */
   margin-top: -48px;
+  position: relative;
+  top: 10px;
 }
 
 
@@ -4421,8 +4423,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -108%;
-  left: 818%;
+  top: -114%;
+  left: 764%;
 }
 
 .custom-icon::before,
