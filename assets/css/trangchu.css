@@ -2706,7 +2706,7 @@ border: #333333;
   /* position: absolute; */
   top: 296px;
   left: 71px;
-  margin-left: 12%;
+  margin-left: 8%;
 }
 
 .icon-text-001 {
@@ -2719,7 +2719,7 @@ border: #333333;
   /* left: 71px; */
   font-weight: 700;
   /* line-height: 1; */
-  margin-left: 12%;
+  margin-left: 8%;
   margin-top: -2%;
 }
 
@@ -2776,7 +2776,7 @@ border: #333333;
 
 .ride1 {
   position: relative;
-  left: 1px;
+  left: -71px;
 }
 
 /*  */
@@ -2818,7 +2818,7 @@ border: #333333;
   left: -1px;
   position: relative;
   top: 63px;
-  margin-left: -86%;
+  margin-left: -94%;
   margin-top: 0%;
 }
 /*  */
@@ -3756,7 +3756,7 @@ p {
   content: "";
   position: absolute;
   top: 73%;
-  left: 90%;
+  left: 86%;
   transform: translateX(-1586%);
   width: 70px;
   height: 70px;
