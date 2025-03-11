@@ -2090,8 +2090,9 @@ button {
 .section-online-booking .img-car {
   position: absolute;
   width: 653px;
-  left: -598px;
+  /* left: -598px; */
   top: -26px;
+  margin-left: -443%;
 }
 
 .section-online-booking {
