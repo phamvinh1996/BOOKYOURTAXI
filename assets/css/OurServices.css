@@ -2970,9 +2970,8 @@ p {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 48%;
-  /* Adjust the distance from the top as needed */
-  left: 79%;
+  top: 46%;
+  left: 57%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3190,8 +3189,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -156%;
-  left: 159%;
+  top: -165%;
+  left: 125%;
   margin-left: 557%;
 }
 
