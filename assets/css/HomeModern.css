@@ -2464,7 +2464,7 @@ Ridek Taxi Company! */
   padding: 8px 0;
   width: 1683px;
   height: 350px;
-  margin-top: -150px;
+  /* margin-top: -150px; */
 }
 
 .section-map h1 {
@@ -2472,19 +2472,19 @@ Ridek Taxi Company! */
   white-space: nowrap;
   font-size: 30px;
   color: #fff;
-  transform: translate(-16%, -228%);
-      margin-left: -34%;
-    margin-top: 2%;
+  /* transform: translate(-16%, -228%); */
+      /* margin-left: -34%;
+    margin-top: 2%; */
 }
 
 .section-map button {
   width: 130px;
   height: 50px;
-  margin-top: 108px;
+  /* margin-top: 108px;
   transform: translate(-196%);
   position: relative;
   top: -24px;
-  margin-left: -57%;
+  margin-left: -57%; */
 }
 
 /*  */
@@ -2508,11 +2508,12 @@ Ridek Taxi Company! */
   font-size: 16px;
   /* margin-right: 156px; */
   font-weight: 600;
+  margin-top: 19%;
   /* left: -15px; */
-     transform: translate(-47%);
+     /* transform: translate(-47%);
      margin-top: 11%;
      position: relative;
-     top: 13px; 
+     top: 13px;  */
 }
 
 .class1 {
@@ -2549,7 +2550,7 @@ Ridek Taxi Company! */
 .check-list {
   /* padding-bottom: 1px; */
   /* Giữ khoảng cách dưới cùng */
-  line-height: 0.2;
+  /* line-height: 0.2; */
   /* margin-top: 53px; */
 }
 
@@ -2602,11 +2603,14 @@ Ridek Taxi Company! */
 /*  */
 
 .img-car001 {
-  max-width: 269%;
+  /* max-width: 269%;
   width: 248%;
   margin-top: -211px;
-  margin-left: 410%;
+  margin-left: 410%; */
   z-index: -1;
+  width: 396px;
+  margin-left: 413%;
+  margin-top: -130%;
 }
 
 /* choosee your taxi */
@@ -6900,18 +6904,18 @@ main {
 
 .col-lg-5 {
   flex: 0 0 41.66667%; /* Chiều rộng tương ứng với col-lg-5 (5/12) */
-  padding: 20px; /* Khoảng cách bên trong cột */
+  /* padding: 20px; Khoảng cách bên trong cột */
 
 }
 
 .new-column {
-background-color: #fff; 
-margin-left: 207%;
-margin-top: -72%;
-    width: 426%;
-    height: 183%;
-padding: 20px; /* Khoảng cách bên trong cột */
-z-index: -1;
+  background-color: #fff;
+  width: 414%;
+  height: 215%;
+  margin-left: 484%;
+  margin-top: -187%;
+  padding: 172px;
+  z-index: -1;
 
 }
 
