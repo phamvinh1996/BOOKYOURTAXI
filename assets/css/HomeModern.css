@@ -362,7 +362,7 @@ margin-top: -65px; */
   border-color: rgba(255, 255, 255, .1);
 
 
-  margin-left: 898%;
+  margin-left: 707%;
 }
 
 /* nút search  nut tim kiem*/
@@ -5210,6 +5210,7 @@ main {
   height: 50px;
   /* Kích thước height của icon */
   margin-top: 20px;
+  margin-left: 60%;
 }
 
 
@@ -6012,6 +6013,7 @@ main {
   height: 56px;
   color: #f4f4f4;
   margin-top: 96px;
+    left: 103px;
 }
 
 .navbar-nav {
