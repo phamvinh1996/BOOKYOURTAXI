@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -23px;
+  /* margin-top: -23px; */
 }
 
 .navbar-left {
@@ -950,8 +950,8 @@ button.carousel-control-next {
   margin-right: -5px;
   margin-left: -5px;
   position: relative;
-  left: -74px;
-  top: 39px;
+  left: -23px;
+  top: 2px;
 }
 /*  */
 /* dau 3 ghach */
@@ -975,11 +975,11 @@ button.carousel-control-next {
 }
 
 .section-online-booking h3 {
-  left: -291px;
+  left: -241px;
   font-size: 38px;
   position: relative;
   color: #e8dede;
-  top: 10px;
+  top: -16px;
   font-weight: bold;
   /* Màu chữ trắng */
 }
@@ -1896,8 +1896,8 @@ Ridek Taxi Company! */
   font-size: 15px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  top: -8px;
-  left: -66px;
+  top: -27px;
+  left: -28px;
 }
 
 .section-heading06 h4 span,
@@ -2472,16 +2472,19 @@ Ridek Taxi Company! */
   white-space: nowrap;
   font-size: 30px;
   color: #fff;
-  transform: translate(10%);
+  transform: translate(0%, -226%);
+      margin-left: -34%;
+    margin-top: 2%;
 }
 
 .section-map button {
   width: 130px;
   height: 50px;
-  margin-top: 19px;
-  transform: translate(-173%);
+  margin-top: 96px;
+  transform: translate(-143%);
   position: relative;
-  left: -7px;
+  /* left: -36px; */
+  margin-left: -57%;
 }
 
 /*  */
@@ -2503,11 +2506,11 @@ Ridek Taxi Company! */
 .ridek1 {
   color: black;
   font-size: 16px;
-  margin-top: 127px;
-  margin-right: 156px;
+  /* margin-right: 156px; */
   font-weight: 600;
-  position: relative;
-  left: -15px;
+  /* left: -15px; */
+  transform: translate(-31%);
+  margin-top: 7%; 
 }
 
 .class1 {
@@ -2535,7 +2538,8 @@ Ridek Taxi Company! */
   gap: 10px;
   margin-top: 106px;
   position: relative;
-  top: 3px;
+  margin-top: -1%;
+    margin-left: 3%;
 }
 
 /*  */
@@ -2599,8 +2603,8 @@ Ridek Taxi Company! */
 .img-car001 {
   max-width: 269%;
   width: 248%;
-  margin-top: -249px;
-  margin-left: 713px;
+  margin-top: -211px;
+  margin-left: 410%;
   z-index: -1;
 }
 
@@ -2858,7 +2862,7 @@ Ridek Taxi Company! */
   /* margin-left: 30%;
   margin-top: -25%; */
   position: absolute;
-  margin-top: 350px;
+  margin-top: 188px;
   right: -86px;
   width: 250px;
 }
@@ -2969,7 +2973,7 @@ p {
   margin-top: 31%;
   position: absolute;
   right: 0px;
-  top: 0px;
+  top: -96px;
 }
 
 .container .row .col-sm-6 h2 {
@@ -3023,7 +3027,7 @@ p {
 
 /* dòng chữ get the ridek */
 .book1 {
-  margin-top: 253px;
+  margin-top: 139px;
 }
 
 /* code css mục book you taxi from  */
@@ -4314,7 +4318,8 @@ p {
 .centered-text {
   text-align: center;
   padding-bottom: 23px;
-  margin-top: 153px;
+  /* margin-top: 153px; */
+  margin-top: 159px;
 
 
 }
@@ -4694,7 +4699,7 @@ button {
 .row {
   display: flex;
   flex-wrap: wrap;
-  position: relative;
+  /* position: relative; */
   top: -63px;
   padding-bottom: 83px;
 }
@@ -6901,9 +6906,9 @@ main {
 .new-column {
 background-color: #fff; 
 margin-left: 207%;
-margin-top: -74%;
-width: 426%;
-height: 132%;
+margin-top: -72%;
+    width: 426%;
+    height: 183%;
 padding: 20px; /* Khoảng cách bên trong cột */
 z-index: -1;
 
