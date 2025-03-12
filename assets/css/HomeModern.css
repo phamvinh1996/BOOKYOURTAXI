@@ -1019,7 +1019,7 @@ button.carousel-control-next {
 .section-online-booking .img-car {
   position: absolute;
   width: 466px;
-  left: -16px;
+  left: -88px;
   top: 21px;
   background-size: 70%;
 }
@@ -2472,7 +2472,7 @@ Ridek Taxi Company! */
   white-space: nowrap;
   font-size: 30px;
   color: #fff;
-  transform: translate(0%, -226%);
+  transform: translate(-16%, -228%);
       margin-left: -34%;
     margin-top: 2%;
 }
@@ -2480,10 +2480,10 @@ Ridek Taxi Company! */
 .section-map button {
   width: 130px;
   height: 50px;
-  margin-top: 96px;
-  transform: translate(-143%);
+  margin-top: 108px;
+  transform: translate(-196%);
   position: relative;
-  /* left: -36px; */
+  top: -24px;
   margin-left: -57%;
 }
 
@@ -2509,8 +2509,10 @@ Ridek Taxi Company! */
   /* margin-right: 156px; */
   font-weight: 600;
   /* left: -15px; */
-  transform: translate(-31%);
-  margin-top: 7%; 
+     transform: translate(-47%);
+     margin-top: 11%;
+     position: relative;
+     top: 13px; 
 }
 
 .class1 {
@@ -2520,10 +2522,10 @@ Ridek Taxi Company! */
 
 /* dòng chữ */
 .col-sm-4 {
-  width: 33.33%;
+  /* width: 33.33%;
   float: center;
   padding: 15px;
-  transform: translate(-20%);
+  transform: translate(-20%); */
   /* margin-right: 190px; */
 }
 
@@ -2545,11 +2547,10 @@ Ridek Taxi Company! */
 /*  */
 /* code css dòng chữ feel jouney */
 .check-list {
-  padding-bottom: 1px;
+  /* padding-bottom: 1px; */
   /* Giữ khoảng cách dưới cùng */
   line-height: 0.2;
-  /* Điều chỉnh khoảng cách giữa các dòng */
-  margin-top: 53px;
+  /* margin-top: 53px; */
 }
 
 /*  */
@@ -3449,7 +3450,7 @@ img {
   left: 0;
   top: 0;
   z-index: 1;
-  pointer-events: none;
+  /* pointer-events: none; */
   /* Để cho phép tương tác với ảnh bên dưới nếu cần */
 }
 
@@ -6696,11 +6697,9 @@ main {
 
 
 .check-list {
-  list-style: none;
-  /* Loại bỏ dấu chấm tròn */
+  /* list-style: none;
   padding: 0;
-  /* Bỏ padding mặc định */
-  margin: 0;
+  margin: 0; */
   /* Bỏ margin mặc định */
 }
 
