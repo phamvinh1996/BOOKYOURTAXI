@@ -380,7 +380,7 @@ p {
   /* thanh menu */
   /* Tạo thanh chọn trên thanh nav */
   .navbar-dark .navbar-toggler {
-    position: relative;
+    /* position: relative; */
     right: 7px;
     top: -117px;
     border: none;
@@ -4339,12 +4339,12 @@ p {
 }
 
 .side-navbar {
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
   display: flex;
   align-items: center;
-  margin-top: -70px;
+  /* margin-top: -13px; */
 }
 
 .side-navbar ul {
@@ -4380,7 +4380,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
 }
@@ -4389,9 +4389,10 @@ p {
   display: none;
   position: fixed;
   width: 100%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 2;
   /* margin-top: -30%; */
+  margin-top: -13%;
 }
 
 .side-navbar.show {
@@ -4420,7 +4421,7 @@ p {
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
-  position: absolute;
+  /* position: absolute; */
   top: 8%;
   left: 241%;
   display: flex;
@@ -4430,6 +4431,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
+  transform: translate(307px, -112px);
 }
 
 
@@ -4459,10 +4461,11 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  transform: translate(442px, 93px);
   /* background-color: white; */
-  margin-left: 623px;
+  /* margin-left: 623px; */
   /* margin-top: -152px; */
-  margin-top: -4%;
+  /* margin-top: -4%; */
 }
 
 .scroll-menu a {
@@ -4494,6 +4497,7 @@ nav.menu {
   margin-top: 73px;
   position: relative;
   left: 290px;
+  top: 164px;
 }
 
 .logo h1 {
@@ -4539,8 +4543,8 @@ main {
 
 /* Kiểu chung cho mục dropdown */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  /* position: relative;
+  display: inline-block; */
 }
 
 /* Nút dropdown */
@@ -4630,8 +4634,8 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
+  transform: translate(10px, -40px);
   /* Kích thước height của icon */
-  margin-top: -39px;
 }
 
 
@@ -4642,11 +4646,12 @@ main {
   width: 30px;
   height: 2px;
   background-color: black;
-  position: relative;
-  top: -116%;
-  left: 183%;
-  margin-left: 586%;
-}
+   position: absolute;
+   left: 183%;
+   margin-left: 216%;
+   margin-top: -125%;
+} 
+
 
 .custom-icon::before,
 .custom-icon::after {
@@ -4675,8 +4680,8 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: 3px;
-  margin-right: -23px;
+  /* margin-top: 3px;
+  margin-right: -23px; */
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
@@ -4784,12 +4789,12 @@ main {
 
 /* nút trên bảng */
 .navbar-toggler {
-  float: right;
-  margin: -3px;
+  /* float: right; */
+  /* margin: -3px; */
   width: 99px;
-  height: 56px;
+  /* height: 56px; */
   color: #f4f4f4;
-  margin-top: 96px;
+  /* margin-top: 96px; */
 }
 
 .navbar-nav {
