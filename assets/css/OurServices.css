@@ -1770,12 +1770,12 @@ margin-right: 29%;
 /*codecss Feel your journey with Ridek màu nền trắng  */
 .new-column {
   background-color: #fff;
-  margin-left: 547%;
+  margin-left: 197%;
   width: 512px;
   height: 351px;
   padding: 99px;
   z-index: -1;
-  margin-top: -185%;
+  margin-top: -33%;
 }
 
 
@@ -1862,10 +1862,12 @@ margin-right: 29%;
 /*  */
 
 .img-car001 {
-  width: 229%;
-  margin-top: -212px;
+  /* width: 229%;
   margin-left: 762px;
-  z-index: -1;
+  z-index: -1; */
+  margin-top: 101%;
+  margin-right: 8%;
+
 }
 
 /* choosee your taxi */
