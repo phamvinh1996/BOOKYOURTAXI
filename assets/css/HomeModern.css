@@ -2485,6 +2485,7 @@ Ridek Taxi Company! */
   position: relative;
   top: -24px;
   margin-left: -57%; */
+  transform: translate(-279px, 10px);
 }
 
 /*  */
@@ -2504,6 +2505,7 @@ Ridek Taxi Company! */
 }
 /*  */
 .ridek1 {
+  transform: translate(-213px, -5px);
   color: black;
   font-size: 16px;
   /* margin-right: 156px; */
@@ -2571,6 +2573,7 @@ Ridek Taxi Company! */
 /*  */
 .section-map {
   text-align: right;
+  position: relative;
 }
 
 .section-people {
@@ -2607,10 +2610,10 @@ Ridek Taxi Company! */
   width: 248%;
   margin-top: -211px;
   margin-left: 410%; */
-  z-index: -1;
+  /* z-index: -1;
   width: 396px;
   margin-left: 413%;
-  margin-top: -130%;
+  margin-top: -130%; */
 }
 
 /* choosee your taxi */
@@ -6911,9 +6914,9 @@ main {
 .new-column {
   background-color: #fff;
   width: 414%;
-  height: 215%;
-  margin-left: 484%;
-  margin-top: -187%;
+  height: 113%;
+  margin-left: 176%;
+  margin-top: -48%;
   padding: 172px;
   z-index: -1;
 
