@@ -2888,12 +2888,13 @@ p {
 }
 
 .side-navbar {
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
   display: flex;
   align-items: center;
-  margin-top: -70px;
+  /* margin-top: -70px; */
+  margin-top: -15%;
 }
 
 .side-navbar ul {
@@ -2929,7 +2930,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
 }
@@ -2938,7 +2939,7 @@ p {
   display: none;
   position: fixed;
   width: 100%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 2;
   /* margin-top: -30%; */
 }
@@ -2979,7 +2980,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  margin-top: -82%;
+  margin-top: -89%;
   margin-left: 158%;
 }
 
@@ -3011,9 +3012,10 @@ nav.menu {
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
   /* background-color: white; */
-  margin-left: 623px;
+  /* margin-left: 623px; */
   /* margin-top: -152px; */
-  margin-top: -4%;
+  /* margin-top: -4%; */
+  transform: translate(473px, 197px);
 }
 
 .scroll-menu a {
@@ -3042,9 +3044,10 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 73px;
+  /* margin-top: 73px;
   position: relative;
-  left: 290px;
+  left: 290px; */
+  transform: translate(305px, 273px);
 }
 
 .logo h1 {
@@ -3081,8 +3084,8 @@ main {
 
 /* Kiểu chung cho mục dropdown */
 .dropdown {
-  position: relative;
-  display: inline-block;
+  /* position: relative;
+  display: inline-block; */
 }
 
 /* Nút dropdown */
@@ -3176,8 +3179,9 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   /* Kích thước height của icon */
-  margin-top: -52px;
-    margin-left: -85%;
+  /* margin-top: -52px; */
+    /* margin-left: -85%; */
+    transform: translate(-43px, -35px);
 }
 
 
@@ -3188,10 +3192,11 @@ main {
   width: 30px;
   height: 2px;
   background-color: black;
-  position: relative;
-  top: -165%;
+   position: absolute;
+  /* top: -165%;
   left: 125%;
-  margin-left: 557%;
+  margin-left: 557%;  */
+  transform: translate(185px, -98px);
 }
 
 .custom-icon::before,
@@ -3221,8 +3226,8 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: 3px;
-  margin-right: -23px;
+  /* margin-top: 3px;
+  margin-right: -23px; */
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
