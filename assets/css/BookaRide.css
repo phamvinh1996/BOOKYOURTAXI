@@ -383,7 +383,7 @@ div#offcanvasDarkNavbar {
 .navbar-dark .navbar-toggler {
   position: relative;
   right: 7px;
-  top: -115px;
+  /* top: -115px; */
   border: none;
   background-color: transparent;
   align-items: center;
@@ -3119,12 +3119,13 @@ p {
 }
 
 .side-navbar {
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
   display: flex;
   align-items: center;
-  margin-top: -70px;
+  /* margin-top: -70px; */
+  margin-top: -19%;
 }
 
 .side-navbar ul {
@@ -3160,7 +3161,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
 }
@@ -3169,7 +3170,7 @@ p {
   display: none;
   position: fixed;
   width: 100%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 2;
   /* margin-top: -30%; */
 }
@@ -3200,7 +3201,7 @@ p {
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
-  position: absolute;
+  /* position: absolute; */
   top: 5%;
   /* Adjust the distance from the top as needed */
   left: 231%;
@@ -3211,6 +3212,8 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
+  transform: translate(263px, -221px);
+
 }
 
 /*  */
@@ -3239,9 +3242,11 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  transform: translate(449px, 206px);
+
   /* background-color: white; */
-  margin-left: 623px;
-  margin-top: -4%;
+  /* margin-left: 623px;
+  margin-top: -4%; */
 }
 
 .scroll-menu a {
@@ -3273,6 +3278,8 @@ nav.menu {
   margin-top: 73px;
   position: relative;
   left: 290px;
+  transform: translate(-37px, 279px);
+
 }
 
 .logo h1 {
@@ -3379,8 +3386,10 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-top: -60px;
-  margin-left: -113%;
+  /* margin-top: -60px;
+  margin-left: -113%; */
+  transform: translate(-43px, -29px);
+
 }
 
 /* code css nút 3 ghạch thanh cuộn */
@@ -3393,6 +3402,8 @@ main {
   top: -123%;
   /* left: 189%; */
   margin-left: 655%;
+  transform: translate(-2px, -107px);
+
 }
 
 .custom-icon::before,
