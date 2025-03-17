@@ -2322,12 +2322,12 @@ p {
 }
 
 .side-navbar {
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
   display: flex;
   align-items: center;
-  margin-top: -70px;
+  /* margin-top: -70px; */
 }
 
 .side-navbar ul {
@@ -2363,7 +2363,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
 }
@@ -2372,9 +2372,10 @@ p {
   display: none;
   position: fixed;
   width: 100%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 2;
   /* margin-top: -30%; */
+  margin-top: -13%;
 }
 
 .side-navbar.show {
@@ -2442,9 +2443,10 @@ nav.menu {
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
   /* background-color: white; */
-  margin-left: 623px;
+  /* margin-left: 623px; */
   /* margin-top: -152px; */
-  margin-top: -4%;
+  /* margin-top: -4%; */
+  transform: translate(480px, 168px);
 }
 
 .scroll-menu a {
@@ -2473,9 +2475,10 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 73px;
+  /* margin-top: 73px; */
   position: relative;
-  left: 290px;
+  /* left: 290px; */
+  transform: translate(279px, 231px);
 }
 
 .logo h1 {
@@ -2592,7 +2595,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -142%;
+  top: -157%;
     margin-left: 614%;
 }
 
