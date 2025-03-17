@@ -1867,7 +1867,7 @@ p {
 }
 
 .side-navbar {
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
   display: flex;
@@ -1908,7 +1908,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 80px;
+  /* height: 80px; */
   background-color: white;
   color: black;
 }
@@ -1917,10 +1917,10 @@ p {
   display: none;
   position: fixed;
   width: 100%;
-  height: 15%;
+  /* height: 15%; */
   z-index: 2;
-  margin-top: -3%;
-  /* margin-top: -30%; */
+  margin-top: -20%;
+  
 }
 
 .side-navbar.show {
@@ -1949,7 +1949,7 @@ p {
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
-  position: absolute;
+  /* position: absolute; */
   top: 7%;
     left: 203%;
   display: flex;
@@ -1959,6 +1959,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
+  transform: translate(267px, -247px);
 }
 
 
@@ -1988,9 +1989,10 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  transform: translate(483px, 248px);
   /* background-color: white; */
-  margin-left: 623px;
-  margin-top: -4%;
+  /* margin-left: 623px; */
+  /* margin-top: -4%; */
   /* margin-top: -152px; */
 }
 
@@ -2022,7 +2024,8 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   margin-top: 73px;
   position: relative;
-  left: 290px;
+  /* left: 290px; */
+  transform: translate(265px, 321px);
 }
 
 .logo h1 {
@@ -2122,8 +2125,11 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-top: -48px;
-  margin-left: -70%;
+  transform: translate(-37px, -28px);
+  /* margin-top: -48px;
+  margin-left: -70%; */
+  /* margin-left: -70%;  */
+
 }
 
 
@@ -2137,7 +2143,8 @@ main {
   position: relative;
   top: -146%;
   /* left: 159%; */
-  margin-left: 584%;
+  /* margin-left: 584%; */
+  transform: translate(200px, -25px);
 }
 
 .custom-icon::before,
@@ -2167,8 +2174,8 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  margin-top: 3px;
-  margin-right: -23px;
+  /* margin-top: 3px;
+  margin-right: -23px; */
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
