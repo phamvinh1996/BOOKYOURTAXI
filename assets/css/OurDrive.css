@@ -377,7 +377,10 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  right: 100px;
+  left: -41px;
+  top: -100px;
+  /* right: 40px;
+  top: -96px; */
   /* top: -103px; */
   border: none;
   background-color: transparent;
@@ -2144,7 +2147,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(345px, 24px);
+  transform: translate(265px, 125px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 584%; */
