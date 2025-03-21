@@ -252,7 +252,7 @@ p {
   align-items: center;
   background-color: #ff9900;
   padding: 10px;
-  width: 30%;
+  width: 42%;
   position: relative;
   top: 43px;
   height: 78px;
@@ -451,8 +451,8 @@ div#offcanvasDarkNavbar {
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
-  transform: skewX(0deg);
-  width: 45%;
+  /* transform: skewX(0deg);
+  width: 45%; */
   height: -8%;
   z-index: 999;
 }
@@ -1943,7 +1943,7 @@ p {
   color: black;
   display: flex;
   align-items: center;
-  /* margin-top: -70px; */
+  margin-top: -3%;
 }
 
 .side-navbar ul {
@@ -1991,7 +1991,7 @@ p {
   /* height: 15%; */
   z-index: 2;
   /* margin-top: -30%; */
-  margin-top: -21%;
+  /* margin-top: -21%; */
 }
 
 .side-navbar.show {
@@ -2013,7 +2013,7 @@ p {
 
 .side-navbar a {
   position: relative;
-  top: 19px;
+  top: 2px;
   color: #222;
   font-weight: 500;
 }
@@ -2030,8 +2030,10 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(256px, -247px);
-
+  /* transform: translate(256px, -247px); */
+  height: 52px;
+  margin-left: -159%;
+  margin-top: 19%;
 }
 
 /*  */
@@ -2051,7 +2053,7 @@ body {
 }
 
 nav.menu {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .scroll-menu {
@@ -2060,11 +2062,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  transform: translate(449px, 246px);
-  /* background-color: white; */
-  /* margin-left: 623px; */
-  /* margin-top: -152px; */
-  /* margin-top: -4%; */
+  margin-top: 7%;
 }
 
 .scroll-menu a {
@@ -2095,8 +2093,9 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   margin-top: 73px;
   position: relative;
-  left: 290px;
-  transform: translate(-37px, 317px);
+  /* left: 290px;
+  transform: translate(-37px, 317px); */
+  transform: translate(326%, -22px);
 }
 
 .logo h1 {
@@ -2119,6 +2118,25 @@ main {
 /*  */
 
 
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
@@ -2217,9 +2235,11 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
+  margin-left: -453%;
+  transform: translate(-508%, 65px);
   /* margin-top: -47px;
   margin-left: -163%; */
-  transform: translate(-43px, -29px);
+  /* transform: translate(-43px, -29px); */
 }
 
 
@@ -2234,7 +2254,9 @@ main {
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 605%; */
-  transform: translate(181px, -94px);
+  /* transform: translate(181px, -94px); */
+  transform: translate(-544%, 69px);
+  margin-left: -478%;
 }
 
 .custom-icon::before,
