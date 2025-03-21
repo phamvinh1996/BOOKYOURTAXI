@@ -6,7 +6,7 @@
     background-color: #eee;
     padding: 10px;
     /* margin-top: -27%; */
-    margin-top: -1%;
+    /* margin-top: -1%; */
   }
   
   .navbar-left {
@@ -250,7 +250,7 @@ p {
     align-items: center;
     background-color: #ff9900;
     padding: 10px;
-    width: 30%;
+    width: 42%;
     position: relative;
     top: 43px;
     height: 78px;
@@ -448,8 +448,8 @@ p {
   
   /* nut css  chinh kich co  thanh nav menu trang chu... */
   .navbar {
-    transform: skewX(0deg);
-    width: 45%;
+    /* transform: skewX(0deg);
+    width: 45%; */
     height: -8%;
     z-index: 999;
   }
@@ -4340,7 +4340,7 @@ p {
 }
 
 .side-navbar {
-  /* height: 80px; */
+  height: 80px;
   background-color: white;
   color: black;
   display: flex;
@@ -4392,8 +4392,9 @@ p {
   width: 100%;
   /* height: 15%; */
   z-index: 2;
+  margin-top: -1%;
   /* margin-top: -30%; */
-  margin-top: -13%;
+  /* margin-top: -13%; */
 }
 
 .side-navbar.show {
@@ -4418,13 +4419,14 @@ p {
   top: 19px;
   color: #222;
   font-weight: 500;
+  margin-top: -33%;
 }
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   /* position: absolute; */
-  top: 8%;
-  left: 241%;
+  /* top: 8%;
+  left: 241%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -4432,7 +4434,11 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(307px, -112px);
+  transform: translate(-360px, 10px);
+    position: relative;
+    left: -130px;
+    height: 52px;
+  /* transform: translate(307px, -112px); */
 }
 
 
@@ -4453,7 +4459,7 @@ body {
 }
 
 nav.menu {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .scroll-menu {
@@ -4462,7 +4468,8 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  transform: translate(442px, 93px);
+  margin-top: -6%;
+  /* transform: translate(442px, 93px); */
   /* background-color: white; */
   /* margin-left: 623px; */
   /* margin-top: -152px; */
@@ -4495,10 +4502,12 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 73px;
+  /* margin-top: 73px; */
   position: relative;
-  left: 290px;
-  top: 164px;
+  /* left: 290px;
+  top: 164px; */
+  left: 67px;
+    transform: translate(329px, 10px);
 }
 
 .logo h1 {
@@ -4632,11 +4641,11 @@ main {
 }
 
 .icon-imgsearch {
+  position: relative;
+  left: -207px;
   width: 80px;
-  /* Kích thước width của icon */
   height: 50px;
-  transform: translate(10px, -40px);
-  /* Kích thước height của icon */
+  transform: translate(-442px, 5px);
 }
 
 
@@ -4648,9 +4657,11 @@ main {
   height: 2px;
   background-color: black;
    position: absolute;
-   left: 183%;
+   /* left: 183%;
    margin-left: 216%;
-   margin-top: -125%;
+   margin-top: -125%; */
+   transform: translate(-319px, 5px);
+   left: -199px;
 } 
 
 
@@ -4725,6 +4736,8 @@ main {
   /* Kích thước chiều ngang của biểu tượng */
   height: 25px;
   /* Kích thước chiều cao */
+  margin-left: -96%;
+  margin-top: -26%;
 }
 
 /* dau 3 ghachj */

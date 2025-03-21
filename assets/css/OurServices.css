@@ -253,7 +253,7 @@ p {
   align-items: center;
   background-color: #ff9900;
   padding: 10px;
-  width: 30%;
+  width: 40%;
   position: relative;
   top: 43px;
   height: 78px;
@@ -376,8 +376,9 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  right: 7px;
-  top: -103px;
+  /* right: 7px;
+  top: -103px; */
+  transform: translate(-497%, -36px);
   border: none;
   background-color: transparent;
   align-items: center;
@@ -444,8 +445,8 @@ div#offcanvasDarkNavbar {
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
-  transform: skewX(0deg);
-  width: 45%;
+  /* transform: skewX(0deg);
+  width: 45%; */
   height: -8%;
   z-index: 999;
 }
@@ -2896,7 +2897,7 @@ p {
   display: flex;
   align-items: center;
   /* margin-top: -70px; */
-  margin-top: -15%;
+  margin-top: -3%;
 }
 
 .side-navbar ul {
@@ -2965,16 +2966,16 @@ p {
 
 .side-navbar a {
   position: relative;
-  top: 19px;
+  top: 3px;
   color: #222;
   font-weight: 500;
 }
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
-  position: absolute;
+  /* position: absolute;
   top: 46%;
-  left: 57%;
+  left: 57%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2982,8 +2983,10 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  margin-top: -89%;
-  margin-left: 158%;
+  height: 52px;
+  transform: translate(-362%, 68px);
+  /* margin-top: -89%; */
+  /* margin-left: 158%; */
 }
 
 
@@ -3004,7 +3007,7 @@ body {
 }
 
 nav.menu {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .scroll-menu {
@@ -3013,11 +3016,12 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  margin-top: 9%;
   /* background-color: white; */
   /* margin-left: 623px; */
   /* margin-top: -152px; */
   /* margin-top: -4%; */
-  transform: translate(473px, 197px);
+  /* transform: translate(473px, 197px); */
 }
 
 .scroll-menu a {
@@ -3046,10 +3050,7 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  /* margin-top: 73px;
-  position: relative;
-  left: 290px; */
-  transform: translate(305px, 273px);
+  transform: translate(389px, 10px);
 }
 
 .logo h1 {
@@ -3180,10 +3181,11 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
+  transform: translate(-733%, 69px);
   /* Kích thước height của icon */
   /* margin-top: -52px; */
     /* margin-left: -85%; */
-    transform: translate(-43px, -35px);
+    /* transform: translate(-43px, -35px); */
 }
 
 
@@ -3198,7 +3200,7 @@ main {
   /* top: -165%;
   left: 125%;
   margin-left: 557%;  */
-  transform: translate(185px, -98px);
+  /* transform: translate(185px, -98px); */
 }
 
 .custom-icon::before,
@@ -3265,7 +3267,18 @@ main {
   height: 25px;
   /* Kích thước chiều cao */
 }
-
+/*  */
+.navbar-toggler-icon {
+  transform: translate(242px, -64px);
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+  background-image: var(--bs-navbar-toggler-icon-bg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
 /* dau 3 ghachj */
 
 .bar {
