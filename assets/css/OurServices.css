@@ -2984,7 +2984,7 @@ p {
   transform: skewX(0deg);
   padding: 12px 30px;
   height: 52px;
-  transform: translate(-362%, 68px);
+  transform: translate(-362%, 73px);
   /* margin-top: -89%; */
   /* margin-left: 158%; */
 }
@@ -3076,7 +3076,7 @@ main {
 
 .side-navbar {
   position: fixed;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 100%;
   height: 15%;
