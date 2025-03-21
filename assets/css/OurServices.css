@@ -3072,14 +3072,31 @@ main {
 }
 /*  */
 
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
 
 
-
-
-
+/*  */
 
 /*code css thanh cuộn  */
 
