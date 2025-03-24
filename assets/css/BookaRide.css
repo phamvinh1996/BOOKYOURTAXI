@@ -251,7 +251,7 @@ p {
   align-items: center;
   background-color: #ff9900;
   padding: 10px;
-  width: 30%;
+  width: 40%;
   position: relative;
   top: 25px;
   height: 78px;
@@ -383,7 +383,7 @@ div#offcanvasDarkNavbar {
 .navbar-dark .navbar-toggler {
   position: relative;
   right: 7px;
-  /* top: -115px; */
+  top: -107px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -450,8 +450,8 @@ div#offcanvasDarkNavbar {
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
-  transform: skewX(0deg);
-  width: 45%;
+  /* transform: skewX(0deg);
+  width: 45%; */
   height: -8%;
   z-index: 999;
 }
@@ -3125,7 +3125,7 @@ p {
   display: flex;
   align-items: center;
   /* margin-top: -70px; */
-  margin-top: -19%;
+  /* margin-top: -19%; */
 }
 
 .side-navbar ul {
@@ -3172,7 +3172,7 @@ p {
   width: 100%;
   /* height: 15%; */
   z-index: 2;
-  /* margin-top: -30%; */
+  margin-top: -3%;
 }
 
 .side-navbar.show {
@@ -3194,7 +3194,7 @@ p {
 
 .side-navbar a {
   position: relative;
-  top: 19px;
+  top: 2px;
   color: #222;
   font-weight: 500;
 }
@@ -3202,9 +3202,9 @@ p {
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   /* position: absolute; */
-  top: 5%;
+  /* top: 5%; */
   /* Adjust the distance from the top as needed */
-  left: 231%;
+  /* left: 231%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -3212,8 +3212,8 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(263px, -221px);
-
+  height: 53px;
+  transform: translate(-372%, 78px);
 }
 
 /*  */
@@ -3233,7 +3233,7 @@ body {
 }
 
 nav.menu {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .scroll-menu {
@@ -3242,11 +3242,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  transform: translate(449px, 206px);
-
-  /* background-color: white; */
-  /* margin-left: 623px;
-  margin-top: -4%; */
+  margin-top: 9%;
 }
 
 .scroll-menu a {
@@ -3275,11 +3271,9 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 73px;
+  /* margin-top: 73px; */
   position: relative;
-  left: 290px;
-  transform: translate(-37px, 279px);
-
+  transform: translate(358%, 19px);
 }
 
 .logo h1 {
@@ -3300,6 +3294,28 @@ main {
 
 }
 /*  */
+
+
+/*  */
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
@@ -3386,9 +3402,8 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  /* margin-top: -60px;
-  margin-left: -113%; */
-  transform: translate(-43px, -29px);
+  margin-left: -509%;
+    transform: translate(-413px, 71px);
 
 }
 
@@ -3399,10 +3414,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -123%;
-  /* left: 189%; */
-  margin-left: 655%;
-  transform: translate(-2px, -107px);
+  margin-left: -685%;
+  transform: translate(-769%, 75px);
 
 }
 
