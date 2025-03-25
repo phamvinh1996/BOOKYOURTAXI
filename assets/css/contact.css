@@ -370,8 +370,8 @@ p {
   }
   /* nut css  chinh kich co  thanh nav menu trang chu... */
   .navbar {
-    transform: skewX(0deg);
-    width: 45%;
+    /* transform: skewX(0deg);
+    width: 45%; */
     height: -8%;
     z-index: 999;
   }
@@ -1470,7 +1470,8 @@ p {
   width: 100%;
   /* height: 15%; */
   z-index: 2;
-  margin-top: -13%;
+  margin-top: -2%;
+
 }
 .side-navbar.show {
   display: block;
@@ -1488,15 +1489,15 @@ p {
 }
 .side-navbar a {
   position: relative;
-  top: 19px;
+  top: 5px;
   color: #222;
   font-weight: 500;
 }
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
   position: absolute;
-  top: 9%;
-  left: 204%;
+  /* top: 9%; */
+  /* left: 204%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1504,6 +1505,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
+  transform: translate(-362px, 68px);
 }
 /*  */
 /* ẩn dòng heft */
@@ -1521,7 +1523,7 @@ body {
   background-color: #f4f4f4;
 }
 nav.menu {
-  flex: 1;
+  /* flex: 1; */
 }
 
 .scroll-menu {
@@ -1533,7 +1535,6 @@ nav.menu {
   /* background-color: white; */
   /* margin-left: 623px;
   margin-top: -4%; */
-  transform: translate(500px, 178px);
 }
 .scroll-menu a {
   text-decoration: none;
@@ -1552,6 +1553,7 @@ nav.menu {
 }
 
 .logo-0 {
+  margin-left: 251%;
   overflow: auto;
   /* Cho phép thanh cuộn xuất hiện nếu cần */
   max-height: 200px;
@@ -1563,7 +1565,6 @@ nav.menu {
   /* margin-top: 73px; */
   position: relative;
   /* left: 290px; */
-  transform: translate(277px, 250px);
 }
 .logo h1 {
   margin: 0;
@@ -1586,6 +1587,27 @@ main {
 
 
 
+
+/*  */
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
@@ -1669,12 +1691,13 @@ main {
   background-color: white;
 }
 .icon-imgsearch {
-  right: -56px;
-  top: 26px;
+  /* right: -56px; */
+  /* top: 26px; */
+  transform: translate(-539px, 70px);
   position: relative;
   width: 80px;
   height: 50px;
-  margin-top: -75px;
+  /* margin-top: -75px; */
 }
 /* code css nút 3 ghạch thanh cuộn */
 .custom-icon {
@@ -1683,9 +1706,10 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  top: -146%;
+  transform: translate(-531px, 55px);
+  /* top: -146%; */
   /* left: 159%; */
-  margin-left: 500%;
+  /* margin-left: 500%; */
 }
 
 .custom-icon::before,
