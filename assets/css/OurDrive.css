@@ -1923,7 +1923,7 @@ p {
   width: 100%;
   /* height: 15%; */
   z-index: 2;
-  margin-top: -3%;
+  margin-top: -1%;
   
 }
 
@@ -1965,7 +1965,7 @@ p {
   padding: 12px 30px;
   width: 128px;
   height: 49px;
-  transform: translate(-325px, 53px);
+  transform: translate(-332px, 65px);
   /* transform: translate(840%, -32px); */
 }
 
@@ -2055,6 +2055,27 @@ main {
 }
 /*  */
 
+/*  */
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
+
 /*code css thanh cuộn  */
 
 
@@ -2134,7 +2155,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -70%;
-  transform: translate(-199px, 49px);
+  transform: translate(-199px, 58px);
   /* transform: translate(617%, 195px);
   margin-left: 526%; */
   /* transform: translate(-37px, -28px); */
@@ -2153,7 +2174,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-292px, -53px);
+  transform: translate(-303px, -46px);
   /* transform: translate(265px, 125px); */
   /* top: -146%; */
   /* left: 159%; */
