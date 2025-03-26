@@ -240,7 +240,7 @@ p {
 /*  */
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
-  left: 11%;
+  left: 3%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -250,7 +250,8 @@ p {
   position: relative;
   top: 43px;
   height: 78px;
-}
+} 
+
 
 /* kich co thanh nav trang chu... */
 .navbar::before {
@@ -289,7 +290,7 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -2px;
+  top: -19px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
@@ -363,8 +364,7 @@ margin-top: -65px; */
   /* top: -201px; */
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
-  margin-left: 257%;
-  transform: translate(313px, -135px);
+  transform: translate(-32%, -170%);
 }
 
 /* nút search  nut tim kiem*/
@@ -436,15 +436,15 @@ margin-top: -65px; */
 
 /* nut css  chinh kich co  thanh nav menu trang chu... */
 .navbar {
-   /* transform: skewX(0deg);
-  width: 59%;  */
+    transform: skewX(0deg);
+  width: 65%;  
   /* height: 10%; */
   z-index: 999;
 }
 /*  */
 .navbar {
   transform: skewX(0deg);
-  width: 59%; /* Chiều rộng là 59% của container hoặc viewport */
+  /* width: 59%; Chiều rộng là 59% của container hoặc viewport */
   box-sizing: border-box; /* Bao gồm cả padding và border trong chiều rộng */
 
 }
@@ -5259,8 +5259,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  margin-left: -608%;
-  transform: translate(-757px, 95px);
+  transform: translate(-578px, 57px);
 }
 
 .custom-icon::before,
