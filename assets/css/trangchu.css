@@ -8,6 +8,7 @@
   margin-top: -66px;
 }
 
+
 .navbar-left {
   flex-grow: 1;
 }
@@ -380,7 +381,7 @@ div#offcanvasDarkNavbar {
 /* Tạo thanh chọn trên thanh nav */
 .navbar-dark .navbar-toggler {
   position: relative;
-  margin: -417%;
+  /* margin: -417%; */
   /* margin-left: 0; */
   top: 43px;
   border: none;
@@ -524,6 +525,7 @@ div#offcanvasDarkNavbar {
 
 .container {
   position: relative;
+  z-index: 9999;
 }
 
 /* code css tạo nút search thanh nav */
@@ -3742,7 +3744,7 @@ p {
 .logo {
   width: 150px;
   height: 150px;
-  /* margin-right: 10px; */
+  margin-right: 21%;
   /* left: -119px; */
   /* top: -57px; */
   position: relative;
@@ -4812,11 +4814,10 @@ img.image-car2 {
   display: flex;
   align-items: center;
   /* margin-top: -70px; */
-  margin-top: -3%;
 }
 
 .side-navbar ul {
-  display: flex;
+  /* display: flex; */
   list-style: none;
   margin: 0;
   padding: 0;
@@ -4848,15 +4849,16 @@ img.image-car2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 138px;
+  /* height: 138px; */
   background-color: white;
   color: black;
+  margin-top: 5%;
 }
 
 .side-navbar {
   display: none;
-  position: fixed;
-  width: 100%;
+  /* position: fixed; */
+  width: 100%
   z-index: 2;
 }
 
@@ -4886,7 +4888,7 @@ img.image-car2 {
 
 /* mục liện hệ  THANH CUỘN*/
 .contact-nav111 {
-  position: absolute;
+  /* position: absolute; */
   /* top: 13%;
   left: 269%; */
   display: flex;
@@ -4896,7 +4898,9 @@ img.image-car2 {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-230%, 30px);
+  transform: translate(-133px, 26px);
+    height: 52px;
+  /* transform: translate(-230%, 30px); */
 }
 
 /* code css thanh cuộn dấu 3 ghạch */
@@ -6999,7 +7003,7 @@ nav.menu {
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
-  position: relative;
+  /* position: relative; */
   margin-left: 208%;
   margin-top: 39%;}
 
@@ -7037,7 +7041,7 @@ main {
 /* nút làm ẩn thanh cuộn ngang */
 
 .side-navbar {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   left: 0;
   width: 100%;
@@ -7065,8 +7069,10 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-left: -475%;
-  transform: translate(-429px, 10px);
+  margin-left: -200%;
+  transform: translate(-296%,10px);
+  /* margin-left: -475%;
+  transform: translate(-429px, 10px); */
 }
 
 /* code css nút 3 ghạch thanh cuộn */
@@ -7077,6 +7083,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
+  margin-left: -189%;
+  transform: translate(10px, -6px);
   /* top: -60px;
   left: 214px; */
 }
@@ -7440,5 +7448,56 @@ main {
 
 
 
+/*  */
 
 
+
+
+
+
+
+
+
+
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  background-color: white;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 999;
+  opacity: 0;
+}
+.header{
+  top: -100px;
+  opacity: 1;
+}
+
+
+
+
+
+
+/* Khi header bị ẩn */
+.header.hidden {
+  top: -100px; /* Đẩy header lên khỏi màn hình */
+  opacity: 0; /* Đặt độ trong suốt thành 0 (ẩn) */
+}
+ 
+ #nav-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  transition: top 0.3s ease-in-out;
+  z-index: 1;
+  margin-top: 0;
+}   
+
+.show {
+  top: 0; 
+} 

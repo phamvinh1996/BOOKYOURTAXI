@@ -163,3 +163,35 @@ document.getElementById('navbar-toggler').addEventListener('click', function() {
 
 /*  */
 
+
+// let lastScrollTop = 0;
+// const navbar = document.getElementById("nav-scroll");
+
+// window.addEventListener("scroll", function () {
+//   let currentScroll = window.scrollY;
+
+//   if (currentScroll > lastScrollTop) {
+    // Cuộn xuống -> Ẩn header
+  //   navbar.style.top = "100px";
+  // } else {
+    // Cuộn lên -> Hiển thị header
+//     navbar.style.top = "0";
+//   }
+//   lastScrollTop = currentScroll;
+// });
+
+
+let lastScrollTop = 0;
+
+window.addEventListener("scroll", function () {
+  let navbar = document.getElementById("nav-scroll");
+  let currentScroll = window.scrollY;
+
+  if (currentScroll > lastScrollTop && currentScroll > 250) {
+    navbar.classList.add("show"); // Hiện navbar khi cuộn xuống
+  } else if (currentScroll <= 50) {
+    navbar.classList.remove("show"); // Ẩn navbar khi quay về đầu trang
+  }
+
+  lastScrollTop = currentScroll;
+});
