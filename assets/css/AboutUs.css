@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
   /* margin-top: -27%; */
 }
 
@@ -4111,7 +4111,56 @@ p {
 }
 
 
-/*  */
+/* thanh cuon 1 */
+.logo {
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  /* left: -119px; */
+  /* top: -57px; */
+  position: relative;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%; */
+  background-color: white;
+  transition: top 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  z-index: 999;
+  opacity: 0;
+}
+.header{
+  top: -100px;
+  opacity: 1;
+}
+
+
+
+
+
+
+/* Khi header bị ẩn */
+.header.hidden {
+  top: -100px; /* Đẩy header lên khỏi màn hình */
+  opacity: 0; /* Đặt độ trong suốt thành 0 (ẩn) */
+}
+ 
+ #nav-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  transition: top 0.3s ease-in-out;
+  z-index: 1;
+  margin-top: 0;
+}   
+
+.show {
+  top: 0; 
+} 
 
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
@@ -4228,8 +4277,10 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  margin-left: -87%;
-  transform: translate(-127%, 10px);
+  /* margin-left: -87%;
+  transform: translate(-127%, 10px); */
+  height: 52px;
+  transform: translate(-344px, 20px);
 }
 
 
@@ -4290,8 +4341,10 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  margin-left: 148%;
-  transform: translate(158px, 10px);
+  /* margin-left: 148%;
+  transform: translate(158px, 10px); */
+  margin-left: 249%;
+  margin-top: 41%;
 }
 
 .logo h1 {
@@ -4331,8 +4384,9 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-left: -470%;
-  transform: translate(-272%, 15px);
+  transform: translate(-379px, 16px);
+  /* margin-left: -470%;
+  transform: translate(-272%, 15px); */
   
 }
 
@@ -4449,8 +4503,9 @@ main {
   height: 2px;
   background-color: black;
   position: absolute;
-  margin-left: -187%;
-  transform: translate(-233px, 15px);
+  /* margin-left: -187%;
+  transform: translate(-233px, 15px); */
+  transform: translate(-314px, 13px);
 }
 
 .custom-icon::before,

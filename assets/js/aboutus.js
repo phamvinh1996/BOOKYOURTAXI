@@ -57,3 +57,25 @@ $(document).ready(function () {
   
   
     /*  */
+
+
+
+
+
+    /* code thanh cuộn */
+    
+
+let lastScrollTop = 0;
+
+window.addEventListener("scroll", function () {
+  let navbar = document.getElementById("nav-scroll");
+  let currentScroll = window.scrollY;
+
+  if (currentScroll > lastScrollTop && currentScroll > 250) {
+    navbar.classList.add("show"); // Hiện navbar khi cuộn xuống
+  } else if (currentScroll <= 50) {
+    navbar.classList.remove("show"); // Ẩn navbar khi quay về đầu trang
+  }
+
+  lastScrollTop = currentScroll;
+});
