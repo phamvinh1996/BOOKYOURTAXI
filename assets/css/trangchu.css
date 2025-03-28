@@ -6992,6 +6992,14 @@ nav.menu {
   border-radius: 5px;
   color: #000;
 }
+/* thanh cuộn */
+.logo{
+
+width: 150px;
+height: 150px;
+margin-right: 21%;
+position: relative;
+}
 
 .logo-0 {
   overflow: auto;
