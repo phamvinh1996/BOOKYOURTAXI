@@ -7071,9 +7071,10 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -200%;
-  transform: translate(421%,10px);
+  /* transform: translate(421%,10px); */
   /* margin-left: -475%;
   transform: translate(-429px, 10px); */
+  transform: translate(-412%, 10%);
 }
 
 /* code css nút 3 ghạch thanh cuộn */
