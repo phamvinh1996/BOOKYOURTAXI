@@ -7461,16 +7461,6 @@ main {
 /*  */
 
 
-
-
-
-
-
-
-
-
-
-
 .header {
   position: fixed;
   top: 0;
@@ -7485,10 +7475,6 @@ main {
   top: -100px;
   opacity: 1;
 }
-
-
-
-
 
 
 /* Khi header bị ẩn */

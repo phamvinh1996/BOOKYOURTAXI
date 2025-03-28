@@ -124,92 +124,94 @@
   <!--  -->
   <!--  code html thanh cuộn-->
   <header>
-    <nav class="side-navbar show" id="nav-scroll" style="display: flex;
-    justify-content: space-between;">
-      <div class="logo">
-        <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo-0">
-      </div>
-  <nav class="menu">
-    <div class="header-menu-wrap">
-        <div class="scroll-menu"> 
-            <!-- Mục menu chính -->
+    <div class="container"> 
+      <nav class="side-navbar show" id="nav-scroll"
+       style="display: flex; justify-content: space-between; align-items: center;"> 
+       <!-- Phần logo -->
+       <div class="logo">
+         <img src="https://html.dynamiclayers.net/dl/ridek/assets/img/logo-dark.png" alt="Logo" class="logo-0">
+       </div>
+         <nav class="menu">
+           <div class="header-menu-wrap">
+             <div class="scroll-menu">
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle">Home</a>
+                 <div class="dropdown-content">
+                   <a href="./index.html">Home Default</a>
+                   <a href="./HomeModern.html">Home Modern</a>
+                   <a href="#">Service 3</a>
+                 </div>
+               </div>
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle">Company</a>
+                 <div class="dropdown-content">
+                   <a href="./AboutUs.html">About Us</a>
+                   <a href="./AboutCompany.html">About Company</a>
+                   <a href="./OurServices.html">Our Services</a>
+                   <a href="./Servicedetail.html">Services Details</a>
+                   <a href="./BookaRide.html">Book a Ride</a>
+                 </div>
+               </div>
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle">Taxi</a>
+                 <div class="dropdown-content">
+                   <a href="./TaxiList.html">Taxi List</a>
+                   <a href="./TaxiDetails.html">Taxi Details</a>
+                 </div>
+               </div>
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle">Pages</a>
+                 <div class="dropdown-content">
+                   <a href="./OurDrive.html">Our Drive</a>
+                   <a href="./DriveDetail.html">Drive Detail</a>
+                   <a href="./CustomerRivew.html">Customer Review</a>
+                   <a href="./Help&Faq's.html">Help & Faq's</a>
+                   <a href="./Erro.html">Error</a>
+                 </div>
+               </div>
+               <div class="dropdown">
+                 <a href="#" class="dropdown-toggle">Blog</a>
+                 <div class="dropdown-content">
+                   <a href="./Gridpost.html">Grid Post</a>
+                   <a href="./classicpost.html">Classic Post</a>
+                   <a href="./BlogDetail.html">Blog Details</a>
+                 </div>
+               </div>
+             </div>
+           </div>
+         </nav>
+       <div class="menu-right-item" style="    display: flex; margin-left: 13%;">
 
-             <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Home</a>
-                <div class="dropdown-content">
-                    <a href="./index.html">Home Default</a>
-                    <a href="./HomeModern.html">Home Modern</a>
-                    <a href="#">Service 3</a>
-                </div>
-            </div> 
-            <!-- Các mục khác trên menu -->
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Company</a>
-                <div class="dropdown-content">
-                    <a href="./AboutUs.html">About Us</a>
-                    <a href="./AboutCompany.html">About Company</a>
-                    <a href="./OurServices.html">Our Services</a>
-                    <a href="./Servicedetail.html">Services Details</a>
-                    <a href="./BookaRide.html">Book a Ride</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Taxi</a>
-                <div class="dropdown-content">
-                    <a href="./TaxiList.html">Taxi List</a>
-                    <a href="./TaxiDetails.html">Taxi Details</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Pages</a>
-                <div class="dropdown-content">
-                    <a href="./OurDrive.html">Our Drive</a>
-                    <a href="./DriveDetail.html">Drive Detail</a>
-                    <a href="./CustomerRivew.html">Customer Review</a>
-                    <a href="./Help&Faq's.html">Help & Faq's</a>
-                    <a href="./Erro.html">Error</a>
-                </div>
-            </div>
-            <div class="dropdown">
-                <a href="#" class="dropdown-toggle">Blog</a>
-                <div class="dropdown-content">
-                    <a href="./Gridpost.html">Grid Post</a>
-                    <a href="./classicpost.html">Classic Post</a>
-                    <a href="./BlogDetail.html">Blog Details</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-</div>
-  <div class="menu-right-item" style="display: flex;">
-    <div class="button-container">
-          <button type="button" class="btn btn-icon" data-toggle="modal" data-target="#myModal">
-              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg" alt="Search Icon" class="icon-imgsearch">
-          </button>
-      </div>
-      <nav class="navbar navbar-dark navbar-colright1">
-          <div class="container-fluid">
-              <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                  <span class="custom-icon"></span>
-              </button>
-          </div>
-      </nav>
-      <div class="contact-nav111">
-          <a href="./contact.html" class="text-white">Book a Taxi</a>
-      </div>
-  </div>
-  </header>
-  <script>
-    window.addEventListener('scroll', function () {
-      var navbar = document.getElementById('nav-scroll');
-      if (window.scrollY > 250) {
-        navbar.classList.add('show');
-      } else {
-        navbar.classList.remove('show');
-      }
-    });
-  </script>
+         <div class="button-container">
+           <button type="button" class="btn btn-icon" data-toggle="modal" data-target="#myModal">
+             <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Search_Icon.svg" alt="Search Icon"
+               class="icon-imgsearch">
+           </button>
+         </div>
+         <nav class="navbar navbar-dark navbar-colright1">
+           <div class="container-fluid">
+             <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="offcanvas"
+               data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+               aria-label="Toggle navigation">
+               <span class="custom-icon"></span>
+             </button>
+           </div>
+         </nav>
+         <div class="contact-nav111">
+           <a href="./contact.html" class="text-white">Book a Taxi</a>
+         </div>
+       </div>
+ </header>
+ <script>
+   window.addEventListener('scroll', function () {
+     var navbar = document.getElementById('nav-scroll');
+     if (window.scrollY > 250) {
+       navbar.classList.add('show');
+     } else {
+       navbar.classList.remove('show');
+     }
+   });
+ </script>
   <!-- tạo lien tinh oto -->
   <div class="header-top">
     <div class="navbar-left">
