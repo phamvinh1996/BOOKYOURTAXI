@@ -2032,8 +2032,8 @@ p {
   padding: 12px 30px;
   /* transform: translate(256px, -247px); */
   height: 52px;
-  margin-left: -159%;
   margin-top: 19%;
+  margin-left: -90%;
 }
 
 /*  */
@@ -2081,7 +2081,14 @@ nav.menu {
   border-radius: 5px;
   color: #000;
 }
+/* thanh cuộn */
+.logo{
 
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 .logo-0 {
   overflow: auto;
   /* Cho phép thanh cuộn xuất hiện nếu cần */
@@ -2091,11 +2098,9 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 73px;
   position: relative;
-  /* left: 290px;
-  transform: translate(-37px, 317px); */
-  transform: translate(326%, -22px);
+  margin-top: 43%;
+    margin-left: 200%;
 }
 
 .logo h1 {
@@ -2235,7 +2240,6 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-left: -453%;
   transform: translate(-508%, 65px);
   /* margin-top: -47px;
   margin-left: -163%; */
@@ -2255,8 +2259,8 @@ main {
   /* left: 159%; */
   /* margin-left: 605%; */
   /* transform: translate(181px, -94px); */
-  transform: translate(-544%, 69px);
-  margin-left: -478%;
+  transform: translate(-593%, 67px);
+  margin-left: -126%;
 }
 
 .custom-icon::before,
