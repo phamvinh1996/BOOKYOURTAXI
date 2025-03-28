@@ -4898,7 +4898,7 @@ img.image-car2 {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-133px, 26px);
+  transform: translate(-265px, 26px);
     height: 52px;
   /* transform: translate(-230%, 30px); */
 }
@@ -7004,7 +7004,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   /* position: relative; */
-  margin-left: 208%;
+  margin-left: 241%;
   margin-top: 39%;
 }
 
@@ -7071,7 +7071,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -200%;
-  transform: translate(-296%,10px);
+  transform: translate(421%,10px);
   /* margin-left: -475%;
   transform: translate(-429px, 10px); */
 }
@@ -7085,7 +7085,7 @@ main {
   background-color: black;
   position: relative;
   margin-left: -189%;
-  transform: translate(10px, -6px);
+  transform: translate(-110px, -6px);
   /* top: -60px;
   left: 214px; */
 }
