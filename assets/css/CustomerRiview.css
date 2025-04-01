@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #eee;
     padding: 10px;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   
   .navbar-left {
@@ -1605,7 +1605,7 @@ Our passengers reviews */
     left: 522px;
     color: #ccc;
     font-family: "Space Grotesk", sans-serif;
-    top: -53px;
+    top: -197px;
     left: 256px;
     font-size: 18px;
   }
@@ -1913,7 +1913,7 @@ Our passengers reviews */
     width: 100%;
     overflow: hidden;
     position: absolute;
-    top: 83%;
+    top: 88%;
     z-index: 2;
   }
   
@@ -2162,7 +2162,7 @@ Our passengers reviews */
     transform: skewX(0deg);
     padding: 12px 30px;
     height: 52px;
-    transform: translate(-317%, 140%);
+    transform: translate(-231%, 140%);
     /* transform: translate(285px, -256px); */
   }
   
@@ -2221,7 +2221,7 @@ margin-top: -4%; */
     height: 50px;
     /* margin-top: 73px; */
     position: relative;
-    transform: translate(391px, 10px);
+    transform: translate(391px, 68px);
     /* left: 290px; */
     /* transform: translate(267px, 316px); */
   }
@@ -2252,6 +2252,26 @@ margin-top: -4%; */
   
 
   /*  */
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 /*  */
 /* nút làm ẩn thanh cuộn ngang */
@@ -2352,7 +2372,7 @@ margin-top: -4%; */
   .icon-imgsearch {
     width: 80px;
     height: 50px;
-    transform: translate(-597px, 63px);
+    transform: translate(-421px, 63px);
   }
   
   
@@ -2364,7 +2384,7 @@ margin-top: -4%; */
     height: 2px;
     background-color: black;
     position: relative;
-    transform: translate(-466px, -38px);
+    transform: translate(-317px, -38px);
     /* left: 159%; */
     /* transform: translate(225px, -40px); */
   }
@@ -2412,7 +2432,14 @@ margin-top: -4%; */
   
   /*  */
   
-  
+  /* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
   
   /* thanh cuộn */
   
