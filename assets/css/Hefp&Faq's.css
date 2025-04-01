@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
 }
 
 .navbar-left {
@@ -1431,7 +1431,7 @@ Questions!  */
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
   top: -53px;
-  left: 256px;
+  left: -203px;
   font-size: 18px;
 }
 
@@ -1931,6 +1931,14 @@ p {
 
 
 /*  */
+/* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 .scroll-navbar {
@@ -2046,7 +2054,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-452px, 75px);
+  transform: translate(-77px, 83px);
 }
 
 
@@ -2112,7 +2120,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  transform: translate(356px, 10px);
+  transform: translate(356px, 68px);
   /* transform: translate(287px, 233px); */
 }
 
@@ -2135,6 +2143,27 @@ main {
 }
 
 /*  */
+
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 /*  */
@@ -2240,7 +2269,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-645px, 80px);
+  transform: translate(-264px, 91px);
   /* margin-top: -35px; */
 }
 
@@ -2253,7 +2282,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-630px, 61px);
+  transform: translate(-250px, 71px);
   /* top: -146%;
   margin-left: 560%; */
 }
