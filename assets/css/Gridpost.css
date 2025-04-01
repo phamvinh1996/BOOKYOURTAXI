@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #eee;
     padding: 10px;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   
   .navbar-left {
@@ -1891,7 +1891,7 @@ top: 1px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
   top: -53px;
-  left: 256px;
+  left: -199px;
   font-size: 18px;
 }
 
@@ -2393,7 +2393,14 @@ p {
 
 
 /*  */
+/* thanh cuộn */
+.logo{
 
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 
@@ -2506,7 +2513,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-389px, 89px);
+  transform: translate(-128px, 89px);
 }
 
 
@@ -2568,7 +2575,7 @@ nav.menu {
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
   position: relative;
-  transform: translate(384px, 23px);
+  transform: translate(384px, 75px);
 }
 
 .logo h1 {
@@ -2597,6 +2604,26 @@ main {
 }
 /*  */
 
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
@@ -2700,8 +2727,8 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  transform: translate(-686px, 79px);
-  /* Kích thước height của icon */
+  transform: translate(-417px, 77px);
+    /* Kích thước height của icon */
   
 }
 
@@ -2714,7 +2741,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-553px, 75px);
+  transform: translate(-293px, 75px);
   /* left: 190%; */
 }
 
