@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
 }
 .navbar-left {
   flex-grow: 1;
@@ -1193,7 +1193,7 @@ element.style {}
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -197px;
   left: 256px;
   font-size: 18px;
 }
@@ -1557,7 +1557,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 89%;
   z-index: 2;
 }
 
@@ -1692,6 +1692,14 @@ p {
   font-family: "Space Grotesk", sans-serif;
 }
 /*  */
+/* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 .scroll-navbar {
@@ -1809,7 +1817,7 @@ p {
   padding: 12px 30px;
   height: 53px;
   margin-top: 4%;
-  margin-left: -20%;
+  margin-left: -7%;
 }
 
 /*  */
@@ -1869,7 +1877,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  transform: translate(437px, 13px);
+  transform: translate(437px, 69px);
   /* left: 290px; */
   /* transform: translate(253px, 237px); */
 }
@@ -1893,6 +1901,26 @@ main {
 }
 /*  */
 
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 /*  */
 /* nút làm ẩn thanh cuộn ngang */
@@ -1999,7 +2027,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-547px, 82px);
+  transform: translate(-301px, 86px);
   /* margin-top: -37px; */
 }
 
@@ -2012,7 +2040,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-542px, 66px);
+  transform: translate(-291px, 71px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 670%; */
