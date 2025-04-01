@@ -2594,7 +2594,7 @@ Ridek Taxi Company! */
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -199px;
   left: 256px;
   font-size: 18px;
 }
@@ -3096,7 +3096,14 @@ p {
 
 
 /*  */
+/* thanh cuộn */
+.logo{
 
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 
@@ -3213,7 +3220,7 @@ p {
   transform: skewX(0deg);
   padding: 12px 30px;
   height: 53px;
-  transform: translate(-375%, 65px);
+  transform: translate(-227%, 65px);
   /* transform: translate(253px, -255px); */
 }
 
@@ -3282,7 +3289,7 @@ nav.menu {
   position: relative;
   /* left: 290px; */
   /* transform: translate(9px, 309px); */
-  transform: translate(356%, 10%);
+  transform: translate(356%,108%);
 }
 
 .logo h1 {
@@ -3306,6 +3313,25 @@ main {
 /*  */
 
 
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 /*  */
 /* nút làm ẩn thanh cuộn ngang */
@@ -3414,7 +3440,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -457%;
-    transform: translate(-556%, 59px);
+  transform: translate(-283%, 59px);
   /* transform: translate(-31px, -35px); */
   /* margin-top: -52px; */
   /* margin-left: -64%; */
@@ -3429,8 +3455,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-517%, 49px);
-  margin-left: -847%;
+  transform: translate(316%, 49px);
+  margin-left: -920%;
   /* transform: translate(192px, -104px); */
   /* top: -157%;
   margin-left: 720%; */
