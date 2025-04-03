@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
   /* margin-top: -9%; */
 }
 .navbar-left {
@@ -1744,7 +1744,7 @@ textarea.form-control {
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -195px;
   left: 256px;
   font-size: 18px;
 }
@@ -2073,7 +2073,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 86%;
+  top: 89%;
   z-index: 2;
 }
 .icon-car img {
@@ -2196,6 +2196,14 @@ p {
   font-family: "Space Grotesk", sans-serif;
 }
 /*  */
+/* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 .scroll-navbar {
@@ -2304,7 +2312,7 @@ transform: translate(10%, 10%);
   transform: skewX(0deg);
   padding: 12px 30px;
   margin-top: 4%;
-  margin-left: -18%;
+  margin-left: -6%;
 }
 /*  */
 /* ẩn dòng heft */
@@ -2355,7 +2363,7 @@ nav.menu {
 }
 
 .logo-0 {
-  transform: translate(371px, 10px);
+  transform: translate(371px, 73px);
   overflow: auto;
   /* Cho phép thanh cuộn xuất hiện nếu cần */
   max-height: 200px;
@@ -2383,6 +2391,26 @@ main {
 }
 
 /*  */
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 /*code css thanh cuộn  */
 
@@ -2483,7 +2511,7 @@ main {
 }
 .icon-imgsearch {
   margin-left: -257%;
-  transform: translate(-437px, 82px);
+  transform: translate(-188px, 91px);
   /* right: -51px; */
   /* top: 10px; */
   position: relative;
@@ -2498,7 +2526,7 @@ main {
   background-color: black;
   position: relative;
   margin-left: -295%;
-    transform: translate(-253px, 62px);
+    transform: translate(-17px, 69px);
   /* left: 159%; */
 }
 
