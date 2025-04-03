@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -4%;
+  margin-top: -2%;
   /* margin-top: -23px; */
 }
 
@@ -3414,7 +3414,7 @@ img {
 
 .container {
   margin: 0 auto; /* Giúp căn giữa container */
-  padding: 20px; /* Thêm khoảng cách bên trong */
+  /* padding: 20px; Thêm khoảng cách bên trong */
 }
 
 .row {
@@ -4407,11 +4407,10 @@ p {
 
 .description {
   position: relative;
-  top: 25px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -191px;
   left: 256px;
 }
 
@@ -4753,7 +4752,7 @@ button {
 
 /* màu chữ 123web footer */
 .footer-text {
-  top: 5px;
+  top: -18px;
   position: relative;
   color: white;
   text-align: center;
@@ -4771,7 +4770,7 @@ footer {
   align-items: flex-end;
   width: 100%;
   overflow: hidden;
-  top: 510px;
+  top: 572px;
   position: absolute;
   z-index: 2;
 }
@@ -7040,7 +7039,7 @@ position: relative;
  
  #nav-scroll {
   position: fixed;
-  top: 0;
+  top: -30px;
   left: 0;
   width: 100%;
   background-color: white;
