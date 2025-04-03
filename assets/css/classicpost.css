@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
 }
 
 .navbar-left {
@@ -1803,7 +1803,7 @@ with Ridek! */
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
   top: -53px;
-  left: 256px;
+  left: -130px;
   font-size: 18px;
 }
 
@@ -2300,6 +2300,14 @@ p {
 }
 
 /*  */
+/* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 15%;
+  position: relative;
+  }
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 .scroll-navbar {
@@ -2415,7 +2423,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-490px, 78px);
+  transform: translate(-140px, 78px);
 }
 
 /*  */
@@ -2479,7 +2487,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  transform: translate(377px, 10px);
+  transform: translate(303px, 65px);
   /* left: 290px; */
 }
 
@@ -2501,6 +2509,27 @@ main {
 }
 /*  */
 
+
+
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 /*  */
@@ -2606,8 +2635,8 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  transform: translate(-779px, 65px);
-  /* margin-top: -33px;
+  transform: translate(-416px, 68px);
+    /* margin-top: -33px;
   margin-left: -139%; */
 }
 
@@ -2618,7 +2647,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-658px, 66px);
+  transform: translate(-301px, 66px);
 }
 
 .custom-icon::before,
