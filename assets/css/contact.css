@@ -5,7 +5,7 @@
     align-items: center;
     background-color: #eee;
     padding: 10px;
-    margin-top: -1%;
+    margin-top: -2%;
   }
   .navbar-left {
     flex-grow: 1;
@@ -919,7 +919,7 @@ font-size: 17px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -196px;
   left: 256px;
   font-size: 18px;
 }
@@ -1274,7 +1274,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 86%;
+  top: 89%;
   z-index: 2;
 }
 .icon-car img {
@@ -1505,7 +1505,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-362px, 68px);
+  transform: translate(-151px, 69px);
 }
 /*  */
 /* ẩn dòng heft */
@@ -1553,6 +1553,7 @@ nav.menu {
 }
 
 .logo-0 {
+  margin-top: 43%;
   margin-left: 251%;
   overflow: auto;
   /* Cho phép thanh cuộn xuất hiện nếu cần */
@@ -1585,6 +1586,25 @@ main {
 
 /*  */
 
+/* nút làm ẩn thanh cuộn ngang */
+
+.side-navbar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  width: 100%;
+  height: 15%;
+  z-index: 10;
+  color: #fff;
+  padding: 10px;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Khi thêm class "show" vào sẽ hiện thanh navbar */
+.side-navbar.show {
+  transform: translateY(0);
+}
 
 
 
@@ -1616,7 +1636,14 @@ main {
 
 /*code css thanh cuộn  */
 
+/* thanh cuộn */
+.logo{
 
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
 
 /* Kiểu chung cho mục dropdown */
 .dropdown {
@@ -1693,7 +1720,7 @@ main {
 .icon-imgsearch {
   /* right: -56px; */
   /* top: 26px; */
-  transform: translate(-539px, 70px);
+  transform: translate(-312px, 77px);
   position: relative;
   width: 80px;
   height: 50px;
@@ -1706,7 +1733,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-531px, 55px);
+  transform: translate(-309px, 59px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 500%; */
