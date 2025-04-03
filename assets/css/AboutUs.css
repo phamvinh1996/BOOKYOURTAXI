@@ -3604,11 +3604,10 @@ a {
 
 .description {
   position: relative;
-  top: 25px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -195px;
   left: 256px;
   font-size: 18px;
 }
@@ -3774,7 +3773,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -21px;
+  top: -158px;
 }
 
 .address-text {
