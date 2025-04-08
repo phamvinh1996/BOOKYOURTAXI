@@ -2207,7 +2207,16 @@ button {
   position: relative;
   top: -8px;
 }
-
+.form-row {
+  display: -ms-flexbox;
+  display: flex
+;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* margin-right: -5px; */
+  /* margin-left: -5px; */
+  margin-top: 1%;
+}
 /* button đặt xe nhanh */
 /* màu button */
 .sumit1 {
@@ -4575,14 +4584,14 @@ img.image-car2 {
 }
 
 .choose-your-taxi h1 {
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
 .choose-your-taxi .chooseetaxi1 {
   color: #666;
   max-width: 50%;
   text-align: center;
-  margin: 0 auto 45px auto;
+  margin: 0 auto 96px auto;
   position: relative;
   top: -11px;
 }
@@ -4590,8 +4599,8 @@ img.image-car2 {
 .choose-your-taxi .chooseetaxi2 {
   font-weight: 700;
   font-size: 40px;
-  position: relative;
-  top: 6px;
+  /* position: relative;
+  top: 6px; */
 }
 
 .choose-your-taxi .nav-pills {
@@ -4729,7 +4738,7 @@ img.image-car2 {
   line-height: 24px;
   padding: 11px 16px;
   position: relative;
-  top: 17px;
+  top: 2px;
   color: #fff;
   font-weight: 500;
   left: 0px;
