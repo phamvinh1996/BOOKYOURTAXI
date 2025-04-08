@@ -4587,15 +4587,20 @@ img.image-car2 {
   /* margin-bottom: 24px; */
 }
 
-.choose-your-taxi .chooseetaxi1 {
+/* .choose-your-taxi .chooseetaxi1 {
   color: #666;
   max-width: 50%;
   text-align: center;
   margin: 0 auto 96px auto;
   position: relative;
   top: -11px;
+} */
+.choose-your-taxi .chooseetaxi1 {
+  color: #666;
+  text-align: center;
+  max-width: 50%;
+  transform: translate(51%, 10px);
 }
-
 .choose-your-taxi .chooseetaxi2 {
   font-weight: 700;
   font-size: 40px;
@@ -4607,6 +4612,7 @@ img.image-car2 {
   justify-content: center;
   position: relative;
   top: -17px;
+  margin-top: 6%;
 }
 
 /*  */
