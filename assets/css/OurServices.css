@@ -2363,11 +2363,10 @@ margin-right: 29%;
 
 .description {
   position: relative;
-  top: 25px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -192px;
   left: 256px;
   font-size: 18px;
 }
@@ -2731,7 +2730,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 88%;
   z-index: 2;
 }
 
