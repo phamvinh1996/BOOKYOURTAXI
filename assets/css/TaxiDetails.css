@@ -1407,10 +1407,11 @@ img.image-car2 {
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service {
   position: relative;
-  bottom: 140px;
+  /* bottom: 140px; */
   z-index: 1;
+  transform: translate(10px, -101px);
   /* top: -950px; */
-  margin-top: -13%;
+  /* margin-top: -13%; */
   /* top: 1px; */
 }
 
@@ -1723,7 +1724,7 @@ img.image-car2 {
 /* carrt anhr chen anh banner dich vu noi bat */
 .cart-service {
   position: relative;
-  bottom: 140px;
+  /* bottom: 140px; */
   z-index: 1;
   /* top: -950px; */
 }
@@ -2213,13 +2214,12 @@ Ridek Taxi Company! */
 
 /*  */
 /*CODE CSS CARD START JONEY  */
-.container.cart-service {
+/* .container.cart-service {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 20px;
-  /* Adjust spacing between cards as needed */
-}
+} */
 
 .container.cart-service .card {
   flex: 1 1 calc(33.33% - 20px);
@@ -2240,12 +2240,12 @@ Ridek Taxi Company! */
   overflow: hidden;
   margin: 21px;
   padding: 0;
-  margin-top: 19%;
+  /* margin-top: 19%; */
 }
 /*  */
 .container.cart-service {
   position: relative;
-  top: -51px;
+  /* top: -51px; */
 }
 
 .new1-container {
@@ -2486,7 +2486,7 @@ Ridek Taxi Company! */
 /* Hình cắt bên trái Start Your Jouney */
 .slick-next.slick-arrow {
   position: absolute;
-  top: 59%;
+  top: 52%;
   transform: translateY(-50%);
   width: 55px;
   height: 56px;
@@ -2514,7 +2514,7 @@ Ridek Taxi Company! */
   clip-path: polygon(0 0, 100% 50%, 0 100%);
   cursor: pointer;
   position: absolute;
-  top: 55%;
+  top: 46%;
 }
 
 .slick-prev.slick-arrow:before {
@@ -2959,7 +2959,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 87%;
   z-index: 2;
 }
 
