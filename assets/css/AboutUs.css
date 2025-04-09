@@ -1388,9 +1388,11 @@ Ridek Taxi Company!  */
 /* mục joney */
 .dichvunoibat1{
   color: #ddd; 
-  margin-top: 121px;
-  right: -36%;
+  /* margin-top: 121px; */
+  /* right: -36%; */
   position: relative;
+  top: 99px;
+  text-align: center;
 }
 /* dòng chữ start your journey with ridekcompany */
 .second-line {
