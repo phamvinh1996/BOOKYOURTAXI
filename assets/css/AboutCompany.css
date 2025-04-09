@@ -1604,9 +1604,11 @@ Ridek Taxi Company! */
 /* mục joney */
 .dichvunoibat1{
   color: #ddd; 
-  margin-top: 96px;
-  right: -36%;
+  /* margin-top: 96px; */
+  /* right: -36%; */
   position: relative;
+  top: 99px;
+  text-align: center;
 }
 /* dòng chữ start your journey with ridekcompany */
 .second-line {
@@ -3808,11 +3810,9 @@ a {
 
 .description {
   position: relative;
-  top: 25px;
-  left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
+  top: -200px;
   left: 256px;
   font-size: 18px;
 }
@@ -4177,7 +4177,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 86%;
+  top: 89%;
   z-index: 2;
 }
 
