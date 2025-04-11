@@ -1251,9 +1251,9 @@ p {
 /* dấu ghạch ngang màu cam khách hàng trải nghiệm 1000 */
 .slide-container {
   position: relative;
-  padding-top: 185px;
+  /* padding-top: 185px; */
   right: 6px;
-  top: 47px;
+  top: 215px;
 }
 
 .hinh1-icon {
