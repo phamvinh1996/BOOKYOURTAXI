@@ -2757,7 +2757,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -125px;
 }
 
 .address-text {
@@ -3317,7 +3317,7 @@ main {
 
 .side-navbar {
   position: fixed;
-  top: 10px;
+  top: -7px;
   left: 0;
   width: 100%;
   height: 15%;
