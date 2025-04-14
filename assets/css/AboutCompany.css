@@ -4316,7 +4316,16 @@ p {
 
 /*  */
 
-
+#nav-scroll {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  transition: top 0.3s ease-in-out;
+  z-index: 99;
+  margin-top: -3%;
+}
 /* trang cuộn xuống */
 /* CODE TẠO THANH CUỘN XUỐNG */
 
@@ -4438,7 +4447,7 @@ p {
     position: relative;
     /* left: -130px; */
     height: 52px;
-    transform: translate(-216px, 15px);
+    transform: translate(-216px, 27px);
   }
 
 
@@ -4469,11 +4478,8 @@ nav.menu {
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
   margin-top: -6%;
-  /* transform: translate(442px, 93px); */
-  /* background-color: white; */
-  /* margin-left: 623px; */
-  /* margin-top: -152px; */
-  /* margin-top: -4%; */
+  position: relative;
+  top: 15px;
 }
 
 .scroll-menu a {
@@ -4512,7 +4518,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  margin-top: 59px;
+  margin-top: 68px;
   margin-left: 200%;
   /* left: 290px;
   top: 164px; */
@@ -4673,7 +4679,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-373px, 10px);
+  transform: translate(-373px, 22px);
 }
 
 
@@ -4688,7 +4694,7 @@ main {
    /* left: 183%;
    margin-left: 216%;
    margin-top: -125%; */
-   transform: translate(-318px, 8px);} 
+   transform: translate(-318px, 20px);} 
 
 
 .custom-icon::before,
