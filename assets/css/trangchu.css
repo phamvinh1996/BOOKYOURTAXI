@@ -4914,7 +4914,7 @@ img.image-car2 {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-265px, 26px);
+  transform: translate(-265px, 36px);
     height: 52px;
   /* transform: translate(-230%, 30px); */
 }
@@ -6990,7 +6990,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
- margin-top: 5%;
+ margin-top: 12%;
 }
 
 .scroll-menu a {
@@ -7029,7 +7029,7 @@ position: relative;
   /* margin-top: 73px; */
   /* position: relative; */
   margin-left: 241%;
-  margin-top: 39%;
+  margin-top: 50%;
 }
 
 .logo h1 {
@@ -7098,7 +7098,7 @@ main {
   /* transform: translate(421%,10px); */
   /* margin-left: -475%;
   transform: translate(-429px, 10px); */
-  transform: translate(-412%, 10%);
+  transform: translate(-412%, 39%);
 }
 
 /* code css nút 3 ghạch thanh cuộn */
@@ -7110,7 +7110,7 @@ main {
   background-color: black;
   position: relative;
   margin-left: -189%;
-  transform: translate(-110px, -6px);
+  transform: translate(-110px, 7px);
   /* top: -60px;
   left: 214px; */
 }
