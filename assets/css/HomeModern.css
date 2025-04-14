@@ -5026,7 +5026,7 @@ p {
   width: 128px;
   /* transform: translate(-348%, 27px); */
   height: 53px;
-  transform: translate(-243px, 23px);
+  transform: translate(-243px, 39px);
 }
 
 
@@ -5060,7 +5060,7 @@ nav.menu {
   /* margin-left: 623px; */
   /* margin-top: -152px; */
 position: relative;
-margin-top: 35px;
+margin-top: 50px;
 }
 
 .scroll-menu a {
@@ -5102,7 +5102,7 @@ margin-top: 35px;
   margin-left: 325%;
   margin-top: 15%; */
   margin-left: 208%;
-  margin-top: 39%;
+  margin-top: 50%;
 }
 
 .logo h1 {
@@ -5230,7 +5230,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -346%;
-  transform: translate(-142px, 7px);
+  transform: translate(-142px, 19px);
   /* transform: translate(-417%, 10px); */
 }
 
@@ -5244,7 +5244,7 @@ main {
   background-color: black;
   position: relative;
   /* margin-left: -189%; */
-  transform: translate(-383px, 51px);
+  transform: translate(-383px, 61px);
 }
 
 .custom-icon::before,
@@ -7044,7 +7044,7 @@ position: relative;
   background-color: white;
   transition: top 0.3s ease-in-out;
   z-index: 999;
-  margin-top: 0;
+  margin-top: -5;
 }   
 
 .show {
