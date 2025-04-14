@@ -5,7 +5,7 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -1%;
+  margin-top: -2%;
   /* margin-top: -27%; */
 }
 
@@ -370,7 +370,7 @@ div#offcanvasDarkNavbar {
   outline: 0;
   border: 0;
   position: absolute;
-  right: 96px;
+  right: 63px;
   top: 10px;
 }
 
@@ -2593,7 +2593,7 @@ button {
 
 .description {
   position: relative;
-  top: 3px;
+  top: -135px;
   left: 522px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
@@ -2760,8 +2760,9 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: 37px;
+  top: 112px;
 }
+
 
 .address-text {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
@@ -3213,7 +3214,7 @@ p {
   transform: skewX(0deg);
   padding: 12px 30px;
   height: 53px;
-  transform: translate(-372%, 78px);
+  transform: translate(-153%, 78px);
 }
 
 /*  */
@@ -3262,19 +3263,39 @@ nav.menu {
   color: #000;
 }
 
-.logo-0 {
+/* .logo-0 {
   overflow: auto;
-  /* Cho phép thanh cuộn xuất hiện nếu cần */
   max-height: 200px;
-  /* Đặt chiều cao tối đa cho phần tử */
   width: 110px;
-  /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
-  /* Chiều cao của thanh cuộn ngang */
-  /* margin-top: 73px; */
   position: relative;
   transform: translate(358%, 19px);
-}
+} */
+
+
+ .logo-0 {
+  overflow: auto;
+  max-height: 200px;
+  width: 110px;
+  height: 50px;
+  position: relative;
+  transform: translate(358%, 63px);
+} 
+
+
+/* thanh cuộn */
+.logo{
+
+  width: 150px;
+  height: 150px;
+  margin-right: 21%;
+  position: relative;
+  }
+
+
+
+
+
 
 .logo h1 {
   margin: 0;
@@ -3403,7 +3424,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -509%;
-    transform: translate(-413px, 71px);
+    transform: translate(-117px, 71px);
 
 }
 
@@ -3415,7 +3436,7 @@ main {
   background-color: black;
   position: relative;
   margin-left: -685%;
-  transform: translate(-769%, 75px);
+  transform: translate(197%, 75px);
 
 }
 
@@ -3447,7 +3468,7 @@ main {
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
   margin-top: -0px;
-  margin-right: -23px;
+  margin-right: 0px;
 }
 
 /* cde css nút tìm kiếm trên thanh nav */
@@ -3913,7 +3934,7 @@ main {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: 37px;
+  top: -113px;
 }
 
 
