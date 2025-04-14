@@ -2984,7 +2984,7 @@ p {
   padding: 12px 30px;
   height: 52px;
   margin-top: 33%;
-  transform: translate(-212%, -46px);
+  transform: translate(-239%, -37px);
   /* margin-top: -89%; */
   /* margin-left: 158%; */
 }
@@ -3016,7 +3016,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  margin-top: 9%;
+  margin-top: 13%;
   /* background-color: white; */
   /* margin-left: 623px; */
   /* margin-top: -152px; */
@@ -3058,7 +3058,7 @@ nav.menu {
   /* Chiều rộng của thanh cuộn dọc */
   height: 50px;
   /* Chiều cao của thanh cuộn ngang */
-  margin-top: 42%;
+  margin-top: 50%;
     margin-left: 221%;
 }
 
@@ -3208,7 +3208,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-top: 101%;
-  transform: translate(-498%, -11px);
+  transform: translate(-498%, -3px);
   /* Kích thước height của icon */
   /* margin-top: -52px; */
     /* margin-left: -85%; */
@@ -3225,6 +3225,7 @@ main {
   background-color: black;
    position: absolute;
    margin-left: 192%;
+   margin-top: 8%;
 }
 
 .custom-icon::before,
