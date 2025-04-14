@@ -290,12 +290,21 @@ p {
 /* chữ trên thanh nav màu cam */
 .menu li a {
   right: 120px;
-  top: -19px;
+  top: -10px;
   position: relative;
   color: #ffffff;
   text-decoration: none;
   font-weight: bold;
   font-size: 17px;
+  text-decoration: none;
+}
+.menu {
+  display: flex;
+  align-items: center; /* Canh giữa theo chiều dọc nếu cần */
+  gap: 20px; /* Khoảng cách giữa các mục menu */
+}
+.menu li {
+  list-style: none;
 }
 
 .menu li a:hover {
@@ -6886,7 +6895,7 @@ main {
   padding: 10px 10px;
   display: block;
   color: #333; /* Màu chữ */
-  margin-top: -10%;
+  margin-top: 5%;
 }
 
 .menu a:hover {
