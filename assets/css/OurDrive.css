@@ -1513,7 +1513,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -137px;
 }
 
 .address-text {
@@ -1683,6 +1683,7 @@ button {
 .links-label {
   font-weight: bold;
   margin-bottom: 5px;
+  margin-left: -40%;
 }
 
 .contact-info,
@@ -1973,7 +1974,7 @@ p {
   padding: 12px 30px;
   width: 128px;
   height: 49px;
-  transform: translate(-332px, 65px);
+  transform: translate(-332px, 75px);
   /* transform: translate(840%, -32px); */
 }
 
@@ -2004,11 +2005,8 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
-  /* transform: translate(483px, 259px); */
-  /* background-color: white; */
-  /* margin-left: 623px; */
-  /* margin-top: -4%; */
-  /* margin-top: -152px; */
+  margin-top: 8%;
+  
 }
 
 .scroll-menu a {
@@ -2042,7 +2040,7 @@ nav.menu {
   /* left: 290px; */
   /* transform: translate(265px, 321px); */
   margin-left: 196%;
-  margin-top: 35%;
+  margin-top: 44%;
 }
 
 .logo h1 {
@@ -2069,7 +2067,7 @@ main {
 
 .side-navbar {
   position: fixed;
-  top: 10px;
+  top: -9px;
   left: 0;
   width: 100%;
   height: 15%;
@@ -2089,7 +2087,7 @@ main {
 
 .side-navbar {
   position: fixed;
-  top: 0;
+  top: -26px;
   left: 0;
   width: 100%;
   height: 15%;
@@ -2184,7 +2182,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -70%;
-  transform: translate(-199px, 58px);
+  transform: translate(-199px, 69px);
   /* transform: translate(617%, 195px);
   margin-left: 526%; */
   /* transform: translate(-37px, -28px); */
@@ -2203,7 +2201,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-303px, -46px);
+  transform: translate(-303px, -38px);
   /* transform: translate(265px, 125px); */
   /* top: -146%; */
   /* left: 159%; */
