@@ -365,7 +365,7 @@ div#offcanvasDarkNavbar {
 .navbar-dark .navbar-toggler {
   position: relative;
   right: 7px;
-  top: -103px;
+  top: -107px;
   border: none;
   background-color: transparent;
   align-items: center;
@@ -2316,7 +2316,7 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  top: -13px;
+  top: -18px;
   margin-right: -23px;
   position: relative;
   left: 35px;
