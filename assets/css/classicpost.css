@@ -1744,6 +1744,7 @@ with Ridek! */
   background-size: 100%;
   background-position: 200%;
   background-repeat: no-repeat;
+  height: 456%;
 }
 
 /*  */
@@ -1964,7 +1965,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -27px;
 }
 
 .address-text {
@@ -2166,7 +2167,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 86%;
   z-index: 2;
 }
 
