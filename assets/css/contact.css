@@ -1093,7 +1093,7 @@ button::after {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -138px;
 }
 .address-text {
   /* Không cần định nghĩa thêm, sẽ kế thừa màu trắng từ .contact-info */
@@ -1505,7 +1505,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-151px, 69px);
+  transform: translate(-144px, 76px);
 }
 /*  */
 /* ẩn dòng heft */
@@ -1532,6 +1532,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  margin-top: 8%;
   /* background-color: white; */
   /* margin-left: 623px;
   margin-top: -4%; */
@@ -1720,7 +1721,7 @@ main {
 .icon-imgsearch {
   /* right: -56px; */
   /* top: 26px; */
-  transform: translate(-312px, 77px);
+  transform: translate(-312px, 83px);
   position: relative;
   width: 80px;
   height: 50px;
@@ -1733,7 +1734,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-309px, 59px);
+  transform: translate(-309px, 65px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 500%; */
