@@ -1371,6 +1371,7 @@ Questions!  */
   background-size: 100%;
   background-position: 200%;
   background-repeat: no-repeat;
+  height: 483%;
 }
 
 /*  */
@@ -1593,7 +1594,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -69px;
+  top: -1px;
 }
 
 .address-text {
@@ -1794,7 +1795,7 @@ footer {
   width: 100%;
   overflow: hidden;
   position: absolute;
-  top: 83%;
+  top: 87%;
   z-index: 2;
 }
 
@@ -2054,7 +2055,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-77px, 83px);
+  transform: translate(-129px, 83px);
 }
 
 
@@ -2085,6 +2086,7 @@ nav.menu {
   white-space: nowrap;
   /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
+  margin-top: 9%;
   /* background-color: white; */
   /* margin-left: 623px; */
   /* margin-top: -152px; */
@@ -2120,7 +2122,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  transform: translate(356px, 68px);
+  transform: translate(356px, 75px);
   /* transform: translate(287px, 233px); */
 }
 
@@ -2269,7 +2271,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-264px, 91px);
+  transform: translate(-308px, 91px);
   /* margin-top: -35px; */
 }
 
@@ -2282,7 +2284,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-250px, 71px);
+  transform: translate(-300px, 71px);
   /* top: -146%;
   margin-left: 560%; */
 }
