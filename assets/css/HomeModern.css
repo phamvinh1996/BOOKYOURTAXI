@@ -373,7 +373,7 @@ margin-top: -65px; */
   /* top: -201px; */
   color: rgba(255, 255, 255, .5);
   border-color: rgba(255, 255, 255, .1);
-  transform: translate(-32%, -170%);
+  transform: translate(-32%, -157%);
 }
 
 /* nút search  nut tim kiem*/
@@ -4581,7 +4581,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -6px;
+  top: -117px;
 }
 
 .address-text {
