@@ -2186,7 +2186,8 @@ Ridek Taxi Company! */
   color: #222;
   position: relative;
   top: -401px;
-  left: 295px;
+  left: 305px;
+  transform: translate(0px, 3px);
   z-index: 999;
 }
 
@@ -2195,7 +2196,8 @@ Ridek Taxi Company! */
   color: #222;
   position: relative;
   top: -407px;
-  left: 1535px;
+  margin-left: 81%;
+  left: 5px;
   z-index: 999;
 }
 
