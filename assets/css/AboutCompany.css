@@ -4447,7 +4447,7 @@ p {
     position: relative;
     /* left: -130px; */
     height: 52px;
-    transform: translate(-216px, 27px);
+    transform: translate(-453px, 27px);
   }
 
 
@@ -4679,7 +4679,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-373px, 22px);
+  transform: translate(-607px, 22px);
 }
 
 
@@ -4694,7 +4694,7 @@ main {
    /* left: 183%;
    margin-left: 216%;
    margin-top: -125%; */
-   transform: translate(-318px, 20px);} 
+   transform: translate(-555px, 20px);} 
 
 
 .custom-icon::before,
