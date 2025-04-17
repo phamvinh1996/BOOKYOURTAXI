@@ -1349,7 +1349,7 @@ img.image-car2 {
   font-family: "Space Grotesk", sans-serif;
   color: #ddd;
   /* left: 213px; */
-  margin-left: 421px;
+  /* margin-left: 421px; */
 
 }
 
@@ -2023,7 +2023,8 @@ Ridek Taxi Company! */
   font-family: "Space Grotesk", sans-serif;
   color: #ddd;
   /* left: 213px; */
-  left: 263px;
+  /* left: 263px; */
+  text-align: center;
 }
 
 /* dòng chữ start your journey with ridekcompany */
