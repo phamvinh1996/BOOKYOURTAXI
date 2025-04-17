@@ -2055,7 +2055,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-250px, 83px);
+  transform: translate(-413px, 83px);
 }
 
 
@@ -2271,7 +2271,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-424px, 91px);
+  transform: translate(-586px, 91px);
   /* margin-top: -35px; */
 }
 
@@ -2284,7 +2284,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-408px, 77px);
+  transform: translate(-575px, 77px);
   /* top: -146%;
   margin-left: 560%; */
 }
