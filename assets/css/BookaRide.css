@@ -3214,7 +3214,7 @@ p {
   transform: skewX(0deg);
   padding: 12px 30px;
   height: 53px;
-  transform: translate(-153%, 78px);
+  transform: translate(-380%, 78px);
 }
 
 /*  */
@@ -3424,7 +3424,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -509%;
-    transform: translate(-117px, 71px);
+    transform: translate(-403px, 71px);
 
 }
 
@@ -3435,8 +3435,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  margin-left: -685%;
-  transform: translate(197%, 75px);
+  margin-left: -824%;
+  transform: translate(-625%, 75px);
 
 }
 
