@@ -1818,7 +1818,7 @@ p {
   padding: 12px 30px;
   height: 53px;
   margin-top: 4%;
-  margin-left: -7%;
+  margin-left: -20%;
 }
 
 /*  */
@@ -1878,7 +1878,7 @@ nav.menu {
   /* Chiều cao của thanh cuộn ngang */
   /* margin-top: 73px; */
   position: relative;
-  transform: translate(437px, 69px);
+  transform: translate(362px, 69px);
   /* left: 290px; */
   /* transform: translate(253px, 237px); */
 }
@@ -2028,7 +2028,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-301px, 86px);
+  transform: translate(-547px, 86px);
   /* margin-top: -37px; */
 }
 
@@ -2041,7 +2041,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-291px, 71px);
+  transform: translate(-537px, 71px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 670%; */
