@@ -2410,7 +2410,7 @@
     transform: skewX(0deg);
     padding: 12px 30px;
     height: 53px;
-    transform: translate(-205%, 70px);
+    transform: translate(-388%, 70px);
   }
   
   
@@ -2626,7 +2626,7 @@
     /* Kích thước width của icon */
     height: 50px;
     margin-left: -856%;
-    transform: translate(-52%, 68px);
+    transform: translate(-331%, 68px);
   }
   
   
@@ -2638,7 +2638,7 @@
     height: 2px;
     background-color: black;
     position: relative;
-    transform: translate(-23px, 65px);
+    transform: translate(-263px, 65px);
   }
   
   .custom-icon::before,
