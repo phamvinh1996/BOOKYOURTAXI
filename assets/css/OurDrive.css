@@ -1974,7 +1974,7 @@ p {
   padding: 12px 30px;
   width: 128px;
   height: 49px;
-  transform: translate(-332px, 75px);
+  transform: translate(-550px, 75px);
   /* transform: translate(840%, -32px); */
 }
 
@@ -2181,8 +2181,8 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-left: -70%;
-  transform: translate(-199px, 69px);
+  margin-left: -249%;
+  transform: translate(-262px, 69px);
   /* transform: translate(617%, 195px);
   margin-left: 526%; */
   /* transform: translate(-37px, -28px); */
@@ -2201,7 +2201,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-303px, -38px);
+  transform: translate(-516px, -38px);
   /* transform: translate(265px, 125px); */
   /* top: -146%; */
   /* left: 159%; */
