@@ -4282,7 +4282,7 @@ p {
   /* margin-left: -87%;
   transform: translate(-127%, 10px); */
   height: 52px;
-  transform: translate(-344px, 29px);
+  transform: translate(-516px, 29px);
 }
 
 
@@ -4386,7 +4386,7 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  transform: translate(-379px, 21px);
+  transform: translate(-547px, 21px);
   /* margin-left: -470%;
   transform: translate(-272%, 15px); */
   
@@ -4507,7 +4507,7 @@ main {
   position: absolute;
   /* margin-left: -187%;
   transform: translate(-233px, 15px); */
-  transform: translate(-314px, 25px);
+  transform: translate(-475px, 25px);
 }
 
 .custom-icon::before,
