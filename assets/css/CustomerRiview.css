@@ -2162,7 +2162,7 @@ Our passengers reviews */
     transform: skewX(0deg);
     padding: 12px 30px;
     height: 52px;
-    transform: translate(-231%, 140%);
+    transform: translate(-350%, 140%);
     /* transform: translate(285px, -256px); */
   }
   
@@ -2372,7 +2372,7 @@ margin-top: -4%; */
   .icon-imgsearch {
     width: 80px;
     height: 50px;
-    transform: translate(-421px, 63px);
+    transform: translate(-605px, 63px);
   }
   
   
@@ -2384,7 +2384,7 @@ margin-top: -4%; */
     height: 2px;
     background-color: black;
     position: relative;
-    transform: translate(-317px, -38px);
+    transform: translate(-495px, -38px);
     /* left: 159%; */
     /* transform: translate(225px, -40px); */
   }
