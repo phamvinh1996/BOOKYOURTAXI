@@ -1505,7 +1505,7 @@ p {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-144px, 76px);
+  transform: translate(-380px, 76px);
 }
 /*  */
 /* ẩn dòng heft */
@@ -1721,7 +1721,7 @@ main {
 .icon-imgsearch {
   /* right: -56px; */
   /* top: 26px; */
-  transform: translate(-312px, 83px);
+  transform: translate(-546px, 83px);
   position: relative;
   width: 80px;
   height: 50px;
@@ -1734,7 +1734,7 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  transform: translate(-309px, 65px);
+  transform: translate(-542px, 65px);
   /* top: -146%; */
   /* left: 159%; */
   /* margin-left: 500%; */
