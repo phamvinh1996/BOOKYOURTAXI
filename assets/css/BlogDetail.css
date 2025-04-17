@@ -2312,7 +2312,7 @@ transform: translate(10%, 10%);
   transform: skewX(0deg);
   padding: 12px 30px;
   margin-top: 5%;
-  margin-left: -6%;
+  margin-left: -18%;
 }
 /*  */
 /* ẩn dòng heft */
@@ -2511,7 +2511,7 @@ main {
 }
 .icon-imgsearch {
   margin-left: -257%;
-  transform: translate(-188px, 97px);
+  transform: translate(-435px, 97px);
   /* right: -51px; */
   /* top: 10px; */
   position: relative;
@@ -2526,7 +2526,7 @@ main {
   background-color: black;
   position: relative;
   margin-left: -295%;
-    transform: translate(-17px, 79px);
+    transform: translate(-255px, 79px);
   /* left: 159%; */
 }
 
