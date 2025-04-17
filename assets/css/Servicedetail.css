@@ -2033,7 +2033,7 @@ p {
   /* transform: translate(256px, -247px); */
   height: 52px;
   margin-top: 21%;
-  margin-left: -90%;
+  margin-left: -147%;
 }
 
 /*  */
@@ -2248,7 +2248,7 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  transform: translate(-508%, 75px);
+  transform: translate(-755%, 75px);
   /* margin-top: -47px;
   margin-left: -163%; */
   /* transform: translate(-43px, -29px); */
@@ -2268,7 +2268,7 @@ main {
   /* margin-left: 605%; */
   /* transform: translate(181px, -94px); */
   transform: translate(-644%, 76px);
-  margin-left: -126%;
+  margin-left: -321%;
 }
 
 .custom-icon::before,
