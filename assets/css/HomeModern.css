@@ -5035,7 +5035,7 @@ p {
   width: 128px;
   /* transform: translate(-348%, 27px); */
   height: 53px;
-  transform: translate(-243px, 39px);
+  transform: translate(-486px, 39px);
 }
 
 
@@ -5239,7 +5239,7 @@ main {
   /* Kích thước width của icon */
   height: 50px;
   margin-left: -346%;
-  transform: translate(-142px, 19px);
+  transform: translate(-371px, 19px);
   /* transform: translate(-417%, 10px); */
 }
 
@@ -5253,7 +5253,7 @@ main {
   background-color: black;
   position: relative;
   /* margin-left: -189%; */
-  transform: translate(-383px, 61px);
+  transform: translate(-605px, 61px);
 }
 
 .custom-icon::before,
