@@ -1407,7 +1407,8 @@ Ridek Taxi Company! */
   font-family: "Space Grotesk", sans-serif;
   color: #ddd;
   /* left: 213px; */
-  margin-left: 212px;
+  /* margin-left: 212px; */
+  left: 11%;
 }
 
 /*  */
@@ -1419,7 +1420,7 @@ Ridek Taxi Company! */
   animation: fadeIn 1s ease-in-out;
   color: #ddd;
   position: relative;
-  right: 38px;
+  /* right: 38px; */
 }
 
 .card {
