@@ -604,7 +604,7 @@ margin-top: -65px; */
   border-radius: 5px;
   font-size: 16px;
   position: absolute;
-  margin-top: -53px;
+  margin-top: 25px;
 }
 
 .btn-view-more:hover {
@@ -654,7 +654,7 @@ margin-top: -65px; */
   top: 5px;
 }
 
-.carousel-caption p {
+/* .carousel-caption p {
   font-size: 18px;
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
@@ -663,7 +663,12 @@ margin-top: -65px; */
   color: white;
   font-family: "Space Grotesk", sans-serif;
   top: -9%;
+} */
+
+.carousel-caption p {
 }
+
+
 
 /* Travel securely with us THE BOOK */
 .doct1 {
@@ -3120,7 +3125,10 @@ p {
 }
 
 .taxidoct10 {
-  margin-top: 36px;
+  color: white;
+  position: relative;
+  left: 48%;
+  top: -27px;
 }
 
 /* code css dòng chữ book you taxi hình 2 */
