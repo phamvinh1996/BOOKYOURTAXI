@@ -566,7 +566,7 @@ div#offcanvasDarkNavbar {
   top: -319px;
 }
 
-.carousel-caption p {
+ .carousel-caption p {
   font-size: 18px;
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
@@ -574,8 +574,11 @@ div#offcanvasDarkNavbar {
   left: 49%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -476px;
-}
+  top: -436px;
+} 
+
+
+
 
 /* Travel securely with us THE BOOK */
 .doct1 {
@@ -715,7 +718,8 @@ div#offcanvasDarkNavbar {
 
 
 .taxidoct10 {
-  margin-top: 56px;
+position: relative;
+top: 1px;
 }
 
 /* code css mục màu chữ about */
