@@ -529,10 +529,10 @@ div#offcanvasDarkNavbar {
   animation: slide-up 0.5s ease 0.3s forwards;
   text-align: text;
   position: relative;
-  left: 48%;
+  left: 50%;
   color: white;
   font-family: "Space Grotesk", sans-serif;
-  top: -463px;
+  top: -426px;
 }
 
 /* Travel securely with us THE BOOK */
@@ -671,7 +671,6 @@ div#offcanvasDarkNavbar {
 /*  */
 /*dòng chữ book you taxi hình 1  */
 .taxidoct10 {
-  margin-top: 36px;
 }
 
 /* code css mục màu chữ about */
