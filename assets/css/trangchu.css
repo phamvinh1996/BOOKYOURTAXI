@@ -5,17 +5,20 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -66px;
+  margin-top: -1%;
 }
 
 
 .navbar-left {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  margin-left: 17%;
 }
 
 .navbar-right {
-  display: flex;
-  gap: 10px;
+   display: flex;
+  gap: 10px; 
+  margin-left: 22%;
+  /* flex-grow: 1; */
 }
 
 .navbar-on1 {
@@ -73,21 +76,22 @@ p {
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-  position: absolute;
+  /* position: absolute; */
   left: 63%;
   color: #666;
   top: 1%;
+  margin-left: -163%;
 }
 
 .navbar-link-Support {
-  position: absolute;
+  /* position: absolute; */
   left: 66%;
   color: #666;
   top: 1%;
 }
 
 .navbar-link-FAQ {
-  position: absolute;
+  /* position: absolute; */
   left: 70%;
   color: #666;
   top: 1%;
@@ -95,7 +99,7 @@ p {
 
 /* youtube  iocon*/
 .navbar-icon-tt {
-  position: absolute;
+  /* position: absolute; */
   left: 74%;
   top: 1%;
   font-size: 15px;
@@ -105,7 +109,7 @@ p {
 /*  */
 /* hình ins */
 .navbar-icon-ins {
-  position: absolute;
+  /* position: absolute; */
   left: 76%;
   top: 1%;
   font-size: 15px;
@@ -114,7 +118,7 @@ p {
 
 /*  */
 .navbar-icon-link {
-  position: absolute;
+  /* position: absolute; */
   left: 78%;
   top: 1%;
   font-size: 15px;
@@ -123,7 +127,7 @@ p {
 
 /* hình iconfb */
 .navbar-icon-fb {
-  position: absolute;
+  /* position: absolute; */
   left: 73%;
   top: 1%;
   font-size: 15px;
@@ -133,8 +137,8 @@ p {
 /*  */
 .navbar-text01 {
   color: #666;
-  position: relative;
-  left: 271px;
+  /* position: relative; */
+  /* left: 271px; */
   font-size: 15px;
   letter-spacing: -0.2px;
   font-family: 'Space Grotesk', sans-serif;
@@ -162,14 +166,13 @@ p {
 /* logo  RIDEK... hotline...*/
 /* khoảngcach */
 .logo-container {
-  margin-right: 383px;
+  /* margin-right: 383px; */
 }
 
 /* logo */
 .logo-brand {
-  top: 33px;
-  position: relative;
   width: 199px;
+  margin-top: 26%;
 }
 
 /* logo ridek thanh */
@@ -202,7 +205,7 @@ p {
 .text {
   font-size: 15px;
   color: #666;
-  position: relative;
+  /* position: relative; */
   left: 2%;
   font-size: 14px;
   font-weight: 500;
@@ -254,7 +257,7 @@ p {
   padding: 10px;
   width: 43%;
   position: relative;
-  top: 43px;
+  /* top: 43px; */
   height: 87px;
 }
 
@@ -399,7 +402,7 @@ div#offcanvasDarkNavbar {
   display: none;
   /* width: 200px; */
   /* Set the desired width */
-  height: 500px;
+  /* height: 500px; */
   /* Set the desired height */
 }
 
@@ -958,7 +961,8 @@ button.carousel-control-next {
 }
 
 .nav-menu {
-  margin-bottom: -6px;
+  margin-bottom: -21px;
+  margin-top: 3%;
 }
 
 /* phần code css số trang BOOK */
@@ -3258,7 +3262,7 @@ p {
 
 /* HotLine, Emeail, adress hàng ngang */
 .logo-container {
-  order: 1;
+  /* order: 1; */
 }
 
 .contact-info {
@@ -4452,6 +4456,7 @@ right: -77px;
 .opening-info,
 .links-info {
   margin: -20px;
+  margin-top: 3%;
 }
 
 /* màu chữ 123web footer */
@@ -6956,15 +6961,21 @@ img.image-car2 {
 }
 
 /* code chiều ngang dọc thanh cuộn */
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
     display: flex !important;
     flex-basis: auto;
     width: 100px;
     height: 50px;
   }
-}
+} */
 
+
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+  }
+}
 /*  */
 /* ẩn dòng heft */
 /* Ẩn dòng trên màn hình nhỏ */
@@ -7514,3 +7525,18 @@ main {
 .show {
   top: 0; 
 } 
+
+
+
+
+
+
+
+
+
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
