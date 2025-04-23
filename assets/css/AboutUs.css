@@ -5,12 +5,13 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -2%;
+  margin-top: -1%;
   /* margin-top: -27%; */
 }
 
 .navbar-left {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  margin-left: 15%;
 }
 
 .navbar-right {
@@ -63,21 +64,21 @@ p {
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-  position: absolute;
+  /* position: absolute; */
   left: 73%;
   color: #666;
   top: 1%;
 }
 
 .navbar-link-Support {
-  position: absolute;
+  /* position: absolute; */
   left: 76%;
   color: #666;
   top: 1%;
 }
 
 .navbar-link-FAQ {
-  position: absolute;
+  /* position: absolute; */
   left: 81%;
   color: #666;
   top: 1%;
@@ -85,7 +86,7 @@ p {
 
 /* youtube  iocon*/
 .navbar-icon-tt {
-  position: absolute;
+  /* position: absolute; */
   left: 86%;
   top: 1%;
 }
@@ -93,7 +94,7 @@ p {
 /*  */
 /* hình ins */
 .navbar-icon-ins {
-  position: absolute;
+  /* position: absolute; */
   left: 88%;
   top: 1%;
 }
@@ -101,14 +102,14 @@ p {
 /*  */
 
 .navbar-icon-link {
-  position: absolute;
+  /* position: absolute; */
   left: 90%;
   top: 1%;
 }
 
 /* hình iconfb */
 .navbar-icon-fb {
-  position: absolute;
+  /* position: absolute; */
   left: 84%;
   top: 1%;
 }
@@ -116,7 +117,7 @@ p {
 /*  */
 .navbar-text01 {
   color: #898b8b;
-  position: relative;
+  /* position: relative; */
   left: 250px;
   font-size: 15px;
 }
@@ -247,7 +248,7 @@ p {
   padding: 10px;
   width: 42%;
   position: relative;
-  top: 38px;
+  top: 3px;
   height: 78px;
 }
 
@@ -655,6 +656,7 @@ div#offcanvasDarkNavbar {
 
 .carousel-inner {
   height: 76%;
+  top: -30px;
 }
 
 .carousel-item img {
@@ -4691,6 +4693,7 @@ main {
 
 .navbar-right {
   display: block;
+  margin-right: 20%;
   /* Ẩn navbar-right khi màn hình nhỏ */
 }
 

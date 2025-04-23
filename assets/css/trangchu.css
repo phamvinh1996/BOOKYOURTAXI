@@ -6994,6 +6994,10 @@ body {
 
 nav.menu {
   /* flex: 1; */
+  margin-bottom: -21px;
+  margin-top: 3%;
+  width: 60%;
+  margin-left: 29%;
 }
 
 .scroll-menu {
