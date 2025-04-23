@@ -5,11 +5,11 @@
     align-items: center;
     background-color: #eee;
     padding: 10px;
-    margin-top: -3%;
+    margin-top: -2%;
   }
   
   .navbar-left {
-    flex-grow: 1;
+    /* flex-grow: 1; */
   }
   
   .navbar-right {
@@ -58,21 +58,21 @@ p {
   
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-    position: absolute;
+    /* position: absolute; */
     left: 73%;
     color: #000;
     top: 1%;
   }
   
   .navbar-link-Support {
-    position: absolute;
+    /* position: absolute; */
     left: 76%;
     color: #000;
     top: 1%;
   }
   
   .navbar-link-FAQ {
-    position: absolute;
+    /* position: absolute; */
     left: 81%;
     color: #000;
     top: 1%;
@@ -80,7 +80,7 @@ p {
   
   /* youtube  iocon*/
   .navbar-icon-tt {
-    position: absolute;
+    /* position: absolute; */
     left: 86%;
     top: 1%;
   }
@@ -88,7 +88,7 @@ p {
   /*  */
   /* hình ins */
   .navbar-icon-ins {
-    position: absolute;
+    /* position: absolute; */
     left: 88%;
     top: 1%;
   }
@@ -96,14 +96,14 @@ p {
   /*  */
   
   .navbar-icon-link {
-    position: absolute;
+    /* position: absolute; */
     left: 90%;
     top: 1%;
   }
   
   /* hình iconfb */
   .navbar-icon-fb {
-    position: absolute;
+    /* position: absolute; */
     left: 84%;
     top: 1%;
   }
@@ -111,7 +111,7 @@ p {
   /*  */
   .navbar-text01 {
     color: #898b8b;
-    position: relative;
+    /* position: relative; */
     left: 250px;
     font-size: 15px;
   }
@@ -210,6 +210,101 @@ p {
     border-radius: 8px;
 }
 
+
+
+
+
+
+
+/*  */
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+/*  */
+
+
+
+
+/* thanh logo  */
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper-all {
+  padding: 20px 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.the1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  flex: 1 1 200px;
+}
+
+.logo-brand {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  flex: 3 1 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: -8px;
+  max-width: 300px;
+}
+
+.contact-item i {
+  min-width: 41px;
+  text-align: center;
+}
+
+.contact-item .text {
+  font-weight: 600;
+  color: #333;
+  display: block;
+}
+
+.contact-item .text-1,
+.contact-item .text-02,
+.contact-item .text-03 {
+  color: #555;
+  font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 /*  */
 /* THANH NAV */
 /* code css media query modal content */
@@ -241,6 +336,12 @@ p {
     margin-left: -70%;
   }
   
+  .nav-menu {
+    margin-bottom: -21px;
+    margin-top: 0%;
+    position: relative;
+    top: -18px;
+  }
   /* Tạo css thanh Nav ngang Trang chủ, ... */
   .navbar-yellow {
     left: 29%;
@@ -430,7 +531,7 @@ p {
   /* code css tạo comtact  thanh NAV TRANGCHU...*/
   .contact-nav {
     position: absolute;
-    top: -11%;
+    top: -13%;
     /* Adjust the distance from the top as needed */
     left: 100%;
     display: flex;
@@ -753,7 +854,7 @@ p {
     line-height: 1;
     margin: 0 auto;
     position: absolute;
-    top: -589px;
+    top: -606px;
     margin-left: 1%;
     /* margin-top: -35px; */
   }
@@ -1769,7 +1870,7 @@ Ridek Taxi Company! */
 
 /*  */
 .container {
-  padding: 20px;
+  /* padding: 20px; */
 }
 
 .card {
@@ -3000,7 +3101,7 @@ img {
 /*code css mục our khoảng cách  */
 
 .container {
-  padding: 20px; /* Khoảng cách bên trong container */
+  /* padding: 20px; Khoảng cách bên trong container */
 }
 
 .row {
@@ -3120,24 +3221,19 @@ a {
 }
 
 /* dòng chữ nằm ngang */
-.the1 {
+/* .the1 {
   display: inline-block;
   writing-mode: vertical-lr;
-  /* Thay đổi hướng chữ từ dọc sang ngang */
-  /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
   transform: rotate(-90deg);
-  /* Xoay chữ nếu cần đảo ngược */
   font-size: 16px;
-  /* Kích thước chữ */
   white-space: nowrap;
-  /* Đảm bảo chữ không xuống hàng */
   position: relative;
   top: 1px;
   text-align: center;
   color: #000;
   font-weight: 700;
   font-size: 22px;
-}
+} */
 
 /* hình màu đen  */
 
@@ -4870,11 +4966,13 @@ main {
 
 .navbar-left {
   display: block;
+  margin-left: 15%;
   /* Ẩn navbar-left khi màn hình nhỏ */
 }
 
 .navbar-right {
   display: block;
+  margin-right: 23%;
   /* Ẩn navbar-right khi màn hình nhỏ */
 }
 
