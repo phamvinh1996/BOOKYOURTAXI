@@ -340,6 +340,12 @@ p {
 
 
 
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
 
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
@@ -2284,7 +2290,7 @@ Ridek Taxi Company! */
   position: relative;
   top: -401px;
   left: 305px;
-  transform: translate(0px, 3px);
+  transform: translate(60px, 18px);
   z-index: 999;
 }
 
@@ -2292,9 +2298,9 @@ Ridek Taxi Company! */
   font-size: 36px;
   color: #222;
   position: relative;
-  top: -407px;
+  top: -390px;
   margin-left: 81%;
-  left: 5px;
+  left: -46px;
   z-index: 999;
 }
 
