@@ -4879,7 +4879,7 @@ img.image-car2 {
   /* height: 138px; */
   background-color: white;
   color: black;
-  margin-top: 5%;
+  /* margin-top: 5%; */
 }
 
 .side-navbar {
@@ -4911,6 +4911,16 @@ img.image-car2 {
   top: 6px;
   color: #222;
   font-weight: 500;
+
+
+
+  display: inline-block; /* hoặc inline, tùy bạn */
+  white-space: nowrap; /* không xuống dòng */
+  writing-mode: horizontal-tb; /* chế độ viết ngang */
+  text-orientation: mixed; /* hỗ trợ chữ Latin nằm ngang */
+  top: 6px;
+  color: #222;
+  font-weight: 500;
 }
 
 /* mục liện hệ  THANH CUỘN*/
@@ -4925,9 +4935,9 @@ img.image-car2 {
   color: #fff;
   transform: skewX(0deg);
   padding: 12px 30px;
-  transform: translate(-493px, 36px);
     height: 52px;
-  /* transform: translate(-230%, 30px); */
+    margin-left: -118%;
+    margin-top: 13%;
 }
 
 /* code css thanh cuộn dấu 3 ghạch */
@@ -6999,20 +7009,22 @@ body {
 
 nav.menu {
   /* flex: 1; */
-  margin-bottom: -21px;
+  /* margin-bottom: -21px;
   margin-top: 3%;
   width: 60%;
-  margin-left: 29%;
+  margin-left: 29%; */
+  margin-left: 11%;
 }
 
-.scroll-menu {
+ .scroll-menu {
   display: flex;
-  /* overflow-x: auto; Tạo thanh cuộn ngang nếu cần */
   white-space: nowrap;
-  /* Đảm bảo các liên kết nằm trên một dòng */
   padding: 10px 0;
- margin-top: 12%;
-}
+  margin-top: 3%;
+  margin-left: -41%;
+} 
+
+
 
 .scroll-menu a {
   text-decoration: none;
@@ -7115,11 +7127,11 @@ main {
   width: 80px;
   /* Kích thước width của icon */
   height: 50px;
-  margin-left: -200%;
+  margin-left: -601%;
   /* transform: translate(421%,10px); */
   /* margin-left: -475%;
   transform: translate(-429px, 10px); */
-  transform: translate(-717%, 39%);
+  transform: translate(-317%, 39%);
 }
 
 /* code css nút 3 ghạch thanh cuộn */
@@ -7130,8 +7142,8 @@ main {
   height: 2px;
   background-color: black;
   position: relative;
-  margin-left: -189%;
-  transform: translate(-347px, 7px);
+  margin-left: -491%;
+  transform: translate(-17px, 7px);
   /* top: -60px;
   left: 214px; */
 }
@@ -7528,7 +7540,7 @@ main {
   background-color: white;
   transition: top 0.3s ease-in-out;
   z-index: 1;
-  margin-top: -2%;
+  margin-top: -3%;
 }   
 
 .show {
