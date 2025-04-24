@@ -8,7 +8,7 @@
   margin-top: -1%;
 }
 .navbar-left {
-  flex-grow: 1;
+  /* flex-grow: 1; */
 }
 
 .navbar-right {
@@ -57,21 +57,21 @@ p {
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-  position: absolute;
+  /* position: absolute; */
   left: 73%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-Support {
-  position: absolute;
+  /* position: absolute; */
   left: 76%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-FAQ {
-  position: absolute;
+  /* position: absolute; */
   left: 81%;
   color: #000;
   top: 1%;
@@ -79,7 +79,7 @@ p {
 
 /* youtube  iocon*/
 .navbar-icon-tt {
-  position: absolute;
+  /* position: absolute; */
   left: 86%;
   top: 1%;
 }
@@ -87,21 +87,21 @@ p {
 /*  */
 /* hình ins */
 .navbar-icon-ins {
-  position: absolute;
+  /* position: absolute; */
   left: 88%;
   top: 1%;
 }
 
 /*  */
 .navbar-icon-link {
-  position: absolute;
+  /* position: absolute; */
   left: 90%;
   top: 1%;
 }
 
 /* hình iconfb */
 .navbar-icon-fb {
-  position: absolute;
+  /* position: absolute; */
   left: 84%;
   top: 1%;
 }
@@ -109,7 +109,6 @@ p {
 /*  */
 .navbar-text01 {
   color: #898b8b;
-  position: relative;
   left: 250px;
   font-size: 15px;
 }
@@ -238,6 +237,11 @@ p {
   margin-top: 110%;
   margin-left: -61%;
 }
+/*  */
+
+
+
+
 
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
@@ -2415,11 +2419,13 @@ main {
 
 .navbar-left {
   display: block;
+  margin-left: 16%;
   /* Ẩn navbar-left khi màn hình nhỏ */
 }
 
 .navbar-right {
   display: block;
+  margin-right: 21%;
   /* Ẩn navbar-right khi màn hình nhỏ */
 }
 
