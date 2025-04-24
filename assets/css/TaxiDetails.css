@@ -10,12 +10,14 @@
 }
 
 .navbar-left {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  margin-left: 16%;
 }
 
 .navbar-right {
   display: flex;
   gap: 10px;
+  margin-right: 21%;
 }
 
 .navbar-on1 {
@@ -60,21 +62,21 @@ p {
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-  position: absolute;
+  /* position: absolute; */
   left: 73%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-Support {
-  position: absolute;
+  /* position: absolute; */
   left: 76%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-FAQ {
-  position: absolute;
+  /* position: absolute; */
   left: 81%;
   color: #000;
   top: 1%;
@@ -82,7 +84,7 @@ p {
 
 /* youtube  iocon*/
 .navbar-icon-tt {
-  position: absolute;
+  /* position: absolute; */
   left: 86%;
   top: 1%;
 }
@@ -90,7 +92,7 @@ p {
 /*  */
 /* hình ins */
 .navbar-icon-ins {
-  position: absolute;
+  /* position: absolute; */
   left: 88%;
   top: 1%;
 }
@@ -98,14 +100,14 @@ p {
 /*  */
 
 .navbar-icon-link {
-  position: absolute;
+  /* position: absolute; */
   left: 90%;
   top: 1%;
 }
 
 /* hình iconfb */
 .navbar-icon-fb {
-  position: absolute;
+  /* position: absolute; */
   left: 84%;
   top: 1%;
 }
@@ -113,7 +115,7 @@ p {
 /*  */
 .navbar-text01 {
   color: #898b8b;
-  position: relative;
+  /* position: relative; */
   left: 250px;
   font-size: 15px;
 }
@@ -244,6 +246,102 @@ p {
   margin-left: -70%;
 }
 
+/* thanh logo */
+
+
+
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px;
+  font-family: Arial, sans-serif;
+}
+
+/* Container căn giữa nội dung */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Khối chính bao gồm logo và contact */
+.the1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Logo */
+.logo-container {
+  flex: 1;
+}
+
+.logo-brand {
+  max-height: 60px;
+  width: auto;
+}
+
+/* Vùng chứa các item liên hệ */
+.contact-info {
+  display: flex;
+  flex: 3;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+/* Mỗi khối thông tin liên hệ */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  min-width: 250px;
+}
+
+.contact-item i {
+  color: #ff9900;
+  font-size: 41px;
+}
+
+/* Text chính */
+.contact-item .text {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+
+/* Text phụ */
+.contact-item .text-1,
+.contact-item .text-02,
+.contact-item .text-03 {
+  font-size: 16px;
+  color: #000;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.nav-menu {
+  margin-bottom: -21px;
+  margin-top: 23px;
+}
+
+
+
+
+
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
   left: 29%;
@@ -254,7 +352,7 @@ p {
   padding: 10px;
   width: 41%;
   position: relative;
-  top: 34px;
+  top: -1px;
   height: 78px;
 }
 
@@ -2571,6 +2669,7 @@ Ridek Taxi Company! */
 .contact-info,
 .subscribe {
   margin-top: 20px;
+  margin-top: 0px;
 }
 
 .contact-info p {
@@ -2705,6 +2804,7 @@ button {
 .opening-info,
 .links-info {
   margin: -20px;
+  margin-top: 0px;
 }
 
 /*Địa chỉ footer  */
@@ -2936,6 +3036,7 @@ button {
 .opening-info,
 .links-info {
   margin: -20px;
+  margin-top: 0px;
 }
 
 /* màu chữ 123web footer */
