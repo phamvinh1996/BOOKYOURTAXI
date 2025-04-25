@@ -141,11 +141,13 @@ p {
 /* Style for the logo */
 .logo-container {
   flex-shrink: 0;
+  margin-top: 2%;
 }
 
 .logo-brand {
   width: 181px;
   height: 60px;
+
   /* Adjust as needed */
 }
 
@@ -240,6 +242,11 @@ p {
 /*  */
 
 
+/*  */
+.nav-menu {
+  margin-bottom: -21px;
+  margin-top: 57px;
+}
 
 
 
@@ -253,7 +260,7 @@ p {
   padding: 10px;
   width: 41%;
   position: relative;
-  top: 27px;
+  top: -1px;
   height: 78px;
 }
 
