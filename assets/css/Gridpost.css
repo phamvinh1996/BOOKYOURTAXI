@@ -9,12 +9,14 @@
   }
   
   .navbar-left {
-    flex-grow: 1;
+    /* flex-grow: 1; */
+    margin-left: 16%;
   }
   
   .navbar-right {
     display: flex;
     gap: 10px;
+    margin-right: 18%;
   }
   
   .navbar-on1 {
@@ -59,21 +61,21 @@ p {
   
   /* code css chữ taxi giá liên tỉnh */
   .navbar-link-Help {
-    position: absolute;
+    /* position: absolute; */
     left: 73%;
     color: #000;
     top: 1%;
   }
   
   .navbar-link-Support {
-    position: absolute;
+    /* position: absolute; */
     left: 76%;
     color: #000;
     top: 1%;
   }
   
   .navbar-link-FAQ {
-    position: absolute;
+    /* position: absolute; */
     left: 81%;
     color: #000;
     top: 1%;
@@ -81,7 +83,7 @@ p {
   
   /* youtube  iocon*/
   .navbar-icon-tt {
-    position: absolute;
+    /* position: absolute; */
     left: 86%;
     top: 1%;
   }
@@ -89,7 +91,7 @@ p {
   /*  */
   /* hình ins */
   .navbar-icon-ins {
-    position: absolute;
+    /* position: absolute; */
     left: 88%;
     top: 1%;
   }
@@ -97,14 +99,14 @@ p {
   /*  */
   
   .navbar-icon-link {
-    position: absolute;
+    /* position: absolute; */
     left: 90%;
     top: 1%;
   }
   
   /* hình iconfb */
   .navbar-icon-fb {
-    position: absolute;
+    /* position: absolute; */
     left: 84%;
     top: 1%;
   }
@@ -112,7 +114,7 @@ p {
   /*  */
   .navbar-text01 {
     color: #898b8b;
-    position: relative;
+    /* position: relative; */
     left: 250px;
     font-size: 15px;
   }
@@ -244,7 +246,24 @@ p {
     margin-top: 100%;
     margin-left: -70%;
   }
+  /*  */
+
+
+
+  .nav-menu {
+    margin-bottom: -21px;
+    margin-top: 2%;
+    width: 60%;
+    margin-left: 10%;
   
+  }
+  
+
+
+
+
+
+
   /* Tạo css thanh Nav ngang Trang chủ, ... */
   .navbar-yellow {
     left: 29%;
@@ -253,9 +272,9 @@ p {
     align-items: center;
     background-color: #ff9900;
     padding: 10px;
-    width: 43%;
+    width: 73%;
     position: relative;
-    top: 21px;
+    top: -2px;
     height: 87px;
   }
   
@@ -943,7 +962,7 @@ top: 1px;
 /*  */
 /* CHIA CỘT */
 .container {
-  display: flex;
+  /* display: flex; */
   gap: 16px;
   /* Khoảng cách giữa các cột */
 }
