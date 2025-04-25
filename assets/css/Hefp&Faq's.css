@@ -5,16 +5,18 @@
   align-items: center;
   background-color: #eee;
   padding: 10px;
-  margin-top: -2%;
+  margin-top: -1%;
 }
 
 .navbar-left {
-  flex-grow: 1;
+  /* flex-grow: 1; */
+  margin-left: 15%;
 }
 
 .navbar-right {
   display: flex;
   gap: 10px;
+  margin-right: 19%;
 }
 
 .navbar-on1 {
@@ -58,21 +60,21 @@ p {
 
 /* code css chữ taxi giá liên tỉnh */
 .navbar-link-Help {
-  position: absolute;
+  /* position: absolute; */
   left: 73%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-Support {
-  position: absolute;
+  /* position: absolute; */
   left: 76%;
   color: #000;
   top: 1%;
 }
 
 .navbar-link-FAQ {
-  position: absolute;
+  /* position: absolute; */
   left: 81%;
   color: #000;
   top: 1%;
@@ -80,7 +82,7 @@ p {
 
 /* youtube  iocon*/
 .navbar-icon-tt {
-  position: absolute;
+  /* position: absolute; */
   left: 86%;
   top: 1%;
 }
@@ -88,21 +90,21 @@ p {
 /*  */
 /* hình ins */
 .navbar-icon-ins {
-  position: absolute;
+  /* position: absolute; */
   left: 88%;
   top: 1%;
 }
 
 /*  */
 .navbar-icon-link {
-  position: absolute;
+  /* position: absolute; */
   left: 90%;
   top: 1%;
 }
 
 /* hình iconfb */
 .navbar-icon-fb {
-  position: absolute;
+  /* position: absolute; */
   left: 84%;
   top: 1%;
 }
@@ -110,7 +112,7 @@ p {
 /*  */
 .navbar-text01 {
   color: #898b8b;
-  position: relative;
+  /* position: relative; */
   left: 250px;
   font-size: 15px;
 }
@@ -233,6 +235,90 @@ p {
   margin-left: -70%;
 }
 
+/*  */
+
+
+.nav-menu {
+  margin-bottom: -21px;
+  margin-top: 2%;
+  width: 60%;
+  margin-left: 10%;
+
+}
+
+
+
+
+
+
+/* thanh logo */
+/* Base styles */
+.wrapper-all {
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+}
+
+.the1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  flex: 1;
+  min-width: 200px;
+}
+
+.logo-brand {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: flex-end;
+  flex: 2;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 250px;
+}
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.contact-item div {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+}
+
+.text-1, .text-02, .text-03 {
+  color: #555;
+}
+
+
+
+
+
+
+
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
   left: 29%;
@@ -241,9 +327,9 @@ p {
   align-items: center;
   background-color: #ff9900;
   padding: 10px;
-  width: 43%;
+  width: 72%;
   position: relative;
-  top: 33px;
+  top: 2px;
   height: 78px;
 }
 
@@ -409,7 +495,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -14%;
+  top: -25%;
   left: 100%;
   display: flex;
   justify-content: center;
@@ -692,7 +778,7 @@ Questions!  */
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -599px;
+  top: -616px;
   left: -15px;
 }
 
@@ -835,7 +921,7 @@ Questions!  */
 /*  */
 /* CHIA CỘT */
 .container {
-  display: flex;
+  /* display: flex; */
   gap: 16px;
   /* Khoảng cách giữa các cột */
 }
@@ -1406,6 +1492,7 @@ Questions!  */
 .contact-info,
 .subscribe {
   margin-top: 20px;
+  margin-top: 0%;
 }
 
 .contact-info p {
@@ -1769,6 +1856,7 @@ button {
 .opening-info,
 .links-info {
   margin: -20px;
+  margin-top: 0%;
 }
 
 /* màu chữ 123web footer */
@@ -2270,7 +2358,7 @@ main {
   position: relative;
   width: 80px;
   height: 50px;
-  transform: translate(-586px, 91px);
+  transform: translate(-586px, 72px);
   /* margin-top: -35px; */
 }
 
@@ -2315,7 +2403,7 @@ main {
 
 .btn:not(:disabled):not(.disabled) {
   cursor: pointer;
-  top: -18px;
+  top: 3%;
   margin-right: -23px;
   position: relative;
   left: 35px;
