@@ -141,7 +141,7 @@ p {
 /* Style for the logo */
 .logo-container {
   flex-shrink: 0;
-  margin-top: 2%;
+  margin-top: 1%;
 }
 
 .logo-brand {
