@@ -238,6 +238,129 @@ p {
     margin-top: 110%;
 }
 
+
+
+
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+
+
+
+
+/* thanh logo */
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px ;
+}
+
+.the1 {
+  display: flex
+;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 138px;
+  margin-left: 1%;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo-brand {
+  max-width: 180px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  /* gap: 40px; */
+  flex-wrap: nowrap; /* Đảm bảo các contact-item nằm trên một dòng */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  margin-left: -9%;
+}
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.text-1,
+.text-02,
+.text-03 {
+  display: block;
+  color: #666;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+
+
+
+
+
+
+
+
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
   left: 29%;
@@ -2949,25 +3072,6 @@ a {
   /* Màu chữ */
 }
 
-/* dòng chữ nằm ngang */
-.the1 {
-  display: inline-block;
-  writing-mode: vertical-lr;
-  /* Thay đổi hướng chữ từ dọc sang ngang */
-  /* text-orientation: upright; Giữ chữ thẳng theo chiều dọc */
-  transform: rotate(-90deg);
-  /* Xoay chữ nếu cần đảo ngược */
-  font-size: 16px;
-  /* Kích thước chữ */
-  white-space: nowrap;
-  /* Đảm bảo chữ không xuống hàng */
-  position: relative;
-  top: 1px;
-  text-align: center;
-  color: #000;
-  font-weight: 700;
-  font-size: 22px;
-}
 
 /* hình màu đen  */
 
@@ -3592,7 +3696,7 @@ a {
 
 .contact-info,
 .subscribe {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .contact-info p {
@@ -3727,7 +3831,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 
 }
 
@@ -3957,7 +4061,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 }
 
 /* màu chữ 123web footer */
