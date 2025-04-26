@@ -190,7 +190,6 @@ p {
 .contact-item {
   display: flex;
   align-items: center;
-  margin-right: px;
 }
 
 .icon {
@@ -4090,7 +4089,9 @@ p {
 
 .contact-info,
 .subscribe {
-  margin-top: -20px;
+  /* margin-top: -20px; */
+  position: relative;
+  top: 26px;
 }
 
 .contact-info p {
@@ -4221,7 +4222,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 }
 
 /*Địa chỉ footer  */
@@ -4460,8 +4461,8 @@ right: -77px;
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
-  margin-top: 3%;
+  /* margin: -20px;
+  margin-top: 3%; */
 }
 
 /* màu chữ 123web footer */
