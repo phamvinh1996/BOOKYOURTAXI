@@ -245,11 +245,7 @@ p {
 }
 
 /*thanh nav   */
-.the1{
 
-  display: flex;
-      align-items: center;
-}
 /*  */
 .nav-menu {
   margin-bottom: -21px;
@@ -274,12 +270,12 @@ p {
   padding: 0 15px;
 }
 
-.the1 {
+/* .the1 {
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+} */
 
 .logo-container {
   flex: 1;
@@ -320,6 +316,95 @@ p {
   display: block;
 }
 
+
+
+
+
+
+
+
+
+/*  */
+.nav-menu {
+  margin-bottom: -57px;
+  margin-top: 1%;
+
+}
+
+
+
+
+
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+
+
+
+
+/* thanh logo */
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px ;
+}
+
+/* .the1 {
+  display: flex
+;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 138px;
+  margin-left: 1%;
+} */
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo-brand {
+  max-width: 180px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  /* gap: 40px; */
+  flex-wrap: nowrap; /* Đảm bảo các contact-item nằm trên một dòng */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  margin-left: -9%;
+}
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.text-1,
+.text-02,
+.text-03 {
+  display: block;
+  color: #666;
+  font-size: 15px;
+}
 
 
 
@@ -531,7 +616,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -23%;
+  top: -14%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -800,7 +885,7 @@ div#offcanvasDarkNavbar {
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -625px;
+  top: -609px;
   margin-left: 1%;
   /* margin-top: -35px; */
 }
@@ -1514,7 +1599,7 @@ img.image-car2 {
 
 /*  */
 .container {
-  /* padding: 10px; */
+  padding: 10px;
 }
 
 .card {
@@ -2670,8 +2755,8 @@ button {
 
 .contact-info,
 .subscribe {
-  margin-top: 20px;
-  margin-top: 0px;
+  /* margin-top: 20px;
+  margin-top: 0px; */
 }
 
 .contact-info p {
@@ -2805,8 +2890,8 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
-  margin-top: 0px;
+  /* margin: -20px;
+  margin-top: 0px; */
 }
 
 /*Địa chỉ footer  */
@@ -3036,8 +3121,8 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
-  margin-top: 0px;
+  /* margin: -20px;
+  margin-top: 0px; */
 }
 
 /* màu chữ 123web footer */
