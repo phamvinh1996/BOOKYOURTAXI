@@ -328,6 +328,117 @@ p {
   font-size: 14px;
 }
 
+
+
+
+
+
+
+/*  */
+.nav-menu {
+  margin-bottom: -57px;
+  margin-top: 1%;
+
+}
+
+
+
+
+
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+
+
+
+
+/* thanh logo */
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px ;
+}
+
+.the1 {
+  display: flex
+;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 138px;
+  margin-left: 1%;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo-brand {
+  max-width: 180px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  /* gap: 40px; */
+  flex-wrap: nowrap; /* Đảm bảo các contact-item nằm trên một dòng */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  margin-left: -9%;
+}
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.text-1,
+.text-02,
+.text-03 {
+  display: block;
+  color: #666;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Tạo css thanh Nav ngang Trang chủ, ... */
 .navbar-yellow {
   left: 29%;
@@ -338,7 +449,7 @@ p {
   padding: 10px;
   width: 47%;
   position: relative;
-  top: 43px;
+  top: 1px;
   height: 78px;
 }
 
@@ -991,7 +1102,7 @@ div#offcanvasDarkNavbar {
 
 /* CHIA CỘT */
 .container {
-  display: flex;
+  /* display: flex; */
   gap: 16px;
   /* Khoảng cách giữa các cột */
 }
@@ -1475,7 +1586,7 @@ top: 10px;
 
 .contact-info,
 .subscribe {
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 .contact-info p {
@@ -1609,7 +1720,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 
 }
 
@@ -1838,7 +1949,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 }
 
 /* màu chữ 123web footer */
