@@ -131,12 +131,12 @@ p {
 }
 /* MỤC LOGO */
 /* Container to hold logo and contact information */
-.container {
-  /* display: flex; */
-  /* align-items: center; */
-  /* justify-content: space-between; */
+/* .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   padding: 10px;
-}
+} */
 
 /* Style for the logo */
 .logo-container {
@@ -200,7 +200,7 @@ p {
 
 .contact-info {
   position: absolute;
-  right: 13%;
+  /* right: 13%; */
   top: 35px;
   align-items: flex-start;
   margin-left: auto;
@@ -247,6 +247,148 @@ p {
   margin-bottom: -21px;
   margin-top: 57px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+.nav-menu {
+  margin-bottom: -57px;
+  margin-top: 1%;
+
+}
+
+
+
+
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+
+
+
+
+/* thanh logo */
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px ;
+}
+
+.the1 {
+  display: flex
+;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 138px;
+  margin-left: 1%;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo-brand {
+  max-width: 180px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  /* gap: 40px; */
+  flex-wrap: nowrap; /* Đảm bảo các contact-item nằm trên một dòng */
+}
+
+/* .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+  margin-left: -9%;
+} */
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.text-1,
+.text-02,
+.text-03 {
+  display: block;
+  color: #666;
+  font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -442,7 +584,7 @@ div#offcanvasDarkNavbar {
 /* code css tạo comtact  thanh NAV TRANGCHU...*/
 .contact-nav {
   position: absolute;
-  top: -23%;
+  top: -14%;
   /* Adjust the distance from the top as needed */
   left: 100%;
   display: flex;
@@ -513,8 +655,8 @@ div#offcanvasDarkNavbar {
 
 
   position: absolute;
-  right: 1px;
-  top: 1px;
+  /* right: 1px; */
+  /* top: 1px; */
   align-items: flex-start;
   /* Căn chỉnh sang bên trái */
   margin-left: auto;
@@ -747,7 +889,7 @@ make your Ride Safe!  */
   line-height: 1;
   margin: 0 auto;
   position: absolute;
-  top: -587px;
+  top: -569px;
   margin-left: 1%;
   /* margin-top: -3px;  */
 }
@@ -1335,7 +1477,10 @@ a {
 
 .contact-info,
 .subscribe {
-  margin-top: 20px;
+  /* margin-top: 20px; */
+  position: absolute;
+  /* left: 89px; */
+  /* top: 329px; */
 }
 
 .contact-info p {
@@ -1469,7 +1614,10 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
+  position: absolute;
+    top: 421px;
+    left: 40px;
 }
 
 /*Địa chỉ footer  */
@@ -1699,7 +1847,7 @@ button {
 .contact-info,
 .opening-info,
 .links-info {
-  margin: -20px;
+  /* margin: -20px; */
 }
 
 /* màu chữ 123web footer */
@@ -3281,7 +3429,7 @@ main {
 
 
 .container {
-  padding: 0; /* Remove default padding for container */
+  padding: 10px; /* Remove default padding for container */
 }
 
 .row {
