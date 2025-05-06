@@ -1694,7 +1694,7 @@ Our passengers reviews */
     /* margin-top: 20px; */
 
     position: absolute;
-    top: 358px;
+    top: 8px;
     left: -9px;
   }
   
@@ -1823,6 +1823,8 @@ Our passengers reviews */
   .opening-info,
   .links-info {
     /* margin: -20px; */
+    margin-left: 25%;
+    margin-top: 827%;
   }
   
   /*Địa chỉ footer  */
@@ -1947,8 +1949,8 @@ Our passengers reviews */
     cursor: pointer;
     width: 173px;
     height: 50px;
-    top: 65%;
-    left: 5%;
+    top: 100%;
+    left: 0%;
     position: absolute;
     font-weight: 600;
     clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
@@ -2143,8 +2145,8 @@ Our passengers reviews */
     cursor: pointer;
     width: 173px;
     height: 50px;
-    top: 65%;
-    left: 2%;
+    top: 100%;
+    left: 0%;
     position: absolute;
     font-weight: 600;
     clip-path: polygon(0 0, 100% 0%, 85% 100%, 0 100%);
