@@ -348,8 +348,15 @@ p {
   font-size: 15px;
 }
 
+/* thanh logo hình  */
 
 
+
+
+.logo-brand {
+  transform: rotate(90deg); /* Xoay 45 độ */
+}
+/*  */
 
 
 
