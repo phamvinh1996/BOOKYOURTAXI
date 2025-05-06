@@ -921,7 +921,7 @@ Questions!  */
 /*  */
 /* CHIA CỘT */
 .container {
-  /* display: flex; */
+  display: flex;
   gap: 16px;
   /* Khoảng cách giữa các cột */
 }
@@ -1482,7 +1482,7 @@ Questions!  */
   height: auto;
   position: absolute;
   top: 40px;
-  /* left: 85%; */
+  left: -68%;
 }
 
 .content {
@@ -1492,7 +1492,7 @@ Questions!  */
 .contact-info,
 .subscribe {
   margin-top: 20px;
-  margin-top: 0%;
+  margin-top: -1%;
 }
 
 .contact-info p {
@@ -1513,12 +1513,10 @@ Questions!  */
 
 .description {
   position: relative;
-  top: 25px;
-  left: 522px;
+  top: -37px;
+  left: -234px;
   color: #ccc;
   font-family: "Space Grotesk", sans-serif;
-  top: -53px;
-  left: -203px;
   font-size: 18px;
 }
 
@@ -1680,7 +1678,7 @@ button {
   flex-wrap: wrap;
   margin: -10px;
   position: relative;
-  top: -1px;
+  top: 36px;
 }
 
 .address-text {
@@ -1802,7 +1800,7 @@ button {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
+  top: 68%;
   left: 5%;
   position: absolute;
   font-weight: 600;
@@ -1856,7 +1854,7 @@ button {
 .opening-info,
 .links-info {
   margin: -20px;
-  margin-top: 0%;
+  margin-top: -1%;
 }
 
 /* màu chữ 123web footer */
@@ -1866,7 +1864,7 @@ button {
   color: white;
   text-align: center;
   font-size: 20px;
-  margin-left: 37%;
+  margin-left:28%;
 }
 
 footer {
@@ -2003,7 +2001,7 @@ img.image-car2 {
   cursor: pointer;
   width: 173px;
   height: 50px;
-  top: 65%;
+  top: 53%;
   left: 6%;
   position: absolute;
   font-weight: 600;
