@@ -1639,8 +1639,7 @@ a {
 }
 
 .the1 {
-  display: flex
-;
+  display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: nowrap;

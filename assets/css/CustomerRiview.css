@@ -1218,7 +1218,95 @@ Our passengers reviews */
     font-size: 18px;
     color: #333;
   }
+  /*  */
   
+
+/* Xoay icon một cách cứng */
+.contact-item i {
+  transform: rotate(90deg); /* Xoay icon 90 độ */
+}
+
+
+
+
+/* thanh logo */
+
+/* Xoay hình ảnh 90 độ */
+.logo-brand {
+  transform: rotate(90deg); /* Xoay hình ảnh 90 độ */
+  transition: transform 0.5s ease; /* Thêm hiệu ứng chuyển động */
+}
+
+
+/*  */
+.the1{
+
+  display: flex;
+      align-items: center;
+}
+
+/* thanh logo */
+.wrapper-all {
+  padding: 20px 0;
+  border-bottom: 1px ;
+}
+
+.the1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 138px;
+  margin-left: 1%;
+}
+
+.logo-container {
+  flex: 0 0 auto;
+}
+
+.logo-brand {
+  max-width: 180px;
+  height: auto;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+  /* gap: 40px; */
+  flex-wrap: nowrap; /* Đảm bảo các contact-item nằm trên một dòng */
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
+  min-width: 0;
+}
+
+.contact-item i {
+  flex-shrink: 0;
+}
+
+.text {
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.text-1,
+.text-02,
+.text-03 {
+  display: block;
+  color: #666;
+  font-size: 15px;
+}
+
+
+
+
   /* dòng chữ nằm ngang */
   .the1 {
     display: inline-block;
@@ -1603,7 +1691,11 @@ Our passengers reviews */
   
   .contact-info,
   .subscribe {
-    margin-top: 20px;
+    /* margin-top: 20px; */
+
+    position: absolute;
+    top: 358px;
+    left: -9px;
   }
   
   .contact-info p {
@@ -1730,7 +1822,7 @@ Our passengers reviews */
   .contact-info,
   .opening-info,
   .links-info {
-    margin: -20px;
+    /* margin: -20px; */
   }
   
   /*Địa chỉ footer  */
@@ -1908,7 +2000,7 @@ Our passengers reviews */
   .contact-info,
   .opening-info,
   .links-info {
-    margin: -20px;
+    /* margin: -20px; */
   }
   
   /* màu chữ 123web footer */
